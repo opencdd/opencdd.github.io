@@ -4,11 +4,13 @@ import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
+import Badge from "~/components/ui/Badge.astro";
 import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
 import EntityLinkList from "~/components/ui/EntityLinkList.astro";
 import PropertyTable from "~/components/ui/PropertyTable.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
+import UnresolvedIrdiList from "~/components/ui/UnresolvedIrdiList.astro";
 import { loadDictionary, listRegistryEntries } from "~/lib/data";
 import { codeFromIrdi } from "~/lib/irdi";
 import type { ClassNode } from "~/lib/types";
@@ -38,10 +40,31 @@ const declared = bundle.propertiesByClassIrdi(node.irdi);
 const effective = bundle.effectivePropertiesOf(node.irdi);
 const declaredIrdiSet = new Set(declared.map((p) => p.irdi));
 const inherited = effective.properties.filter((p) => !declaredIrdiSet.has(p.irdi));
-const composition = node.sub_class_selection ?? [];
 const relationsAsDomain = bundle.relationsForClass(node.irdi);
 const relationsAsCodomain = bundle.relationsForCodomainClass(node.irdi);
 const ancestorChain = bundle.ancestorChainOf(node.irdi);
+
+// Unresolved references — IRDIs the source data mentions but whose
+// entities weren't scraped. Surface them visibly so the gap is
+// explicit, instead of silently rendering "No X".
+const applicableIrdis = node.applicable_properties ?? [];
+const unresolvedDeclared = applicableIrdis.filter((i) => !bundle.entities.has(i));
+
+const importedIrdis = node.imported_properties ?? [];
+const unresolvedImported = importedIrdis.filter((i) => !bundle.entities.has(i));
+
+const isCaseOfIrdis = node.is_case_of ?? [];
+const unresolvedIsCaseOf = isCaseOfIrdis.filter((i) => !bundle.entities.has(i));
+
+const compositionIrdis = node.sub_class_selection ?? [];
+const unresolvedComposition = compositionIrdis.filter((i) => !bundle.entities.has(i));
+
+const unresolvedSuperclass =
+  node.superclass && !bundle.entities.has(node.superclass) ? [node.superclass] : [];
+
+// "Higher level classes" — the ancestor chain (Root → ... → Self).
+// We exclude the entity itself from this listing (the last entry).
+const higherLevel = ancestorChain.slice(0, -1);
 ---
 
 <DictionaryLayout
@@ -59,22 +82,62 @@ const ancestorChain = bundle.ancestorChainOf(node.irdi);
       title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
       irdi={node.irdi}
       definition={node.definition}
+      shortName={node.short_name}
       version={node.version}
       revision={node.revision}
       dates={node.dates}
       sourceDocument={node.source_document}
     >
       <EntityBadge slot="badge" type="class" />
+      {node.class_type && (
+        <Badge slot="extra-badges" tone="violet">
+          <span class="font-mono text-[10px]">{node.class_type}</span>
+        </Badge>
+      )}
     </EntityHero>
 
+    {higherLevel.length > 0 && (
+      <Card>
+        <SectionTitle count={higherLevel.length} anchor={true}>Higher level classes</SectionTitle>
+        <div class="mt-3">
+          <ol class="space-y-1 text-sm">
+            {higherLevel.map((c) => (
+              <li class="flex items-baseline gap-2">
+                <EntityLinkList
+                  slug={dict!}
+                  bundle={bundle}
+                  irdis={[c.irdi]}
+                />
+              </li>
+            ))}
+          </ol>
+          {unresolvedSuperclass.length > 0 && (
+            <UnresolvedIrdiList
+              irdis={unresolvedSuperclass}
+              label="Superclass (entity not scraped)"
+              tone="rose"
+            />
+          )}
+        </div>
+      </Card>
+    )}
+
     <Card>
-      <SectionTitle anchor={true}>Declared properties</SectionTitle>
+      <SectionTitle count={applicableIrdis.length} anchor={true}>Declared properties</SectionTitle>
       <div class="mt-3">
         {declared.length === 0 ? (
-          <EmptyState title="No declared properties" />
+          <EmptyState title={applicableIrdis.length > 0 ? "Declared property records not in browser data" : "No declared properties"}>
+            {applicableIrdis.length > 0
+              ? `${applicableIrdis.length} property IRDIs are referenced but their full records weren't scraped. See the references list below.`
+              : "This class does not declare any properties of its own."}
+          </EmptyState>
         ) : (
           <PropertyTable slug={dict!} bundle={bundle} properties={declared} />
         )}
+        <UnresolvedIrdiList
+          irdis={unresolvedDeclared}
+          label="Declared property references (entities not in browser data)"
+        />
       </div>
     </Card>
 
@@ -83,6 +146,28 @@ const ancestorChain = bundle.ancestorChainOf(node.irdi);
         <SectionTitle count={inherited.length} anchor={true}>Inherited properties</SectionTitle>
         <div class="mt-3">
           <PropertyTable slug={dict!} bundle={bundle} properties={inherited} />
+        </div>
+      </Card>
+    )}
+
+    {importedIrdis.length > 0 && (
+      <Card>
+        <SectionTitle count={importedIrdis.length} anchor={true}>Imported properties</SectionTitle>
+        <div class="mt-3">
+          {importedIrdis.length === unresolvedImported.length ? (
+            <EmptyState title="Imported property records not in browser data" />
+          ) : (
+            <EntityLinkList
+              slug={dict!}
+              bundle={bundle}
+              irdis={importedIrdis}
+              empty="No imported properties."
+            />
+          )}
+          <UnresolvedIrdiList
+            irdis={unresolvedImported}
+            label="Imported property references (entities not in browser data)"
+          />
         </div>
       </Card>
     )}
@@ -99,6 +184,23 @@ const ancestorChain = bundle.ancestorChainOf(node.irdi);
       </div>
     </Card>
 
+    {isCaseOfIrdis.length > 0 && (
+      <Card>
+        <SectionTitle count={isCaseOfIrdis.length} anchor={true}>Is case of (powertype parents)</SectionTitle>
+        <div class="mt-3">
+          {isCaseOfIrdis.length === unresolvedIsCaseOf.length ? (
+            <EmptyState title="Powertype parent records not in browser data" />
+          ) : (
+            <EntityLinkList slug={dict!} bundle={bundle} irdis={isCaseOfIrdis} />
+          )}
+          <UnresolvedIrdiList
+            irdis={unresolvedIsCaseOf}
+            label="Is-case-of references (entities not in browser data)"
+          />
+        </div>
+      </Card>
+    )}
+
     {instances.length > 0 && (
       <Card>
         <SectionTitle count={instances.length} anchor={true}>Instances (powertype)</SectionTitle>
@@ -108,11 +210,19 @@ const ancestorChain = bundle.ancestorChainOf(node.irdi);
       </Card>
     )}
 
-    {composition.length > 0 && (
+    {compositionIrdis.length > 0 && (
       <Card>
-        <SectionTitle count={composition.length} anchor={true}>Composition</SectionTitle>
+        <SectionTitle count={compositionIrdis.length} anchor={true}>Composition (sub_class_selection)</SectionTitle>
         <div class="mt-3">
-          <EntityLinkList slug={dict!} bundle={bundle} irdis={composition} />
+          {compositionIrdis.length === unresolvedComposition.length ? (
+            <EmptyState title="Composition target records not in browser data" />
+          ) : (
+            <EntityLinkList slug={dict!} bundle={bundle} irdis={compositionIrdis} />
+          )}
+          <UnresolvedIrdiList
+            irdis={unresolvedComposition}
+            label="Composition references (entities not in browser data)"
+          />
         </div>
       </Card>
     )}
@@ -124,11 +234,7 @@ const ancestorChain = bundle.ancestorChainOf(node.irdi);
           <ul class="space-y-1.5 text-sm">
             {relationsAsDomain.map((r) => (
               <li>
-                <EntityLinkList
-                  slug={dict!}
-                  bundle={bundle}
-                  irdis={[r.irdi]}
-                />
+                <EntityLinkList slug={dict!} bundle={bundle} irdis={[r.irdi]} />
               </li>
             ))}
           </ul>

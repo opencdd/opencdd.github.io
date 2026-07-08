@@ -7,16 +7,19 @@ interface Props {
   title: string;
   irdi: string;
   definition?: string;
+  shortName?: string;
   version?: string;
   revision?: string;
   dates?: EntityDates;
   sourceDocument?: string;
+  extraBadges?: unknown;
 }
 
 const {
   title,
   irdi,
   definition,
+  shortName,
   version,
   revision,
   dates,
@@ -45,6 +48,12 @@ if (sourceDocument) {
   </div>
   <div class="relative flex flex-wrap items-center gap-2">
     <slot name="badge" />
+    {shortName && (
+      <Badge tone="neutral">
+        <span class="font-mono">{shortName}</span>
+      </Badge>
+    )}
+    <slot name="extra-badges" />
     {pills.map((p) => (
       <Badge tone={p.tone}>
         {p.key === "src" && /^https?:\/\//.test(p.text) ? (
@@ -75,3 +84,4 @@ if (sourceDocument) {
   )}
   <slot />
 </header>
+

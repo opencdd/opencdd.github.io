@@ -1,0 +1,46 @@
+---
+import { codeFromIrdi } from "~/lib/irdi";
+
+interface Props {
+  irdis: readonly string[];
+  label?: string;
+  tone?: "amber" | "rose";
+}
+
+const {
+  irdis,
+  label = "References not in browser data",
+  tone = "amber",
+} = Astro.props;
+
+const toneClass =
+  tone === "rose"
+    ? "border-rose-200 bg-rose-50/50 text-rose-800"
+    : "border-amber-200 bg-amber-50/50 text-amber-800";
+const pillClass =
+  tone === "rose"
+    ? "border-rose-300 bg-white text-rose-900"
+    : "border-amber-300 bg-white text-amber-900";
+---
+
+{irdis.length > 0 && (
+  <div class={`mt-3 rounded-lg border px-3 py-2 ${toneClass}`}>
+    <p class="text-xs font-medium">
+      {label} ({irdis.length}):
+    </p>
+    <ul class="mt-1.5 flex flex-wrap gap-1">
+      {irdis.map((irdi) => (
+        <li
+          class={`rounded border px-1.5 py-0.5 font-mono text-[10px] ${pillClass}`}
+          title={`IRDI ${irdi} — entity not present in browser data. Likely cause: scrape of this dictionary did not include this entity type.`}
+        >
+          {codeFromIrdi(irdi)}
+        </li>
+      ))}
+    </ul>
+    <p class="mt-2 text-[10px] opacity-80">
+      These IRDIs appear in the source data but their full records weren't
+      scraped. See <a href="https://github.com/opencdd/opencdd.github.io/blob/main/TODO.astro/04-data-release-pipeline.md" target="_blank" rel="noreferrer" class="underline">TODO.astro/04</a>.
+    </p>
+  </div>
+)}
