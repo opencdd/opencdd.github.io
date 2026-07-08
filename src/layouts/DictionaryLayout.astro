@@ -1,0 +1,53 @@
+---
+import "~/styles/global.css";
+import SkipToContent from "~/components/ui/SkipToContent.astro";
+import Header from "~/components/layout/Header.astro";
+import Footer from "~/components/layout/Footer.astro";
+import ClassTree from "~/components/islands/ClassTree.tsx";
+import { loadDictionary } from "~/lib/data";
+
+interface Props {
+  title: string;
+  description?: string;
+  dict: string;
+}
+
+const { title, description, dict } = Astro.props;
+const bundle = loadDictionary(dict);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <SkipToContent />
+    <Header />
+    <div class="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-4 px-4 py-4 lg:flex-row lg:px-6 lg:py-6">
+      <aside
+        aria-label="Class tree"
+        class="hidden shrink-0 lg:block lg:w-80 lg:overflow-y-auto lg:max-h-[calc(100vh-7rem)] lg:sticky lg:top-20 lg:pr-2 scroll-thin"
+      >
+        <ClassTree
+          client:visible
+          dict={dict}
+          initialHighlightedIrdi={Astro.url.pathname}
+        />
+      </aside>
+      <section
+        id="main-content"
+        aria-label="Dictionary content"
+        class="min-w-0 flex-1 animate-fade-in"
+      >
+        <slot />
+      </section>
+    </div>
+    <Footer />
+  </body>
+</html>

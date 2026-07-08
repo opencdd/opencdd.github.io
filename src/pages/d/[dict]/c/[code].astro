@@ -1,0 +1,161 @@
+---
+import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import Card from "~/components/ui/Card.astro";
+import SectionTitle from "~/components/ui/SectionTitle.astro";
+import EntityHero from "~/components/ui/EntityHero.astro";
+import EntityBadge from "~/components/ui/EntityBadge.astro";
+import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
+import EntityLinkList from "~/components/ui/EntityLinkList.astro";
+import PropertyTable from "~/components/ui/PropertyTable.astro";
+import MetadataFields from "~/components/ui/MetadataFields.astro";
+import EmptyState from "~/components/ui/EmptyState.astro";
+import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { codeFromIrdi } from "~/lib/irdi";
+import type { ClassNode } from "~/lib/types";
+
+export function getStaticPaths() {
+  return listRegistryEntries().flatMap((entry) => {
+    const bundle = loadDictionary(entry.slug);
+    return (bundle.byType.get("class") ?? []).map((node) => ({
+      params: { dict: entry.slug, code: node.code ?? codeFromIrdi(node.irdi) },
+      props: { irdi: node.irdi },
+    }));
+  });
+}
+
+const { dict } = Astro.params;
+const { irdi } = Astro.props;
+const bundle = loadDictionary(dict!);
+const node = bundle.entities.get(irdi as string) as ClassNode | undefined;
+
+if (!node || node.type !== "class") {
+  return Astro.redirect("/404/");
+}
+
+const subclasses = bundle.subclassesOf(node.irdi);
+const instances = bundle.instancesOf(node.irdi);
+const declared = bundle.propertiesByClassIrdi(node.irdi);
+const effective = bundle.effectivePropertiesOf(node.irdi);
+const declaredIrdiSet = new Set(declared.map((p) => p.irdi));
+const inherited = effective.properties.filter((p) => !declaredIrdiSet.has(p.irdi));
+const composition = node.sub_class_selection ?? [];
+const relationsAsDomain = bundle.relationsForClass(node.irdi);
+const relationsAsCodomain = bundle.relationsForCodomainClass(node.irdi);
+const ancestorChain = bundle.ancestorChainOf(node.irdi);
+---
+
+<DictionaryLayout
+  dict={dict!}
+  title={`${node.preferred_name ?? node.code} (${node.code}) — ${bundle.registry.title} — OpenCDD`}
+>
+  <article class="space-y-6">
+    <Breadcrumbs
+      slug={dict!}
+      bundle={bundle}
+      crumbs={ancestorChain.map((c) => ({ irdi: c.irdi }))}
+    />
+
+    <EntityHero
+      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
+      irdi={node.irdi}
+      definition={node.definition}
+      version={node.version}
+      revision={node.revision}
+      dates={node.dates}
+      sourceDocument={node.source_document}
+    >
+      <EntityBadge slot="badge" type="class" />
+    </EntityHero>
+
+    <Card>
+      <SectionTitle anchor={true}>Declared properties</SectionTitle>
+      <div class="mt-3">
+        {declared.length === 0 ? (
+          <EmptyState title="No declared properties" />
+        ) : (
+          <PropertyTable slug={dict!} bundle={bundle} properties={declared} />
+        )}
+      </div>
+    </Card>
+
+    {inherited.length > 0 && (
+      <Card>
+        <SectionTitle count={inherited.length} anchor={true}>Inherited properties</SectionTitle>
+        <div class="mt-3">
+          <PropertyTable slug={dict!} bundle={bundle} properties={inherited} />
+        </div>
+      </Card>
+    )}
+
+    <Card>
+      <SectionTitle count={subclasses.length} anchor={true}>Subclasses</SectionTitle>
+      <div class="mt-3">
+        <EntityLinkList
+          slug={dict!}
+          bundle={bundle}
+          irdis={subclasses.map((c) => c.irdi)}
+          empty="No subclasses."
+        />
+      </div>
+    </Card>
+
+    {instances.length > 0 && (
+      <Card>
+        <SectionTitle count={instances.length} anchor={true}>Instances (powertype)</SectionTitle>
+        <div class="mt-3">
+          <EntityLinkList slug={dict!} bundle={bundle} irdis={instances.map((c) => c.irdi)} />
+        </div>
+      </Card>
+    )}
+
+    {composition.length > 0 && (
+      <Card>
+        <SectionTitle count={composition.length} anchor={true}>Composition</SectionTitle>
+        <div class="mt-3">
+          <EntityLinkList slug={dict!} bundle={bundle} irdis={composition} />
+        </div>
+      </Card>
+    )}
+
+    {relationsAsDomain.length > 0 && (
+      <Card>
+        <SectionTitle count={relationsAsDomain.length} anchor={true}>Relations</SectionTitle>
+        <div class="mt-3">
+          <ul class="space-y-1.5 text-sm">
+            {relationsAsDomain.map((r) => (
+              <li>
+                <EntityLinkList
+                  slug={dict!}
+                  bundle={bundle}
+                  irdis={[r.irdi]}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Card>
+    )}
+
+    {relationsAsCodomain.length > 0 && (
+      <Card>
+        <SectionTitle count={relationsAsCodomain.length} anchor={true}>Referenced as codomain</SectionTitle>
+        <div class="mt-3">
+          <ul class="space-y-1.5 text-sm">
+            {relationsAsCodomain.map((r) => (
+              <li>
+                <EntityLinkList slug={dict!} bundle={bundle} irdis={[r.irdi]} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Card>
+    )}
+
+    <Card>
+      <SectionTitle anchor={true}>Metadata</SectionTitle>
+      <div class="mt-3">
+        <MetadataFields entity={node} />
+      </div>
+    </Card>
+  </article>
+</DictionaryLayout>

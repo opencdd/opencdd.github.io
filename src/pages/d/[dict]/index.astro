@@ -1,0 +1,154 @@
+---
+import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import Card from "~/components/ui/Card.astro";
+import SectionTitle from "~/components/ui/SectionTitle.astro";
+import EmptyState from "~/components/ui/EmptyState.astro";
+import EntityLink from "~/components/ui/EntityLink.astro";
+import EntityIcon from "~/components/ui/EntityIcon.astro";
+import {
+  TABBABLE_TYPES,
+  entityPluralTitleFor,
+  entityTypeForSegment,
+  countForType,
+} from "~/lib/entityTypeMeta";
+import { loadDictionary, listRegistryEntries } from "~/lib/data";
+
+export function getStaticPaths() {
+  return listRegistryEntries().map((entry) => ({
+    params: { dict: entry.slug },
+  }));
+}
+
+const { dict } = Astro.params;
+const bundle = loadDictionary(dict!);
+const registry = bundle.registry;
+
+const tabParam = Astro.url.searchParams.get("tab");
+const initialTab = entityTypeForSegment(tabParam) ?? "class";
+
+const tabs = TABBABLE_TYPES;
+const initialNodes = initialTab
+  ? bundle.byType.get(initialTab) ?? []
+  : bundle.byType.get("class") ?? [];
+---
+
+<DictionaryLayout
+  dict={dict!}
+  title={`${registry.title} — OpenCDD`}
+  description={`Browse ${registry.title} — ${registry.parcelId}`}
+>
+  <div class="space-y-6">
+    <header class="space-y-2">
+      <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
+        Dictionary overview
+      </p>
+      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">{registry.title}</h1>
+      <p class="text-sm text-ink-600">
+        Source language: <code class="font-mono text-xs">{registry.sourceLanguage}</code>
+        {registry.translationLanguages.length > 0 && (
+          <>
+            {" "}· Translations:{" "}
+            <code class="font-mono text-xs">{registry.translationLanguages.join(", ")}</code>
+          </>
+        )}
+      </p>
+      <p class="text-sm">
+        <a
+          href={`/d/${dict}/about`}
+          class="text-accent-700 underline decoration-dotted underline-offset-2"
+        >
+          About this dictionary →
+        </a>
+      </p>
+    </header>
+
+    <div
+      data-tab-group
+      class="border-b border-ink-200"
+    >
+      <nav role="tablist" aria-label="Entity types" class="flex flex-wrap gap-1">
+        {tabs.map((type) => {
+          const count = countForType(bundle, type);
+          if (count === 0) return null;
+          const isActive = type === initialTab;
+          return (
+            <a
+              role="tab"
+              aria-selected={isActive}
+              href={`?tab=${type}`}
+              data-tab-button={type}
+              class={`-mb-px border-b-2 px-3 py-2 text-sm font-medium transition ${
+                isActive
+                  ? "border-accent-600 text-accent-700"
+                  : "border-transparent text-ink-500 hover:border-ink-300 hover:text-ink-700"
+              }`}
+              onclick={`window.__opencddTabSwitch && window.__opencddTabSwitch('${type}'); return false;`}
+            >
+              <EntityIcon type={type} class="mr-1 h-3 w-3" />
+              {entityPluralTitleFor(type)}
+              <span class="ml-1 font-mono text-[10px] text-ink-500">{count}</span>
+            </a>
+          );
+        })}
+      </nav>
+    </div>
+
+    <Card>
+      <SectionTitle count={initialNodes.length}>
+        {entityPluralTitleFor(initialTab)}
+      </SectionTitle>
+      <div data-tab-panel class="mt-4">
+        {initialNodes.length === 0 ? (
+          <EmptyState title="No entities of this type">
+            Try a different tab.
+          </EmptyState>
+        ) : (
+          <ul class="grid gap-1.5 sm:grid-cols-2 lg:grid-cols-3">
+            {initialNodes.map((node) => (
+              <li class="text-sm">
+                <EntityLink
+                  slug={dict!}
+                  irdi={node.irdi}
+                  bundle={bundle}
+                  showCode
+                />
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </Card>
+  </div>
+</DictionaryLayout>
+
+<script is:inline define:vars={{ tabs: tabs.map(String) }}>
+  // Tab switcher: reads ?tab= on popstate, updates active button + list.
+  function applyTab(type) {
+    const buttons = document.querySelectorAll('[data-tab-button]');
+    buttons.forEach((b) => {
+      const active = b.getAttribute('data-tab-button') === type;
+      b.setAttribute('aria-selected', active ? 'true' : 'false');
+      b.className = b.className.replace(/border-accent-600 text-accent-700/, '')
+        .replace(/border-transparent text-ink-500/, '');
+      if (active) {
+        b.className += ' border-accent-600 text-accent-700';
+      } else {
+        b.className += ' border-transparent text-ink-500 hover:border-ink-300 hover:text-ink-700';
+      }
+    });
+    // Note: we rely on the server-rendered HTML for the list. Full
+    // client-side tab switching would need the data piped in too.
+    // For now, links to ?tab=X navigate (server-side render of new tab).
+  }
+  window.__opencddTabSwitch = function (type) {
+    const url = new URL(window.location.href);
+    url.searchParams.set('tab', type);
+    window.history.pushState({}, '', url);
+    // Full reload for now (server-rendered list per tab is simplest)
+    window.location.reload();
+  };
+  window.addEventListener('popstate', () => {
+    const t = new URL(window.location.href).searchParams.get('tab') || 'c';
+    applyTab(t);
+  });
+</script>

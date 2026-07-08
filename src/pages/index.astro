@@ -1,0 +1,56 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import EntityCountChips from "~/components/ui/EntityCountChips.astro";
+import { listRegistryEntries } from "~/lib/data";
+
+const entries = listRegistryEntries();
+---
+
+<BaseLayout title="OpenCDD — Browser">
+  <section class="space-y-6 animate-fade-in">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">Dictionaries</h1>
+      <p class="max-w-2xl text-sm text-ink-600">
+        A modern, read-only browser for published IEC Common Data Dictionary
+        data. Pick a dictionary to browse its classes, properties, value lists,
+        units, and relations.
+      </p>
+    </header>
+
+    <ul class="grid gap-4 sm:grid-cols-2">
+      {entries.map((entry) => (
+        <li>
+          <a
+            href={`/d/${entry.slug}/`}
+            class="group block h-full rounded-2xl border border-ink-200/70 bg-white p-5 shadow-xs transition hover:border-accent-300 hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-600"
+          >
+            <div class="flex items-baseline justify-between gap-2">
+              <h2 class="text-lg font-semibold tracking-tight text-ink-900 group-hover:text-accent-700">
+                {entry.title}
+              </h2>
+              <code class="font-mono text-[11px] text-ink-500">{entry.parcelId}</code>
+            </div>
+            <dl class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink-500">
+              <div>
+                <dt class="inline font-medium uppercase tracking-wide text-ink-400">Source</dt>
+                <dd class="ml-1 inline text-ink-700">{entry.sourceLanguage}</dd>
+              </div>
+              {entry.translationLanguages.length > 0 && (
+                <div>
+                  <dt class="inline font-medium uppercase tracking-wide text-ink-400">Translations</dt>
+                  <dd class="ml-1 inline text-ink-700">{entry.translationLanguages.join(", ")}</dd>
+                </div>
+              )}
+            </dl>
+            <div class="mt-4">
+              <EntityCountChips counts={entry.counts} />
+            </div>
+            <div class="mt-4 text-sm font-medium text-accent-700 opacity-0 transition group-hover:opacity-100">
+              Browse →
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

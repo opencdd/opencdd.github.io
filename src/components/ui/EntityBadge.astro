@@ -1,0 +1,18 @@
+---
+import Badge from "./Badge.astro";
+import EntityIcon from "./EntityIcon.astro";
+import { badgeToneFor, entityLabelFor } from "~/lib/entityTypeMeta";
+import type { EntityType } from "~/lib/types";
+
+interface Props {
+  type: EntityType;
+  icon?: boolean;
+}
+
+const { type, icon = true } = Astro.props;
+---
+
+<Badge tone={badgeToneFor(type)}>
+  {icon && <EntityIcon type={type} class="h-3 w-3" />}
+  {entityLabelFor(type)}
+</Badge>

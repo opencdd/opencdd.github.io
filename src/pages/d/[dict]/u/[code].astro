@@ -1,0 +1,88 @@
+---
+import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import Card from "~/components/ui/Card.astro";
+import SectionTitle from "~/components/ui/SectionTitle.astro";
+import EntityHero from "~/components/ui/EntityHero.astro";
+import EntityBadge from "~/components/ui/EntityBadge.astro";
+import Field from "~/components/ui/Field.astro";
+import UsedByField from "~/components/ui/UsedByField.astro";
+import MetadataFields from "~/components/ui/MetadataFields.astro";
+import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { codeFromIrdi } from "~/lib/irdi";
+import type { UnitNode } from "~/lib/types";
+
+export function getStaticPaths() {
+  return listRegistryEntries().flatMap((entry) => {
+    const bundle = loadDictionary(entry.slug);
+    return (bundle.byType.get("unit") ?? []).map((node) => ({
+      params: { dict: entry.slug, code: node.code ?? codeFromIrdi(node.irdi) },
+      props: { irdi: node.irdi },
+    }));
+  });
+}
+
+const { dict } = Astro.params;
+const { irdi } = Astro.props;
+const bundle = loadDictionary(dict!);
+const node = bundle.entities.get(irdi as string) as UnitNode | undefined;
+
+if (!node || node.type !== "unit") {
+  return Astro.redirect("/404/");
+}
+
+const usedBy = bundle.propertiesForUnit(node.irdi);
+---
+
+<DictionaryLayout
+  dict={dict!}
+  title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
+>
+  <article class="space-y-6">
+    <EntityHero
+      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
+      irdi={node.irdi}
+      definition={node.definition}
+      version={node.version}
+      revision={node.revision}
+      dates={node.dates}
+      sourceDocument={node.source_document}
+    >
+      <EntityBadge slot="badge" type="unit" />
+    </EntityHero>
+
+    <Card>
+      <dl class="grid gap-3 sm:grid-cols-2">
+        {node.symbol && (
+          <Field label="Symbol">
+            <code class="font-mono text-sm">{node.symbol}</code>
+          </Field>
+        )}
+        {node.structure && (
+          <Field label="Structure">
+            <code class="font-mono text-xs">{node.structure}</code>
+          </Field>
+        )}
+        {node.text_representation && (
+          <Field label="Text representation">
+            <code class="font-mono text-xs">{node.text_representation}</code>
+          </Field>
+        )}
+      </dl>
+    </Card>
+
+    <UsedByField
+      label="Used by properties"
+      slug={dict!}
+      bundle={bundle}
+      entities={usedBy}
+      exceptIrdi={node.irdi}
+    />
+
+    <Card>
+      <SectionTitle anchor={true}>Metadata</SectionTitle>
+      <div class="mt-3">
+        <MetadataFields entity={node} />
+      </div>
+    </Card>
+  </article>
+</DictionaryLayout>

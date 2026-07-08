@@ -1,0 +1,31 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Not found — OpenCDD">
+  <section class="flex min-h-[50vh] flex-col items-center justify-center text-center animate-fade-in">
+    <p class="font-mono text-sm text-ink-400">404</p>
+    <h1 class="mt-2 text-3xl font-semibold tracking-tight text-ink-900">
+      Page not found
+    </h1>
+    <p class="mt-3 max-w-md text-sm text-ink-600">
+      The page at <code class="rounded bg-sand-100 px-1.5 py-0.5 font-mono text-xs">{Astro.url.pathname}</code>
+      doesn't exist. It may have been renamed, or the entity code doesn't match any
+      entity in the dictionary.
+    </p>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a
+        href="/"
+        class="rounded-lg bg-accent-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-700"
+      >
+        ← Back to dictionaries
+      </a>
+      <a
+        href="/search"
+        class="rounded-lg border border-ink-200 bg-white px-4 py-2 text-sm font-medium text-ink-700 transition hover:border-ink-300"
+      >
+        Search OpenCDD →
+      </a>
+    </div>
+  </section>
+</BaseLayout>

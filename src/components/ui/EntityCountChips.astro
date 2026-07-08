@@ -1,0 +1,39 @@
+---
+import Badge from "./Badge.astro";
+import EntityIcon from "./EntityIcon.astro";
+import {
+  ENTITY_TYPE_ORDER,
+  entityPluralTitleFor,
+} from "~/lib/entityTypeMeta";
+import type { EntityType } from "~/lib/types";
+import type { DictionaryBundle } from "~/lib/bundle";
+
+interface Props {
+  bundle?: DictionaryBundle;
+  counts?: Partial<Record<EntityType, number>>;
+}
+
+const { bundle, counts } = Astro.props;
+
+function countFor(type: EntityType): number {
+  if (counts) return counts[type] ?? 0;
+  if (bundle) return bundle.byType.get(type)?.length ?? 0;
+  return 0;
+}
+---
+
+<ul class="flex flex-wrap gap-2">
+  {ENTITY_TYPE_ORDER.map((type) => {
+    const c = countFor(type);
+    if (c === 0) return null;
+    return (
+      <li>
+        <Badge tone="neutral">
+          <EntityIcon type={type} class="h-3 w-3" />
+          {entityPluralTitleFor(type)}
+          <span class="ml-0.5 font-mono text-[10px] text-ink-500">{c}</span>
+        </Badge>
+      </li>
+    );
+  })}
+</ul>

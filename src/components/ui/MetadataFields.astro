@@ -1,0 +1,96 @@
+---
+import Field from "./Field.astro";
+import type { EntityMetadata } from "~/lib/types";
+
+interface Props {
+  entity: EntityMetadata;
+}
+
+const { entity } = Astro.props;
+const {
+  synonyms,
+  note,
+  remark,
+  description,
+  example,
+  source_document,
+  guid,
+  version,
+  revision,
+  time_stamp,
+  dates,
+} = entity;
+
+const hasContent =
+  !!note ||
+  !!remark ||
+  !!description ||
+  !!example ||
+  (synonyms && synonyms.length > 0) ||
+  !!source_document ||
+  !!guid ||
+  !!version ||
+  !!revision ||
+  !!time_stamp ||
+  !!dates;
+---
+
+{hasContent && (
+  <dl class="grid gap-3 sm:grid-cols-2">
+    {synonyms && synonyms.length > 0 && (
+      <Field label="Synonyms">
+        <ul class="space-y-0.5">
+          {synonyms.map((s) => (
+            <li>
+              {s.name}
+              {s.lang && (
+                <span class="ml-1 text-xs text-ink-400">({s.lang})</span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </Field>
+    )}
+    {description && <Field label="Description">{description}</Field>}
+    {note && <Field label="Note">{note}</Field>}
+    {remark && <Field label="Remark">{remark}</Field>}
+    {example && <Field label="Example">{example}</Field>}
+    {source_document && (
+      <Field label="Source document">
+        {/^https?:\/\//.test(source_document) ? (
+          <a
+            href={source_document}
+            target="_blank"
+            rel="noreferrer noopener"
+            class="text-accent-700 underline decoration-dotted underline-offset-2"
+          >
+            {source_document}
+          </a>
+        ) : (
+          <span class="font-mono text-xs">{source_document}</span>
+        )}
+      </Field>
+    )}
+    {guid && (
+      <Field label="GUID">
+        <code class="font-mono text-xs text-ink-700">{guid}</code>
+      </Field>
+    )}
+    {version && <Field label="Version">{version}</Field>}
+    {revision && <Field label="Revision">{revision}</Field>}
+    {time_stamp && <Field label="Time stamp">{time_stamp}</Field>}
+    {dates && (
+      <Field label="Dates">
+        <ul class="space-y-0.5 text-xs text-ink-600">
+          {dates.original_definition && (
+            <li>Original: {dates.original_definition}</li>
+          )}
+          {dates.current_version && <li>Current version: {dates.current_version}</li>}
+          {dates.current_revision && (
+            <li>Current revision: {dates.current_revision}</li>
+          )}
+        </ul>
+      </Field>
+    )}
+  </dl>
+)}

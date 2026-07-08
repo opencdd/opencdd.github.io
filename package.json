@@ -1,0 +1,42 @@
+{
+  "name": "opencdd-browser",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "OpenCDD Browser — Astro-based static browser for published IEC CDD data.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "npm run gen-tree && astro check && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check",
+    "typecheck": "astro check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "fetch-data": "tsx scripts/fetch-data.ts",
+    "gen-tree": "tsx scripts/gen-tree.ts"
+  },
+  "dependencies": {
+    "@opencdd/models": "^0.1.0",
+    "preact": "^10.25.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/preact": "^4.0.4",
+    "@astrojs/tailwind": "^5.1.4",
+    "@testing-library/preact": "^3.2.4",
+    "@types/node": "^22.10.5",
+    "astro": "^5.5.5",
+    "jsdom": "^25.0.1",
+    "pagefind": "^1.3.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

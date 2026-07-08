@@ -1,0 +1,42 @@
+---
+import Badge from "./Badge.astro";
+import { parseDataType, dataTypeLabel } from "~/lib/dataType";
+import type { DictionaryBundle } from "~/lib/bundle";
+import EntityLink from "./EntityLink.astro";
+
+interface Props {
+  raw: string | undefined;
+  slug: string;
+  bundle: DictionaryBundle;
+}
+
+const { raw, slug, bundle } = Astro.props;
+const parsed = parseDataType(raw);
+const label = dataTypeLabel(parsed);
+---
+
+<Badge tone="neutral">{label}</Badge>
+
+{parsed.kind === "enum" && (
+  <EntityLink
+    slug={slug}
+    irdi={parsed.valueList}
+    bundle={bundle}
+    showCode
+  />
+)}
+
+{parsed.kind === "class_reference" && (
+  <EntityLink
+    slug={slug}
+    irdi={parsed.classIdentifier}
+    bundle={bundle}
+    showCode
+  />
+)}
+
+{
+  parsed.kind === "measure" && (
+    <span class="ml-1 text-[11px] text-ink-500">measure</span>
+  )
+}

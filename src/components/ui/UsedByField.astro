@@ -1,0 +1,30 @@
+---
+import Field from "./Field.astro";
+import EntityLinkList from "./EntityLinkList.astro";
+import type { DictionaryBundle } from "~/lib/bundle";
+import type { EntityNode } from "~/lib/types";
+
+interface Props {
+  label: string;
+  slug: string;
+  bundle: DictionaryBundle;
+  entities: readonly EntityNode[];
+  /** IRDI-of-the-current-entity — filtered out to avoid self-ref. */
+  exceptIrdi?: string;
+}
+
+const { label, slug, bundle, entities, exceptIrdi } = Astro.props;
+const filtered = exceptIrdi
+  ? entities.filter((e) => e.irdi !== exceptIrdi)
+  : entities;
+---
+
+{filtered.length > 0 && (
+  <Field label={`${label} (${filtered.length})`}>
+    <EntityLinkList
+      slug={slug}
+      bundle={bundle}
+      irdis={filtered.map((e) => e.irdi)}
+    />
+  </Field>
+)}

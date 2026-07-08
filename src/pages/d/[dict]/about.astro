@@ -1,0 +1,107 @@
+---
+import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import Card from "~/components/ui/Card.astro";
+import SectionTitle from "~/components/ui/SectionTitle.astro";
+import Field from "~/components/ui/Field.astro";
+import {
+  ENTITY_TYPE_ORDER,
+  TABBABLE_TYPES,
+  entityPluralTitleFor,
+  countForType,
+} from "~/lib/entityTypeMeta";
+import { loadDictionary, listRegistryEntries } from "~/lib/data";
+
+export function getStaticPaths() {
+  return listRegistryEntries().map((entry) => ({
+    params: { dict: entry.slug },
+  }));
+}
+
+const { dict } = Astro.params;
+const bundle = loadDictionary(dict!);
+const registry = bundle.registry;
+---
+
+<DictionaryLayout
+  dict={dict!}
+  title={`About ${registry.title} — OpenCDD`}
+>
+  <div class="space-y-6">
+    <header class="space-y-2">
+      <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
+        About this dictionary
+      </p>
+      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">{registry.title}</h1>
+    </header>
+
+    <Card>
+      <dl class="grid gap-3 sm:grid-cols-2">
+        <Field label="Parcel ID">
+          <code class="font-mono text-sm">{registry.parcelId}</code>
+        </Field>
+        <Field label="Slug">
+          <code class="font-mono text-sm">{registry.slug}</code>
+        </Field>
+        <Field label="Source language">
+          <code class="font-mono text-sm">{registry.sourceLanguage}</code>
+        </Field>
+        {registry.translationLanguages.length > 0 && (
+          <Field label="Translation languages">
+            {registry.translationLanguages.join(", ")}
+          </Field>
+        )}
+        {registry.metaClassIrdis.length > 0 && (
+          <Field label="Meta-class IRDIs">
+            <ul class="space-y-0.5">
+              {registry.metaClassIrdis.map((irdi) => (
+                <li>
+                  <code class="font-mono text-xs">{irdi}</code>
+                </li>
+              ))}
+            </ul>
+          </Field>
+        )}
+      </dl>
+    </Card>
+
+    <Card>
+      <SectionTitle>Entity inventory</SectionTitle>
+      <table class="mt-3 min-w-full text-sm">
+        <thead>
+          <tr class="border-b border-ink-200 text-left text-xs uppercase tracking-wide text-ink-500">
+            <th class="px-3 py-2 font-medium">Type</th>
+            <th class="px-3 py-2 font-medium text-right">Count</th>
+            <th class="px-3 py-2 font-medium">Browse</th>
+          </tr>
+        </thead>
+        <tbody>
+          {ENTITY_TYPE_ORDER.map((type) => {
+            const count = countForType(bundle, type);
+            if (count === 0) return null;
+            const canBrowse = TABBABLE_TYPES.includes(type);
+            return (
+              <tr class="border-b border-ink-100">
+                <td class="px-3 py-2 font-medium text-ink-800">
+                  {entityPluralTitleFor(type)}
+                </td>
+                <td class="px-3 py-2 text-right font-mono text-xs text-ink-600">{count}</td>
+                <td class="px-3 py-2 text-sm">
+                  {canBrowse ? (
+                    <a
+                      href={`/d/${dict}/?tab=${type}`}
+                      class="text-accent-700 underline decoration-dotted underline-offset-2"
+                    >
+                      Browse list →
+                    </a>
+                  ) : (
+                    <span class="text-ink-300">—</span>
+                  )}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </Card>
+  </div>
+</DictionaryLayout>

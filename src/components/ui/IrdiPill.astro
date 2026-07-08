@@ -1,0 +1,23 @@
+---
+import CopyButton from "~/components/islands/CopyButton.tsx";
+import { cn } from "~/lib/cn";
+
+interface Props {
+  irdi: string;
+  class?: string;
+}
+
+const { irdi, class: className } = Astro.props;
+---
+
+<span
+  class={cn(
+    "inline-flex items-center gap-1 rounded-lg border border-ink-200 bg-sand-50 px-2.5 py-1 shadow-xs",
+    className,
+  )}
+>
+  <span class="select-all font-mono text-xs text-ink-700" data-irdi>
+    {irdi}
+  </span>
+  <CopyButton value={irdi} label="Copy IRDI" client:load />
+</span>

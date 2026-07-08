@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --scrollbar-track: transparent;
+  --scrollbar-thumb: #d6d3cc;
+  --scrollbar-thumb-hover: #b8b3a8;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfaf7;
+  color: #1a1814;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-mono,
+code,
+kbd,
+pre {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+::selection {
+  background-color: rgb(99 102 241 / 0.18);
+  color: #1a1814;
+}
+
+*:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 9999px;
+}
+.scroll-thin::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+  html,
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  table,
+  figure,
+  pre {
+    break-inside: avoid;
+  }
+  a[href^="http"]:not([href*="#"])::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555;
+    text-decoration: none;
+  }
+}
+
+/* Pagefind UI tweaks to match design system */
+:root {
+  --pagefind-ui-primary: #1a1814;
+  --pagefind-ui-text: #1a1814;
+  --pagefind-ui-background: #ffffff;
+  --pagefind-ui-border: #d6d3cc;
+  --pagefind-ui-tag: #e0e7ff;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}

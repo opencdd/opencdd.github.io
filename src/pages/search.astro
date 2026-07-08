@@ -1,0 +1,58 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import Card from "~/components/ui/Card.astro";
+---
+
+<BaseLayout title="Search — OpenCDD">
+  <section class="space-y-6 animate-fade-in">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">Search</h1>
+      <p class="text-sm text-ink-600">
+        Full-text search across every entity, dictionary, and field in OpenCDD.
+        Powered by <a
+          href="https://pagefind.app"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="text-accent-700 underline decoration-dotted underline-offset-2"
+        >Pagefind</a>.
+      </p>
+    </header>
+
+    <Card pad={false}>
+      <div
+        id="search"
+        data-pagefind-ui
+        class="pagefind-ui px-5 py-4"
+      >
+      </div>
+    </Card>
+
+    <noscript>
+      <p class="text-sm text-ink-600">
+        Search requires JavaScript. The static site is browsable via the
+        dictionary index.
+      </p>
+    </noscript>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    if (typeof window === "undefined") return;
+    function init() {
+      import("/pagefind/pagefind-ui.js").then(({ PagefindUI }) => {
+        new PagefindUI({
+          element: "#search",
+          showSubResults: true,
+          showImages: false,
+          pageSize: 10,
+        });
+      });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
+  })();
+</script>

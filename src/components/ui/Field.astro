@@ -1,0 +1,19 @@
+---
+import { cn } from "~/lib/cn";
+
+interface Props {
+  label: string;
+  class?: string;
+}
+
+const { label, class: className } = Astro.props;
+---
+
+<div class={cn("grid grid-cols-[auto_1fr] gap-x-3 gap-y-1.5 text-sm", className)}>
+  <dt class="text-xs font-medium uppercase tracking-wide text-ink-500 pt-1.5">
+    {label}
+  </dt>
+  <dd class="text-ink-800 break-words">
+    <slot />
+  </dd>
+</div>

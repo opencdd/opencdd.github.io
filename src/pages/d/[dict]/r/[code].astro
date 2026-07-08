@@ -1,0 +1,103 @@
+---
+import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import Card from "~/components/ui/Card.astro";
+import SectionTitle from "~/components/ui/SectionTitle.astro";
+import EntityHero from "~/components/ui/EntityHero.astro";
+import EntityBadge from "~/components/ui/EntityBadge.astro";
+import Field from "~/components/ui/Field.astro";
+import MetadataFields from "~/components/ui/MetadataFields.astro";
+import EntityLinkList from "~/components/ui/EntityLinkList.astro";
+import EntityLink from "~/components/ui/EntityLink.astro";
+import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { codeFromIrdi } from "~/lib/irdi";
+import type { RelationNode } from "~/lib/types";
+
+export function getStaticPaths() {
+  return listRegistryEntries().flatMap((entry) => {
+    const bundle = loadDictionary(entry.slug);
+    return (bundle.byType.get("relation") ?? []).map((node) => ({
+      params: { dict: entry.slug, code: node.code ?? codeFromIrdi(node.irdi) },
+      props: { irdi: node.irdi },
+    }));
+  });
+}
+
+const { dict } = Astro.params;
+const { irdi } = Astro.props;
+const bundle = loadDictionary(dict!);
+const node = bundle.entities.get(irdi as string) as RelationNode | undefined;
+
+if (!node || node.type !== "relation") {
+  return Astro.redirect("/404/");
+}
+---
+
+<DictionaryLayout
+  dict={dict!}
+  title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
+>
+  <article class="space-y-6">
+    <EntityHero
+      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
+      irdi={node.irdi}
+      definition={node.definition}
+      version={node.version}
+      revision={node.revision}
+      dates={node.dates}
+      sourceDocument={node.source_document}
+    >
+      <EntityBadge slot="badge" type="relation" />
+    </EntityHero>
+
+    <Card>
+      <dl class="grid gap-3 sm:grid-cols-2">
+        {node.relation_type && (
+          <Field label="Relation type">
+            <code class="font-mono text-xs">{node.relation_type}</code>
+          </Field>
+        )}
+        {node.role && (
+          <Field label="Role">
+            {node.role}
+          </Field>
+        )}
+        {node.segment && (
+          <Field label="Segment">
+            {node.segment}
+          </Field>
+        )}
+        <Field label="Domain">
+          {node.domain && node.domain.length > 0 ? (
+            <EntityLinkList slug={dict!} bundle={bundle} irdis={node.domain} />
+          ) : (
+            <span class="text-ink-400">—</span>
+          )}
+        </Field>
+        <Field label="Codomain">
+          {node.codomain ? (
+            <EntityLink slug={dict!} irdi={node.codomain} bundle={bundle} />
+          ) : (
+            <span class="text-ink-400">—</span>
+          )}
+        </Field>
+        {node.formula && (
+          <Field label="Formula">
+            <code class="font-mono text-xs">{node.formula}</code>
+          </Field>
+        )}
+        {node.formula_language && (
+          <Field label="Formula language">
+            {node.formula_language}
+          </Field>
+        )}
+      </dl>
+    </Card>
+
+    <Card>
+      <SectionTitle anchor={true}>Metadata</SectionTitle>
+      <div class="mt-3">
+        <MetadataFields entity={node} />
+      </div>
+    </Card>
+  </article>
+</DictionaryLayout>

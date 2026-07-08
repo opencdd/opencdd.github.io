@@ -1,0 +1,77 @@
+---
+import Badge from "./Badge.astro";
+import IrdiPill from "./IrdiPill.astro";
+import type { EntityDates } from "~/lib/types";
+
+interface Props {
+  title: string;
+  irdi: string;
+  definition?: string;
+  version?: string;
+  revision?: string;
+  dates?: EntityDates;
+  sourceDocument?: string;
+}
+
+const {
+  title,
+  irdi,
+  definition,
+  version,
+  revision,
+  dates,
+  sourceDocument,
+} = Astro.props;
+
+const pills: Array<{ key: string; tone: "neutral" | "accent"; text: string }> = [];
+if (version) pills.push({ key: "version", tone: "neutral", text: `v${version}` });
+if (revision) pills.push({ key: "revision", tone: "neutral", text: `rev ${revision}` });
+if (dates?.current_version)
+  pills.push({ key: "cv", tone: "neutral", text: dates.current_version });
+if (sourceDocument) {
+  pills.push({
+    key: "src",
+    tone: "accent",
+    text: sourceDocument,
+  });
+}
+---
+
+<header class="relative overflow-hidden rounded-2xl border border-ink-200/70 bg-gradient-to-b from-sand-50 to-white px-6 py-5 shadow-xs print:bg-none print:break-inside-avoid print:shadow-none">
+  <div
+    aria-hidden="true"
+    class="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-accent-100/40 blur-3xl"
+  >
+  </div>
+  <div class="relative flex flex-wrap items-center gap-2">
+    <slot name="badge" />
+    {pills.map((p) => (
+      <Badge tone={p.tone}>
+        {p.key === "src" && /^https?:\/\//.test(p.text) ? (
+          <a
+            href={p.text}
+            target="_blank"
+            rel="noreferrer noopener"
+            class="underline decoration-dotted underline-offset-2"
+          >
+            {p.text}
+          </a>
+        ) : (
+          p.text
+        )}
+      </Badge>
+    ))}
+  </div>
+  <h1 class="relative mt-2 text-3xl font-semibold tracking-tight text-ink-900">
+    {title}
+  </h1>
+  <div class="relative mt-2.5 flex flex-wrap items-center gap-2">
+    <IrdiPill irdi={irdi} />
+  </div>
+  {definition && (
+    <p class="relative mt-3 max-w-3xl text-sm leading-relaxed text-ink-600">
+      {definition}
+    </p>
+  )}
+  <slot />
+</header>

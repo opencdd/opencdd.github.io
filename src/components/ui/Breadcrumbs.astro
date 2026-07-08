@@ -1,0 +1,49 @@
+---
+import EntityLink from "./EntityLink.astro";
+import type { DictionaryBundle } from "~/lib/bundle";
+
+interface Crumb {
+  irdi: string;
+  name?: string;
+  code?: string;
+}
+
+interface Props {
+  slug: string;
+  crumbs: readonly Crumb[];
+  bundle: DictionaryBundle;
+}
+
+const { slug, crumbs, bundle } = Astro.props;
+---
+
+{crumbs.length > 0 && (
+  <nav aria-label="Breadcrumb" class="text-sm">
+    <ol class="flex flex-wrap items-center gap-1.5 text-ink-500">
+      {crumbs.map((crumb, i) => {
+        const isLast = i === crumbs.length - 1;
+        const node = bundle.entities.get(crumb.irdi);
+        const code = crumb.code ?? node?.code ?? crumb.irdi;
+        const name = crumb.name ?? node?.preferred_name ?? code;
+        return (
+          <li class="flex items-center gap-1.5">
+            {isLast ? (
+              <span aria-current="page" class="font-medium text-ink-800">
+                {name}
+              </span>
+            ) : (
+              <EntityLink
+                slug={slug}
+                irdi={crumb.irdi}
+                bundle={bundle}
+                label={name}
+                code={code}
+              />
+            )}
+            {!isLast && <span aria-hidden="true" class="text-ink-300">›</span>}
+          </li>
+        );
+      })}
+    </ol>
+  </nav>
+)}

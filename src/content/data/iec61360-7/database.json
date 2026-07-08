@@ -1,0 +1,1382 @@
+[
+  {
+    "irdi": "0112/2///61360_7#CAA000",
+    "code": "CAA000",
+    "preferred_name": "General items",
+    "definition": "collection of classes and properties intended for cross-domain use",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-03-04",
+      "current_version": "2025-03-04",
+      "current_revision": "2025-03-04"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS000",
+    "code": "AAS000",
+    "preferred_name": "Submodel-related classes",
+    "definition": "collection of datastructures that serve as base for definition of submodels",
+    "synonyms": [],
+    "remark": "A description of the common data concepts for smart manufacturing (IEC 63489) provided with \"0112/2///61360_7#AAS000\" is referenced in the attribute \"Drawing\".",
+    "version": "1",
+    "revision": "2",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2023-09-04",
+      "current_revision": "2023-11-21"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA000",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS001",
+    "code": "AAS001",
+    "preferred_name": "Submodel blocks",
+    "definition": "collection of blocks that serve as base for definition of submodels",
+    "synonyms": [],
+    "version": "1",
+    "revision": "2",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2023-09-04",
+      "current_revision": "2023-11-21"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS000",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS002",
+    "code": "AAS002",
+    "preferred_name": "Manufacturer contact information",
+    "definition": "properties providing the manufacturer contact information",
+    "synonyms": [],
+    "note": "The manufacturer contact information of the type plate, if defined by regulations.",
+    "version": "1",
+    "revision": "2",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2023-09-04",
+      "current_revision": "2023-11-21"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS001",
+    "is_case_of": [
+      "0112/2///61987#ABI571"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///61987#ABA286",
+      "0112/2///61987#ABA281",
+      "0112/2///61987#ABA129",
+      "0112/2///61987#ABA092"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS006",
+    "code": "AAS006",
+    "preferred_name": "Markings",
+    "definition": "collection of several markings relevant to the product",
+    "synonyms": [],
+    "version": "1",
+    "revision": "2",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2023-09-04",
+      "current_revision": "2023-11-21"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS001",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#AAS008",
+      "0112/2///61360_7#AAS010"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS009",
+    "code": "AAS009",
+    "preferred_name": "Marking or certificate",
+    "definition": "properties characterizing a marking or a certificate supplied or associated with a device or entity",
+    "synonyms": [],
+    "version": "1",
+    "revision": "2",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2023-09-04",
+      "current_revision": "2023-11-21"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS001",
+    "is_case_of": [
+      "0112/2///61987#ABH515"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///61987#ABA231",
+      "0112/2///61987#ABH783",
+      "0112/2///61987#ABO097",
+      "0112/2///61987#ABH830",
+      "0112/2///61987#ABO100",
+      "0112/2///61987#ABB146"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS004",
+    "code": "AAS004",
+    "preferred_name": "Submodels",
+    "definition": "collection of submodels",
+    "synonyms": [],
+    "version": "1",
+    "revision": "2",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2023-09-04",
+      "current_revision": "2023-11-21"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS000",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS005",
+    "code": "AAS005",
+    "preferred_name": "Name plate",
+    "definition": "properties characterizing nameplate information attached to the product",
+    "synonyms": [],
+    "version": "2",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2023-09-04",
+      "current_version": "2024-05-29",
+      "current_revision": "2024-05-29"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS004",
+    "is_case_of": [
+      "0112/2///61987#ABC269"
+    ],
+    "applicable_properties": [
+      "0112/2///61360_7#AAS003",
+      "0112/2///61360_7#AAS007",
+      "0112/2///61360_7#AAS011"
+    ],
+    "imported_properties": [
+      "0112/2///61987#ABN590",
+      "0112/2///61987#ABA565",
+      "0112/2///61987#ABP464",
+      "0112/2///61987#ABA567",
+      "0112/2///61987#ABA300",
+      "0112/2///61987#ABA950",
+      "0112/2///61987#ABA581",
+      "0112/2///61987#ABA951",
+      "0112/2///61987#ABP000",
+      "0112/2///61987#ABB757",
+      "0112/2///61987#ABA926",
+      "0112/2///61987#ABA302",
+      "0112/2///61987#ABA601",
+      "0112/2///61987#ABP462",
+      "0112/2///61987#ABP463"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#AAS012",
+    "code": "AAS012",
+    "preferred_name": "Contact information",
+    "definition": "collection of properties characterizing a contact information submodel",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#AAS004",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#AAS013",
+      "0112/2///61360_7#AAS014",
+      "0112/2///61360_7#AAS015",
+      "0112/2///61360_7#AAS016"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA001",
+    "code": "CAA001",
+    "preferred_name": "Features",
+    "definition": "collection of concepts (classes and properties) characterizing features of a product and used independently or referenced from other classes/domains",
+    "synonyms": [],
+    "remark": "Former identifier of this class according to IEC 61360-4 was 0112/2///61360_4#AAA233",
+    "source_document": "IEC 61360-4",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2022-09-19",
+      "current_version": "2022-09-19",
+      "current_revision": "2022-09-19"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA000",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA003",
+    "code": "CAA003",
+    "preferred_name": "Feature blocks",
+    "definition": "collection of feature blocks",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA001",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA017",
+    "code": "CAA017",
+    "preferred_name": "Identifier of organization",
+    "definition": "collection of properties characterizing the identification of an organization",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA061",
+      "0112/2///61360_7#CBA062"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA020",
+    "code": "CAA020",
+    "preferred_name": "Physical address",
+    "definition": "collection of properties characterizing a geographic location (where an organization or contact person may reside) according to an address system",
+    "synonyms": [],
+    "note": "The physical address provides a means to lookup, visit or pickup items at a geographical location",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA257",
+      "0112/2///61360_7#CBA261",
+      "0112/2///61360_7#CBA246",
+      "0112/2///61360_7#CBA255"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA021",
+    "code": "CAA021",
+    "preferred_name": "Geographic global position",
+    "definition": "collection of properties characterizing a geographic global position",
+    "synonyms": [],
+    "note": "The geographic global position may be specified by latitude/longitude/elevation (WGS 84), grid Zone (UTM) or natural location identifier (NLI)",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA078",
+      "0112/2///61360_7#CBA079",
+      "0112/2///61360_7#CBA080",
+      "0112/2///61360_7#CBA081",
+      "0112/2///61360_7#CBA082",
+      "0112/2///61360_7#CBA083",
+      "0112/2///61360_7#CBA084"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA022",
+    "code": "CAA022",
+    "preferred_name": "E-mail information",
+    "definition": "collection of properties characterizing the communication via electronic mail adress",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA096",
+      "0112/2///61360_7#CBA097",
+      "0112/2///61360_7#CBA098",
+      "0112/2///61360_7#CBA099"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA023",
+    "code": "CAA023",
+    "preferred_name": "Phone information",
+    "definition": "collection of properties characterizing the communication via telephone",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA200",
+      "0112/2///61360_7#CBA201",
+      "0112/2///61360_7#CBA212"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA024",
+    "code": "CAA024",
+    "preferred_name": "Fax information",
+    "definition": "collection of properties characterizing the communication via fax machine",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA202",
+      "0112/2///61360_7#CBA203"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA025",
+    "code": "CAA025",
+    "preferred_name": "Opening hours",
+    "definition": "collection of blocks and properties identifying opening hours",
+    "synonyms": [],
+    "remark": "The opening hours are provided for the timezone of the users.",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA204",
+      "0112/2///61360_7#CBA205",
+      "0112/2///61360_7#CBA209",
+      "0112/2///61360_7#CBA230",
+      "0112/2///61360_7#CBA211",
+      "0112/2///61360_7#CBA213"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA026",
+    "code": "CAA026",
+    "preferred_name": "Time of availability",
+    "definition": "collection of a grouping of properties identifying a time period for opening hours",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA206",
+      "0112/2///61360_7#CBA207"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA027",
+    "code": "CAA027",
+    "preferred_name": "Weekly recurrence",
+    "definition": "collection of properties defining a rule or repeating pattern for weekly recurring events, or to-dos",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA236",
+      "0112/2///61360_7#CBA210"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA028",
+    "code": "CAA028",
+    "preferred_name": "Social medium",
+    "definition": "collection of properties characterizing a social media address used by an organization or by a contact person",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA217",
+      "0112/2///61360_7#CBA218",
+      "0112/2///61360_7#CBA219"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA029",
+    "code": "CAA029",
+    "preferred_name": "Contact details",
+    "definition": "collection of properties characterizing the information regarding a contact person",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA221",
+      "0112/2///61360_7#CBA222",
+      "0112/2///61360_7#CBA223",
+      "0112/2///61360_7#CBA224",
+      "0112/2///61360_7#CBA225",
+      "0112/2///61360_7#CBA226",
+      "0112/2///61360_7#CBA228",
+      "0112/2///61360_7#CBA227",
+      "0112/2///61360_7#CBA250",
+      "0112/2///61360_7#CBA253"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA030",
+    "code": "CAA030",
+    "preferred_name": "Recurrence pattern",
+    "definition": "collection of properties characterizing the information regarding a recurrence pattern",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA208",
+      "0112/2///61360_7#CBA231",
+      "0112/2///61360_7#CBA214",
+      "0112/2///61360_7#CBA232",
+      "0112/2///61360_7#CBA233"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA031",
+    "code": "CAA031",
+    "preferred_name": "Daily recurrence",
+    "definition": "collection of properties defining a rule or repeating pattern for daily recurring events, or to-dos",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA234",
+      "0112/2///61360_7#CBA235"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA032",
+    "code": "CAA032",
+    "preferred_name": "Monthly recurrence",
+    "definition": "collection of properties defining a rule or repeating pattern for monthly recurring events,or to-dos",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA237",
+      "0112/2///61360_7#CBA238"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA033",
+    "code": "CAA033",
+    "preferred_name": "Yearly recurrence",
+    "definition": "collection of properties defining a rule or repeating pattern for yearly recurring events, or to-dos",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA239",
+      "0112/2///61360_7#CBA244",
+      "0112/2///61360_7#CBA245"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA034",
+    "code": "CAA034",
+    "preferred_name": "Yearly date of recurrence",
+    "definition": "collection of properties characterizing a date (month + day) for a yearly recurring event",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA240",
+      "0112/2///61360_7#CBA241"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA035",
+    "code": "CAA035",
+    "preferred_name": "Yearly day of recurrence",
+    "definition": "collection of properties characterizing a day (within a month, within a week) of a yearly recurring event",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA240",
+      "0112/2///61360_7#CBA242",
+      "0112/2///61360_7#CBA243"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA036",
+    "code": "CAA036",
+    "preferred_name": "List of weekdays",
+    "definition": "collection of properties characterizing a list of weekdays",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA247",
+      "0112/2///61360_7#CBA251"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA037",
+    "code": "CAA037",
+    "preferred_name": "Weekday",
+    "definition": "collection of properties characterizing a weekday",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA243"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA038",
+    "code": "CAA038",
+    "preferred_name": "URL information",
+    "definition": "collection of properties characterizing an URL",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA260",
+      "0112/2///61360_7#CBA089"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA039",
+    "code": "CAA039",
+    "preferred_name": "Language",
+    "definition": "collection of properties characterizing a language",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA016"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA040",
+    "code": "CAA040",
+    "preferred_name": "Local time info",
+    "definition": "collection of properties characterizing a local time",
+    "synonyms": [],
+    "remark": "The information on the local time of an organization or person can be used to calculate opening hours or appointment for the timezone of the user.",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA229",
+      "0112/2///61360_7#CBA254"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA041",
+    "code": "CAA041",
+    "preferred_name": "Address information",
+    "definition": "collection of properties providing address information according to an address system",
+    "synonyms": [],
+    "remark": "The address information corresponds to UN/EDIFACT NAD (Name and address) - see https://service.unece.org/trade/untdid/d01b/trsd/trsdnad.htm",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA262",
+      "0112/2///61360_7#CBA263",
+      "0112/2///61360_7#CBA074",
+      "0112/2///61360_7#CBA076",
+      "0112/2///61360_7#CBA264",
+      "0112/2///61360_7#CBA073",
+      "0112/2///61360_7#CBA265",
+      "0112/2///61360_7#CBA092"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA042",
+    "code": "CAA042",
+    "preferred_name": "Organization information",
+    "definition": "collection of properties providing organization information according to an address system",
+    "synonyms": [],
+    "remark": "The organization information corresponds to UN/EDIFACT C058 NAME AND ADDRESS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc058.htm",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA258",
+      "0112/2///61360_7#CBA071",
+      "0112/2///61360_7#CBA068",
+      "0112/2///61360_7#CBA069",
+      "0112/2///61360_7#CBA070"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA043",
+    "code": "CAA043",
+    "preferred_name": "Street information",
+    "definition": "collection of properties providing street information according to an address system",
+    "synonyms": [],
+    "remark": "The street information corresponds to UN/EDIFACT C059 STREET - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc059.htm",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA094",
+      "0112/2///61360_7#CBA072",
+      "0112/2///61360_7#CBA093"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA044",
+    "code": "CAA044",
+    "preferred_name": "Country subdivision information",
+    "definition": "collection of properties providing country subdivision information according to an address system",
+    "synonyms": [],
+    "remark": "The country subdivision information corresponds to UN/EDIFACT C819 COUNTRY SUB-ENTITY DETAILS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc819.htm",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA095",
+      "0112/2///61360_7#CBA266",
+      "0112/2///61360_7#CBA267"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA045",
+    "code": "CAA045",
+    "preferred_name": "Country information",
+    "definition": "collection of properties providing country information according to an address system",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA003",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA015",
+      "0112/2///61360_7#CBA027"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA005",
+    "code": "CAA005",
+    "preferred_name": "Customs tariff number",
+    "definition": "collection of properties characterizing the customs tariff number of a product",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA001",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA009",
+      "0112/2///61360_7#CBA010",
+      "0112/2///61360_7#CBA011",
+      "0112/2///61360_7#CBA012",
+      "0112/2///61360_7#CBA013",
+      "0112/2///61360_7#CBA014"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA006",
+    "code": "CAA006",
+    "preferred_name": "Classification codes",
+    "definition": "collection of codes and designations for classifying an item",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA001",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA007",
+    "code": "CAA007",
+    "preferred_name": "Country code",
+    "definition": "collection of properties characterizing the country",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA015",
+      "0112/2///61360_7#CBA027",
+      "0112/2///61360_7#CBA028"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA008",
+    "code": "CAA008",
+    "preferred_name": "Language code",
+    "definition": "collection of properties characterizing the language",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA016",
+      "0112/2///61360_7#CBA017"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA009",
+    "code": "CAA009",
+    "preferred_name": "IP code",
+    "definition": "collection of properties describing the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA025"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA010",
+    "code": "CAA010",
+    "preferred_name": "IK code",
+    "definition": "collection of properties describing the degree of protection provided by an enclosure against harmful external mechanical impacts",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA026"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA011",
+    "code": "CAA011",
+    "preferred_name": "Colour code and designation",
+    "definition": "collection of properties describing colours of an item",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-08-13",
+      "current_version": "2024-08-13",
+      "current_revision": "2024-08-13"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA018",
+      "0112/2///61360_7#CBA019",
+      "0112/2///61360_7#CBA021",
+      "0112/2///61360_7#CBA022",
+      "0112/2///61360_7#CBA023",
+      "0112/2///61360_7#CBA024"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA012",
+    "code": "CAA012",
+    "preferred_name": "Currency code",
+    "definition": "collection of properties characterizing the currency",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-12-10",
+      "current_version": "2024-12-10",
+      "current_revision": "2024-12-10"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA029"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA013",
+    "code": "CAA013",
+    "preferred_name": "Human sex code",
+    "definition": "collection of properties characterizing the human sex",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-12-10",
+      "current_version": "2024-12-10",
+      "current_revision": "2024-12-10"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA030"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA046",
+    "code": "CAA046",
+    "preferred_name": "Environmental condition class - storage",
+    "definition": "collection of properties characterized by an alphanumeric sequence denoting a set of environmental conditions to which equipment is or can be subjected to during storage",
+    "synonyms": [],
+    "note": "The IEC 60721 series define classes for climatic, mechanical and other environmental influences",
+    "source_document": "IEC 60721-3-1:2018",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-06-02",
+      "current_version": "2026-06-02",
+      "current_revision": "2026-06-02"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA006",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA268",
+      "0112/2///61360_7#CBA269",
+      "0112/2///61360_7#CBA270",
+      "0112/2///61360_7#CBA271",
+      "0112/2///61360_7#CBA272",
+      "0112/2///61360_7#CBA273",
+      "0112/2///61360_7#CBA274"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA014",
+    "code": "CAA014",
+    "preferred_name": "Identification of product",
+    "definition": "collection of properties characterizing the unambiguous identification of a product, software or service",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-06-17",
+      "current_version": "2025-06-17",
+      "current_revision": "2025-06-17"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA001",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA031",
+      "0112/2///61360_7#CBA032",
+      "0112/2///61360_7#CBA033",
+      "0112/2///61360_7#CBA034",
+      "0112/2///61360_7#CBA035",
+      "0112/2///61360_7#CBA036",
+      "0112/2///61360_7#CBA037",
+      "0112/2///61360_7#CBA038",
+      "0112/2///61360_7#CBA039",
+      "0112/2///61360_7#CBA040",
+      "0112/2///61360_7#CBA041",
+      "0112/2///61360_7#CBA042",
+      "0112/2///61360_7#CBA043",
+      "0112/2///61360_7#CBA044",
+      "0112/2///61360_7#CBA045",
+      "0112/2///61360_7#CBA046",
+      "0112/2///61360_7#CBA047",
+      "0112/2///61360_7#CBA048",
+      "0112/2///61360_7#CBA049",
+      "0112/2///61360_7#CBA050",
+      "0112/2///61360_7#CBA051",
+      "0112/2///61360_7#CBA052",
+      "0112/2///61360_7#CBA055",
+      "0112/2///61360_7#CBA056",
+      "0112/2///61360_7#CBA057",
+      "0112/2///61360_7#CBA053",
+      "0112/2///61360_7#CBA054"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA015",
+    "code": "CAA015",
+    "preferred_name": "Organization",
+    "definition": "collection of concepts (classes and properties) characterizing an organization",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA001",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA058",
+      "0112/2///61360_7#CBA059",
+      "0112/2///61360_7#CBA248",
+      "0112/2///61360_7#CBA060",
+      "0112/2///61360_7#CBA066",
+      "0112/2///61360_7#CBA067",
+      "0112/2///61360_7#CBA090",
+      "0112/2///61360_7#CBA091",
+      "0112/2///61360_7#CBA085",
+      "0112/2///61360_7#CBA086",
+      "0112/2///61360_7#CBA087",
+      "0112/2///61360_7#CBA088",
+      "0112/2///61360_7#CBA249",
+      "0112/2///61360_7#CBA252",
+      "0112/2///61360_7#CBA216",
+      "0112/2///61360_7#CBA215"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA016",
+    "code": "CAA016",
+    "preferred_name": "Contact person",
+    "definition": "collection of concepts (classes and properties) characterizing the information required to communicate with a contact person",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2026-02-03",
+      "current_version": "2026-02-03",
+      "current_revision": "2026-02-03"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA001",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA220",
+      "0112/2///61360_7#CBA058",
+      "0112/2///61360_7#CBA059",
+      "0112/2///61360_7#CBA248",
+      "0112/2///61360_7#CBA060",
+      "0112/2///61360_7#CBA066",
+      "0112/2///61360_7#CBA067",
+      "0112/2///61360_7#CBA090",
+      "0112/2///61360_7#CBA091",
+      "0112/2///61360_7#CBA085",
+      "0112/2///61360_7#CBA086",
+      "0112/2///61360_7#CBA087",
+      "0112/2///61360_7#CBA088",
+      "0112/2///61360_7#CBA249",
+      "0112/2///61360_7#CBA252",
+      "0112/2///61360_7#CBA216",
+      "0112/2///61360_7#CBA215"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///61360_7#CAA002",
+    "code": "CAA002",
+    "preferred_name": "Qualifiers",
+    "definition": "collection of qualifiers to specify the meaning of properties and other data element types or of its instanciated values",
+    "synonyms": [],
+    "note": "NOTE 1 Qualifiers are intended to specify the meaning of properties and other data element types or of its instanciated values. In many cases this specification is essential for the correct interpretation of the value. Example: The value associated during the product life cycle stage “as designed” can well differ from the value during the stage “as built”.\r\nNOTE 2 Association of qualifiers to values is not an activity performed in the dictionary but is rather performed by an application. By providing qualifier objects in the dictionary the application can select terms or values from predefined, standardized terms for qualifiers. Such qualifiers can provide information such as status data or lifecycle data.",
+    "source_document": "IEC 62569-1:2017 mod",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2022-09-19",
+      "current_version": "2022-09-19",
+      "current_revision": "2022-09-19"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///61360_7#CAA000",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///61360_7#CBA001",
+      "0112/2///61360_7#CBA002",
+      "0112/2///61360_7#CBA003",
+      "0112/2///61360_7#CBA004",
+      "0112/2///61360_7#CBA005",
+      "0112/2///61360_7#CBA006",
+      "0112/2///61360_7#CBA007",
+      "0112/2///61360_7#CBA008"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  }
+]

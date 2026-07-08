@@ -1,0 +1,2981 @@
+[
+  {
+    "irdi": "0112/2///63508#KDA001",
+    "code": "KDA001",
+    "preferred_name": "Domain - Circuit-breakers and similar equipment for household",
+    "definition": "domain covering protection devices for household with rated currents not exceeding 125 A and rated voltages not exceeding 440 V",
+    "synonyms": [],
+    "note": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices.",
+    "version": "2",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2024-03-08",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA010",
+    "code": "KDA010",
+    "preferred_name": "Classes root identifier - Circuit-breakers and similar equipment for household",
+    "definition": "heading number for classification of circuit-breakers and similar equipment for household use",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA001",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA020",
+    "code": "KDA020",
+    "preferred_name": "Classes - Miniature circuit-breakers for overcurrent protection for household and similar installations",
+    "definition": "circuit-breakers for domestic and similar purpose of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection of wiring against overcurrents in domestic and similar installations",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA010",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA021",
+    "code": "KDA021",
+    "preferred_name": "AC miniature circuit-breaker",
+    "definition": "mechanical switching device for AC application, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified time and breaking currents under specified abnormal circuit conditions such as those of short-circuit",
+    "synonyms": [],
+    "source_document": "IEC 60050 441:1984, 441-14-20, modified – “AC miniature” has been added to the term",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA020",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///63508#KDC100",
+      "0112/2///63508#KDC101",
+      "0112/2///63508#KDC102",
+      "0112/2///63508#KDC103",
+      "0112/2///63508#KDC104",
+      "0112/2///63508#KDC105",
+      "0112/2///63508#KDC106",
+      "0112/2///63508#KDC107",
+      "0112/2///63508#KDC108",
+      "0112/2///63508#KDC109"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA011",
+    "code": "KDA011",
+    "preferred_name": "Blocks root - Circuit-breakers and similar equipment for household",
+    "definition": "heading number for blocks of properties to describe all types of products within this domain",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA001",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA220",
+    "code": "KDA220",
+    "preferred_name": "General technical data",
+    "definition": "general technical aspects of the device",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC012"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///62683#ACE204",
+      "0112/2///62683#ACE243",
+      "0112/2///62683#ACE247",
+      "0112/2///62683#ACE248",
+      "0112/2///62683#ACE601"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA221",
+    "code": "KDA221",
+    "preferred_name": "Main circuit",
+    "definition": "all the conductive parts of a switching device included in the circuit which it is designed to close or open",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC014"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB002",
+      "0112/2///63508#KDB003",
+      "0112/2///63508#KDB020",
+      "0112/2///63508#KDB021",
+      "0112/2///63508#KDB025"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE410",
+      "0112/2///62683#ACE424",
+      "0112/2///62683#ACE457",
+      "0112/2///62683#ACE460",
+      "0112/2///62683#ACE532",
+      "0112/2///62683#ACE401"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA222",
+    "code": "KDA222",
+    "preferred_name": "Short-circuit",
+    "definition": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC040"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB004",
+      "0112/2///63508#KDB005",
+      "0112/2///63508#KDB006",
+      "0112/2///63508#KDB007"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE701",
+      "0112/2///62683#ACE702",
+      "0112/2///62683#ACE715",
+      "0112/2///62683#ACE716"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA223",
+    "code": "KDA223",
+    "preferred_name": "Tripping characteristics",
+    "definition": "release which causes a mechanical switching device to open in specified conditions",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC041"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB008",
+      "0112/2///63508#KDB009",
+      "0112/2///63508#KDB010",
+      "0112/2///63508#KDB026"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE744"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA224",
+    "code": "KDA224",
+    "preferred_name": "Control and auxiliary circuits",
+    "definition": "all the conductive parts of the device which are intended to be included in a circuit other than the main circuit",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [],
+    "applicable_properties": [
+      "0112/2///63508#KDB011"
+    ],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA225",
+    "code": "KDA225",
+    "preferred_name": "Installation, mounting and dimensions",
+    "definition": "physical information of the device for installation",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC066"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB012",
+      "0112/2///63508#KDB013"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE801",
+      "0112/2///62683#ACE804",
+      "0112/2///62683#ACE808"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA226",
+    "code": "KDA226",
+    "preferred_name": "Connection facilities",
+    "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC068"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB014",
+      "0112/2///63508#KDB015",
+      "0112/2///63508#KDB016",
+      "0112/2///63508#KDB017"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE865",
+      "0112/2///62683#ACE867"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA227",
+    "code": "KDA227",
+    "preferred_name": "Environmental conditions",
+    "definition": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events",
+    "synonyms": [],
+    "source_document": "IEC 60050-395:2014 395-07-98",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC012"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB018"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE440"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDA228",
+    "code": "KDA228",
+    "preferred_name": "Product certificates and standards",
+    "definition": "conformity of a device with specified requirements and compliance with recognized product standards",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///62683#ACC070"
+    ],
+    "applicable_properties": [
+      "0112/2///63508#KDB019",
+      "0112/2///63508#KDB022"
+    ],
+    "imported_properties": [
+      "0112/2///62683#ACE902",
+      "0112/2///62683#ACE903"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE005",
+    "code": "KDE005",
+    "preferred_name": "Specialised blocks root - Circuit-breakers and similar equipment for household",
+    "definition": "heading number for specialised blocks of properties to describe all types of products within this domain",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [],
+    "applicable_properties": [],
+    "imported_properties": [],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE010",
+    "code": "KDE010",
+    "preferred_name": "General technical data",
+    "definition": "general technical aspects of the device (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA220"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///62683#ACE204",
+      "0112/2///62683#ACE243",
+      "0112/2///62683#ACE247",
+      "0112/2///62683#ACE248",
+      "0112/2///62683#ACE601"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE013",
+    "code": "KDE013",
+    "preferred_name": "Main circuit",
+    "definition": "all the conductive parts of a switching device included in the circuit which it is designed to close or open (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA221"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///63508#KDB002",
+      "0112/2///63508#KDB003",
+      "0112/2///63508#KDB020",
+      "0112/2///63508#KDB021",
+      "0112/2///63508#KDB025",
+      "0112/2///62683#ACE410",
+      "0112/2///62683#ACE424",
+      "0112/2///62683#ACE457",
+      "0112/2///62683#ACE460",
+      "0112/2///62683#ACE532",
+      "0112/2///62683#ACE401"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE016",
+    "code": "KDE016",
+    "preferred_name": "Short-circuit",
+    "definition": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA222"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///63508#KDB004",
+      "0112/2///63508#KDB005",
+      "0112/2///63508#KDB006",
+      "0112/2///63508#KDB007",
+      "0112/2///62683#ACE701",
+      "0112/2///62683#ACE702",
+      "0112/2///62683#ACE715",
+      "0112/2///62683#ACE716"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE019",
+    "code": "KDE019",
+    "preferred_name": "Tripping characteristics",
+    "definition": "release which causes a mechanical switching device to open in specified conditions (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA223"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///63508#KDB008",
+      "0112/2///63508#KDB009",
+      "0112/2///63508#KDB010",
+      "0112/2///63508#KDB026",
+      "0112/2///62683#ACE744"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE028",
+    "code": "KDE028",
+    "preferred_name": "Connection facilities",
+    "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA226"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///63508#KDB014",
+      "0112/2///63508#KDB015",
+      "0112/2///63508#KDB016",
+      "0112/2///63508#KDB017",
+      "0112/2///62683#ACE865",
+      "0112/2///62683#ACE867"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE031",
+    "code": "KDE031",
+    "preferred_name": "Environmental conditions",
+    "definition": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA227"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///63508#KDB018",
+      "0112/2///62683#ACE440"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDE034",
+    "code": "KDE034",
+    "preferred_name": "Product certificates and standards",
+    "definition": "conformity of a device with specified requirements and compliance with recognized product standards (specific to AC miniature circuit-breaker)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDE005",
+    "is_case_of": [
+      "0112/2///63508#KDA228"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///63508#KDB019",
+      "0112/2///63508#KDB022",
+      "0112/2///62683#ACE902",
+      "0112/2///62683#ACE903"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDF010",
+    "code": "KDF010",
+    "preferred_name": "Identification",
+    "definition": "information necessary for unambiguous identification of the device",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "class",
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63508#KDA011",
+    "is_case_of": [
+      "0112/2///61360_7#CAA014"
+    ],
+    "applicable_properties": [],
+    "imported_properties": [
+      "0112/2///61360_7#CBA031",
+      "0112/2///61360_7#CBA032",
+      "0112/2///61360_7#CBA033",
+      "0112/2///61360_7#CBA034",
+      "0112/2///61360_7#CBA035",
+      "0112/2///61360_7#CBA037",
+      "0112/2///61360_7#CBA038",
+      "0112/2///61360_7#CBA039",
+      "0112/2///61360_7#CBA040",
+      "0112/2///61360_7#CBA041",
+      "0112/2///61360_7#CBA042",
+      "0112/2///61360_7#CBA043",
+      "0112/2///61360_7#CBA057",
+      "0112/2///61360_7#CBA053",
+      "0112/2///61360_7#CBA054"
+    ],
+    "sub_class_selection": []
+  },
+  {
+    "irdi": "0112/2///63508#KDB002",
+    "code": "KDB002",
+    "preferred_name": "rated insulation voltage, AC",
+    "definition": "phase to neutral or phase to phase voltage value assigned to the connecting device by the manufacturer, this device being intended to be used in installations, the AC voltage supply of which does not exceed the rated insulation voltage of the connecting device itself",
+    "synonyms": [],
+    "note": "Rated insulation voltage is always understood to be between live parts and not between live parts and earth (ground).",
+    "source_document": "IEC 60050-442:1998, 442-06-39, modified – ‘’AC’’ added",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "REAL_MEASURE_TYPE",
+    "unit": "0112/2///62720#UAA296",
+    "definition_class": "0112/2///63508#KDA221",
+    "value_format": "NR2..3.2",
+    "symbol": "Ui",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB003",
+    "code": "KDB003",
+    "preferred_name": "power losses per pole, AC",
+    "definition": "power dissipation calculated for one pole on the basis of the voltage drop measured at AC rated current under steady state conditions between its terminals",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "REAL_MEASURE_TYPE",
+    "unit": "0112/2///62720#UAA306",
+    "definition_class": "0112/2///63508#KDA221",
+    "value_format": "NR2..3.2",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB004",
+    "code": "KDB004",
+    "preferred_name": "rated short-circuit capacity, AC, 230 V (Icn)",
+    "definition": "value of ultimate short-circuit breaking capacity at 230 V AC assigned to that circuit-breaker by the manufacturer",
+    "synonyms": [],
+    "source_document": "IEC 60898-1:2017, 5.2.4, modified – “at 230 V (Icn)” added",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD107)",
+    "definition_class": "0112/2///63508#KDA222",
+    "value_format": "X..8",
+    "symbol": "Icn",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD107"
+  },
+  {
+    "irdi": "0112/2///63508#KDB005",
+    "code": "KDB005",
+    "preferred_name": "rated short-circuit capacity, AC, 400 V (Icn)",
+    "definition": "value of ultimate short-circuit breaking capacity at 400 V AC assigned to that circuit-breaker by the manufacturer",
+    "synonyms": [],
+    "source_document": "IEC 60898-1:2017, 5.2.4, modified – “at 400 V (Icn)” added",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD107)",
+    "definition_class": "0112/2///63508#KDA222",
+    "value_format": "X..8",
+    "symbol": "Icn",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD107"
+  },
+  {
+    "irdi": "0112/2///63508#KDB006",
+    "code": "KDB006",
+    "preferred_name": "energy limiting class according to relevant EN standard",
+    "definition": "class number (class 1 or class 3) defined by standard EN 60898-1 or EN 61009-1 as relevant",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD103)",
+    "definition_class": "0112/2///63508#KDA222",
+    "value_format": "X..16",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD103"
+  },
+  {
+    "irdi": "0112/2///63508#KDB007",
+    "code": "KDB007",
+    "preferred_name": "rated making and breaking capacity of an individual pole, AC (Icn1)",
+    "definition": "value of the AC limiting short-circuit making and breaking capacity on each individual protected pole of multipole circuit breakers",
+    "synonyms": [],
+    "source_document": "5.2.4 of IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD107)",
+    "definition_class": "0112/2///63508#KDA222",
+    "value_format": "X..8",
+    "symbol": "Icn1",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD107"
+  },
+  {
+    "irdi": "0112/2///63508#KDB008",
+    "code": "KDB008",
+    "preferred_name": "reference calibration temperature",
+    "definition": "ambient air temperature on which the time-current characteristics are based according to IEC 60898-1, 30°C being the preferred value",
+    "synonyms": [],
+    "source_document": "3.2.10.2 of IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "REAL_MEASURE_TYPE",
+    "unit": "0112/2///62720#UAA033",
+    "definition_class": "0112/2///63508#KDA223",
+    "value_format": "NR2..2.2",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB009",
+    "code": "KDB009",
+    "preferred_name": "range of instantaneous tripping current",
+    "definition": "minimum value of current causing the circuit-breaker to operate automatically without intentional time-delay",
+    "synonyms": [],
+    "source_document": "3.5.17 of IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD102)",
+    "definition_class": "0112/2///63508#KDA223",
+    "value_format": "X..8",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD102"
+  },
+  {
+    "irdi": "0112/2///63508#KDB010",
+    "code": "KDB010",
+    "preferred_name": "derating of tripping characteristic based on temperature",
+    "definition": "availability of information on the variation of the tripping characteristic for ambient temperature differing from the reference calibration temperature",
+    "synonyms": [],
+    "source_document": "8.6.3 of IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "definition_class": "0112/2///63508#KDA223",
+    "value_format": "X..8",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB011",
+    "code": "KDB011",
+    "preferred_name": "additional equipment possible",
+    "definition": "specification whether additional equipment providing an additional function is possible",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "definition_class": "0112/2///63508#KDA224",
+    "value_format": "X..8",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB012",
+    "code": "KDB012",
+    "preferred_name": "spacing in number of modules",
+    "definition": "distance between two lateral faces of the device expressed in multiple of 18 mm",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "REAL_TYPE",
+    "definition_class": "0112/2///63508#KDA225",
+    "value_format": "NR2..2.1",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB013",
+    "code": "KDB013",
+    "preferred_name": "mounting depth of the modular device",
+    "definition": "distance between the surface in contact with the mounting part (e.g. rail) and the location of the protection panel from the switchboard",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "INTEGER_MEASURE_TYPE",
+    "unit": "0112/2///62720#UAA862",
+    "definition_class": "0112/2///63508#KDA225",
+    "value_format": "NR1..4",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB014",
+    "code": "KDB014",
+    "preferred_name": "dedicated comb busbar terminal",
+    "definition": "terminal intended for connection of comb busbar only",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "definition_class": "0112/2///63508#KDA226",
+    "value_format": "X..8",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB015",
+    "code": "KDB015",
+    "preferred_name": "dual combined terminal",
+    "definition": "one terminal with two clamping units, one for a comb busbar, the other for a conductor",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "definition_class": "0112/2///63508#KDA226",
+    "value_format": "X..8",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB016",
+    "code": "KDB016",
+    "preferred_name": "type of line side terminals",
+    "definition": "identifier of the type of connection present on the side of the circuit-breaker intended for the connection to the power supply lines",
+    "synonyms": [],
+    "note": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit",
+    "source_document": "3.3 & K.3.1 of IEC 60898-1, modified",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD104)",
+    "definition_class": "0112/2///63508#KDA226",
+    "value_format": "X..70",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD104"
+  },
+  {
+    "irdi": "0112/2///63508#KDB017",
+    "code": "KDB017",
+    "preferred_name": "type of load side terminals",
+    "definition": "identifier of the type of connection present on the side of the circuit-breaker intended for the connection to the load-side lines",
+    "synonyms": [],
+    "note": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit",
+    "source_document": "3.3 & K.3.1 of IEC 60898-1, modified",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD104)",
+    "definition_class": "0112/2///63508#KDA226",
+    "value_format": "X..70",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD104"
+  },
+  {
+    "irdi": "0112/2///63508#KDB018",
+    "code": "KDB018",
+    "preferred_name": "pollution degree",
+    "definition": "numeral characterising the expected pollution of the micro-environment",
+    "synonyms": [],
+    "source_document": "IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_INT_TYPE(0112/2///63508#KDD106)",
+    "definition_class": "0112/2///63508#KDA227",
+    "value_format": "NR1 1",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB019",
+    "code": "KDB019",
+    "preferred_name": "conformity marks",
+    "definition": "protected mark issued by a body performing third-party conformity assessment, indicating that an object of conformity assessment (product, process, person, system or body) is in conformity with specified requirements",
+    "synonyms": [],
+    "source_document": "ISO 17030:2021, 3.1, modified – The term “third-party mark of conformity” is replaced by conformity marks.",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD105)",
+    "definition_class": "0112/2///63508#KDA228",
+    "value_format": "X..16",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD105"
+  },
+  {
+    "irdi": "0112/2///63508#KDB020",
+    "code": "KDB020",
+    "preferred_name": "overvoltage category",
+    "definition": "numeral defining a transient overvoltage condition",
+    "synonyms": [],
+    "source_document": "IEC 60664-1:2020, 3.1.20",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD101)",
+    "definition_class": "0112/2///63508#KDA221",
+    "value_format": "X..3",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD101"
+  },
+  {
+    "irdi": "0112/2///63508#KDB021",
+    "code": "KDB021",
+    "preferred_name": "number of switched poles",
+    "definition": "number of electrically separated conducting paths, each provided with a contact intended to connect and disconnect the main circuit of a switching device",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD108)",
+    "definition_class": "0112/2///63508#KDA221",
+    "value_format": "X..3",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD108"
+  },
+  {
+    "irdi": "0112/2///63508#KDB022",
+    "code": "KDB022",
+    "preferred_name": "residential and tertiary product standards",
+    "definition": "circuit-breakers and similar equipment for household use reference standard(s) to which the product complies with",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "ENUM_STRING_TYPE(0112/2///63508#KDD109)",
+    "definition_class": "0112/2///63508#KDA228",
+    "value_format": "X..32",
+    "data_element_type": "NON_DEPENDENT_P_DET",
+    "value_list": "0112/2///63508#KDD109"
+  },
+  {
+    "irdi": "0112/2///63508#KDB025",
+    "code": "KDB025",
+    "preferred_name": "rated operational voltage for IT systems, AC",
+    "definition": "maximum value of the AC rated operational voltage for which the device is suitable for use on IT systems",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "LEVEL(MAX) OF INT_MEASURE_TYPE",
+    "unit": "0112/2///62720#UAA296",
+    "definition_class": "0112/2///63508#KDA221",
+    "value_format": "NR2..4.2",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDB026",
+    "code": "KDB026",
+    "preferred_name": "instantaneous short-circuit current setting, AC",
+    "definition": "limit of the setting range of the AC current causing the operation of a release without any intentional time-delay",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "unit": "0112/2///62720#UAA101",
+    "definition_class": "0112/2///63508#KDA223",
+    "value_format": "NR2..5.2",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC100",
+    "code": "KDC100",
+    "preferred_name": "reference to block Identification",
+    "definition": "reference property linked to the generic block KDF010 for Identification, for assignment to any class",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDF010)",
+    "definition_class": "0112/2///63508#KDA010",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC101",
+    "code": "KDC101",
+    "preferred_name": "reference to block General technical data",
+    "definition": "reference property linked to the specialized block KDE010 for General technical data",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE010)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC102",
+    "code": "KDC102",
+    "preferred_name": "reference to block Main circuit",
+    "definition": "reference property linked to the specialized block KDE013 for Main circuit",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE013)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC103",
+    "code": "KDC103",
+    "preferred_name": "reference to block Short-circuit",
+    "definition": "reference property linked to the specialized block KDE016 for Short-circuit",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE016)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC104",
+    "code": "KDC104",
+    "preferred_name": "reference to block Tripping characteristics",
+    "definition": "reference property linked to the specialized block KDE019 for Tripping characteristics or over-current release",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE019)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC105",
+    "code": "KDC105",
+    "preferred_name": "reference to block Control and auxiliary circuits",
+    "definition": "reference property linked to the generic block KDA224 for Control and auxiliary circuits, for assignment to any class",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDA224)",
+    "definition_class": "0112/2///63508#KDA020",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC106",
+    "code": "KDC106",
+    "preferred_name": "reference to block Installation, mounting and dimension",
+    "definition": "reference property linked to the generic block KDA225 for Installation, mounting and dimension, for assignment to any class",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDA225)",
+    "definition_class": "0112/2///63508#KDA020",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC107",
+    "code": "KDC107",
+    "preferred_name": "reference to block Connection",
+    "definition": "reference property linked to the specialized block KDE028 for Connection facilities",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE028)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC108",
+    "code": "KDC108",
+    "preferred_name": "reference to block Environmental conditions",
+    "definition": "reference property linked to the specialized block KDE031 for Environmental conditions",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE031)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDC109",
+    "code": "KDC109",
+    "preferred_name": "reference to block Product certificates and standards",
+    "definition": "reference property linked to the specialized block KDE034 for Product certificates and standards",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "property",
+    "data_type": "CLASS_REFERENCE_TYPE(0112/2///63508#KDE034)",
+    "definition_class": "0112/2///63508#KDA021",
+    "data_element_type": "NON_DEPENDENT_P_DET"
+  },
+  {
+    "irdi": "0112/2///63508#KDD101",
+    "code": "KDD101",
+    "preferred_name": "overvoltage category",
+    "definition": "value list for overvoltage category",
+    "synonyms": [],
+    "source_document": "IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT001",
+      "0112/2///63508#KDT002",
+      "0112/2///63508#KDT003",
+      "0112/2///63508#KDT004"
+    ],
+    "code_list": [
+      "OVC_I",
+      "OVC_II",
+      "OVC_III",
+      "OVC_IV"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD102",
+    "code": "KDD102",
+    "preferred_name": "Range of instantaneous tripping current",
+    "definition": "value list for range of instantaneous tripping current",
+    "synonyms": [],
+    "source_document": "IEC 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT005",
+      "0112/2///63508#KDT006",
+      "0112/2///63508#KDT007"
+    ],
+    "code_list": [
+      "Type B",
+      "Type C",
+      "Type D"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD103",
+    "code": "KDD103",
+    "preferred_name": "Energy limiting class according to EN 60898-1",
+    "definition": "value list for energy limiting class according to EN 60898-1",
+    "synonyms": [],
+    "source_document": "EN 60898-1",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT008",
+      "0112/2///63508#KDT009",
+      "0112/2///63508#KDT010"
+    ],
+    "code_list": [
+      "class 1",
+      "class 3",
+      "not applicable"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD104",
+    "code": "KDD104",
+    "preferred_name": "Type of terminals",
+    "definition": "value list for type of terminals",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT011",
+      "0112/2///63508#KDT012",
+      "0112/2///63508#KDT013",
+      "0112/2///63508#KDT014",
+      "0112/2///63508#KDT015",
+      "0112/2///63508#KDT016"
+    ],
+    "code_list": [
+      "screw-type for Cu",
+      "screwless type for Cu",
+      "flat quick-connect for Cu",
+      "plug-in",
+      "screw-type for Al",
+      "screw-type for Cu and Al"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD105",
+    "code": "KDD105",
+    "preferred_name": "Third-party mark of conformity",
+    "definition": "value list for Third-party mark of conformity",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT017",
+      "0112/2///63508#KDT018",
+      "0112/2///63508#KDT019",
+      "0112/2///63508#KDT020",
+      "0112/2///63508#KDT021",
+      "0112/2///63508#KDT022",
+      "0112/2///63508#KDT023",
+      "0112/2///63508#KDT024",
+      "0112/2///63508#KDT025",
+      "0112/2///63508#KDT026",
+      "0112/2///63508#KDT027",
+      "0112/2///63508#KDT028",
+      "0112/2///63508#KDT029",
+      "0112/2///63508#KDT030",
+      "0112/2///63508#KDT031",
+      "0112/2///63508#KDT032",
+      "0112/2///63508#KDT033",
+      "0112/2///63508#KDT034",
+      "0112/2///63508#KDT035",
+      "0112/2///63508#KDT036",
+      "0112/2///63508#KDT037",
+      "0112/2///63508#KDT038",
+      "0112/2///63508#KDT039",
+      "0112/2///63508#KDT040",
+      "0112/2///63508#KDT041",
+      "0112/2///63508#KDT042",
+      "0112/2///63508#KDT043",
+      "0112/2///63508#KDT044",
+      "0112/2///63508#KDT045",
+      "0112/2///63508#KDT046",
+      "0112/2///63508#KDT047",
+      "0112/2///63508#KDT048",
+      "0112/2///63508#KDT049",
+      "0112/2///63508#KDT050"
+    ],
+    "code_list": [
+      "ACAA",
+      "AENOR",
+      "BBJ",
+      "BSMI",
+      "CCC",
+      "CEBEC",
+      "CERTIF",
+      "D",
+      "EAC",
+      "EZU",
+      "FI",
+      "GS",
+      "IMQ",
+      "INGER",
+      "IRAM",
+      "ISI",
+      "KC",
+      "KEMA",
+      "SNI",
+      "N",
+      "NF",
+      "NOM",
+      "INMETRO",
+      "OVE",
+      "RCM",
+      "S",
+      "S+",
+      "SABS",
+      "Safety Mark",
+      "SIRIM",
+      "TISI",
+      "TSE",
+      "UKCA",
+      "VDE"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD106",
+    "code": "KDD106",
+    "preferred_name": "pollution degree",
+    "definition": "value list for Pollution degree",
+    "synonyms": [],
+    "source_document": "IEC 60664-1:2020, 4,5",
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT051",
+      "0112/2///63508#KDT052",
+      "0112/2///63508#KDT053"
+    ],
+    "code_list": [
+      "DEG1",
+      "DEG2",
+      "DEG3"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD107",
+    "code": "KDD107",
+    "preferred_name": "short-circuit values",
+    "definition": "value list for Short-circuit values",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT054",
+      "0112/2///63508#KDT055",
+      "0112/2///63508#KDT056",
+      "0112/2///63508#KDT057",
+      "0112/2///63508#KDT058",
+      "0112/2///63508#KDT059",
+      "0112/2///63508#KDT060",
+      "0112/2///63508#KDT061",
+      "0112/2///63508#KDT062",
+      "0112/2///63508#KDT063",
+      "0112/2///63508#KDT064",
+      "0112/2///63508#KDT065",
+      "0112/2///63508#KDT066",
+      "0112/2///63508#KDT067",
+      "0112/2///63508#KDT068"
+    ],
+    "code_list": [
+      "1000A",
+      "1500A",
+      "2000A",
+      "2500A",
+      "3000A",
+      "4500A",
+      "5000A",
+      "6000A",
+      "7500A",
+      "9000A",
+      "10000A",
+      "15000A",
+      "16000A",
+      "20000A",
+      "25000A"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD108",
+    "code": "KDD108",
+    "preferred_name": "Number of switched poles",
+    "definition": "value list for Number of switched poles",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT069",
+      "0112/2///63508#KDT070",
+      "0112/2///63508#KDT071",
+      "0112/2///63508#KDT072"
+    ],
+    "code_list": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDD109",
+    "code": "KDD109",
+    "preferred_name": "miniature circuit-breaker standards",
+    "definition": "list of reference standards for circuit-breakers and similar equipment",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_list",
+    "term_irdis": [
+      "0112/2///63508#KDT073",
+      "0112/2///63508#KDT074",
+      "0112/2///63508#KDT075",
+      "0112/2///63508#KDT076",
+      "0112/2///63508#KDT077",
+      "0112/2///63508#KDT078",
+      "0112/2///63508#KDT079",
+      "0112/2///63508#KDT080",
+      "0112/2///63508#KDT081",
+      "0112/2///63508#KDT082",
+      "0112/2///63508#KDT083",
+      "0112/2///63508#KDT084",
+      "0112/2///63508#KDT085",
+      "0112/2///63508#KDT086"
+    ],
+    "code_list": [
+      "IEC 60898-1",
+      "EN 60898-1",
+      "IEC 60898-1 & IEC 60947-2",
+      "EN 60898-1 & EN 60947-2",
+      "IEC 62606",
+      "EN 62606",
+      "\"IEC 61008-2-1#002C \"",
+      "\"EN 61008-2-1#002C \"",
+      "\"IEC 61008-2-2#002C \"",
+      "IEC 61009-2-1",
+      "EN 61009-2-1",
+      "IEC 61009-2-2",
+      "IEC 62423",
+      "EN 62423"
+    ]
+  },
+  {
+    "irdi": "0112/2///63508#KDT001",
+    "code": "KDT001",
+    "preferred_name": "OVC_I",
+    "definition": "overvoltage category used when there is no direct connection to a mains supply",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT002",
+    "code": "KDT002",
+    "preferred_name": "OVC_II",
+    "definition": "overvoltage category used for energy-consuming equipment to be supplied from the fixed installation",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT003",
+    "code": "KDT003",
+    "preferred_name": "OVC_III",
+    "definition": "overvoltage category used in fixed installations and for cases where the reliability and the availability of the equipment is subject to special requirements",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT004",
+    "code": "KDT004",
+    "preferred_name": "OVC_IV",
+    "definition": "overvoltage category used at the origin of the installation",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT005",
+    "code": "KDT005",
+    "preferred_name": "Type B",
+    "definition": "instantaneous tripping above 3 In up to and including 5 In",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT006",
+    "code": "KDT006",
+    "preferred_name": "Type C",
+    "definition": "instantaneous tripping above 5 In up to and including 10 In",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT007",
+    "code": "KDT007",
+    "preferred_name": "Type D",
+    "definition": "instantaneous tripping above 10 In up to and including 20 In",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT008",
+    "code": "KDT008",
+    "preferred_name": "class 1",
+    "definition": "No I2t limitation",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT009",
+    "code": "KDT009",
+    "preferred_name": "class 3",
+    "definition": "Enhanced I2t for cables protection",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT010",
+    "code": "KDT010",
+    "preferred_name": "not applicable",
+    "definition": "default answer",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT011",
+    "code": "KDT011",
+    "preferred_name": "screw-type for copper conductors",
+    "definition": "screw based terminal adapted to copper conductors",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT012",
+    "code": "KDT012",
+    "preferred_name": "screwless type for copper conductors",
+    "definition": "screwless based terminal adapted to copper conductors",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT013",
+    "code": "KDT013",
+    "preferred_name": "flat quick-connect for copper conductors",
+    "definition": "flat quick connection terminal type for copper conductor",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT014",
+    "code": "KDT014",
+    "preferred_name": "plug-in",
+    "definition": "pluggable terminal",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT015",
+    "code": "KDT015",
+    "preferred_name": "screw-type for aluminium conductors",
+    "definition": "screw based terminal adapted to aluminium conductors",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT016",
+    "code": "KDT016",
+    "preferred_name": "screw-type for copper and aluminium conductors",
+    "definition": "screw based terminal adapted to copper and aluminium conductors",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT017",
+    "code": "KDT017",
+    "preferred_name": "ACAA",
+    "short_name": "ACAA",
+    "definition": "African Conformity Assessment Association",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT018",
+    "code": "KDT018",
+    "preferred_name": "AENOR",
+    "short_name": "AENOR",
+    "definition": "Spanish Association for Standardization and Certification",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT019",
+    "code": "KDT019",
+    "preferred_name": "BBJ",
+    "short_name": "BBJ",
+    "definition": "Bureau of Product Quality Certification",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT020",
+    "code": "KDT020",
+    "preferred_name": "BSMI",
+    "short_name": "BSMI",
+    "definition": "Bureau of Standards, Metrology and Inspection",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT021",
+    "code": "KDT021",
+    "preferred_name": "CCC",
+    "short_name": "CCC",
+    "definition": "China Compulsory Certification",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT022",
+    "code": "KDT022",
+    "preferred_name": "CEBEC",
+    "short_name": "CEBEC",
+    "definition": "Belgian Electrotechnical Certification Body",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT023",
+    "code": "KDT023",
+    "preferred_name": "CERTIF",
+    "short_name": "CERTIF",
+    "definition": "Certification Body",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT024",
+    "code": "KDT024",
+    "preferred_name": "D",
+    "short_name": "D",
+    "definition": "Deutsches Institut für Normung",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT025",
+    "code": "KDT025",
+    "preferred_name": "EAC",
+    "short_name": "EAC",
+    "definition": "Eurasian Conformity",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT026",
+    "code": "KDT026",
+    "preferred_name": "EZU",
+    "short_name": "EZU",
+    "definition": "European Conformity Assessment Body",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT027",
+    "code": "KDT027",
+    "preferred_name": "FI",
+    "short_name": "FI",
+    "definition": "Finnish Standards Association",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT028",
+    "code": "KDT028",
+    "preferred_name": "GS",
+    "short_name": "GS",
+    "definition": "Geprüfte Sicherheit (Tested Safety)",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT029",
+    "code": "KDT029",
+    "preferred_name": "IMQ",
+    "short_name": "IMQ",
+    "definition": "Italian Institute of Quality Mark",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT030",
+    "code": "KDT030",
+    "preferred_name": "INGER",
+    "short_name": "INGER",
+    "definition": "Institute for Electrical Engineering",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT031",
+    "code": "KDT031",
+    "preferred_name": "IRAM",
+    "short_name": "IRAM",
+    "definition": "Argentine Institute for Standardization",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT032",
+    "code": "KDT032",
+    "preferred_name": "ISI",
+    "short_name": "ISI",
+    "definition": "Indian Standards Institute",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT033",
+    "code": "KDT033",
+    "preferred_name": "KC",
+    "short_name": "KC",
+    "definition": "Korean Certification",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT034",
+    "code": "KDT034",
+    "preferred_name": "KEMA",
+    "short_name": "KEMA",
+    "definition": "KEMA Quality",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT035",
+    "code": "KDT035",
+    "preferred_name": "SNI",
+    "short_name": "SNI",
+    "definition": "Indonesian National Standards",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT036",
+    "code": "KDT036",
+    "preferred_name": "N",
+    "short_name": "N",
+    "definition": "Norme",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT037",
+    "code": "KDT037",
+    "preferred_name": "NF",
+    "short_name": "NF",
+    "definition": "Norme Française",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT038",
+    "code": "KDT038",
+    "preferred_name": "NOM",
+    "short_name": "NOM",
+    "definition": "Norma Oficial Mexicana",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT039",
+    "code": "KDT039",
+    "preferred_name": "INMETRO",
+    "short_name": "INMETRO",
+    "definition": "National Institute of Metrology, Standardization and Industrial Quality",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT040",
+    "code": "KDT040",
+    "preferred_name": "OVE",
+    "short_name": "OVE",
+    "definition": "Austrian Electrotechnical Association",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT041",
+    "code": "KDT041",
+    "preferred_name": "RCM",
+    "short_name": "RCM",
+    "definition": "Regulatory Compliance Mark",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT042",
+    "code": "KDT042",
+    "preferred_name": "S",
+    "short_name": "S",
+    "definition": "Safety",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT043",
+    "code": "KDT043",
+    "preferred_name": "S+",
+    "short_name": "S+",
+    "definition": "Enhanced Safety",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT044",
+    "code": "KDT044",
+    "preferred_name": "SABS",
+    "short_name": "SABS",
+    "definition": "South African Bureau of Standards",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT045",
+    "code": "KDT045",
+    "preferred_name": "SAFETY Mark",
+    "short_name": "Safety Mark",
+    "definition": "Safety Certification Mark",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT046",
+    "code": "KDT046",
+    "preferred_name": "SIRIM",
+    "short_name": "SIRIM",
+    "definition": "Standards and Industrial Research Institute Malaysia",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT047",
+    "code": "KDT047",
+    "preferred_name": "TISI",
+    "short_name": "TISI",
+    "definition": "Thai Industrial Standards Institute",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT048",
+    "code": "KDT048",
+    "preferred_name": "TSE",
+    "short_name": "TSE",
+    "definition": "Turkish Standards Institute",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT049",
+    "code": "KDT049",
+    "preferred_name": "UKCA",
+    "short_name": "UKCA",
+    "definition": "UK Conformity Assessment",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT050",
+    "code": "KDT050",
+    "preferred_name": "VDE",
+    "short_name": "VDE",
+    "definition": "Verband der Elektrotechnik, Elektronik und Informationstechnik",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT051",
+    "code": "KDT051",
+    "preferred_name": "degree 1",
+    "definition": "No pollution or only dry, non-conductive pollution occurs.",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT052",
+    "code": "KDT052",
+    "preferred_name": "degree 2",
+    "definition": "Only non-conductive pollution occurs except that occasionally a temporary conductivity caused by condensation is to be expected",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT053",
+    "code": "KDT053",
+    "preferred_name": "degree 3",
+    "definition": "Conductive pollution occurs or dry non-conductive pollution occurs which becomes conductive due to condensation which is to be expected",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT054",
+    "code": "KDT054",
+    "preferred_name": "1 000 A",
+    "definition": "rated short-circuit value (1000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT055",
+    "code": "KDT055",
+    "preferred_name": "1 500 A",
+    "definition": "rated short-circuit value (1500 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT056",
+    "code": "KDT056",
+    "preferred_name": "2 000 A",
+    "definition": "rated short-circuit value (2000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT057",
+    "code": "KDT057",
+    "preferred_name": "2 500 A",
+    "definition": "rated short-circuit value (2500 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT058",
+    "code": "KDT058",
+    "preferred_name": "3 000 A",
+    "definition": "rated short-circuit value (3000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT059",
+    "code": "KDT059",
+    "preferred_name": "4 500 A",
+    "definition": "rated short-circuit value (4500 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT060",
+    "code": "KDT060",
+    "preferred_name": "5 000 A",
+    "definition": "rated short-circuit value (5000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT061",
+    "code": "KDT061",
+    "preferred_name": "6 000 A",
+    "definition": "rated short-circuit value (6000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT062",
+    "code": "KDT062",
+    "preferred_name": "7 500 A",
+    "definition": "rated short-circuit value (7500 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT063",
+    "code": "KDT063",
+    "preferred_name": "9 000 A",
+    "definition": "rated short-circuit value (9000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT064",
+    "code": "KDT064",
+    "preferred_name": "10 000 A",
+    "definition": "rated short-circuit value (10000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT065",
+    "code": "KDT065",
+    "preferred_name": "15 000 A",
+    "definition": "rated short-circuit value (15000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT066",
+    "code": "KDT066",
+    "preferred_name": "16 000 A",
+    "definition": "rated short-circuit value (16000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT067",
+    "code": "KDT067",
+    "preferred_name": "20 000 A",
+    "definition": "rated short-circuit value (20000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT068",
+    "code": "KDT068",
+    "preferred_name": "25 000 A",
+    "definition": "rated short-circuit value (25000 A) assigned to the equipement",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT069",
+    "code": "KDT069",
+    "preferred_name": "1",
+    "definition": "1 swicthed pole present in the equipment",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT070",
+    "code": "KDT070",
+    "preferred_name": "2",
+    "definition": "2 swicthed pole present in the equipment",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT071",
+    "code": "KDT071",
+    "preferred_name": "3",
+    "definition": "3 swicthed pole present in the equipment",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT072",
+    "code": "KDT072",
+    "preferred_name": "4",
+    "definition": "4 swicthed pole present in the equipment",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT073",
+    "code": "KDT073",
+    "preferred_name": "IEC 60898-1",
+    "definition": "international MCB reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT074",
+    "code": "KDT074",
+    "preferred_name": "EN 60898-1",
+    "definition": "european MCB reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT075",
+    "code": "KDT075",
+    "preferred_name": "IEC 60898-1 & IEC 60947-2",
+    "definition": "dual international MCB reference standards for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT076",
+    "code": "KDT076",
+    "preferred_name": "EN 60898-1 & EN 60947-2",
+    "definition": "dual european MCB reference standards for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT077",
+    "code": "KDT077",
+    "preferred_name": "IEC 62606",
+    "definition": "international AFDD reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT078",
+    "code": "KDT078",
+    "preferred_name": "EN 62606",
+    "definition": "european AFDD reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT079",
+    "code": "KDT079",
+    "preferred_name": "IEC 61008-2-1,",
+    "definition": "international voltage independent RCCB reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT080",
+    "code": "KDT080",
+    "preferred_name": "EN 61008-2-1,",
+    "definition": "european voltage independent RCCB reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT081",
+    "code": "KDT081",
+    "preferred_name": "IEC 61008-2-2,",
+    "definition": "international voltage dependent RCCB reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT082",
+    "code": "KDT082",
+    "preferred_name": "IEC 61009-2-1",
+    "definition": "international voltage independent RCBO reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT083",
+    "code": "KDT083",
+    "preferred_name": "EN 61009-2-1",
+    "definition": "european voltage independent RCBO reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT084",
+    "code": "KDT084",
+    "preferred_name": "IEC 61009-2-2",
+    "definition": "international voltage dependent RCBO reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT085",
+    "code": "KDT085",
+    "preferred_name": "IEC 62423",
+    "definition": "international type F and type B RCD reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  },
+  {
+    "irdi": "0112/2///63508#KDT086",
+    "code": "KDT086",
+    "preferred_name": "EN 62423",
+    "definition": "european type F and type B RCD reference standard for compliance purpose",
+    "synonyms": [],
+    "version": "1",
+    "revision": "1",
+    "dates": {
+      "original_definition": "2025-10-15",
+      "current_version": "2025-10-15",
+      "current_revision": "2025-10-15"
+    },
+    "type": "value_term"
+  }
+]
