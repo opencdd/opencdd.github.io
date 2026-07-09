@@ -63,7 +63,7 @@ describe("buildFlatTree", () => {
       { irdi: "0112/2///61360_4#AAA999", code: undefined, name: undefined, classType: undefined, superclass: undefined, children: [] },
     ];
     const flat = buildFlatTree(makeBundle(tree) as DictionaryBundle);
-    expect(flat[0].code).toBe("AAA999");
-    expect(flat[0].label).toBe("AAA999");
+    expect(flat[0]?.code).toBe("AAA999");
+    expect(flat[0]?.label).toBe("AAA999");
   });
 });
