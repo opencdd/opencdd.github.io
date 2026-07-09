@@ -2,61 +2,59 @@
   {
     "irdi": "0112/2///63213#KEA001",
     "code": "KEA001",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Measuring equipment domain for electrical and electromagnetic quantities",
     "definition": "domain covering equipment, systems and methods used in the fields of measurement, test, recurrent test, monitoring, evaluation, generation and analysis of steady state and dynamic (including temporary and transients) electrical and electromagnetic quantities, as well as their calibrators",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA010",
     "code": "KEA010",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Measurement equipment blocks of properties",
     "definition": "list of properties grouped by nature for the characterisation of measurement equipment",
     "synonyms": [],
     "note": "See mainly IEC 61557 series.",
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA001",
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA001",
+    "superclass_type_property": "0112/2///63213#KEA001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA011",
     "code": "KEA011",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Installation, mounting and dimensions",
     "definition": "physical information of the device for installation",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [
       "0112/2///62683#ACC066"
     ],
@@ -72,24 +70,25 @@
     "imported_properties": [
       "0112/2///62683#ACE808"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA012",
     "code": "KEA012",
+    "version": "3",
+    "revision": "1",
     "preferred_name": "General technical data",
     "definition": "general technical aspects of the device",
     "synonyms": [],
-    "version": "3",
-    "revision": "1",
     "dates": {
       "original_definition": "2011-03-04",
       "current_version": "2023-08-30",
       "current_revision": "2023-08-30"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA307",
@@ -107,24 +106,25 @@
       "0112/2///63213#KEA343"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA015",
     "code": "KEA015",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Environmental conditions",
     "definition": "general environmental aspects of the device",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [
       "0112/2///62683#ACC012"
     ],
@@ -135,24 +135,25 @@
     "imported_properties": [
       "0112/2///62683#ACE247"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA016",
     "code": "KEA016",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Input current measurement channel",
     "definition": "information about current measurement interfaces",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA359",
@@ -162,24 +163,25 @@
       "0112/2///63213#KEA357"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA018",
     "code": "KEA018",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Input voltage measurement channel",
     "definition": "information about voltage measurement interfaces",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA369",
@@ -189,24 +191,25 @@
       "0112/2///63213#KEA365"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA020",
     "code": "KEA020",
+    "version": "3",
+    "revision": "1",
     "preferred_name": "Additional input/output circuit",
     "definition": "information about I/O interfaces",
     "synonyms": [],
-    "version": "3",
-    "revision": "1",
     "dates": {
       "original_definition": "2017-10-20",
       "current_version": "2023-08-30",
       "current_revision": "2023-08-30"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [
       "0112/2///62683#ACC015"
     ],
@@ -219,24 +222,25 @@
       "0112/2///62683#ACE333",
       "0112/2///62683#ACE332"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA022",
     "code": "KEA022",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Data communication",
     "definition": "information about data communication interfaces",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA401",
@@ -246,24 +250,25 @@
       "0112/2///63213#KEA404"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA024",
     "code": "KEA024",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Product certificates and standards",
     "definition": "information about conformity assessment",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA391",
@@ -271,24 +276,25 @@
       "0112/2///63213#KEA393"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA026",
     "code": "KEA026",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Data format for record",
     "definition": "information about the format of data stored",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA395",
@@ -297,115 +303,120 @@
       "0112/2///63213#KEA398"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA028",
     "code": "KEA028",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Time synchronisation",
     "definition": "information about the way the device can be synchronized against time",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA400"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA030",
     "code": "KEA030",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Memory size",
     "definition": "information about storage capabilities",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA408",
       "0112/2///63213#KEA409"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA032",
     "code": "KEA032",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "PQ reports",
     "definition": "information about the power quality reports that can be delivered",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEA410"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB001",
     "code": "KEB001",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Measurement equipment specialised blocks of properties",
     "definition": "specialised list of properties grouped by nature for the characterisation of measurement equipment",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA010",
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA010",
+    "superclass_type_property": "0112/2///63213#KEA010",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB004",
     "code": "KEB004",
+    "version": "3",
+    "revision": "1",
     "preferred_name": "General technical data for PMD",
     "definition": "general technical aspects of PMD",
     "synonyms": [],
-    "version": "3",
-    "revision": "1",
     "dates": {
       "original_definition": "2018-11-01",
       "current_version": "2023-08-30",
       "current_revision": "2023-08-30"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///63213#KEA012"
     ],
@@ -424,24 +435,25 @@
       "0112/2///63213#KEA344",
       "0112/2///63213#KEA343"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB006",
     "code": "KEB006",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Environmental conditions for PMD",
     "definition": "general environmental aspects of the PMD",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///62683#ACC012",
       "0112/2///63213#KEA015"
@@ -451,24 +463,25 @@
       "0112/2///62683#ACE247",
       "0112/2///63213#KEA332"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB022",
     "code": "KEB022",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Data communication for PMD",
     "definition": "information about data communication interfaces of PMD",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///63213#KEA022"
     ],
@@ -480,24 +493,25 @@
       "0112/2///63213#KEA407",
       "0112/2///63213#KEA404"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB024",
     "code": "KEB024",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Product certificates and standards for PMD",
     "definition": "product certificates and standards for PMD",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///63213#KEA024"
     ],
@@ -506,24 +520,25 @@
       "0112/2///63213#KEA391",
       "0112/2///63213#KEA393"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB104",
     "code": "KEB104",
+    "version": "3",
+    "revision": "1",
     "preferred_name": "General technical data for PQI",
     "definition": "general technical aspects of PQI",
     "synonyms": [],
-    "version": "3",
-    "revision": "1",
     "dates": {
       "original_definition": "2018-11-01",
       "current_version": "2023-08-30",
       "current_revision": "2023-08-30"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///63213#KEA012"
     ],
@@ -541,24 +556,25 @@
       "0112/2///63213#KEA344",
       "0112/2///63213#KEA343"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB106",
     "code": "KEB106",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Environmental conditions for PQI",
     "definition": "general environmental aspects of the PQI",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///62683#ACC012",
       "0112/2///63213#KEA015"
@@ -568,24 +584,25 @@
       "0112/2///62683#ACE247",
       "0112/2///63213#KEA339"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB122",
     "code": "KEB122",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Data communication for PQI",
     "definition": "information about data communication interfaces of PQI",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///63213#KEA022"
     ],
@@ -597,24 +614,25 @@
       "0112/2///63213#KEA407",
       "0112/2///63213#KEA404"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEB124",
     "code": "KEB124",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Product certificates and standards for PQI",
     "definition": "product certificates and standards for PQI",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEB001",
     "is_case_of": [
       "0112/2///63213#KEA024"
     ],
@@ -623,48 +641,50 @@
       "0112/2///63213#KEA392",
       "0112/2///63213#KEA393"
     ],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEB001",
+    "superclass_type_property": "0112/2///63213#KEB001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA100",
     "code": "KEA100",
+    "version": "1",
+    "revision": "1",
     "preferred_name": "Equipment for measuring and monitoring of steady state and dynamic quantities in power distribution systems",
     "definition": "set of measurement devices and their combination with accessories",
     "synonyms": [],
-    "version": "1",
-    "revision": "1",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2021-08-26"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA001",
     "is_case_of": [],
     "applicable_properties": [],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA001",
+    "superclass_type_property": "0112/2///63213#KEA001",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA101",
     "code": "KEA101",
+    "version": "1",
+    "revision": "2",
     "preferred_name": "PMD (Power Metering and monitoring Device)",
     "definition": "combination in one or more devices of several functional modules dedicated to metering and monitoring electrical parameters in energy distribution systems or electrical installations, used for applications such as energy efficiency, power monitoring and network performance",
+    "source_document": "3.1.1 of IEC 61557-12:2018",
     "synonyms": [],
     "note": "Note 1 to entry: Under the generic term “monitoring” are also included functions of recording, alarm management, etc.\r\nNote 2 to entry: These devices may include demand side quality functions for monitoring inside commercial/industrial installations. \r\nNote 3 to entry: This note applies to the French language only.",
     "remark": "Reference to ECLASS: 27-14-23-35",
-    "source_document": "3.1.1 of IEC 61557-12:2018",
-    "version": "1",
-    "revision": "2",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2023-08-30"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA100",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEC001",
@@ -678,25 +698,26 @@
       "0112/2///63213#KEC024"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA100",
+    "superclass_type_property": "0112/2///63213#KEA100",
+    "type": "class"
   },
   {
     "irdi": "0112/2///63213#KEA102",
     "code": "KEA102",
+    "version": "1",
+    "revision": "2",
     "preferred_name": "PQI (Power Quality Instrument)",
     "definition": "instrument whose main function is to measure, record and possibly monitor power quality parameters in power supply systems, and whose measuring methods are standardized",
     "synonyms": [],
     "remark": "Reference to ECLASS: 27-14-23-36",
-    "version": "1",
-    "revision": "2",
     "dates": {
       "original_definition": "2021-08-26",
       "current_version": "2021-08-26",
       "current_revision": "2023-08-30"
     },
-    "type": "class",
-    "class_type": "ITEM_CLASS",
-    "superclass": "0112/2///63213#KEA100",
     "is_case_of": [],
     "applicable_properties": [
       "0112/2///63213#KEC001",
@@ -714,6 +735,10 @@
       "0112/2///63213#KEC032"
     ],
     "imported_properties": [],
-    "sub_class_selection": []
+    "sub_class_selection": [],
+    "class_type": "ITEM_CLASS",
+    "superclass": "0112/2///63213#KEA100",
+    "superclass_type_property": "0112/2///63213#KEA100",
+    "type": "class"
   }
 ]
