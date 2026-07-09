@@ -14,8 +14,10 @@ interface Props {
   label?: string;
   /** Optional override type. */
   type?: EntityType;
-  /** Render the code in monospace alongside the label. */
-  showCode?: boolean;
+  /** Show the full IRDI instead of the short code. */
+  showIrdi?: boolean;
+  /** Suppress the code prefix entirely. */
+  hideCode?: boolean;
 }
 
 const {
@@ -25,7 +27,8 @@ const {
   code,
   label,
   type,
-  showCode = false,
+  showIrdi = false,
+  hideCode = false,
 } = Astro.props;
 
 const node: EntityNode | undefined = bundle.entities.get(irdi);
@@ -35,23 +38,25 @@ const resolvedLabel =
   label ?? node?.preferred_name ?? node?.code ?? codeFromIrdi(irdi);
 
 const detailable = resolvedType ? detailableTypeOf({ type: resolvedType, irdi } as EntityNode) : null;
+const identifier = showIrdi ? irdi : resolvedCode;
 ---
 
 {detailable && resolvedType ? (
   <a
     href={entityRoute(slug, resolvedType, resolvedCode)}
+    title={`${irdi} — ${resolvedLabel}`}
     class="text-accent-700 underline decoration-dotted underline-offset-2 transition hover:text-accent-900 hover:decoration-solid"
   >
-    {resolvedLabel}
-    {showCode && (
-      <span class="ml-1 font-mono text-[11px] text-ink-400">[{resolvedCode}]</span>
+    {!hideCode && (
+      <span class="mr-1 font-mono text-[10px] text-ink-400">{identifier}</span>
     )}
+    {resolvedLabel}
   </a>
 ) : (
-  <span class="text-ink-700">
-    {resolvedLabel}
-    {showCode && (
-      <span class="ml-1 font-mono text-[11px] text-ink-400">[{resolvedCode}]</span>
+  <span class="text-ink-700" title={irdi}>
+    {!hideCode && (
+      <span class="mr-1 font-mono text-[10px] text-ink-400">{identifier}</span>
     )}
+    {resolvedLabel}
   </span>
 )}

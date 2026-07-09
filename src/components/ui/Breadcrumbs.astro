@@ -29,6 +29,7 @@ const { slug, crumbs, bundle } = Astro.props;
           <li class="flex items-center gap-1.5">
             {isLast ? (
               <span aria-current="page" class="font-medium text-ink-800">
+                <span class="mr-1 font-mono text-[10px] text-ink-400">{code}</span>
                 {name}
               </span>
             ) : (

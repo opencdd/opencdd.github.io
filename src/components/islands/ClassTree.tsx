@@ -379,13 +379,14 @@ export default function ClassTree({ dict, initialHighlightedIrdi }: Props) {
                     ref={i === focusIdx ? focusRef : undefined}
                     href={href}
                     data-irdi={node.irdi}
-                    title={node.label}
+                    title={`${node.irdi} — ${node.label}`}
                     class={`flex flex-1 items-baseline gap-1.5 truncate py-0.5 pr-1 text-[13px] leading-snug ${
                       isActive
                         ? "font-medium text-accent-900"
                         : "text-ink-800"
                     }`}
                   >
+                    <span class="shrink-0 font-mono text-[10px] text-ink-400">{node.code}</span>
                     <span class="truncate">{node.label}</span>
                     {node.declaredPropertyCount > 0 && (
                       <span class="ml-auto shrink-0 rounded-full bg-sand-200/60 px-1.5 font-mono text-[10px] text-ink-500">
