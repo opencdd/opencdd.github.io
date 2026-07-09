@@ -9,6 +9,7 @@ import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
 import EntityLinkList from "~/components/ui/EntityLinkList.astro";
 import PropertyTable from "~/components/ui/PropertyTable.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
+import RawProperties from "~/components/ui/RawProperties.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
 import UnresolvedIrdiList from "~/components/ui/UnresolvedIrdiList.astro";
 import { loadDictionary, listRegistryEntries } from "~/lib/data";
@@ -263,5 +264,20 @@ const higherLevel = ancestorChain.slice(0, -1);
         <MetadataFields entity={node} />
       </div>
     </Card>
+
+    {(node as any).raw_properties && (
+      <Card>
+        <SectionTitle anchor={true}>Full source data</SectionTitle>
+        <p class="mt-2 text-xs text-ink-500">
+          Every key from the original .xls export, including multilingual
+          variants, status, publisher, committee, and workbook-specific
+          codes. This is the raw, unprocessed content — nothing from the
+          source is discarded.
+        </p>
+        <div class="mt-3">
+          <RawProperties properties={(node as any).raw_properties} />
+        </div>
+      </Card>
+    )}
   </article>
 </DictionaryLayout>

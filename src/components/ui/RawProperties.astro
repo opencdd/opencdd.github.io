@@ -1,0 +1,27 @@
+---
+import { cn } from "~/lib/cn";
+
+interface Props {
+  properties: Record<string, string>;
+  class?: string;
+}
+
+const { properties, class: className } = Astro.props;
+const entries = Object.entries(properties).sort(([a], [b]) => a.localeCompare(b));
+---
+
+{entries.length > 0 && (
+  <details class={cn("group rounded-lg border border-ink-200 bg-sand-50/40", className)}>
+    <summary class="cursor-pointer px-3 py-2 text-xs font-medium text-ink-600 select-none hover:bg-sand-100/60">
+      Raw properties ({entries.length} keys from source .xls) — click to expand
+    </summary>
+    <dl class="grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 px-3 py-2 text-xs">
+      {entries.map(([key, value]) => (
+        <>
+          <dt class="font-mono text-ink-500 whitespace-nowrap">{key}</dt>
+          <dd class="text-ink-800 break-words">{String(value)}</dd>
+        </>
+      ))}
+    </dl>
+  </details>
+)}
