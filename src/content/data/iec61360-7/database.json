@@ -25,6 +25,17 @@
       "MDC_P012": "IEC/SC 3D",
       "C002": "C00095"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2025-03-04 13:10:06",
+        "user": "BATCH 00001249",
+        "unid": "DD63ADC093166478C1258C430042D7EC",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2025-03-04",
       "current_version": "2025-03-04",
@@ -72,6 +83,26 @@
       "MDC_P006.de": "Sammlung von Datenstrukturen, welche als Basis für die Definition von Teilmodellen dienen.",
       "C002": "C00146"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "standard",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "3208DFE9A173BE86C1258A6E004AA346",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "c640c40a1cca00c8c1258a20003c19d8",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2023-09-04",
@@ -117,6 +148,26 @@
       "MDC_P006.de": "Sammlung von Blöcken, welche als Basis für die Definition von Teilmodellen dienen.",
       "C002": "C00146"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "standard",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "1C0E1A8FA0E2080FC1258A6E004AA347",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "381eea2b1868a0ffc1258a20003c19d9",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2023-09-04",
@@ -167,6 +218,26 @@
       "MDC_P008.de": "Die Hersteller-Kontaktinformationen des Typenschild, sofern in Vorschriften definiert.",
       "C002": "C00146"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "standard",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "8B2A5E888781A215C1258A6E004AA348",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "ed0a9eab9b367162c1258a20003c19da",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2023-09-04",
@@ -220,6 +291,26 @@
       "MDC_P006.de": "Sammlung von verschiedenen Kennzeichnungen, die sich auf das Produkt beziehen",
       "C002": "C00146"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "standard",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "E729581C5EBCCFD8C1258A6E004AA34B",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "29fdc0e88f865328c1258a20003c19db",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2023-09-04",
@@ -270,6 +361,26 @@
       "MDC_P006.de": "Merkmale, die Kennzeichen oder Zertifikate charakterisieren, welche mit dem Gerät oder Asset mitgeliefert oder assoziiert sind",
       "C002": "C00146"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "standard",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "27FFD0F3594833D0C1258A6E004AA34C",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "143864d4ba51dcc6c1258a20003c19dc",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2023-09-04",
@@ -324,6 +435,26 @@
       "MDC_P006.de": "Sammlung von Teilmodellen.",
       "C002": "C00146"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "standard",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "4EBA4A6BEA82D009C1258A6E004AA349",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "a1ad61a42a7ad94fc1258a20003c19dd",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2023-09-04",
@@ -372,6 +503,35 @@
       "MDC_P006.de": "Merkmale, die Typenschild-Informationen charakterisieren, welche sich auf das Produkt beziehen",
       "C002": "C00161"
     },
+    "version_history": [
+      {
+        "version": "002",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-05-29 09:23:40",
+        "user": "BATCH 00001238",
+        "unid": "739DED6BABC8FE22C1258B2C00289E95",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "02",
+        "status": "superseded",
+        "timestamp": "2023-11-21 14:35:14",
+        "user": "BATCH 00001237",
+        "unid": "03785aab73a0f5c5c1258a6e004aa34a",
+        "is_current": false
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2023-09-04 12:56:27",
+        "user": "BATCH 00001234",
+        "unid": "434c0d01a1c7a0d4c1258a20003c19de",
+        "is_current": false
+      }
+    ],
     "dates": {
       "original_definition": "2023-09-04",
       "current_version": "2024-05-29",
@@ -441,6 +601,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "659570A1DB67B989C1258D93002C0791",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -493,6 +664,17 @@
       "MDC_P010": "0112/2///61360_7#CAA000",
       "C002": "C00095"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2023-08-30 11:33:49",
+        "user": "BATCH 00001233",
+        "unid": "B2A190CAF6FE7835C1258A1B00348910",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2022-09-19",
       "current_version": "2022-09-19",
@@ -536,6 +718,17 @@
       "MDC_P010": "0112/2///61360_7#CAA001",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "2FC874D8A4B6B3A8C1258B78003F6490",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -583,6 +776,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "BBBDD81FEC831E54C1258D93002C0794",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -642,6 +846,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "DEE656745F4A806BC1258D93002C0795",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -693,6 +908,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA078,0112/2///61360_7#CBA079,0112/2///61360_7#CBA080,0112/2///61360_7#CBA081,0112/2///61360_7#CBA082,0112/2///61360_7#CBA083,0112/2///61360_7#CBA084}",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "234B919C50F6A580C1258D93002C0796",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -748,6 +974,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "D4BFFDF910D9F43DC1258D93002C0797",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -800,6 +1037,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "05ECEFD6ADA219C9C1258D93002C0798",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -851,6 +1099,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "E2D2535659AE04D1C1258D93002C0799",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -901,6 +1160,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die Öffnungszeiten identifizieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "AD2D98FD8B771FE2C1258D93002C079A",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -953,6 +1223,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Zeitperiode für Öffnungszeiten identifizieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "CEE6742679A1DCA1C1258D93002C079B",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1001,6 +1282,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "63D3B891F6DF5A1EC1258D93002C079C",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1050,6 +1342,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "5E77381A2CB41B1DC1258D93002C079D",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1101,6 +1404,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "D57DA4940B9AF3A6C1258D93002C079E",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1159,6 +1473,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "237398941D75E957C1258D93002C079F",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1210,6 +1535,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für täglich wiederkehrende Ereignisse oder Aufgaben definieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "860B6046D35D7AA5C1258D93002C07A0",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1258,6 +1594,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für monatlich wiederkehrende Ereignisse oder Aufgaben definieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "06EA7984FA400C48C1258D93002C07A1",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1306,6 +1653,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für jährlich wiederkehrende Ereignisse oder Aufgaben definieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "661D3EC32E70C7D8C1258D93002C07A2",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1355,6 +1713,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "71AABF45D78680D1C1258D93002C07A3",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1403,6 +1772,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "9273B8513B615642C1258D93002C07A4",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1452,6 +1832,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Liste von Wochentagen kennzeichnen",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "95B8584D752D2C3AC1258D93002C07A5",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1500,6 +1891,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die einen Wochentag kennzeichnen",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "B4B811D6C12DD07DC1258D93002C07A6",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1547,6 +1949,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine URL kennzeichnen",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "8D580A935ADA87C0C1258D93002C07A7",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1595,6 +2008,17 @@
       "MDC_P006.de": "Sammlung von Merkmalen, die eine Sprache kennzeichnen",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "9CA7C5311AFB94F6C1258D93002C07A8",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1647,6 +2071,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "8D80C09F5C4BEF2BC1258D93002C07A9",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1698,6 +2133,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "D5D3E311C739743EC1258D93002C07AA",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1755,6 +2201,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "831E40AD448906A8C1258D93002C07AB",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1809,6 +2266,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "C6B50B12418555E4C1258D93002C07AC",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1861,6 +2329,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "40907439BB6CB581C1258D93002C07AD",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1911,6 +2390,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "C2CCC23D3DCD28ECC1258D93002C07AE",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -1958,6 +2448,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA009,0112/2///61360_7#CBA010,0112/2///61360_7#CBA011,0112/2///61360_7#CBA012,0112/2///61360_7#CBA013,0112/2///61360_7#CBA014}",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "8B89A0A28375F929C1258B78003F6491",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2008,6 +2509,17 @@
       "MDC_P010": "0112/2///61360_7#CAA001",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "1450EDCC1BC7F796C1258B78003F6492",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2052,6 +2564,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA015,0112/2///61360_7#CBA027,0112/2///61360_7#CBA028}",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "BCD60A044457C253C1258B78003F6493",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2100,6 +2623,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA016,0112/2///61360_7#CBA017}",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "2E82C2A87BB61467C1258B78003F6494",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2147,6 +2681,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA025}",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "1B0525914C9D9D3CC1258B78003F6495",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2193,6 +2738,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA026}",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "1E8AAB94A85A30CDC1258B78003F6496",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2239,6 +2795,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA018,0112/2///61360_7#CBA019,0112/2///61360_7#CBA021,0112/2///61360_7#CBA022,0112/2///61360_7#CBA023,0112/2///61360_7#CBA024}",
       "C002": "C00109"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-08-13 13:32:25",
+        "user": "BATCH 00001240",
+        "unid": "35CD0583CCD25181C1258B78003F6497",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-08-13",
       "current_version": "2024-08-13",
@@ -2290,6 +2857,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA029}",
       "C002": "C00164"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-12-10 06:45:30",
+        "user": "BATCH 00001241",
+        "unid": "6B73295EA870E0BDC1258BEF001FA208",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-12-10",
       "current_version": "2024-12-10",
@@ -2336,6 +2914,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA030}",
       "C002": "C00165"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2024-12-10 06:49:41",
+        "user": "BATCH 00001242",
+        "unid": "AD124CC7DEA378F1C1258BEF00200406",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2024-12-10",
       "current_version": "2024-12-10",
@@ -2386,6 +2975,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA268,0112/2///61360_7#CBA269,0112/2///61360_7#CBA270,0112/2///61360_7#CBA271,0112/2///61360_7#CBA272,0112/2///61360_7#CBA273,0112/2///61360_7#CBA274}",
       "C002": "C00193"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-06-02 07:51:00",
+        "user": "BATCH 00001262",
+        "unid": "1642EA0790E7B471C1258E0A00202292",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-06-02",
       "current_version": "2026-06-02",
@@ -2438,6 +3038,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA031,0112/2///61360_7#CBA032,0112/2///61360_7#CBA033,0112/2///61360_7#CBA034,0112/2///61360_7#CBA035,0112/2///61360_7#CBA036,0112/2///61360_7#CBA037,0112/2///61360_7#CBA038,0112/2///61360_7#CBA039,0112/2///61360_7#CBA040,0112/2///61360_7#CBA041,0112/2///61360_7#CBA042,0112/2///61360_7#CBA043,0112/2///61360_7#CBA044,0112/2///61360_7#CBA045,0112/2///61360_7#CBA046,0112/2///61360_7#CBA047,0112/2///61360_7#CBA048,0112/2///61360_7#CBA049,0112/2///61360_7#CBA050,0112/2///61360_7#CBA051,0112/2///61360_7#CBA052,0112/2///61360_7#CBA055,0112/2///61360_7#CBA056,0112/2///61360_7#CBA057,0112/2///61360_7#CBA053,0112/2///61360_7#CBA054}",
       "C002": "C00176"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2025-06-17 09:04:09",
+        "user": "BATCH 00001251",
+        "unid": "02E445A63389FD45C1258CAC0026D51E",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2025-06-17",
       "current_version": "2025-06-17",
@@ -2513,6 +3124,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "C240C5B49550EE0CC1258D93002C0792",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -2577,6 +3199,17 @@
       "C019.de": "Thomas Hadlich",
       "C002": "C00187"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:00:55",
+        "user": "BATCH 00001256",
+        "unid": "DC4973E1B0D47E4DC1258D93002C0793",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2026-02-03",
       "current_version": "2026-02-03",
@@ -2643,6 +3276,17 @@
       "MDC_P014": "{0112/2///61360_7#CBA001,0112/2///61360_7#CBA002,0112/2///61360_7#CBA003,0112/2///61360_7#CBA004,0112/2///61360_7#CBA005,0112/2///61360_7#CBA006,0112/2///61360_7#CBA007,0112/2///61360_7#CBA008}",
       "C002": "C00095"
     },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2023-08-30 11:33:49",
+        "user": "BATCH 00001233",
+        "unid": "FB46B458CCA6E21AC1258A1B00348912",
+        "is_current": true
+      }
+    ],
     "dates": {
       "original_definition": "2022-09-19",
       "current_version": "2022-09-19",
