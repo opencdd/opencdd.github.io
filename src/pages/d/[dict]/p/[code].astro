@@ -9,24 +9,17 @@ import UsedByField from "~/components/ui/UsedByField.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import DataTypeChip from "~/components/ui/DataTypeChip.astro";
 import EntityLink from "~/components/ui/EntityLink.astro";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
 import type { PropertyNode } from "~/lib/types";
 
 export function getStaticPaths() {
-  return listRegistryEntries().flatMap((entry) => {
-    const bundle = loadDictionary(entry.slug);
-    return (bundle.byType.get("property") ?? []).map((node) => ({
-      params: { dict: entry.slug, code: node.code ?? codeFromIrdi(node.irdi) },
-      props: { irdi: node.irdi },
-    }));
-  });
+  return entityStaticPaths("property");
 }
 
 const { dict } = Astro.params;
 const { irdi } = Astro.props;
-const bundle = loadDictionary(dict!);
-const node = bundle.entities.get(irdi as string) as PropertyNode | undefined;
+const { node, bundle } = loadEntityForPage<PropertyNode>(dict!, irdi as string);
 
 if (!node || node.type !== "property") {
   return Astro.redirect("/404/");

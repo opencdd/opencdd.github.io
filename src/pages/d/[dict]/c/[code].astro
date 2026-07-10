@@ -13,24 +13,17 @@ import MetadataFields from "~/components/ui/MetadataFields.astro";
 import RawProperties from "~/components/ui/RawProperties.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
 import UnresolvedIrdiList from "~/components/ui/UnresolvedIrdiList.astro";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
 import type { ClassNode } from "~/lib/types";
 
 export function getStaticPaths() {
-  return listRegistryEntries().flatMap((entry) => {
-    const bundle = loadDictionary(entry.slug);
-    return (bundle.byType.get("class") ?? []).map((node) => ({
-      params: { dict: entry.slug, code: node.code ?? codeFromIrdi(node.irdi) },
-      props: { irdi: node.irdi },
-    }));
-  });
+  return entityStaticPaths("class");
 }
 
 const { dict } = Astro.params;
 const { irdi } = Astro.props;
-const bundle = loadDictionary(dict!);
-const node = bundle.entities.get(irdi as string) as ClassNode | undefined;
+const { node, bundle } = loadEntityForPage<ClassNode>(dict!, irdi as string);
 
 if (!node || node.type !== "class") {
   return Astro.redirect("/404/");
@@ -50,17 +43,14 @@ const ancestorChain = bundle.ancestorChainOf(node.irdi);
 // entities weren't scraped. Surface them visibly so the gap is
 // explicit, instead of silently rendering "No X".
 const applicableIrdis = node.applicable_properties ?? [];
-const unresolvedDeclared = applicableIrdis.filter((i) => !bundle.entities.has(i));
-
 const importedIrdis = node.imported_properties ?? [];
-const unresolvedImported = importedIrdis.filter((i) => !bundle.entities.has(i));
-
 const isCaseOfIrdis = node.is_case_of ?? [];
-const unresolvedIsCaseOf = isCaseOfIrdis.filter((i) => !bundle.entities.has(i));
-
 const compositionIrdis = node.sub_class_selection ?? [];
-const unresolvedComposition = compositionIrdis.filter((i) => !bundle.entities.has(i));
 
+const unresolvedDeclared = bundle.resolveIrdis(applicableIrdis).unresolved;
+const unresolvedImported = bundle.resolveIrdis(importedIrdis).unresolved;
+const unresolvedIsCaseOf = bundle.resolveIrdis(isCaseOfIrdis).unresolved;
+const unresolvedComposition = bundle.resolveIrdis(compositionIrdis).unresolved;
 const unresolvedSuperclass =
   node.superclass && !bundle.entities.has(node.superclass) ? [node.superclass] : [];
 
