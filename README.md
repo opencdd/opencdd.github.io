@@ -52,7 +52,7 @@ This repo is one of four OpenCDD repositories:
 
 ```
 opencdd/cdd-data           (private) Ruby gem + scrapers + source data
-opencdd/cdd-models-ts      (public)  @opencdd/models npm package
+opencdd/opencdd-ts      (public)  @opencdd/models npm package
 opencdd/opencdd.github.io  (public)  the Astro browser (this repo)
 opencdd/editor             (public)  the editor (future)
 ```
