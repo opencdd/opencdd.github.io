@@ -7,24 +7,17 @@ import EntityBadge from "~/components/ui/EntityBadge.astro";
 import ValueTermTable from "~/components/ui/ValueTermTable.astro";
 import UsedByField from "~/components/ui/UsedByField.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
 import type { ValueListNode, ValueTermNode } from "~/lib/types";
 
 export function getStaticPaths() {
-  return listRegistryEntries().flatMap((entry) => {
-    const bundle = loadDictionary(entry.slug);
-    return (bundle.byType.get("value_list") ?? []).map((node) => ({
-      params: { dict: entry.slug, code: node.code ?? codeFromIrdi(node.irdi) },
-      props: { irdi: node.irdi },
-    }));
-  });
+  return entityStaticPaths("value_list");
 }
 
 const { dict } = Astro.params;
 const { irdi } = Astro.props;
-const bundle = loadDictionary(dict!);
-const node = bundle.entities.get(irdi as string) as ValueListNode | undefined;
+const { node, bundle } = loadEntityForPage<ValueListNode>(dict!, irdi as string);
 
 if (!node || node.type !== "value_list") {
   return Astro.redirect("/404/");

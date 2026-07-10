@@ -12,22 +12,37 @@ import type { EntityNode, EntityType } from "./types";
 import type { DictionaryRegistry, DictionaryRegistryEntry } from "./registry";
 import { DictionaryBundle, buildClassTree } from "./bundle";
 
-const DATA_ROOT = resolve(process.cwd(), "src/content/data");
+// Configurable data root — the seam for tests. In production, defaults
+// to src/content/data/ relative to cwd. Tests call configureDataRoot()
+// to redirect to a temp dir without mocking node:path.
+let dataRootValue: string | null = null;
+
+function dataRoot(): string {
+  if (dataRootValue) return dataRootValue;
+  return resolve(process.cwd(), "src/content/data");
+}
+
+/** Override the data root (for tests). Pass null to reset. */
+export function configureDataRoot(path: string | null): void {
+  dataRootValue = path;
+  registryCache = null;
+  bundleCache.clear();
+}
 
 let registryCache: DictionaryRegistry | null = null;
 const bundleCache = new Map<string, DictionaryBundle>();
 
 export function getDataRoot(): string {
-  return DATA_ROOT;
+  return dataRoot();
 }
 
 export function dataExists(): boolean {
-  return existsSync(resolve(DATA_ROOT, "index.json"));
+  return existsSync(resolve(dataRoot(), "index.json"));
 }
 
 export function loadRegistry(): DictionaryRegistry {
   if (registryCache) return registryCache;
-  const path = resolve(DATA_ROOT, "index.json");
+  const path = resolve(dataRoot(), "index.json");
   if (!existsSync(path)) {
     throw new Error(
       `data/index.json not found. Run \`npm run fetch-data\` to populate src/content/data/.`,
@@ -46,7 +61,7 @@ export function loadDictionary(slug: string): DictionaryBundle {
   const entry = registry.dictionaries.find((d) => d.slug === slug);
   if (!entry) throw new Error(`unknown dictionary slug: ${slug}`);
 
-  const path = resolve(DATA_ROOT, slug, "database.json");
+  const path = resolve(dataRoot(), slug, "database.json");
   if (!existsSync(path)) {
     throw new Error(`data/${slug}/database.json not found`);
   }
@@ -126,8 +141,8 @@ export function listAllEntityCodes(): Array<{
 
 /** Diagnostic — used by the fetch-data script to confirm the data dir exists. */
 export function listDataDirs(): string[] {
-  if (!existsSync(DATA_ROOT)) return [];
-  return readdirSync(DATA_ROOT, { withFileTypes: true })
+  if (!existsSync(dataRoot())) return [];
+  return readdirSync(dataRoot(), { withFileTypes: true })
     .filter((d) => d.isDirectory())
     .map((d) => d.name);
 }

@@ -157,6 +157,33 @@ export class DictionaryBundle {
     return acc.toResult();
   }
 
+  /**
+   * Splits an IRDI list into resolved entities and unresolved IRDIs.
+   * Centralises the "filter by entities.has()" pattern that was
+   * scattered across 6 detail pages. Returns { resolved, unresolved }
+   * so callers can render resolved links + gray "not in browser data"
+   * chips from one call.
+   */
+  resolveIrdis(irdis: readonly string[] | undefined): {
+    resolved: EntityNode[];
+    unresolved: string[];
+  } {
+    if (!irdis || irdis.length === 0) {
+      return { resolved: [], unresolved: [] };
+    }
+    const resolved: EntityNode[] = [];
+    const unresolved: string[] = [];
+    for (const irdi of irdis) {
+      const node = this.entities.get(irdi);
+      if (node) {
+        resolved.push(node);
+      } else {
+        unresolved.push(irdi);
+      }
+    }
+    return { resolved, unresolved };
+  }
+
   private accumulateEffective(
     classIrdi: string,
     seen: Set<string>,
