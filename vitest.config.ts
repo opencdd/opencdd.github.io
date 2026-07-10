@@ -1,20 +1,20 @@
 import { defineConfig } from "vitest/config";
 import { fileURLToPath } from "node:url";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
+  plugins: [vue()],
   test: {
-    environment: "node",
+    environment: "jsdom",
     globals: true,
-    include: ["tests/**/*.test.ts", "tests/**/*.test.tsx"],
+    include: ["tests/**/*.test.ts"],
     setupFiles: ["tests/setup.ts"],
     coverage: {
       provider: "v8",
       reporter: ["text", "html", "lcov"],
-      include: ["src/lib/**/*.ts", "src/components/islands/**/*.tsx"],
+      include: ["src/lib/**/*.ts", "src/components/islands/**/*.vue"],
       exclude: ["src/env.d.ts", "src/content/data/**", "**/*.astro"],
       thresholds: {
-        // Current baseline 2026-07-09. Raise per TODO.astro/18 as
-        // component + island tests land. Target: 75/75/65/75.
         lines: 45,
         functions: 65,
         branches: 65,
@@ -23,15 +23,9 @@ export default defineConfig({
       reportsDirectory: "coverage",
     },
   },
-  esbuild: {
-    jsx: "automatic",
-    jsxImportSource: "preact",
-  },
   resolve: {
     alias: {
       "~": fileURLToPath(new URL("./src", import.meta.url)),
-      react: "preact/compat",
-      "react-dom": "preact/compat",
     },
   },
 });
