@@ -21,7 +21,7 @@ import type { DictionaryBundle } from "./bundle";
 export function entityStaticPaths(type: EntityType) {
   return listRegistryEntries().flatMap((entry) => {
     const bundle = loadDictionary(entry.slug);
-    return (bundle.byType.get(type) ?? []).map((node) => ({
+    return (bundle.entitiesOfType(type)).map((node) => ({
       params: {
         dict: entry.slug,
         code: node.code ?? codeFromIrdi(node.irdi),
@@ -40,6 +40,6 @@ export function loadEntityForPage<T extends EntityNode>(
   irdi: string,
 ): { node: T | undefined; bundle: DictionaryBundle } {
   const bundle = loadDictionary(dict);
-  const node = bundle.entities.get(irdi) as T | undefined;
+  const node = bundle.find(irdi) as T | undefined;
   return { node, bundle };
 }

@@ -110,7 +110,7 @@ export function* enumerateEntitiesByType(
 ): Generator<{ slug: string; node: EntityNode }> {
   for (const slug of listDictionarySlugs()) {
     const bundle = loadDictionary(slug);
-    for (const node of bundle.byType.get(type) ?? []) {
+    for (const node of bundle.entitiesOfType(type)) {
       if (node.type !== type) continue;
       yield { slug, node };
     }
@@ -127,9 +127,11 @@ export function listAllEntityCodes(): Array<{
   type: EntityType;
 }> {
   const out: Array<{ slug: string; code: string; type: EntityType }> = [];
+  const ALL_TYPES: readonly EntityType[] = ["class","property","value_list","value_term","unit","relation","view_control"];
   for (const slug of listDictionarySlugs()) {
     const bundle = loadDictionary(slug);
-    for (const [type, nodes] of bundle.byType.entries()) {
+    for (const type of ALL_TYPES) {
+      const nodes = bundle.entitiesOfType(type);
       for (const node of nodes) {
         if (!node.code) continue;
         out.push({ slug, code: node.code, type });

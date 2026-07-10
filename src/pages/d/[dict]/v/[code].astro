@@ -29,10 +29,10 @@ const usedBy = bundle.propertiesForValueList(node.irdi);
 let terms: readonly ValueTermNode[] = [];
 if (node.term_irdis && node.term_irdis.length > 0) {
   terms = node.term_irdis
-    .map((irdi) => bundle.entities.get(irdi))
+    .map((irdi) => bundle.find(irdi))
     .filter((n): n is ValueTermNode => !!n && n.type === "value_term");
 } else {
-  terms = (bundle.byType.get("value_term") ?? []).filter(
+  terms = (bundle.entitiesOfType("value_term")).filter(
     (n): n is ValueTermNode => n.type === "value_term" && n.value_list === node.irdi,
   );
 }
