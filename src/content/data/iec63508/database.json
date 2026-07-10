@@ -5,9 +5,18 @@
     "version": "2",
     "revision": "1",
     "preferred_name": "Domain - Circuit-breakers and similar equipment for household",
+    "preferred_name_ml": {
+      "en": "Domain - Circuit-breakers and similar equipment for household"
+    },
     "definition": "domain covering protection devices for household with rated currents not exceeding 125 A and rated voltages not exceeding 440 V",
+    "definition_ml": {
+      "en": "domain covering protection devices for household with rated currents not exceeding 125 A and rated voltages not exceeding 440 V"
+    },
     "synonyms": [],
     "note": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices.",
+    "note_ml": {
+      "en": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices."
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA001",
       "MDC_P002_1": "2",
@@ -67,7 +76,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Classes root identifier - Circuit-breakers and similar equipment for household",
+    "preferred_name_ml": {
+      "en": "Classes root identifier - Circuit-breakers and similar equipment for household"
+    },
     "definition": "heading number for classification of circuit-breakers and similar equipment for household use",
+    "definition_ml": {
+      "en": "heading number for classification of circuit-breakers and similar equipment for household use"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA010",
@@ -121,7 +136,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Classes - Miniature circuit-breakers for overcurrent protection for household and similar installations",
+    "preferred_name_ml": {
+      "en": "Classes - Miniature circuit-breakers for overcurrent protection for household and similar installations"
+    },
     "definition": "circuit-breakers for domestic and similar purpose of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection of wiring against overcurrents in domestic and similar installations",
+    "definition_ml": {
+      "en": "circuit-breakers for domestic and similar purpose of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection of wiring against overcurrents in domestic and similar installations"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA020",
@@ -175,7 +196,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "AC miniature circuit-breaker",
+    "preferred_name_ml": {
+      "en": "AC miniature circuit-breaker"
+    },
     "definition": "mechanical switching device for AC application, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified time and breaking currents under specified abnormal circuit conditions such as those of short-circuit",
+    "definition_ml": {
+      "en": "mechanical switching device for AC application, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified time and breaking currents under specified abnormal circuit conditions such as those of short-circuit"
+    },
     "source_document": "IEC 60050 441:1984, 441-14-20, modified – “AC miniature” has been added to the term",
     "synonyms": [],
     "raw_properties": {
@@ -243,7 +270,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Blocks root - Circuit-breakers and similar equipment for household",
+    "preferred_name_ml": {
+      "en": "Blocks root - Circuit-breakers and similar equipment for household"
+    },
     "definition": "heading number for blocks of properties to describe all types of products within this domain",
+    "definition_ml": {
+      "en": "heading number for blocks of properties to describe all types of products within this domain"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA011",
@@ -297,7 +330,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "General technical data",
+    "preferred_name_ml": {
+      "en": "General technical data"
+    },
     "definition": "general technical aspects of the device",
+    "definition_ml": {
+      "en": "general technical aspects of the device"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA220",
@@ -361,7 +400,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Main circuit",
+    "preferred_name_ml": {
+      "en": "Main circuit"
+    },
     "definition": "all the conductive parts of a switching device included in the circuit which it is designed to close or open",
+    "definition_ml": {
+      "en": "all the conductive parts of a switching device included in the circuit which it is designed to close or open"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA221",
@@ -433,7 +478,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Short-circuit",
+    "preferred_name_ml": {
+      "en": "Short-circuit"
+    },
     "definition": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily",
+    "definition_ml": {
+      "en": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA222",
@@ -502,7 +553,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Tripping characteristics",
+    "preferred_name_ml": {
+      "en": "Tripping characteristics"
+    },
     "definition": "release which causes a mechanical switching device to open in specified conditions",
+    "definition_ml": {
+      "en": "release which causes a mechanical switching device to open in specified conditions"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA223",
@@ -568,7 +625,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Control and auxiliary circuits",
+    "preferred_name_ml": {
+      "en": "Control and auxiliary circuits"
+    },
     "definition": "all the conductive parts of the device which are intended to be included in a circuit other than the main circuit",
+    "definition_ml": {
+      "en": "all the conductive parts of the device which are intended to be included in a circuit other than the main circuit"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA224",
@@ -625,7 +688,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Installation, mounting and dimensions",
+    "preferred_name_ml": {
+      "en": "Installation, mounting and dimensions"
+    },
     "definition": "physical information of the device for installation",
+    "definition_ml": {
+      "en": "physical information of the device for installation"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA225",
@@ -691,7 +760,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Connection facilities",
+    "preferred_name_ml": {
+      "en": "Connection facilities"
+    },
     "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device",
+    "definition_ml": {
+      "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA226",
@@ -758,7 +833,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Environmental conditions",
+    "preferred_name_ml": {
+      "en": "Environmental conditions"
+    },
     "definition": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events",
+    "definition_ml": {
+      "en": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events"
+    },
     "source_document": "IEC 60050-395:2014 395-07-98",
     "synonyms": [],
     "raw_properties": {
@@ -823,7 +904,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Product certificates and standards",
+    "preferred_name_ml": {
+      "en": "Product certificates and standards"
+    },
     "definition": "conformity of a device with specified requirements and compliance with recognized product standards",
+    "definition_ml": {
+      "en": "conformity of a device with specified requirements and compliance with recognized product standards"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA228",
@@ -888,7 +975,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Specialised blocks root - Circuit-breakers and similar equipment for household",
+    "preferred_name_ml": {
+      "en": "Specialised blocks root - Circuit-breakers and similar equipment for household"
+    },
     "definition": "heading number for specialised blocks of properties to describe all types of products within this domain",
+    "definition_ml": {
+      "en": "heading number for specialised blocks of properties to describe all types of products within this domain"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE005",
@@ -942,7 +1035,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "General technical data",
+    "preferred_name_ml": {
+      "en": "General technical data"
+    },
     "definition": "general technical aspects of the device (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "general technical aspects of the device (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE010",
@@ -1006,7 +1105,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Main circuit",
+    "preferred_name_ml": {
+      "en": "Main circuit"
+    },
     "definition": "all the conductive parts of a switching device included in the circuit which it is designed to close or open (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "all the conductive parts of a switching device included in the circuit which it is designed to close or open (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE013",
@@ -1076,7 +1181,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Short-circuit",
+    "preferred_name_ml": {
+      "en": "Short-circuit"
+    },
     "definition": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE016",
@@ -1143,7 +1254,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Tripping characteristics",
+    "preferred_name_ml": {
+      "en": "Tripping characteristics"
+    },
     "definition": "release which causes a mechanical switching device to open in specified conditions (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "release which causes a mechanical switching device to open in specified conditions (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE019",
@@ -1207,7 +1324,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Connection facilities",
+    "preferred_name_ml": {
+      "en": "Connection facilities"
+    },
     "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE028",
@@ -1272,7 +1395,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Environmental conditions",
+    "preferred_name_ml": {
+      "en": "Environmental conditions"
+    },
     "definition": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE031",
@@ -1333,7 +1462,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Product certificates and standards",
+    "preferred_name_ml": {
+      "en": "Product certificates and standards"
+    },
     "definition": "conformity of a device with specified requirements and compliance with recognized product standards (specific to AC miniature circuit-breaker)",
+    "definition_ml": {
+      "en": "conformity of a device with specified requirements and compliance with recognized product standards (specific to AC miniature circuit-breaker)"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE034",
@@ -1396,7 +1531,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Identification",
+    "preferred_name_ml": {
+      "en": "Identification",
+      "fr": "Identification",
+      "de": "Identifikation",
+      "zh": "标识"
+    },
     "definition": "information necessary for unambiguous identification of the device",
+    "definition_ml": {
+      "en": "information necessary for unambiguous identification of the device",
+      "fr": "informations nécessaires à une identification sans équivoque de l'appareil",
+      "de": "notwendige Information zur eindeutigen Identifikation eines Geräts",
+      "zh": "为了明确识别电器所需的信息"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDF010",
@@ -1476,10 +1623,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "rated insulation voltage, AC",
+    "preferred_name_ml": {
+      "en": "rated insulation voltage, AC"
+    },
     "definition": "phase to neutral or phase to phase voltage value assigned to the connecting device by the manufacturer, this device being intended to be used in installations, the AC voltage supply of which does not exceed the rated insulation voltage of the connecting device itself",
+    "definition_ml": {
+      "en": "phase to neutral or phase to phase voltage value assigned to the connecting device by the manufacturer, this device being intended to be used in installations, the AC voltage supply of which does not exceed the rated insulation voltage of the connecting device itself"
+    },
     "source_document": "IEC 60050-442:1998, 442-06-39, modified – ‘’AC’’ added",
     "synonyms": [],
     "note": "Rated insulation voltage is always understood to be between live parts and not between live parts and earth (ground).",
+    "note_ml": {
+      "en": "Rated insulation voltage is always understood to be between live parts and not between live parts and earth (ground)."
+    },
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB002",
       "MDC_P002_1": "1",
@@ -1532,7 +1688,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "power losses per pole, AC",
+    "preferred_name_ml": {
+      "en": "power losses per pole, AC"
+    },
     "definition": "power dissipation calculated for one pole on the basis of the voltage drop measured at AC rated current under steady state conditions between its terminals",
+    "definition_ml": {
+      "en": "power dissipation calculated for one pole on the basis of the voltage drop measured at AC rated current under steady state conditions between its terminals"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB003",
@@ -1582,7 +1744,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "rated short-circuit capacity, AC, 230 V (Icn)",
+    "preferred_name_ml": {
+      "en": "rated short-circuit capacity, AC, 230 V (Icn)"
+    },
     "definition": "value of ultimate short-circuit breaking capacity at 230 V AC assigned to that circuit-breaker by the manufacturer",
+    "definition_ml": {
+      "en": "value of ultimate short-circuit breaking capacity at 230 V AC assigned to that circuit-breaker by the manufacturer"
+    },
     "source_document": "IEC 60898-1:2017, 5.2.4, modified – “at 230 V (Icn)” added",
     "synonyms": [],
     "raw_properties": {
@@ -1629,7 +1797,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "rated short-circuit capacity, AC, 400 V (Icn)",
+    "preferred_name_ml": {
+      "en": "rated short-circuit capacity, AC, 400 V (Icn)"
+    },
     "definition": "value of ultimate short-circuit breaking capacity at 400 V AC assigned to that circuit-breaker by the manufacturer",
+    "definition_ml": {
+      "en": "value of ultimate short-circuit breaking capacity at 400 V AC assigned to that circuit-breaker by the manufacturer"
+    },
     "source_document": "IEC 60898-1:2017, 5.2.4, modified – “at 400 V (Icn)” added",
     "synonyms": [],
     "raw_properties": {
@@ -1676,7 +1850,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "energy limiting class according to relevant EN standard",
+    "preferred_name_ml": {
+      "en": "energy limiting class according to relevant EN standard"
+    },
     "definition": "class number (class 1 or class 3) defined by standard EN 60898-1 or EN 61009-1 as relevant",
+    "definition_ml": {
+      "en": "class number (class 1 or class 3) defined by standard EN 60898-1 or EN 61009-1 as relevant"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB006",
@@ -1719,7 +1899,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "rated making and breaking capacity of an individual pole, AC (Icn1)",
+    "preferred_name_ml": {
+      "en": "rated making and breaking capacity of an individual pole, AC (Icn1)"
+    },
     "definition": "value of the AC limiting short-circuit making and breaking capacity on each individual protected pole of multipole circuit breakers",
+    "definition_ml": {
+      "en": "value of the AC limiting short-circuit making and breaking capacity on each individual protected pole of multipole circuit breakers"
+    },
     "source_document": "5.2.4 of IEC 60898-1",
     "synonyms": [],
     "raw_properties": {
@@ -1766,7 +1952,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference calibration temperature",
+    "preferred_name_ml": {
+      "en": "reference calibration temperature"
+    },
     "definition": "ambient air temperature on which the time-current characteristics are based according to IEC 60898-1, 30°C being the preferred value",
+    "definition_ml": {
+      "en": "ambient air temperature on which the time-current characteristics are based according to IEC 60898-1, 30°C being the preferred value"
+    },
     "source_document": "3.2.10.2 of IEC 60898-1",
     "synonyms": [
       {
@@ -1774,6 +1966,9 @@
         "name": "reference ambient air temperature"
       }
     ],
+    "synonyms_ml": {
+      "en": "reference ambient air temperature"
+    },
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB008",
       "MDC_P002_1": "1",
@@ -1824,7 +2019,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "range of instantaneous tripping current",
+    "preferred_name_ml": {
+      "en": "range of instantaneous tripping current"
+    },
     "definition": "minimum value of current causing the circuit-breaker to operate automatically without intentional time-delay",
+    "definition_ml": {
+      "en": "minimum value of current causing the circuit-breaker to operate automatically without intentional time-delay"
+    },
     "source_document": "3.5.17 of IEC 60898-1",
     "synonyms": [
       {
@@ -1832,6 +2033,9 @@
         "name": "release characteristic"
       }
     ],
+    "synonyms_ml": {
+      "en": "release characteristic"
+    },
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB009",
       "MDC_P002_1": "1",
@@ -1875,7 +2079,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "derating of tripping characteristic based on temperature",
+    "preferred_name_ml": {
+      "en": "derating of tripping characteristic based on temperature"
+    },
     "definition": "availability of information on the variation of the tripping characteristic for ambient temperature differing from the reference calibration temperature",
+    "definition_ml": {
+      "en": "availability of information on the variation of the tripping characteristic for ambient temperature differing from the reference calibration temperature"
+    },
     "source_document": "8.6.3 of IEC 60898-1",
     "synonyms": [],
     "raw_properties": {
@@ -1919,7 +2129,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "additional equipment possible",
+    "preferred_name_ml": {
+      "en": "additional equipment possible"
+    },
     "definition": "specification whether additional equipment providing an additional function is possible",
+    "definition_ml": {
+      "en": "specification whether additional equipment providing an additional function is possible"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB011",
@@ -1961,7 +2177,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "spacing in number of modules",
+    "preferred_name_ml": {
+      "en": "spacing in number of modules"
+    },
     "definition": "distance between two lateral faces of the device expressed in multiple of 18 mm",
+    "definition_ml": {
+      "en": "distance between two lateral faces of the device expressed in multiple of 18 mm"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB012",
@@ -2005,7 +2227,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "mounting depth of the modular device",
+    "preferred_name_ml": {
+      "en": "mounting depth of the modular device"
+    },
     "definition": "distance between the surface in contact with the mounting part (e.g. rail) and the location of the protection panel from the switchboard",
+    "definition_ml": {
+      "en": "distance between the surface in contact with the mounting part (e.g. rail) and the location of the protection panel from the switchboard"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB013",
@@ -2056,7 +2284,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "dedicated comb busbar terminal",
+    "preferred_name_ml": {
+      "en": "dedicated comb busbar terminal"
+    },
     "definition": "terminal intended for connection of comb busbar only",
+    "definition_ml": {
+      "en": "terminal intended for connection of comb busbar only"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB014",
@@ -2098,7 +2332,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "dual combined terminal",
+    "preferred_name_ml": {
+      "en": "dual combined terminal"
+    },
     "definition": "one terminal with two clamping units, one for a comb busbar, the other for a conductor",
+    "definition_ml": {
+      "en": "one terminal with two clamping units, one for a comb busbar, the other for a conductor"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB015",
@@ -2140,10 +2380,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "type of line side terminals",
+    "preferred_name_ml": {
+      "en": "type of line side terminals"
+    },
     "definition": "identifier of the type of connection present on the side of the circuit-breaker intended for the connection to the power supply lines",
+    "definition_ml": {
+      "en": "identifier of the type of connection present on the side of the circuit-breaker intended for the connection to the power supply lines"
+    },
     "source_document": "3.3 & K.3.1 of IEC 60898-1, modified",
     "synonyms": [],
     "note": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit",
+    "note_ml": {
+      "en": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit"
+    },
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB016",
       "MDC_P002_1": "1",
@@ -2187,10 +2436,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "type of load side terminals",
+    "preferred_name_ml": {
+      "en": "type of load side terminals"
+    },
     "definition": "identifier of the type of connection present on the side of the circuit-breaker intended for the connection to the load-side lines",
+    "definition_ml": {
+      "en": "identifier of the type of connection present on the side of the circuit-breaker intended for the connection to the load-side lines"
+    },
     "source_document": "3.3 & K.3.1 of IEC 60898-1, modified",
     "synonyms": [],
     "note": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit",
+    "note_ml": {
+      "en": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit"
+    },
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB017",
       "MDC_P002_1": "1",
@@ -2234,7 +2492,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "pollution degree",
+    "preferred_name_ml": {
+      "en": "pollution degree"
+    },
     "definition": "numeral characterising the expected pollution of the micro-environment",
+    "definition_ml": {
+      "en": "numeral characterising the expected pollution of the micro-environment"
+    },
     "source_document": "IEC 60898-1",
     "synonyms": [],
     "raw_properties": {
@@ -2278,7 +2542,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "conformity marks",
+    "preferred_name_ml": {
+      "en": "conformity marks"
+    },
     "definition": "protected mark issued by a body performing third-party conformity assessment, indicating that an object of conformity assessment (product, process, person, system or body) is in conformity with specified requirements",
+    "definition_ml": {
+      "en": "protected mark issued by a body performing third-party conformity assessment, indicating that an object of conformity assessment (product, process, person, system or body) is in conformity with specified requirements"
+    },
     "source_document": "ISO 17030:2021, 3.1, modified – The term “third-party mark of conformity” is replaced by conformity marks.",
     "synonyms": [],
     "raw_properties": {
@@ -2323,7 +2593,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "overvoltage category",
+    "preferred_name_ml": {
+      "en": "overvoltage category"
+    },
     "definition": "numeral defining a transient overvoltage condition",
+    "definition_ml": {
+      "en": "numeral defining a transient overvoltage condition"
+    },
     "source_document": "IEC 60664-1:2020, 3.1.20",
     "synonyms": [],
     "raw_properties": {
@@ -2368,7 +2644,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "number of switched poles",
+    "preferred_name_ml": {
+      "en": "number of switched poles"
+    },
     "definition": "number of electrically separated conducting paths, each provided with a contact intended to connect and disconnect the main circuit of a switching device",
+    "definition_ml": {
+      "en": "number of electrically separated conducting paths, each provided with a contact intended to connect and disconnect the main circuit of a switching device"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB021",
@@ -2411,7 +2693,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "residential and tertiary product standards",
+    "preferred_name_ml": {
+      "en": "residential and tertiary product standards"
+    },
     "definition": "circuit-breakers and similar equipment for household use reference standard(s) to which the product complies with",
+    "definition_ml": {
+      "en": "circuit-breakers and similar equipment for household use reference standard(s) to which the product complies with"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB022",
@@ -2454,7 +2742,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "rated operational voltage for IT systems, AC",
+    "preferred_name_ml": {
+      "en": "rated operational voltage for IT systems, AC"
+    },
     "definition": "maximum value of the AC rated operational voltage for which the device is suitable for use on IT systems",
+    "definition_ml": {
+      "en": "maximum value of the AC rated operational voltage for which the device is suitable for use on IT systems"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB025",
@@ -2504,7 +2798,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "instantaneous short-circuit current setting, AC",
+    "preferred_name_ml": {
+      "en": "instantaneous short-circuit current setting, AC"
+    },
     "definition": "limit of the setting range of the AC current causing the operation of a release without any intentional time-delay",
+    "definition_ml": {
+      "en": "limit of the setting range of the AC current causing the operation of a release without any intentional time-delay"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB026",
@@ -2550,7 +2850,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Identification",
+    "preferred_name_ml": {
+      "en": "reference to block Identification"
+    },
     "definition": "reference property linked to the generic block KDF010 for Identification, for assignment to any class",
+    "definition_ml": {
+      "en": "reference property linked to the generic block KDF010 for Identification, for assignment to any class"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC100",
@@ -2590,7 +2896,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block General technical data",
+    "preferred_name_ml": {
+      "en": "reference to block General technical data"
+    },
     "definition": "reference property linked to the specialized block KDE010 for General technical data",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE010 for General technical data"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC101",
@@ -2630,7 +2942,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Main circuit",
+    "preferred_name_ml": {
+      "en": "reference to block Main circuit"
+    },
     "definition": "reference property linked to the specialized block KDE013 for Main circuit",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE013 for Main circuit"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC102",
@@ -2670,7 +2988,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Short-circuit",
+    "preferred_name_ml": {
+      "en": "reference to block Short-circuit"
+    },
     "definition": "reference property linked to the specialized block KDE016 for Short-circuit",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE016 for Short-circuit"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC103",
@@ -2710,7 +3034,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Tripping characteristics",
+    "preferred_name_ml": {
+      "en": "reference to block Tripping characteristics"
+    },
     "definition": "reference property linked to the specialized block KDE019 for Tripping characteristics or over-current release",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE019 for Tripping characteristics or over-current release"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC104",
@@ -2750,7 +3080,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Control and auxiliary circuits",
+    "preferred_name_ml": {
+      "en": "reference to block Control and auxiliary circuits"
+    },
     "definition": "reference property linked to the generic block KDA224 for Control and auxiliary circuits, for assignment to any class",
+    "definition_ml": {
+      "en": "reference property linked to the generic block KDA224 for Control and auxiliary circuits, for assignment to any class"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC105",
@@ -2790,7 +3126,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Installation, mounting and dimension",
+    "preferred_name_ml": {
+      "en": "reference to block Installation, mounting and dimension"
+    },
     "definition": "reference property linked to the generic block KDA225 for Installation, mounting and dimension, for assignment to any class",
+    "definition_ml": {
+      "en": "reference property linked to the generic block KDA225 for Installation, mounting and dimension, for assignment to any class"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC106",
@@ -2830,7 +3172,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Connection",
+    "preferred_name_ml": {
+      "en": "reference to block Connection"
+    },
     "definition": "reference property linked to the specialized block KDE028 for Connection facilities",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE028 for Connection facilities"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC107",
@@ -2870,7 +3218,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Environmental conditions",
+    "preferred_name_ml": {
+      "en": "reference to block Environmental conditions"
+    },
     "definition": "reference property linked to the specialized block KDE031 for Environmental conditions",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE031 for Environmental conditions"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC108",
@@ -2910,7 +3264,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "reference to block Product certificates and standards",
+    "preferred_name_ml": {
+      "en": "reference to block Product certificates and standards"
+    },
     "definition": "reference property linked to the specialized block KDE034 for Product certificates and standards",
+    "definition_ml": {
+      "en": "reference property linked to the specialized block KDE034 for Product certificates and standards"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC109",
@@ -2950,7 +3310,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "overvoltage category",
+    "preferred_name_ml": {
+      "en": "overvoltage category"
+    },
     "definition": "value list for overvoltage category",
+    "definition_ml": {
+      "en": "value list for overvoltage category"
+    },
     "source_document": "IEC 60898-1",
     "synonyms": [],
     "raw_properties": {
@@ -2998,7 +3364,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Range of instantaneous tripping current",
+    "preferred_name_ml": {
+      "en": "Range of instantaneous tripping current"
+    },
     "definition": "value list for range of instantaneous tripping current",
+    "definition_ml": {
+      "en": "value list for range of instantaneous tripping current"
+    },
     "source_document": "IEC 60898-1",
     "synonyms": [],
     "raw_properties": {
@@ -3044,7 +3416,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Energy limiting class according to EN 60898-1",
+    "preferred_name_ml": {
+      "en": "Energy limiting class according to EN 60898-1"
+    },
     "definition": "value list for energy limiting class according to EN 60898-1",
+    "definition_ml": {
+      "en": "value list for energy limiting class according to EN 60898-1"
+    },
     "source_document": "EN 60898-1",
     "synonyms": [],
     "raw_properties": {
@@ -3090,7 +3468,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Type of terminals",
+    "preferred_name_ml": {
+      "en": "Type of terminals"
+    },
     "definition": "value list for type of terminals",
+    "definition_ml": {
+      "en": "value list for type of terminals"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD104",
@@ -3140,7 +3524,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Third-party mark of conformity",
+    "preferred_name_ml": {
+      "en": "Third-party mark of conformity"
+    },
     "definition": "value list for Third-party mark of conformity",
+    "definition_ml": {
+      "en": "value list for Third-party mark of conformity"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD105",
@@ -3246,7 +3636,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "pollution degree",
+    "preferred_name_ml": {
+      "en": "pollution degree"
+    },
     "definition": "value list for Pollution degree",
+    "definition_ml": {
+      "en": "value list for Pollution degree"
+    },
     "source_document": "IEC 60664-1:2020, 4,5",
     "synonyms": [],
     "raw_properties": {
@@ -3292,7 +3688,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "short-circuit values",
+    "preferred_name_ml": {
+      "en": "short-circuit values"
+    },
     "definition": "value list for Short-circuit values",
+    "definition_ml": {
+      "en": "value list for Short-circuit values"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD107",
@@ -3360,7 +3762,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Number of switched poles",
+    "preferred_name_ml": {
+      "en": "Number of switched poles"
+    },
     "definition": "value list for Number of switched poles",
+    "definition_ml": {
+      "en": "value list for Number of switched poles"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD108",
@@ -3406,7 +3814,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "miniature circuit-breaker standards",
+    "preferred_name_ml": {
+      "en": "miniature circuit-breaker standards"
+    },
     "definition": "list of reference standards for circuit-breakers and similar equipment",
+    "definition_ml": {
+      "en": "list of reference standards for circuit-breakers and similar equipment"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD109",
@@ -3472,7 +3886,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "OVC_I",
+    "preferred_name_ml": {
+      "en": "OVC_I"
+    },
     "definition": "overvoltage category used when there is no direct connection to a mains supply",
+    "definition_ml": {
+      "en": "overvoltage category used when there is no direct connection to a mains supply"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT001",
@@ -3506,7 +3926,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "OVC_II",
+    "preferred_name_ml": {
+      "en": "OVC_II"
+    },
     "definition": "overvoltage category used for energy-consuming equipment to be supplied from the fixed installation",
+    "definition_ml": {
+      "en": "overvoltage category used for energy-consuming equipment to be supplied from the fixed installation"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT002",
@@ -3540,7 +3966,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "OVC_III",
+    "preferred_name_ml": {
+      "en": "OVC_III"
+    },
     "definition": "overvoltage category used in fixed installations and for cases where the reliability and the availability of the equipment is subject to special requirements",
+    "definition_ml": {
+      "en": "overvoltage category used in fixed installations and for cases where the reliability and the availability of the equipment is subject to special requirements"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT003",
@@ -3574,7 +4006,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "OVC_IV",
+    "preferred_name_ml": {
+      "en": "OVC_IV"
+    },
     "definition": "overvoltage category used at the origin of the installation",
+    "definition_ml": {
+      "en": "overvoltage category used at the origin of the installation"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT004",
@@ -3608,7 +4046,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Type B",
+    "preferred_name_ml": {
+      "en": "Type B"
+    },
     "definition": "instantaneous tripping above 3 In up to and including 5 In",
+    "definition_ml": {
+      "en": "instantaneous tripping above 3 In up to and including 5 In"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT005",
@@ -3642,7 +4086,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Type C",
+    "preferred_name_ml": {
+      "en": "Type C"
+    },
     "definition": "instantaneous tripping above 5 In up to and including 10 In",
+    "definition_ml": {
+      "en": "instantaneous tripping above 5 In up to and including 10 In"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT006",
@@ -3676,7 +4126,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Type D",
+    "preferred_name_ml": {
+      "en": "Type D"
+    },
     "definition": "instantaneous tripping above 10 In up to and including 20 In",
+    "definition_ml": {
+      "en": "instantaneous tripping above 10 In up to and including 20 In"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT007",
@@ -3710,7 +4166,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "class 1",
+    "preferred_name_ml": {
+      "en": "class 1"
+    },
     "definition": "No I2t limitation",
+    "definition_ml": {
+      "en": "No I2t limitation"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT008",
@@ -3744,7 +4206,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "class 3",
+    "preferred_name_ml": {
+      "en": "class 3"
+    },
     "definition": "Enhanced I2t for cables protection",
+    "definition_ml": {
+      "en": "Enhanced I2t for cables protection"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT009",
@@ -3778,7 +4246,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "not applicable",
+    "preferred_name_ml": {
+      "en": "not applicable"
+    },
     "definition": "default answer",
+    "definition_ml": {
+      "en": "default answer",
+      "fr": "réponse par défaut",
+      "de": "Standardantwort",
+      "zh": "默认答案"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT010",
@@ -3815,7 +4292,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "screw-type for copper conductors",
+    "preferred_name_ml": {
+      "en": "screw-type for copper conductors"
+    },
     "definition": "screw based terminal adapted to copper conductors",
+    "definition_ml": {
+      "en": "screw based terminal adapted to copper conductors"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT011",
@@ -3849,7 +4332,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "screwless type for copper conductors",
+    "preferred_name_ml": {
+      "en": "screwless type for copper conductors"
+    },
     "definition": "screwless based terminal adapted to copper conductors",
+    "definition_ml": {
+      "en": "screwless based terminal adapted to copper conductors"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT012",
@@ -3883,7 +4372,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "flat quick-connect for copper conductors",
+    "preferred_name_ml": {
+      "en": "flat quick-connect for copper conductors"
+    },
     "definition": "flat quick connection terminal type for copper conductor",
+    "definition_ml": {
+      "en": "flat quick connection terminal type for copper conductor"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT013",
@@ -3917,7 +4412,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "plug-in",
+    "preferred_name_ml": {
+      "en": "plug-in"
+    },
     "definition": "pluggable terminal",
+    "definition_ml": {
+      "en": "pluggable terminal"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT014",
@@ -3951,7 +4452,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "screw-type for aluminium conductors",
+    "preferred_name_ml": {
+      "en": "screw-type for aluminium conductors"
+    },
     "definition": "screw based terminal adapted to aluminium conductors",
+    "definition_ml": {
+      "en": "screw based terminal adapted to aluminium conductors"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT015",
@@ -3985,7 +4492,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "screw-type for copper and aluminium conductors",
+    "preferred_name_ml": {
+      "en": "screw-type for copper and aluminium conductors"
+    },
     "definition": "screw based terminal adapted to copper and aluminium conductors",
+    "definition_ml": {
+      "en": "screw based terminal adapted to copper and aluminium conductors"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT016",
@@ -4019,8 +4532,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "ACAA",
+    "preferred_name_ml": {
+      "en": "ACAA",
+      "fr": "ACAA",
+      "de": "ACAA"
+    },
     "short_name": "ACAA",
+    "short_name_ml": {
+      "en": "ACAA",
+      "fr": "ACAA",
+      "de": "ACAA"
+    },
     "definition": "African Conformity Assessment Association",
+    "definition_ml": {
+      "en": "African Conformity Assessment Association",
+      "fr": "Association africaine d'évaluation de la conformité",
+      "de": "Afrikanische Konformitätsbewertungsvereinigung",
+      "zh": "非洲合格评定协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT017",
@@ -4062,8 +4591,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "AENOR",
+    "preferred_name_ml": {
+      "en": "AENOR",
+      "fr": "AENOR",
+      "de": "AENOR"
+    },
     "short_name": "AENOR",
+    "short_name_ml": {
+      "en": "AENOR",
+      "fr": "AENOR",
+      "de": "AENOR"
+    },
     "definition": "Spanish Association for Standardization and Certification",
+    "definition_ml": {
+      "en": "Spanish Association for Standardization and Certification",
+      "fr": "Association espagnole de normalisation et de certification",
+      "de": "Spanische Vereinigung für Normung und Zertifizierung",
+      "zh": "西班牙标准化与认证协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT018",
@@ -4105,8 +4650,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "BBJ",
+    "preferred_name_ml": {
+      "en": "BBJ",
+      "fr": "BBJ",
+      "de": "BBJ"
+    },
     "short_name": "BBJ",
+    "short_name_ml": {
+      "en": "BBJ",
+      "fr": "BBJ",
+      "de": "BBJ"
+    },
     "definition": "Bureau of Product Quality Certification",
+    "definition_ml": {
+      "en": "Bureau of Product Quality Certification",
+      "fr": "Bureau de certification de la qualité des produits",
+      "de": "Büro für Produktqualitätszertifizierung",
+      "zh": "产品质量认证局"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT019",
@@ -4148,8 +4709,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "BSMI",
+    "preferred_name_ml": {
+      "en": "BSMI",
+      "fr": "BSMI",
+      "de": "BSMI"
+    },
     "short_name": "BSMI",
+    "short_name_ml": {
+      "en": "BSMI",
+      "fr": "BSMI",
+      "de": "BSMI"
+    },
     "definition": "Bureau of Standards, Metrology and Inspection",
+    "definition_ml": {
+      "en": "Bureau of Standards, Metrology and Inspection",
+      "fr": "Bureau des normes, de la métrologie et de l'inspection",
+      "de": "Amt für Normung, Metrologie und Inspektion",
+      "zh": "标准、计量和检验局"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT020",
@@ -4191,8 +4768,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "CCC",
+    "preferred_name_ml": {
+      "en": "CCC",
+      "fr": "CCC",
+      "de": "CCC"
+    },
     "short_name": "CCC",
+    "short_name_ml": {
+      "en": "CCC",
+      "fr": "CCC",
+      "de": "CCC"
+    },
     "definition": "China Compulsory Certification",
+    "definition_ml": {
+      "en": "China Compulsory Certification",
+      "fr": "Certification obligatoire en Chine",
+      "de": "Chinesische Pflichtzertifizierung",
+      "zh": "中国强制性产品认证"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT021",
@@ -4234,8 +4827,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "CEBEC",
+    "preferred_name_ml": {
+      "en": "CEBEC",
+      "fr": "CEBEC",
+      "de": "CEBEC"
+    },
     "short_name": "CEBEC",
+    "short_name_ml": {
+      "en": "CEBEC",
+      "fr": "CEBEC",
+      "de": "CEBEC"
+    },
     "definition": "Belgian Electrotechnical Certification Body",
+    "definition_ml": {
+      "en": "Belgian Electrotechnical Certification Body",
+      "fr": "Organisme belge de certification électrotechnique",
+      "de": "Belgisches elektrotechnisches Zertifizierungsinstitut",
+      "zh": "比利时电气认证机构"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT022",
@@ -4277,8 +4886,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "CERTIF",
+    "preferred_name_ml": {
+      "en": "CERTIF",
+      "fr": "CERTIF",
+      "de": "CERTIF"
+    },
     "short_name": "CERTIF",
+    "short_name_ml": {
+      "en": "CERTIF",
+      "fr": "CERTIF",
+      "de": "CERTIF"
+    },
     "definition": "Certification Body",
+    "definition_ml": {
+      "en": "Certification Body",
+      "fr": "Organisme de certification",
+      "de": "Zertifizierungsstelle",
+      "zh": "认证机构"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT023",
@@ -4320,8 +4945,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "D",
+    "preferred_name_ml": {
+      "en": "D",
+      "fr": "D",
+      "de": "D"
+    },
     "short_name": "D",
+    "short_name_ml": {
+      "en": "D",
+      "fr": "D",
+      "de": "D"
+    },
     "definition": "Deutsches Institut für Normung",
+    "definition_ml": {
+      "en": "Deutsches Institut für Normung",
+      "fr": "Institut allemand de normalisation",
+      "de": "Deutsches Institut für Normung",
+      "zh": "德国标准化学会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT024",
@@ -4363,8 +5004,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EAC",
+    "preferred_name_ml": {
+      "en": "EAC",
+      "fr": "EAC",
+      "de": "EAC"
+    },
     "short_name": "EAC",
+    "short_name_ml": {
+      "en": "EAC",
+      "fr": "EAC",
+      "de": "EAC"
+    },
     "definition": "Eurasian Conformity",
+    "definition_ml": {
+      "en": "Eurasian Conformity",
+      "fr": "Conformité eurasienne",
+      "de": "Eurasische Konformität",
+      "zh": "欧亚合规性"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT025",
@@ -4406,8 +5063,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EZU",
+    "preferred_name_ml": {
+      "en": "EZU",
+      "fr": "EZU",
+      "de": "EZU"
+    },
     "short_name": "EZU",
+    "short_name_ml": {
+      "en": "EZU",
+      "fr": "EZU",
+      "de": "EZU"
+    },
     "definition": "European Conformity Assessment Body",
+    "definition_ml": {
+      "en": "European Conformity Assessment Body",
+      "fr": "Organisme d'évaluation de la conformité européenne",
+      "de": "Europäische Konformitätsbewertungsstelle",
+      "zh": "欧洲合格评定机构"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT026",
@@ -4449,8 +5122,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "FI",
+    "preferred_name_ml": {
+      "en": "FI",
+      "fr": "FI",
+      "de": "FI"
+    },
     "short_name": "FI",
+    "short_name_ml": {
+      "en": "FI",
+      "fr": "FI",
+      "de": "FI"
+    },
     "definition": "Finnish Standards Association",
+    "definition_ml": {
+      "en": "Finnish Standards Association",
+      "fr": "Association finlandaise de normalisation",
+      "de": "Finnische Normungsvereinigung",
+      "zh": "芬兰标准协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT027",
@@ -4492,8 +5181,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "GS",
+    "preferred_name_ml": {
+      "en": "GS",
+      "fr": "GS",
+      "de": "GS"
+    },
     "short_name": "GS",
+    "short_name_ml": {
+      "en": "GS",
+      "fr": "GS",
+      "de": "GS"
+    },
     "definition": "Geprüfte Sicherheit (Tested Safety)",
+    "definition_ml": {
+      "en": "Geprüfte Sicherheit (Tested Safety)",
+      "fr": "Sécurité vérifiée",
+      "de": "Geprüfte Sicherheit",
+      "zh": "经过验证的安全"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT028",
@@ -4535,8 +5240,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IMQ",
+    "preferred_name_ml": {
+      "en": "IMQ",
+      "fr": "IMQ",
+      "de": "IMQ"
+    },
     "short_name": "IMQ",
+    "short_name_ml": {
+      "en": "IMQ",
+      "fr": "IMQ",
+      "de": "IMQ"
+    },
     "definition": "Italian Institute of Quality Mark",
+    "definition_ml": {
+      "en": "Italian Institute of Quality Mark",
+      "fr": "Institut italien du marquage de qualité",
+      "de": "Italienisches Institut für Qualitätszeichen",
+      "zh": "意大利质量标志协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT029",
@@ -4578,8 +5299,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "INGER",
+    "preferred_name_ml": {
+      "en": "INGER",
+      "fr": "INGER",
+      "de": "INGER"
+    },
     "short_name": "INGER",
+    "short_name_ml": {
+      "en": "INGER",
+      "fr": "INGER",
+      "de": "INGER"
+    },
     "definition": "Institute for Electrical Engineering",
+    "definition_ml": {
+      "en": "Institute for Electrical Engineering",
+      "fr": "Institut d'ingénierie électrique",
+      "de": "Institut für Elektrotechnik",
+      "zh": "电气工程学院"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT030",
@@ -4621,8 +5358,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IRAM",
+    "preferred_name_ml": {
+      "en": "IRAM",
+      "fr": "IRAM",
+      "de": "IRAM"
+    },
     "short_name": "IRAM",
+    "short_name_ml": {
+      "en": "IRAM",
+      "fr": "IRAM",
+      "de": "IRAM"
+    },
     "definition": "Argentine Institute for Standardization",
+    "definition_ml": {
+      "en": "Argentine Institute for Standardization",
+      "fr": "Institut argentin de normalisation",
+      "de": "Argentinisches Institut für Normung",
+      "zh": "阿根廷标准化协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT031",
@@ -4664,8 +5417,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "ISI",
+    "preferred_name_ml": {
+      "en": "ISI",
+      "fr": "ISI",
+      "de": "ISI"
+    },
     "short_name": "ISI",
+    "short_name_ml": {
+      "en": "ISI",
+      "fr": "ISI",
+      "de": "ISI"
+    },
     "definition": "Indian Standards Institute",
+    "definition_ml": {
+      "en": "Indian Standards Institute",
+      "fr": "Institut indien de normalisation",
+      "de": "Indisches Institut für Normung",
+      "zh": "印度标准局"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT032",
@@ -4707,8 +5476,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "KC",
+    "preferred_name_ml": {
+      "en": "KC",
+      "fr": "KC",
+      "de": "KC"
+    },
     "short_name": "KC",
+    "short_name_ml": {
+      "en": "KC",
+      "fr": "KC",
+      "de": "KC"
+    },
     "definition": "Korean Certification",
+    "definition_ml": {
+      "en": "Korean Certification",
+      "fr": "Certification coréenne",
+      "de": "Koreanische Zertifizierung",
+      "zh": "韩国认证"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT033",
@@ -4750,8 +5535,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "KEMA",
+    "preferred_name_ml": {
+      "en": "KEMA",
+      "fr": "KEMA",
+      "de": "KEMA"
+    },
     "short_name": "KEMA",
+    "short_name_ml": {
+      "en": "KEMA",
+      "fr": "KEMA",
+      "de": "KEMA"
+    },
     "definition": "KEMA Quality",
+    "definition_ml": {
+      "en": "KEMA Quality",
+      "fr": "KEMA Qualité",
+      "de": "KEMA Qualität",
+      "zh": "KEMA质量"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT034",
@@ -4793,8 +5594,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "SNI",
+    "preferred_name_ml": {
+      "en": "SNI",
+      "fr": "SNI",
+      "de": "SNI"
+    },
     "short_name": "SNI",
+    "short_name_ml": {
+      "en": "SNI",
+      "fr": "SNI",
+      "de": "SNI"
+    },
     "definition": "Indonesian National Standards",
+    "definition_ml": {
+      "en": "Indonesian National Standards",
+      "fr": "Normes nationales indonésiennes",
+      "de": "Indonesische Nationale Normen",
+      "zh": "印尼国家标准"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT035",
@@ -4836,8 +5653,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "N",
+    "preferred_name_ml": {
+      "en": "N",
+      "fr": "N",
+      "de": "N"
+    },
     "short_name": "N",
+    "short_name_ml": {
+      "en": "N",
+      "fr": "N",
+      "de": "N"
+    },
     "definition": "Norme",
+    "definition_ml": {
+      "en": "Norme",
+      "fr": "Norme",
+      "de": "Norme",
+      "zh": "标准"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT036",
@@ -4879,8 +5712,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "NF",
+    "preferred_name_ml": {
+      "en": "NF",
+      "fr": "NF",
+      "de": "NF"
+    },
     "short_name": "NF",
+    "short_name_ml": {
+      "en": "NF",
+      "fr": "NF",
+      "de": "NF"
+    },
     "definition": "Norme Française",
+    "definition_ml": {
+      "en": "Norme Française",
+      "fr": "Norme française",
+      "de": "Französische Norm",
+      "zh": "法国标准"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT037",
@@ -4922,8 +5771,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "NOM",
+    "preferred_name_ml": {
+      "en": "NOM",
+      "fr": "NOM",
+      "de": "NOM"
+    },
     "short_name": "NOM",
+    "short_name_ml": {
+      "en": "NOM",
+      "fr": "NOM",
+      "de": "NOM"
+    },
     "definition": "Norma Oficial Mexicana",
+    "definition_ml": {
+      "en": "Norma Oficial Mexicana",
+      "fr": "Norme officielle mexicaine",
+      "de": "Mexikanische Offizielle Norm",
+      "zh": "墨西哥官方标准"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT038",
@@ -4965,8 +5830,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "INMETRO",
+    "preferred_name_ml": {
+      "en": "INMETRO",
+      "fr": "INMETRO",
+      "de": "INMETRO"
+    },
     "short_name": "INMETRO",
+    "short_name_ml": {
+      "en": "INMETRO",
+      "fr": "INMETRO",
+      "de": "INMETRO"
+    },
     "definition": "National Institute of Metrology, Standardization and Industrial Quality",
+    "definition_ml": {
+      "en": "National Institute of Metrology, Standardization and Industrial Quality",
+      "fr": "Institut national de métrologie, de normalisation et de qualité industrielle",
+      "de": "Nationales Institut für Metrologie, Normung und industrielle Qualität",
+      "zh": "国家计量、标准化和工业质量研究所"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT039",
@@ -5008,8 +5889,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "OVE",
+    "preferred_name_ml": {
+      "en": "OVE",
+      "fr": "OVE",
+      "de": "OVE"
+    },
     "short_name": "OVE",
+    "short_name_ml": {
+      "en": "OVE",
+      "fr": "OVE",
+      "de": "OVE"
+    },
     "definition": "Austrian Electrotechnical Association",
+    "definition_ml": {
+      "en": "Austrian Electrotechnical Association",
+      "fr": "Association autrichienne d'électrotechnique",
+      "de": "Österreichische Elektrotechnische Vereinigung",
+      "zh": "奥地利电气工程协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT040",
@@ -5051,8 +5948,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "RCM",
+    "preferred_name_ml": {
+      "en": "RCM",
+      "fr": "RCM",
+      "de": "RCM"
+    },
     "short_name": "RCM",
+    "short_name_ml": {
+      "en": "RCM",
+      "fr": "RCM",
+      "de": "RCM"
+    },
     "definition": "Regulatory Compliance Mark",
+    "definition_ml": {
+      "en": "Regulatory Compliance Mark",
+      "fr": "Marque de conformité réglementaire",
+      "de": "Regulierende Konformitätsmarke",
+      "zh": "合规标志"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT041",
@@ -5094,8 +6007,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "S",
+    "preferred_name_ml": {
+      "en": "S",
+      "fr": "S",
+      "de": "S"
+    },
     "short_name": "S",
+    "short_name_ml": {
+      "en": "S",
+      "fr": "S",
+      "de": "S"
+    },
     "definition": "Safety",
+    "definition_ml": {
+      "en": "Safety",
+      "fr": "Sécurité",
+      "de": "Sicherheit",
+      "zh": "安全"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT042",
@@ -5137,8 +6066,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "S+",
+    "preferred_name_ml": {
+      "en": "S+",
+      "fr": "S+",
+      "de": "S+"
+    },
     "short_name": "S+",
+    "short_name_ml": {
+      "en": "S+",
+      "fr": "S+",
+      "de": "S+"
+    },
     "definition": "Enhanced Safety",
+    "definition_ml": {
+      "en": "Enhanced Safety",
+      "fr": "Sécurité améliorée",
+      "de": "Verbesserte Sicherheit",
+      "zh": "增强安全"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT043",
@@ -5180,8 +6125,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "SABS",
+    "preferred_name_ml": {
+      "en": "SABS",
+      "fr": "SABS",
+      "de": "SABS"
+    },
     "short_name": "SABS",
+    "short_name_ml": {
+      "en": "SABS",
+      "fr": "SABS",
+      "de": "SABS"
+    },
     "definition": "South African Bureau of Standards",
+    "definition_ml": {
+      "en": "South African Bureau of Standards",
+      "fr": "Bureau sud-africain des normes",
+      "de": "Südafrikanisches Normungsinstitut",
+      "zh": "南非标准局"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT044",
@@ -5223,8 +6184,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "SAFETY Mark",
+    "preferred_name_ml": {
+      "en": "SAFETY Mark",
+      "fr": "SAFETY Mark",
+      "de": "SAFETY Mark"
+    },
     "short_name": "Safety Mark",
+    "short_name_ml": {
+      "en": "Safety Mark",
+      "fr": "Safety Mark",
+      "de": "Safety Mark"
+    },
     "definition": "Safety Certification Mark",
+    "definition_ml": {
+      "en": "Safety Certification Mark",
+      "fr": "Marque de certification de sécurité",
+      "de": "Sicherheitszertifizierungsmarke",
+      "zh": "安全认证标志"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT045",
@@ -5266,8 +6243,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "SIRIM",
+    "preferred_name_ml": {
+      "en": "SIRIM",
+      "fr": "SIRIM",
+      "de": "SIRIM"
+    },
     "short_name": "SIRIM",
+    "short_name_ml": {
+      "en": "SIRIM",
+      "fr": "SIRIM",
+      "de": "SIRIM"
+    },
     "definition": "Standards and Industrial Research Institute Malaysia",
+    "definition_ml": {
+      "en": "Standards and Industrial Research Institute Malaysia",
+      "fr": "Institut malais de normalisation et de recherche industrielle",
+      "de": "Institut für Normung und industrielle Forschung Malaysia",
+      "zh": "马来西亚标准和工业研究院"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT046",
@@ -5309,8 +6302,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "TISI",
+    "preferred_name_ml": {
+      "en": "TISI",
+      "fr": "TISI",
+      "de": "TISI"
+    },
     "short_name": "TISI",
+    "short_name_ml": {
+      "en": "TISI",
+      "fr": "TISI",
+      "de": "TISI"
+    },
     "definition": "Thai Industrial Standards Institute",
+    "definition_ml": {
+      "en": "Thai Industrial Standards Institute",
+      "fr": "Institut thaïlandais des normes industrielles",
+      "de": "Thailändisches Institut für industrielle Normen",
+      "zh": "泰国工业标准协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT047",
@@ -5352,8 +6361,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "TSE",
+    "preferred_name_ml": {
+      "en": "TSE",
+      "fr": "TSE",
+      "de": "TSE"
+    },
     "short_name": "TSE",
+    "short_name_ml": {
+      "en": "TSE",
+      "fr": "TSE",
+      "de": "TSE"
+    },
     "definition": "Turkish Standards Institute",
+    "definition_ml": {
+      "en": "Turkish Standards Institute",
+      "fr": "Institut turc de normalisation",
+      "de": "Türkisches Normungsinstitut",
+      "zh": "土耳其标准化机构"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT048",
@@ -5395,8 +6420,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "UKCA",
+    "preferred_name_ml": {
+      "en": "UKCA",
+      "fr": "UKCA",
+      "de": "UKCA"
+    },
     "short_name": "UKCA",
+    "short_name_ml": {
+      "en": "UKCA",
+      "fr": "UKCA",
+      "de": "UKCA"
+    },
     "definition": "UK Conformity Assessment",
+    "definition_ml": {
+      "en": "UK Conformity Assessment",
+      "fr": "Évaluation de conformité UK",
+      "de": "UK-Konformitätsbewertung",
+      "zh": "英国合规评估"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT049",
@@ -5438,8 +6479,24 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "VDE",
+    "preferred_name_ml": {
+      "en": "VDE",
+      "fr": "VDE",
+      "de": "VDE"
+    },
     "short_name": "VDE",
+    "short_name_ml": {
+      "en": "VDE",
+      "fr": "VDE",
+      "de": "VDE"
+    },
     "definition": "Verband der Elektrotechnik, Elektronik und Informationstechnik",
+    "definition_ml": {
+      "en": "Verband der Elektrotechnik, Elektronik und Informationstechnik",
+      "fr": "Association des électrotechniciens, de l'électronique et des techniques de l'information",
+      "de": "Verband der Elektrotechnik, Elektronik und Informationstechnik",
+      "zh": "电气工程、电子与信息技术协会"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT050",
@@ -5481,7 +6538,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "degree 1",
+    "preferred_name_ml": {
+      "en": "degree 1"
+    },
     "definition": "No pollution or only dry, non-conductive pollution occurs.",
+    "definition_ml": {
+      "en": "No pollution or only dry, non-conductive pollution occurs."
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT051",
@@ -5515,7 +6578,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "degree 2",
+    "preferred_name_ml": {
+      "en": "degree 2"
+    },
     "definition": "Only non-conductive pollution occurs except that occasionally a temporary conductivity caused by condensation is to be expected",
+    "definition_ml": {
+      "en": "Only non-conductive pollution occurs except that occasionally a temporary conductivity caused by condensation is to be expected"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT052",
@@ -5549,7 +6618,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "degree 3",
+    "preferred_name_ml": {
+      "en": "degree 3"
+    },
     "definition": "Conductive pollution occurs or dry non-conductive pollution occurs which becomes conductive due to condensation which is to be expected",
+    "definition_ml": {
+      "en": "Conductive pollution occurs or dry non-conductive pollution occurs which becomes conductive due to condensation which is to be expected"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT053",
@@ -5583,7 +6658,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "1 000 A",
+    "preferred_name_ml": {
+      "en": "1 000 A",
+      "fr": "1 000 A",
+      "de": "1 000 A",
+      "zh": "1 000 A"
+    },
     "definition": "rated short-circuit value (1000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (1000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT054",
@@ -5620,7 +6704,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "1 500 A",
+    "preferred_name_ml": {
+      "en": "1 500 A",
+      "fr": "1 500 A",
+      "de": "1 500 A",
+      "zh": "1 500 A"
+    },
     "definition": "rated short-circuit value (1500 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (1500 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT055",
@@ -5657,7 +6750,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "2 000 A",
+    "preferred_name_ml": {
+      "en": "2 000 A",
+      "fr": "2 000 A",
+      "de": "2 000 A",
+      "zh": "2 000 A"
+    },
     "definition": "rated short-circuit value (2000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (2000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT056",
@@ -5694,7 +6796,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "2 500 A",
+    "preferred_name_ml": {
+      "en": "2 500 A",
+      "fr": "2 500 A",
+      "de": "2 500 A",
+      "zh": "2 500 A"
+    },
     "definition": "rated short-circuit value (2500 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (2500 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT057",
@@ -5731,7 +6842,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "3 000 A",
+    "preferred_name_ml": {
+      "en": "3 000 A",
+      "fr": "3 000 A",
+      "de": "3 000 A",
+      "zh": "3 000 A"
+    },
     "definition": "rated short-circuit value (3000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (3000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT058",
@@ -5768,7 +6888,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "4 500 A",
+    "preferred_name_ml": {
+      "en": "4 500 A",
+      "fr": "4 500 A",
+      "de": "4 500 A",
+      "zh": "4 500 A"
+    },
     "definition": "rated short-circuit value (4500 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (4500 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT059",
@@ -5805,7 +6934,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "5 000 A",
+    "preferred_name_ml": {
+      "en": "5 000 A",
+      "fr": "5 000 A",
+      "de": "5 000 A",
+      "zh": "5 000 A"
+    },
     "definition": "rated short-circuit value (5000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (5000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT060",
@@ -5842,7 +6980,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "6 000 A",
+    "preferred_name_ml": {
+      "en": "6 000 A",
+      "fr": "6 000 A",
+      "de": "6 000 A",
+      "zh": "6 000 A"
+    },
     "definition": "rated short-circuit value (6000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (6000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT061",
@@ -5879,7 +7026,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "7 500 A",
+    "preferred_name_ml": {
+      "en": "7 500 A",
+      "fr": "7 500 A",
+      "de": "7 500 A",
+      "zh": "7 500 A"
+    },
     "definition": "rated short-circuit value (7500 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (7500 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT062",
@@ -5916,7 +7072,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "9 000 A",
+    "preferred_name_ml": {
+      "en": "9 000 A",
+      "fr": "9 000 A",
+      "de": "9 000 A",
+      "zh": "9 000 A"
+    },
     "definition": "rated short-circuit value (9000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (9000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT063",
@@ -5953,7 +7118,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "10 000 A",
+    "preferred_name_ml": {
+      "en": "10 000 A",
+      "fr": "10 000 A",
+      "de": "10 000 A",
+      "zh": "10 000 A"
+    },
     "definition": "rated short-circuit value (10000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (10000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT064",
@@ -5990,7 +7164,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "15 000 A",
+    "preferred_name_ml": {
+      "en": "15 000 A",
+      "fr": "15 000 A",
+      "de": "15 000 A",
+      "zh": "15 000 A"
+    },
     "definition": "rated short-circuit value (15000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (15000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT065",
@@ -6027,7 +7210,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "16 000 A",
+    "preferred_name_ml": {
+      "en": "16 000 A",
+      "fr": "16 000 A",
+      "de": "16 000 A",
+      "zh": "16 000 A"
+    },
     "definition": "rated short-circuit value (16000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (16000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT066",
@@ -6064,7 +7256,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "20 000 A",
+    "preferred_name_ml": {
+      "en": "20 000 A",
+      "fr": "20 000 A",
+      "de": "20 000 A",
+      "zh": "20 000 A"
+    },
     "definition": "rated short-circuit value (20000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (20000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT067",
@@ -6101,7 +7302,16 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "25 000 A",
+    "preferred_name_ml": {
+      "en": "25 000 A",
+      "fr": "25 000 A",
+      "de": "25 000 A",
+      "zh": "25 000 A"
+    },
     "definition": "rated short-circuit value (25000 A) assigned to the equipement",
+    "definition_ml": {
+      "en": "rated short-circuit value (25000 A) assigned to the equipement"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT068",
@@ -6138,7 +7348,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "1",
+    "preferred_name_ml": {
+      "en": "1"
+    },
     "definition": "1 swicthed pole present in the equipment",
+    "definition_ml": {
+      "en": "1 swicthed pole present in the equipment"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT069",
@@ -6172,7 +7388,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "2",
+    "preferred_name_ml": {
+      "en": "2"
+    },
     "definition": "2 swicthed pole present in the equipment",
+    "definition_ml": {
+      "en": "2 swicthed pole present in the equipment"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT070",
@@ -6206,7 +7428,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "3",
+    "preferred_name_ml": {
+      "en": "3"
+    },
     "definition": "3 swicthed pole present in the equipment",
+    "definition_ml": {
+      "en": "3 swicthed pole present in the equipment"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT071",
@@ -6240,7 +7468,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "4",
+    "preferred_name_ml": {
+      "en": "4"
+    },
     "definition": "4 swicthed pole present in the equipment",
+    "definition_ml": {
+      "en": "4 swicthed pole present in the equipment"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT072",
@@ -6274,7 +7508,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 60898-1",
+    "preferred_name_ml": {
+      "en": "IEC 60898-1",
+      "fr": "IEC 60898-1",
+      "de": "IEC 60898-1"
+    },
     "definition": "international MCB reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international MCB reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT073",
@@ -6310,7 +7552,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EN 60898-1",
+    "preferred_name_ml": {
+      "en": "EN 60898-1",
+      "fr": "EN 60898-1",
+      "de": "EN 60898-1"
+    },
     "definition": "european MCB reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "european MCB reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT074",
@@ -6346,7 +7596,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 60898-1 & IEC 60947-2",
+    "preferred_name_ml": {
+      "en": "IEC 60898-1 & IEC 60947-2",
+      "fr": "IEC 60898-1 & IEC 60947-2",
+      "de": "IEC 60898-1 & IEC 60947-2"
+    },
     "definition": "dual international MCB reference standards for compliance purpose",
+    "definition_ml": {
+      "en": "dual international MCB reference standards for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT075",
@@ -6382,7 +7640,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EN 60898-1 & EN 60947-2",
+    "preferred_name_ml": {
+      "en": "EN 60898-1 & EN 60947-2",
+      "fr": "EN 60898-1 & EN 60947-2",
+      "de": "EN 60898-1 & EN 60947-2"
+    },
     "definition": "dual european MCB reference standards for compliance purpose",
+    "definition_ml": {
+      "en": "dual european MCB reference standards for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT076",
@@ -6418,7 +7684,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 62606",
+    "preferred_name_ml": {
+      "en": "IEC 62606",
+      "fr": "IEC 62606",
+      "de": "IEC 62606"
+    },
     "definition": "international AFDD reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international AFDD reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT077",
@@ -6454,7 +7728,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EN 62606",
+    "preferred_name_ml": {
+      "en": "EN 62606",
+      "fr": "EN 62606",
+      "de": "EN 62606"
+    },
     "definition": "european AFDD reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "european AFDD reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT078",
@@ -6490,7 +7772,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 61008-2-1,",
+    "preferred_name_ml": {
+      "en": "IEC 61008-2-1,",
+      "fr": "IEC 61008-2-1,",
+      "de": "IEC 61008-2-1,"
+    },
     "definition": "international voltage independent RCCB reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international voltage independent RCCB reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT079",
@@ -6526,7 +7816,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EN 61008-2-1,",
+    "preferred_name_ml": {
+      "en": "EN 61008-2-1,",
+      "fr": "EN 61008-2-1,",
+      "de": "EN 61008-2-1,"
+    },
     "definition": "european voltage independent RCCB reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "european voltage independent RCCB reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT080",
@@ -6562,7 +7860,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 61008-2-2,",
+    "preferred_name_ml": {
+      "en": "IEC 61008-2-2,",
+      "fr": "IEC 61008-2-2,",
+      "de": "IEC 61008-2-2,"
+    },
     "definition": "international voltage dependent RCCB reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international voltage dependent RCCB reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT081",
@@ -6598,7 +7904,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 61009-2-1",
+    "preferred_name_ml": {
+      "en": "IEC 61009-2-1",
+      "fr": "IEC 61009-2-1",
+      "de": "IEC 61009-2-1"
+    },
     "definition": "international voltage independent RCBO reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international voltage independent RCBO reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT082",
@@ -6634,7 +7948,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EN 61009-2-1",
+    "preferred_name_ml": {
+      "en": "EN 61009-2-1",
+      "fr": "EN 61009-2-1",
+      "de": "EN 61009-2-1"
+    },
     "definition": "european voltage independent RCBO reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "european voltage independent RCBO reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT083",
@@ -6670,7 +7992,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 61009-2-2",
+    "preferred_name_ml": {
+      "en": "IEC 61009-2-2",
+      "fr": "IEC 61009-2-2",
+      "de": "IEC 61009-2-2"
+    },
     "definition": "international voltage dependent RCBO reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international voltage dependent RCBO reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT084",
@@ -6706,7 +8036,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IEC 62423",
+    "preferred_name_ml": {
+      "en": "IEC 62423",
+      "fr": "IEC 62423",
+      "de": "IEC 62423"
+    },
     "definition": "international type F and type B RCD reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "international type F and type B RCD reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT085",
@@ -6742,7 +8080,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "EN 62423",
+    "preferred_name_ml": {
+      "en": "EN 62423",
+      "fr": "EN 62423",
+      "de": "EN 62423"
+    },
     "definition": "european type F and type B RCD reference standard for compliance purpose",
+    "definition_ml": {
+      "en": "european type F and type B RCD reference standard for compliance purpose"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT086",

@@ -5,7 +5,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "General items",
+    "preferred_name_ml": {
+      "en": "General items"
+    },
     "definition": "collection of classes and properties intended for cross-domain use",
+    "definition_ml": {
+      "en": "collection of classes and properties intended for cross-domain use"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA000",
@@ -56,10 +62,21 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "Submodel-related classes",
+    "preferred_name_ml": {
+      "en": "Submodel-related classes",
+      "de": "Teilmodell-bezogene Klassen"
+    },
     "definition": "collection of datastructures that serve as base for definition of submodels",
+    "definition_ml": {
+      "en": "collection of datastructures that serve as base for definition of submodels",
+      "de": "Sammlung von Datenstrukturen, welche als Basis für die Definition von Teilmodellen dienen."
+    },
     "synonyms": [],
     "simplified_drawing": "FAAS000",
     "remark": "A description of the common data concepts for smart manufacturing (IEC 63489) provided with \"0112/2///61360_7#AAS000\" is referenced in the attribute \"Drawing\".",
+    "remark_ml": {
+      "en": "A description of the common data concepts for smart manufacturing (IEC 63489) provided with \"0112/2///61360_7#AAS000\" is referenced in the attribute \"Drawing\"."
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS000",
       "MDC_P002_1": "1",
@@ -125,7 +142,15 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "Submodel blocks",
+    "preferred_name_ml": {
+      "en": "Submodel blocks",
+      "de": "Teilmodell-Blöcke"
+    },
     "definition": "collection of blocks that serve as base for definition of submodels",
+    "definition_ml": {
+      "en": "collection of blocks that serve as base for definition of submodels",
+      "de": "Sammlung von Blöcken, welche als Basis für die Definition von Teilmodellen dienen."
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS001",
@@ -190,9 +215,21 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "Manufacturer contact information",
+    "preferred_name_ml": {
+      "en": "Manufacturer contact information",
+      "de": "Kontaktinformation"
+    },
     "definition": "properties providing the manufacturer contact information",
+    "definition_ml": {
+      "en": "properties providing the manufacturer contact information",
+      "de": "Merkmale, die Hersteller-Kontaktinformationen charakterisieren"
+    },
     "synonyms": [],
     "note": "The manufacturer contact information of the type plate, if defined by regulations.",
+    "note_ml": {
+      "en": "The manufacturer contact information of the type plate, if defined by regulations.",
+      "de": "Die Hersteller-Kontaktinformationen des Typenschild, sofern in Vorschriften definiert."
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS002",
       "MDC_P002_1": "1",
@@ -267,7 +304,15 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "Markings",
+    "preferred_name_ml": {
+      "en": "Markings",
+      "de": "Kennzeichnungen"
+    },
     "definition": "collection of several markings relevant to the product",
+    "definition_ml": {
+      "en": "collection of several markings relevant to the product",
+      "de": "Sammlung von verschiedenen Kennzeichnungen, die sich auf das Produkt beziehen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS006",
@@ -336,7 +381,15 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "Marking or certificate",
+    "preferred_name_ml": {
+      "en": "Marking or certificate",
+      "de": "Kennzeichen oder Zertifikat"
+    },
     "definition": "properties characterizing a marking or a certificate supplied or associated with a device or entity",
+    "definition_ml": {
+      "en": "properties characterizing a marking or a certificate supplied or associated with a device or entity",
+      "de": "Merkmale, die Kennzeichen oder Zertifikate charakterisieren, welche mit dem Gerät oder Asset mitgeliefert oder assoziiert sind"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS009",
@@ -412,7 +465,15 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "Submodels",
+    "preferred_name_ml": {
+      "en": "Submodels",
+      "de": "Teilmodelle"
+    },
     "definition": "collection of submodels",
+    "definition_ml": {
+      "en": "collection of submodels",
+      "de": "Sammlung von Teilmodellen."
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS004",
@@ -477,7 +538,15 @@
     "version": "2",
     "revision": "1",
     "preferred_name": "Name plate",
+    "preferred_name_ml": {
+      "en": "Name plate",
+      "de": "Typenschild"
+    },
     "definition": "properties characterizing nameplate information attached to the product",
+    "definition_ml": {
+      "en": "properties characterizing nameplate information attached to the product",
+      "de": "Merkmale, die Typenschild-Informationen charakterisieren, welche sich auf das Produkt beziehen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS005",
@@ -576,7 +645,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Contact information",
+    "preferred_name_ml": {
+      "en": "Contact information",
+      "de": "Kontaktinformation"
+    },
     "definition": "collection of properties characterizing a contact information submodel",
+    "definition_ml": {
+      "en": "collection of properties characterizing a contact information submodel",
+      "de": "Sammlung von Merkmalem, die eine Kontaktinformation-Submodel kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS012",
@@ -639,10 +716,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Features",
+    "preferred_name_ml": {
+      "en": "Features"
+    },
     "definition": "collection of concepts (classes and properties) characterizing features of a product and used independently or referenced from other classes/domains",
+    "definition_ml": {
+      "en": "collection of concepts (classes and properties) characterizing features of a product and used independently or referenced from other classes/domains"
+    },
     "source_document": "IEC 61360-4",
     "synonyms": [],
     "remark": "Former identifier of this class according to IEC 61360-4 was 0112/2///61360_4#AAA233",
+    "remark_ml": {
+      "en": "Former identifier of this class according to IEC 61360-4 was 0112/2///61360_4#AAA233"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA001",
       "MDC_P002_1": "1",
@@ -697,7 +783,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Feature blocks",
+    "preferred_name_ml": {
+      "en": "Feature blocks"
+    },
     "definition": "collection of feature blocks",
+    "definition_ml": {
+      "en": "collection of feature blocks"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA003",
@@ -751,7 +843,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Identifier of organization",
+    "preferred_name_ml": {
+      "en": "Identifier of organization",
+      "de": "Identifikator der Organisation"
+    },
     "definition": "collection of properties characterizing the identification of an organization",
+    "definition_ml": {
+      "en": "collection of properties characterizing the identification of an organization",
+      "de": "Sammlung von Merkmalen, die die Identifizierung einer Organisation kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA017",
@@ -812,14 +912,29 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Physical address",
+    "preferred_name_ml": {
+      "en": "Physical address",
+      "de": "Physische Adresse"
+    },
     "definition": "collection of properties characterizing a geographic location (where an organization or contact person may reside) according to an address system",
+    "definition_ml": {
+      "en": "collection of properties characterizing a geographic location (where an organization or contact person may reside) according to an address system",
+      "de": "Sammlung von Merkmalen, die einen geografischen Ort kennzeichnen, wo die eine Organisation oder eine Kontaktperson residieren, und die einem Adress-System entsprechen"
+    },
     "synonyms": [
       {
         "lang": null,
         "name": "street address"
       }
     ],
+    "synonyms_ml": {
+      "en": "street address",
+      "de": "Straßenadresse"
+    },
     "note": "The physical address provides a means to lookup, visit or pickup items at a geographical location",
+    "note_ml": {
+      "en": "The physical address provides a means to lookup, visit or pickup items at a geographical location"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA020",
       "MDC_P002_1": "1",
@@ -884,9 +999,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Geographic global position",
+    "preferred_name_ml": {
+      "en": "Geographic global position"
+    },
     "definition": "collection of properties characterizing a geographic global position",
+    "definition_ml": {
+      "en": "collection of properties characterizing a geographic global position"
+    },
     "synonyms": [],
     "note": "The geographic global position may be specified by latitude/longitude/elevation (WGS 84), grid Zone (UTM) or natural location identifier (NLI)",
+    "note_ml": {
+      "en": "The geographic global position may be specified by latitude/longitude/elevation (WGS 84), grid Zone (UTM) or natural location identifier (NLI)"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA021",
       "MDC_P002_1": "1",
@@ -949,7 +1073,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "E-mail information",
+    "preferred_name_ml": {
+      "en": "E-mail information",
+      "de": "E-Mail-Information"
+    },
     "definition": "collection of properties characterizing the communication via electronic mail adress",
+    "definition_ml": {
+      "en": "collection of properties characterizing the communication via electronic mail adress",
+      "de": "Sammlung von Merkmalen, die die für die Kommunikation mit einem Ansprechpartner erforderliche E-Mail Adresse kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA022",
@@ -1012,7 +1144,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Phone information",
+    "preferred_name_ml": {
+      "en": "Phone information",
+      "de": "Telefon-Information"
+    },
     "definition": "collection of properties characterizing the communication via telephone",
+    "definition_ml": {
+      "en": "collection of properties characterizing the communication via telephone",
+      "de": "Sammlung von Merkmalen, die ein von einem Ansprechpartner verwendetes Telefon kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA023",
@@ -1074,7 +1214,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Fax information",
+    "preferred_name_ml": {
+      "en": "Fax information",
+      "de": "Fax-Information"
+    },
     "definition": "collection of properties characterizing the communication via fax machine",
+    "definition_ml": {
+      "en": "collection of properties characterizing the communication via fax machine",
+      "de": "Sammlung von Merkmalen, die ein von einem Ansprechpartner verwendetes Faxgerät kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA024",
@@ -1135,9 +1283,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Opening hours",
+    "preferred_name_ml": {
+      "en": "Opening hours"
+    },
     "definition": "collection of blocks and properties identifying opening hours",
+    "definition_ml": {
+      "en": "collection of blocks and properties identifying opening hours",
+      "de": "Sammlung von Merkmalen, die Öffnungszeiten identifizieren"
+    },
     "synonyms": [],
     "remark": "The opening hours are provided for the timezone of the users.",
+    "remark_ml": {
+      "en": "The opening hours are provided for the timezone of the users."
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA025",
       "MDC_P002_1": "1",
@@ -1200,7 +1358,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Time of availability",
+    "preferred_name_ml": {
+      "en": "Time of availability"
+    },
     "definition": "collection of a grouping of properties identifying a time period for opening hours",
+    "definition_ml": {
+      "en": "collection of a grouping of properties identifying a time period for opening hours",
+      "de": "Sammlung von Merkmalen, die eine Zeitperiode für Öffnungszeiten identifizieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA026",
@@ -1259,7 +1424,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Weekly recurrence",
+    "preferred_name_ml": {
+      "en": "Weekly recurrence"
+    },
     "definition": "collection of properties defining a rule or repeating pattern for weekly recurring events, or to-dos",
+    "definition_ml": {
+      "en": "collection of properties defining a rule or repeating pattern for weekly recurring events, or to-dos",
+      "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA027",
@@ -1318,7 +1490,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Social medium",
+    "preferred_name_ml": {
+      "en": "Social medium"
+    },
     "definition": "collection of properties characterizing a social media address used by an organization or by a contact person",
+    "definition_ml": {
+      "en": "collection of properties characterizing a social media address used by an organization or by a contact person",
+      "de": "Sammlung von Merkmalen, die eine Social-Media-Adresse kennzeichnen, die von einer Organisation oder einer Kontaktperson benutzt wird"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA028",
@@ -1379,7 +1558,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Contact details",
+    "preferred_name_ml": {
+      "en": "Contact details",
+      "de": "Kontaktdetails"
+    },
     "definition": "collection of properties characterizing the information regarding a contact person",
+    "definition_ml": {
+      "en": "collection of properties characterizing the information regarding a contact person",
+      "de": "Sammlung von Merkmalen, die die für einen Ansprechpartner erforderliche Informationen kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA029",
@@ -1448,7 +1635,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Recurrence pattern",
+    "preferred_name_ml": {
+      "en": "Recurrence pattern",
+      "de": "Wiederholungsmuster"
+    },
     "definition": "collection of properties characterizing the information regarding a recurrence pattern",
+    "definition_ml": {
+      "en": "collection of properties characterizing the information regarding a recurrence pattern",
+      "de": "Sammlung von Merkmalen, die die für einen Wiederholungsmuster erforderliche Informationen kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA030",
@@ -1512,7 +1707,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Daily recurrence",
+    "preferred_name_ml": {
+      "en": "Daily recurrence"
+    },
     "definition": "collection of properties defining a rule or repeating pattern for daily recurring events, or to-dos",
+    "definition_ml": {
+      "en": "collection of properties defining a rule or repeating pattern for daily recurring events, or to-dos",
+      "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für täglich wiederkehrende Ereignisse oder Aufgaben definieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA031",
@@ -1571,7 +1773,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Monthly recurrence",
+    "preferred_name_ml": {
+      "en": "Monthly recurrence"
+    },
     "definition": "collection of properties defining a rule or repeating pattern for monthly recurring events,or to-dos",
+    "definition_ml": {
+      "en": "collection of properties defining a rule or repeating pattern for monthly recurring events,or to-dos",
+      "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für monatlich wiederkehrende Ereignisse oder Aufgaben definieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA032",
@@ -1630,7 +1839,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Yearly recurrence",
+    "preferred_name_ml": {
+      "en": "Yearly recurrence"
+    },
     "definition": "collection of properties defining a rule or repeating pattern for yearly recurring events, or to-dos",
+    "definition_ml": {
+      "en": "collection of properties defining a rule or repeating pattern for yearly recurring events, or to-dos",
+      "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für jährlich wiederkehrende Ereignisse oder Aufgaben definieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA033",
@@ -1690,7 +1906,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Yearly date of recurrence",
+    "preferred_name_ml": {
+      "en": "Yearly date of recurrence"
+    },
     "definition": "collection of properties characterizing a date (month + day) for a yearly recurring event",
+    "definition_ml": {
+      "en": "collection of properties characterizing a date (month + day) for a yearly recurring event",
+      "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA034",
@@ -1749,7 +1972,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Yearly day of recurrence",
+    "preferred_name_ml": {
+      "en": "Yearly day of recurrence"
+    },
     "definition": "collection of properties characterizing a day (within a month, within a week) of a yearly recurring event",
+    "definition_ml": {
+      "en": "collection of properties characterizing a day (within a month, within a week) of a yearly recurring event",
+      "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA035",
@@ -1809,7 +2039,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "List of weekdays",
+    "preferred_name_ml": {
+      "en": "List of weekdays"
+    },
     "definition": "collection of properties characterizing a list of weekdays",
+    "definition_ml": {
+      "en": "collection of properties characterizing a list of weekdays",
+      "de": "Sammlung von Merkmalen, die eine Liste von Wochentagen kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA036",
@@ -1868,7 +2105,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Weekday",
+    "preferred_name_ml": {
+      "en": "Weekday"
+    },
     "definition": "collection of properties characterizing a weekday",
+    "definition_ml": {
+      "en": "collection of properties characterizing a weekday",
+      "de": "Sammlung von Merkmalen, die einen Wochentag kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA037",
@@ -1926,7 +2170,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "URL information",
+    "preferred_name_ml": {
+      "en": "URL information"
+    },
     "definition": "collection of properties characterizing an URL",
+    "definition_ml": {
+      "en": "collection of properties characterizing an URL",
+      "de": "Sammlung von Merkmalen, die eine URL kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA038",
@@ -1985,7 +2236,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Language",
+    "preferred_name_ml": {
+      "en": "Language"
+    },
     "definition": "collection of properties characterizing a language",
+    "definition_ml": {
+      "en": "collection of properties characterizing a language",
+      "de": "Sammlung von Merkmalen, die eine Sprache kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA039",
@@ -2043,9 +2301,21 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Local time info",
+    "preferred_name_ml": {
+      "en": "Local time info",
+      "de": "Ortszeitinformationen"
+    },
     "definition": "collection of properties characterizing a local time",
+    "definition_ml": {
+      "en": "collection of properties characterizing a local time",
+      "de": "Sammlung von Merkmalen, die eine Ortszeit kennzeichnen"
+    },
     "synonyms": [],
     "remark": "The information on the local time of an organization or person can be used to calculate opening hours or appointment for the timezone of the user.",
+    "remark_ml": {
+      "en": "The information on the local time of an organization or person can be used to calculate opening hours or appointment for the timezone of the user.",
+      "de": "Die Information zur Ortszeit einer Organisation oder Person kann genutzt werden, um Öffnungszeiten oder Termine für die Zeitzone des Nutzers zu berechnen."
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA040",
       "MDC_P002_1": "1",
@@ -2107,9 +2377,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Address information",
+    "preferred_name_ml": {
+      "en": "Address information"
+    },
     "definition": "collection of properties providing address information according to an address system",
+    "definition_ml": {
+      "en": "collection of properties providing address information according to an address system",
+      "de": "Sammlung von Merkmalen, die Adressinformationen entsprechend einem Adress-System beschreiben"
+    },
     "synonyms": [],
     "remark": "The address information corresponds to UN/EDIFACT NAD (Name and address) - see https://service.unece.org/trade/untdid/d01b/trsd/trsdnad.htm",
+    "remark_ml": {
+      "en": "The address information corresponds to UN/EDIFACT NAD (Name and address) - see https://service.unece.org/trade/untdid/d01b/trsd/trsdnad.htm"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA041",
       "MDC_P002_1": "1",
@@ -2175,9 +2455,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Organization information",
+    "preferred_name_ml": {
+      "en": "Organization information"
+    },
     "definition": "collection of properties providing organization information according to an address system",
+    "definition_ml": {
+      "en": "collection of properties providing organization information according to an address system",
+      "de": "Sammlung von Merkmalen, die Adressinformationen entsprechend einem Adress-System beschreiben"
+    },
     "synonyms": [],
     "remark": "The organization information corresponds to UN/EDIFACT C058 NAME AND ADDRESS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc058.htm",
+    "remark_ml": {
+      "en": "The organization information corresponds to UN/EDIFACT C058 NAME AND ADDRESS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc058.htm"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA042",
       "MDC_P002_1": "1",
@@ -2240,9 +2530,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Street information",
+    "preferred_name_ml": {
+      "en": "Street information"
+    },
     "definition": "collection of properties providing street information according to an address system",
+    "definition_ml": {
+      "en": "collection of properties providing street information according to an address system",
+      "de": "Sammlung von Merkmalen, die Adressinformationen entsprechend einem Adress-System beschreiben"
+    },
     "synonyms": [],
     "remark": "The street information corresponds to UN/EDIFACT C059 STREET - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc059.htm",
+    "remark_ml": {
+      "en": "The street information corresponds to UN/EDIFACT C059 STREET - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc059.htm"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA043",
       "MDC_P002_1": "1",
@@ -2303,9 +2603,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Country subdivision information",
+    "preferred_name_ml": {
+      "en": "Country subdivision information"
+    },
     "definition": "collection of properties providing country subdivision information according to an address system",
+    "definition_ml": {
+      "en": "collection of properties providing country subdivision information according to an address system",
+      "de": "Sammlung von Merkmalen, die Adressinformationen entsprechend einem Adress-System beschreiben"
+    },
     "synonyms": [],
     "remark": "The country subdivision information corresponds to UN/EDIFACT C819 COUNTRY SUB-ENTITY DETAILS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc819.htm",
+    "remark_ml": {
+      "en": "The country subdivision information corresponds to UN/EDIFACT C819 COUNTRY SUB-ENTITY DETAILS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc819.htm"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA044",
       "MDC_P002_1": "1",
@@ -2366,7 +2676,14 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Country information",
+    "preferred_name_ml": {
+      "en": "Country information"
+    },
     "definition": "collection of properties providing country information according to an address system",
+    "definition_ml": {
+      "en": "collection of properties providing country information according to an address system",
+      "de": "Sammlung von Merkmalen, die Adressinformationen entsprechend einem Adress-System beschreiben"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA045",
@@ -2426,7 +2743,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Customs tariff number",
+    "preferred_name_ml": {
+      "en": "Customs tariff number"
+    },
     "definition": "collection of properties characterizing the customs tariff number of a product",
+    "definition_ml": {
+      "en": "collection of properties characterizing the customs tariff number of a product"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA005",
@@ -2488,7 +2811,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Classification codes",
+    "preferred_name_ml": {
+      "en": "Classification codes"
+    },
     "definition": "collection of codes and designations for classifying an item",
+    "definition_ml": {
+      "en": "collection of codes and designations for classifying an item"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA006",
@@ -2542,7 +2871,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Country code",
+    "preferred_name_ml": {
+      "en": "Country code"
+    },
     "definition": "collection of properties characterizing the country",
+    "definition_ml": {
+      "en": "collection of properties characterizing the country"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA007",
@@ -2601,7 +2936,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Language code",
+    "preferred_name_ml": {
+      "en": "Language code"
+    },
     "definition": "collection of properties characterizing the language",
+    "definition_ml": {
+      "en": "collection of properties characterizing the language"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA008",
@@ -2659,7 +3000,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IP code",
+    "preferred_name_ml": {
+      "en": "IP code"
+    },
     "definition": "collection of properties describing the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water",
+    "definition_ml": {
+      "en": "collection of properties describing the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA009",
@@ -2716,7 +3063,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "IK code",
+    "preferred_name_ml": {
+      "en": "IK code"
+    },
     "definition": "collection of properties describing the degree of protection provided by an enclosure against harmful external mechanical impacts",
+    "definition_ml": {
+      "en": "collection of properties describing the degree of protection provided by an enclosure against harmful external mechanical impacts"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA010",
@@ -2773,7 +3126,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Colour code and designation",
+    "preferred_name_ml": {
+      "en": "Colour code and designation"
+    },
     "definition": "collection of properties describing colours of an item",
+    "definition_ml": {
+      "en": "collection of properties describing colours of an item"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA011",
@@ -2835,7 +3194,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Currency code",
+    "preferred_name_ml": {
+      "en": "Currency code"
+    },
     "definition": "collection of properties characterizing the currency",
+    "definition_ml": {
+      "en": "collection of properties characterizing the currency"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA012",
@@ -2892,7 +3257,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Human sex code",
+    "preferred_name_ml": {
+      "en": "Human sex code"
+    },
     "definition": "collection of properties characterizing the human sex",
+    "definition_ml": {
+      "en": "collection of properties characterizing the human sex"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA013",
@@ -2949,10 +3320,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Environmental condition class - storage",
+    "preferred_name_ml": {
+      "en": "Environmental condition class - storage"
+    },
     "definition": "collection of properties characterized by an alphanumeric sequence denoting a set of environmental conditions to which equipment is or can be subjected to during storage",
+    "definition_ml": {
+      "en": "collection of properties characterized by an alphanumeric sequence denoting a set of environmental conditions to which equipment is or can be subjected to during storage"
+    },
     "source_document": "IEC 60721-3-1:2018",
     "synonyms": [],
     "note": "The IEC 60721 series define classes for climatic, mechanical and other environmental influences",
+    "note_ml": {
+      "en": "The IEC 60721 series define classes for climatic, mechanical and other environmental influences"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA046",
       "MDC_P002_1": "1",
@@ -3016,7 +3396,13 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Identification of product",
+    "preferred_name_ml": {
+      "en": "Identification of product"
+    },
     "definition": "collection of properties characterizing the unambiguous identification of a product, software or service",
+    "definition_ml": {
+      "en": "collection of properties characterizing the unambiguous identification of a product, software or service"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA014",
@@ -3099,7 +3485,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Organization",
+    "preferred_name_ml": {
+      "en": "Organization",
+      "de": "Organisation"
+    },
     "definition": "collection of concepts (classes and properties) characterizing an organization",
+    "definition_ml": {
+      "en": "collection of concepts (classes and properties) characterizing an organization",
+      "de": "Sammlung von Merkmalen, die eine Organisation kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA015",
@@ -3174,7 +3568,15 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Contact person",
+    "preferred_name_ml": {
+      "en": "Contact person",
+      "de": "Kontaktperson"
+    },
     "definition": "collection of concepts (classes and properties) characterizing the information required to communicate with a contact person",
+    "definition_ml": {
+      "en": "collection of concepts (classes and properties) characterizing the information required to communicate with a contact person",
+      "de": "Sammlung von Merkmalen, die die für die Kommunikation mit einem Ansprechpartner erforderlichen Informationen kennzeichnen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA016",
@@ -3250,10 +3652,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Qualifiers",
+    "preferred_name_ml": {
+      "en": "Qualifiers"
+    },
     "definition": "collection of qualifiers to specify the meaning of properties and other data element types or of its instanciated values",
+    "definition_ml": {
+      "en": "collection of qualifiers to specify the meaning of properties and other data element types or of its instanciated values"
+    },
     "source_document": "IEC 62569-1:2017 mod",
     "synonyms": [],
     "note": "NOTE 1 Qualifiers are intended to specify the meaning of properties and other data element types or of its instanciated values. In many cases this specification is essential for the correct interpretation of the value. Example: The value associated during the product life cycle stage “as designed” can well differ from the value during the stage “as built”.\r\nNOTE 2 Association of qualifiers to values is not an activity performed in the dictionary but is rather performed by an application. By providing qualifier objects in the dictionary the application can select terms or values from predefined, standardized terms for qualifiers. Such qualifiers can provide information such as status data or lifecycle data.",
+    "note_ml": {
+      "en": "NOTE 1 Qualifiers are intended to specify the meaning of properties and other data element types or of its instanciated values. In many cases this specification is essential for the correct interpretation of the value. Example: The value associated during the product life cycle stage “as designed” can well differ from the value during the stage “as built”.\r\nNOTE 2 Association of qualifiers to values is not an activity performed in the dictionary but is rather performed by an application. By providing qualifier objects in the dictionary the application can select terms or values from predefined, standardized terms for qualifiers. Such qualifiers can provide information such as status data or lifecycle data."
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA002",
       "MDC_P002_1": "1",

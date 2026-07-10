@@ -5,7 +5,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Measuring equipment domain for electrical and electromagnetic quantities",
+    "preferred_name_ml": {
+      "en": "Measuring equipment domain for electrical and electromagnetic quantities",
+      "fr": "Domaine des équipements de mesure des grandeurs électriques et électromagnétiques",
+      "de": "Messgeräte für elektrische und elektromagnetische Größen",
+      "zh": "配电系统稳态和动态量的测量和监测设备"
+    },
     "definition": "domain covering equipment, systems and methods used in the fields of measurement, test, recurrent test, monitoring, evaluation, generation and analysis of steady state and dynamic (including temporary and transients) electrical and electromagnetic quantities, as well as their calibrators",
+    "definition_ml": {
+      "en": "domain covering equipment, systems and methods used in the fields of measurement, test, recurrent test, monitoring, evaluation, generation and analysis of steady state and dynamic (including temporary and transients) electrical and electromagnetic quantities, as well as their calibrators",
+      "fr": "domaine couvrant les équipements, les systèmes et les méthodes utilisés dans les domaines de la mesure, d’essai, d’essai récurrent, de surveillance, d’évaluation, de production et d’analyse des grandeurs électriques et électromagnétiques en régime permanent et dynamique (y compris temporaires et transitoires) ainsi que leurs calibreurs.",
+      "de": "Geräte, Systeme und Verfahren, die in den Bereichen Messung, Test, wiederkehrende Prüfung, Überwachung, Bewertung, Erzeugung und Analyse von stationären und dynamischen (einschließlich temporärer und transienter) elektrischer und elektromagnetischer Größen sowie deren Kalibratoren verwendet werden",
+      "zh": "范围涵盖用于稳态和动态（包括暂态和瞬态）的电工和电磁量的测量、测试、周期性测试、监测、评估、发生及分析设备、系统及方法，及其校准装置"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA001",
@@ -69,9 +81,25 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Measurement equipment blocks of properties",
+    "preferred_name_ml": {
+      "en": "Measurement equipment blocks of properties",
+      "fr": "Blocs de propriétés des appareils de mesure",
+      "de": "Eigenschaften von Messgeräten",
+      "zh": "标识"
+    },
     "definition": "list of properties grouped by nature for the characterisation of measurement equipment",
+    "definition_ml": {
+      "en": "list of properties grouped by nature for the characterisation of measurement equipment",
+      "fr": "liste de propriétés groupées par nature pour la caractérisation des équipements de mesure",
+      "de": "nach Art gruppierte Eigenschaftenliste für die Charakterisierung von Messgeräten"
+    },
     "synonyms": [],
     "note": "See mainly IEC 61557 series.",
+    "note_ml": {
+      "en": "See mainly IEC 61557 series.",
+      "fr": "Voir principalement la série des normes CEI 61557.",
+      "de": "见IEC 61557 系列"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA010",
       "MDC_P002_1": "1",
@@ -139,7 +167,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Installation, mounting and dimensions",
+    "preferred_name_ml": {
+      "en": "Installation, mounting and dimensions",
+      "fr": "Installation, montage et dimensions",
+      "de": "Installation, Einbau und Abmessungen",
+      "zh": "一般技术数据"
+    },
     "definition": "physical information of the device for installation",
+    "definition_ml": {
+      "en": "physical information of the device for installation",
+      "fr": "informations physiques pour l’installation de l'appareil",
+      "de": "physikalische Geräte-Information für den Einbau"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA011",
@@ -220,7 +259,18 @@
     "version": "3",
     "revision": "1",
     "preferred_name": "General technical data",
+    "preferred_name_ml": {
+      "en": "General technical data",
+      "fr": "Données techniques générales",
+      "de": "Allgemeine technische Daten",
+      "zh": "环境条件"
+    },
     "definition": "general technical aspects of the device",
+    "definition_ml": {
+      "en": "general technical aspects of the device",
+      "fr": "aspects techniques généraux de l'appareil",
+      "de": "allgemeine technische Aspekte des Geräts"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA012",
@@ -320,7 +370,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Environmental conditions",
+    "preferred_name_ml": {
+      "en": "Environmental conditions",
+      "fr": "Conditions environnementales",
+      "de": "Umweltbedingungen",
+      "zh": "输入电流测量通道"
+    },
     "definition": "general environmental aspects of the device",
+    "definition_ml": {
+      "en": "general environmental aspects of the device",
+      "fr": "aspects environnementaux généraux de l'appareil",
+      "de": "allgemeine Umgebungsbedingungen des Geräts"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA015",
@@ -396,7 +457,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Input current measurement channel",
+    "preferred_name_ml": {
+      "en": "Input current measurement channel",
+      "fr": "Entrées mesure courant",
+      "de": "Messkanal für Eingangsstrom",
+      "zh": "输入电压测量通道"
+    },
     "definition": "information about current measurement interfaces",
+    "definition_ml": {
+      "en": "information about current measurement interfaces",
+      "fr": "informations sur les interfaces de mesure courant",
+      "de": "Informationen über Strommess-Schnittstellen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA016",
@@ -469,7 +541,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Input voltage measurement channel",
+    "preferred_name_ml": {
+      "en": "Input voltage measurement channel",
+      "fr": "Entrées mesure tension",
+      "de": "Messkanal für Eingangsspannung",
+      "zh": "附加输入/输出电路"
+    },
     "definition": "information about voltage measurement interfaces",
+    "definition_ml": {
+      "en": "information about voltage measurement interfaces",
+      "fr": "informations sur les interfaces de mesure tension",
+      "de": "Informationen über Spannungsmess-Schnittstellen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA018",
@@ -542,7 +625,18 @@
     "version": "3",
     "revision": "1",
     "preferred_name": "Additional input/output circuit",
+    "preferred_name_ml": {
+      "en": "Additional input/output circuit",
+      "fr": "Circuit entrées/sorties additionnels",
+      "de": "Zusätzlicher Eingangs/Ausgangskreis",
+      "zh": "数据通信"
+    },
     "definition": "information about I/O interfaces",
+    "definition_ml": {
+      "en": "information about I/O interfaces",
+      "fr": "informations sur les interfaces E/S",
+      "de": "Informationen über I/O-Schnittstellen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA020",
@@ -639,7 +733,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Data communication",
+    "preferred_name_ml": {
+      "en": "Data communication",
+      "fr": "Données de communication",
+      "de": "Datenkommunikation",
+      "zh": "产品证书和标准"
+    },
     "definition": "information about data communication interfaces",
+    "definition_ml": {
+      "en": "information about data communication interfaces",
+      "fr": "informations sur les interfaces de communication de données",
+      "de": "Informationen über Datenkommunikations-Schnittstellen"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA022",
@@ -712,7 +817,18 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Product certificates and standards",
+    "preferred_name_ml": {
+      "en": "Product certificates and standards",
+      "fr": "Normes et certifications produit",
+      "de": "Produktzertifikate und Standards",
+      "zh": "记录数据格式"
+    },
     "definition": "information about conformity assessment",
+    "definition_ml": {
+      "en": "information about conformity assessment",
+      "fr": "informations sur l'évaluation de la conformité",
+      "de": "Infomationen über Konformitätsbewertung"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA024",
@@ -783,7 +899,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Data format for record",
+    "preferred_name_ml": {
+      "en": "Data format for record",
+      "fr": "Format données pour enregistrement",
+      "de": "Datenformat für Aufzeichnung",
+      "zh": "时间同步"
+    },
     "definition": "information about the format of data stored",
+    "definition_ml": {
+      "en": "information about the format of data stored",
+      "fr": "informations sur le format des données sauvegardées",
+      "de": "Informationen über das Format der gespeicherten Daten",
+      "zh": "关于数据存储格式的信息"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA026",
@@ -856,7 +984,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Time synchronisation",
+    "preferred_name_ml": {
+      "en": "Time synchronisation",
+      "fr": "Temps de synchronisation",
+      "de": "Zeitsynchronisation",
+      "zh": "存储容量"
+    },
     "definition": "information about the way the device can be synchronized against time",
+    "definition_ml": {
+      "en": "information about the way the device can be synchronized against time",
+      "fr": "informations sur la synchronisation temporelle de l'appareil",
+      "de": "Information über die Art wie das Gerät bezüglich Zeit synchronisiert werden kann",
+      "zh": "关于设备与时间同步方式的信息"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA028",
@@ -926,7 +1066,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Memory size",
+    "preferred_name_ml": {
+      "en": "Memory size",
+      "fr": "Taille mémoire",
+      "de": "Speichergröße",
+      "zh": "电能质量报告"
+    },
     "definition": "information about storage capabilities",
+    "definition_ml": {
+      "en": "information about storage capabilities",
+      "fr": "informations sur les capacités de stockage",
+      "de": "Informationen über die Speichermöglichkeiten",
+      "zh": "存储容量"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA030",
@@ -997,7 +1149,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "PQ reports",
+    "preferred_name_ml": {
+      "en": "PQ reports",
+      "fr": "Rapport qualité",
+      "de": "PQ-Berichte",
+      "zh": "供电电源"
+    },
     "definition": "information about the power quality reports that can be delivered",
+    "definition_ml": {
+      "en": "information about the power quality reports that can be delivered",
+      "fr": "informations sur les rapports de qualité de l'énergie",
+      "de": "Informationen über die Netzqualitäts-Berichte die geliefert werden können",
+      "zh": "关于可交付的电能质量报告的信息"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA032",
@@ -1067,7 +1231,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Measurement equipment specialised blocks of properties",
+    "preferred_name_ml": {
+      "en": "Measurement equipment specialised blocks of properties",
+      "fr": "blocs spécialisés de propriétés des appareils de mesure",
+      "de": "Spezialisierte Eigenschaftsblöcke von Messgeräten",
+      "zh": "一般技术数据 PMD"
+    },
     "definition": "specialised list of properties grouped by nature for the characterisation of measurement equipment",
+    "definition_ml": {
+      "en": "specialised list of properties grouped by nature for the characterisation of measurement equipment",
+      "fr": "liste speciale de propriétés groupées par nature, pour la caractérisation des équipements de mesure",
+      "de": "nach Art gruppierte, spezialisierte Eigenschaftsliste zur Charakterisierung von Messgeräten",
+      "zh": "按测量设备特性分类的属性专门列表"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB001",
@@ -1134,7 +1310,19 @@
     "version": "3",
     "revision": "1",
     "preferred_name": "General technical data for PMD",
+    "preferred_name_ml": {
+      "en": "General technical data for PMD",
+      "fr": "Données techniques générales pour PMD",
+      "de": "Allgemeine technische Daten von PMD",
+      "zh": "PMD的环境条件"
+    },
     "definition": "general technical aspects of PMD",
+    "definition_ml": {
+      "en": "general technical aspects of PMD",
+      "fr": "aspects techniques généraux du PMD",
+      "de": "allgemeine technische Gesichtspunkte eines PMD",
+      "zh": "PMD的通用技术方面"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB004",
@@ -1237,7 +1425,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Environmental conditions for PMD",
+    "preferred_name_ml": {
+      "en": "Environmental conditions for PMD",
+      "fr": "Conditions environnementales du PMD",
+      "de": "Umgebungsbedingungen von PMD",
+      "zh": "PMD的数据通信"
+    },
     "definition": "general environmental aspects of the PMD",
+    "definition_ml": {
+      "en": "general environmental aspects of the PMD",
+      "fr": "aspects environnementaux généraux du PMD",
+      "de": "allgemeine Umgebungsbedingungen des PMD",
+      "zh": "PMD的通用环境方面 "
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB006",
@@ -1312,7 +1512,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Data communication for PMD",
+    "preferred_name_ml": {
+      "en": "Data communication for PMD",
+      "fr": "Communication des données du PMD",
+      "de": "Datenkommunikation von PMD",
+      "zh": "PMD的产品证书和标准"
+    },
     "definition": "information about data communication interfaces of PMD",
+    "definition_ml": {
+      "en": "information about data communication interfaces of PMD",
+      "fr": "informations sur les interfaces de communication de données du PMD",
+      "de": "Informationen zu Datenkommunikations Schnittstellen für PMD",
+      "zh": "PMD的数据通信"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB022",
@@ -1389,7 +1601,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Product certificates and standards for PMD",
+    "preferred_name_ml": {
+      "en": "Product certificates and standards for PMD",
+      "fr": "Certificats et normes produit du PMD",
+      "de": "Produktzertifikate und Standards von PMD",
+      "zh": "PMD记录数据格式"
+    },
     "definition": "product certificates and standards for PMD",
+    "definition_ml": {
+      "en": "product certificates and standards for PMD",
+      "fr": "certificats et normes produit du PMD",
+      "de": "Produktzertifikate und Normen für PMD",
+      "zh": "PMD的产品证书和标准"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB024",
@@ -1463,7 +1687,19 @@
     "version": "3",
     "revision": "1",
     "preferred_name": "General technical data for PQI",
+    "preferred_name_ml": {
+      "en": "General technical data for PQI",
+      "fr": "Données techniques générales pour PQI",
+      "de": "Allgemeine technische Daten von PQI",
+      "zh": "PQI的环境条件"
+    },
     "definition": "general technical aspects of PQI",
+    "definition_ml": {
+      "en": "general technical aspects of PQI",
+      "fr": "aspects techniques généraux du PQI",
+      "de": "allgemeine technische Aspekte von PQI",
+      "zh": "PQI的通用技术方面"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB104",
@@ -1565,7 +1801,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Environmental conditions for PQI",
+    "preferred_name_ml": {
+      "en": "Environmental conditions for PQI",
+      "fr": "Conditions environnementales du PQI",
+      "de": "Umgebungsbedingungen von PQI",
+      "zh": "PQI的数据通信"
+    },
     "definition": "general environmental aspects of the PQI",
+    "definition_ml": {
+      "en": "general environmental aspects of the PQI",
+      "fr": "aspects environnementaux généraux du PQI",
+      "de": "allgemeine Umweltaspekte des PQI",
+      "zh": "PQI的通用环境方面"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB106",
@@ -1640,7 +1888,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Data communication for PQI",
+    "preferred_name_ml": {
+      "en": "Data communication for PQI",
+      "fr": "Communication des données du PQI",
+      "de": "Datenkommunikation von PQI",
+      "zh": "PQI的产品证书和标准"
+    },
     "definition": "information about data communication interfaces of PQI",
+    "definition_ml": {
+      "en": "information about data communication interfaces of PQI",
+      "fr": "informations sur les interfaces de communication de données du PQI",
+      "de": "Informationen zu Datenkommunikations Schnittstellen für PQI",
+      "zh": "PQI的数据通信"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB122",
@@ -1717,7 +1977,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Product certificates and standards for PQI",
+    "preferred_name_ml": {
+      "en": "Product certificates and standards for PQI",
+      "fr": "Certificats et normes produit du PQI",
+      "de": "Produktzertifikate und Standards von PQI",
+      "zh": "PQI记录数据格式"
+    },
     "definition": "product certificates and standards for PQI",
+    "definition_ml": {
+      "en": "product certificates and standards for PQI",
+      "fr": "certificats et normes produit du PQI",
+      "de": "Produktzertifikate und Normen für PQI",
+      "zh": "PQI的产品证书和标准"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB124",
@@ -1791,7 +2063,19 @@
     "version": "1",
     "revision": "1",
     "preferred_name": "Equipment for measuring and monitoring of steady state and dynamic quantities in power distribution systems",
+    "preferred_name_ml": {
+      "en": "Equipment for measuring and monitoring of steady state and dynamic quantities in power distribution systems",
+      "fr": "Equipements de mesure et de surveillance des grandeurs électriques en régime permanent et dynamique dans les réseaux de distribution de l'energie",
+      "de": "Geräte zum Messen und Überwachen von stationären und dynamischen Größen in Energieverteilungssystemen",
+      "zh": "PMD 电力计量和监测装置"
+    },
     "definition": "set of measurement devices and their combination with accessories",
+    "definition_ml": {
+      "en": "set of measurement devices and their combination with accessories",
+      "fr": "ensemble de produits de mesure avec leurs accessoires",
+      "de": "Satz von Messgeräten und deren Kombination mit Zubehör",
+      "zh": "测量设备以及设备与&&&的组合"
+    },
     "synonyms": [],
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA100",
@@ -1858,11 +2142,32 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "PMD (Power Metering and monitoring Device)",
+    "preferred_name_ml": {
+      "en": "PMD (Power Metering and monitoring Device)",
+      "fr": "PMD (Dispositif de comptage et de surveillance du réseau électrique)",
+      "de": "PMD (Leistungsmess- und Überwachungsgerät)",
+      "zh": "PQI 电能质量仪器"
+    },
     "definition": "combination in one or more devices of several functional modules dedicated to metering and monitoring electrical parameters in energy distribution systems or electrical installations, used for applications such as energy efficiency, power monitoring and network performance",
+    "definition_ml": {
+      "en": "combination in one or more devices of several functional modules dedicated to metering and monitoring electrical parameters in energy distribution systems or electrical installations, used for applications such as energy efficiency, power monitoring and network performance",
+      "fr": "combinaison en un ou plusieurs dispositifs de plusieurs modules fonctionnels destinés à mesurer et à surveiller les paramètres électriques dans les réseaux de distribution d'énergie ou les installations électriques, utilisés pour des applications telles que l’efficacité énergétique, la surveillance de l’alimentation et les performances du réseau",
+      "de": "Kombination verschiedener Funktionsmodule in einem oder mehreren Geräten zur Messung und Überwachung elektrischer Parameter in Energieverteilsystemen oder elektrischen Installationen, für Anwendungen wie Energieeffizienz, Energieüberwachung und Netzleistungsfähigkeitanalyse",
+      "zh": "在一个或多个设备中组合若干功能模块，这些功能模块专用于计量和监测配电系统或电气装置中的电参数，用于诸如能源效率、电力监测和网络性能之类的应用"
+    },
     "source_document": "3.1.1 of IEC 61557-12:2018",
     "synonyms": [],
     "note": "Note 1 to entry: Under the generic term “monitoring” are also included functions of recording, alarm management, etc.\r\nNote 2 to entry: These devices may include demand side quality functions for monitoring inside commercial/industrial installations. \r\nNote 3 to entry: This note applies to the French language only.",
+    "note_ml": {
+      "en": "Note 1 to entry: Under the generic term “monitoring” are also included functions of recording, alarm management, etc.\r\nNote 2 to entry: These devices may include demand side quality functions for monitoring inside commercial/industrial installations. \r\nNote 3 to entry: This note applies to the French language only.",
+      "fr": "Note 1 à l’article: Le terme générique “surveillance” englobe également les fonctions d’enregistrement, de gestion d’a larme, etc.\r\nNote 2 à l’article: Ces dispositifs peuvent inclure des fonctions de qualité du côté consommation d’énergie pour la surveillance à l’intérieur des installations commerciales ou industrielles.\r\nNote 3 à l’article: L’abréviation «PMD» est dérivée du terme anglais développé correspondant «power metering and monitoring device».",
+      "de": "Anmerkung 1 zum Begriff: Der Oberbegriff “Überwachung” beinhaltet auch Funktionen für Aufzeichnung, Alarm-Management usw.\r\nAnmerkung 2 zum Begriff: Dieses Geräte können auch verbraucherseitige Qualitätsfunktionen für die Überwachung in gewerblichen / industriellen Anlagen enthalten. \r\nAnmerkung 3 zum Begriff: Diese Anmerkung gilt nur für die französische Sprache.",
+      "zh": "通用术语“监测”也包含记录、报警管理等功能。\r\n注2：这些设备可能包括需求侧质量功能，用于监测内部商业/工业装置。\r\n注3：本条注只适用于法语版本。"
+    },
     "remark": "Reference to ECLASS: 27-14-23-35",
+    "remark_ml": {
+      "en": "Reference to ECLASS: 27-14-23-35"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA101",
       "MDC_P002_1": "1",
@@ -1956,9 +2261,24 @@
     "version": "1",
     "revision": "2",
     "preferred_name": "PQI (Power Quality Instrument)",
+    "preferred_name_ml": {
+      "en": "PQI (Power Quality Instrument)",
+      "fr": "PQI (Instrument de qualité de l'alimentation)",
+      "de": "PQI (Netzqualitätsmessgerät)",
+      "zh": "PMD专区"
+    },
     "definition": "instrument whose main function is to measure, record and possibly monitor power quality parameters in power supply systems, and whose measuring methods are standardized",
+    "definition_ml": {
+      "en": "instrument whose main function is to measure, record and possibly monitor power quality parameters in power supply systems, and whose measuring methods are standardized",
+      "fr": "instrument dont la fonction principale est de mesurer, d'enregistrer et éventuellement de surveiller les paramètres de qualité de l'alimentation dans les réseaux d'alimentation, dont les méthodes de mesure sont normalisées",
+      "de": "Messgerät, dessen Hauptfunktion die Messung, Aufzeichnung und möglicherweise Überwachung von Netzqualitätsparametern in Energieverteilsystemen ist und dessen Messmethoden standardisiert sind.",
+      "zh": "对供电系统中具备测量、记录和监视电能质量参数功能的仪器以及测量方法进行标准化"
+    },
     "synonyms": [],
     "remark": "Reference to ECLASS: 27-14-23-36",
+    "remark_ml": {
+      "en": "Reference to ECLASS: 27-14-23-36"
+    },
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA102",
       "MDC_P002_1": "1",
