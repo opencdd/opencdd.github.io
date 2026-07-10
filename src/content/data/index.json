@@ -18,23 +18,6 @@
       "metaClassIrdis": []
     },
     {
-      "slug": "iec62683",
-      "parcelId": "IEC62683",
-      "title": "iec62683",
-      "sourceLanguage": "en",
-      "translationLanguages": [],
-      "counts": {
-        "class": 374,
-        "property": 760,
-        "value_list": 139,
-        "value_term": 582,
-        "unit": 0,
-        "relation": 0,
-        "view_control": 0
-      },
-      "metaClassIrdis": []
-    },
-    {
       "slug": "iec61987",
       "parcelId": "IEC61987",
       "title": "iec61987",
@@ -113,6 +96,23 @@
         "property": 0,
         "value_list": 0,
         "value_term": 0,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
+    },
+    {
+      "slug": "iec62683",
+      "parcelId": "IEC62683",
+      "title": "iec62683",
+      "sourceLanguage": "en",
+      "translationLanguages": [],
+      "counts": {
+        "class": 374,
+        "property": 760,
+        "value_list": 139,
+        "value_term": 582,
         "unit": 0,
         "relation": 0,
         "view_control": 0

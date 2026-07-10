@@ -3,6 +3,7 @@ import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
 import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
+import TableOfContents from "~/components/islands/TableOfContents.vue";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Badge from "~/components/ui/Badge.astro";
 import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
@@ -78,6 +79,10 @@ const higherLevel = ancestorChain.slice(0, -1);
       bundle={bundle}
       crumbs={ancestorChain.map((c) => ({ irdi: c.irdi }))}
     />
+
+    <div class="hidden lg:block rounded-lg border border-ink-200 bg-sand-50/50 px-3 py-2">
+      <TableOfContents client:visible />
+    </div>
 
     <EntityHero
       title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
