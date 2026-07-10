@@ -30,7 +30,7 @@ function log(message: string): void {
 }
 
 function fetchFromLocal(): void {
-  const localData = resolve(repoRoot, "../cdd-data/browser/public/data");
+  const localData = resolve(repoRoot, "../cdd-data/data");
   if (!existsSync(localData)) {
     throw new Error(
       `Local data source not found at ${localData}. ` +
