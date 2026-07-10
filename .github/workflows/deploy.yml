@@ -31,6 +31,12 @@ jobs:
 
       - run: npm ci
 
+      # Install @opencdd/models from GitHub until v0.2.0 is published
+      # to npm (push v0.2.0 tag to opencdd/opencdd-ts to trigger the
+      # trusted-publishing workflow). Remove this step after publishing.
+      - name: Install latest @opencdd/models from GitHub
+        run: npm install @opencdd/models@github:opencdd/opencdd-ts#main
+
       # Fetch latest data from cdd-data GitHub Release (TODO.work/23/24).
       # Falls back to committed data if CDD_DATA_RELEASE is not set
       # (local dev: npm run fetch-data copies from ../cdd-data/data/).
