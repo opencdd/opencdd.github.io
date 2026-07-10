@@ -51,8 +51,8 @@ The build emits ~14,500 static HTML pages for the current data set
 This repo is one of four OpenCDD repositories:
 
 ```
-opencdd/cdd-data           (private) Ruby gem + scrapers + source data
-opencdd/opencdd-ts      (public)  @opencdd/models npm package
+opencdd/cdd-data             (private) data pipeline + scrapers + source data
+opencdd/opencdd-ts         (public)  @opencdd/models npm package
 opencdd/opencdd.github.io  (public)  the Astro browser (this repo)
 opencdd/editor             (public)  the editor (future)
 ```
