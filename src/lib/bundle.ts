@@ -62,9 +62,9 @@ export class DictionaryBundle {
   constructor(
     readonly slug: string,
     readonly registry: DictionaryRegistryEntry,
-    readonly entities: ReadonlyMap<string, EntityNode>,
-    readonly byCode: ReadonlyMap<string, EntityNode>,
-    readonly byType: ReadonlyMap<EntityType, readonly EntityNode[]>,
+    private readonly _entities: ReadonlyMap<string, EntityNode>,
+    private readonly _byCode: ReadonlyMap<string, EntityNode>,
+    private readonly _byType: ReadonlyMap<EntityType, readonly EntityNode[]>,
     readonly classTree: ClassTreeNode[],
   ) {
     this.subclassesByIrdi = indexSubclasses(this);
@@ -75,6 +75,35 @@ export class DictionaryBundle {
     this.propertiesByUnitIrdi = indexPropertiesByUnit(this);
     this.propertiesByValueListIrdi = indexPropertiesByValueList(this);
     this.declaredPropertiesByClassIrdi = indexDeclaredPropertiesByClass(this);
+  }
+
+  // ── Query methods — the deep interface ──────────────────────
+  // Callers use these instead of reaching into _entities / _byCode /
+  // _byType. The internal maps can change shape without breaking
+  // callers. This is the leverage: one interface, many indexes behind it.
+
+  find(irdi: string): EntityNode | undefined {
+    return this._entities.get(irdi);
+  }
+
+  findByCode(code: string): EntityNode | undefined {
+    return this._byCode.get(code);
+  }
+
+  hasEntity(irdi: string): boolean {
+    return this._entities.has(irdi);
+  }
+
+  entitiesOfType(type: EntityType): readonly EntityNode[] {
+    return this._byType.get(type) ?? EMPTY_ENTITIES;
+  }
+
+  entityCount(type: EntityType): number {
+    return this._byType.get(type)?.length ?? 0;
+  }
+
+  get size(): number {
+    return this._entities.size;
   }
 
   subclassesOf(irdi: string): readonly ClassNode[] {
@@ -117,7 +146,7 @@ export class DictionaryBundle {
     const query = normalizeSearchQuery(rawQuery);
     if (query.length === 0) return EMPTY_ENTITIES;
     const buckets = new Map<EntityType, EntityNode[]>();
-    for (const node of this.entities.values()) {
+    for (const node of this._entities.values()) {
       if (!entityMatches(node, query)) continue;
       const list = buckets.get(node.type) ?? [];
       list.push(node);
@@ -140,12 +169,12 @@ export class DictionaryBundle {
   ancestorChainOf(irdi: string): readonly ClassNode[] {
     const chain: ClassNode[] = [];
     const seen = new Set<string>();
-    let current = this.entities.get(irdi);
+    let current = this._entities.get(irdi);
     while (current && isClassNode(current) && !seen.has(current.irdi)) {
       seen.add(current.irdi);
       chain.unshift(current);
       const parentIrdi = current.superclass;
-      current = parentIrdi ? this.entities.get(parentIrdi) : undefined;
+      current = parentIrdi ? this._entities.get(parentIrdi) : undefined;
     }
     return chain;
   }
@@ -174,7 +203,7 @@ export class DictionaryBundle {
     const resolved: EntityNode[] = [];
     const unresolved: string[] = [];
     for (const irdi of irdis) {
-      const node = this.entities.get(irdi);
+      const node = this._entities.get(irdi);
       if (node) {
         resolved.push(node);
       } else {
@@ -191,7 +220,7 @@ export class DictionaryBundle {
   ): void {
     if (seen.has(classIrdi)) return;
     seen.add(classIrdi);
-    const klass = this.entities.get(classIrdi);
+    const klass = this._entities.get(classIrdi);
     if (!klass || !isClassNode(klass)) return;
 
     this.collectProperties(klass.applicable_properties, klass, acc);
@@ -209,7 +238,7 @@ export class DictionaryBundle {
   ): void {
     if (!irdis) return;
     for (const propIrdi of irdis) {
-      const prop = this.entities.get(propIrdi);
+      const prop = this._entities.get(propIrdi);
       if (!prop || !isPropertyNode(prop)) continue;
       acc.add(prop, klass.irdi);
     }
@@ -243,12 +272,12 @@ class PropertyNodeAccumulator {
 }
 
 function buildReverseIndex<E extends EntityNode>(
-  bundle: Pick<DictionaryBundle, "byType">,
+  bundle: Pick<DictionaryBundle, "entitiesOfType">,
   type: EntityType,
   extractKeys: (entity: E) => readonly string[] | undefined,
 ): Map<string, readonly E[]> {
   const out = new Map<string, E[]>();
-  for (const node of bundle.byType.get(type) ?? []) {
+  for (const node of bundle.entitiesOfType(type)) {
     if (node.type !== type) continue;
     const keys = extractKeys(node as E);
     if (!keys) continue;
@@ -264,7 +293,7 @@ function buildReverseIndex<E extends EntityNode>(
   return out as unknown as Map<string, readonly E[]>;
 }
 
-function indexSubclasses(bundle: Pick<DictionaryBundle, "byType">) {
+function indexSubclasses(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<ClassNode>(
     bundle,
     "class",
@@ -272,7 +301,7 @@ function indexSubclasses(bundle: Pick<DictionaryBundle, "byType">) {
   );
 }
 
-function indexClassesByProperty(bundle: Pick<DictionaryBundle, "byType">) {
+function indexClassesByProperty(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<ClassNode>(
     bundle,
     "class",
@@ -280,15 +309,15 @@ function indexClassesByProperty(bundle: Pick<DictionaryBundle, "byType">) {
   );
 }
 
-function indexPowertypeInstances(bundle: Pick<DictionaryBundle, "byType">) {
+function indexPowertypeInstances(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<ClassNode>(bundle, "class", (k) => k.is_case_of);
 }
 
-function indexRelationsByDomain(bundle: Pick<DictionaryBundle, "byType">) {
+function indexRelationsByDomain(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<RelationNode>(bundle, "relation", (r) => r.domain);
 }
 
-function indexRelationsByCodomain(bundle: Pick<DictionaryBundle, "byType">) {
+function indexRelationsByCodomain(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<RelationNode>(
     bundle,
     "relation",
@@ -296,7 +325,7 @@ function indexRelationsByCodomain(bundle: Pick<DictionaryBundle, "byType">) {
   );
 }
 
-function indexPropertiesByUnit(bundle: Pick<DictionaryBundle, "byType">) {
+function indexPropertiesByUnit(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<PropertyNode>(
     bundle,
     "property",
@@ -304,7 +333,7 @@ function indexPropertiesByUnit(bundle: Pick<DictionaryBundle, "byType">) {
   );
 }
 
-function indexPropertiesByValueList(bundle: Pick<DictionaryBundle, "byType">) {
+function indexPropertiesByValueList(bundle: Pick<DictionaryBundle, "entitiesOfType">) {
   return buildReverseIndex<PropertyNode>(
     bundle,
     "property",
@@ -313,17 +342,17 @@ function indexPropertiesByValueList(bundle: Pick<DictionaryBundle, "byType">) {
 }
 
 function indexDeclaredPropertiesByClass(
-  bundle: Pick<DictionaryBundle, "byType" | "entities">,
+  bundle: Pick<DictionaryBundle, "entitiesOfType" | "find">,
 ): Map<string, readonly PropertyNode[]> {
   const out = new Map<string, PropertyNode[]>();
-  for (const klass of bundle.byType.get("class") ?? []) {
+  for (const klass of bundle.entitiesOfType("class")) {
     if (klass.type !== "class") continue;
     const classNode = klass as ClassNode;
     const propIrdis = classNode.applicable_properties;
     if (!propIrdis || propIrdis.length === 0) continue;
     const bucket: PropertyNode[] = [];
     for (const propIrdi of propIrdis) {
-      const prop = bundle.entities.get(propIrdi);
+      const prop = bundle.find(propIrdi);
       if (prop && isPropertyNode(prop)) bucket.push(prop);
     }
     if (bucket.length > 0) {

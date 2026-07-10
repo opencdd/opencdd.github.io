@@ -17,7 +17,7 @@ const { bundle, counts } = Astro.props;
 
 function countFor(type: EntityType): number {
   if (counts) return counts[type] ?? 0;
-  if (bundle) return bundle.byType.get(type)?.length ?? 0;
+  if (bundle) return bundle.entityCount(type) ?? 0;
   return 0;
 }
 ---

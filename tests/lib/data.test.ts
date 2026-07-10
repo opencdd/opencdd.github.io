@@ -51,24 +51,24 @@ describe("data loader (sandbox via configureDataRoot)", () => {
     configureDataRoot(sandboxDir);
     const bundle = loadDictionary("sampledict");
     expect(bundle.slug).toBe("sampledict");
-    expect(bundle.entities.size).toBe(4);
+    expect(bundle.size).toBe(4);
   });
 
   it("indexes by irdi and code", async () => {
     const { configureDataRoot, loadDictionary } = await import("~/lib/data");
     configureDataRoot(sandboxDir);
     const bundle = loadDictionary("sampledict");
-    expect(bundle.entities.get("X#A")?.code).toBe("A");
-    expect(bundle.byCode.get("PA")?.irdi).toBe("X#PA");
+    expect(bundle.find("X#A")?.code).toBe("A");
+    expect(bundle.findByCode("PA")?.irdi).toBe("X#PA");
   });
 
   it("indexes by type", async () => {
     const { configureDataRoot, loadDictionary } = await import("~/lib/data");
     configureDataRoot(sandboxDir);
     const bundle = loadDictionary("sampledict");
-    expect(bundle.byType.get("class")).toHaveLength(2);
-    expect(bundle.byType.get("property")).toHaveLength(2);
-    expect(bundle.byType.get("unit")).toBeUndefined();
+    expect(bundle.entitiesOfType("class")).toHaveLength(2);
+    expect(bundle.entitiesOfType("property")).toHaveLength(2);
+    expect(bundle.entitiesOfType("unit")).toHaveLength(0);
   });
 
   it("throws on unknown slug", async () => {

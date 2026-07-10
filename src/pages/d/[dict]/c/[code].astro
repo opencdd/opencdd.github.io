@@ -52,7 +52,7 @@ const unresolvedImported = bundle.resolveIrdis(importedIrdis).unresolved;
 const unresolvedIsCaseOf = bundle.resolveIrdis(isCaseOfIrdis).unresolved;
 const unresolvedComposition = bundle.resolveIrdis(compositionIrdis).unresolved;
 const unresolvedSuperclass =
-  node.superclass && !bundle.entities.has(node.superclass) ? [node.superclass] : [];
+  node.superclass && !bundle.hasEntity(node.superclass) ? [node.superclass] : [];
 
 // "Higher level classes" — the ancestor chain (Root → ... → Self).
 // We exclude the entity itself from this listing (the last entry).

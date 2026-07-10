@@ -31,7 +31,7 @@ const {
   hideCode = false,
 } = Astro.props;
 
-const node: EntityNode | undefined = bundle.entities.get(irdi);
+const node: EntityNode | undefined = bundle.find(irdi);
 const resolvedType = type ?? node?.type ?? null;
 const resolvedCode = code ?? node?.code ?? codeFromIrdi(irdi);
 const resolvedLabel =

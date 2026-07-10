@@ -153,14 +153,14 @@ export function entityRoute(slug: string, type: EntityType, code: string): strin
 }
 
 export function countForType(
-  bundle: Pick<BundleShaped, "byType">,
+  bundle: Pick<BundleShaped, "entityCount">,
   type: EntityType,
 ): number {
-  return bundle.byType.get(type)?.length ?? 0;
+  return bundle.entityCount(type);
 }
 
 export function totalEntityCount(
-  bundle: Pick<BundleShaped, "byType">,
+  bundle: Pick<BundleShaped, "entityCount">,
 ): number {
   let sum = 0;
   for (const type of ENTITY_TYPE_ORDER) sum += countForType(bundle, type);
@@ -171,8 +171,6 @@ export function detailableTypeOf(node: EntityNode): EntityType | null {
   return REGISTRY[node.type].routeSegment !== undefined ? node.type : null;
 }
 
-// Structural shape used by countForType/totalEntityCount so this module
-// doesn't have a circular dep on bundle.ts.
 interface BundleShaped {
-  byType: ReadonlyMap<EntityType, readonly EntityNode[]>;
+  entityCount(type: EntityType): number;
 }

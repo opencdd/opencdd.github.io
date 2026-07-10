@@ -28,8 +28,8 @@ const initialTab = entityTypeForSegment(tabParam) ?? "class";
 
 const tabs = TABBABLE_TYPES;
 const initialNodes = initialTab
-  ? bundle.byType.get(initialTab) ?? []
-  : bundle.byType.get("class") ?? [];
+  ? bundle.entitiesOfType(initialTab)
+  : bundle.entitiesOfType("class");
 ---
 
 <DictionaryLayout
