@@ -30,6 +30,13 @@ function log(message: string): void {
 }
 
 function fetchFromLocal(): void {
+  // If committed data already exists (src/content/data/index.json),
+  // skip the copy — this is the CI path where data is committed.
+  if (existsSync(resolve(dataTarget, "index.json"))) {
+    log("committed data already present — skipping fetch");
+    return;
+  }
+
   const localData = resolve(repoRoot, "../cdd-data/data");
   if (!existsSync(localData)) {
     throw new Error(
