@@ -58,13 +58,13 @@ function fetchFromRelease(release: string): void {
       release === "latest"
         ? execSync(
             `gh api repos/${CDD_DATA_REPO}/releases/latest --jq .tag_name`,
-            { encoding: "utf8" },
+            { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] },
           ).trim()
         : release;
 
     const assetsJson = execSync(
       `gh api repos/${CDD_DATA_REPO}/releases/tags/${tag} --jq '.assets[].browser_download_url'`,
-      { encoding: "utf8" },
+      { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] },
     ).trim();
     const assetUrls = assetsJson.split("\n").filter((l) => l.trim().length > 0);
     const zipUrls = assetUrls.filter((u) => u.endsWith(".zip"));
@@ -104,7 +104,19 @@ function fetchFromRelease(release: string): void {
 
 try {
   if (CDD_DATA_RELEASE) {
-    fetchFromRelease(CDD_DATA_RELEASE);
+    try {
+      fetchFromRelease(CDD_DATA_RELEASE);
+    } catch (releaseErr) {
+      const msg = (releaseErr as Error).message;
+      if (msg.includes("404") || msg.includes("Not Found")) {
+        process.stderr.write(
+          `[fetch-data] Release not found — falling back to committed data.\n`,
+        );
+        fetchFromLocal();
+      } else {
+        throw releaseErr;
+      }
+    }
   } else {
     fetchFromLocal();
   }
