@@ -1,14 +1,14 @@
 import { defineConfig } from "astro/config";
-import preact from "@astrojs/preact";
-import tailwind from "@astrojs/tailwind";
+import vue from "@astrojs/vue";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://opencdd.github.io",
   base: "/",
   trailingSlash: "ignore",
   output: "static",
-  integrations: [
-    preact({ compat: true }),
-    tailwind({ applyBaseStyles: false }),
-  ],
+  integrations: [vue()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
