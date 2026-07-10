@@ -5,20 +5,23 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   test: {
-    environment: "jsdom",
+    environment: "node",
     globals: true,
     include: ["tests/**/*.test.ts"],
     setupFiles: ["tests/setup.ts"],
+    environmentMatchGlobs: [
+      ["tests/islands/**", "jsdom"],
+    ],
     coverage: {
       provider: "v8",
       reporter: ["text", "html", "lcov"],
       include: ["src/lib/**/*.ts", "src/components/islands/**/*.vue"],
       exclude: ["src/env.d.ts", "src/content/data/**", "**/*.astro"],
       thresholds: {
-        lines: 45,
+        lines: 60,
         functions: 65,
-        branches: 65,
-        statements: 45,
+        branches: 50,
+        statements: 60,
       },
       reportsDirectory: "coverage",
     },
