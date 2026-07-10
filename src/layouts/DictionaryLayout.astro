@@ -36,6 +36,7 @@ const bundle = loadDictionary(dict);
       >
         <ClassTree
           client:visible
+          transition:persist
           dict={dict}
           initialHighlightedIrdi={Astro.url.pathname}
         />

@@ -31,14 +31,14 @@ jobs:
 
       - run: npm ci
 
-      # Data is committed until TODO.astro/04 ships the cdd-data Release
-      # pipeline. When that lands, replace this with a fetch step:
-      #   env:
-      #     CDD_DATA_RELEASE: latest
-      #     GH_TOKEN: ${{ secrets.CDD_DATA_READ_TOKEN }}
-      #   run: npm run fetch-data
-      # `CDD_DATA_READ_TOKEN` will need to be a PAT with read access to
-      # opencdd/cdd-data (private repo).
+      # Fetch latest data from cdd-data GitHub Release (TODO.work/23/24).
+      # Falls back to committed data if CDD_DATA_RELEASE is not set
+      # (local dev: npm run fetch-data copies from ../cdd-data/data/).
+      - name: Fetch latest data
+        env:
+          CDD_DATA_RELEASE: ${{ vars.CDD_DATA_RELEASE || 'latest' }}
+          GH_TOKEN: ${{ secrets.CDD_DATA_READ_TOKEN || secrets.GITHUB_TOKEN }}
+        run: npm run fetch-data
 
       - name: Generate per-dictionary tree JSON
         run: npm run gen-tree

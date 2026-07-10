@@ -1,5 +1,6 @@
 ---
 import "~/styles/global.css";
+import { ClientRouter } from "astro:transitions";
 import SkipToContent from "~/components/ui/SkipToContent.astro";
 import Header from "~/components/layout/Header.astro";
 import Footer from "~/components/layout/Footer.astro";
@@ -21,6 +22,7 @@ const { title, description = "OpenCDD — a modern browser for published IEC CDD
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <ClientRouter />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
