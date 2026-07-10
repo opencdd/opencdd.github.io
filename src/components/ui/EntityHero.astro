@@ -1,12 +1,15 @@
 ---
 import Badge from "./Badge.astro";
 import IrdiPill from "./IrdiPill.astro";
-import type { EntityDates } from "~/lib/types";
+import MultilingualText from "./MultilingualText.astro";
+import type { MultilingualText as MLText, EntityDates } from "~/lib/types";
 
 interface Props {
   title: string;
   irdi: string;
   definition?: string;
+  titleTranslations?: MLText;
+  definitionTranslations?: MLText;
   shortName?: string;
   version?: string;
   revision?: string;
@@ -19,6 +22,8 @@ const {
   title,
   irdi,
   definition,
+  titleTranslations,
+  definitionTranslations,
   shortName,
   version,
   revision,
@@ -72,14 +77,14 @@ if (sourceDocument) {
     ))}
   </div>
   <h1 class="relative mt-2 text-3xl font-semibold tracking-tight text-ink-900">
-    {title}
+    <MultilingualText source={title} translations={titleTranslations} />
   </h1>
   <div class="relative mt-2.5 flex flex-wrap items-center gap-2">
     <IrdiPill irdi={irdi} />
   </div>
-  {definition && (
+  {(definition || definitionTranslations) && (
     <p class="relative mt-3 max-w-3xl text-sm leading-relaxed text-ink-600">
-      {definition}
+      <MultilingualText source={definition} translations={definitionTranslations} />
     </p>
   )}
   <slot />

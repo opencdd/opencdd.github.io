@@ -28,16 +28,24 @@ export interface EntityDates {
   current_revision?: string;
 }
 
+export type MultilingualText = Record<string, string>;
+
 export interface EntityMetadata {
   irdi: string;
   code?: string;
   preferred_name?: string;
+  preferred_name_ml?: MultilingualText;
   short_name?: string;
+  short_name_ml?: MultilingualText;
   definition?: string;
+  definition_ml?: MultilingualText;
   synonyms?: Synonym[];
   note?: string;
+  note_ml?: MultilingualText;
   remark?: string;
+  remark_ml?: MultilingualText;
   description?: string;
+  description_ml?: MultilingualText;
   example?: string;
   source_document?: string;
   guid?: string;

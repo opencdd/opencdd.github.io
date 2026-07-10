@@ -1,0 +1,27 @@
+---
+import { cn } from "~/lib/cn";
+
+interface Props {
+  source?: string;
+  translations?: Record<string, string>;
+  class?: string;
+}
+
+const { source, translations, class: className } = Astro.props;
+
+const entries: Array<[string, string]> = translations
+  ? Object.entries(translations).filter(([, v]) => v)
+  : source
+    ? [["en", source]]
+    : [];
+---
+
+{entries.length > 0 && (
+  <span class={cn("ml-group", className)}>
+    {entries.map(([lang, text]) => (
+      <span class={`ml ml-${lang}`} lang={lang} aria-hidden={lang !== "en"}>
+        {text}
+      </span>
+    ))}
+  </span>
+)}

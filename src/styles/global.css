@@ -182,6 +182,22 @@ body {
   border: 0;
 }
 
+/* ── Multilingual visibility ───────────────────────────────────── */
+
+/* All language variants are hidden by default. The body[data-lang]
+   attribute (set by LanguageSwitcher.vue) controls which variant is
+   visible. Default is "en" when no attribute is set yet (pre-hydration). */
+
+body .ml { display: none; }
+body[data-lang="en"] .ml-en,
+body[data-lang="de"] .ml-de,
+body[data-lang="fr"] .ml-fr,
+body[data-lang="zh"] .ml-zh { display: inline; }
+
+/* Before hydration (no data-lang attribute), show English by default */
+body:not([data-lang]) .ml { display: none; }
+body:not([data-lang]) .ml-en { display: inline; }
+
 /* ── Print ─────────────────────────────────────────────────────── */
 
 @media print {

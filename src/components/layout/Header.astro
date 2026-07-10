@@ -1,5 +1,6 @@
 ---
 import { platformModifierLabel } from "~/lib/platform";
+import LanguageSwitcher from "~/components/islands/LanguageSwitcher.vue";
 const modifier = platformModifierLabel();
 ---
 
@@ -23,6 +24,7 @@ const modifier = platformModifierLabel();
       </span>
     </a>
     <div class="flex flex-1 items-center justify-end gap-3">
+      <LanguageSwitcher client:load />
       <a
         href="/search"
         class="inline-flex items-center gap-2 rounded-lg border border-ink-200 bg-sand-50 px-3 py-1.5 text-sm text-ink-500 transition hover:border-ink-300 hover:text-ink-700"
