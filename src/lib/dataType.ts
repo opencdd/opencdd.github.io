@@ -71,7 +71,7 @@ const MEASURE_TYPES: ReadonlyMap<string, string> = new Map([
   ["INT_MEASURE", "INTEGER_MEASURE_TYPE"],
 ]);
 
-const ENUM_RE = /^(ENUM_STRING_TYPE|ENUM_REFERENCE_TYPE)\s*\(\s*(.+?)\s*\)$/;
+const ENUM_RE = /^(ENUM_STRING_TYPE|ENUM_REFERENCE_TYPE|ENUM_BOOLEAN_TYPE)\s*\(\s*(.+?)\s*\)$/;
 const CLASS_REFERENCE_RE = /^CLASS_REFERENCE\s*\(\s*(.+?)\s*\)$/;
 
 export function parseDataType(raw: string | undefined | null): ParsedDataType {

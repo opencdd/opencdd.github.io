@@ -141,10 +141,13 @@ const higherLevel = ancestorChain.slice(0, -1);
 
     {inherited.length > 0 && (
       <Card>
-        <SectionTitle count={inherited.length} anchor={true}>Inherited properties</SectionTitle>
-        <div class="mt-3">
-          <PropertyTable slug={dict!} bundle={bundle} properties={inherited} />
-        </div>
+        <PropertyTable
+          slug={dict!}
+          bundle={bundle}
+          properties={inherited}
+          collapsable
+          label="Inherited properties"
+        />
       </Card>
     )}
 
