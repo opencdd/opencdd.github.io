@@ -18,15 +18,7 @@ import type {
 import { isClassNode, isPropertyNode } from "./types";
 import type { DictionaryRegistryEntry } from "./registry";
 import { entityMatches, normalizeSearchQuery } from "./search";
-
-export interface ClassTreeNode {
-  readonly irdi: string;
-  readonly code: string | undefined;
-  readonly name: string | undefined;
-  readonly classType: string | undefined;
-  readonly superclass: string | undefined;
-  readonly children: ClassTreeNode[];
-}
+import type { ClassTreeNode } from "./tree";
 
 const EMPTY_CLASSES: readonly ClassNode[] = Object.freeze([]);
 const EMPTY_RELATIONS: readonly RelationNode[] = Object.freeze([]);
@@ -363,39 +355,6 @@ function indexDeclaredPropertiesByClass(
   return out as unknown as Map<string, readonly PropertyNode[]>;
 }
 
-/**
- * Build a forest of class-tree nodes from a flat list of class JSON
- * nodes. Roots are classes with no `superclass` reference or whose
- * superclass is not present in the bundle.
- */
-export function buildClassTree(
-  classes: readonly EntityNode[],
-): ClassTreeNode[] {
-  const lookup = new Map<string, ClassTreeNode>();
-  for (const node of classes) {
-    if (node.type !== "class" || !node.irdi) continue;
-    lookup.set(node.irdi, {
-      irdi: node.irdi,
-      code: node.code,
-      name: node.preferred_name,
-      classType: node.class_type,
-      superclass: node.superclass,
-      children: [],
-    });
-  }
-  const roots: ClassTreeNode[] = [];
-  for (const node of lookup.values()) {
-    if (node.superclass && lookup.has(node.superclass)) {
-      lookup.get(node.superclass)!.children.push(node);
-    } else {
-      roots.push(node);
-    }
-  }
-  sortTree(roots);
-  return roots;
-}
-
-function sortTree(nodes: ClassTreeNode[]): void {
-  nodes.sort((a, b) => (a.code ?? "").localeCompare(b.code ?? ""));
-  for (const n of nodes) sortTree(n.children);
-}
+// buildClassTree + sortTree moved to tree.ts (single source of truth
+// for all tree-shaped data). DictionaryBundle imports ClassTreeNode
+// from there for its constructor param.

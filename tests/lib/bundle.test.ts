@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { DictionaryBundle, buildClassTree } from "~/lib/bundle";
-import type { EntityNode, EntityType } from "~/lib/types";
+import { DictionaryBundle } from "~/lib/bundle";
+import { buildClassTree } from "~/lib/tree";
+import type { EntityNode, EntityType, ClassNode } from "~/lib/types";
 import type { DictionaryRegistryEntry } from "~/lib/registry";
 import {
   makeClass,
@@ -35,7 +36,7 @@ function buildBundle(nodes: EntityNode[]): DictionaryBundle {
     entities,
     byCode,
     byType,
-    buildClassTree(byType.get("class") ?? []),
+    buildClassTree((byType.get("class") ?? []) as ClassNode[]),
   );
 }
 
