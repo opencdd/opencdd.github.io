@@ -1,16 +1,13 @@
 ---
-import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
-import EntityHero from "~/components/ui/EntityHero.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Field from "~/components/ui/Field.astro";
 import UsedByField from "~/components/ui/UsedByField.astro";
-import MetadataFields from "~/components/ui/MetadataFields.astro";
 import DataTypeChip from "~/components/ui/DataTypeChip.astro";
 import EntityLink from "~/components/ui/EntityLink.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
-import { codeFromIrdi } from "~/lib/irdi";
 import type { PropertyNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -30,78 +27,60 @@ const valueList = node.value_list;
 const unit = node.unit;
 ---
 
-<DictionaryLayout
+<EntityDetailShell
   dict={dict!}
+  node={node}
   title={`${node.preferred_name ?? node.code} (${node.code}) — ${bundle.registry.title} — OpenCDD`}
 >
-  <article class="space-y-6">
-    <EntityHero
-      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
-      irdi={node.irdi}
-      definition={node.definition}
-      version={node.version}
-      revision={node.revision}
-      dates={node.dates}
-      sourceDocument={node.source_document}
-    >
-      <EntityBadge slot="badge" type="property" />
-    </EntityHero>
+  <EntityBadge slot="badge" type="property" />
 
-    <Card>
-      <dl class="grid gap-3 sm:grid-cols-2">
-        <Field label="Code">
-          <code class="font-mono text-xs">{node.code}</code>
+  <Card>
+    <dl class="grid gap-3 sm:grid-cols-2">
+      <Field label="Code">
+        <code class="font-mono text-xs">{node.code}</code>
+      </Field>
+      <Field label="Data type">
+        {node.data_type ? (
+          <div class="flex items-center gap-2">
+            <DataTypeChip raw={node.data_type} slug={dict!} bundle={bundle} />
+          </div>
+        ) : (
+          <span class="text-ink-400">—</span>
+        )}
+      </Field>
+      {unit && (
+        <Field label="Unit">
+          <EntityLink slug={dict!} irdi={unit} bundle={bundle} />
         </Field>
-        <Field label="Data type">
-          {node.data_type ? (
-            <div class="flex items-center gap-2">
-              <DataTypeChip raw={node.data_type} slug={dict!} bundle={bundle} />
-            </div>
-          ) : (
-            <span class="text-ink-400">—</span>
-          )}
+      )}
+      {valueList && (
+        <Field label="Value list">
+          <EntityLink slug={dict!} irdi={valueList} bundle={bundle} />
         </Field>
-        {unit && (
-          <Field label="Unit">
-            <EntityLink slug={dict!} irdi={unit} bundle={bundle} />
-          </Field>
-        )}
-        {valueList && (
-          <Field label="Value list">
-            <EntityLink slug={dict!} irdi={valueList} bundle={bundle} />
-          </Field>
-        )}
-        {node.condition && (
-          <Field label="Condition">
-            <code class="font-mono text-xs">{node.condition}</code>
-          </Field>
-        )}
-        {node.formula && (
-          <Field label="Formula">
-            <code class="font-mono text-xs">{node.formula}</code>
-          </Field>
-        )}
-        {node.symbol && (
-          <Field label="Symbol">
-            <code class="font-mono text-xs">{node.symbol}</code>
-          </Field>
-        )}
-      </dl>
-    </Card>
+      )}
+      {node.condition && (
+        <Field label="Condition">
+          <code class="font-mono text-xs">{node.condition}</code>
+        </Field>
+      )}
+      {node.formula && (
+        <Field label="Formula">
+          <code class="font-mono text-xs">{node.formula}</code>
+        </Field>
+      )}
+      {node.symbol && (
+        <Field label="Symbol">
+          <code class="font-mono text-xs">{node.symbol}</code>
+        </Field>
+      )}
+    </dl>
+  </Card>
 
-    <UsedByField
-      label="Used by classes"
-      slug={dict!}
-      bundle={bundle}
-      entities={usedBy}
-      exceptIrdi={node.irdi}
-    />
-
-    <Card>
-      <SectionTitle anchor={true}>Metadata</SectionTitle>
-      <div class="mt-3">
-        <MetadataFields entity={node} />
-      </div>
-    </Card>
-  </article>
-</DictionaryLayout>
+  <UsedByField
+    label="Used by classes"
+    slug={dict!}
+    bundle={bundle}
+    entities={usedBy}
+    exceptIrdi={node.irdi}
+  />
+</EntityDetailShell>

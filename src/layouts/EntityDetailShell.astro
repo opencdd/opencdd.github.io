@@ -1,0 +1,46 @@
+---
+import DictionaryLayout from "./DictionaryLayout.astro";
+import Card from "~/components/ui/Card.astro";
+import SectionTitle from "~/components/ui/SectionTitle.astro";
+import EntityHero from "~/components/ui/EntityHero.astro";
+import MetadataFields from "~/components/ui/MetadataFields.astro";
+import { codeFromIrdi } from "~/lib/irdi";
+import type { EntityMetadata } from "~/lib/types";
+
+interface Props {
+  dict: string;
+  node: EntityMetadata;
+  title: string;
+}
+
+const { dict, node, title } = Astro.props;
+---
+
+<DictionaryLayout dict={dict} title={title}>
+  <article class="space-y-6">
+    <EntityHero
+      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
+      irdi={node.irdi}
+      definition={node.definition}
+      titleTranslations={node.preferred_name_ml}
+      definitionTranslations={node.definition_ml}
+      shortName={node.short_name}
+      version={node.version}
+      revision={node.revision}
+      dates={node.dates}
+      sourceDocument={node.source_document}
+    >
+      <slot name="badge" />
+      <slot name="extra-badges" />
+    </EntityHero>
+
+    <slot />
+
+    <Card>
+      <SectionTitle anchor={true}>Metadata</SectionTitle>
+      <div class="mt-3">
+        <MetadataFields entity={node} />
+      </div>
+    </Card>
+  </article>
+</DictionaryLayout>

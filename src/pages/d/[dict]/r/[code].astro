@@ -1,15 +1,11 @@
 ---
-import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
-import SectionTitle from "~/components/ui/SectionTitle.astro";
-import EntityHero from "~/components/ui/EntityHero.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Field from "~/components/ui/Field.astro";
-import MetadataFields from "~/components/ui/MetadataFields.astro";
 import EntityLinkList from "~/components/ui/EntityLinkList.astro";
 import EntityLink from "~/components/ui/EntityLink.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
-import { codeFromIrdi } from "~/lib/irdi";
 import type { RelationNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -25,72 +21,54 @@ if (!node || node.type !== "relation") {
 }
 ---
 
-<DictionaryLayout
+<EntityDetailShell
   dict={dict!}
+  node={node}
   title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
 >
-  <article class="space-y-6">
-    <EntityHero
-      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
-      irdi={node.irdi}
-      definition={node.definition}
-      version={node.version}
-      revision={node.revision}
-      dates={node.dates}
-      sourceDocument={node.source_document}
-    >
-      <EntityBadge slot="badge" type="relation" />
-    </EntityHero>
+  <EntityBadge slot="badge" type="relation" />
 
-    <Card>
-      <dl class="grid gap-3 sm:grid-cols-2">
-        {node.relation_type && (
-          <Field label="Relation type">
-            <code class="font-mono text-xs">{node.relation_type}</code>
-          </Field>
-        )}
-        {node.role && (
-          <Field label="Role">
-            {node.role}
-          </Field>
-        )}
-        {node.segment && (
-          <Field label="Segment">
-            {node.segment}
-          </Field>
-        )}
-        <Field label="Domain">
-          {node.domain && node.domain.length > 0 ? (
-            <EntityLinkList slug={dict!} bundle={bundle} irdis={node.domain} />
-          ) : (
-            <span class="text-ink-400">—</span>
-          )}
+  <Card>
+    <dl class="grid gap-3 sm:grid-cols-2">
+      {node.relation_type && (
+        <Field label="Relation type">
+          <code class="font-mono text-xs">{node.relation_type}</code>
         </Field>
-        <Field label="Codomain">
-          {node.codomain ? (
-            <EntityLink slug={dict!} irdi={node.codomain} bundle={bundle} />
-          ) : (
-            <span class="text-ink-400">—</span>
-          )}
+      )}
+      {node.role && (
+        <Field label="Role">
+          {node.role}
         </Field>
-        {node.formula && (
-          <Field label="Formula">
-            <code class="font-mono text-xs">{node.formula}</code>
-          </Field>
+      )}
+      {node.segment && (
+        <Field label="Segment">
+          {node.segment}
+        </Field>
+      )}
+      <Field label="Domain">
+        {node.domain && node.domain.length > 0 ? (
+          <EntityLinkList slug={dict!} bundle={bundle} irdis={node.domain} />
+        ) : (
+          <span class="text-ink-400">—</span>
         )}
-        {node.formula_language && (
-          <Field label="Formula language">
-            {node.formula_language}
-          </Field>
+      </Field>
+      <Field label="Codomain">
+        {node.codomain ? (
+          <EntityLink slug={dict!} irdi={node.codomain} bundle={bundle} />
+        ) : (
+          <span class="text-ink-400">—</span>
         )}
-      </dl>
-    </Card>
-
-    <Card>
-      <SectionTitle anchor={true}>Metadata</SectionTitle>
-      <div class="mt-3">
-        <MetadataFields entity={node} />
-      </div>
-    </Card>
-  </article>
-</DictionaryLayout>
+      </Field>
+      {node.formula && (
+        <Field label="Formula">
+          <code class="font-mono text-xs">{node.formula}</code>
+        </Field>
+      )}
+      {node.formula_language && (
+        <Field label="Formula language">
+          {node.formula_language}
+        </Field>
+      )}
+    </dl>
+  </Card>
+</EntityDetailShell>

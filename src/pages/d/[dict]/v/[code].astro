@@ -1,14 +1,11 @@
 ---
-import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
-import EntityHero from "~/components/ui/EntityHero.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import ValueTermTable from "~/components/ui/ValueTermTable.astro";
 import UsedByField from "~/components/ui/UsedByField.astro";
-import MetadataFields from "~/components/ui/MetadataFields.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
-import { codeFromIrdi } from "~/lib/irdi";
 import type { ValueListNode, ValueTermNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -25,11 +22,10 @@ if (!node || node.type !== "value_list") {
 
 const usedBy = bundle.propertiesForValueList(node.irdi);
 
-// Resolve terms via term_irdis if present, else by value_list backref.
 let terms: readonly ValueTermNode[] = [];
 if (node.term_irdis && node.term_irdis.length > 0) {
   terms = node.term_irdis
-    .map((irdi) => bundle.find(irdi))
+    .map((i) => bundle.find(i))
     .filter((n): n is ValueTermNode => !!n && n.type === "value_term");
 } else {
   terms = (bundle.entitiesOfType("value_term")).filter(
@@ -38,45 +34,27 @@ if (node.term_irdis && node.term_irdis.length > 0) {
 }
 ---
 
-<DictionaryLayout
+<EntityDetailShell
   dict={dict!}
+  node={node}
   title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
 >
-  <article class="space-y-6">
-    <EntityHero
-      title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
-      irdi={node.irdi}
-      definition={node.definition}
-      version={node.version}
-      revision={node.revision}
-      dates={node.dates}
-      sourceDocument={node.source_document}
-    >
-      <EntityBadge slot="badge" type="value_list" />
-    </EntityHero>
+  <EntityBadge slot="badge" type="value_list" />
 
-    {terms.length > 0 && (
-      <Card>
-        <SectionTitle count={terms.length} anchor={true}>Terms</SectionTitle>
-        <div class="mt-3">
-          <ValueTermTable slug={dict!} bundle={bundle} terms={terms} />
-        </div>
-      </Card>
-    )}
-
-    <UsedByField
-      label="Used by properties"
-      slug={dict!}
-      bundle={bundle}
-      entities={usedBy}
-      exceptIrdi={node.irdi}
-    />
-
+  {terms.length > 0 && (
     <Card>
-      <SectionTitle anchor={true}>Metadata</SectionTitle>
+      <SectionTitle count={terms.length} anchor={true}>Terms</SectionTitle>
       <div class="mt-3">
-        <MetadataFields entity={node} />
+        <ValueTermTable slug={dict!} bundle={bundle} terms={terms} />
       </div>
     </Card>
-  </article>
-</DictionaryLayout>
+  )}
+
+  <UsedByField
+    label="Used by properties"
+    slug={dict!}
+    bundle={bundle}
+    entities={usedBy}
+    exceptIrdi={node.irdi}
+  />
+</EntityDetailShell>
