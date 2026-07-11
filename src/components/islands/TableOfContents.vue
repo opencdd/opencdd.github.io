@@ -55,7 +55,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <nav v-if="entries.length > 0" aria-label="On this page" class="text-sm">
+  <nav
+    v-if="entries.length > 0"
+    aria-label="On this page"
+    class="hidden lg:block rounded-lg border border-ink-200 bg-sand-50/50 px-3 py-2 text-sm"
+  >
     <p class="mb-2 text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-400">
       On this page
     </p>

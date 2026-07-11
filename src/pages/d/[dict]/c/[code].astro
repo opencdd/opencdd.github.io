@@ -70,9 +70,7 @@ const higherLevel = ancestorChain.slice(0, -1);
       crumbs={ancestorChain.map((c) => ({ irdi: c.irdi }))}
     />
 
-    <div class="hidden lg:block rounded-lg border border-ink-200 bg-sand-50/50 px-3 py-2">
-      <TableOfContents client:visible />
-    </div>
+    <TableOfContents client:load />
 
     <EntityHero
       title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
