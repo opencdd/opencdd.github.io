@@ -19,6 +19,10 @@
       "zh": "范围涵盖用于稳态和动态（包括暂态和瞬态）的电工和电磁量的测量、测试、周期性测试、监测、评估、发生及分析设备、系统及方法，及其校准装置"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA001",
       "MDC_P002_1": "1",
@@ -100,6 +104,10 @@
       "fr": "Voir principalement la série des normes CEI 61557.",
       "de": "见IEC 61557 系列"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA010",
       "MDC_P002_1": "1",
@@ -180,6 +188,10 @@
       "de": "physikalische Geräte-Information für den Einbau"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA011",
       "MDC_P002_1": "1",
@@ -272,6 +284,11 @@
       "de": "allgemeine technische Aspekte des Geräts"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63213DB",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00126",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA012",
       "MDC_P002_1": "3",
@@ -383,6 +400,10 @@
       "de": "allgemeine Umgebungsbedingungen des Geräts"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA015",
       "MDC_P002_1": "1",
@@ -470,6 +491,10 @@
       "de": "Informationen über Strommess-Schnittstellen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA016",
       "MDC_P002_1": "1",
@@ -554,6 +579,10 @@
       "de": "Informationen über Spannungsmess-Schnittstellen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA018",
       "MDC_P002_1": "1",
@@ -638,6 +667,11 @@
       "de": "Informationen über I/O-Schnittstellen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63213DB",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00126",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA020",
       "MDC_P002_1": "3",
@@ -746,6 +780,10 @@
       "de": "Informationen über Datenkommunikations-Schnittstellen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA022",
       "MDC_P002_1": "1",
@@ -830,6 +868,10 @@
       "de": "Infomationen über Konformitätsbewertung"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA024",
       "MDC_P002_1": "1",
@@ -913,6 +955,10 @@
       "zh": "关于数据存储格式的信息"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA026",
       "MDC_P002_1": "1",
@@ -998,6 +1044,10 @@
       "zh": "关于设备与时间同步方式的信息"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA028",
       "MDC_P002_1": "1",
@@ -1080,6 +1130,10 @@
       "zh": "存储容量"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA030",
       "MDC_P002_1": "1",
@@ -1163,6 +1217,10 @@
       "zh": "关于可交付的电能质量报告的信息"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA032",
       "MDC_P002_1": "1",
@@ -1245,6 +1303,10 @@
       "zh": "按测量设备特性分类的属性专门列表"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB001",
       "MDC_P002_1": "1",
@@ -1324,6 +1386,11 @@
       "zh": "PMD的通用技术方面"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63213DB",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00126",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB004",
       "MDC_P002_1": "3",
@@ -1439,6 +1506,10 @@
       "zh": "PMD的通用环境方面 "
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB006",
       "MDC_P002_1": "1",
@@ -1526,6 +1597,10 @@
       "zh": "PMD的数据通信"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB022",
       "MDC_P002_1": "1",
@@ -1615,6 +1690,10 @@
       "zh": "PMD的产品证书和标准"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB024",
       "MDC_P002_1": "1",
@@ -1701,6 +1780,11 @@
       "zh": "PQI的通用技术方面"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63213DB",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00126",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB104",
       "MDC_P002_1": "3",
@@ -1815,6 +1899,10 @@
       "zh": "PQI的通用环境方面"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB106",
       "MDC_P002_1": "1",
@@ -1902,6 +1990,10 @@
       "zh": "PQI的数据通信"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB122",
       "MDC_P002_1": "1",
@@ -1991,6 +2083,10 @@
       "zh": "PQI的产品证书和标准"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEB124",
       "MDC_P002_1": "1",
@@ -2077,6 +2173,10 @@
       "zh": "测量设备以及设备与&&&的组合"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00103",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA100",
       "MDC_P002_1": "1",
@@ -2168,6 +2268,11 @@
     "remark_ml": {
       "en": "Reference to ECLASS: 27-14-23-35"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63213DB",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00126",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA101",
       "MDC_P002_1": "1",
@@ -2279,6 +2384,11 @@
     "remark_ml": {
       "en": "Reference to ECLASS: 27-14-23-36"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63213DB",
+    "responsible_committee": "IEC/TC 85",
+    "change_request_id": "C00126",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63213#KEA102",
       "MDC_P002_1": "1",

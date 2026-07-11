@@ -18,57 +18,6 @@
       "metaClassIrdis": []
     },
     {
-      "slug": "iec61987",
-      "parcelId": "IEC61987",
-      "title": "iec61987",
-      "sourceLanguage": "en",
-      "translationLanguages": [],
-      "counts": {
-        "class": 2696,
-        "property": 5533,
-        "value_list": 574,
-        "value_term": 3028,
-        "unit": 0,
-        "relation": 0,
-        "view_control": 0
-      },
-      "metaClassIrdis": []
-    },
-    {
-      "slug": "iec63508",
-      "parcelId": "IEC63508",
-      "title": "iec63508",
-      "sourceLanguage": "en",
-      "translationLanguages": [],
-      "counts": {
-        "class": 23,
-        "property": 33,
-        "value_list": 9,
-        "value_term": 86,
-        "unit": 0,
-        "relation": 0,
-        "view_control": 0
-      },
-      "metaClassIrdis": []
-    },
-    {
-      "slug": "iec61360",
-      "parcelId": "IEC61360",
-      "title": "iec61360",
-      "sourceLanguage": "en",
-      "translationLanguages": [],
-      "counts": {
-        "class": 574,
-        "property": 0,
-        "value_list": 0,
-        "value_term": 0,
-        "unit": 0,
-        "relation": 0,
-        "view_control": 0
-      },
-      "metaClassIrdis": []
-    },
-    {
       "slug": "iec63213",
       "parcelId": "IEC63213",
       "title": "iec63213",
@@ -113,6 +62,57 @@
         "property": 760,
         "value_list": 139,
         "value_term": 582,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
+    },
+    {
+      "slug": "iec61987",
+      "parcelId": "IEC61987",
+      "title": "iec61987",
+      "sourceLanguage": "en",
+      "translationLanguages": [],
+      "counts": {
+        "class": 2696,
+        "property": 5533,
+        "value_list": 574,
+        "value_term": 3028,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
+    },
+    {
+      "slug": "iec63508",
+      "parcelId": "IEC63508",
+      "title": "iec63508",
+      "sourceLanguage": "en",
+      "translationLanguages": [],
+      "counts": {
+        "class": 23,
+        "property": 33,
+        "value_list": 9,
+        "value_term": 86,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
+    },
+    {
+      "slug": "iec61360",
+      "parcelId": "IEC61360",
+      "title": "iec61360",
+      "sourceLanguage": "en",
+      "translationLanguages": [],
+      "counts": {
+        "class": 574,
+        "property": 0,
+        "value_list": 0,
+        "value_term": 0,
         "unit": 0,
         "relation": 0,
         "view_control": 0

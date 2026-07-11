@@ -13,6 +13,11 @@
       "en": "collection of classes and properties intended for cross-domain use"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00095",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA000",
       "MDC_P002_1": "1",
@@ -77,6 +82,11 @@
     "remark_ml": {
       "en": "A description of the common data concepts for smart manufacturing (IEC 63489) provided with \"0112/2///61360_7#AAS000\" is referenced in the attribute \"Drawing\"."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00146",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS000",
       "MDC_P002_1": "1",
@@ -152,6 +162,11 @@
       "de": "Sammlung von Blöcken, welche als Basis für die Definition von Teilmodellen dienen."
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00146",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS001",
       "MDC_P002_1": "1",
@@ -230,6 +245,11 @@
       "en": "The manufacturer contact information of the type plate, if defined by regulations.",
       "de": "Die Hersteller-Kontaktinformationen des Typenschild, sofern in Vorschriften definiert."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00146",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS002",
       "MDC_P002_1": "1",
@@ -314,6 +334,11 @@
       "de": "Sammlung von verschiedenen Kennzeichnungen, die sich auf das Produkt beziehen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00146",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS006",
       "MDC_P002_1": "1",
@@ -391,6 +416,11 @@
       "de": "Merkmale, die Kennzeichen oder Zertifikate charakterisieren, welche mit dem Gerät oder Asset mitgeliefert oder assoziiert sind"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00146",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS009",
       "MDC_P002_1": "1",
@@ -475,6 +505,11 @@
       "de": "Sammlung von Teilmodellen."
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00146",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS004",
       "MDC_P002_1": "1",
@@ -548,6 +583,11 @@
       "de": "Merkmale, die Typenschild-Informationen charakterisieren, welche sich auf das Produkt beziehen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63489",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00161",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS005",
       "MDC_P002_1": "2",
@@ -655,6 +695,11 @@
       "de": "Sammlung von Merkmalem, die eine Kontaktinformation-Submodel kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#AAS012",
       "MDC_P002_1": "1",
@@ -729,6 +774,11 @@
     "remark_ml": {
       "en": "Former identifier of this class according to IEC 61360-4 was 0112/2///61360_4#AAA233"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00095",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA001",
       "MDC_P002_1": "1",
@@ -791,6 +841,11 @@
       "en": "collection of feature blocks"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA003",
       "MDC_P002_1": "1",
@@ -853,6 +908,11 @@
       "de": "Sammlung von Merkmalen, die die Identifizierung einer Organisation kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA017",
       "MDC_P002_1": "1",
@@ -935,6 +995,11 @@
     "note_ml": {
       "en": "The physical address provides a means to lookup, visit or pickup items at a geographical location"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA020",
       "MDC_P002_1": "1",
@@ -1011,6 +1076,11 @@
     "note_ml": {
       "en": "The geographic global position may be specified by latitude/longitude/elevation (WGS 84), grid Zone (UTM) or natural location identifier (NLI)"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA021",
       "MDC_P002_1": "1",
@@ -1083,6 +1153,11 @@
       "de": "Sammlung von Merkmalen, die die für die Kommunikation mit einem Ansprechpartner erforderliche E-Mail Adresse kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA022",
       "MDC_P002_1": "1",
@@ -1154,6 +1229,11 @@
       "de": "Sammlung von Merkmalen, die ein von einem Ansprechpartner verwendetes Telefon kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA023",
       "MDC_P002_1": "1",
@@ -1224,6 +1304,11 @@
       "de": "Sammlung von Merkmalen, die ein von einem Ansprechpartner verwendetes Faxgerät kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA024",
       "MDC_P002_1": "1",
@@ -1296,6 +1381,11 @@
     "remark_ml": {
       "en": "The opening hours are provided for the timezone of the users."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA025",
       "MDC_P002_1": "1",
@@ -1367,6 +1457,11 @@
       "de": "Sammlung von Merkmalen, die eine Zeitperiode für Öffnungszeiten identifizieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA026",
       "MDC_P002_1": "1",
@@ -1433,6 +1528,11 @@
       "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA027",
       "MDC_P002_1": "1",
@@ -1499,6 +1599,11 @@
       "de": "Sammlung von Merkmalen, die eine Social-Media-Adresse kennzeichnen, die von einer Organisation oder einer Kontaktperson benutzt wird"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA028",
       "MDC_P002_1": "1",
@@ -1568,6 +1673,11 @@
       "de": "Sammlung von Merkmalen, die die für einen Ansprechpartner erforderliche Informationen kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA029",
       "MDC_P002_1": "1",
@@ -1645,6 +1755,11 @@
       "de": "Sammlung von Merkmalen, die die für einen Wiederholungsmuster erforderliche Informationen kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA030",
       "MDC_P002_1": "1",
@@ -1716,6 +1831,11 @@
       "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für täglich wiederkehrende Ereignisse oder Aufgaben definieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA031",
       "MDC_P002_1": "1",
@@ -1782,6 +1902,11 @@
       "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für monatlich wiederkehrende Ereignisse oder Aufgaben definieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA032",
       "MDC_P002_1": "1",
@@ -1848,6 +1973,11 @@
       "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für jährlich wiederkehrende Ereignisse oder Aufgaben definieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA033",
       "MDC_P002_1": "1",
@@ -1915,6 +2045,11 @@
       "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA034",
       "MDC_P002_1": "1",
@@ -1981,6 +2116,11 @@
       "de": "Sammlung von Merkmalen, die eine Regel oder ein Wiederholungsmuster für wöchentlich wiederkehrende Ereignisse oder Aufgaben definieren"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA035",
       "MDC_P002_1": "1",
@@ -2048,6 +2188,11 @@
       "de": "Sammlung von Merkmalen, die eine Liste von Wochentagen kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA036",
       "MDC_P002_1": "1",
@@ -2114,6 +2259,11 @@
       "de": "Sammlung von Merkmalen, die einen Wochentag kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA037",
       "MDC_P002_1": "1",
@@ -2179,6 +2329,11 @@
       "de": "Sammlung von Merkmalen, die eine URL kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA038",
       "MDC_P002_1": "1",
@@ -2245,6 +2400,11 @@
       "de": "Sammlung von Merkmalen, die eine Sprache kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA039",
       "MDC_P002_1": "1",
@@ -2316,6 +2476,11 @@
       "en": "The information on the local time of an organization or person can be used to calculate opening hours or appointment for the timezone of the user.",
       "de": "Die Information zur Ortszeit einer Organisation oder Person kann genutzt werden, um Öffnungszeiten oder Termine für die Zeitzone des Nutzers zu berechnen."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA040",
       "MDC_P002_1": "1",
@@ -2390,6 +2555,11 @@
     "remark_ml": {
       "en": "The address information corresponds to UN/EDIFACT NAD (Name and address) - see https://service.unece.org/trade/untdid/d01b/trsd/trsdnad.htm"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA041",
       "MDC_P002_1": "1",
@@ -2468,6 +2638,11 @@
     "remark_ml": {
       "en": "The organization information corresponds to UN/EDIFACT C058 NAME AND ADDRESS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc058.htm"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA042",
       "MDC_P002_1": "1",
@@ -2543,6 +2718,11 @@
     "remark_ml": {
       "en": "The street information corresponds to UN/EDIFACT C059 STREET - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc059.htm"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA043",
       "MDC_P002_1": "1",
@@ -2616,6 +2796,11 @@
     "remark_ml": {
       "en": "The country subdivision information corresponds to UN/EDIFACT C819 COUNTRY SUB-ENTITY DETAILS - see https://service.unece.org/trade/untdid/d01b/trcd/trcdc819.htm"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA044",
       "MDC_P002_1": "1",
@@ -2685,6 +2870,11 @@
       "de": "Sammlung von Merkmalen, die Adressinformationen entsprechend einem Adress-System beschreiben"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA045",
       "MDC_P002_1": "1",
@@ -2751,6 +2941,11 @@
       "en": "collection of properties characterizing the customs tariff number of a product"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA005",
       "MDC_P002_1": "1",
@@ -2819,6 +3014,11 @@
       "en": "collection of codes and designations for classifying an item"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA006",
       "MDC_P002_1": "1",
@@ -2879,6 +3079,11 @@
       "en": "collection of properties characterizing the country"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA007",
       "MDC_P002_1": "1",
@@ -2944,6 +3149,11 @@
       "en": "collection of properties characterizing the language"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA008",
       "MDC_P002_1": "1",
@@ -3008,6 +3218,11 @@
       "en": "collection of properties describing the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA009",
       "MDC_P002_1": "1",
@@ -3071,6 +3286,11 @@
       "en": "collection of properties describing the degree of protection provided by an enclosure against harmful external mechanical impacts"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA010",
       "MDC_P002_1": "1",
@@ -3134,6 +3354,11 @@
       "en": "collection of properties describing colours of an item"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00109",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA011",
       "MDC_P002_1": "1",
@@ -3202,6 +3427,11 @@
       "en": "collection of properties characterizing the currency"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00164",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA012",
       "MDC_P002_1": "1",
@@ -3265,6 +3495,11 @@
       "en": "collection of properties characterizing the human sex"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00165",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA013",
       "MDC_P002_1": "1",
@@ -3333,6 +3568,11 @@
     "note_ml": {
       "en": "The IEC 60721 series define classes for climatic, mechanical and other environmental influences"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00193",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA046",
       "MDC_P002_1": "1",
@@ -3404,6 +3644,11 @@
       "en": "collection of properties characterizing the unambiguous identification of a product, software or service"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00176",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA014",
       "MDC_P002_1": "1",
@@ -3495,6 +3740,11 @@
       "de": "Sammlung von Merkmalen, die eine Organisation kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA015",
       "MDC_P002_1": "1",
@@ -3578,6 +3828,11 @@
       "de": "Sammlung von Merkmalen, die die für die Kommunikation mit einem Ansprechpartner erforderlichen Informationen kennzeichnen"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 65E",
+    "change_request_id": "C00187",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA016",
       "MDC_P002_1": "1",
@@ -3665,6 +3920,11 @@
     "note_ml": {
       "en": "NOTE 1 Qualifiers are intended to specify the meaning of properties and other data element types or of its instanciated values. In many cases this specification is essential for the correct interpretation of the value. Example: The value associated during the product life cycle stage “as designed” can well differ from the value during the stage “as built”.\r\nNOTE 2 Association of qualifiers to values is not an activity performed in the dictionary but is rather performed by an application. By providing qualifier objects in the dictionary the application can select terms or values from predefined, standardized terms for qualifiers. Such qualifiers can provide information such as status data or lifecycle data."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 61360-7",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00095",
     "raw_properties": {
       "MDC_P001_5": "0112/2///61360_7#CAA002",
       "MDC_P002_1": "1",

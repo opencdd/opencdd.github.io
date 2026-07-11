@@ -1,5 +1,6 @@
 ---
 import Field from "./Field.astro";
+import Badge from "./Badge.astro";
 import type { EntityMetadata } from "~/lib/types";
 
 interface Props {
@@ -19,6 +20,11 @@ const {
   revision,
   time_stamp,
   dates,
+  status_level,
+  publisher,
+  published_in,
+  responsible_committee,
+  change_request_id,
 } = entity;
 
 const hasContent =
@@ -32,7 +38,12 @@ const hasContent =
   !!version ||
   !!revision ||
   !!time_stamp ||
-  !!dates;
+  !!dates ||
+  !!status_level ||
+  !!publisher ||
+  !!published_in ||
+  !!responsible_committee ||
+  !!change_request_id;
 ---
 
 {hasContent && (
@@ -78,6 +89,15 @@ const hasContent =
     )}
     {version && <Field label="Version">{version}</Field>}
     {revision && <Field label="Revision">{revision}</Field>}
+    {status_level && <Field label="Status"><Badge tone="emerald">{status_level}</Badge></Field>}
+    {publisher && <Field label="Publisher">{publisher}</Field>}
+    {published_in && <Field label="Published in">{published_in}</Field>}
+    {responsible_committee && <Field label="Responsible committee">{responsible_committee}</Field>}
+    {change_request_id && (
+      <Field label="Change request">
+        <code class="font-mono text-xs">{change_request_id}</code>
+      </Field>
+    )}
     {time_stamp && <Field label="Time stamp">{time_stamp}</Field>}
     {dates && (
       <Field label="Dates">

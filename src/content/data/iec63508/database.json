@@ -17,6 +17,11 @@
     "note_ml": {
       "en": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA001",
       "MDC_P002_1": "2",
@@ -84,6 +89,11 @@
       "en": "heading number for classification of circuit-breakers and similar equipment for household use"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA010",
       "MDC_P002_1": "1",
@@ -144,6 +154,11 @@
       "en": "circuit-breakers for domestic and similar purpose of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection of wiring against overcurrents in domestic and similar installations"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA020",
       "MDC_P002_1": "1",
@@ -205,6 +220,11 @@
     },
     "source_document": "IEC 60050 441:1984, 441-14-20, modified – “AC miniature” has been added to the term",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA021",
       "MDC_P002_1": "1",
@@ -278,6 +298,11 @@
       "en": "heading number for blocks of properties to describe all types of products within this domain"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA011",
       "MDC_P002_1": "1",
@@ -338,6 +363,11 @@
       "en": "general technical aspects of the device"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA220",
       "MDC_P002_1": "1",
@@ -408,6 +438,11 @@
       "en": "all the conductive parts of a switching device included in the circuit which it is designed to close or open"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA221",
       "MDC_P002_1": "1",
@@ -486,6 +521,11 @@
       "en": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA222",
       "MDC_P002_1": "1",
@@ -561,6 +601,11 @@
       "en": "release which causes a mechanical switching device to open in specified conditions"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA223",
       "MDC_P002_1": "1",
@@ -633,6 +678,11 @@
       "en": "all the conductive parts of the device which are intended to be included in a circuit other than the main circuit"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA224",
       "MDC_P002_1": "1",
@@ -696,6 +746,11 @@
       "en": "physical information of the device for installation"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA225",
       "MDC_P002_1": "1",
@@ -768,6 +823,11 @@
       "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA226",
       "MDC_P002_1": "1",
@@ -842,6 +902,11 @@
     },
     "source_document": "IEC 60050-395:2014 395-07-98",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA227",
       "MDC_P002_1": "1",
@@ -912,6 +977,11 @@
       "en": "conformity of a device with specified requirements and compliance with recognized product standards"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDA228",
       "MDC_P002_1": "1",
@@ -983,6 +1053,11 @@
       "en": "heading number for specialised blocks of properties to describe all types of products within this domain"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE005",
       "MDC_P002_1": "1",
@@ -1043,6 +1118,11 @@
       "en": "general technical aspects of the device (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE010",
       "MDC_P002_1": "1",
@@ -1113,6 +1193,11 @@
       "en": "all the conductive parts of a switching device included in the circuit which it is designed to close or open (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE013",
       "MDC_P002_1": "1",
@@ -1189,6 +1274,11 @@
       "en": "short-circuit conditions, stated by the manufacturer, which the device can make, withstand or break satisfactorily (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE016",
       "MDC_P002_1": "1",
@@ -1262,6 +1352,11 @@
       "en": "release which causes a mechanical switching device to open in specified conditions (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE019",
       "MDC_P002_1": "1",
@@ -1332,6 +1427,11 @@
       "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the device (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE028",
       "MDC_P002_1": "1",
@@ -1403,6 +1503,11 @@
       "en": "physical conditions such as ambient temperature, pressure, radiation, humidity, chemical spray expected as normal operating conditions or resulting from postulated initiating events (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE031",
       "MDC_P002_1": "1",
@@ -1470,6 +1575,11 @@
       "en": "conformity of a device with specified requirements and compliance with recognized product standards (specific to AC miniature circuit-breaker)"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDE034",
       "MDC_P002_1": "1",
@@ -1545,6 +1655,11 @@
       "zh": "为了明确识别电器所需的信息"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 62683",
+    "responsible_committee": "IEC/SC 3D",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_5": "0112/2///63508#KDF010",
       "MDC_P002_1": "1",
@@ -1636,6 +1751,11 @@
     "note_ml": {
       "en": "Rated insulation voltage is always understood to be between live parts and not between live parts and earth (ground)."
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB002",
       "MDC_P002_1": "1",
@@ -1696,6 +1816,11 @@
       "en": "power dissipation calculated for one pole on the basis of the voltage drop measured at AC rated current under steady state conditions between its terminals"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB003",
       "MDC_P002_1": "1",
@@ -1753,6 +1878,11 @@
     },
     "source_document": "IEC 60898-1:2017, 5.2.4, modified – “at 230 V (Icn)” added",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB004",
       "MDC_P002_1": "1",
@@ -1806,6 +1936,11 @@
     },
     "source_document": "IEC 60898-1:2017, 5.2.4, modified – “at 400 V (Icn)” added",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB005",
       "MDC_P002_1": "1",
@@ -1858,6 +1993,11 @@
       "en": "class number (class 1 or class 3) defined by standard EN 60898-1 or EN 61009-1 as relevant"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB006",
       "MDC_P002_1": "1",
@@ -1908,6 +2048,11 @@
     },
     "source_document": "5.2.4 of IEC 60898-1",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB007",
       "MDC_P002_1": "1",
@@ -1969,6 +2114,11 @@
     "synonyms_ml": {
       "en": "reference ambient air temperature"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB008",
       "MDC_P002_1": "1",
@@ -2036,6 +2186,11 @@
     "synonyms_ml": {
       "en": "release characteristic"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB009",
       "MDC_P002_1": "1",
@@ -2088,6 +2243,11 @@
     },
     "source_document": "8.6.3 of IEC 60898-1",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB010",
       "MDC_P002_1": "1",
@@ -2137,6 +2297,11 @@
       "en": "specification whether additional equipment providing an additional function is possible"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB011",
       "MDC_P002_1": "1",
@@ -2185,6 +2350,11 @@
       "en": "distance between two lateral faces of the device expressed in multiple of 18 mm"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB012",
       "MDC_P002_1": "1",
@@ -2235,6 +2405,11 @@
       "en": "distance between the surface in contact with the mounting part (e.g. rail) and the location of the protection panel from the switchboard"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB013",
       "MDC_P002_1": "1",
@@ -2292,6 +2467,11 @@
       "en": "terminal intended for connection of comb busbar only"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB014",
       "MDC_P002_1": "1",
@@ -2340,6 +2520,11 @@
       "en": "one terminal with two clamping units, one for a comb busbar, the other for a conductor"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB015",
       "MDC_P002_1": "1",
@@ -2393,6 +2578,11 @@
     "note_ml": {
       "en": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB016",
       "MDC_P002_1": "1",
@@ -2449,6 +2639,11 @@
     "note_ml": {
       "en": "screw terminal: terminal in which the conductor is clamped under the head of the screw and where the clamping pressure can be applied directly by the head of the screw or through an intermediate part, such as a washer, a clamping plate or an anti-spread device\r\nscrewless terminal: connecting terminal for the connection and subsequent disconnection of one conductor or the interconnection of two or more conductors capable of being dismantled, the connection being made, directly or indirectly, by means of springs, wedges, eccentrics or cones, etc., without special preparation of the conductor other than removal of insulation\r\nFlat-quick connection termination: electrical connection consisting of a male tab and a female connector which can be pushed into and withdrawn with or without the use of a tool\r\nplug-in terminal: terminal the electrical connection and disconnection of which can be effected without displacing the conductors of the corresponding circuit"
     },
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB017",
       "MDC_P002_1": "1",
@@ -2501,6 +2696,11 @@
     },
     "source_document": "IEC 60898-1",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB018",
       "MDC_P002_1": "1",
@@ -2551,6 +2751,11 @@
     },
     "source_document": "ISO 17030:2021, 3.1, modified – The term “third-party mark of conformity” is replaced by conformity marks.",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB019",
       "MDC_P002_1": "1",
@@ -2602,6 +2807,11 @@
     },
     "source_document": "IEC 60664-1:2020, 3.1.20",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB020",
       "MDC_P002_1": "1",
@@ -2652,6 +2862,11 @@
       "en": "number of electrically separated conducting paths, each provided with a contact intended to connect and disconnect the main circuit of a switching device"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB021",
       "MDC_P002_1": "1",
@@ -2701,6 +2916,11 @@
       "en": "circuit-breakers and similar equipment for household use reference standard(s) to which the product complies with"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB022",
       "MDC_P002_1": "1",
@@ -2750,6 +2970,11 @@
       "en": "maximum value of the AC rated operational voltage for which the device is suitable for use on IT systems"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB025",
       "MDC_P002_1": "1",
@@ -2806,6 +3031,11 @@
       "en": "limit of the setting range of the AC current causing the operation of a release without any intentional time-delay"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDB026",
       "MDC_P002_1": "1",
@@ -2858,6 +3088,11 @@
       "en": "reference property linked to the generic block KDF010 for Identification, for assignment to any class"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC100",
       "MDC_P002_1": "1",
@@ -2904,6 +3139,11 @@
       "en": "reference property linked to the specialized block KDE010 for General technical data"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC101",
       "MDC_P002_1": "1",
@@ -2950,6 +3190,11 @@
       "en": "reference property linked to the specialized block KDE013 for Main circuit"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC102",
       "MDC_P002_1": "1",
@@ -2996,6 +3241,11 @@
       "en": "reference property linked to the specialized block KDE016 for Short-circuit"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC103",
       "MDC_P002_1": "1",
@@ -3042,6 +3292,11 @@
       "en": "reference property linked to the specialized block KDE019 for Tripping characteristics or over-current release"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC104",
       "MDC_P002_1": "1",
@@ -3088,6 +3343,11 @@
       "en": "reference property linked to the generic block KDA224 for Control and auxiliary circuits, for assignment to any class"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC105",
       "MDC_P002_1": "1",
@@ -3134,6 +3394,11 @@
       "en": "reference property linked to the generic block KDA225 for Installation, mounting and dimension, for assignment to any class"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC106",
       "MDC_P002_1": "1",
@@ -3180,6 +3445,11 @@
       "en": "reference property linked to the specialized block KDE028 for Connection facilities"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC107",
       "MDC_P002_1": "1",
@@ -3226,6 +3496,11 @@
       "en": "reference property linked to the specialized block KDE031 for Environmental conditions"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC108",
       "MDC_P002_1": "1",
@@ -3272,6 +3547,11 @@
       "en": "reference property linked to the specialized block KDE034 for Product certificates and standards"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_6": "0112/2///63508#KDC109",
       "MDC_P002_1": "1",
@@ -3319,6 +3599,11 @@
     },
     "source_document": "IEC 60898-1",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD101",
       "MDC_P043": "{0112/2///63508#KDT001,0112/2///63508#KDT002,0112/2///63508#KDT003,0112/2///63508#KDT004}",
@@ -3373,6 +3658,11 @@
     },
     "source_document": "IEC 60898-1",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD102",
       "MDC_P043": "{0112/2///63508#KDT005,0112/2///63508#KDT006,0112/2///63508#KDT007}",
@@ -3425,6 +3715,11 @@
     },
     "source_document": "EN 60898-1",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD103",
       "MDC_P043": "{0112/2///63508#KDT008,0112/2///63508#KDT009,0112/2///63508#KDT010}",
@@ -3476,6 +3771,11 @@
       "en": "value list for type of terminals"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD104",
       "MDC_P043": "{0112/2///63508#KDT011,0112/2///63508#KDT012,0112/2///63508#KDT013,0112/2///63508#KDT014,0112/2///63508#KDT015,0112/2///63508#KDT016}",
@@ -3532,6 +3832,11 @@
       "en": "value list for Third-party mark of conformity"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD105",
       "MDC_P043": "{0112/2///63508#KDT017,0112/2///63508#KDT018,0112/2///63508#KDT019,0112/2///63508#KDT020,0112/2///63508#KDT021,0112/2///63508#KDT022,0112/2///63508#KDT023,0112/2///63508#KDT024,0112/2///63508#KDT025,0112/2///63508#KDT026,0112/2///63508#KDT027,0112/2///63508#KDT028,0112/2///63508#KDT029,0112/2///63508#KDT030,0112/2///63508#KDT031,0112/2///63508#KDT032,0112/2///63508#KDT033,0112/2///63508#KDT034,0112/2///63508#KDT035,0112/2///63508#KDT036,0112/2///63508#KDT037,0112/2///63508#KDT038,0112/2///63508#KDT039,0112/2///63508#KDT040,0112/2///63508#KDT041,0112/2///63508#KDT042,0112/2///63508#KDT043,0112/2///63508#KDT044,0112/2///63508#KDT045,0112/2///63508#KDT046,0112/2///63508#KDT047,0112/2///63508#KDT048,0112/2///63508#KDT049,0112/2///63508#KDT050}",
@@ -3645,6 +3950,11 @@
     },
     "source_document": "IEC 60664-1:2020, 4,5",
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD106",
       "MDC_P043": "{0112/2///63508#KDT051,0112/2///63508#KDT052,0112/2///63508#KDT053}",
@@ -3696,6 +4006,11 @@
       "en": "value list for Short-circuit values"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD107",
       "MDC_P043": "{0112/2///63508#KDT054,0112/2///63508#KDT055,0112/2///63508#KDT056,0112/2///63508#KDT057,0112/2///63508#KDT058,0112/2///63508#KDT059,0112/2///63508#KDT060,0112/2///63508#KDT061,0112/2///63508#KDT062,0112/2///63508#KDT063,0112/2///63508#KDT064,0112/2///63508#KDT065,0112/2///63508#KDT066,0112/2///63508#KDT067,0112/2///63508#KDT068}",
@@ -3770,6 +4085,11 @@
       "en": "value list for Number of switched poles"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD108",
       "MDC_P043": "{0112/2///63508#KDT069,0112/2///63508#KDT070,0112/2///63508#KDT071,0112/2///63508#KDT072}",
@@ -3822,6 +4142,11 @@
       "en": "list of reference standards for circuit-breakers and similar equipment"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_12": "0112/2///63508#KDD109",
       "MDC_P043": "{0112/2///63508#KDT073,0112/2///63508#KDT074,0112/2///63508#KDT075,0112/2///63508#KDT076,0112/2///63508#KDT077,0112/2///63508#KDT078,0112/2///63508#KDT079,0112/2///63508#KDT080,0112/2///63508#KDT081,0112/2///63508#KDT082,0112/2///63508#KDT083,0112/2///63508#KDT084,0112/2///63508#KDT085,0112/2///63508#KDT086}",
@@ -3894,6 +4219,11 @@
       "en": "overvoltage category used when there is no direct connection to a mains supply"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT001",
       "MDC_P002_1": "1",
@@ -3934,6 +4264,11 @@
       "en": "overvoltage category used for energy-consuming equipment to be supplied from the fixed installation"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT002",
       "MDC_P002_1": "1",
@@ -3974,6 +4309,11 @@
       "en": "overvoltage category used in fixed installations and for cases where the reliability and the availability of the equipment is subject to special requirements"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT003",
       "MDC_P002_1": "1",
@@ -4014,6 +4354,11 @@
       "en": "overvoltage category used at the origin of the installation"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT004",
       "MDC_P002_1": "1",
@@ -4054,6 +4399,11 @@
       "en": "instantaneous tripping above 3 In up to and including 5 In"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT005",
       "MDC_P002_1": "1",
@@ -4094,6 +4444,11 @@
       "en": "instantaneous tripping above 5 In up to and including 10 In"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT006",
       "MDC_P002_1": "1",
@@ -4134,6 +4489,11 @@
       "en": "instantaneous tripping above 10 In up to and including 20 In"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT007",
       "MDC_P002_1": "1",
@@ -4174,6 +4534,11 @@
       "en": "No I2t limitation"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT008",
       "MDC_P002_1": "1",
@@ -4214,6 +4579,11 @@
       "en": "Enhanced I2t for cables protection"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT009",
       "MDC_P002_1": "1",
@@ -4257,6 +4627,11 @@
       "zh": "默认答案"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT010",
       "MDC_P002_1": "1",
@@ -4300,6 +4675,11 @@
       "en": "screw based terminal adapted to copper conductors"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT011",
       "MDC_P002_1": "1",
@@ -4340,6 +4720,11 @@
       "en": "screwless based terminal adapted to copper conductors"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT012",
       "MDC_P002_1": "1",
@@ -4380,6 +4765,11 @@
       "en": "flat quick connection terminal type for copper conductor"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT013",
       "MDC_P002_1": "1",
@@ -4420,6 +4810,11 @@
       "en": "pluggable terminal"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT014",
       "MDC_P002_1": "1",
@@ -4460,6 +4855,11 @@
       "en": "screw based terminal adapted to aluminium conductors"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT015",
       "MDC_P002_1": "1",
@@ -4500,6 +4900,11 @@
       "en": "screw based terminal adapted to copper and aluminium conductors"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT016",
       "MDC_P002_1": "1",
@@ -4551,6 +4956,11 @@
       "zh": "非洲合格评定协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT017",
       "MDC_P002_1": "1",
@@ -4610,6 +5020,11 @@
       "zh": "西班牙标准化与认证协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT018",
       "MDC_P002_1": "1",
@@ -4669,6 +5084,11 @@
       "zh": "产品质量认证局"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT019",
       "MDC_P002_1": "1",
@@ -4728,6 +5148,11 @@
       "zh": "标准、计量和检验局"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT020",
       "MDC_P002_1": "1",
@@ -4787,6 +5212,11 @@
       "zh": "中国强制性产品认证"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT021",
       "MDC_P002_1": "1",
@@ -4846,6 +5276,11 @@
       "zh": "比利时电气认证机构"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT022",
       "MDC_P002_1": "1",
@@ -4905,6 +5340,11 @@
       "zh": "认证机构"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT023",
       "MDC_P002_1": "1",
@@ -4964,6 +5404,11 @@
       "zh": "德国标准化学会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT024",
       "MDC_P002_1": "1",
@@ -5023,6 +5468,11 @@
       "zh": "欧亚合规性"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT025",
       "MDC_P002_1": "1",
@@ -5082,6 +5532,11 @@
       "zh": "欧洲合格评定机构"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT026",
       "MDC_P002_1": "1",
@@ -5141,6 +5596,11 @@
       "zh": "芬兰标准协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT027",
       "MDC_P002_1": "1",
@@ -5200,6 +5660,11 @@
       "zh": "经过验证的安全"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT028",
       "MDC_P002_1": "1",
@@ -5259,6 +5724,11 @@
       "zh": "意大利质量标志协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT029",
       "MDC_P002_1": "1",
@@ -5318,6 +5788,11 @@
       "zh": "电气工程学院"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT030",
       "MDC_P002_1": "1",
@@ -5377,6 +5852,11 @@
       "zh": "阿根廷标准化协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT031",
       "MDC_P002_1": "1",
@@ -5436,6 +5916,11 @@
       "zh": "印度标准局"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT032",
       "MDC_P002_1": "1",
@@ -5495,6 +5980,11 @@
       "zh": "韩国认证"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT033",
       "MDC_P002_1": "1",
@@ -5554,6 +6044,11 @@
       "zh": "KEMA质量"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT034",
       "MDC_P002_1": "1",
@@ -5613,6 +6108,11 @@
       "zh": "印尼国家标准"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT035",
       "MDC_P002_1": "1",
@@ -5672,6 +6172,11 @@
       "zh": "标准"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT036",
       "MDC_P002_1": "1",
@@ -5731,6 +6236,11 @@
       "zh": "法国标准"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT037",
       "MDC_P002_1": "1",
@@ -5790,6 +6300,11 @@
       "zh": "墨西哥官方标准"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT038",
       "MDC_P002_1": "1",
@@ -5849,6 +6364,11 @@
       "zh": "国家计量、标准化和工业质量研究所"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT039",
       "MDC_P002_1": "1",
@@ -5908,6 +6428,11 @@
       "zh": "奥地利电气工程协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT040",
       "MDC_P002_1": "1",
@@ -5967,6 +6492,11 @@
       "zh": "合规标志"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT041",
       "MDC_P002_1": "1",
@@ -6026,6 +6556,11 @@
       "zh": "安全"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT042",
       "MDC_P002_1": "1",
@@ -6085,6 +6620,11 @@
       "zh": "增强安全"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT043",
       "MDC_P002_1": "1",
@@ -6144,6 +6684,11 @@
       "zh": "南非标准局"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT044",
       "MDC_P002_1": "1",
@@ -6203,6 +6748,11 @@
       "zh": "安全认证标志"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT045",
       "MDC_P002_1": "1",
@@ -6262,6 +6812,11 @@
       "zh": "马来西亚标准和工业研究院"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT046",
       "MDC_P002_1": "1",
@@ -6321,6 +6876,11 @@
       "zh": "泰国工业标准协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT047",
       "MDC_P002_1": "1",
@@ -6380,6 +6940,11 @@
       "zh": "土耳其标准化机构"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT048",
       "MDC_P002_1": "1",
@@ -6439,6 +7004,11 @@
       "zh": "英国合规评估"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT049",
       "MDC_P002_1": "1",
@@ -6498,6 +7068,11 @@
       "zh": "电气工程、电子与信息技术协会"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT050",
       "MDC_P002_1": "1",
@@ -6546,6 +7121,11 @@
       "en": "No pollution or only dry, non-conductive pollution occurs."
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT051",
       "MDC_P002_1": "1",
@@ -6586,6 +7166,11 @@
       "en": "Only non-conductive pollution occurs except that occasionally a temporary conductivity caused by condensation is to be expected"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT052",
       "MDC_P002_1": "1",
@@ -6626,6 +7211,11 @@
       "en": "Conductive pollution occurs or dry non-conductive pollution occurs which becomes conductive due to condensation which is to be expected"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT053",
       "MDC_P002_1": "1",
@@ -6669,6 +7259,11 @@
       "en": "rated short-circuit value (1000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT054",
       "MDC_P002_1": "1",
@@ -6715,6 +7310,11 @@
       "en": "rated short-circuit value (1500 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT055",
       "MDC_P002_1": "1",
@@ -6761,6 +7361,11 @@
       "en": "rated short-circuit value (2000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT056",
       "MDC_P002_1": "1",
@@ -6807,6 +7412,11 @@
       "en": "rated short-circuit value (2500 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT057",
       "MDC_P002_1": "1",
@@ -6853,6 +7463,11 @@
       "en": "rated short-circuit value (3000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT058",
       "MDC_P002_1": "1",
@@ -6899,6 +7514,11 @@
       "en": "rated short-circuit value (4500 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT059",
       "MDC_P002_1": "1",
@@ -6945,6 +7565,11 @@
       "en": "rated short-circuit value (5000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT060",
       "MDC_P002_1": "1",
@@ -6991,6 +7616,11 @@
       "en": "rated short-circuit value (6000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT061",
       "MDC_P002_1": "1",
@@ -7037,6 +7667,11 @@
       "en": "rated short-circuit value (7500 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT062",
       "MDC_P002_1": "1",
@@ -7083,6 +7718,11 @@
       "en": "rated short-circuit value (9000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT063",
       "MDC_P002_1": "1",
@@ -7129,6 +7769,11 @@
       "en": "rated short-circuit value (10000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT064",
       "MDC_P002_1": "1",
@@ -7175,6 +7820,11 @@
       "en": "rated short-circuit value (15000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT065",
       "MDC_P002_1": "1",
@@ -7221,6 +7871,11 @@
       "en": "rated short-circuit value (16000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT066",
       "MDC_P002_1": "1",
@@ -7267,6 +7922,11 @@
       "en": "rated short-circuit value (20000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT067",
       "MDC_P002_1": "1",
@@ -7313,6 +7973,11 @@
       "en": "rated short-circuit value (25000 A) assigned to the equipement"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT068",
       "MDC_P002_1": "1",
@@ -7356,6 +8021,11 @@
       "en": "1 swicthed pole present in the equipment"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT069",
       "MDC_P002_1": "1",
@@ -7396,6 +8066,11 @@
       "en": "2 swicthed pole present in the equipment"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT070",
       "MDC_P002_1": "1",
@@ -7436,6 +8111,11 @@
       "en": "3 swicthed pole present in the equipment"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT071",
       "MDC_P002_1": "1",
@@ -7476,6 +8156,11 @@
       "en": "4 swicthed pole present in the equipment"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT072",
       "MDC_P002_1": "1",
@@ -7518,6 +8203,11 @@
       "en": "international MCB reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT073",
       "MDC_P002_1": "1",
@@ -7562,6 +8252,11 @@
       "en": "european MCB reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT074",
       "MDC_P002_1": "1",
@@ -7606,6 +8301,11 @@
       "en": "dual international MCB reference standards for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT075",
       "MDC_P002_1": "1",
@@ -7650,6 +8350,11 @@
       "en": "dual european MCB reference standards for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT076",
       "MDC_P002_1": "1",
@@ -7694,6 +8399,11 @@
       "en": "international AFDD reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT077",
       "MDC_P002_1": "1",
@@ -7738,6 +8448,11 @@
       "en": "european AFDD reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT078",
       "MDC_P002_1": "1",
@@ -7782,6 +8497,11 @@
       "en": "international voltage independent RCCB reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT079",
       "MDC_P002_1": "1",
@@ -7826,6 +8546,11 @@
       "en": "european voltage independent RCCB reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT080",
       "MDC_P002_1": "1",
@@ -7870,6 +8595,11 @@
       "en": "international voltage dependent RCCB reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT081",
       "MDC_P002_1": "1",
@@ -7914,6 +8644,11 @@
       "en": "international voltage independent RCBO reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT082",
       "MDC_P002_1": "1",
@@ -7958,6 +8693,11 @@
       "en": "european voltage independent RCBO reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT083",
       "MDC_P002_1": "1",
@@ -8002,6 +8742,11 @@
       "en": "international voltage dependent RCBO reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT084",
       "MDC_P002_1": "1",
@@ -8046,6 +8791,11 @@
       "en": "international type F and type B RCD reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT085",
       "MDC_P002_1": "1",
@@ -8090,6 +8840,11 @@
       "en": "european type F and type B RCD reference standard for compliance purpose"
     },
     "synonyms": [],
+    "status_level": "Standard",
+    "publisher": "IEC",
+    "published_in": "IEC 63508",
+    "responsible_committee": "IEC/SC 23E",
+    "change_request_id": "C00138",
     "raw_properties": {
       "MDC_P001_11": "0112/2///63508#KDT086",
       "MDC_P002_1": "1",
