@@ -8,9 +8,10 @@
 
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
-import type { EntityNode, EntityType } from "./types";
+import type { EntityNode, EntityType, ClassNode } from "./types";
 import type { DictionaryRegistry, DictionaryRegistryEntry } from "./registry";
-import { DictionaryBundle, buildClassTree } from "./bundle";
+import { DictionaryBundle } from "./bundle";
+import { buildClassTree } from "./tree";
 
 // Configurable data root — the seam for tests. In production, defaults
 // to src/content/data/ relative to cwd. Tests call configureDataRoot()
@@ -85,7 +86,7 @@ export function loadDictionary(slug: string): DictionaryBundle {
     entities,
     byCode,
     byType,
-    buildClassTree(byType.get("class") ?? []),
+    buildClassTree((byType.get("class") ?? []) as ClassNode[]),
   );
   bundleCache.set(slug, bundle);
   return bundle;

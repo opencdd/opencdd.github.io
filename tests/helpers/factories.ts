@@ -117,7 +117,8 @@ export function makeBundle(entities: EntityNode[]) {
 }
 
 async function makeBundleImpl(entities: EntityNode[]) {
-  const { DictionaryBundle, buildClassTree } = await import("~/lib/bundle");
+  const { DictionaryBundle } = await import("~/lib/bundle");
+  const { buildClassTree } = await import("~/lib/tree");
   const byCode = new Map<string, EntityNode>();
   const byType = new Map<EntityType, EntityNode[]>();
   for (const e of entities) {
@@ -143,6 +144,6 @@ async function makeBundleImpl(entities: EntityNode[]) {
     entitiesMap,
     byCode,
     byType,
-    buildClassTree(byType.get("class") ?? []),
+    buildClassTree((byType.get("class") ?? []) as ClassNode[]),
   );
 }
