@@ -2,6 +2,7 @@
 import { platformModifierLabel } from "~/lib/platform";
 import { primaryNav, navItemIsActive } from "~/lib/siteNav";
 import LanguageSwitcher from "~/components/islands/LanguageSwitcher.vue";
+import MobileNav from "~/components/islands/MobileNav.vue";
 const modifier = platformModifierLabel();
 const current = Astro.url.pathname;
 ---
@@ -53,7 +54,7 @@ const current = Astro.url.pathname;
       <LanguageSwitcher client:load transition:persist />
       <a
         href="/search"
-        class="inline-flex items-center gap-2 rounded-lg border border-paper-300 bg-paper-50 px-3 py-1.5 text-sm text-ink-500 transition hover:border-paper-400 hover:text-ink-700"
+        class="hidden md:inline-flex items-center gap-2 rounded-lg border border-paper-300 bg-paper-50 px-3 py-1.5 text-sm text-ink-500 transition hover:border-paper-400 hover:text-ink-700"
         aria-label="Search (opens search page)"
       >
         <svg viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4" aria-hidden="true">
@@ -66,7 +67,9 @@ const current = Astro.url.pathname;
           {modifier}K
         </kbd>
       </span>
+      <MobileNav client:load transition:persist />
     </div>
   </div>
 </header>
+
 

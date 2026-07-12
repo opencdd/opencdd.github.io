@@ -19,7 +19,7 @@
        lapis   → steel blue, depth accent (the deeper rock)
        hexagram → golden orange, primary CTA accent (the capstone)
 
-     Concept: 求同存異 — seek the common, preserve the differences.
+     Concept: common ground, preserved differences.
      One vocabulary of IRDIs across many domains, many languages.
      ─────────────────────────────────────────────────────────── */
 
@@ -444,7 +444,8 @@ body:not([data-lang]) .ml-en { display: inline; }
 /* Inline SVG-style motif used in heroes and section dividers.
    Three horizontal bars with the top bar broken in the middle —
    the I Ching hexagram for Lake (兌), symbolising joyous exchange,
-   pools of connected data, and the 求同存異 principle. */
+   pools of connected data, and the project's "common ground,
+   preserved differences" principle. */
 
 .hexagram-motif {
   display: inline-block;
