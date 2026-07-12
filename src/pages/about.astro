@@ -1,0 +1,372 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="About OpenCDD — the name, the logo, the spirit"
+  description="OpenCDD's name, logo, and design philosophy. The I Ching hexagram Dui (Lake), the principle of 求同存異, and why a zen palette fits a common data dictionary."
+>
+  <article class="mx-auto max-w-3xl space-y-16">
+    {/* ────────────────────────────────────────────────────────────
+        INTRO
+       ──────────────────────────────────────────────────────────── */}
+    <header class="space-y-5 border-b border-paper-300 pb-12">
+      <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-hex-700">
+        About OpenCDD
+      </p>
+      <h1 class="font-display text-4xl leading-tight tracking-tight text-ink-900 sm:text-5xl">
+        One vocabulary. Many domains. The same identifier everywhere it appears.
+      </h1>
+      <p class="text-base leading-relaxed text-ink-600">
+        OpenCDD is an open-source ecosystem of tools around the IEC Common
+        Data Dictionary. The dictionary itself is maintained by IEC TC 3;
+        we build the browser, the Ruby model, and the TypeScript port.
+        This page is about the name, the logo, and the design choices.
+      </p>
+    </header>
+
+    {/* ────────────────────────────────────────────────────────────
+        THE NAME — 求同存異
+       ──────────────────────────────────────────────────────────── */}
+    <section class="space-y-5">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § 1 — The name
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">求同存異</h2>
+      <div class="space-y-4 text-[15px] leading-relaxed text-ink-700">
+        <p>
+          The Chinese phrase <span class="font-display text-ink-900">求同存異</span> —
+          <em>qiú tóng cún yì</em> — translates literally as
+          <em>seek the common, preserve the differences</em>. It is a
+          diplomatic and philosophical principle: find the shared ground
+          without erasing what makes each party distinct.
+        </p>
+        <p>
+          This is exactly what the IEC Common Data Dictionary does.
+          Manufacturers, regulators, suppliers, and engineers across
+          electrotechnology, industrial measurement, low-voltage
+          switchgear, and household equipment each maintain their own
+          terminology. CDD does not ask them to give it up. Instead, it
+          binds every entity — every class, property, value list, value
+          term, unit, and relation — to a globally unique
+          <strong>International Registration Data Identifier (IRDI)</strong>.
+          The vocabulary is shared. The terminology is preserved.
+        </p>
+        <p>
+          That is the structural foundation for everything OpenCDD cares
+          about: encapsulation (private dictionaries that interoperate
+          with public ones), reuse (one property definition cited
+          everywhere it appears), the four-layer ontology
+          (meta-class → class → instance → powertype), interoperability,
+          and extensibility. <strong>Common ground, preserved
+          differences.</strong>
+        </p>
+      </div>
+    </section>
+
+    {/* ────────────────────────────────────────────────────────────
+        THE LOGO
+       ──────────────────────────────────────────────────────────── */}
+    <section class="space-y-6">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § 2 — The logo
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        The hexagram <span class="text-hex-700">☱</span> Dui · 兌 · Lake
+      </h2>
+
+      <div class="grid gap-6 sm:grid-cols-[1fr_2fr]">
+        <div class="rounded-2xl border border-paper-300 bg-paper-50 p-6 text-center">
+          <img
+            src="/img/logo-512.jpg"
+            alt="OpenCDD logo: an isometric hexagonal prism holding three interconnected water-blue data pools, capped by the I Ching hexagram Dui (Lake) in golden orange."
+            width="256"
+            height="256"
+            loading="lazy"
+            class="mx-auto h-48 w-48 rounded-lg object-cover shadow-sm"
+          />
+          <p class="mt-3 text-[11px] uppercase tracking-wide text-ink-500">
+            OpenCDD · 2026
+          </p>
+        </div>
+
+        <div class="space-y-4 text-[15px] leading-relaxed text-ink-700">
+          <p>
+            The logo is built around the I Ching hexagram{" "}
+            <span class="font-display text-2xl text-hex-700">☱</span>{" "}
+            (<strong>Dui</strong>, 兌) — the hexagram for <em>Lake</em>.
+            Dui is drawn as three horizontal lines with the top line
+            broken in the middle. In the I Ching it carries the imagery
+            of <em>joyous exchange</em>: a lake collects water from many
+            streams and holds it as one body, while remaining open to
+            the sky.
+          </p>
+          <p>
+            We chose Dui because it is the perfect metaphor for a common
+            data dictionary:
+          </p>
+          <ul class="space-y-1.5">
+            <li>
+              <strong>Many streams, one lake.</strong> Domains, languages,
+              and manufacturers each contribute their own properties; the
+              dictionary collects them into one body of identifiers.
+            </li>
+            <li>
+              <strong>Interconnected pools.</strong> The water-blue pools
+              inside the prism are not isolated — they touch and flow into
+              each other, the way properties reference classes and
+              classes inherit from one another.
+            </li>
+            <li>
+              <strong>The capstone is the hexagram.</strong> On top of
+              the prism sits ☱, golden and quiet — the principle that
+              holds the rest together.
+            </li>
+            <li>
+              <strong>Open to the sky.</strong> The off-white background,
+              the ripples, the absence of a frame: the system is open,
+              extendable, never closed off.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rounded-xl border-l-4 border-hex-400 bg-paper-100 p-4 text-sm leading-relaxed text-ink-700">
+        <strong class="text-hex-700">Why a hexagram, not a star or a graph?</strong>
+        CDD is older than the modern web and deeper than a graph: it is a
+        four-layer ontology with native power-type semantics. The I Ching
+        hexagrams are the oldest continuously used formal modelling system
+        in the world. Using one to mark the other is a small acknowledgement
+        that the problems CDD solves — naming, classifying, relating — are
+        not new.
+      </div>
+    </section>
+
+    {/* ────────────────────────────────────────────────────────────
+        THE COLOURS
+       ──────────────────────────────────────────────────────────── */}
+    <section class="space-y-5">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § 3 — The colours
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        Wabi-sabi, water, and a single capstone.
+      </h2>
+      <p class="text-[15px] leading-relaxed text-ink-700">
+        The palette is borrowed from the logo: muted earth tones, soft
+        water blues, sage greens, and a single golden accent. It is
+        deliberately quiet. CDD is a reference work; the typography and
+        the data should carry the page, not the chrome.
+      </p>
+
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+        <div class="rounded-lg border border-paper-300 overflow-hidden">
+          <div class="h-16" style="background:#1a1814"></div>
+          <div class="p-2">
+            <p class="font-mono text-[10px] text-ink-700">#1A1814</p>
+            <p class="text-[10px] uppercase tracking-wide text-ink-500">Ink</p>
+          </div>
+        </div>
+        <div class="rounded-lg border border-paper-300 overflow-hidden">
+          <div class="h-16" style="background:#faf7f0"></div>
+          <div class="p-2">
+            <p class="font-mono text-[10px] text-ink-700">#FAF7F0</p>
+            <p class="text-[10px] uppercase tracking-wide text-ink-500">Paper</p>
+          </div>
+        </div>
+        <div class="rounded-lg border border-paper-300 overflow-hidden">
+          <div class="h-16" style="background:#e8d5b7"></div>
+          <div class="p-2">
+            <p class="font-mono text-[10px] text-ink-700">#E8D5B7</p>
+            <p class="text-[10px] uppercase tracking-wide text-ink-500">Clay</p>
+          </div>
+        </div>
+        <div class="rounded-lg border border-paper-300 overflow-hidden">
+          <div class="h-16" style="background:#8fbc8f"></div>
+          <div class="p-2">
+            <p class="font-mono text-[10px] text-ink-700">#8FBC8F</p>
+            <p class="text-[10px] uppercase tracking-wide text-ink-500">Sage</p>
+          </div>
+        </div>
+        <div class="rounded-lg border border-paper-300 overflow-hidden">
+          <div class="h-16" style="background:#7fb3d5"></div>
+          <div class="p-2">
+            <p class="font-mono text-[10px] text-ink-700">#7FB3D5</p>
+            <p class="text-[10px] uppercase tracking-wide text-ink-500">Water</p>
+          </div>
+        </div>
+        <div class="rounded-lg border border-paper-300 overflow-hidden">
+          <div class="h-16" style="background:#f4a460"></div>
+          <div class="p-2">
+            <p class="font-mono text-[10px] text-ink-700">#F4A460</p>
+            <p class="text-[10px] uppercase tracking-wide text-ink-500">Hexagram</p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="space-y-2 text-[14px] leading-relaxed text-ink-700">
+        <li>
+          <strong class="text-ink-900">Paper</strong> is the background — warm off-white,
+          like unbleached washi. Calmer than pure white.
+        </li>
+        <li>
+          <strong class="text-ink-900">Ink</strong> is the text — warm charcoal, slightly
+          browner than zinc, never pure black.
+        </li>
+        <li>
+          <strong class="text-ink-900">Clay</strong> is the surface tone of the prism — the
+          primary brand beige, used in cards and dividers.
+        </li>
+        <li>
+          <strong class="text-ink-900">Sage</strong> marks the natural ground — moss and
+          grass around the prism. Used for secondary surfaces and
+          success states.
+        </li>
+        <li>
+          <strong class="text-ink-900">Water</strong> is the data accent — soft blue for
+          links, IRDIs, and highlights. The colour of the pools.
+        </li>
+        <li>
+          <strong class="text-ink-900">Hexagram gold</strong> is the single loud accent —
+          the capstone colour, used sparingly for primary CTAs and brand
+          moments. Never for body text.
+        </li>
+      </ul>
+    </section>
+
+    {/* ────────────────────────────────────────────────────────────
+        THE SPIRIT
+       ──────────────────────────────────────────────────────────── */}
+    <section class="space-y-5">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § 4 — The spirit
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        Four layers, two directions, one identifier.
+      </h2>
+      <div class="space-y-4 text-[15px] leading-relaxed text-ink-700">
+        <p>
+          CDD is structurally unusual. It is not a class diagram and it
+          is not an RDF graph. It is a four-layer ontology:
+        </p>
+        <ol class="list-decimal list-inside space-y-1 pl-3">
+          <li>the dictionary schema (defined normatively in EXPRESS);</li>
+          <li>the meta-classes (Class, Property, ValueList, ValueTerm, Unit, Relation);</li>
+          <li>the dictionary content (the actual classes and properties);</li>
+          <li>the instances — which, when <code class="font-mono text-xs">class_type</code> allows, can themselves act as classes elsewhere.</li>
+        </ol>
+        <p>
+          That last step — instances-as-classes, the power-type pattern —
+          is what makes CDD <em>extensible</em>. A new domain can extend
+          an existing class without modifying it; a private dictionary
+          can interoperate with the public one without losing its own
+          identity. The mechanism is the spec's
+          <code class="font-mono text-xs">class_type</code> attribute
+          (<code class="font-mono text-xs">CATEGORICAL CLASS</code>,
+          <code class="font-mono text-xs">FEATURE CLASS</code>) and the
+          <code class="font-mono text-xs">is_case_of</code> relationship.
+          See <a href="/docs/cdd-ontology-vs-uml-rdf/" class="text-hex-700 underline underline-offset-2">CDD ontology vs UML and RDF</a>
+          for the full argument.
+        </p>
+        <p>
+          Two directions of reuse, one identifier scheme. That is the
+          whole point. OpenCDD exists to make that point legible,
+          browseable, and machine-usable.
+        </p>
+      </div>
+    </section>
+
+    {/* ────────────────────────────────────────────────────────────
+        THE ECOSYSTEM
+       ──────────────────────────────────────────────────────────── */}
+    <section class="space-y-5">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § 5 — The ecosystem
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        Where OpenCDD lives.
+      </h2>
+      <div class="overflow-hidden rounded-xl border border-paper-300">
+        <table class="min-w-full text-sm">
+          <thead class="bg-paper-100 text-[11px] uppercase tracking-wide text-ink-500">
+            <tr>
+              <th class="px-4 py-2 text-left">Repository</th>
+              <th class="px-4 py-2 text-left">Role</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-paper-200">
+            <tr>
+              <td class="px-4 py-2 font-mono text-xs">
+                <a href="https://github.com/opencdd/opencdd-ruby" class="text-hex-700 underline underline-offset-2">opencdd/opencdd-ruby</a>
+              </td>
+              <td class="px-4 py-2 text-ink-700">
+                The Ruby model — the canonical implementation. Reads
+                <code class="font-mono text-xs">.xls</code> and
+                <code class="font-mono text-xs">.xlsx</code>, exports JSON and CDDAL.
+              </td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 font-mono text-xs">
+                <a href="https://github.com/opencdd/opencdd-ts" class="text-hex-700 underline underline-offset-2">opencdd/opencdd-ts</a>
+              </td>
+              <td class="px-4 py-2 text-ink-700">
+                <code class="font-mono text-xs">@opencdd/models</code> on npm —
+                the TypeScript port of the model types.
+              </td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 font-mono text-xs">
+                <a href="https://github.com/opencdd/opencdd.github.io" class="text-hex-700 underline underline-offset-2">opencdd/opencdd.github.io</a>
+              </td>
+              <td class="px-4 py-2 text-ink-700">
+                This browser — Astro + Vue + Tailwind. Pre-renders every
+                entity page; searched with Pagefind.
+              </td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 font-mono text-xs text-ink-500">opencdd/editor</td>
+              <td class="px-4 py-2 text-ink-500">
+                <em>Planned.</em> A browser-based editor for authoring
+                CDD content.
+              </td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2 font-mono text-xs text-ink-500">opencdd/cdd-data</td>
+              <td class="px-4 py-2 text-ink-500">
+                <em>Private.</em> The data pipeline: scrapers, source
+                <code class="font-mono text-xs">.xls</code>, release workflow.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {/* ────────────────────────────────────────────────────────────
+        RELATIONSHIP TO IEC
+       ──────────────────────────────────────────────────────────── */}
+    <section class="space-y-4 rounded-2xl border border-paper-300 bg-paper-100 p-6">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        A note on IEC
+      </p>
+      <p class="text-sm leading-relaxed text-ink-700">
+        OpenCDD is <strong>not</strong> affiliated with the International
+        Electrotechnical Commission. IEC owns the standards (IEC 61360
+        and friends) and the dictionary content; we own the tooling. The
+        logo's hexagram ☱ and the philosophy of 求同存異 are our framing,
+        not IEC's. For the canonical publications, see the
+        <a href="https://webstore.iec.ch/" class="text-hex-700 underline underline-offset-2">IEC webstore</a>.
+      </p>
+    </section>
+
+    <footer class="border-t border-paper-300 pt-8 text-sm text-ink-500">
+      <p>
+        OpenCDD is open source. The browser lives at
+        <a href="https://github.com/opencdd/opencdd.github.io" class="text-hex-700 underline underline-offset-2">opencdd/opencdd.github.io</a>;
+        contributions are welcome. See
+        <a href="/docs/contributing/" class="text-hex-700 underline underline-offset-2">the contributing guide</a>
+        for how to add docs, fix the UI, or improve the data pipeline.
+      </p>
+    </footer>
+  </article>
+</BaseLayout>
