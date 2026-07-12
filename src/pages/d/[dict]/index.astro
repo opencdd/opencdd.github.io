@@ -85,7 +85,7 @@ const initialNodes = initialTab
               onclick={`window.__opencddTabSwitch && window.__opencddTabSwitch('${type}'); return false;`}
             >
               <EntityIcon type={type} class="mr-1 h-3 w-3" />
-              {entityPluralTitleFor(type)}
+              {entityPluralTitleFor(type)}{" "}
               <span class="ml-1 font-mono text-[10px] text-ink-500">{count}</span>
             </a>
           );
