@@ -1,0 +1,59 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+
+/**
+ * ProseLayout — the shared frame for long-form content (docs, blog,
+ * future changelog/glossary). Wraps BaseLayout, renders a max-w prose
+ * container with `.prose-opencdd` styling, and provides slots for the
+ * bits that differ between docs and blog:
+ *
+ *   - `header`  (kicker → title → description + meta)
+ *   - `sidebar` (optional, e.g. docs nav)
+ *   - default slot (the prose body)
+ *   - `footer`  (post footer with edit link, etc.)
+ *
+ * DocsLayout and BlogLayout become thin wrappers that supply their own
+ * header slot via composition.
+ */
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Width: "narrow" (max-w-2xl) for blog posts, "wide" (max-w-3xl) for docs. */
+  width?: "narrow" | "wide";
+  /** Show a left sidebar (docs nav). Default false. */
+  sidebar?: boolean;
+  class?: string;
+}
+
+const {
+  title,
+  description,
+  width = "wide",
+  sidebar = false,
+  class: className,
+} = Astro.props;
+
+const bodyMax = width === "narrow" ? "max-w-2xl" : "max-w-3xl";
+---
+
+<BaseLayout title={title} description={description}>
+  {sidebar ? (
+    <div class="mx-auto grid max-w-6xl gap-8 lg:grid-cols-[220px_minmax(0,1fr)]">
+      <aside class="hidden lg:block">
+        <slot name="sidebar" />
+      </aside>
+      <article class:list={["prose-opencdd", bodyMax, className]}>
+        <slot />
+      </article>
+    </div>
+  ) : (
+    <article class:list={["mx-auto", bodyMax, className]}>
+      <slot name="header" />
+      <div class="prose-opencdd mt-8">
+        <slot />
+      </div>
+      <slot name="footer" />
+    </article>
+  )}
+</BaseLayout>

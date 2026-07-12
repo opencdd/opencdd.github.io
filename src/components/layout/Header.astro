@@ -62,7 +62,7 @@ const current = Astro.url.pathname;
     </nav>
 
     <div class="flex flex-1 items-center justify-end gap-3">
-      <LanguageSwitcher client:load transition:persist />
+      <LanguageSwitcher client:only="vue" transition:persist />
       <a
         href="/search"
         class="hidden md:inline-flex items-center gap-2 rounded-lg border border-paper-300 bg-paper-50 px-3 py-1.5 text-sm text-ink-500 transition hover:border-paper-400 hover:text-ink-700"

@@ -120,4 +120,155 @@ describe("DictionaryBundle", () => {
       ).toEqual(["AAAR00"]);
     });
   });
+
+  describe("find / findByCode / hasEntity / entitiesOfType / entityCount", () => {
+    it("find returns the entity by IRDI", () => {
+      const c = makeClass({ code: "AAA000" });
+      const bundle = buildBundle([c]);
+      expect(bundle.find(c.irdi)?.code).toBe("AAA000");
+    });
+
+    it("find returns undefined for an unknown IRDI", () => {
+      const bundle = buildBundle([]);
+      expect(bundle.find("does-not-exist")).toBeUndefined();
+    });
+
+    it("findByCode returns the entity by code", () => {
+      const c = makeClass({ code: "AAA000" });
+      const bundle = buildBundle([c]);
+      expect(bundle.findByCode("AAA000")?.irdi).toBe(c.irdi);
+    });
+
+    it("hasEntity returns true for present, false for absent", () => {
+      const c = makeClass({ code: "AAA000" });
+      const bundle = buildBundle([c]);
+      expect(bundle.hasEntity(c.irdi)).toBe(true);
+      expect(bundle.hasEntity("nope")).toBe(false);
+    });
+
+    it("entitiesOfType filters by type", () => {
+      const c = makeClass({ code: "AAA000" });
+      const p = makeProperty({ code: "AAAP00" });
+      const bundle = buildBundle([c, p]);
+      expect(bundle.entitiesOfType("class").map((e) => e.code)).toEqual(["AAA000"]);
+      expect(bundle.entitiesOfType("property").map((e) => e.code)).toEqual(["AAAP00"]);
+      expect(bundle.entitiesOfType("unit")).toEqual([]);
+    });
+
+    it("entityCount returns per-type counts", () => {
+      const c1 = makeClass({ code: "AAA001" });
+      const c2 = makeClass({ code: "AAA002" });
+      const p = makeProperty({ code: "AAAP00" });
+      const bundle = buildBundle([c1, c2, p]);
+      expect(bundle.entityCount("class")).toBe(2);
+      expect(bundle.entityCount("property")).toBe(1);
+      expect(bundle.entityCount("unit") ?? 0).toBe(0);
+    });
+  });
+
+  describe("instancesOf (powertype)", () => {
+    it("returns categorical-class instances of a powertype", () => {
+      const powertype = makeClass({
+        code: "AAA000",
+        class_type: "CATEGORICAL_CLASS",
+      });
+      const instance1 = makeClass({
+        code: "AAA001",
+        is_case_of: [powertype.irdi],
+      });
+      const instance2 = makeClass({
+        code: "AAA002",
+        is_case_of: [powertype.irdi],
+      });
+      const unrelated = makeClass({ code: "AAA003" });
+      const bundle = buildBundle([powertype, instance1, instance2, unrelated]);
+      const instances = bundle.instancesOf(powertype.irdi);
+      expect(instances.map((i) => i.code).sort()).toEqual(["AAA001", "AAA002"]);
+    });
+  });
+
+  describe("classesDeclaringProperty", () => {
+    it("returns classes whose applicable_properties includes the property IRDI", () => {
+      const prop = makeProperty({ code: "AAAP00" });
+      const a = makeClass({
+        code: "AAA000",
+        applicable_properties: [prop.irdi],
+      });
+      const b = makeClass({
+        code: "AAA001",
+        applicable_properties: [prop.irdi],
+      });
+      const c = makeClass({ code: "AAA002" });
+      const bundle = buildBundle([a, b, c, prop]);
+      const decls = bundle.classesDeclaringProperty(prop.irdi);
+      expect(decls.map((d) => d.code).sort()).toEqual(["AAA000", "AAA001"]);
+    });
+  });
+
+  describe("propertiesForUnit and propertiesForValueList", () => {
+    it("returns properties referencing a unit", () => {
+      const unit = { type: "unit", irdi: "AAA001", code: "AAA001" } as const;
+      const p = makeProperty({ code: "AAAP00", unit: unit.irdi });
+      const bundle = buildBundle([p, unit as unknown as EntityNode]);
+      expect(bundle.propertiesForUnit(unit.irdi).map((x) => x.code)).toEqual([
+        "AAAP00",
+      ]);
+    });
+
+    it("returns properties referencing a value list", () => {
+      const vl = {
+        type: "value_list",
+        irdi: "AAV001",
+        code: "AAV001",
+      } as const;
+      const p = makeProperty({ code: "AAAP00", value_list: vl.irdi });
+      const bundle = buildBundle([p, vl as unknown as EntityNode]);
+      expect(
+        bundle.propertiesForValueList(vl.irdi).map((x) => x.code),
+      ).toEqual(["AAAP00"]);
+    });
+  });
+
+  describe("resolveIrdis", () => {
+    it("partitions into resolved and unresolved", () => {
+      const p1 = makeProperty({ code: "AAAP01" });
+      const p2 = makeProperty({ code: "AAAP02" });
+      const bundle = buildBundle([p1, p2]);
+      const result = bundle.resolveIrdis([p1.irdi, "unknown-irdi", p2.irdi]);
+      expect(result.resolved.map((p) => p.code).sort()).toEqual([
+        "AAAP01",
+        "AAAP02",
+      ]);
+      expect(result.unresolved).toEqual(["unknown-irdi"]);
+    });
+
+    it("returns empty for undefined input", () => {
+      const bundle = buildBundle([]);
+      const result = bundle.resolveIrdis(undefined);
+      expect(result.resolved).toEqual([]);
+      expect(result.unresolved).toEqual([]);
+    });
+  });
+
+  describe("search", () => {
+    it("matches by preferred_name", () => {
+      const c = makeClass({ code: "AAA000", preferred_name: "capacitor" });
+      const bundle = buildBundle([c]);
+      const results = bundle.search("capac");
+      expect(results.map((r) => r.code)).toContain("AAA000");
+    });
+
+    it("matches by code", () => {
+      const c = makeClass({ code: "AAA000" });
+      const bundle = buildBundle([c]);
+      const results = bundle.search("AAA000");
+      expect(results.length).toBeGreaterThan(0);
+    });
+
+    it("returns empty for no matches", () => {
+      const c = makeClass({ code: "AAA000" });
+      const bundle = buildBundle([c]);
+      expect(bundle.search("zzz-no-match")).toEqual([]);
+    });
+  });
 });

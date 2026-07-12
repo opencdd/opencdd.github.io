@@ -38,7 +38,7 @@ export interface DictMetadata {
   demonstration?: boolean;
 }
 
-const DICT_METADATA: Record<string, DictMetadata> = {
+export const DICT_METADATA: Record<string, DictMetadata> = {
   iec61360: {
     publicationId: "IEC 61360 (series)",
     edition: "Ed 4.0 (Part 1)",
@@ -122,24 +122,3 @@ const DICT_METADATA: Record<string, DictMetadata> = {
     demonstration: true,
   },
 };
-
-export function dictMetadata(slug: string): DictMetadata | undefined {
-  return DICT_METADATA[slug];
-}
-
-export function dictMetadataOrFallback(
-  slug: string,
-  fallbackTitle: string,
-): DictMetadata {
-  return (
-    DICT_METADATA[slug] ?? {
-      publicationId: slug,
-      edition: "",
-      title: fallbackTitle,
-      shortTitle: fallbackTitle,
-      abstract: "",
-      technicalCommittee: "",
-      webstoreUrl: "",
-    }
-  );
-}
