@@ -14,15 +14,26 @@ const current = Astro.url.pathname;
       class="group flex shrink-0 items-center gap-3 rounded-md px-1 py-0.5 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hex-600"
       aria-label="OpenCDD home"
     >
-      <img
-        src="/img/logo-64.png"
-        alt=""
-        aria-hidden="true"
-        width="32"
-        height="32"
-        class="h-8 w-8 rounded-md shadow-sm transition group-hover:shadow-md"
-        decoding="async"
-      />
+      <span class="relative inline-block h-9 w-9 shrink-0">
+        <img
+          src="/img/opencdd-logo_light.svg"
+          alt=""
+          aria-hidden="true"
+          width="36"
+          height="36"
+          class="logo-svg logo-svg--light absolute inset-0 h-full w-full rounded-md shadow-sm transition group-hover:shadow-md"
+          decoding="async"
+        />
+        <img
+          src="/img/opencdd-logo_dark.svg"
+          alt=""
+          aria-hidden="true"
+          width="36"
+          height="36"
+          class="logo-svg logo-svg--dark absolute inset-0 h-full w-full rounded-md shadow-sm transition group-hover:shadow-md"
+          decoding="async"
+        />
+      </span>
       <span class="flex items-baseline gap-2">
         <span class="font-display text-lg font-medium tracking-tight text-ink-900">OpenCDD</span>
         <span class="hidden text-[11px] font-normal uppercase tracking-[0.12em] text-ink-400 sm:inline">

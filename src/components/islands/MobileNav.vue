@@ -112,14 +112,24 @@ function isActive(href: string): boolean {
         >
           <div class="flex items-center justify-between border-b border-paper-300 px-4 py-3">
             <div class="flex items-center gap-2.5">
-              <img
-                src="/img/logo-64.png"
-                alt=""
-                aria-hidden="true"
-                width="28"
-                height="28"
-                class="h-7 w-7 rounded-md"
-              />
+              <span class="relative inline-block h-8 w-8 shrink-0">
+                <img
+                  src="/img/opencdd-logo_light.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="32"
+                  height="32"
+                  class="logo-svg logo-svg--light absolute inset-0 h-full w-full rounded-md"
+                />
+                <img
+                  src="/img/opencdd-logo_dark.svg"
+                  alt=""
+                  aria-hidden="true"
+                  width="32"
+                  height="32"
+                  class="logo-svg logo-svg--dark absolute inset-0 h-full w-full rounded-md"
+                />
+              </span>
               <span class="font-display text-base font-medium text-ink-900">OpenCDD</span>
             </div>
             <button
