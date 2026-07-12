@@ -1,14 +1,8 @@
 ---
 import { platformModifierLabel } from "~/lib/platform";
+import { primaryNav, navItemIsActive } from "~/lib/siteNav";
 import LanguageSwitcher from "~/components/islands/LanguageSwitcher.vue";
 const modifier = platformModifierLabel();
-
-const navItems = [
-  { href: "/docs/", label: "Docs" },
-  { href: "/blog/", label: "Blog" },
-  { href: "/about/", label: "About" },
-  { href: "/", label: "Dictionaries" },
-];
 const current = Astro.url.pathname;
 ---
 
@@ -37,11 +31,8 @@ const current = Astro.url.pathname;
     </a>
 
     <nav class="hidden md:flex items-center gap-1 text-sm" aria-label="Primary">
-      {navItems.map((item) => {
-        const active =
-          current === item.href ||
-          current === item.href + "/" ||
-          (item.href !== "/" && current.startsWith(item.href));
+      {primaryNav.map((item) => {
+        const active = navItemIsActive(item, current);
         return (
           <a
             href={item.href}
@@ -78,3 +69,4 @@ const current = Astro.url.pathname;
     </div>
   </div>
 </header>
+

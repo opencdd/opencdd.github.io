@@ -1,0 +1,59 @@
+---
+import { cn } from "~/lib/cn";
+
+/**
+ * Editorial page header — the kicker → title → description rhythm
+ * that recurs across the site. Provides one named place for the
+ * "New York elegant" typographic treatment.
+ *
+ * Slots:
+ *   - badges   (optional, inline after the title)
+ *   - meta     (optional, below description — for IRDIs, dates, etc.)
+ *   - actions  (optional, below everything — for CTAs)
+ */
+interface Props {
+  /** Small label above the title. */
+  kicker?: string;
+  /** Headline. */
+  title: string;
+  /** Subtitle / standfirst. */
+  description?: string;
+  /** Use the serif display face for the title (default true). */
+  serif?: boolean;
+  class?: string;
+}
+
+const {
+  kicker,
+  title,
+  description,
+  serif = true,
+  class: className,
+} = Astro.props;
+---
+
+<header class={cn("space-y-3", className)}>
+  {kicker && (
+    <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-hex-700">
+      {kicker}
+    </p>
+  )}
+  <h1
+    class:list={[
+      "text-4xl leading-tight tracking-tight text-ink-900 sm:text-5xl",
+      serif && "font-display",
+    ]}
+  >
+    {title}
+    <slot name="badges" />
+  </h1>
+  {description && (
+    <p class="max-w-2xl text-base leading-relaxed text-ink-600">
+      {description}
+    </p>
+  )}
+  <slot name="meta" />
+  <div class="flex flex-wrap items-center gap-3 pt-1">
+    <slot name="actions" />
+  </div>
+</header>

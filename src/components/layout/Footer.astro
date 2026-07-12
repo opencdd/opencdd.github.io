@@ -1,4 +1,5 @@
 ---
+import { footerProjectNav, footerExternalNav } from "~/lib/siteNav";
 const year = new Date().getFullYear();
 ---
 
@@ -26,15 +27,25 @@ const year = new Date().getFullYear();
         </p>
       </div>
 
-      <nav class="text-sm" aria-label="Footer">
+      <nav class="text-sm" aria-label="Footer project">
         <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-400">
           Project
         </p>
         <ul class="mt-2 space-y-1.5">
-          <li><a href="/docs/" class="text-ink-700 hover:text-hex-700">Documentation</a></li>
-          <li><a href="/blog/" class="text-ink-700 hover:text-hex-700">Blog</a></li>
-          <li><a href="/about/" class="text-ink-700 hover:text-hex-700">About</a></li>
-          <li><a href="/search" class="text-ink-700 hover:text-hex-700">Search</a></li>
+          {footerProjectNav.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  "text-ink-700 hover:text-hex-700",
+                  item.external && "after:content-['↗']",
+                ]}
+                {...(item.external ? { target: "_blank", rel: "noreferrer noopener" } : {})}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
 
@@ -43,36 +54,17 @@ const year = new Date().getFullYear();
           Elsewhere
         </p>
         <ul class="mt-2 space-y-1.5">
-          <li>
-            <a
-              href="https://github.com/opencdd"
-              class="text-ink-700 hover:text-hex-700"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              GitHub ↗
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://cdd.iec.ch"
-              class="text-ink-700 hover:text-hex-700"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              IEC CDD (cdd.iec.ch) ↗
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://webstore.iec.ch/"
-              class="text-ink-700 hover:text-hex-700"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              IEC webstore ↗
-            </a>
-          </li>
+          {footerExternalNav.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class="text-ink-700 hover:text-hex-700"
+                {...(item.external ? { target: "_blank", rel: "noreferrer noopener" } : {})}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>
@@ -87,3 +79,4 @@ const year = new Date().getFullYear();
     </div>
   </div>
 </footer>
+
