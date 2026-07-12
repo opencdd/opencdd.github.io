@@ -40,7 +40,14 @@ import Card from "~/components/ui/Card.astro";
   (function () {
     if (typeof window === "undefined") return;
     function init() {
-      import("/pagefind/pagefind-ui.js").then(({ PagefindUI }) => {
+      // Pagefind's UI bundle attaches to window.PagefindUI (it's an
+      // IIFE, not an ES module), so we read the global after import.
+      import("/pagefind/pagefind-ui.js").then(() => {
+        const PagefindUI = window.PagefindUI;
+        if (typeof PagefindUI !== "function") {
+          console.error("PagefindUI failed to load");
+          return;
+        }
         new PagefindUI({
           element: "#search",
           showSubResults: true,
