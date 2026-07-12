@@ -8,6 +8,7 @@ const current = Astro.url.pathname;
 ---
 
 <header class="sticky top-0 z-30 border-b border-paper-300/80 bg-paper-50/85 backdrop-blur-md print:hidden">
+  <div aria-hidden="true" class="h-0.5 w-full bg-gradient-to-r from-teal-500 via-lapis-500 to-hex-500"></div>
   <div class="mx-auto flex max-w-7xl items-center gap-6 px-6 py-3 lg:px-8">
     <a
       href="/"
@@ -51,7 +52,7 @@ const current = Astro.url.pathname;
             class:list={[
               "rounded-md px-2.5 py-1.5 transition",
               active
-                ? "text-ink-900 bg-paper-200/70 font-medium"
+                ? "text-ink-900 bg-teal-500/10 font-medium ring-1 ring-inset ring-teal-400/30"
                 : "text-ink-600 hover:bg-paper-200/50 hover:text-ink-900",
             ]}
           >
