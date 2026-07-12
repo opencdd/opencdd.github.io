@@ -41,8 +41,7 @@ const bundle = loadDictionary(dict);
         class="hidden shrink-0 lg:block lg:w-80 lg:overflow-y-auto lg:max-h-[calc(100vh-7rem)] lg:sticky lg:top-20 lg:pr-2 scroll-thin"
       >
         <ClassTree
-          client:visible
-          transition:persist
+          client:only="vue"
           dict={dict}
           initialHighlightedIrdi={Astro.url.pathname}
         />

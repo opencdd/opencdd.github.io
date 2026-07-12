@@ -19,5 +19,5 @@ const { irdi, class: className } = Astro.props;
   <span class="select-all font-mono text-xs text-ink-700" data-irdi>
     {irdi}
   </span>
-  <CopyButton value={irdi} label="Copy IRDI" client:load />
+  <CopyButton value={irdi} label="Copy IRDI" client:only="vue" />
 </span>

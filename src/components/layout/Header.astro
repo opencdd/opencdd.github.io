@@ -78,7 +78,7 @@ const current = Astro.url.pathname;
           {modifier}K
         </kbd>
       </span>
-      <MobileNav client:load transition:persist currentPath={current} />
+      <MobileNav client:only="vue" currentPath={current} />
     </div>
   </div>
 </header>
