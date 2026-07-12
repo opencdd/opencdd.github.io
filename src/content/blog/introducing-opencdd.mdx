@@ -1,0 +1,90 @@
+---
+title: Introducing OpenCDD
+description: A modern, open-source browser and tooling ecosystem for the IEC Common Data Dictionary. Why we built it, where it is today, and where it is going.
+published: 2026-07-12
+author: OpenCDD
+tags: ["announcement", "project"]
+---
+
+For almost three decades the IEC Common Data Dictionary has been the
+canonical reference for product characteristics across the
+electrotechnical industry. The data is rich, versioned, multilingual,
+and meticulously curated by [IEC TC 3](https://tc3.iec.ch/). The user
+experience at [cdd.iec.ch](https://cdd.iec.ch/), however, has not aged
+well: a Domino-era interface, no machine-readable bulk access, no
+stable per-entity URLs that you can cite in a spec, no search you can
+trust.
+
+**OpenCDD** is our attempt to fix that — without forking the data.
+
+## What we built
+
+The ecosystem has four moving parts:
+
+- **[opencdd-ruby](https://github.com/opencdd/opencdd-ruby)** — a pure
+  Ruby model of the IEC 61360 dictionary. Reads both ParcelMaker
+  `.xlsx` and the legacy 6-file `.xls` export layouts, exposes a
+  navigable `Opencdd::Database`, and exports clean JSON.
+- **[@opencdd/models on npm](https://github.com/opencdd/opencdd-ts)** —
+  a TypeScript port generated from the Ruby registry, so the two stay
+  in lockstep.
+- **This browser** (you are looking at it) — a static site that
+  pre-renders every entity page. Built with Astro, Vue islands, and
+  Tailwind 4. Searched with Pagefind. No backend, no auth, no tracking.
+- **The data pipeline** (private) — Playwright scraper, source `.xls`
+  archive, and a GitHub Release workflow that publishes built JSON
+  for the browser to consume.
+
+Every entity page preserves the full `.xls` payload, multilingual
+fields, version history, and every cross-reference. If IEC CDD exposes
+it, OpenCDD renders it.
+
+## Where we are today
+
+Six published dictionaries are live, covering roughly 21,500 entities:
+
+- **IEC 61360** — the CDD reference dictionary (4,616 entities).
+- **IEC 61360-7** — cross-domain general items (1,654 entities).
+- **IEC 61987** — industrial-process measurement and control (12,962
+  entities).
+- **IEC 62683** — low-voltage switchgear (1,860 entities).
+- **IEC 63213** — power measurement applications (217 entities).
+- **IEC 63508** — miniature circuit-breakers (151 entities).
+
+Start at [the homepage](/) to browse, or read
+[What is IEC CDD?](/docs/what-is-cdd/) for the conceptual primer.
+
+## What's next
+
+The short list, in roughly the order we plan to ship:
+
+- **CDDP — the Common Data Dictionary Package format.** A YAML-based
+  interchange format so third parties can publish their own CDD
+  dictionaries without running the scraper.
+- **`@opencdd/browser` npm package.** The browser core extracted into
+  a reusable package. A consumer organisation would bring a
+  `cddp.config.yml` and their own CDD packages; the browser does the
+  rest.
+- **The editor.** A browser-based authoring tool for CDD content
+  itself — for committees, registrars, and contributors who need to
+  draft and review dictionary entries.
+- **Deeper docs.** A worked-example series showing how the
+  power-type / `is_case_of` mechanism plays out in practice (see
+  [CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/) for
+  the conceptual foundation).
+
+## Contributing
+
+OpenCDD is open source and contributor-friendly. The browser lives at
+[`opencdd/opencdd.github.io`](https://github.com/opencdd/opencdd.github.io).
+Blog posts, docs improvements, and UI fixes are all welcome — a post
+is just an MDX file under `src/content/blog/`. For deeper changes
+(reader logic, exporters, the data model), the Ruby gem at
+`opencdd/opencdd-ruby` is the canonical source.
+
+We are not affiliated with IEC. The dictionary content remains © IEC,
+Geneva; we are grateful for the work of TC 3 and point to the
+[IEC webstore](https://webstore.iec.ch/) for the canonical
+publications.
+
+— *The OpenCDD project, July 2026*

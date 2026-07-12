@@ -1,0 +1,117 @@
+---
+title: The CDD data model
+description: IRDIs, classes, properties, value lists, units, relations, and the meta-class hierarchy that ties them together.
+published: 2026-07-12
+order: 20
+---
+
+# The CDD data model
+
+This page is a working developer's reference for the entities you'll
+find in any CDD dictionary. Terminology follows IEC 61360-1:2017 and
+IEC 61360-2:2012; see those publications for the normative text.
+
+## Meta-classes
+
+Every entity in a CDD dictionary is an instance of one of a small
+fixed set of **meta-classes**. The meta-class determines which
+attributes the entity carries and how it participates in relationships.
+
+| Code | Meta-class | Ruby class | What it represents |
+|------|------------|------------|--------------------|
+| `MDC_C002` | Class | `Opencdd::Klass` | A kind of product (e.g. "fixed capacitor"). |
+| `MDC_C003` | Property | `Opencdd::Property` | A characteristic of a class (e.g. "capacitance"). |
+| `MDC_C005` | ValueList | `Opencdd::ValueList` | An enumerated set of value terms. |
+| `MDC_C010` | ValueTerm | `Opencdd::ValueTerm` | One legal value inside a value list. |
+| `MDC_C009` | Unit | `Opencdd::Unit` | A unit of measure (e.g. "farad"). |
+| `MDC_C011` | Relation | `Opencdd::Relation` | A named association between entities. |
+| `EXT_C001` | ViewControl | `Opencdd::ViewControl` | Visibility / applicability rules. |
+
+Every entity, regardless of meta-class, carries the same identifying,
+semantic, and administrative attribute groups. The meta-class only
+adds type-specific attributes — `Property` adds `data_type` and
+`value_format`; `Class` adds `superclass`, `is_case_of`, and
+`applicable_properties`.
+
+## Identifiers: IRDI and ICID
+
+Every entity is identified by an **International Registration Data
+Identifier (IRDI)** — a three-part string with the shape:
+
+```
+<registrant>/<semantic>///<scheme>#<code>
+```
+
+For example:
+
+```
+0112/2///61360_4#AAD009
+└─┬─┘  └┬┘   └──┬───┘ └┬──┘
+ IEC   TC 3   61360-4   code
+```
+
+- **Registrant** (`0112`) identifies the registration authority (IEC).
+- **Semantic** (`2`) identifies the conceptual area.
+- **Scheme** (`61360_4`) identifies the dictionary (here, IEC 61360-4).
+- **Code** (`AAD009`) is the human-readable identifier inside the
+  dictionary.
+
+The IRDI is the canonical, language-independent handle for the entity.
+Two systems that cite the same IRDI are guaranteed to be talking about
+the same dictionary entry.
+
+## Attribute groups
+
+Per IEC 61360-1 §21.8, every `Item_class` carries four attribute
+groups:
+
+- **Identifying attributes** — `code`, `preferred_name`, `short_name`,
+  `synonymous_name`, `definition`.
+- **Semantic attributes** — `note`, `remark`, `drawing_reference`,
+  `formula`, `preferred_letter_symbol`.
+- **Administrative attributes** — `version_number`, `revision_number`,
+  `status_level`, `responsible_committee`, `published_in`, `published_by`.
+- **Translation information** — per-language variants of `preferred_name`,
+  `definition`, `note`, `remark`.
+
+The same shape applies (with type-specific extensions) to `Property`,
+`ValueList`, `ValueTerm`, `Unit`, and `Relation`.
+
+## Relationships
+
+CDD recognises a small fixed set of structural relationships:
+
+- **Inheritance** (`superclass`) — a `Class` has exactly one
+  `superclass`; all `applicable_properties` are inherited.
+- **Is-case-of** (`is_case_of`) — imports a fixed version of another
+  class's properties without joining its classification tree. See IEC
+  61360-1 §21.13.
+- **Has-a composition** — a `Property` of data type `CLASS_INSTANCE_TYPE`
+  or `CLASS_REFERENCE_TYPE` points at another class, building a
+  part-whole tree. See §21.2.
+- **Classifying property** — a `Property` whose value list partitions a
+  class into subclasses. See §21.11.
+
+## Versioning and status
+
+Every entity has:
+
+- **Version** (e.g. `002`) — increments when the entity's semantics
+  change in a way that breaks compatibility.
+- **Revision** (e.g. `05`) — increments for editorial or non-breaking
+  changes.
+- **Status level** — one of `proposal`, `draft`, `standard`,
+  `superseded`. See IEC 61360-1 §9.9.
+- **Version history** — the full chronology of `version`, `revision`,
+  `status`, `timestamp`, `user`, and `change_request_id` for every
+  revision since the entity's first proposal.
+
+OpenCDD captures and renders the version history per entity so you can
+see exactly how a definition has evolved.
+
+## Read more
+
+- **[CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/)** —
+  why the model is more than a class diagram.
+- **[Using CDD data](/docs/using-cdd-data/)** — how to consume the
+  JSON shape programmatically.

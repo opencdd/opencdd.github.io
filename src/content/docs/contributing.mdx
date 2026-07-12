@@ -1,0 +1,282 @@
+---
+title: Contributing
+description: How to contribute to OpenCDD — docs, blog posts, UI fixes, bug reports, and data improvements. Repo structure and workflow for new contributors.
+published: 2026-07-12
+order: 40
+---
+
+# Contributing
+
+OpenCDD is open source and contributor-friendly. Most contributions
+do not require any understanding of the IEC 61360 data model — docs
+improvements, blog posts, and UI fixes are all welcome.
+
+## Quick contribution map
+
+| You want to… | Where to look | How to ship |
+|--------------|---------------|-------------|
+| Fix a typo in docs | `src/content/docs/*.mdx` | Edit, PR. |
+| Write a new docs page | `src/content/docs/` | Add `.mdx`, PR. |
+| Write a blog post | `src/content/blog/` | Add `.mdx`, PR. |
+| Report a bug or request a feature | [Issues](https://github.com/opencdd/opencdd.github.io/issues) | Open an issue. |
+| Fix a UI bug | `src/components/`, `src/pages/`, `src/layouts/` | Edit, run `npm run dev`, PR. |
+| Add a Vue island | `src/components/islands/` | Same as above. |
+| Improve data quality | [`opencdd-ruby`](https://github.com/opencdd/opencdd-ruby) | Issue + PR there. |
+| Scrape missing entities | [`cdd-data`](https://github.com/opencdd/cdd-data) (private) | Talk to maintainers. |
+| Translate docs | (not yet supported) | Open an issue to discuss. |
+
+## Repository layout
+
+```
+opencdd.github.io/
+├── astro.config.mjs        Astro + Vue + MDX + Tailwind config
+├── src/
+│   ├── components/
+│   │   ├── layout/         Header, Footer
+│   │   ├── islands/        Vue components (client-side hydrated)
+│   │   └── ui/              Astro components (server-rendered)
+│   ├── content/
+│   │   ├── data/            JSON snapshots (committed; built by cdd-data)
+│   │   ├── docs/            MDX documentation (this section)
+│   │   └── blog/            MDX blog posts
+│   ├── content.config.ts    Content collection schemas
+│   ├── layouts/             BaseLayout, DictionaryLayout, EntityDetailShell,
+│   │                        DocsLayout, BlogLayout
+│   ├── lib/                 Build-time data layer (bundle, registry, loader)
+│   ├── pages/               File-based routes
+│   │   ├── index.astro      Homepage
+│   │   ├── docs/            Docs index + [slug]
+│   │   ├── blog/            Blog index + [slug]
+│   │   ├── search.astro
+│   │   └── d/[dict]/        Dictionary pages
+│   │       ├── index.astro           Overview tabs
+│   │       ├── about.astro           Metadata
+│   │       ├── c/[code].astro        Class detail
+│   │       ├── p/[code].astro        Property detail
+│   │       ├── t/[code].astro        Value term detail
+│   │       ├── u/[code].astro        Unit detail
+│   │       ├── v/[code].astro        Value list detail
+│   │       └── r/[code].astro        Relation detail
+│   └── styles/global.css    Tailwind 4 theme + prose styles
+├── scripts/
+│   ├── fetch-data.ts        Copies JSON from ../cdd-data or fetches Release
+│   └── gen-tree.ts          Pre-builds the class tree JSON
+└── tests/                   Vitest specs
+```
+
+## Development environment
+
+Prerequisites:
+
+- Node.js 22+ (we use `tsx` for TypeScript scripting).
+- npm 10+.
+
+Setup:
+
+```bash
+git clone https://github.com/opencdd/opencdd.github.io
+cd opencdd.github.io
+npm install
+npm run fetch-data   # populates src/content/data/ from ../cdd-data
+                     # (or set CDD_DATA_RELEASE=latest to fetch Release)
+npm run dev          # http://localhost:4321
+```
+
+If `npm run fetch-data` fails because `../cdd-data` does not exist
+locally, set `CDD_DATA_RELEASE=latest` to fetch the latest published
+release from GitHub.
+
+## Common workflows
+
+### Add a docs page
+
+1. Pick a slug — short, kebab-case (e.g. `value-formats`).
+2. Create `src/content/docs/{slug}.mdx` with the frontmatter:
+
+   ```yaml
+   ---
+   title: Page title
+   description: One-line summary for the docs index and meta tags.
+   published: 2026-07-12
+   order: 24   # controls nav order; see "Docs ordering" below
+   ---
+   ```
+
+3. Write your content as MDX. Astro components and Vue islands can be
+   imported, but for pure prose you usually do not need them.
+4. Add a link to your page from `src/content/docs/index.mdx`.
+5. Run `npm run dev` and verify the page renders at
+   `/docs/{slug}/`.
+6. Commit and open a PR.
+
+### Add a blog post
+
+1. Create `src/content/blog/{slug}.mdx` with frontmatter:
+
+   ```yaml
+   ---
+   title: Post title
+   description: One-line summary for the blog index.
+   published: 2026-07-12
+   author: Your Name
+   tags: ["announcement", "deep-dive"]
+   ---
+   ```
+
+2. Write the body. The blog is open to community posts — project
+   news, CDD explainers, integration case studies, data analyses.
+3. Run `npm run dev` and verify at `/blog/{slug}/`.
+4. Commit and open a PR.
+
+The blog has **no comments** by design. Readers who want to respond
+should open a GitHub Discussion or write a reply post.
+
+### Fix a UI bug
+
+1. Reproduce locally with `npm run dev`.
+2. Find the relevant component in `src/components/` or page in
+   `src/pages/`.
+3. Edit, refresh, verify.
+4. If you add a Vue island, write a Vitest spec in `tests/`.
+5. Run `npm run check` (Astro typecheck) and `npm test` before
+   committing.
+
+### Update dictionary metadata
+
+Dictionary bibliographic metadata (title, publication ID, abstract,
+technical committee, webstore URL) lives in `src/lib/dictMetadata.ts`.
+The data itself (entity counts, languages) comes from `index.json`,
+which is built by `rake browser:build_all` in `cdd-data`.
+
+To update metadata for an existing dictionary:
+
+1. Find the entry in `src/lib/dictMetadata.ts`.
+2. Update the field(s).
+3. Cite the IEC webstore or other authoritative source in your PR
+   description.
+4. Run `npm run check` and `npm run dev` to verify.
+
+### Add a new dictionary
+
+Adding a new published dictionary is a multi-repo change:
+
+1. Scrape the dictionary into `cdd-data` (private). The scraper lives
+   in `cdd-data/harvest/`.
+2. Run `rake browser:build[{slug}]` in `cdd-data` to build the JSON.
+3. Run `npm run fetch-data` here to copy the JSON into
+   `src/content/data/`.
+4. Add a metadata entry in `src/lib/dictMetadata.ts`.
+5. Verify counts and one entity detail page render correctly.
+
+If you are not a maintainer with access to `cdd-data`, open an issue
+describing the dictionary and a maintainer will handle steps 1–2.
+
+## Docs ordering
+
+The `order` field in frontmatter controls the order of pages in the
+docs sidebar. Conventions:
+
+| Range | Section |
+|-------|---------|
+| `-1` | Docs index (special; only `index.mdx`). |
+| `1–9` | New user — introductory pages. |
+| `10–19` | UI walkthrough. |
+| `20–29` | Developer — data access. |
+| `30–39` | Theory — ontology, model. |
+| `40–49` | Contributor. |
+
+Pick a number that fits the section. Within a section, ordering is
+fine-grained by integer value (so `21` comes before `22`).
+
+## Writing style
+
+- **Lead with the value.** A reader should know within the first
+  paragraph whether the page is for them.
+- **Show, then tell.** Code examples, screenshots, and concrete entity
+  codes beat abstract description.
+- **Cite the spec.** When you reference IEC 61360 (or related),
+  include the section number and a link to the IEC webstore. See
+  [CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/) for
+  the pattern.
+- **Do not reproduce IEC text verbatim.** The IEC publications are
+  © IEC, Geneva. Paraphrase + cite. Short quoted sentences with
+  explicit attribution are fine.
+- **Use the spec's terminology** when one exists (`Item_class`,
+  `class_type`, `is_case_of`). Don't invent synonyms.
+- **Be terse.** Most docs pages should fit on one screen at the
+  section level; expand details with sub-sections.
+
+## Code style
+
+- TypeScript: strict mode, `import type` for type-only imports.
+- Astro components: one concept per file.
+- Vue islands: Composition API, `<script setup>`, no React.
+- Tailwind 4: use the existing tokens (`ink-*`, `sand-*`, `accent-*`),
+  do not hard-code hex colours.
+- No `any` types unless interfacing with untyped external data; even
+  then, prefer `unknown` + cast at the boundary.
+
+Run `npm run check` and `npm test` before committing. Run
+`npm run format` if you want auto-formatting.
+
+## Commit and PR conventions
+
+- **Commit message** — imperative mood, no AI attribution trailers
+  (no `Co-authored-by:` for AI tools, no "Generated with …" footers).
+  Match the style of recent commits: `EntityDetailShell — shared
+  layout for entity detail pages`.
+- **Branch name** — short kebab-case, e.g. `docs/getting-started`
+  or `fix/toc-empty-box`.
+- **PR description** — 1–3 bullet points for *what* and *why*. Add a
+  Test Plan section with concrete verification steps.
+- **Small PRs** are easier to review than large ones. If you are
+  touching more than ~300 lines, consider splitting.
+
+## Tests
+
+Tests run on Vitest 4. Component tests for Vue islands use
+`@testing-library/vue` and jsdom. Each test file has a
+`// @vitest-environment jsdom` directive because Vitest's per-file
+environment config is more reliable than per-glob config under esbuild.
+
+To run:
+
+```bash
+npm test                # one-shot
+npm run test:watch      # interactive
+npm run test:coverage   # with coverage
+```
+
+Coverage is currently around 66 % of lines; target 75 %. When you add
+a Vue island or non-trivial utility, add a test.
+
+## Reporting issues
+
+Open an issue on
+[GitHub](https://github.com/opencdd/opencdd.github.io/issues) for:
+
+- Bugs — anything that renders wrong, breaks, or behaves unexpectedly.
+- Data gaps — entities that should be present but are not.
+- Feature requests — new docs, new UI features, new dictionaries.
+- Security issues — see `SECURITY.md` (if absent, email the
+  maintainers directly rather than filing a public issue).
+
+For data issues (wrong definition, broken cross-reference), the fix
+usually belongs in `opencdd-ruby` or `cdd-data`, not this repo.
+
+## Licence
+
+By contributing, you agree that your contributions are licensed under
+the project's licence (see the repository for the canonical statement).
+Do not submit IEC publication text — it is © IEC, Geneva, and we
+cannot host it.
+
+## Read more
+
+- **[What is OpenCDD?](/docs/what-is-opencdd/)** — the ecosystem
+  overview.
+- **[What is IEC CDD?](/docs/what-is-cdd/)** — the conceptual primer.
+- The [`opencdd-ruby` repo](https://github.com/opencdd/opencdd-ruby)
+  for the Ruby model.
+- The [`opencdd-ts` repo](https://github.com/opencdd/opencdd-ts) for
+  the TypeScript port.

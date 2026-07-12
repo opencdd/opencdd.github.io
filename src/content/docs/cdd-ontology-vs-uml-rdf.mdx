@@ -1,0 +1,214 @@
+---
+title: CDD ontology vs UML and RDF
+description: Why CDD's four-layer model and power-type semantics differ from UML class diagrams and RDF/OWL ontologies, in IEC 61360's own terminology.
+published: 2026-07-12
+order: 30
+---
+
+# CDD ontology vs UML and RDF
+
+The IEC Common Data Dictionary is sometimes described as "just a class
+hierarchy" or "an ontology like OWL". Both descriptions miss what makes
+it distinctive. Terminology and quoted passages below come from
+IEC 61360-1:2017 (Edition 4.0); section numbers point at that
+publication.
+
+## The four layers
+
+IEC 61360 is built on a small fixed set of **meta-classes**
+(`Class`, `Property`, `ValueList`, `ValueTerm`, `Unit`, `Relation`,
+`ViewControl`) that are themselves defined by the dictionary schema.
+The resulting stack is:
+
+1. **Dictionary schema** — the rules of the dictionary (defined
+   normatively by IEC 61360-2 in EXPRESS). This is the *meta-meta*
+   layer: it defines what a "class" and a "property" *are*.
+2. **Meta-classes** — the seven entity kinds above (codes `MDC_C002`
+   through `MDC_C011` and `EXT_C001`). Instances of these describe the
+   *types* of things the dictionary can hold.
+3. **Dictionary content** — the actual classes and properties: "fixed
+   capacitor" (`AAA021`), "capacitance" (`AAF446`), and so on.
+4. **Instances** — the actual products being characterised. CDD treats
+   these as first-class dictionary citizens when `class_type` allows
+   them to act as classes themselves (see below).
+
+UML and RDF/OWL also have layers (MOF M0–M3 for UML, the RDFS/OWL
+subclass hierarchy for RDF). The difference is not the layering — it is
+what each layer is *allowed to do*.
+
+## `class_type`: the attribute that breaks the mould
+
+Per IEC 61360-1 §21.6, every `Item_class` carries a mandatory
+`class_type` attribute with four allowed values. The decisive part of
+the spec reads:
+
+> **ITEM_CLASS** — "class is part of an is-a hierarchy and related to
+> its superclass by inheritance".
+>
+> **CATEGORICAL CLASS** — "class is part of a categorization hierarchy
+> and related to its superclass by is_case_of".
+>
+> **FEATURE_CLASS** — "All classes below class 'AAA233 Features'
+> represent commonly used concepts that may be used independently or be
+> referenced from other classes."
+>
+> **CLASS_INSTANCE_REFERENCE** — "should be used if referencing is
+> applied."
+>
+> — IEC 61360-1:2017, §21.6
+
+This is the core of what is variously called *power-type modelling*,
+*clabjets* (class-like objects), or *objects-as-classes*: **an instance
+of a class can itself participate in another class's hierarchy as a
+superclass**, related through `is_case_of` rather than the usual
+inheritance `superclass` link.
+
+The spec is explicit about the asymmetry. §21.1 lays out the rules for
+the plain inheritance tree ("a subclass shall have exactly one
+superclass", "a superclass should have one classifying property
+defining these subclasses"). §21.13 then introduces `is_case_of`:
+
+> Attribute definition: `is_case_of` allows the reuse of already
+> defined classes.
+>
+> — IEC 61360-1:2017, §21.13
+
+And §4:
+
+> The IEC 61360 dictionary model has a single inheritance model.
+> However, from time to time, some properties defined in another class
+> which resides in other branches of specialization hierarchy become
+> necessary and pertinent. In this case, the model offers the case-of
+> mechanism to import properties of a fixed version.
+
+So there are *two parallel hierarchies* in CDD: the `superclass` chain
+(strict is-a inheritance, single parent) and the `is_case_of` chain
+(import / categorisation, which is what lets an instance behave as a
+class). Both are first-class structural relationships in the model.
+
+## Class instances as values
+
+The other mechanism that distinguishes CDD from a plain class diagram
+is the **`CLASS_INSTANCE_TYPE`** and **`CLASS_REFERENCE_TYPE`** data
+types (§10.4.4 and §10.4.5). These let a `Property` value point not at
+a literal but at an instance of another `Item_class`. From §10.4.4:
+
+> The data type `CLASS_INSTANCE_TYPE` may be used for values containing
+> a reference to an `Item_class`. The referenced `Item_class` may
+> reside in any part of the classification hierarchy and contributes a
+> collection of zero, one or more Property information objects.
+
+The distinction is *ownership*: `CLASS_INSTANCE_TYPE` gives each
+referencing instance "its personal instance" of the referenced class;
+`CLASS_REFERENCE_TYPE` shares one referenced instance across all
+referencing classes (§10.4.5). Either way, **a class is a legal value
+of a property**, which is what lets a feature block (§24.4) like
+"toleranced capacitance" be defined once and reused as a property of
+many classes.
+
+## How UML differs
+
+UML (per ISO/IEC 19505) is a *modelling notation*, not a dictionary
+schema. Its class diagrams express inheritance (`Generalization`),
+composition (`Association`, `Aggregation`), and constraints. UML's
+meta-object facility (MOF) gives a strict four-layer mirror of CDD's,
+but the *instance-as-class* pattern is not a native UML construct —
+modellers typically fake it with `<<metaclass>>` stereotypes,
+`InstanceSpecification`, or by treating classes as objects at the M1
+layer through profiles.
+
+Crucially:
+
+- UML has **one inheritance edge** (`Generalization`). CDD has **two**
+  (`superclass` and `is_case_of`), with different semantics — and the
+  spec mandates the difference at the data-model level.
+- UML has no built-in equivalent of `class_type`. A UML class is
+  always a class; it does not carry an attribute saying "I am a
+  categorical class whose instances are themselves classes elsewhere".
+- UML has no built-in equivalent of `CLASS_INSTANCE_TYPE` /
+  `CLASS_REFERENCE_TYPE`. UML associations reference classifiers, but
+  the spec-level distinction between *by-value* and *by-reference*
+  instance linkage — and the inheritance semantics that flow from it —
+  is a CDD-specific construct.
+
+The spec itself notes that the UML diagrams in IEC 61360-1 are
+explanatory, not normative (§4, NOTE 1): "The UML models are for
+explanatory purposes; a detailed data model for implementation is
+given in IEC 61360-2." In other words, UML is a *documentation* tool
+for CDD, not its data model.
+
+## How RDF and OWL differ
+
+RDF is a graph of `(subject, predicate, object)` triples. RDFS and OWL
+layer semantics on top: `rdfs:subClassOf`, `owl:ObjectProperty`,
+`owl:Class`, and so on. OWL is genuinely an ontology language — but
+its modelling assumptions diverge from CDD's in three concrete ways.
+
+1. **Layering is by meta-model, not by class_type.** In OWL, the
+   classes you define live at one layer and their instances at the
+   next; `owl:Class` is itself an `owl:Class` (the famous
+   punning / metamodelling area). CDD makes the layering an attribute
+   of the entity: a single `Item_class` row can declare
+   `class_type = CATEGORICAL CLASS` and thereby advertise that its
+   instances participate in further classification trees. The
+   layer-crossing is *explicit in the data*.
+
+2. **Inheritance semantics are different.** RDFS's `subClassOf` is
+   multiple-inheritance and purely logical (every instance of the
+   subclass is also an instance of the superclass). CDD mandates
+   *single* inheritance through the `superclass` attribute (§21.1:
+   "a subclass shall have exactly one superclass") and adds the
+   separate, version-pinned `is_case_of` mechanism for cross-tree
+   reuse. The spec is explicit that `is_case_of` is not inheritance:
+   "Once imported into a class, such properties become applicable in
+   the class and inherited into its subclasses as applicable
+   properties" — but the *version of the imported property is fixed*
+   (§4). RDF/OWL has no native concept of a version-pinned,
+   one-directional import that differs from subclassing.
+
+3. **Properties are first-class entities.** In RDF, properties are
+   resources (`rdf:Property` / `owl:DatatypeProperty` /
+   `owl:ObjectProperty`), but their *definitions* are typically local
+   to the ontology and have no independent lifecycle. In CDD, every
+   `Property` is an entity with its own IRDI, version, revision,
+   status, responsible committee, and change-request history. Two
+   classes that share a property are *literally sharing the same
+   entity* — not two definitions that happen to have the same URI.
+   This is why the IEC CDD can guarantee that "capacitance" (`AAF446`)
+   means the same thing everywhere it appears.
+
+## The short version
+
+CDD is not UML with extra columns, and it is not OWL with a stricter
+schema. It is a dictionary data model with:
+
+- a fixed meta-class layer (the seven `MDC_C###` codes),
+- a mandatory `class_type` attribute that lets an entity declare
+  whether it participates in inheritance, categorisation, or
+  feature-reference relationships,
+- a single-inheritance `superclass` chain and a separate, version-pinned
+  `is_case_of` chain,
+- and `CLASS_INSTANCE_TYPE` / `CLASS_REFERENCE_TYPE` data types that
+  treat a class as a legal value of a property.
+
+The result is that an *instance* in CDD can be referenced as a *class*
+in another part of the dictionary — power-type modelling baked into
+the data model rather than approximated with stereotypes or
+metamodelling tricks.
+
+## References
+
+- IEC 61360-1:2017, §4 — Foundation for the concepts of IEC 61360
+  standard dictionaries.
+- IEC 61360-1:2017, §10.4.4 — Class instance type.
+- IEC 61360-1:2017, §10.4.5 — Class reference type.
+- IEC 61360-1:2017, §21.1 — Classification tree.
+- IEC 61360-1:2017, §21.6 — `class_type`.
+- IEC 61360-1:2017, §21.13 — `is_case_of`.
+- IEC 61360-1:2017, §24.4 — Classes and properties for common use.
+- [IEC webstore](https://webstore.iec.ch/en/publication/28560) for the
+  canonical publication.
+
+Continue with **[Using CDD data](/docs/using-cdd-data/)** for the
+practical consumer view, or jump back to the
+**[documentation index](/docs/)**.

@@ -1,0 +1,455 @@
+---
+title: Query cookbook
+description: Copy-paste recipes for loading and querying CDD data in TypeScript, Ruby, and Python — finding entities, walking hierarchies, resolving references, exporting slices.
+published: 2026-07-12
+order: 23
+---
+
+# Query cookbook
+
+Practical recipes for working with CDD data programmatically. Every
+recipe is self-contained and copy-pasteable. The browser's data layer
+is in TypeScript, but the same patterns work in Ruby (via `opencdd`)
+and Python (via plain JSON parsing).
+
+The recipes below use IEC 61360 as the worked example. Substitute any
+other dictionary slug (`iec61360-7`, `iec61987`, `iec62683`,
+`iec63213`, `iec63508`) as needed.
+
+## Setup
+
+### TypeScript
+
+```bash
+npm install @opencdd/models
+```
+
+The JSON snapshots live at `src/content/data/{dict}/database.json` in
+this repo. Each is a flat array of entities.
+
+### Ruby
+
+```ruby
+# Gemfile
+gem "opencdd", git: "https://github.com/opencdd/opencdd-ruby.git"
+```
+
+```ruby
+require "opencdd"
+```
+
+### Python
+
+```bash
+# no dependencies — stdlib JSON is enough
+```
+
+## Load a dictionary
+
+### TypeScript
+
+```ts
+import { readFileSync } from "node:fs";
+import type { EntityMetadata } from "@opencdd/models";
+
+const entities: EntityMetadata[] = JSON.parse(
+  readFileSync("src/content/data/iec61360/database.json", "utf8"),
+);
+
+console.log(`Loaded ${entities.length} entities`);
+```
+
+### Ruby (from JSON)
+
+```ruby
+require "json"
+
+entities = JSON.parse(File.read("data/iec61360/database.json"))
+puts "Loaded #{entities.size} entities"
+```
+
+### Ruby (from source .xls)
+
+```ruby
+db = Opencdd::Reader.load_database("downloads/iec61360")
+puts "Loaded #{db.count} entities"
+```
+
+### Python
+
+```python
+import json
+
+with open("src/content/data/iec61360/database.json") as f:
+    entities = json.load(f)
+
+print(f"Loaded {len(entities)} entities")
+```
+
+## Find by code
+
+The simplest query — look up an entity by its short code (e.g.
+`AAA021`). Codes are unique within a dictionary.
+
+```ts
+const entity = entities.find((e) => e.code === "AAA021");
+if (!entity) throw new Error("not found");
+console.log(entity.preferred_name, entity.irdi);
+// → "fixed capacitor" "0112/2///61360_4#AAA021"
+```
+
+```ruby
+entity = entities.find { |e| e["code"] == "AAA021" }
+puts "#{entity['preferred_name']}  #{entity['irdi']}"
+```
+
+```python
+entity = next(e for e in entities if e["code"] == "AAA021")
+print(entity["preferred_name"], entity["irdi"])
+```
+
+## Find by IRDI
+
+When you have a full IRDI, prefer this lookup — IRDIs are globally
+unique.
+
+```ts
+const irdi = "0112/2///61360_4#AAD009";
+const entity = entities.find((e) => e.irdi === irdi);
+```
+
+```python
+irdi = "0112/2///61360_4#AAD009"
+entity = next((e for e in entities if e["irdi"] == irdi), None)
+```
+
+In Ruby, use the `Database` object's index for O(1) lookup:
+
+```ruby
+db = Opencdd::Reader.load_database("downloads/iec61360")
+entity = db.find(Opencdd::IRDI.parse("0112/2///61360_4#AAD009"))
+```
+
+## Find by name (any language)
+
+CDD entities carry multilingual names. To match across all languages:
+
+```ts
+function findByName(needle: string): EntityMetadata | undefined {
+  const lower = needle.toLowerCase();
+  return entities.find((e) => {
+    if (e.preferred_name?.toLowerCase().includes(lower)) return true;
+    const ml = e.preferred_name_ml ?? {};
+    return Object.values(ml).some((v) => v?.toLowerCase().includes(lower));
+  });
+}
+
+findByName("Kapazität"); // matches via German preferred_name_ml
+```
+
+```python
+def find_by_name(needle):
+    needle = needle.lower()
+    for e in entities:
+        if e.get("preferred_name", "").lower().find(needle) >= 0:
+            return e
+        for v in (e.get("preferred_name_ml") or {}).values():
+            if v and needle in v.lower():
+                return e
+    return None
+```
+
+## Walk the class hierarchy
+
+The class hierarchy is built from the `superclass` field on each
+class entity (per IEC 61360-1 §21.1, "a subclass shall have exactly
+one superclass").
+
+### Get the ancestor chain (root → self)
+
+```ts
+function ancestorChain(
+  entity: EntityMetadata,
+  byIrdi: Map<string, EntityMetadata>,
+): EntityMetadata[] {
+  const chain: EntityMetadata[] = [];
+  let current: EntityMetadata | undefined = entity;
+  while (current) {
+    chain.unshift(current);
+    const parentIrdi = current.superclass;
+    if (!parentIrdi) break;
+    current = byIrdi.get(parentIrdi);
+  }
+  return chain;
+}
+
+const byIrdi = new Map(entities.map((e) => [e.irdi, e]));
+const fixedCap = entities.find((e) => e.code === "AAA021")!;
+const chain = ancestorChain(fixedCap, byIrdi);
+console.log(chain.map((c) => c.preferred_name));
+// → ["root", ..., "capacitor", "fixed capacitor"]
+```
+
+In Ruby, the `Database` object exposes this directly:
+
+```ruby
+fixed_cap = db.find_by_code("AAA021")
+chain = db.ancestor_chain_of(fixed_cap.irdi)
+puts chain.map(&:preferred_name)
+```
+
+### Get direct subclasses
+
+```ts
+function subclasses(irdi: string): EntityMetadata[] {
+  return entities.filter(
+    (e) => e.type === "class" && e.superclass === irdi,
+  );
+}
+
+subclasses(fixedCap.irdi).forEach((s) => console.log(s.code, s.preferred_name));
+```
+
+```ruby
+db.subclasses_of(fixed_cap.irdi).each do |sub|
+  puts "#{sub.code}  #{sub.preferred_name}"
+end
+```
+
+### Walk the entire subtree (depth-first)
+
+```ts
+function* walkSubtree(rootIrdi: string): Generator<EntityMetadata> {
+  const root = byIrdi.get(rootIrdi);
+  if (!root) return;
+  yield root;
+  for (const child of subclasses(rootIrdi)) {
+    yield* walkSubtree(child.irdi);
+  }
+}
+
+for (const cls of walkSubtree(byIrdi.get("AAA020")!.irdi)) {
+  console.log(cls.code, cls.preferred_name);
+}
+```
+
+## Get effective properties of a class
+
+A class's effective properties are its declared properties plus
+everything inherited from its ancestors. Per IEC 61360-1 §21.9 NOTE 3:
+*"All the applicable properties of a superclass are also applicable
+properties for the subclasses of this superclass."*
+
+```ts
+function effectiveProperties(
+  entity: EntityMetadata,
+): string[] {
+  if (entity.type !== "class") return [];
+  const declared = entity.applicable_properties ?? [];
+  const inherited = entity.superclass
+    ? effectiveProperties(byIrdi.get(entity.superclass)!)
+    : [];
+  return [...new Set([...declared, ...inherited])];
+}
+```
+
+In Ruby this is built in:
+
+```ruby
+result = db.effective_properties_of(fixed_cap.irdi)
+result.properties.each do |prop|
+  puts "#{prop.code}\t#{prop.preferred_name}\t#{prop.data_type}"
+end
+```
+
+The Ruby `EffectiveProperties` object also exposes `inherited_from`
+mapping so you can attribute each property to the class that declared
+it.
+
+## Resolve references (with unresolved reporting)
+
+Some properties reference IRDIs whose full records weren't scraped
+(dangling references). The Ruby `Database#resolve_irdis` returns a
+result object with both `resolved` and `unresolved`:
+
+```ruby
+property_irdis = fixed_cap.applicable_properties || []
+result = db.resolve_irdis(property_irdis)
+
+puts "Resolved:"
+result.resolved.each { |p| puts "  #{p.code}  #{p.preferred_name}" }
+
+puts "Unresolved:"
+result.unresolved.each { |i| puts "  #{i}" }
+```
+
+The browser surfaces unresolved references as visible callouts so the
+gap is explicit rather than silent.
+
+## Filter by entity type
+
+```ts
+import type { EntityType } from "@opencdd/models";
+
+function ofType(t: EntityType): EntityMetadata[] {
+  return entities.filter((e) => e.type === t);
+}
+
+console.log({
+  classes:     ofType("class").length,
+  properties:  ofType("property").length,
+  valueLists:  ofType("value_list").length,
+  valueTerms:  ofType("value_term").length,
+  units:       ofType("unit").length,
+  relations:   ofType("relation").length,
+});
+```
+
+```python
+from collections import Counter
+print(Counter(e["type"] for e in entities))
+```
+
+## Find value terms of a value list
+
+A `ValueList`'s terms live in its `terms` array (or its raw properties
+under `MDC_P043`).
+
+```ts
+const vl = entities.find((e) => e.code === "ABU088");
+const terms = vl?.terms ?? [];
+terms.forEach((t) => console.log(t.code, t.preferred_name));
+```
+
+## Find classes that declare a property
+
+The reverse lookup — which classes reference a given property in their
+`applicable_properties`?
+
+```ts
+const propIrdi = "0112/2///61360_4#AAF446"; // capacitance
+const declaringClasses = entities.filter(
+  (e) =>
+    e.type === "class" &&
+    (e.applicable_properties ?? []).includes(propIrdi),
+);
+declaringClasses.forEach((c) => console.log(c.code, c.preferred_name));
+```
+
+## Export to CSV
+
+A common request: "give me all properties in a flat spreadsheet".
+
+```python
+import csv
+
+properties = [e for e in entities if e["type"] == "property"]
+
+with open("properties.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["irdi", "code", "preferred_name", "definition", "data_type", "version", "revision", "status"])
+    for p in properties:
+        writer.writerow([
+            p["irdi"],
+            p["code"],
+            p.get("preferred_name", ""),
+            p.get("definition", ""),
+            (p.get("raw_properties") or {}).get("MDC_P022", ""),
+            p.get("version", ""),
+            p.get("revision", ""),
+            p.get("status_level", ""),
+        ])
+```
+
+## Convert to RDF (sketch)
+
+CDD IRDIs map cleanly onto RDF URIs. The sketch below produces a
+small RDF/Turtle file from a single class and its properties.
+
+```python
+from rdflib import Graph, Namespace, RDF, RDFS, Literal, URIRef
+
+CDD = Namespace("https://opencdd.github.io/")
+
+def to_uri(irdi: str) -> URIRef:
+    return URIRef(f"https://opencdd.github.io/iri/{irdi.replace('/', '_').replace('#', '/')}")
+
+g = Graph()
+g.bind("cdd", CDD)
+
+for e in entities:
+    if e["type"] != "class":
+        continue
+    s = to_uri(e["irdi"])
+    g.add((s, RDF.type, CDD.Class))
+    g.add((s, RDFS.label, Literal(e.get("preferred_name", e["code"]), lang="en")))
+    if e.get("definition"):
+        g.add((s, RDFS.comment, Literal(e["definition"], lang="en")))
+    if e.get("superclass"):
+        g.add((s, RDFS.subClassOf, to_uri(e["superclass"])))
+
+g.serialize(destination="cdd.ttl", format="turtle")
+```
+
+The full mapping (properties, value lists, units, relations) is more
+involved — see [CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/)
+for why a faithful mapping requires care.
+
+## Build a property index for autocomplete
+
+A useful integration pattern: build a search index over property names
+so users can pick a property by typing.
+
+```ts
+interface PropertyIndexEntry {
+  irdi: string;
+  code: string;
+  label: string;
+  definition: string;
+}
+
+const propertyIndex: PropertyIndexEntry[] = entities
+  .filter((e) => e.type === "property")
+  .map((p) => ({
+    irdi: p.irdi,
+    code: p.code,
+    label: p.preferred_name ?? p.code,
+    definition: p.definition ?? "",
+  }));
+
+// A trivial prefix matcher:
+function search(query: string): PropertyIndexEntry[] {
+  const q = query.toLowerCase();
+  return propertyIndex
+    .filter(
+      (p) =>
+        p.label.toLowerCase().includes(q) ||
+        p.code.toLowerCase().includes(q),
+    )
+    .slice(0, 20);
+}
+```
+
+## Performance notes
+
+- **Load once, query many times.** The JSON files are not huge (IEC
+  61987 is ~50 MB unprocessed), but parsing is. Load them at startup,
+  build a `Map` index, then reuse.
+- **Build the indexes you need up front.** `byIrdi`, `byCode`,
+  `byType`, and `subclassesByParent` are the four most common; build
+  them once in O(n) and use them in O(1) for the rest of the process.
+- **Use the Ruby `Database` object** when you need relationships
+  (effective properties, ancestor chains, resolved references). It
+  builds reverse indexes on `finalize!` and is far faster than
+  re-walking the JSON for every query.
+- **Stream rather than load when you only need a slice.** For
+  one-shot scripts, `jq` or `ijson` let you filter at parse time.
+
+## Read more
+
+- **[IRDIs in depth](/docs/irdis/)** — identifier structure.
+- **[The CDD data model](/docs/data-model/)** — entity shapes.
+- **[Using CDD data](/docs/using-cdd-data/)** — when to use CDD and
+  when not to.
+- **[CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/)** —
+  why RDF conversion requires care.

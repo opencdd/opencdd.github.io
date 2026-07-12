@@ -1,0 +1,121 @@
+---
+title: Using CDD data
+description: A practical consumer guide — the JSON shape, how to load a dictionary, and when CDD is the right tool.
+published: 2026-07-12
+order: 22
+---
+
+# Using CDD data
+
+This page covers what a CDD dictionary looks like on disk and in code,
+and when you should reach for CDD over a domain-specific alternative.
+
+## The JSON shape
+
+Each dictionary is published as a single `database.json` file containing
+a flat array of entities. Every entity is one of seven kinds, identified
+by its `type` field:
+
+```json
+{
+  "irdi": "0112/2///61360_4#AAD009",
+  "code": "AAD009",
+  "type": "property",
+  "meta_class_irdi": "MDC_C003",
+  "preferred_name": "turn-on delay time",
+  "definition": "…",
+  "version": "002",
+  "revision": "05",
+  "status_level": "standard",
+  "version_history": [ /* … */ ],
+  "raw_properties": { /* … every key from the source .xls … */ }
+}
+```
+
+The full TypeScript shape is in
+[`@opencdd/models`](https://github.com/opencdd/opencdd-ts) — see
+`EntityMetadata`, `ClassNode`, `PropertyNode`, `ValueListNode`,
+`ValueTermNode`, `UnitNode`, `RelationNode` in `src/models/jsonTypes.ts`.
+
+## Loading a dictionary
+
+In TypeScript, install `@opencdd/models` and read the JSON directly:
+
+```ts
+import { readFileSync } from "node:fs";
+import type { EntityMetadata } from "@opencdd/models";
+
+const entities: EntityMetadata[] = JSON.parse(
+  readFileSync("iec61360/database.json", "utf8"),
+);
+```
+
+In Ruby, install the `opencdd` gem:
+
+```ruby
+require "opencdd"
+
+db = Opencdd::Reader.load_database("downloads/iec61360")
+db.properties.each do |p|
+  puts "#{p.code}  #{p.preferred_name}  (#{p.data_type})"
+end
+```
+
+The Ruby `Database` object exposes query methods for every relationship
+— `properties_of(klass)`, `effective_properties`, `subclasses_of`,
+`ancestor_chain_of`, `relations_for_class`, `resolve_irdis`, etc.
+
+## When CDD is the right tool
+
+CDD shines when:
+
+- You need **stable, globally unique identifiers** for product
+  properties that cross company or system boundaries.
+- You need **multilingual definitions** for those properties.
+- You need to **share a property dictionary** across multiple product
+  domains (electrotechnical, industrial measurement, low-voltage
+  switchgear, …) without re-inventing it per domain.
+- You need **versioned, traceable provenance** — every entity has a
+  version/revision/status and a full change history.
+- You are integrating with **IEC-compliant toolchains** (PLM, CAD,
+  catalogue interchange, e-commerce).
+
+It is the wrong tool when:
+
+- You need a **lightweight, schema-flexible ontology** with no
+  registration authority — use SKOS or a custom OWL vocabulary.
+- You need **probabilistic or statistical** relationships between
+  entities — CDD's relationships are deterministic and structural.
+- You need **per-instance data** (millions of product records). CDD
+  defines *types* and *properties*, not a product database. Use CDD
+  for the schema; use your own database for instance data.
+
+## A note on "raw properties"
+
+Every entity in the browser carries a `raw_properties` object that
+preserves every key from the original IEC `.xls` export. This includes
+workbook-specific column codes (`C016` for status level, `C011` for
+publisher, …), multilingual variants (`MDC_P004.en`, `MDC_P004.de`,
+`MDC_P004.fr`, …), and sub-IDs the typed DSL does not name. If you need
+a field that does not appear in the typed shape, it is in
+`raw_properties`.
+
+## Citing entities
+
+When you reference a CDD entity, cite its IRDI. Do not cite its code
+alone — codes are unique within a dictionary but not globally. The
+IRDI `0112/2///61360_4#AAD009` is unambiguous; `AAD009` alone is not.
+
+For long-lived references, pin to a `(version, revision)` pair so that
+future readers know which definition you were working against.
+
+## Read more
+
+- **[The CDD data model](/docs/data-model/)** — entity shapes,
+  attribute groups, versioning.
+- **[CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/)** —
+  why the model is what it is.
+- The [`@opencdd/models` package](https://github.com/opencdd/opencdd-ts)
+  for the canonical TypeScript types.
+- The [`opencdd` gem](https://github.com/opencdd/opencdd-ruby) for the
+  canonical Ruby model.
