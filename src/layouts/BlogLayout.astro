@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "~/layouts/BaseLayout.astro";
+import ProseLayout from "~/layouts/ProseLayout.astro";
 
 interface Props {
   title: string;
@@ -26,57 +26,54 @@ const dateFmt = new Intl.DateTimeFormat("en-US", {
 });
 ---
 
-<BaseLayout title={`${title} — OpenCDD Blog`} description={description}>
-  <article class="mx-auto max-w-2xl">
+<ProseLayout
+  title={`${title} — OpenCDD Blog`}
+  description={description}
+  width="narrow"
+>
+  <header slot="header" class="space-y-3 border-b border-paper-300 pb-6">
     <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
-      <a href="/blog/" class="hover:text-accent-700">← Blog</a>
+      <a href="/blog/" class="hover:text-hex-700">← Blog</a>
     </p>
-
-    <header class="mt-4 space-y-3 border-b border-ink-200 pb-6">
-      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">{title}</h1>
-      {description && (
-        <p class="text-base text-ink-600">{description}</p>
-      )}
-      <dl class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink-500">
+    <h1 class="font-display text-3xl tracking-tight text-ink-900">{title}</h1>
+    {description && (
+      <p class="text-base text-ink-600">{description}</p>
+    )}
+    <dl class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-ink-500">
+      <div>
+        <dt class="inline font-medium uppercase tracking-wide">By</dt>
+        <dd class="ml-1 inline text-ink-700">{author}</dd>
+      </div>
+      <div>
+        <dt class="inline font-medium uppercase tracking-wide">Published</dt>
+        <dd class="ml-1 inline text-ink-700">{dateFmt.format(published)}</dd>
+      </div>
+      {updated && (
         <div>
-          <dt class="inline font-medium uppercase tracking-wide">By</dt>
-          <dd class="ml-1 inline text-ink-700">{author}</dd>
+          <dt class="inline font-medium uppercase tracking-wide">Updated</dt>
+          <dd class="ml-1 inline text-ink-700">{dateFmt.format(updated)}</dd>
         </div>
-        <div>
-          <dt class="inline font-medium uppercase tracking-wide">Published</dt>
-          <dd class="ml-1 inline text-ink-700">{dateFmt.format(published)}</dd>
-        </div>
-        {updated && (
-          <div>
-            <dt class="inline font-medium uppercase tracking-wide">Updated</dt>
-            <dd class="ml-1 inline text-ink-700">{dateFmt.format(updated)}</dd>
-          </div>
-        )}
-      </dl>
-      {tags.length > 0 && (
-        <ul class="flex flex-wrap gap-1.5 pt-1">
-          {tags.map((tag) => (
-            <li class="rounded-full bg-sand-100 px-2 py-0.5 text-[11px] font-medium text-ink-600">
-              #{tag}
-            </li>
-          ))}
-        </ul>
       )}
-    </header>
+    </dl>
+    {tags.length > 0 && (
+      <ul class="flex flex-wrap gap-1.5 pt-1">
+        {tags.map((tag) => (
+          <li class="rounded-full bg-paper-200 px-2 py-0.5 text-[11px] font-medium text-ink-600">
+            #{tag}
+          </li>
+        ))}
+      </ul>
+    )}
+  </header>
 
-    <div class="prose-opencdd mt-8">
-      <slot />
-    </div>
-
-    <footer class="mt-12 border-t border-ink-200 pt-6 text-sm text-ink-500">
-      <p>
-        Have thoughts? Open a discussion or send a PR on{" "}
-        <a
-          href="https://github.com/opencdd/opencdd.github.io"
-          class="text-accent-700 underline underline-offset-2"
-          >GitHub</a
-        >.
-      </p>
-    </footer>
-  </article>
-</BaseLayout>
+  <footer slot="footer" class="mt-12 border-t border-paper-300 pt-6 text-sm text-ink-500">
+    <p>
+      Have thoughts? Open a discussion or send a PR on{" "}
+      <a
+        href="https://github.com/opencdd/opencdd.github.io"
+        class="text-hex-700 underline underline-offset-2"
+        >GitHub</a
+      >.
+    </p>
+  </footer>
+</ProseLayout>

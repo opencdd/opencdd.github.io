@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "~/layouts/BaseLayout.astro";
+import PageHeader from "~/components/ui/PageHeader.astro";
 ---
 
 <BaseLayout
@@ -7,23 +8,12 @@ import BaseLayout from "~/layouts/BaseLayout.astro";
   description="OpenCDD's name, logo, and design philosophy. The I Ching hexagram Dui (Lake) and why a zen palette fits a common data dictionary."
 >
   <article class="mx-auto max-w-3xl space-y-16">
-    {/* ────────────────────────────────────────────────────────────
-        INTRO
-       ──────────────────────────────────────────────────────────── */}
-    <header class="space-y-5 border-b border-paper-300 pb-12">
-      <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-hex-700">
-        About OpenCDD
-      </p>
-      <h1 class="font-display text-4xl leading-tight tracking-tight text-ink-900 sm:text-5xl">
-        One vocabulary. Many domains. The same identifier everywhere it appears.
-      </h1>
-      <p class="text-base leading-relaxed text-ink-600">
-        OpenCDD is an open-source ecosystem of tools around the IEC Common
-        Data Dictionary. The dictionary itself is maintained by IEC TC 3;
-        we build the browser, the Ruby model, and the TypeScript port.
-        This page is about the name, the logo, and the design choices.
-      </p>
-    </header>
+    <PageHeader
+      kicker="About OpenCDD"
+      title="One vocabulary. Many domains. The same identifier everywhere it appears."
+      description="OpenCDD is an open-source ecosystem of tools around the IEC Common Data Dictionary. The dictionary itself is maintained by IEC TC 3; we build the browser, the Ruby model, and the TypeScript port. This page is about the name, the logo, and the design choices."
+      class="border-b border-paper-300 pb-12"
+    />
 
     {/* ────────────────────────────────────────────────────────────
         THE SPIRIT — common ground, preserved differences

@@ -26,12 +26,12 @@
 import type { EntityType } from "./types";
 import type { DictionaryBundle } from "./bundle";
 import type { DictMetadata } from "./dictMetadata";
+import { DICT_METADATA } from "./dictMetadata";
 import {
   listRegistryEntries,
   loadDictionary,
   loadRegistry,
 } from "./data";
-import { dictMetadataOrFallback } from "./dictMetadata";
 import type { DictionaryRegistryEntry } from "./registry";
 
 export interface Dictionary {
@@ -74,6 +74,27 @@ export interface DictionaryWithBundle extends Dictionary {
   bundle: DictionaryBundle;
 }
 
+/**
+ * Look up the editorial metadata for a slug. Falls back to a minimal
+ * entry built from the registry title if the slug is not in the
+ * metadata table. This helper lives here (not in dictMetadata.ts)
+ * because it composes two sources — the metadata table and the
+ * registry fallback — which is the same thing `Dictionary` does.
+ */
+function metadataFor(slug: string, fallbackTitle: string): DictMetadata {
+  return (
+    DICT_METADATA[slug] ?? {
+      publicationId: slug,
+      edition: "",
+      title: fallbackTitle,
+      shortTitle: fallbackTitle,
+      abstract: "",
+      technicalCommittee: "",
+      webstoreUrl: "",
+    }
+  );
+}
+
 function toDictionary(
   entry: DictionaryRegistryEntry,
   meta: DictMetadata,
@@ -104,7 +125,7 @@ function toDictionary(
  */
 export function listDictionaries(): Dictionary[] {
   return listRegistryEntries().map((entry) =>
-    toDictionary(entry, dictMetadataOrFallback(entry.slug, entry.title)),
+    toDictionary(entry, metadataFor(entry.slug, entry.title)),
   );
 }
 
@@ -117,7 +138,7 @@ export function getDictionary(slug: string): DictionaryWithBundle {
   const entry = registry.dictionaries.find((d) => d.slug === slug);
   if (!entry) throw new Error(`unknown dictionary slug: ${slug}`);
   const bundle = loadDictionary(slug);
-  const meta = dictMetadataOrFallback(slug, entry.title);
+  const meta = metadataFor(slug, entry.title);
   return { ...toDictionary(entry, meta), bundle };
 }
 
@@ -128,5 +149,5 @@ export function getDictionary(slug: string): DictionaryWithBundle {
 export function findDictionary(slug: string): Dictionary | undefined {
   const entry = listRegistryEntries().find((d) => d.slug === slug);
   if (!entry) return undefined;
-  return toDictionary(entry, dictMetadataOrFallback(entry.slug, entry.title));
+  return toDictionary(entry, metadataFor(entry.slug, entry.title));
 }

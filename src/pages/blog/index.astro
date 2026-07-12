@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "~/layouts/BaseLayout.astro";
+import PageHeader from "~/components/ui/PageHeader.astro";
 import { getCollection } from "astro:content";
 
 const posts = (await getCollection("blog")).sort(
@@ -14,18 +15,11 @@ const dateFmt = new Intl.DateTimeFormat("en-US", {
 
 <BaseLayout title="Blog — OpenCDD">
   <section class="mx-auto max-w-2xl space-y-8">
-    <header class="space-y-2">
-      <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
-        OpenCDD Blog
-      </p>
-      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">
-        Updates, deep dives, and notes from the OpenCDD community
-      </h1>
-      <p class="text-sm text-ink-600">
-        Project announcements, data releases, CDD explainers, and contributor posts. New contributors welcome — open a PR against{" "}
-        <code class="font-mono text-xs">src/content/blog/</code> to publish.
-      </p>
-    </header>
+    <PageHeader
+      kicker="OpenCDD Blog"
+      title="Updates, deep dives, and notes from the OpenCDD community"
+      description="Project announcements, data releases, CDD explainers, and contributor posts. New contributors welcome — open a PR against src/content/blog/ to publish."
+    />
 
     {posts.length === 0 ? (
       <p class="rounded-lg border border-dashed border-ink-200 bg-sand-50 p-6 text-sm text-ink-500">

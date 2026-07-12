@@ -70,7 +70,7 @@ const higherLevel = ancestorChain.slice(0, -1);
       crumbs={ancestorChain.map((c) => ({ irdi: c.irdi }))}
     />
 
-    <TableOfContents client:load />
+    <TableOfContents client:only="vue" />
 
     <EntityHero
       title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
