@@ -12,11 +12,11 @@ const { irdi, class: className } = Astro.props;
 
 <span
   class={cn(
-    "inline-flex items-center gap-1 rounded-lg border border-ink-200 bg-sand-50 px-2.5 py-1 shadow-xs",
+    "inline-flex items-center gap-1 rounded-lg border border-lapis-200 bg-lapis-50 px-2.5 py-1 shadow-xs",
     className,
   )}
 >
-  <span class="select-all font-mono text-xs text-ink-700" data-irdi>
+  <span class="select-all font-mono text-xs text-lapis-700" data-irdi>
     {irdi}
   </span>
   <CopyButton value={irdi} label="Copy IRDI" client:only="vue" />

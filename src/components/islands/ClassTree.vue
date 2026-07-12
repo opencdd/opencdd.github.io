@@ -283,7 +283,7 @@ onUnmounted(() => {
         v-model="query"
         placeholder="Filter tree…"
         aria-label="Filter class tree"
-        class="w-full rounded-md border border-ink-200 bg-sand-50 px-2.5 py-1.5 text-sm text-ink-800 placeholder:text-ink-400 focus:border-accent-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-accent-200"
+        class="w-full rounded-md border border-ink-200 bg-paper-50 px-2.5 py-1.5 text-sm text-ink-800 placeholder:text-ink-400 focus:border-hex-500 focus:bg-paper-100 focus:outline-none focus:ring-2 focus:ring-hex-200"
       />
       <button
         type="button"

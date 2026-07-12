@@ -19,13 +19,16 @@ const totalEntities = Object.values(dict.counts).reduce(
 <a
   href={`/d/${dict.slug}/`}
   class:list={[
-    "group flex h-full flex-col rounded-xl border bg-paper-50 p-5 shadow-xs transition hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hex-600",
+    "group relative flex h-full flex-col overflow-hidden rounded-xl border bg-paper-50 p-5 shadow-xs transition hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hex-600",
     isDemo
       ? "border-dashed border-sage-300 hover:border-sage-400"
       : "border-paper-300 hover:border-hex-300",
     className,
   ]}
 >
+  {!isDemo && (
+    <span aria-hidden="true" class="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-teal-400 via-lapis-400 to-hex-400 opacity-60 transition group-hover:opacity-100"></span>
+  )}
   <div class="flex items-baseline justify-between gap-2">
     <h3 class="font-display text-lg tracking-tight text-ink-900 group-hover:text-hex-700">
       {dict.shortTitle}
