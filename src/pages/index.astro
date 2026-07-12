@@ -16,9 +16,6 @@ const posts = (await getCollection("blog"))
   .sort((a, b) => b.data.published.getTime() - a.data.published.getTime())
   .slice(0, 3);
 
-// "Published" excludes the demonstration fixture (oceanrunner). The
-// demo is still shown in the grid below, but with a "Demonstration"
-// badge and rendered last.
 const publishedEntries = entries.filter((e) => e.slug !== "oceanrunner");
 const totalEntities = publishedEntries.reduce(
   (sum, e) =>
@@ -27,7 +24,6 @@ const totalEntities = publishedEntries.reduce(
   0,
 );
 
-// Sort entries: published dicts alphabetically, then oceanrunner last.
 const sortedEntries = [...entries].sort((a, b) => {
   if (a.slug === "oceanrunner") return 1;
   if (b.slug === "oceanrunner") return -1;
@@ -37,119 +33,192 @@ const sortedEntries = [...entries].sort((a, b) => {
 
 <BaseLayout
   title="OpenCDD — a modern browser for published IEC CDD data"
-  description="Open-source tooling around the IEC Common Data Dictionary. Browse 21,500+ classes, properties, value lists, units, and relations across six published dictionaries."
+  description="Open-source tooling around the IEC Common Data Dictionary. Browse 21,460+ classes, properties, value lists, units, and relations across six published dictionaries."
 >
-  <section class="space-y-12">
-    {/* Hero */}
-    <header class="space-y-5 border-b border-ink-200 pb-10">
-      <p class="text-xs font-medium uppercase tracking-[0.08em] text-accent-700">
-        OpenCDD Browser
-      </p>
-      <h1
-        class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-900 sm:text-5xl"
+  <article class="space-y-24">
+    {/* ────────────────────────────────────────────────────────────
+        HERO — 求同存異
+        "Seek the common, preserve the differences."
+        One vocabulary of IRDIs across many domains and languages.
+       ──────────────────────────────────────────────────────────── */}
+    <section class="relative overflow-hidden">
+      {/* Decorative hexagram watermark */}
+      <div
+        aria-hidden="true"
+        class="pointer-events-none absolute -top-12 right-0 select-none opacity-[0.04]"
       >
-        A modern, open-source browser for the{" "}
-        <span class="text-accent-700">IEC Common Data Dictionary</span>.
-      </h1>
-      <p class="max-w-2xl text-base text-ink-600">
-        {totalEntities.toLocaleString()} entities across{" "}
-        {publishedEntries.length} published dictionaries — every class,
-        property, value list, unit, and relation, with full version
-        histories and multilingual definitions. Pre-rendered, statically
-        hosted, and free to use.
-      </p>
-      <div class="flex flex-wrap items-center gap-3 pt-2">
-        <a
-          href="/docs/what-is-cdd/"
-          class="inline-flex items-center gap-2 rounded-lg bg-accent-600 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-accent-700"
-        >
-          What is CDD? <span aria-hidden="true">→</span>
-        </a>
-        <a
-          href="#dictionaries"
-          class="inline-flex items-center gap-2 rounded-lg border border-ink-200 bg-white px-4 py-2 text-sm font-medium text-ink-700 transition hover:border-ink-300 hover:text-ink-900"
-        >
-          Browse dictionaries
-        </a>
-        <a
-          href="/docs/cdd-ontology-vs-uml-rdf/"
-          class="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-ink-500 underline-offset-4 transition hover:text-accent-700 hover:underline"
-        >
-          How does CDD differ from UML/RDF?
-        </a>
+        <svg width="320" height="320" viewBox="0 0 64 64" fill="none">
+          <!-- Hexagram ☱ (Dui / Lake): three horizontal bars, top broken -->
+          <rect x="8" y="10" width="20" height="6" fill="currentColor" class="text-ink-900" />
+          <rect x="36" y="10" width="20" height="6" fill="currentColor" class="text-ink-900" />
+          <rect x="8" y="28" width="48" height="6" fill="currentColor" class="text-ink-900" />
+          <rect x="8" y="46" width="48" height="6" fill="currentColor" class="text-ink-900" />
+        </svg>
       </div>
-    </header>
 
-    {/* What is CDD — explainer */}
-    <section class="grid gap-8 lg:grid-cols-[1fr_280px]">
-      <div class="space-y-4">
-        <h2 class="text-2xl font-semibold tracking-tight text-ink-900">
+      <div class="relative space-y-8 pb-12 pt-8">
+        <div class="flex items-center gap-3">
+          <img
+            src="/img/logo-64.png"
+            alt=""
+            aria-hidden="true"
+            width="36"
+            height="36"
+            class="h-9 w-9 rounded-md shadow-sm"
+          />
+          <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-hex-700">
+            OpenCDD · IEC Common Data Dictionary
+          </p>
+        </div>
+
+        <h1 class="font-display max-w-4xl text-[2.75rem] leading-[1.05] tracking-[-0.02em] text-ink-900 sm:text-6xl">
+          求同<span class="text-hex-600">存異</span>
+        </h1>
+
+        <p class="font-display max-w-2xl text-xl leading-snug text-ink-700 sm:text-2xl">
+          Seek the common ground. Preserve the differences.
+        </p>
+
+        <p class="max-w-2xl text-base leading-relaxed text-ink-600">
+          An open, modern browser for the IEC Common Data Dictionary —
+          {totalEntities.toLocaleString()} entities across{" "}
+          {publishedEntries.length} published dictionaries, every class
+          and property bound to one globally unique IRDI. Many domains,
+          many languages, one shared vocabulary.
+        </p>
+
+        <div class="flex flex-wrap items-center gap-3 pt-2">
+          <a
+            href="#dictionaries"
+            class="inline-flex items-center gap-2 rounded-lg bg-hex-600 px-5 py-2.5 text-sm font-medium text-paper-50 shadow-sm transition hover:bg-hex-700"
+          >
+            Browse dictionaries <span aria-hidden="true">→</span>
+          </a>
+          <a
+            href="/docs/what-is-cdd/"
+            class="inline-flex items-center gap-2 rounded-lg border border-paper-400 bg-paper-50 px-5 py-2.5 text-sm font-medium text-ink-800 transition hover:border-hex-400 hover:text-hex-700"
+          >
+            What is CDD?
+          </a>
+          <a
+            href="/about/"
+            class="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-ink-500 underline-offset-4 transition hover:text-hex-700 hover:underline"
+          >
+            The name &amp; the logo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {/* ────────────────────────────────────────────────────────────
+        WHAT IS CDD — short editorial explainer
+       ──────────────────────────────────────────────────────────── */}
+    <section class="grid gap-12 lg:grid-cols-[3fr_2fr]">
+      <div class="space-y-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-ink-500">
           What is the IEC Common Data Dictionary?
+        </p>
+        <h2 class="font-display text-3xl leading-tight tracking-tight text-ink-900">
+          A structured catalogue of product characteristics, maintained
+          by IEC TC&nbsp;3 — and a four-layer model with native power-type
+          semantics.
         </h2>
-        <div class="space-y-3 text-sm leading-relaxed text-ink-600">
+        <div class="space-y-3 text-[15px] leading-relaxed text-ink-600">
           <p>
-            The IEC CDD is a structured, versioned, multilingual catalogue of product characteristics maintained by{" "}
-            <a
-              href="https://tc3.iec.ch/"
-              class="text-accent-700 underline underline-offset-2">IEC TC 3</a
-            >. It captures product concepts as entities called{" "}
+            The dictionary captures product concepts as entities called{" "}
             <em>classes</em> and their characteristics as entities called{" "}
-            <em>properties</em> — each with a globally unique IRDI, a full version lineage, and translations.
+            <em>properties</em>. Every entity — every class, property,
+            value list, value term, unit, and relation — is bound to a
+            globally unique IRDI, versioned, and translated.
           </p>
           <p>
-            CDD is distinctive among modelling frameworks because its instances can themselves act as classes elsewhere in the dictionary — a four-layer model with native{" "}
-            <em>power-type</em> semantics. This is what makes it richer than a plain UML class diagram and more structured than an RDF/OWL vocabulary.
+            CDD is distinctive because instances can themselves act as
+            classes elsewhere in the dictionary. This is the structural
+            foundation for interoperability: each domain preserves its
+            own terminology while sharing the same identifiers.
           </p>
         </div>
         <div class="pt-2">
           <a
             href="/docs/cdd-ontology-vs-uml-rdf/"
-            class="inline-flex items-center gap-1 text-sm font-medium text-accent-700 hover:text-accent-600"
+            class="inline-flex items-center gap-1.5 text-sm font-medium text-hex-700 hover:text-hex-600"
           >
-            Read the comparison <span aria-hidden="true">→</span>
+            How CDD differs from UML and RDF{" "}
+            <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>
 
-      <aside class="rounded-2xl border border-ink-200/70 bg-sand-50/60 p-5 text-sm">
-        <p
-          class="mb-2 text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-400"
-        >
-          The OpenCDD ecosystem
-        </p>
-        <ul class="space-y-1.5 text-ink-700">
-          <li>
-            <a
-              href="https://github.com/opencdd/opencdd-ruby"
-              class="hover:text-accent-700 hover:underline">opencdd-ruby</a
-            >
-            <span class="text-ink-400">— the model</span>
-          </li>
-          <li>
-            <a
-              href="https://github.com/opencdd/opencdd-ts"
-              class="hover:text-accent-700 hover:underline">@opencdd/models</a
-            >
-            <span class="text-ink-400">— TS port</span>
-          </li>
-          <li>
-            <span class="text-ink-400">this site —</span>
-            <a
-              href="/docs/what-is-opencdd/"
-              class="hover:text-accent-700 hover:underline">the browser</a
-            >
-          </li>
-        </ul>
+      <aside class="space-y-4">
+        <div class="rounded-2xl border border-paper-300 bg-paper-50 p-5">
+          <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-400">
+            At a glance
+          </p>
+          <dl class="mt-3 space-y-2.5 text-sm">
+            <div class="flex items-baseline justify-between gap-3 border-b border-paper-200 pb-2">
+              <dt class="text-ink-500">Entities</dt>
+              <dd class="font-mono text-ink-900">{totalEntities.toLocaleString()}</dd>
+            </div>
+            <div class="flex items-baseline justify-between gap-3 border-b border-paper-200 pb-2">
+              <dt class="text-ink-500">Published dictionaries</dt>
+              <dd class="font-mono text-ink-900">{publishedEntries.length}</dd>
+            </div>
+            <div class="flex items-baseline justify-between gap-3 border-b border-paper-200 pb-2">
+              <dt class="text-ink-500">Identifier scheme</dt>
+              <dd class="font-mono text-xs text-ink-900">IRDI · ISO/IEC 11179</dd>
+            </div>
+            <div class="flex items-baseline justify-between gap-3">
+              <dt class="text-ink-500">Maintained by</dt>
+              <dd class="text-ink-900">IEC TC&nbsp;3</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="rounded-2xl border border-sage-200 bg-sage-50 p-5">
+          <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-sage-700">
+            The OpenCDD ecosystem
+          </p>
+          <ul class="mt-3 space-y-1.5 text-sm text-ink-700">
+            <li>
+              <a
+                href="https://github.com/opencdd/opencdd-ruby"
+                class="hover:text-hex-700 hover:underline">opencdd-ruby</a
+              >
+              <span class="text-ink-400">— the Ruby model</span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/opencdd/opencdd-ts"
+                class="hover:text-hex-700 hover:underline">@opencdd/models</a
+              >
+              <span class="text-ink-400">— TypeScript port</span>
+            </li>
+            <li>
+              <span class="text-ink-400">this site —</span>
+              <a
+                href="/about/"
+                class="hover:text-hex-700 hover:underline">about the browser</a
+              >
+            </li>
+          </ul>
+        </div>
       </aside>
     </section>
 
-    {/* Dictionaries grid */}
-    <section id="dictionaries" class="space-y-5 scroll-mt-20">
-      <header class="space-y-1">
-        <h2 class="text-2xl font-semibold tracking-tight text-ink-900">
-          Dictionaries
-        </h2>
-        <p class="text-sm text-ink-500">
+    {/* ────────────────────────────────────────────────────────────
+        DICTIONARIES
+       ──────────────────────────────────────────────────────────── */}
+    <section id="dictionaries" class="space-y-6 scroll-mt-20">
+      <header class="flex items-baseline justify-between gap-4 border-b border-paper-300 pb-3">
+        <div>
+          <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-hex-700">
+            Dictionaries
+          </p>
+          <h2 class="font-display text-3xl tracking-tight text-ink-900">
+            Six published IEC dictionaries
+          </h2>
+        </div>
+        <p class="hidden max-w-sm text-right text-xs text-ink-500 sm:block">
           Click any dictionary to browse its classes, properties, value
           lists, and relations.
         </p>
@@ -164,21 +233,21 @@ const sortedEntries = [...entries].sort((a, b) => {
               <a
                 href={`/d/${entry.slug}/`}
                 class:list={[
-                  "group flex h-full flex-col rounded-2xl border bg-white p-5 shadow-xs transition hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-600",
+                  "group flex h-full flex-col rounded-xl border bg-paper-50 p-5 shadow-xs transition hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hex-600",
                   isDemo
-                    ? "border-dashed border-ink-300 hover:border-accent-300"
-                    : "border-ink-200/70 hover:border-accent-300",
+                    ? "border-dashed border-sage-300 hover:border-sage-400"
+                    : "border-paper-300 hover:border-hex-300",
                 ]}
               >
                 <div class="flex items-baseline justify-between gap-2">
-                  <h3 class="text-base font-semibold tracking-tight text-ink-900 group-hover:text-accent-700">
+                  <h3 class="font-display text-lg tracking-tight text-ink-900 group-hover:text-hex-700">
                     {meta.shortTitle}
                   </h3>
                   <code class="font-mono text-[10px] text-ink-400">{entry.slug}</code>
                 </div>
-                <div class="mt-1 flex flex-wrap items-center gap-1.5">
+                <div class="mt-1.5 flex flex-wrap items-center gap-1.5">
                   {isDemo ? (
-                    <span class="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-amber-700">
+                    <span class="rounded-full bg-sage-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-sage-700">
                       Demonstration
                     </span>
                   ) : (
@@ -189,13 +258,13 @@ const sortedEntries = [...entries].sort((a, b) => {
                     </p>
                   )}
                 </div>
-                <p class="mt-3 line-clamp-3 text-xs leading-relaxed text-ink-600">
+                <p class="mt-3 line-clamp-3 text-[13px] leading-relaxed text-ink-600">
                   {meta.abstract || "No abstract available."}
                 </p>
                 <div class="mt-4">
                   <EntityCountChips counts={entry.counts} />
                 </div>
-                <div class="mt-4 text-sm font-medium text-accent-700 opacity-0 transition group-hover:opacity-100">
+                <div class="mt-4 text-sm font-medium text-hex-700 opacity-0 transition group-hover:opacity-100">
                   {isDemo ? "Explore the demo →" : "Browse →"}
                 </div>
               </a>
@@ -205,16 +274,23 @@ const sortedEntries = [...entries].sort((a, b) => {
       </ul>
     </section>
 
-    {/* Latest from the blog */}
+    {/* ────────────────────────────────────────────────────────────
+        BLOG TEASER
+       ──────────────────────────────────────────────────────────── */}
     {posts.length > 0 && (
-      <section class="space-y-5 border-t border-ink-200 pt-10">
-        <header class="flex items-baseline justify-between">
-          <h2 class="text-2xl font-semibold tracking-tight text-ink-900">
-            From the blog
-          </h2>
+      <section class="space-y-6 border-t border-paper-300 pt-12">
+        <header class="flex items-baseline justify-between gap-4">
+          <div>
+            <p class="text-[11px] font-medium uppercase tracking-[0.15em] text-hex-700">
+              From the blog
+            </p>
+            <h2 class="font-display text-3xl tracking-tight text-ink-900">
+              Updates, deep dives, notes.
+            </h2>
+          </div>
           <a
             href="/blog/"
-            class="text-sm font-medium text-accent-700 hover:text-accent-600"
+            class="text-sm font-medium text-hex-700 hover:text-hex-600"
           >
             All posts →
           </a>
@@ -224,16 +300,16 @@ const sortedEntries = [...entries].sort((a, b) => {
             <li>
               <a
                 href={`/blog/${post.id.replace(/\.mdx$/, "")}/`}
-                class="group block rounded-2xl border border-ink-200/70 bg-white p-5 shadow-xs transition hover:border-accent-300 hover:shadow-md"
+                class="group block rounded-xl border border-paper-300 bg-paper-50 p-5 shadow-xs transition hover:border-hex-300 hover:shadow-md"
               >
                 <p class="text-[11px] uppercase tracking-wide text-ink-400">
                   {dateFmt.format(post.data.published)}
                 </p>
-                <h3 class="mt-1 text-base font-semibold tracking-tight text-ink-900 group-hover:text-accent-700">
+                <h3 class="font-display mt-1.5 text-lg tracking-tight text-ink-900 group-hover:text-hex-700">
                   {post.data.title}
                 </h3>
                 {post.data.description && (
-                  <p class="mt-2 line-clamp-2 text-xs leading-relaxed text-ink-600">
+                  <p class="mt-2 line-clamp-2 text-[13px] leading-relaxed text-ink-600">
                     {post.data.description}
                   </p>
                 )}
@@ -243,5 +319,5 @@ const sortedEntries = [...entries].sort((a, b) => {
         </ul>
       </section>
     )}
-  </section>
+  </article>
 </BaseLayout>

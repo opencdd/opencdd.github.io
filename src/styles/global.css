@@ -1,36 +1,128 @@
 @import "tailwindcss";
 
 @theme {
-  /* ── Color tokens ────────────────────────────────────────────── */
-  --color-ink-50: #f6f5f3;
-  --color-ink-100: #e9e7e2;
-  --color-ink-200: #d6d3cc;
-  --color-ink-300: #b8b3a8;
-  --color-ink-400: #8c8678;
-  --color-ink-500: #6b6557;
-  --color-ink-600: #524d42;
-  --color-ink-700: #3d3930;
-  --color-ink-800: #2a2722;
+  /* ───────────────────────────────────────────────────────────────
+     OpenCDD design system — "zen data lakes"
+
+     Palette built from the project logo: a hexagonal prism containing
+     interconnected water-blue data pools, capped by the I Ching
+     hexagram ☱ Dui (Lake/兌). The colours are warm, earthy, muted —
+     wabi-sabi rather than corporate. Sage greens and warm beiges do
+     the heavy lifting; the hexagram gold is the single loud accent.
+
+     Symbolic mapping:
+       paper   → off-white background, warm cream
+       ink     → warm charcoal text (slightly warmer than pure gray)
+       clay    → beige/tan, primary surface tone (the prism body)
+       sage    → moss/grass, secondary accent (the natural ground)
+       water   → soft blue, data accent (the pools)
+       lapis   → steel blue, depth accent (the deeper rock)
+       hexagram → golden orange, primary CTA accent (the capstone)
+
+     Concept: 求同存異 — seek the common, preserve the differences.
+     One vocabulary of IRDIs across many domains, many languages.
+     ─────────────────────────────────────────────────────────── */
+
+  /* Paper — backgrounds */
+  --color-paper-50: #fdfbf6;
+  --color-paper-100: #faf7f0;
+  --color-paper-200: #f5f0e5;
+  --color-paper-300: #ede5d3;
+  --color-paper-400: #e0d6bf;
+
+  /* Ink — warm charcoal text (warmer than zinc, calmer than stone) */
+  --color-ink-50: #f6f4f0;
+  --color-ink-100: #e8e4dc;
+  --color-ink-200: #d4cec1;
+  --color-ink-300: #b5ad9c;
+  --color-ink-400: #8a8273;
+  --color-ink-500: #6b6356;
+  --color-ink-600: #524c41;
+  --color-ink-700: #3d3830;
+  --color-ink-800: #2a2620;
   --color-ink-900: #1a1814;
   --color-ink-950: #0d0c0a;
 
-  --color-sand-50: #fbfaf7;
-  --color-sand-100: #f4f1ea;
-  --color-sand-200: #ebe7dd;
-  --color-sand-300: #ddd8cb;
-  --color-sand-400: #c9c3b3;
+  /* Clay — beige/tan, primary surface tone */
+  --color-clay-50: #faf5eb;
+  --color-clay-100: #f0e6d1;
+  --color-clay-200: #e8d5b7;
+  --color-clay-300: #dcc098;
+  --color-clay-400: #c8a877;
+  --color-clay-500: #b08d5a;
+  --color-clay-600: #8f7048;
+  --color-clay-700: #6e563a;
+  --color-clay-800: #4e3d2b;
+  --color-clay-900: #2f2519;
 
-  --color-accent-50: #eef2ff;
-  --color-accent-100: #e0e7ff;
-  --color-accent-200: #c7d2fe;
-  --color-accent-300: #a5b4fc;
-  --color-accent-400: #818cf8;
-  --color-accent-500: #6366f1;
-  --color-accent-600: #4f46e5;
-  --color-accent-700: #4338ca;
-  --color-accent-800: #3730a3;
-  --color-accent-900: #312e81;
+  /* Sage — moss/grass, secondary accent */
+  --color-sage-50: #f1f5ec;
+  --color-sage-100: #dde8cf;
+  --color-sage-200: #c1d4a8;
+  --color-sage-300: #a3c082;
+  --color-sage-400: #8fbc8f;
+  --color-sage-500: #6f9a6f;
+  --color-sage-600: #577a57;
+  --color-sage-700: #446044;
+  --color-sage-800: #324a32;
+  --color-sage-900: #1f2f1f;
 
+  /* Water — soft blue, data accent */
+  --color-water-50: #eff7fb;
+  --color-water-100: #d6ebf4;
+  --color-water-200: #b5d8e8;
+  --color-water-300: #87bcd4;
+  --color-water-400: #7fb3d5;
+  --color-water-500: #5a9bc6;
+  --color-water-600: #4a82a8;
+  --color-water-700: #3d6a8a;
+  --color-water-800: #2e5268;
+  --color-water-900: #1e3845;
+
+  /* Lapis — steel blue, depth accent */
+  --color-lapis-50: #eef3f7;
+  --color-lapis-100: #d4e1ec;
+  --color-lapis-200: #aec7d9;
+  --color-lapis-300: #7ba4bd;
+  --color-lapis-400: #5786a0;
+  --color-lapis-500: #4682b4;
+  --color-lapis-600: #3a6e98;
+  --color-lapis-700: #2e5678;
+  --color-lapis-800: #1f3d54;
+  --color-lapis-900: #122634;
+
+  /* Hexagram — golden orange, primary CTA accent (the capstone) */
+  --color-hex-50: #fdf3e8;
+  --color-hex-100: #f9e0c0;
+  --color-hex-200: #f4c588;
+  --color-hex-300: #f4a460;
+  --color-hex-400: #e08840;
+  --color-hex-500: #c66e2c;
+  --color-hex-600: #a55821;
+  --color-hex-700: #83441d;
+  --color-hex-800: #5e3018;
+  --color-hex-900: #3a1d10;
+
+  /* Compatibility aliases — map legacy token names to the new palette
+     so existing components keep working during the migration. */
+  --color-sand-50: var(--color-paper-50);
+  --color-sand-100: var(--color-paper-100);
+  --color-sand-200: var(--color-paper-200);
+  --color-sand-300: var(--color-paper-300);
+  --color-sand-400: var(--color-paper-400);
+
+  --color-accent-50: var(--color-hex-50);
+  --color-accent-100: var(--color-hex-100);
+  --color-accent-200: var(--color-hex-200);
+  --color-accent-300: var(--color-hex-300);
+  --color-accent-400: var(--color-hex-400);
+  --color-accent-500: var(--color-hex-500);
+  --color-accent-600: var(--color-hex-600);
+  --color-accent-700: var(--color-hex-700);
+  --color-accent-800: var(--color-hex-800);
+  --color-accent-900: var(--color-hex-900);
+
+  /* Semantic colours — kept from the prior palette */
   --color-emerald-50: #ecfdf5;
   --color-emerald-100: #d1fae5;
   --color-emerald-200: #a7f3d0;
@@ -76,99 +168,79 @@
   --color-violet-900: #4c1d95;
 
   /* ── Typography ──────────────────────────────────────────────── */
+  /* Display: editorial serif for headlines — quiet, confident, the
+     "New York elegant" register. Body: refined system sans. */
+  --font-display: ui-serif, "Iowan Old Style", "Palatino Linotype",
+    Palatino, "Source Serif Pro", Georgia, serif;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo,
     Consolas, monospace;
 
   /* ── Shadows ─────────────────────────────────────────────────── */
-  --shadow-xs: 0 1px 2px 0 rgb(26 24 20 / 0.04);
-  --shadow-sm: 0 1px 3px 0 rgb(26 24 20 / 0.06), 0 1px 2px -1px rgb(26 24 20 / 0.05);
-  --shadow-md: 0 4px 12px -2px rgb(26 24 20 / 0.08), 0 2px 6px -2px rgb(26 24 20 / 0.05);
-  --shadow-lg: 0 12px 32px -8px rgb(26 24 20 / 0.12), 0 4px 12px -4px rgb(26 24 20 / 0.06);
-  --shadow-inner-ring: inset 0 0 0 1px rgb(79 70 229 / 0.35);
-
-  /* ── Radii ───────────────────────────────────────────────────── */
-  --radius-xl: 0.875rem;
-  --radius-2xl: 1.125rem;
-
-  /* ── Easing ──────────────────────────────────────────────────── */
-  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
-  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-
-  /* ── Animations ──────────────────────────────────────────────── */
-  --animate-fade-in: fade-in 200ms cubic-bezier(0.4, 0, 0.2, 1);
-  --animate-slide-up: slide-up 200ms cubic-bezier(0.16, 1, 0.3, 1);
-
-  @keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-
-  @keyframes slide-up {
-    from { opacity: 0; transform: translateY(4px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+  --shadow-xs: 0 1px 2px 0 rgb(58 50 36 / 0.04);
+  --shadow-sm: 0 1px 3px 0 rgb(58 50 36 / 0.06), 0 1px 2px -1px rgb(58 50 36 / 0.05);
+  --shadow-md: 0 4px 12px -2px rgb(58 50 36 / 0.08), 0 2px 6px -2px rgb(58 50 36 / 0.05);
+  --shadow-lg: 0 12px 32px -8px rgb(58 50 36 / 0.12), 0 4px 12px -4px rgb(58 50 36 / 0.06);
+  --shadow-inner-ring: inset 0 0 0 1px rgb(244 164 96 / 0.35);
 }
 
 /* ── Base styles ────────────────────────────────────────────────── */
 
-:root {
-  color-scheme: light;
-  --scrollbar-track: transparent;
-  --scrollbar-thumb: #d6d3cc;
-  --scrollbar-thumb-hover: #b8b3a8;
-}
-
 html {
-  scroll-behavior: smooth;
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-  background-color: #fbfaf7;
-  color: #1a1814;
+  background-color: var(--color-paper-100);
+  color: var(--color-ink-800);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--color-paper-100);
+  background-image:
+    radial-gradient(circle at 100% 0%, rgb(143 188 143 / 0.05) 0, transparent 35%),
+    radial-gradient(circle at 0% 100%, rgb(127 179 213 / 0.05) 0, transparent 35%);
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--color-hex-200);
+  color: var(--color-ink-900);
+}
+
+/* Editorial display utility — for headlines that should read serif */
+.font-display {
+  font-family: var(--font-display);
+  font-feature-settings: "kern", "liga", "calt";
+}
+
+/* Quiet intro animation */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 0.35s ease-out;
 }
 
 /* ── Scrollbar (WebKit) ────────────────────────────────────────── */
 
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-ink-300) transparent;
 }
-
-::-webkit-scrollbar-track {
-  background: var(--scrollbar-track);
+.scroll-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: var(--color-ink-300);
+  border-radius: 3px;
 }
-
-::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-hover);
+.scroll-thin::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-ink-400);
 }
 
 /* ── Accessibility ─────────────────────────────────────────────── */
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
 
 .sr-only {
   position: absolute;
@@ -182,16 +254,54 @@ body {
   border: 0;
 }
 
+.focus-visible\:outline {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.focus-visible\:outline-2 {
+  outline-width: 2px;
+}
+.focus-visible\:outline-offset-4 {
+  outline-offset: 4px;
+}
+.focus-visible\:outline-hex-600 {
+  outline-color: var(--color-hex-600);
+}
+.focus-visible\:not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
 /* ── Multilingual visibility ───────────────────────────────────── */
+/* CSS-driven language switching. The LanguageSwitcher island sets
+   body[data-lang="xx"]; spans tagged per language show/hide via
+   display. Before hydration (no data-lang), English is shown. */
 
-/* All language variants are hidden by default. The body[data-lang]
-   attribute (set by LanguageSwitcher.vue) controls which variant is
-   visible. Default is "en" when no attribute is set yet (pre-hydration). */
-
-body .ml { display: none; }
-body[data-lang="en"] .ml-en,
-body[data-lang="de"] .ml-de,
-body[data-lang="fr"] .ml-fr,
+body[data-lang="en"] .ml { display: none; }
+body[data-lang="en"] .ml-en { display: inline; }
+body[data-lang="de"] .ml { display: none; }
+body[data-lang="de"] .ml-de { display: inline; }
+body[data-lang="fr"] .ml { display: none; }
+body[data-lang="fr"] .ml-fr { display: inline; }
+body[data-lang="ja"] .ml { display: none; }
+body[data-lang="ja"] .ml-ja { display: inline; }
+body[data-lang="zh"] .ml { display: none; }
 body[data-lang="zh"] .ml-zh { display: inline; }
 
 /* Before hydration (no data-lang attribute), show English by default */
@@ -212,12 +322,12 @@ body:not([data-lang]) .ml-en { display: inline; }
 
 /* ── MDX prose (docs, blog) ─────────────────────────────────────── */
 /* Tight, opinionated typography for long-form MDX content. Uses the
-   existing ink/sand/accent tokens so docs share the design system. */
+   zen palette so docs share the design system. */
 
 .prose-opencdd {
   color: var(--color-ink-700);
   font-size: 0.95rem;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .prose-opencdd > * + * { margin-top: 1.25em; }
@@ -226,36 +336,52 @@ body:not([data-lang]) .ml-en { display: inline; }
 .prose-opencdd h2,
 .prose-opencdd h3,
 .prose-opencdd h4 {
+  font-family: var(--font-display);
   color: var(--color-ink-900);
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: 500;
+  letter-spacing: -0.015em;
   line-height: 1.25;
 }
 
-.prose-opencdd h1 { font-size: 2rem; margin-top: 0; }
+.prose-opencdd h1 { font-size: 2.25rem; margin-top: 0; }
 .prose-opencdd h2 {
-  font-size: 1.4rem;
-  margin-top: 2.25em;
+  font-size: 1.5rem;
+  margin-top: 2.5em;
   padding-bottom: 0.3em;
-  border-bottom: 1px solid var(--color-ink-200);
+  border-bottom: 1px solid var(--color-paper-300);
 }
-.prose-opencdd h3 { font-size: 1.15rem; margin-top: 1.75em; }
-.prose-opencdd h4 { font-size: 1rem; margin-top: 1.5em; }
+.prose-opencdd h3 { font-size: 1.2rem; margin-top: 1.75em; }
+.prose-opencdd h4 {
+  font-size: 1rem;
+  margin-top: 1.5em;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--color-ink-500);
+}
 
 .prose-opencdd a {
-  color: var(--color-accent-700);
+  color: var(--color-hex-700);
   text-decoration: underline;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
+  text-decoration-color: var(--color-hex-300);
 }
-.prose-opencdd a:hover { color: var(--color-accent-600); }
+.prose-opencdd a:hover {
+  color: var(--color-hex-600);
+  text-decoration-color: var(--color-hex-500);
+}
 
-.prose-opencdd strong { color: var(--color-ink-900); font-weight: 600; }
+.prose-opencdd strong {
+  color: var(--color-ink-900);
+  font-weight: 600;
+}
 
 .prose-opencdd code {
   font-family: var(--font-mono);
   font-size: 0.85em;
-  background: var(--color-sand-100);
+  background: var(--color-paper-200);
   padding: 0.1em 0.35em;
   border-radius: 4px;
   color: var(--color-ink-800);
@@ -263,7 +389,7 @@ body:not([data-lang]) .ml-en { display: inline; }
 
 .prose-opencdd pre {
   background: var(--color-ink-900);
-  color: var(--color-ink-100);
+  color: var(--color-paper-100);
   padding: 1em 1.25em;
   border-radius: 8px;
   overflow-x: auto;
@@ -278,7 +404,7 @@ body:not([data-lang]) .ml-en { display: inline; }
 }
 
 .prose-opencdd blockquote {
-  border-left: 3px solid var(--color-accent-300);
+  border-left: 3px solid var(--color-sage-300);
   padding: 0.25em 0 0.25em 1em;
   color: var(--color-ink-600);
   font-style: italic;
@@ -289,7 +415,7 @@ body:not([data-lang]) .ml-en { display: inline; }
 .prose-opencdd ul { list-style: disc; }
 .prose-opencdd ol { list-style: decimal; }
 .prose-opencdd li { margin: 0.35em 0; }
-.prose-opencdd li::marker { color: var(--color-ink-400); }
+.prose-opencdd li::marker { color: var(--color-sage-500); }
 
 .prose-opencdd table {
   width: 100%;
@@ -298,18 +424,63 @@ body:not([data-lang]) .ml-en { display: inline; }
 }
 .prose-opencdd th,
 .prose-opencdd td {
-  border: 1px solid var(--color-ink-200);
+  border: 1px solid var(--color-paper-300);
   padding: 0.5em 0.75em;
   text-align: left;
 }
 .prose-opencdd th {
-  background: var(--color-sand-50);
+  background: var(--color-paper-100);
   font-weight: 600;
   color: var(--color-ink-800);
 }
 
 .prose-opencdd hr {
   border: none;
-  border-top: 1px solid var(--color-ink-200);
+  border-top: 1px solid var(--color-paper-300);
   margin: 2.5em 0;
+}
+
+/* ── Hexagram motif (☱ Dui/Lake) ──────────────────────────────── */
+/* Inline SVG-style motif used in heroes and section dividers.
+   Three horizontal bars with the top bar broken in the middle —
+   the I Ching hexagram for Lake (兌), symbolising joyous exchange,
+   pools of connected data, and the 求同存異 principle. */
+
+.hexagram-motif {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 0,
+      currentColor 0,
+      currentColor calc(1em / 6),
+      transparent calc(1em / 6),
+      transparent calc(2em / 6),
+      currentColor calc(2em / 6),
+      currentColor calc(3em / 6),
+      transparent calc(3em / 6),
+      transparent calc(4em / 6),
+      currentColor calc(4em / 6),
+      currentColor calc(5em / 6),
+      transparent calc(5em / 6)
+    ),
+    linear-gradient(
+      to right,
+      transparent 0,
+      transparent 0,
+      currentColor 0,
+      currentColor 40%,
+      transparent 40%,
+      transparent 60%,
+      currentColor 60%,
+      currentColor 100%
+    );
+  background-size: 100% 100%, 100% calc(1em / 6);
+  background-position: 0 0, 0 0;
+  background-repeat: no-repeat;
 }
