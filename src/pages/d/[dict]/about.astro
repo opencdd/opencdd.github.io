@@ -9,24 +9,26 @@ import {
   entityPluralTitleFor,
   countForType,
 } from "~/lib/entityTypeMeta";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
-import { dictMetadataOrFallback } from "~/lib/dictMetadata";
+import { listDictionarySlugs, loadDictionary } from "~/lib/data";
+import { findDictionary } from "~/lib/dictionary";
 
 export function getStaticPaths() {
-  return listRegistryEntries().map((entry) => ({
-    params: { dict: entry.slug },
+  return listDictionarySlugs().map((slug) => ({
+    params: { dict: slug },
   }));
 }
 
 const { dict } = Astro.params;
 const bundle = loadDictionary(dict!);
-const registry = bundle.registry;
-const meta = dictMetadataOrFallback(dict!, registry.title);
+const info = findDictionary(dict!);
+if (!info) {
+  return Astro.redirect("/404/");
+}
 ---
 
 <DictionaryLayout
   dict={dict!}
-  title={`About ${meta.shortTitle} — OpenCDD`}
+  title={`About ${info.shortTitle} — OpenCDD`}
 >
   <div class="space-y-6">
     <header class="space-y-2">
@@ -34,33 +36,33 @@ const meta = dictMetadataOrFallback(dict!, registry.title);
         <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
           About this dictionary
         </p>
-        {meta.demonstration === true && (
+        {info.demonstration === true && (
           <span class="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-amber-700">
             Demonstration fixture
           </span>
         )}
       </div>
-      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">{meta.title}</h1>
-      {!meta.demonstration && (
+      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">{info.title}</h1>
+      {!info.demonstration && (
         <p class="text-sm text-ink-500">
-          {meta.publicationId}
-          {meta.publishedYear && ` · ${meta.publishedYear}`}
-          {meta.technicalCommittee && ` · ${meta.technicalCommittee}`}
+          {info.publicationId}
+          {info.publishedYear && ` · ${info.publishedYear}`}
+          {info.technicalCommittee && ` · ${info.technicalCommittee}`}
         </p>
       )}
     </header>
 
-    {meta.abstract && (
+    {info.abstract && (
       <Card>
         <SectionTitle>Abstract</SectionTitle>
-        <p class="mt-3 text-sm leading-relaxed text-ink-700">{meta.abstract}</p>
-        {meta.webstoreUrl && (
+        <p class="mt-3 text-sm leading-relaxed text-ink-700">{info.abstract}</p>
+        {info.webstoreUrl && (
           <p class="mt-3 text-xs text-ink-500">
             Canonical publication:{" "}
             <a
-              href={meta.webstoreUrl}
+              href={info.webstoreUrl}
               class="text-accent-700 underline underline-offset-2"
-              >{meta.publicationId}</a
+              >{info.publicationId}</a
             >
             on the IEC webstore (© IEC, Geneva).
           </p>
@@ -72,36 +74,36 @@ const meta = dictMetadataOrFallback(dict!, registry.title);
       <SectionTitle>Dictionary metadata</SectionTitle>
       <dl class="mt-3 grid gap-3 sm:grid-cols-2">
         <Field label="Publication ID">
-          <code class="font-mono text-sm">{meta.publicationId}</code>
+          <code class="font-mono text-sm">{info.publicationId}</code>
         </Field>
-        {meta.edition && (
+        {info.edition && (
           <Field label="Edition">
-            <code class="font-mono text-sm">{meta.edition}</code>
+            <code class="font-mono text-sm">{info.edition}</code>
           </Field>
         )}
         <Field label="Parcel ID">
-          <code class="font-mono text-sm">{registry.parcelId}</code>
+          <code class="font-mono text-sm">{info.parcelId}</code>
         </Field>
         <Field label="Slug">
-          <code class="font-mono text-sm">{registry.slug}</code>
+          <code class="font-mono text-sm">{info.slug}</code>
         </Field>
         <Field label="Source language">
-          <code class="font-mono text-sm">{registry.sourceLanguage}</code>
+          <code class="font-mono text-sm">{info.sourceLanguage}</code>
         </Field>
-        {registry.translationLanguages.length > 0 && (
+        {info.translationLanguages.length > 0 && (
           <Field label="Translation languages">
-            {registry.translationLanguages.join(", ")}
+            {info.translationLanguages.join(", ")}
           </Field>
         )}
-        {meta.technicalCommittee && (
+        {info.technicalCommittee && (
           <Field label="Technical committee">
-            <span class="text-sm text-ink-700">{meta.technicalCommittee}</span>
+            <span class="text-sm text-ink-700">{info.technicalCommittee}</span>
           </Field>
         )}
-        {registry.metaClassIrdis.length > 0 && (
+        {info.metaClassIrdis.length > 0 && (
           <Field label="Meta-class IRDIs">
             <ul class="space-y-0.5">
-              {registry.metaClassIrdis.map((irdi) => (
+              {info.metaClassIrdis.map((irdi) => (
                 <li>
                   <code class="font-mono text-xs">{irdi}</code>
                 </li>

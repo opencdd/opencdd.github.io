@@ -1,11 +1,9 @@
 ---
 import BaseLayout from "~/layouts/BaseLayout.astro";
-import EntityCountChips from "~/components/ui/EntityCountChips.astro";
-import { listRegistryEntries } from "~/lib/data";
-import { dictMetadataOrFallback } from "~/lib/dictMetadata";
+import DictCard from "~/components/ui/DictCard.astro";
+import { listDictionaries } from "~/lib/dictionary";
 import { getCollection } from "astro:content";
 
-const entries = listRegistryEntries();
 const dateFmt = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
   month: "long",
@@ -16,19 +14,23 @@ const posts = (await getCollection("blog"))
   .sort((a, b) => b.data.published.getTime() - a.data.published.getTime())
   .slice(0, 3);
 
-const publishedEntries = entries.filter((e) => e.slug !== "oceanrunner");
-const totalEntities = publishedEntries.reduce(
-  (sum, e) =>
+const allDicts = listDictionaries();
+const publishedDicts = allDicts.filter((d) => !d.demonstration);
+const totalEntities = publishedDicts.reduce(
+  (sum, d) =>
     sum +
-    Object.values(e.counts).reduce((s: number, n) => s + (n as number), 0),
+    Object.values(d.counts).reduce((s: number, n) => s + (n as number), 0),
   0,
 );
 
-const sortedEntries = [...entries].sort((a, b) => {
-  if (a.slug === "oceanrunner") return 1;
-  if (b.slug === "oceanrunner") return -1;
+// Published dicts alphabetical; demonstration dicts last.
+const sortedDicts = [...allDicts].sort((a, b) => {
+  if (a.demonstration && !b.demonstration) return 1;
+  if (!a.demonstration && b.demonstration) return -1;
   return a.slug.localeCompare(b.slug);
 });
+
+const sortedEntries = sortedDicts;
 ---
 
 <BaseLayout
@@ -82,7 +84,7 @@ const sortedEntries = [...entries].sort((a, b) => {
         <p class="max-w-2xl text-base leading-relaxed text-ink-600">
           An open, modern browser for the IEC Common Data Dictionary —
           {totalEntities.toLocaleString()} entities across{" "}
-          {publishedEntries.length} published dictionaries, every class
+          {publishedDicts.length} published dictionaries, every class
           and property bound to one globally unique IRDI. Many domains,
           many languages, one shared vocabulary.
         </p>
@@ -161,7 +163,7 @@ const sortedEntries = [...entries].sort((a, b) => {
             </div>
             <div class="flex items-baseline justify-between gap-3 border-b border-paper-200 pb-2">
               <dt class="text-ink-500">Published dictionaries</dt>
-              <dd class="font-mono text-ink-900">{publishedEntries.length}</dd>
+              <dd class="font-mono text-ink-900">{publishedDicts.length}</dd>
             </div>
             <div class="flex items-baseline justify-between gap-3 border-b border-paper-200 pb-2">
               <dt class="text-ink-500">Identifier scheme</dt>
@@ -225,52 +227,11 @@ const sortedEntries = [...entries].sort((a, b) => {
       </header>
 
       <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {sortedEntries.map((entry) => {
-          const meta = dictMetadataOrFallback(entry.slug, entry.title);
-          const isDemo = meta.demonstration === true;
-          return (
-            <li>
-              <a
-                href={`/d/${entry.slug}/`}
-                class:list={[
-                  "group flex h-full flex-col rounded-xl border bg-paper-50 p-5 shadow-xs transition hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hex-600",
-                  isDemo
-                    ? "border-dashed border-sage-300 hover:border-sage-400"
-                    : "border-paper-300 hover:border-hex-300",
-                ]}
-              >
-                <div class="flex items-baseline justify-between gap-2">
-                  <h3 class="font-display text-lg tracking-tight text-ink-900 group-hover:text-hex-700">
-                    {meta.shortTitle}
-                  </h3>
-                  <code class="font-mono text-[10px] text-ink-400">{entry.slug}</code>
-                </div>
-                <div class="mt-1.5 flex flex-wrap items-center gap-1.5">
-                  {isDemo ? (
-                    <span class="rounded-full bg-sage-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-sage-700">
-                      Demonstration
-                    </span>
-                  ) : (
-                    <p class="text-[11px] font-medium uppercase tracking-wide text-ink-400">
-                      {meta.publicationId}
-                      {meta.publishedYear && ` · ${meta.publishedYear}`}
-                      {meta.technicalCommittee && ` · ${meta.technicalCommittee}`}
-                    </p>
-                  )}
-                </div>
-                <p class="mt-3 line-clamp-3 text-[13px] leading-relaxed text-ink-600">
-                  {meta.abstract || "No abstract available."}
-                </p>
-                <div class="mt-4">
-                  <EntityCountChips counts={entry.counts} />
-                </div>
-                <div class="mt-4 text-sm font-medium text-hex-700 opacity-0 transition group-hover:opacity-100">
-                  {isDemo ? "Explore the demo →" : "Browse →"}
-                </div>
-              </a>
-            </li>
-          );
-        })}
+        {sortedDicts.map((dict) => (
+          <li>
+            <DictCard dict={dict} />
+          </li>
+        ))}
       </ul>
     </section>
 

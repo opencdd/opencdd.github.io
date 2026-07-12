@@ -1,0 +1,66 @@
+---
+import { cn } from "~/lib/cn";
+import EntityCountChips from "~/components/ui/EntityCountChips.astro";
+import type { Dictionary } from "~/lib/dictionary";
+
+interface Props {
+  dict: Dictionary;
+  class?: string;
+}
+
+const { dict, class: className } = Astro.props;
+const isDemo = dict.demonstration === true;
+const totalEntities = Object.values(dict.counts).reduce(
+  (s: number, n) => s + (n as number),
+  0,
+);
+---
+
+<a
+  href={`/d/${dict.slug}/`}
+  class:list={[
+    "group flex h-full flex-col rounded-xl border bg-paper-50 p-5 shadow-xs transition hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-hex-600",
+    isDemo
+      ? "border-dashed border-sage-300 hover:border-sage-400"
+      : "border-paper-300 hover:border-hex-300",
+    className,
+  ]}
+>
+  <div class="flex items-baseline justify-between gap-2">
+    <h3 class="font-display text-lg tracking-tight text-ink-900 group-hover:text-hex-700">
+      {dict.shortTitle}
+    </h3>
+    <code class="font-mono text-[10px] text-ink-400">{dict.slug}</code>
+  </div>
+
+  <div class="mt-1.5 flex flex-wrap items-center gap-1.5">
+    {isDemo ? (
+      <span class="rounded-full bg-sage-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-sage-700">
+        Demonstration
+      </span>
+    ) : (
+      <p class="text-[11px] font-medium uppercase tracking-wide text-ink-400">
+        {dict.publicationId}
+        {dict.publishedYear && ` · ${dict.publishedYear}`}
+        {dict.technicalCommittee && ` · ${dict.technicalCommittee}`}
+      </p>
+    )}
+  </div>
+
+  <p class="mt-3 line-clamp-3 text-[13px] leading-relaxed text-ink-600">
+    {dict.abstract || "No abstract available."}
+  </p>
+
+  <div class="mt-4">
+    <EntityCountChips counts={dict.counts} />
+  </div>
+
+  <div class="mt-4 flex items-center justify-between">
+    <span class="text-[11px] font-mono text-ink-400">
+      {totalEntities.toLocaleString()} entities
+    </span>
+    <span class="text-sm font-medium text-hex-700 opacity-0 transition group-hover:opacity-100">
+      {isDemo ? "Explore the demo →" : "Browse →"}
+    </span>
+  </div>
+</a>
