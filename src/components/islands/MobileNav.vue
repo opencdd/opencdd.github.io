@@ -2,8 +2,14 @@
 import { ref, onMounted, onUnmounted, watch } from "vue";
 import { primaryNav } from "~/lib/siteNav";
 
+const props = defineProps<{
+  /** Server-rendered current pathname — eliminates hydration mismatch
+   *  by giving the island the same value at SSR time and on mount. */
+  currentPath: string;
+}>();
+
 const open = ref(false);
-const current = ref<string>("");
+const current = ref<string>(props.currentPath);
 
 function toggle() {
   open.value = !open.value;
@@ -18,7 +24,6 @@ function onKey(e: KeyboardEvent) {
 }
 
 onMounted(() => {
-  current.value = window.location.pathname;
   document.addEventListener("keydown", onKey);
   document.addEventListener("astro:after-swap", () => {
     current.value = window.location.pathname;
@@ -31,7 +36,9 @@ onUnmounted(() => {
 });
 
 watch(open, (val) => {
-  document.body.style.overflow = val ? "hidden" : "";
+  if (typeof document !== "undefined") {
+    document.body.style.overflow = val ? "hidden" : "";
+  }
 });
 
 function isActive(href: string): boolean {
