@@ -4318,6 +4318,27 @@
     "data_type": "TRANSLATABLE_STRING_TYPE"
   },
   {
+    "irdi": "0112/2///61360_7#AAS013",
+    "code": "AAS013",
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "0112/2///61360_7#AAS013"
+    },
+    "version_history": [
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2026-02-03 09:01:03",
+        "user": "BATCH 00001256",
+        "unid": "8DF837AD5E27133BC1258D93002C0AC1",
+        "is_current": true
+      }
+    ],
+    "alternative_unit_irdis": [],
+    "type": "property"
+  },
+  {
     "irdi": "0112/2///61360_7#AAS014",
     "code": "AAS014",
     "version": "1",
@@ -5681,6 +5702,36 @@
     "type": "property",
     "data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA008)",
     "value_list": "0112/2///61360_7#CEA008"
+  },
+  {
+    "irdi": "0112/2///61360_7#CBA016",
+    "code": "CBA016",
+    "synonyms": [],
+    "raw_properties": {
+      "MDC_P001_6": "0112/2///61360_7#CBA016"
+    },
+    "version_history": [
+      {
+        "version": "002",
+        "revision": "01",
+        "status": "standard",
+        "timestamp": "2025-10-10 07:09:55",
+        "user": "BATCH 00001254",
+        "unid": "D44C5F90B51B0071C1258D1F001C600D",
+        "is_current": true
+      },
+      {
+        "version": "001",
+        "revision": "01",
+        "status": "superseded",
+        "timestamp": "2024-08-13 13:32:34",
+        "user": "BATCH 00001240",
+        "unid": "85321054746c67f9c1258b78003f6846",
+        "is_current": false
+      }
+    ],
+    "alternative_unit_irdis": [],
+    "type": "property"
   },
   {
     "irdi": "0112/2///61360_7#CBA017",

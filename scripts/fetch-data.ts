@@ -109,10 +109,23 @@ function fetchFromRelease(release: string): void {
   }
 }
 
+function runFixups(): void {
+  // Upgrade OceanRunner bare-code references to synthetic IRDIs. See
+  // scripts/fix-oceanrunner-irdis.ts for context. Idempotent.
+  const oceanrunnerPath = resolve(dataTarget, "oceanrunner/database.json");
+  if (existsSync(oceanrunnerPath)) {
+    execSync("npx tsx scripts/fix-oceanrunner-irdis.ts", {
+      stdio: "inherit",
+      cwd: repoRoot,
+    });
+  }
+}
+
 try {
   if (CDD_DATA_RELEASE) {
     try {
       fetchFromRelease(CDD_DATA_RELEASE);
+      runFixups();
     } catch (releaseErr) {
       const msg = (releaseErr as Error).message;
       if (msg.includes("404") || msg.includes("Not Found")) {
@@ -120,12 +133,14 @@ try {
           `[fetch-data] Release not found — falling back to committed data.\n`,
         );
         fetchFromLocal();
+        runFixups();
       } else {
         throw releaseErr;
       }
     }
   } else {
     fetchFromLocal();
+    runFixups();
   }
 } catch (err) {
   process.stderr.write(`[fetch-data] FAILED: ${(err as Error).message}\n`);

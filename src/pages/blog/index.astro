@@ -1,0 +1,66 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => b.data.published.getTime() - a.data.published.getTime(),
+);
+const dateFmt = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+---
+
+<BaseLayout title="Blog — OpenCDD">
+  <section class="mx-auto max-w-2xl space-y-8">
+    <header class="space-y-2">
+      <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
+        OpenCDD Blog
+      </p>
+      <h1 class="text-3xl font-semibold tracking-tight text-ink-900">
+        Updates, deep dives, and notes from the OpenCDD community
+      </h1>
+      <p class="text-sm text-ink-600">
+        Project announcements, data releases, CDD explainers, and contributor
+        posts. New contributors welcome — open a PR against
+        <code class="font-mono text-xs">src/content/blog/</code> to publish.
+      </p>
+    </header>
+
+    {posts.length === 0 ? (
+      <p class="rounded-lg border border-dashed border-ink-200 bg-sand-50 p-6 text-sm text-ink-500">
+        No posts yet. The first one will appear here.
+      </p>
+    ) : (
+      <ul class="space-y-6">
+        {posts.map((post) => (
+          <li class="border-b border-ink-100 pb-6">
+            <a
+              href={`/blog/${post.id.replace(/\.mdx$/, "")}/`}
+              class="group block space-y-1.5"
+            >
+              <h2 class="text-lg font-semibold tracking-tight text-ink-900 group-hover:text-accent-700">
+                {post.data.title}
+              </h2>
+              {post.data.description && (
+                <p class="text-sm text-ink-600">{post.data.description}</p>
+              )}
+              <p class="text-xs text-ink-500">
+                <span>{dateFmt.format(post.data.published)}</span>
+                <span class="mx-1.5">·</span>
+                <span>By {post.data.author}</span>
+                {post.data.tags.length > 0 && (
+                  <>
+                    <span class="mx-1.5">·</span>
+                    <span>{post.data.tags.map((t) => `#${t}`).join(" ")}</span>
+                  </>
+                )}
+              </p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</BaseLayout>

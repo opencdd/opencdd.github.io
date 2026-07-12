@@ -1,0 +1,92 @@
+---
+title: What is OpenCDD?
+description: The OpenCDD ecosystem — open-source tooling around the IEC Common Data Dictionary.
+published: 2026-07-12
+order: 3
+---
+
+# What is OpenCDD?
+
+**OpenCDD** is an open-source ecosystem of tools around the
+IEC Common Data Dictionary. It exists because the official CDD site at
+[cdd.iec.ch](https://cdd.iec.ch/) is functional but dated, and because
+consumers of CDD data need modern, programmable access to the
+dictionary — not just a web UI.
+
+The IEC owns the standard and the dictionary content. OpenCDD owns none
+of the data; it provides tooling to read, write, render, and reason
+about that data.
+
+## The pieces
+
+| Repository | Role |
+|------------|------|
+| [`opencdd/opencdd-ruby`](https://github.com/opencdd/opencdd-ruby) | The **Ruby model** (gem `opencdd`, module `Opencdd`). The canonical implementation. Reads ParcelMaker `.xlsx` and the legacy 6-file `.xls` export layouts, builds an in-memory `Opencdd::Database`, and exports JSON, YAML, and CDDAL. |
+| [`opencdd/opencdd-ts`](https://github.com/opencdd/opencdd-ts) | The **TypeScript port** (`@opencdd/models` on npm). Generated from the Ruby `PropertyIds::REGISTRY` so the two stay in sync. Provides JSON wire types, IRDI parsing, language maps, version histories. |
+| [`opencdd/opencdd.github.io`](https://github.com/opencdd/opencdd.github.io) | **This browser.** A static site (Astro + Vue + Tailwind) that pre-renders every entity page and serves it at no cost. |
+| `opencdd/editor` (planned) | A browser-based editor for authoring CDD content. |
+| `opencdd/cdd-data` (private) | The data pipeline: scrapers, source `.xls` files, built JSON, release workflow. |
+
+## Architecture
+
+```
+cdd-data (private)
+  ├─ downloads/         scraped .xls — the source of truth on disk
+  ├─ data/              built JSON — published as a GitHub Release
+  └─ harvest/           Python Playwright scraper that produced downloads/
+
+opencdd-ruby
+  └─ lib/opencdd/parcel/ readers (Flat, Sharded, Workbook), exporters (JSON, CDDAL)
+
+opencdd.github.io (this site)
+  ├─ src/content/data/  committed JSON snapshot
+  ├─ src/lib/           build-time data layer (bundle, registry, loader)
+  ├─ Astro pages        pre-render entity HTML at build time
+  └─ Pagefind           indexes the static output for search
+```
+
+## What OpenCDD preserves
+
+OpenCDD is deliberately faithful to the source. Every entity in the
+browser carries:
+
+- **Identifying attributes** — code, preferred name (multilingual),
+  short name, synonymous names.
+- **Semantic attributes** — definition, note, remark, example,
+  source document, drawing reference.
+- **Administrative attributes** — version, revision, status level,
+  responsible committee, publisher, publication date, change-request ID.
+- **The complete raw payload** — every key from the original `.xls`
+  export is preserved on the entity and rendered under "Full source
+  data" so nothing is lost.
+
+This means a third party can use the browser as ground truth and the
+JSON snapshot as a programmatic API, without going back to the IEC
+web UI.
+
+## The relationship to IEC
+
+OpenCDD is **not** affiliated with IEC. The IEC owns:
+
+- The IEC 61360 (and related) standards text.
+- The CDD dictionary content (every class, property, value list, and
+  their definitions).
+
+OpenCDD owns:
+
+- The Ruby model, TypeScript port, browser, and supporting code.
+- The scraper that copies the IEC web UI's data into local `.xls` files.
+
+We do not redistribute the IEC standards text. Where this documentation
+quotes or paraphrases definitions from IEC 61360, the quoted text is
+© IEC, Geneva — see the [IEC webstore](https://webstore.iec.ch/) for
+the canonical publications.
+
+## Read more
+
+- **[The CDD data model](/docs/data-model/)** — how entities are
+  identified, structured, and linked.
+- **[CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/)** —
+  why the model is not just a class diagram.
+- **[Using CDD data](/docs/using-cdd-data/)** — practical consumer
+  guide.

@@ -1,0 +1,99 @@
+---
+title: What is IEC CDD?
+description: A shared, versioned, multilingual dictionary of product characteristics maintained by IEC. The standard behind OpenCDD.
+published: 2026-07-12
+order: 2
+---
+
+# What is IEC CDD?
+
+The **IEC Common Data Dictionary (IEC CDD)** is a structured, versioned,
+multilingual catalogue of *product characteristics* — what kinds of
+electrotechnical products exist, what properties describe them, and how
+those properties relate to each other. It is maintained by
+[IEC Technical Committee 3](https://tc3.iec.ch/) (Information structures,
+documentation and graphical symbols) and published under
+[IEC 61360](https://webstore.iec.ch/en/publication/28560).
+
+The single-line summary, paraphrased from IEC 61360-1:2017 (Edition 4.0),
+is that the dictionary captures **the concept of a product with entities
+called "classes" and the characteristics of that product with entities
+called "properties"**. A *class* represents a kind of thing (e.g.
+"capacitor", "fixed capacitor"); a *property* represents a measurable
+or descriptive trait of that kind (e.g. "capacitance", "rated voltage").
+Classes are arranged in a single-inheritance *classification tree*, and
+every property a class declares is inherited by its subclasses.
+
+## Why it exists
+
+Component suppliers, manufacturers, e-commerce platforms, engineering
+tools, and regulators all need to describe the same kinds of products.
+Without a shared dictionary, every party invents its own identifiers,
+its own attribute names, its own units, its own hierarchies — and
+machine-to-machine exchange collapses into one-off mappings.
+
+IEC CDD solves this by providing:
+
+1. **A single identifier per concept.** Every class and property has an
+   *International Registration Data Identifier* (IRDI) — for example,
+   `0112/2///61360_4#AAD009` — that is globally unique, versioned, and
+   language-independent. Two systems that cite the same IRDI are talking
+   about the same concept.
+2. **A multilingual terminology layer.** Each property and class carries
+   `preferred_name`, `short_name`, `definition`, `note`, and `remark`
+   fields in every language the dictionary publishes.
+3. **A versioned lineage.** Each entity records its version, revision,
+   status (proposal / draft / standard / superseded), responsible
+   committee, and change-request history — so consumers can pin to a
+   known version and reason about provenance.
+4. **A machine-readable data model.** Properties carry a `data_type`
+   (REAL, INTEGER, STRING, ENUM, CLASS_REFERENCE, …) and a `value_format`
+   (NR1 for integers, NR2 for reals, A for strings, …) so the wire
+   representation is unambiguous.
+
+## The IEC 61360 series
+
+IEC 61360 is published as a multi-part series. The parts most relevant
+to OpenCDD are:
+
+| Part | Title (paraphrased) |
+|------|---------------------|
+| IEC 61360-1 | *Definitions — Principles and methods*. Foundational definitions, the dictionary model, classification principles. |
+| IEC 61360-2 | *EXPRESS dictionary schema*. The normative data model in EXPRESS. |
+| IEC 61360-4 | *Reference dictionary*. The actual published dictionary content (classes + properties) for electrotechnical components. |
+| IEC 61360-6 | *Common data dictionary host integration*. |
+| IEC 61360-7 | *Data dictionary of cross-domain concepts (general items)*. Generic, reusable building blocks. |
+
+Other dictionaries — IEC 61987 (industrial-process measurement and
+control), IEC 62683 (low-voltage switchgear), IEC 63508 (miniature
+circuit-breakers) — are published as standalone standards but live
+inside the same CDD infrastructure and use the same IRDI scheme.
+
+## What's in this browser
+
+This site pre-renders every entity in six published dictionaries:
+
+- **iec61360** — the IEC CDD reference dictionary itself.
+- **iec61360-7** — cross-domain general items.
+- **iec61987** — industrial-process measurement and control equipment.
+- **iec62683** — low-voltage switchgear and controlgear.
+- **iec63213** — power measurement applications in distribution networks.
+- **iec63508** — miniature circuit-breakers (MCBs).
+
+For every entity — class, property, value list, value term, unit, or
+relation — the browser renders its identifying attributes, semantic
+attributes (definition, note, remark, synonyms), administrative
+attributes (version, revision, status, responsible committee,
+publication date), and the full raw source payload from the IEC `.xls`
+export.
+
+## Where to read more
+
+- The [IEC webstore](https://webstore.iec.ch/) has the canonical text of
+  every IEC 61360 part.
+- IEC TC 3 publishes a free preview of the dictionary structure on
+  [cdd.iec.ch](https://cdd.iec.ch/).
+- Continue with **[What is OpenCDD?](/docs/what-is-opencdd/)** for how
+  this project relates to the IEC publications, or
+  **[CDD ontology vs UML and RDF](/docs/cdd-ontology-vs-uml-rdf/)** for
+  the structural model.

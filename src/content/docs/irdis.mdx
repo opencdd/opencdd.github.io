@@ -1,0 +1,272 @@
+---
+title: IRDIs in depth
+description: How International Registration Data Identifiers are built, parsed, and cited — with worked examples from every OpenCDD dictionary.
+published: 2026-07-12
+order: 21
+---
+
+# IRDIs in depth
+
+Every entity in a CDD dictionary — every class, property, value list,
+value term, unit, and relation — is identified by an **International
+Registration Data Identifier (IRDI)**. IRDIs are defined by ISO/IEC
+11179-6 and adopted by IEC 61360 as the canonical, language-independent
+handle for dictionary entries. Two systems that cite the same IRDI are
+guaranteed to be talking about the same entity.
+
+This page covers what an IRDI looks like, how to parse one, and how to
+cite one in your own work.
+
+## Anatomy of an IRDI
+
+A full IRDI has four parts separated by `/` and `#`:
+
+```
+0112/2///61360_4#AAD009
+└─┬─┘ │  └──┬───┘ └┬──┘
+  │   │     │      │
+  │   │     │      └─ Code (the human-readable identifier in the dict)
+  │   │     │
+  │   │     └─ Scheme (which dictionary this lives in)
+  │   │
+  │   └─ Semantic (sub-area identifier; usually a single digit)
+  │
+  └─ Registrant (who owns the registration authority)
+```
+
+For `0112/2///61360_4#AAD009`:
+
+| Part | Value | Meaning |
+|------|-------|---------|
+| Registrant | `0112` | IEC (International Electrotechnical Commission) |
+| Semantic | `2` | Information-structures sub-area |
+| Scheme | `61360_4` | IEC 61360-4 (the reference dictionary itself) |
+| Code | `AAD009` | Property "turn-on delay time" |
+
+The `///` separator is literal: it delimits an empty version field.
+ISO 11179 allows a version after the second slash, but IEC CDD does
+not use it; the version lives on the entity itself (the `version` and
+`revision` attributes), not in the IRDI.
+
+## The four parts in detail
+
+### Registrant
+
+A numeric identifier assigned by the registration authority. Common
+ones you will see:
+
+| Code | Organisation |
+|------|--------------|
+| `0112` | IEC |
+| `0173-1` | IEC sub-registrant scheme (used for some ancillary codes) |
+| `00248` | ISO |
+| `0001` | NIST |
+
+Within OpenCDD's six dictionaries, virtually every entity has
+registrant `0112`.
+
+### Semantic
+
+A short identifier for the conceptual area. For IEC CDD content this
+is almost always `2` (electrotechnical / information structures).
+
+### Scheme
+
+Identifies the dictionary. The hyphen in the IEC publication number is
+replaced with an underscore (IEC 61360-4 → `61360_4`). Examples:
+
+| Scheme | Dictionary |
+|--------|------------|
+| `61360_4` | IEC 61360-4 reference dictionary |
+| `61360_7` | IEC 61360-7 general items |
+| `61987` | IEC 61987 industrial-process measurement and control |
+| `62683` | IEC 62683 low-voltage switchgear |
+| `63213` | IEC TR 63213 power measurement applications |
+| `63508` | IEC 63508 miniature circuit-breakers |
+
+Per IEC 61360-1 §5.2: *"The hyphen '-' in '61360-4' is replaced by an
+underscore '_'."* — this is a hard rule of the IRDI scheme.
+
+### Code
+
+The human-readable identifier inside the dictionary. Codes are:
+
+- **3 letters + 3 digits** for content entities (`AAA021`, `AAD009`).
+- **`MDC_` prefix** for meta-class and meta-property codes
+  (`MDC_C002`, `MDC_P004`) — these are part of the dictionary *schema*,
+  not domain content.
+- **`EXT_` prefix** for extensions outside the IEC core (e.g.
+  `EXT_C001` for `ViewControl`).
+- **`UNIVERSE`** for the virtual root class of a classification tree
+  (per IEC 61360-1 §21.1).
+
+Codes are unique within a scheme but **not globally unique** — always
+pair a code with its scheme (or use the full IRDI) when communicating
+across dictionaries.
+
+## Short form
+
+When context is unambiguous, IRDIs appear in a **short form** that is
+just the code (`AAD009`). The OpenCDD browser uses short form in the
+class-tree sidebar, breadcrumbs, and table cells, and the full IRDI in
+the entity hero, raw-properties dump, and copy-to-clipboard button.
+
+The short form is what IEC 61360-2 calls the *code* attribute; the
+full form is the *irdi* attribute.
+
+## Special IRDI families
+
+### Meta-class IRDIs (`MDC_C###`)
+
+These identify the seven meta-classes of the dictionary schema itself.
+They are not content entities — they describe *what kind of entity*
+something is.
+
+| Meta-class IRDI (short) | Type | Ruby class |
+|--------------------------|------|------------|
+| `MDC_C002` | Class | `Opencdd::Klass` |
+| `MDC_C003` | Property | `Opencdd::Property` |
+| `MDC_C005` | ValueList | `Opencdd::ValueList` |
+| `MDC_C009` | Unit | `Opencdd::Unit` |
+| `MDC_C010` | ValueTerm | `Opencdd::ValueTerm` |
+| `MDC_C011` | Relation | `Opencdd::Relation` |
+| `EXT_C001` | ViewControl | `Opencdd::ViewControl` |
+
+Every entity in a CDD dictionary has a `meta_class_irdi` attribute
+pointing at one of these. The browser uses it to decide which badge
+colour to render and which subtype-specific methods are available.
+
+### Meta-property IRDIs (`MDC_P###`)
+
+These identify the standard attributes that any entity can carry —
+`preferred_name` (`MDC_P004`), `definition` (`MDC_P006`),
+`superclass` (`MDC_P010`), `is_case_of` (`MDC_P013`), and so on.
+There are roughly 100 of these in the IEC 61360-2 EXPRESS schema.
+
+You will see them most often in the **raw_properties** payload, where
+they appear as hash keys (`MDC_P004.en`, `MDC_P006.de`,
+`MDC_P010`, etc.).
+
+### Workbook-column codes (`C###`)
+
+The IEC `.xls` export format includes additional columns that have no
+`MDC_P###` equivalent — publisher, status level, responsible committee,
+change-request ID. These appear in raw_properties with `C###` codes
+(`C011` for publisher, `C016` for status level, `C002` for
+change-request ID, etc.). The browser's typed view surfaces them as
+named fields (e.g. `status_level`, `publisher`); the raw view keeps
+the original codes.
+
+## IRDI vs ICID
+
+ISO 13584 / IEC 62656-1 also defines the **International Concept
+Identifier (ICID)**, a URL-friendly IRDI variant used in the ParcelMaker
+spreadsheet format. It looks like:
+
+```
+0112-2---61360_4%23AAD009
+```
+
+The ICID replaces `/` with `-`, drops `///` to `---`, and percent-encoded
+`#` as `%23`. ICIDs appear in `_page.html` URLs on cdd.iec.ch and in
+some legacy export formats. The OpenCDD browser normalises both forms
+to canonical IRDIs internally.
+
+## Parsing IRDIs in code
+
+### TypeScript
+
+```ts
+interface IRDI {
+  registrant: string | null;
+  semantic: string | null;
+  scheme: string | null;
+  code: string;
+  version: string | null;
+}
+
+function parseIRDI(input: string): IRDI | null {
+  const s = input.trim();
+  if (!s) return null;
+
+  // Full form: registrant/semantic///scheme#code
+  const full = s.match(
+    /^(?<r>[^/#\s]+)\/(?<s>[^/#\s]*)\/\/\/(?<sc>[^/#\s]+)#(?<c>[^#\s]+)(?:##(?<v>\d+))?$/,
+  );
+  if (full) {
+    const g = full.groups!;
+    return {
+      registrant: g.r, semantic: g.s, scheme: g.sc,
+      code: g.c, version: g.v ?? null,
+    };
+  }
+
+  // Short form: just a code
+  if (/^[^#/\s]+$/.test(s)) {
+    return {
+      registrant: null, semantic: null, scheme: null,
+      code: s, version: null,
+    };
+  }
+  return null;
+}
+```
+
+### Ruby
+
+```ruby
+require "opencdd"
+
+irdi = Opencdd::IRDI.parse("0112/2///61360_4#AAD009")
+irdi.registrant  # => "0112"
+irdi.semantic    # => "2"
+irdi.scheme      # => "61360_4"
+irdi.code        # => "AAD009"
+irdi.short?      # => false
+
+short = Opencdd::IRDI.parse("AAD009")
+short.short?     # => true
+short.code       # => "AAD009"
+```
+
+The Ruby `IRDI.parse` handles full, short, and ICID (`-`/`%23`) forms
+automatically and returns a frozen, comparable value object.
+
+## Citing IRDIs
+
+When you reference a CDD entity outside the browser:
+
+1. **Cite the IRDI in full.** `0112/2///61360_4#AAD009` is unambiguous;
+   `AAD009` alone is not.
+2. **Pin to a version when stability matters.** Add `(version 002,
+   revision 05)` after the IRDI so future readers know which definition
+   you were working against.
+3. **Link to the OpenCDD page when a clickable reference helps.** The
+   URL is `https://opencdd.github.io/d/{dict}/{type}/{code}/`.
+4. **Do not invent new IRDIs.** Only IEC TC 3 can mint IEC 61360 IRDIs.
+   For private extensions, use the CDDP package format (planned) or
+   your own registrant prefix.
+
+## Common pitfalls
+
+- **Hyphen vs underscore in scheme.** IEC 61360-4 becomes `61360_4`,
+  not `61360-4`. The IRDI grammar does not allow hyphens in the scheme
+  position.
+- **Case sensitivity.** Codes are uppercase. The IRDI grammar treats
+  codes as case-sensitive; `aad009` will not resolve.
+- **Letter `O` and `I` are forbidden** in codes (to avoid confusion
+  with `0` and `1`). Codes use `A–Z` (minus `O`, `I`) plus `0–9`.
+- **Leading zeros are significant.** `AAD009` and `AAD09` are different
+  codes.
+- **Version is not in the IRDI.** An IRDI refers to the entity across
+  all its versions. To pin a version, store the version/revision
+  alongside the IRDI in your data.
+
+## Read more
+
+- **[The CDD data model](/docs/data-model/)** — how IRDIs fit into the
+  larger entity model.
+- **[Query cookbook](/docs/query-cookbook/)** — recipes for working
+  with IRDIs in code.
+- ISO/IEC 11179-6 for the normative IRDI definition.
+- IEC 61360-1:2017 §5 for the dictionary identification attributes.

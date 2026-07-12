@@ -1,0 +1,260 @@
+---
+title: Browse the dictionary
+description: A complete UI walkthrough — homepage, dictionary landing, entity detail pages, class tree, search, and language switcher.
+published: 2026-07-12
+order: 10
+---
+
+# Browse the dictionary
+
+A reference for every part of the OpenCDD Browser UI. Use this as a
+cheat-sheet when you cannot remember where something lives.
+
+## Site anatomy
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│ Header: OpenCDD logo  |  Docs · Blog · Dictionaries  |  Lang · Search │
+├────────────────┬─────────────────────────────────────────────────────┤
+│                │                                                     │
+│  Class tree    │   Page content                                      │
+│  (left pane,  │                                                     │
+│   persistent)  │                                                     │
+│                │                                                     │
+├────────────────┴─────────────────────────────────────────────────────┤
+│ Footer                                                               │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+The class tree only appears inside a dictionary. Outside dictionaries
+(the homepage, docs, blog) the page takes the full width.
+
+## Routes
+
+| URL | What it is |
+|-----|------------|
+| `/` | Homepage. Hero, dictionary grid, latest blog posts. |
+| `/docs/` | Documentation index. |
+| `/docs/[slug]/` | A docs page. |
+| `/blog/` | Blog index. |
+| `/blog/[slug]/` | A blog post. |
+| `/search` | Full-text search across all entity pages and docs. |
+| `/d/{dict}/` | Dictionary landing page with overview tabs. |
+| `/d/{dict}/about/` | Dictionary metadata (publication ID, abstract, TC). |
+| `/d/{dict}/c/{code}/` | Class detail. |
+| `/d/{dict}/p/{code}/` | Property detail. |
+| `/d/{dict}/v/{code}/` | Value list detail. |
+| `/d/{dict}/t/{code}/` | Value term detail. |
+| `/d/{dict}/u/{code}/` | Unit detail. |
+| `/d/{dict}/r/{code}/` | Relation detail. |
+
+URLs are deterministic: given a dict slug, entity type, and code, you
+can write the URL by hand. Trailing slashes are ignored.
+
+## Homepage
+
+The homepage has three sections:
+
+1. **Hero** — one-line value prop, total entity count, primary CTAs
+   (What is CDD?, Browse dictionaries, ontology comparison).
+2. **What is the IEC Common Data Dictionary?** — a short explainer
+   that doubles as an elevator pitch. Links into the docs.
+3. **Dictionaries grid** — one card per published dictionary with
+   short title, publication reference, abstract, entity-count chips.
+4. **From the blog** — the three most recent posts.
+
+Click any dictionary card to enter it.
+
+## Dictionary landing page
+
+`/d/{dict}/` shows:
+
+- The dictionary title and source/translation languages.
+- A row of **overview tabs**: Classes · Properties · Value lists ·
+  Value terms · Units · Relations (only types with ≥ 1 entity appear).
+- An "About this dictionary →" link to the metadata page.
+- The class tree in the left pane (desktop).
+
+The tab you land on is controlled by the `?tab=` query parameter
+(e.g. `/d/iec61360/?tab=property`). Clicking a tab updates the URL so
+you can deep-link to a specific list view.
+
+## Dictionary about page
+
+`/d/{dict}/about/` shows:
+
+- The full IEC publication title (e.g. *"Standard data element types
+  with associated classification scheme — Part 7: Data Dictionary of
+  Cross-Domain Concepts (General items)"*).
+- The **abstract** paraphrased from the IEC webstore listing.
+- A link to the canonical IEC webstore publication (© IEC, Geneva).
+- Dictionary metadata: publication ID, edition, parcel ID, slug,
+  source language, translation languages, technical committee,
+  meta-class IRDIs.
+- An **entity inventory** table with counts per type and links back
+  to the overview tabs.
+
+## Entity detail pages
+
+Every entity detail page — class, property, value list, value term,
+unit, relation — shares a common shape. Type-specific extras are
+listed below.
+
+### Common to all entity types
+
+- **EntityHero** at the top — preferred name, IRDI, definition, short
+  name, version, revision, status badge. The badge colour varies by
+  type (accent for class, violet for property, emerald for value list,
+  rose for value term, amber for unit, etc.).
+- **Breadcrumbs** — the ancestor chain for classes; the declaring
+  classes for properties.
+- **Metadata card** — synonyms, note, remark, description, example,
+  source document, GUID, version, revision, time stamp, dates, status
+  level, publisher, published in, responsible committee, change
+  request ID.
+- **Version history** — every revision since first proposal with
+  version, revision, status, timestamp, user, change-request ID.
+- **Full source data** — every key from the original `.xls` export,
+  unmodified. If a field is missing from the typed view above, it is
+  here.
+
+### Class detail extras (`/c/{code}/`)
+
+- **Higher level classes** — the ancestor chain (excluding self).
+- **Declared properties** — properties this class directly declares,
+  with values, units, data types, and definitions. If a property IRDI
+  is referenced but its full record wasn't scraped, an *Unresolved*
+  callout lists it.
+- **Inherited properties** — properties inherited from ancestors
+  (collapsible).
+- **Imported properties** — properties pulled in via `is_case_of`.
+- **Subclasses** — direct children in the classification tree.
+- **Is case of (powertype parents)** — categorical-class parents.
+- **Instances (powertype)** — when this class is a powertype, its
+  instances are listed here.
+- **Composition (sub_class_selection)** — composition-tree targets.
+- **Relations** — relations where this class is the domain.
+- **Referenced as codomain** — relations where this class is the
+  codomain.
+
+### Property detail extras (`/p/{code}/`)
+
+- **Data type** and **value format** (e.g. `REAL_TYPE`, `NR2`).
+- **Condition** — for `CONDITION_DET` properties, the property this
+  one depends on.
+- **Definition class** — the class that declares this property.
+- **Used by classes** — classes whose `applicable_properties` reference
+  this property.
+
+### Value list detail extras (`/v/{code}/`)
+
+- **Terms** — the value terms in this list, with codes and names.
+
+### Value term detail extras (`/t/{code}/`)
+
+- **Member of** — value lists that include this term.
+
+### Unit detail extras (`/u/{code}/`)
+
+- **Names, symbols** — short name, letter symbol, synonymous symbols.
+- **Used by properties** — properties whose unit references this.
+
+### Relation detail extras (`/r/{code}/`)
+
+- **Domain** and **codomain** — the classes at each end.
+- **Relation type** — function, predication, etc.
+
+## Class tree (left pane)
+
+The class tree is a Vue island that persists across page navigation.
+Behaviour:
+
+- **Expand/collapse** any class to show or hide its subclasses.
+- **Click a class** to navigate; the right pane updates and the URL
+  changes.
+- **Keyboard** — arrow keys to move, `Enter` to navigate, `Esc` to
+  close.
+- **Search filter** — typing in the filter box prunes the tree to
+  matches.
+- **Session storage** — your expand/collapse state is saved for the
+  current browser session, so navigating away and back restores your
+  view.
+
+The tree is `transition:persist` — it survives View Transitions, so
+on supported browsers the navigation feels single-page-app-like.
+
+## Search
+
+The header Search link (or `⌘K` / `Ctrl+K`) opens the search page.
+Search is powered by [Pagefind](https://pagefind.app/) and indexes:
+
+- All 21,460 entity detail pages.
+- All documentation pages.
+- All blog posts.
+
+Tips:
+
+- **Codes match directly** — search `AAA021` to land on the entity.
+- **Names match in any language** — search `Kapazität` to find the
+  German name for "capacitance".
+- **IRDI fragments match** — search `61360_4#AAD009`.
+- **No boolean operators** — Pagefind uses
+  [its own query syntax](https://pagefind.app/docs/search/).
+
+Search runs entirely client-side after the index streams in; no
+server queries.
+
+## Language switcher
+
+The header Language Switcher toggles `body[data-lang]`. CSS controls
+which translation spans are visible — no JavaScript data fetching, no
+page reload. If a translation is missing for a field, the source
+language is shown.
+
+Most CDD entities have English, German, French, and occasionally
+Chinese translations for `preferred_name`, `short_name`, `definition`,
+`note`, `remark`, and `synonymous_name`.
+
+## Keyboard shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `⌘K` / `Ctrl+K` | Focus search |
+| `/` (in search) | Focus search input |
+| `Esc` | Close search / clear focus |
+| Arrow keys (in class tree) | Navigate the tree |
+| `Enter` (in class tree) | Navigate to highlighted class |
+| `Tab` / `Shift+Tab` | Standard focus navigation |
+
+## Accessibility
+
+- **Skip to content** link at the top of every page.
+- Semantic landmarks (`<header>`, `<main>`, `<aside>`, `<nav>`).
+- All interactive elements are keyboard-reachable.
+- Colour contrast meets WCAG AA against the warm-neutral background.
+- Entity types are distinguished by both colour and label (never colour
+  alone).
+
+## Mobile
+
+On narrow viewports:
+
+- The class tree hides. Use the dictionary's overview tabs to browse
+  by type.
+- The header collapses the docs/blog/dictionaries nav into a more
+  compact layout.
+- Cards in the homepage grid stack vertically.
+- Code blocks in docs scroll horizontally rather than wrap.
+
+## View Transitions
+
+On browsers that support the View Transitions API, page-to-page
+navigation animates smoothly and the class tree + language switcher
+state survive. On unsupported browsers, navigation is a normal full
+page load — no degradation in functionality.
+
+## Read more
+
+- **[Getting started](/docs/getting-started/)** — the five-minute tour.
+- **[IRDIs in depth](/docs/irdis/)** — identifier structure.
+- **[Query cookbook](/docs/query-cookbook/)** — programmatic access.

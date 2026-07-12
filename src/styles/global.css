@@ -209,3 +209,107 @@ body:not([data-lang]) .ml-en { display: inline; }
     break-inside: avoid;
   }
 }
+
+/* ── MDX prose (docs, blog) ─────────────────────────────────────── */
+/* Tight, opinionated typography for long-form MDX content. Uses the
+   existing ink/sand/accent tokens so docs share the design system. */
+
+.prose-opencdd {
+  color: var(--color-ink-700);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.prose-opencdd > * + * { margin-top: 1.25em; }
+
+.prose-opencdd h1,
+.prose-opencdd h2,
+.prose-opencdd h3,
+.prose-opencdd h4 {
+  color: var(--color-ink-900);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.prose-opencdd h1 { font-size: 2rem; margin-top: 0; }
+.prose-opencdd h2 {
+  font-size: 1.4rem;
+  margin-top: 2.25em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--color-ink-200);
+}
+.prose-opencdd h3 { font-size: 1.15rem; margin-top: 1.75em; }
+.prose-opencdd h4 { font-size: 1rem; margin-top: 1.5em; }
+
+.prose-opencdd a {
+  color: var(--color-accent-700);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.prose-opencdd a:hover { color: var(--color-accent-600); }
+
+.prose-opencdd strong { color: var(--color-ink-900); font-weight: 600; }
+
+.prose-opencdd code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--color-sand-100);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  color: var(--color-ink-800);
+}
+
+.prose-opencdd pre {
+  background: var(--color-ink-900);
+  color: var(--color-ink-100);
+  padding: 1em 1.25em;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+.prose-opencdd pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.prose-opencdd blockquote {
+  border-left: 3px solid var(--color-accent-300);
+  padding: 0.25em 0 0.25em 1em;
+  color: var(--color-ink-600);
+  font-style: italic;
+}
+
+.prose-opencdd ul,
+.prose-opencdd ol { padding-left: 1.5em; }
+.prose-opencdd ul { list-style: disc; }
+.prose-opencdd ol { list-style: decimal; }
+.prose-opencdd li { margin: 0.35em 0; }
+.prose-opencdd li::marker { color: var(--color-ink-400); }
+
+.prose-opencdd table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+.prose-opencdd th,
+.prose-opencdd td {
+  border: 1px solid var(--color-ink-200);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+.prose-opencdd th {
+  background: var(--color-sand-50);
+  font-weight: 600;
+  color: var(--color-ink-800);
+}
+
+.prose-opencdd hr {
+  border: none;
+  border-top: 1px solid var(--color-ink-200);
+  margin: 2.5em 0;
+}

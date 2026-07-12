@@ -1,0 +1,141 @@
+---
+title: Getting started
+description: A five-minute tour for first-time visitors — what OpenCDD is, where to click first, and what to expect on each page.
+published: 2026-07-12
+order: 1
+---
+
+# Getting started
+
+New here? This page is the fastest path from "what is this site?" to
+"now I know where things are". Five minutes, no prerequisites.
+
+If you already know what the IEC Common Data Dictionary is and just
+want to look something up, jump to
+[Browse the dictionary](/docs/browse-the-dictionary/). If you want the
+long-form background first, start with
+[What is IEC CDD?](/docs/what-is-cdd/).
+
+## 30-second version
+
+OpenCDD is a free, static, read-only browser for the IEC Common Data
+Dictionary. It pre-renders **21,460 entities** across **six published
+IEC dictionaries** — every class, property, value list, value term,
+unit, and relation, with multilingual definitions and full version
+histories. There is no backend, no login, and no tracking. URLs are
+stable and citable.
+
+The site lives at **[opencdd.github.io](https://opencdd.github.io/)**.
+It is not affiliated with IEC; the data is © IEC, Geneva.
+
+## Step 1 — Pick a dictionary
+
+The [homepage](/) lists every dictionary as a card. Each card shows
+the dictionary's short title, its IEC publication reference (e.g.
+`IEC 61360 (series) · 2017 · IEC TC 3`), a one-paragraph abstract,
+and entity-count chips.
+
+For a first tour, **[IEC 61360](/d/iec61360/)** is the canonical
+choice — it is the CDD reference dictionary itself and has the richest
+mix of entity types (classes, properties, value lists, value terms).
+
+## Step 2 — Browse the class tree
+
+Every dictionary page has a **two-pane layout**:
+
+- **Left pane** (desktop) — a persistent class tree. Click any class to
+  navigate; the URL changes to `/d/{dict}/c/{code}/` and the right pane
+  updates. The tree survives page-to-page navigation, so you can drill
+  down without losing your place.
+- **Right pane** — the entity detail page (or the dictionary landing
+  page when you first arrive).
+
+On mobile the tree collapses; use the dictionary's overview tabs
+(Classes / Properties / Value lists / Value terms / Units / Relations)
+to find entities by type.
+
+## Step 3 — Read an entity page
+
+Take a real example: in IEC 61360, navigate to class **AAA021**
+(*fixed capacitor*) at
+[/d/iec61360/c/AAA021/](/d/iec61360/c/AAA021/). The page shows:
+
+- **Header** — preferred name, IRDI (`0112/2///61360_4#AAA021`),
+  definition, short name, version, revision, status badge.
+- **Higher level classes** — the ancestor chain back to the root
+  (`UNIVERSE`).
+- **Declared properties** — properties this class owns (with values,
+  units, data types, definitions).
+- **Inherited properties** — properties inherited from ancestors
+  (collapsible).
+- **Subclasses** — direct children in the classification tree.
+- **Instances (powertype)** — when the class has categorical-class
+  instances, they appear here.
+- **Relations** — named associations where this class appears as the
+  domain.
+- **Metadata** — synonyms, note, remark, source document, GUID,
+  responsible committee, version lineage.
+- **Full source data** — the raw `.xls` payload, every key preserved.
+
+Tabs along the top let you switch languages — translations appear
+inline. The version history is a chronological table of every revision
+since the entity was first proposed.
+
+## Step 4 — Search
+
+The header has a **Search** link (or press `⌘K` / `Ctrl+K`). The
+search is full-text and covers all 21,460 entity pages plus every
+docs page. It runs locally via
+[Pagefind](https://pagefind.app/) — no server roundtrip.
+
+Try searching for:
+
+- A code, e.g. `AAA021` — matches the entity directly.
+- A property name, e.g. `capacitance` — matches definitions and
+  preferred names.
+- An IRDI fragment, e.g. `61360_4#AAD009`.
+
+## Step 5 — Cite what you found
+
+Every entity has a stable URL based on its dictionary and code:
+
+```
+https://opencdd.github.io/d/{dict}/{type}/{code}/
+```
+
+…where `{type}` is one of `c` (class), `p` (property),
+`t` (value term), `u` (unit), `v` (value list), or `r` (relation).
+These URLs are deterministic — given an entity, you can write the URL
+by hand. Cite them in specifications, bug reports, and spreadsheets.
+
+For machine consumption, cite the IRDI (`0112/2///61360_4#AAA021`)
+rather than the code alone — codes are unique within a dictionary but
+not globally.
+
+## Step 6 — Use the data programmatically
+
+When you outgrow the web UI:
+
+- **JSON snapshots** — every dictionary is available as a flat
+  `database.json` (a single array of entities). See
+  [Using CDD data](/docs/using-cdd-data/) and the
+  [Query cookbook](/docs/query-cookbook/).
+- **Ruby model** — [`opencdd-ruby`](https://github.com/opencdd/opencdd-ruby)
+  reads the source `.xls` files and exposes a navigable
+  `Opencdd::Database`.
+- **TypeScript types** — [`@opencdd/models`](https://github.com/opencdd/opencdd-ts)
+  on npm provides the canonical JSON wire types.
+
+## Where to go next
+
+- **[Browse the dictionary](/docs/browse-the-dictionary/)** — full UI
+  walkthrough of every page type and sidebar.
+- **[What is IEC CDD?](/docs/what-is-cdd/)** — the conceptual primer.
+- **[The CDD data model](/docs/data-model/)** — entities, attributes,
+  relationships.
+- **[IRDIs in depth](/docs/irdis/)** — how identifiers are built.
+- **[Query cookbook](/docs/query-cookbook/)** — copy-paste recipes for
+  TypeScript, Ruby, and Python.
+
+If you get stuck, file an issue on
+[GitHub](https://github.com/opencdd/opencdd.github.io/issues).
