@@ -199,6 +199,12 @@
 }
 
 /* ── Dark mode token overrides ──────────────────────────────────── */
+/* In dark mode, the ink scale INVERTS semantically:
+   - ink-50/100 become the DARKEST inks (rarely used, dividers on dark)
+   - ink-800/900 become the LIGHTEST (body text + headings on dark bg)
+   The paper scale stays directionally the same (50 = lightest surface,
+   900 = darkest) but the values are now dark navy/blue instead of cream.
+   This is what makes `text-ink-800` mean "body text" in BOTH modes. */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-paper-50: #1a2230;
@@ -208,18 +214,21 @@
     --color-paper-400: #38486a;
     --color-paper-500: #4d5f80;
 
-    --color-ink-50: #f7f0da;
-    --color-ink-100: #e6dfc6;
-    --color-ink-200: #c8c0a3;
-    --color-ink-300: #a39a7e;
+    /* Inverted: 50 = dimmest (almost invisible), 900 = brightest text */
+    --color-ink-50: #1d1a13;
+    --color-ink-100: #2e291f;
+    --color-ink-200: #443e30;
+    --color-ink-300: #5e5742;
     --color-ink-400: #7d755c;
-    --color-ink-500: #5e5742;
-    --color-ink-600: #443e30;
-    --color-ink-700: #2e291f;
-    --color-ink-800: #1d1a13;
-    --color-ink-900: #100e0a;
-    --color-ink-950: #070604;
+    --color-ink-500: #a39a7e;
+    --color-ink-600: #c8c0a3;
+    --color-ink-700: #e6dfc6;
+    --color-ink-800: #f7f0da;
+    --color-ink-900: #fefdf8;
+    --color-ink-950: #ffffff;
 
+    /* Warmer / brighter accents that read on the dark surface
+       (sampled from the dark logo variant). */
     --color-hex-300: #f4b03a;
     --color-hex-400: #f08b36;
     --color-hex-500: #ec7a2a;
@@ -227,6 +236,9 @@
     --color-teal-300: #73e0cd;
     --color-teal-400: #52d3e0;
     --color-teal-500: #38c3d3;
+
+    --color-clay-200: #d5aa65;
+    --color-clay-300: #e99c61;
 
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.4);
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.5), 0 1px 2px -1px rgb(0 0 0 / 0.4);
