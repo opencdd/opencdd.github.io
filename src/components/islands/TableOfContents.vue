@@ -58,7 +58,7 @@ onUnmounted(() => {
   <nav
     v-if="entries.length > 0"
     aria-label="On this page"
-    class="hidden lg:block rounded-lg border border-ink-200 bg-sand-50/50 px-3 py-2 text-sm"
+    class="hidden lg:block rounded-lg border border-ink-200 bg-paper-50/50 px-3 py-2 text-sm"
   >
     <p class="mb-2 text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-400">
       On this page
@@ -71,7 +71,7 @@ onUnmounted(() => {
             'block border-l-2 -ml-px py-0.5 transition',
             entry.level === 2 ? 'pl-4' : 'pl-3',
             activeId === entry.id
-              ? 'border-accent-600 font-medium text-accent-700'
+              ? 'border-hex-600 font-medium text-hex-700'
               : 'border-transparent text-ink-500 hover:border-ink-300 hover:text-ink-800',
           ]"
         >

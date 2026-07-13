@@ -22,7 +22,7 @@ const dateFmt = new Intl.DateTimeFormat("en-US", {
     />
 
     {posts.length === 0 ? (
-      <p class="rounded-lg border border-dashed border-ink-200 bg-sand-50 p-6 text-sm text-ink-500">
+      <p class="rounded-lg border border-dashed border-ink-200 bg-paper-50 p-6 text-sm text-ink-500">
         No posts yet. The first one will appear here.
       </p>
     ) : (
@@ -33,7 +33,7 @@ const dateFmt = new Intl.DateTimeFormat("en-US", {
               href={`/blog/${post.id.replace(/\.mdx$/, "")}/`}
               class="group block space-y-1.5"
             >
-              <h2 class="text-lg font-semibold tracking-tight text-ink-900 group-hover:text-accent-700">
+              <h2 class="text-lg font-semibold tracking-tight text-ink-900 group-hover:text-hex-700">
                 {post.data.title}
               </h2>
               {post.data.description && (

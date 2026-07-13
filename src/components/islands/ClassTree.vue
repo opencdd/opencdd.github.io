@@ -268,10 +268,10 @@ onUnmounted(() => {
   </div>
 
   <div v-else-if="nodes.length === 0" class="space-y-2" aria-busy="true">
-    <div class="h-8 rounded bg-sand-200/60 animate-pulse" />
-    <div class="h-8 rounded bg-sand-200/60 animate-pulse w-5/6" />
-    <div class="h-8 rounded bg-sand-200/60 animate-pulse w-4/6" />
-    <div class="h-8 rounded bg-sand-200/60 animate-pulse" />
+    <div class="h-8 rounded bg-paper-200/60 animate-pulse" />
+    <div class="h-8 rounded bg-paper-200/60 animate-pulse w-5/6" />
+    <div class="h-8 rounded bg-paper-200/60 animate-pulse w-4/6" />
+    <div class="h-8 rounded bg-paper-200/60 animate-pulse" />
     <p class="text-xs text-ink-500">Loading class tree…</p>
   </div>
 
@@ -289,7 +289,7 @@ onUnmounted(() => {
         type="button"
         @click="expandAll"
         title="Expand all"
-        class="rounded-md px-1.5 py-1 text-ink-400 transition hover:bg-sand-100 hover:text-ink-700"
+        class="rounded-md px-1.5 py-1 text-ink-400 transition hover:bg-paper-100 hover:text-ink-700"
         aria-label="Expand all"
       >
         <svg viewBox="0 0 16 16" fill="currentColor" class="h-3.5 w-3.5" aria-hidden="true">
@@ -300,7 +300,7 @@ onUnmounted(() => {
         type="button"
         @click="collapseAll"
         title="Collapse all"
-        class="rounded-md px-1.5 py-1 text-ink-400 transition hover:bg-sand-100 hover:text-ink-700"
+        class="rounded-md px-1.5 py-1 text-ink-400 transition hover:bg-paper-100 hover:text-ink-700"
         aria-label="Collapse all"
       >
         <svg viewBox="0 0 16 16" fill="currentColor" class="h-3.5 w-3.5" aria-hidden="true">
@@ -331,8 +331,8 @@ onUnmounted(() => {
           :style="{ paddingLeft: `${node.depth * 0.75 + 0.25}rem` }"
           :class="[
             'flex items-center gap-1 rounded-md py-0.5 pl-1 pr-1',
-            highlightedIrdi === node.irdi ? 'bg-accent-50 text-accent-900' : 'hover:bg-sand-100',
-            i === focusIdx ? 'ring-2 ring-accent-300 ring-inset' : '',
+            highlightedIrdi === node.irdi ? 'bg-hex-50 text-hex-900' : 'hover:bg-paper-100',
+            i === focusIdx ? 'ring-2 ring-hex-300 ring-inset' : '',
           ]"
         >
           <button
@@ -360,14 +360,14 @@ onUnmounted(() => {
             :title="`${node.irdi} — ${node.label}`"
             :class="[
               'flex flex-1 items-baseline gap-1.5 truncate py-0.5 pr-1 text-[13px] leading-snug',
-              highlightedIrdi === node.irdi ? 'font-medium text-accent-900' : 'text-ink-800',
+              highlightedIrdi === node.irdi ? 'font-medium text-hex-900' : 'text-ink-800',
             ]"
           >
             <span class="shrink-0 font-mono text-[10px] text-ink-400">{{ node.code }}</span>
             <span class="truncate">{{ node.label }}</span>
             <span
               v-if="node.declaredPropertyCount > 0"
-              class="ml-auto shrink-0 rounded-full bg-sand-200/60 px-1.5 font-mono text-[10px] text-ink-500"
+              class="ml-auto shrink-0 rounded-full bg-paper-200/60 px-1.5 font-mono text-[10px] text-ink-500"
             >
               {{ node.declaredPropertyCount }}
             </span>

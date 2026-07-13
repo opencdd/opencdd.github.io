@@ -53,7 +53,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="flex items-center gap-0.5 rounded-md border border-ink-200 bg-sand-50 p-0.5 print:hidden"
+    class="flex items-center gap-0.5 rounded-md border border-ink-200 bg-paper-50 p-0.5 print:hidden"
     role="group"
     aria-label="Language"
   >
@@ -65,8 +65,8 @@ onMounted(() => {
       :class="[
         'rounded px-1.5 py-0.5 text-[11px] font-medium uppercase transition',
         current === lang
-          ? 'bg-accent-600 text-white'
-          : 'text-ink-500 hover:bg-sand-100 hover:text-ink-800',
+          ? 'bg-hex-600 text-white'
+          : 'text-ink-500 hover:bg-paper-100 hover:text-ink-800',
       ]"
       :aria-pressed="current === lang"
     >
