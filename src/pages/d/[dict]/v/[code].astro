@@ -1,11 +1,11 @@
 ---
 import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
-import Card from "~/components/ui/Card.astro";
-import SectionTitle from "~/components/ui/SectionTitle.astro";
+import ReferenceSection from "~/components/ui/ReferenceSection.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
-import ValueTermTable from "~/components/ui/ValueTermTable.astro";
+import FilterableValueTermList from "~/components/islands/FilterableValueTermList.vue";
 import UsedByField from "~/components/ui/UsedByField.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
+import { toValueTermListItems } from "~/lib/listItems";
 import type { ValueListNode, ValueTermNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -32,6 +32,8 @@ if (node.term_irdis && node.term_irdis.length > 0) {
     (n): n is ValueTermNode => n.type === "value_term" && n.value_list === node.irdi,
   );
 }
+
+const termItems = toValueTermListItems(terms, dict!);
 ---
 
 <EntityDetailShell
@@ -42,12 +44,9 @@ if (node.term_irdis && node.term_irdis.length > 0) {
   <EntityBadge slot="badge" type="value_list" />
 
   {terms.length > 0 && (
-    <Card>
-      <SectionTitle count={terms.length} anchor={true}>Terms</SectionTitle>
-      <div class="mt-3">
-        <ValueTermTable slug={dict!} bundle={bundle} terms={terms} />
-      </div>
-    </Card>
+    <ReferenceSection title="Terms" count={terms.length} anchor>
+      <FilterableValueTermList client:visible items={termItems} empty="No terms." />
+    </ReferenceSection>
   )}
 
   <UsedByField

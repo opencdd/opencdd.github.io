@@ -11,8 +11,8 @@ const entries = Object.entries(properties).sort(([a], [b]) => a.localeCompare(b)
 ---
 
 {entries.length > 0 && (
-  <details class={cn("group rounded-lg border border-ink-200 bg-sand-50/40", className)}>
-    <summary class="cursor-pointer px-3 py-2 text-xs font-medium text-ink-600 select-none hover:bg-sand-100/60">
+  <details class={cn("group rounded-lg border border-ink-200 bg-paper-50/40", className)}>
+    <summary class="cursor-pointer px-3 py-2 text-xs font-medium text-ink-600 select-none hover:bg-paper-100/60">
       Raw properties ({entries.length} keys from source .xls) — click to expand
     </summary>
     <dl class="grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 px-3 py-2 text-xs">

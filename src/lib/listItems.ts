@@ -8,7 +8,7 @@
  */
 
 import type { DictionaryBundle } from "./bundle";
-import type { PropertyNode } from "./types";
+import type { PropertyNode, ValueTermNode } from "./types";
 import { codeFromIrdi } from "./irdi";
 import { entityRoute } from "./entityTypeMeta";
 import { parseDataType, dataTypeLabel } from "./dataType";
@@ -24,6 +24,13 @@ export interface PropertyListItem {
   dataTypeLabel: string | null;
   unitName: string | null;
   unitHref: string | null;
+}
+
+export interface ValueTermListItem {
+  code: string;
+  name: string;
+  href: string;
+  definition: string | null;
 }
 
 export function toEntityListItem(
@@ -84,4 +91,24 @@ export function toPropertyListItems(
   slug: string,
 ): PropertyListItem[] {
   return properties.map((p) => toPropertyListItem(p, bundle, slug));
+}
+
+export function toValueTermListItem(
+  t: ValueTermNode,
+  slug: string,
+): ValueTermListItem {
+  const code = t.enumeration_code ?? t.code ?? codeFromIrdi(t.irdi);
+  return {
+    code,
+    name: t.preferred_name ?? code,
+    href: entityRoute(slug, "value_term", code),
+    definition: t.definition ?? null,
+  };
+}
+
+export function toValueTermListItems(
+  terms: readonly ValueTermNode[],
+  slug: string,
+): ValueTermListItem[] {
+  return terms.map((t) => toValueTermListItem(t, slug));
 }

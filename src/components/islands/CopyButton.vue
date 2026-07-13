@@ -39,7 +39,7 @@ onUnmounted(() => {
     class="inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-[11px] font-medium transition print:hidden"
     :class="copied
       ? 'bg-emerald-50 text-emerald-700'
-      : 'text-ink-400 hover:bg-sand-100 hover:text-ink-700'"
+      : 'text-ink-400 hover:bg-paper-100 hover:text-ink-700'"
   >
     <span v-if="copied">
       <svg viewBox="0 0 16 16" fill="currentColor" class="h-3 w-3" aria-hidden="true">
