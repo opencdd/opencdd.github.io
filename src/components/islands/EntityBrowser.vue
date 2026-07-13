@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, nextTick } from "vue";
 import { useFilter } from "~/composables/useFilter";
 import FilterBar from "./FilterBar.vue";
 import type { EntityType } from "~/lib/types";
@@ -15,6 +15,8 @@ export interface EntityTab {
   label: string;
   count: number;
   items: EntityTabItem[];
+  /** True total before capping (equals items.length when not capped). */
+  totalCount: number;
 }
 
 const props = defineProps<{
@@ -33,6 +35,10 @@ const activeTab = computed(
   () => props.tabs.find((t) => t.type === activeType.value) ?? props.tabs[0],
 );
 
+const isCapped = computed(
+  () => (activeTab.value?.totalCount ?? 0) > (activeTab.value?.items.length ?? 0),
+);
+
 const { query, filtered } = useFilter(
   computed(() => activeTab.value?.items ?? []),
   (item) => [item.code, item.name],
@@ -42,6 +48,12 @@ const PAGE_SIZE = 50;
 const visibleCount = ref(PAGE_SIZE);
 const visibleItems = computed(() => filtered.value.slice(0, visibleCount.value));
 const hasMore = computed(() => visibleCount.value < filtered.value.length);
+
+const tabRefs = ref<HTMLElement[]>([]);
+
+function setTabRef(el: any, idx: number) {
+  if (el) tabRefs.value[idx] = el;
+}
 
 function switchTab(type: EntityType) {
   if (activeType.value === type) return;
@@ -58,18 +70,58 @@ function switchTab(type: EntityType) {
 function showMore() {
   visibleCount.value += PAGE_SIZE;
 }
+
+function onTabKeydown(event: KeyboardEvent, idx: number) {
+  const tabCount = props.tabs.length;
+  let newIdx: number | null = null;
+
+  switch (event.key) {
+    case "ArrowRight":
+    case "ArrowDown":
+      newIdx = (idx + 1) % tabCount;
+      break;
+    case "ArrowLeft":
+    case "ArrowUp":
+      newIdx = (idx - 1 + tabCount) % tabCount;
+      break;
+    case "Home":
+      newIdx = 0;
+      break;
+    case "End":
+      newIdx = tabCount - 1;
+      break;
+  }
+
+  if (newIdx !== null) {
+    event.preventDefault();
+    const targetTab = props.tabs[newIdx];
+    if (targetTab) {
+      switchTab(targetTab.type);
+      nextTick(() => tabRefs.value[newIdx!]?.focus());
+    }
+  }
+}
 </script>
 
 <template>
   <div>
     <div class="border-b border-ink-200">
-      <nav role="tablist" aria-label="Entity types" class="flex flex-wrap gap-1">
+      <nav
+        role="tablist"
+        aria-label="Entity types"
+        class="flex flex-wrap gap-1"
+      >
         <button
-          v-for="tab in tabs"
+          v-for="(tab, idx) in tabs"
           :key="tab.type"
+          :ref="(el) => setTabRef(el, idx)"
           role="tab"
+          :id="`tab-${tab.type}`"
           :aria-selected="tab.type === activeType"
+          :aria-controls="`panel-${tab.type}`"
+          :tabindex="tab.type === activeType ? 0 : -1"
           @click="switchTab(tab.type)"
+          @keydown="onTabKeydown($event, idx)"
           :class="[
             '-mb-px border-b-2 px-3 py-2 text-sm font-medium transition',
             tab.type === activeType
@@ -83,7 +135,12 @@ function showMore() {
       </nav>
     </div>
 
-    <div class="mt-4">
+    <div
+      role="tabpanel"
+      :id="`panel-${activeType}`"
+      :aria-labelledby="`tab-${activeType}`"
+      class="mt-4"
+    >
       <FilterBar
         v-model="query"
         :filtered="filtered.length"
@@ -125,6 +182,17 @@ function showMore() {
           Show {{ Math.min(PAGE_SIZE, filtered.length - visibleCount) }} more
           ({{ filtered.length - visibleCount }} remaining)
         </button>
+      </div>
+
+      <div
+        v-if="isCapped"
+        class="mt-4 rounded-lg border border-lapis-200 bg-lapis-50/40 px-4 py-2.5 text-xs text-ink-600"
+      >
+        Showing the first {{ activeTab?.items.length.toLocaleString() }} of
+        {{ activeTab?.totalCount.toLocaleString() }}.
+        <a href="/search" class="font-medium text-lapis-700 underline decoration-dotted underline-offset-2">
+          Use search →
+        </a>
       </div>
     </div>
   </div>

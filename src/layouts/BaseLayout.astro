@@ -4,6 +4,7 @@ import { ClientRouter } from "astro:transitions";
 import SkipToContent from "~/components/ui/SkipToContent.astro";
 import Header from "~/components/layout/Header.astro";
 import Footer from "~/components/layout/Footer.astro";
+import KeyboardShortcuts from "~/components/layout/KeyboardShortcuts.astro";
 
 interface Props {
   title: string;
@@ -38,5 +39,6 @@ const { title, description = "OpenCDD — a modern browser for published IEC CDD
       <slot />
     </main>
     <Footer />
+    <KeyboardShortcuts />
   </body>
 </html>
