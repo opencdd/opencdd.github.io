@@ -7,13 +7,20 @@ import MetadataFields from "~/components/ui/MetadataFields.astro";
 import { codeFromIrdi } from "~/lib/irdi";
 import type { EntityMetadata } from "~/lib/types";
 
+interface StatItem {
+  label: string;
+  value: number;
+  href?: string;
+}
+
 interface Props {
   dict: string;
   node: EntityMetadata;
   title: string;
+  stats?: StatItem[];
 }
 
-const { dict, node, title } = Astro.props;
+const { dict, node, title, stats = [] } = Astro.props;
 ---
 
 <DictionaryLayout dict={dict} title={title}>
@@ -29,6 +36,7 @@ const { dict, node, title } = Astro.props;
       revision={node.revision}
       dates={node.dates}
       sourceDocument={node.source_document}
+      stats={stats}
     >
       <slot name="badge" />
       <slot name="extra-badges" />
