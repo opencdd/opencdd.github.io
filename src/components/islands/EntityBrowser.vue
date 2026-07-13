@@ -125,7 +125,7 @@ function onTabKeydown(event: KeyboardEvent, idx: number) {
           :class="[
             '-mb-px border-b-2 px-3 py-2 text-sm font-medium transition',
             tab.type === activeType
-              ? 'border-hex-500 text-hex-700'
+              ? 'border-lapis-500 text-lapis-700'
               : 'border-transparent text-ink-500 hover:border-ink-300 hover:text-ink-700',
           ]"
         >
