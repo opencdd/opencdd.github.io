@@ -54,6 +54,10 @@ import Card from "~/components/ui/Card.astro";
           showImages: false,
           pageSize: 10,
         });
+        setTimeout(() => {
+          const input = document.querySelector<HTMLInputElement>(".pagefind-ui input");
+          input?.focus();
+        }, 100);
       });
     }
     if (document.readyState === "loading") {
