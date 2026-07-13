@@ -15,30 +15,23 @@ const { slug, bundle, terms } = Astro.props;
 {terms.length === 0 ? (
   <p class="text-sm text-ink-500">No terms.</p>
 ) : (
-  <div class="overflow-x-auto scroll-thin -mx-2">
-    <table class="min-w-full text-sm border-collapse">
-      <thead>
-        <tr class="border-b border-ink-200 text-left text-xs uppercase tracking-wide text-ink-500">
-          <th scope="col" class="px-3 py-2 font-medium">Code</th>
-          <th scope="col" class="px-3 py-2 font-medium">Name</th>
-          <th scope="col" class="px-3 py-2 font-medium">Definition</th>
-        </tr>
-      </thead>
-      <tbody>
-        {terms.map((t) => (
-          <tr class="border-b border-ink-100 align-top transition hover:bg-sand-50/60">
-            <td class="px-3 py-2 font-mono text-[11px] text-ink-600 whitespace-nowrap">
-              {t.enumeration_code ?? t.code}
-            </td>
-            <td class="px-3 py-2 font-medium text-ink-800">
-              <EntityLink slug={slug} irdi={t.irdi} bundle={bundle} />
-            </td>
-            <td class="px-3 py-2 text-xs text-ink-600">
-              {t.definition ?? <span class="text-ink-300">—</span>}
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+  <div class="divide-y divide-paper-200">
+    {terms.map((t) => (
+      <article class="group py-3 first:pt-0 last:pb-0">
+        <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+          <code class="shrink-0 rounded bg-paper-100 px-1.5 py-0.5 font-mono text-[10px] tracking-wide text-ink-500 transition group-hover:bg-lapis-50 group-hover:text-lapis-700">
+            {t.enumeration_code ?? t.code}
+          </code>
+          <span class="font-medium text-ink-900">
+            <EntityLink slug={slug} irdi={t.irdi} bundle={bundle} hideCode />
+          </span>
+        </div>
+        {t.definition && (
+          <p class="mt-1.5 max-w-3xl text-sm leading-relaxed text-ink-600">
+            {t.definition}
+          </p>
+        )}
+      </article>
+    ))}
   </div>
 )}

@@ -4,6 +4,12 @@ import IrdiPill from "./IrdiPill.astro";
 import MultilingualText from "./MultilingualText.astro";
 import type { MultilingualText as MLText, EntityDates } from "~/lib/types";
 
+interface StatItem {
+  label: string;
+  value: number;
+  href?: string;
+}
+
 interface Props {
   title: string;
   irdi: string;
@@ -16,6 +22,7 @@ interface Props {
   dates?: EntityDates;
   sourceDocument?: string;
   extraBadges?: unknown;
+  stats?: StatItem[];
 }
 
 const {
@@ -29,6 +36,7 @@ const {
   revision,
   dates,
   sourceDocument,
+  stats = [],
 } = Astro.props;
 
 const pills: Array<{ key: string; tone: "neutral" | "accent"; text: string }> = [];
@@ -87,6 +95,28 @@ if (sourceDocument) {
       <MultilingualText source={definition} translations={definitionTranslations} />
     </p>
   )}
+  {stats.length > 0 && (
+    <dl class="relative mt-4 flex flex-wrap gap-x-6 gap-y-2 border-t border-paper-200/70 pt-3">
+      {stats.map((s) => (
+        <div class="flex items-baseline gap-1.5">
+          <dt class="text-[11px] font-medium uppercase tracking-wide text-ink-500">
+            {s.href ? (
+              <a
+                href={s.href}
+                class="transition hover:text-lapis-700"
+              >
+                {s.label}
+              </a>
+            ) : (
+              s.label
+            )}
+          </dt>
+          <dd class="font-mono text-sm font-medium tabular-nums text-ink-800">
+            {s.value.toLocaleString()}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  )}
   <slot />
 </header>
-

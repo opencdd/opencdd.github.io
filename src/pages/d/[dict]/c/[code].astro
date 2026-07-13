@@ -9,13 +9,19 @@ import Badge from "~/components/ui/Badge.astro";
 import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
 import EntityLinkList from "~/components/ui/EntityLinkList.astro";
 import PropertyTable from "~/components/ui/PropertyTable.astro";
+import FilterableEntityList from "~/components/islands/FilterableEntityList.vue";
+import FilterablePropertyList from "~/components/islands/FilterablePropertyList.vue";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import RawProperties from "~/components/ui/RawProperties.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
 import UnresolvedIrdiList from "~/components/ui/UnresolvedIrdiList.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
+import { toEntityListItems, toPropertyListItems } from "~/lib/listItems";
 import type { ClassNode } from "~/lib/types";
+
+const FILTER_ENTITY_THRESHOLD = 10;
+const FILTER_PROPERTY_THRESHOLD = 8;
 
 export function getStaticPaths() {
   return entityStaticPaths("class");
@@ -39,9 +45,6 @@ const relationsAsDomain = bundle.relationsForClass(node.irdi);
 const relationsAsCodomain = bundle.relationsForCodomainClass(node.irdi);
 const ancestorChain = bundle.ancestorChainOf(node.irdi);
 
-// Unresolved references — IRDIs the source data mentions but whose
-// entities weren't scraped. Surface them visibly so the gap is
-// explicit, instead of silently rendering "No X".
 const applicableIrdis = node.applicable_properties ?? [];
 const importedIrdis = node.imported_properties ?? [];
 const isCaseOfIrdis = node.is_case_of ?? [];
@@ -54,9 +57,42 @@ const unresolvedComposition = bundle.resolveIrdis(compositionIrdis).unresolved;
 const unresolvedSuperclass =
   node.superclass && !bundle.hasEntity(node.superclass) ? [node.superclass] : [];
 
-// "Higher level classes" — the ancestor chain (Root → ... → Self).
-// We exclude the entity itself from this listing (the last entry).
 const higherLevel = ancestorChain.slice(0, -1);
+
+const stats = [
+  { label: "Properties", value: declared.length, href: "#declared-properties" },
+  { label: "Subclasses", value: subclasses.length, href: "#subclasses" },
+  ...(inherited.length > 0
+    ? [{ label: "Inherited", value: inherited.length }]
+    : []),
+];
+
+const subclassItems = toEntityListItems(
+  subclasses.map((c) => c.irdi),
+  bundle,
+  dict!,
+);
+const useSubclassFilter = subclassItems.length > FILTER_ENTITY_THRESHOLD;
+
+const importedItems = toEntityListItems(importedIrdis, bundle, dict!);
+const useImportedFilter = importedItems.length > FILTER_ENTITY_THRESHOLD;
+
+const declaredItems = toPropertyListItems(declared, bundle, dict!);
+const useDeclaredFilter = declaredItems.length > FILTER_PROPERTY_THRESHOLD;
+
+const relationDomainItems = toEntityListItems(
+  relationsAsDomain.map((r) => r.irdi),
+  bundle,
+  dict!,
+);
+const useRelationDomainFilter = relationDomainItems.length > FILTER_ENTITY_THRESHOLD;
+
+const relationCodomainItems = toEntityListItems(
+  relationsAsCodomain.map((r) => r.irdi),
+  bundle,
+  dict!,
+);
+const useRelationCodomainFilter = relationCodomainItems.length > FILTER_ENTITY_THRESHOLD;
 ---
 
 <DictionaryLayout
@@ -83,6 +119,7 @@ const higherLevel = ancestorChain.slice(0, -1);
       revision={node.revision}
       dates={node.dates}
       sourceDocument={node.source_document}
+      stats={stats}
     >
       <EntityBadge slot="badge" type="class" />
       {node.class_type && (
@@ -96,17 +133,11 @@ const higherLevel = ancestorChain.slice(0, -1);
       <Card>
         <SectionTitle count={higherLevel.length} anchor={true}>Higher level classes</SectionTitle>
         <div class="mt-3">
-          <ol class="space-y-1 text-sm">
-            {higherLevel.map((c) => (
-              <li class="flex items-baseline gap-2">
-                <EntityLinkList
-                  slug={dict!}
-                  bundle={bundle}
-                  irdis={[c.irdi]}
-                />
-              </li>
-            ))}
-          </ol>
+          <EntityLinkList
+            slug={dict!}
+            bundle={bundle}
+            irdis={higherLevel.map((c) => c.irdi)}
+          />
           {unresolvedSuperclass.length > 0 && (
             <UnresolvedIrdiList
               irdis={unresolvedSuperclass}
@@ -127,6 +158,8 @@ const higherLevel = ancestorChain.slice(0, -1);
               ? `${applicableIrdis.length} property IRDIs are referenced but their full records weren't scraped. See the references list below.`
               : "This class does not declare any properties of its own."}
           </EmptyState>
+        ) : useDeclaredFilter ? (
+          <FilterablePropertyList client:visible items={declaredItems} />
         ) : (
           <PropertyTable slug={dict!} bundle={bundle} properties={declared} />
         )}
@@ -155,6 +188,8 @@ const higherLevel = ancestorChain.slice(0, -1);
         <div class="mt-3">
           {importedIrdis.length === unresolvedImported.length ? (
             <EmptyState title="Imported property records not in browser data" />
+          ) : useImportedFilter ? (
+            <FilterableEntityList client:visible items={importedItems} placeholder="Filter imported properties…" />
           ) : (
             <EntityLinkList
               slug={dict!}
@@ -174,12 +209,20 @@ const higherLevel = ancestorChain.slice(0, -1);
     <Card>
       <SectionTitle count={subclasses.length} anchor={true}>Subclasses</SectionTitle>
       <div class="mt-3">
-        <EntityLinkList
-          slug={dict!}
-          bundle={bundle}
-          irdis={subclasses.map((c) => c.irdi)}
-          empty="No subclasses."
-        />
+        {subclasses.length === 0 ? (
+          <EmptyState title="No subclasses">
+            This class is a leaf — no other classes inherit from it.
+          </EmptyState>
+        ) : useSubclassFilter ? (
+          <FilterableEntityList client:visible items={subclassItems} placeholder="Filter subclasses…" />
+        ) : (
+          <EntityLinkList
+            slug={dict!}
+            bundle={bundle}
+            irdis={subclasses.map((c) => c.irdi)}
+            empty="No subclasses."
+          />
+        )}
       </div>
     </Card>
 
@@ -230,13 +273,15 @@ const higherLevel = ancestorChain.slice(0, -1);
       <Card>
         <SectionTitle count={relationsAsDomain.length} anchor={true}>Relations</SectionTitle>
         <div class="mt-3">
-          <ul class="space-y-1.5 text-sm">
-            {relationsAsDomain.map((r) => (
-              <li>
-                <EntityLinkList slug={dict!} bundle={bundle} irdis={[r.irdi]} />
-              </li>
-            ))}
-          </ul>
+          {useRelationDomainFilter ? (
+            <FilterableEntityList client:visible items={relationDomainItems} placeholder="Filter relations…" />
+          ) : (
+            <EntityLinkList
+              slug={dict!}
+              bundle={bundle}
+              irdis={relationsAsDomain.map((r) => r.irdi)}
+            />
+          )}
         </div>
       </Card>
     )}
@@ -245,13 +290,15 @@ const higherLevel = ancestorChain.slice(0, -1);
       <Card>
         <SectionTitle count={relationsAsCodomain.length} anchor={true}>Referenced as codomain</SectionTitle>
         <div class="mt-3">
-          <ul class="space-y-1.5 text-sm">
-            {relationsAsCodomain.map((r) => (
-              <li>
-                <EntityLinkList slug={dict!} bundle={bundle} irdis={[r.irdi]} />
-              </li>
-            ))}
-          </ul>
+          {useRelationCodomainFilter ? (
+            <FilterableEntityList client:visible items={relationCodomainItems} placeholder="Filter references…" />
+          ) : (
+            <EntityLinkList
+              slug={dict!}
+              bundle={bundle}
+              irdis={relationsAsCodomain.map((r) => r.irdi)}
+            />
+          )}
         </div>
       </Card>
     )}
@@ -269,8 +316,7 @@ const higherLevel = ancestorChain.slice(0, -1);
         <p class="mt-2 text-xs text-ink-500">
           Every key from the original .xls export, including multilingual
           variants, status, publisher, committee, and workbook-specific
-          codes. This is the raw, unprocessed content — nothing from the
-          source is discarded.
+          codes.
         </p>
         <div class="mt-3">
           <RawProperties properties={(node as any).raw_properties} />

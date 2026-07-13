@@ -10,9 +10,7 @@ interface Props {
   bundle: DictionaryBundle;
   properties: readonly PropertyNode[];
   empty?: string;
-  /** When true, wraps in a collapsed <details> element. */
   collapsable?: boolean;
-  /** Label for the collapsable summary. */
   label?: string;
 }
 
@@ -30,97 +28,77 @@ const {
   <p class="text-sm text-ink-500">{empty}</p>
 ) : collapsable ? (
   <details>
-    <summary class="cursor-pointer select-none text-xs font-semibold uppercase tracking-[0.08em] text-ink-500 hover:text-ink-700">
+    <summary class="cursor-pointer select-none text-xs font-semibold uppercase tracking-[0.08em] text-ink-500 transition hover:text-lapis-700">
       {label} ({properties.length}) — click to expand
     </summary>
-    <div class="mt-2 overflow-x-auto scroll-thin -mx-2">
-      <table class="min-w-full text-sm border-collapse">
-        <thead>
-          <tr class="border-b border-ink-200 text-left text-xs uppercase tracking-wide text-ink-500">
-            <th scope="col" class="px-3 py-1.5 font-medium">Code</th>
-            <th scope="col" class="px-3 py-1.5 font-medium">Name</th>
-            <th scope="col" class="px-3 py-1.5 font-medium">Type</th>
-            <th scope="col" class="px-3 py-1.5 font-medium">Unit</th>
-            <th scope="col" class="px-3 py-1.5 font-medium">Definition</th>
-          </tr>
-        </thead>
-        <tbody>
-          {properties.map((p) => (
-            <tr class="border-b border-ink-100 align-baseline transition hover:bg-sand-50/60">
-              <td class="px-3 py-1.5 font-mono text-[11px] text-ink-600 whitespace-nowrap">
-                {p.code ?? codeFromIrdi(p.irdi)}
-              </td>
-              <td class="px-3 py-1.5 font-medium text-ink-800">
+    <div class="mt-3 divide-y divide-paper-200">
+      {properties.map((p) => {
+        const code = p.code ?? codeFromIrdi(p.irdi);
+        return (
+          <article class="group py-3 first:pt-0 last:pb-0">
+            <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+              <code class="shrink-0 rounded bg-paper-100 px-1.5 py-0.5 font-mono text-[10px] tracking-wide text-ink-500 transition group-hover:bg-lapis-50 group-hover:text-lapis-700">
+                {code}
+              </code>
+              <span class="font-medium text-ink-900">
                 <EntityLink slug={slug} irdi={p.irdi} bundle={bundle} hideCode />
-              </td>
-              <td class="px-3 py-1.5">
-                {p.data_type && (
-                  <DataTypeChip raw={p.data_type} slug={slug} bundle={bundle} />
-                )}
-              </td>
-              <td class="px-3 py-1.5 text-xs text-ink-600">
-                {p.unit ? (
-                  <EntityLink slug={slug} irdi={p.unit} bundle={bundle} hideCode />
-                ) : (
-                  <span class="text-ink-300">—</span>
-                )}
-              </td>
-              <td class="px-3 py-1.5 text-xs text-ink-600 max-w-md">
-                {p.definition ? (
-                  <span class="line-clamp-2">{p.definition}</span>
-                ) : (
-                  <span class="text-ink-300">—</span>
-                )}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+              </span>
+              {(p.data_type || p.unit) && (
+                <span class="ml-auto flex flex-wrap items-center gap-1.5 text-[11px] text-ink-500">
+                  {p.data_type && (
+                    <DataTypeChip raw={p.data_type} slug={slug} bundle={bundle} />
+                  )}
+                  {p.unit && (
+                    <span class="inline-flex items-center gap-1 rounded border border-teal-200 bg-teal-50 px-1.5 py-0.5 text-[10px] text-teal-700">
+                      <EntityLink slug={slug} irdi={p.unit} bundle={bundle} hideCode />
+                    </span>
+                  )}
+                </span>
+              )}
+            </div>
+            {p.definition && (
+              <p class="mt-1.5 max-w-3xl text-sm leading-relaxed text-ink-600">
+                {p.definition}
+              </p>
+            )}
+          </article>
+        );
+      })}
     </div>
   </details>
 ) : (
-  <div class="overflow-x-auto scroll-thin -mx-2">
-    <table class="min-w-full text-sm border-collapse">
-      <thead>
-        <tr class="border-b border-ink-200 text-left text-xs uppercase tracking-wide text-ink-500">
-          <th scope="col" class="px-3 py-1.5 font-medium">Code</th>
-          <th scope="col" class="px-3 py-1.5 font-medium">Name</th>
-          <th scope="col" class="px-3 py-1.5 font-medium">Type</th>
-          <th scope="col" class="px-3 py-1.5 font-medium">Unit</th>
-          <th scope="col" class="px-3 py-1.5 font-medium">Definition</th>
-        </tr>
-      </thead>
-      <tbody>
-        {properties.map((p) => (
-          <tr class="border-b border-ink-100 align-baseline transition hover:bg-sand-50/60">
-            <td class="px-3 py-1.5 font-mono text-[11px] text-ink-600 whitespace-nowrap">
-              {p.code ?? codeFromIrdi(p.irdi)}
-            </td>
-            <td class="px-3 py-1.5 font-medium text-ink-800">
+  <div class="divide-y divide-paper-200">
+    {properties.map((p) => {
+      const code = p.code ?? codeFromIrdi(p.irdi);
+      return (
+        <article class="group py-3 first:pt-0 last:pb-0">
+          <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+            <code class="shrink-0 rounded bg-paper-100 px-1.5 py-0.5 font-mono text-[10px] tracking-wide text-ink-500 transition group-hover:bg-lapis-50 group-hover:text-lapis-700">
+              {code}
+            </code>
+            <span class="font-medium text-ink-900">
               <EntityLink slug={slug} irdi={p.irdi} bundle={bundle} hideCode />
-            </td>
-            <td class="px-3 py-1.5">
-              {p.data_type && (
-                <DataTypeChip raw={p.data_type} slug={slug} bundle={bundle} />
-              )}
-            </td>
-            <td class="px-3 py-1.5 text-xs text-ink-600">
-              {p.unit ? (
-                <EntityLink slug={slug} irdi={p.unit} bundle={bundle} hideCode />
-              ) : (
-                <span class="text-ink-300">—</span>
-              )}
-            </td>
-            <td class="px-3 py-1.5 text-xs text-ink-600 max-w-md">
-              {p.definition ? (
-                <span class="line-clamp-2">{p.definition}</span>
-              ) : (
-                <span class="text-ink-300">—</span>
-              )}
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+            </span>
+            {(p.data_type || p.unit) && (
+              <span class="ml-auto flex flex-wrap items-center gap-1.5 text-[11px] text-ink-500">
+                {p.data_type && (
+                  <DataTypeChip raw={p.data_type} slug={slug} bundle={bundle} />
+                )}
+                {p.unit && (
+                  <span class="inline-flex items-center gap-1 rounded border border-teal-200 bg-teal-50 px-1.5 py-0.5 text-[10px] text-teal-700">
+                    <EntityLink slug={slug} irdi={p.unit} bundle={bundle} hideCode />
+                  </span>
+                )}
+              </span>
+            )}
+          </div>
+          {p.definition && (
+            <p class="mt-1.5 max-w-3xl text-sm leading-relaxed text-ink-600">
+              {p.definition}
+            </p>
+          )}
+        </article>
+      );
+    })}
   </div>
 )}
