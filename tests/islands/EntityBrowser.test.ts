@@ -15,6 +15,7 @@ function makeTab(type: string, label: string, count: number): EntityTab {
       name: `${label.slice(0, -1)} ${i + 1}`,
       href: `/d/test/${type[0]}/${type.toUpperCase()}${String(i + 1).padStart(3, "0")}/`,
     })),
+    totalCount: count,
   };
 }
 
@@ -138,5 +139,80 @@ describe("EntityBrowser", () => {
 
     expect(wrapper.text()).toContain("No matches");
     expect(wrapper.findAll("a")).toHaveLength(0);
+  });
+
+  it("shows capped notice when totalCount exceeds items.length", () => {
+    const tab = makeTab("class", "Classes", 3);
+    tab.totalCount = 500;
+    const wrapper = mount(EntityBrowser, { props: { tabs: [tab] } });
+
+    expect(wrapper.text()).toContain("Showing the first 3 of 500");
+    expect(wrapper.text()).toContain("Use search");
+  });
+
+  it("hides capped notice when all items are present", () => {
+    const tabs = [makeTab("class", "Classes", 10)];
+    const wrapper = mount(EntityBrowser, { props: { tabs } });
+
+    expect(wrapper.text()).not.toContain("Showing the first");
+  });
+
+  it("connects tabs to panel via aria-controls", () => {
+    const tabs = [
+      makeTab("class", "Classes", 3),
+      makeTab("property", "Properties", 2),
+    ];
+    const wrapper = mount(EntityBrowser, { props: { tabs } });
+
+    const classTab = wrapper.find("#tab-class");
+    expect(classTab.attributes("aria-controls")).toBe("panel-class");
+
+    const panel = wrapper.find('[role="tabpanel"]');
+    expect(panel.attributes("id")).toBe("panel-class");
+    expect(panel.attributes("aria-labelledby")).toBe("tab-class");
+  });
+
+  it("manages tabindex for roving focus", () => {
+    const tabs = [
+      makeTab("class", "Classes", 3),
+      makeTab("property", "Properties", 2),
+    ];
+    const wrapper = mount(EntityBrowser, { props: { tabs } });
+
+    const classTab = wrapper.find("#tab-class");
+    const propertyTab = wrapper.find("#tab-property");
+
+    expect(classTab.attributes("tabindex")).toBe("0");
+    expect(propertyTab.attributes("tabindex")).toBe("-1");
+  });
+
+  it("switches tab on ArrowRight", async () => {
+    const tabs = [
+      makeTab("class", "Classes", 3),
+      makeTab("property", "Properties", 2),
+    ];
+    const wrapper = mount(EntityBrowser, { props: { tabs } });
+
+    const classTab = wrapper.find("#tab-class");
+    await classTab.trigger("keydown", { key: "ArrowRight" });
+
+    expect(wrapper.find("#tab-property").attributes("aria-selected")).toBe("true");
+    expect(wrapper.findAll("a")).toHaveLength(2);
+  });
+
+  it("switches tab on ArrowLeft", async () => {
+    const tabs = [
+      makeTab("class", "Classes", 3),
+      makeTab("property", "Properties", 2),
+    ];
+    const wrapper = mount(EntityBrowser, {
+      props: { tabs, initialTab: "property" },
+    });
+
+    const propertyTab = wrapper.find("#tab-property");
+    await propertyTab.trigger("keydown", { key: "ArrowLeft" });
+
+    expect(wrapper.find("#tab-class").attributes("aria-selected")).toBe("true");
+    expect(wrapper.findAll("a")).toHaveLength(3);
   });
 });

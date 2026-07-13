@@ -13,6 +13,8 @@ import {
 import { loadDictionary, listRegistryEntries } from "~/lib/data";
 import { codeFromIrdi } from "~/lib/irdi";
 
+const MAX_ITEMS_PER_TAB = 200;
+
 export function getStaticPaths() {
   return listRegistryEntries().map((entry) => ({
     params: { dict: entry.slug },
@@ -27,10 +29,12 @@ const initialTabParam = Astro.url.searchParams.get("tab");
 const initialTab = entityTypeForSegment(initialTabParam) ?? "class";
 
 const tabs: EntityTab[] = TABBABLE_TYPES.map((type) => {
-  const count = countForType(bundle, type);
-  if (count === 0) return null;
+  const totalCount = countForType(bundle, type);
+  if (totalCount === 0) return null;
   const segment = routeSegmentFor(type);
-  const items = bundle.entitiesOfType(type).map((node) => {
+  const allNodes = bundle.entitiesOfType(type);
+  const cappedNodes = allNodes.slice(0, MAX_ITEMS_PER_TAB);
+  const items = cappedNodes.map((node) => {
     const code = node.code ?? codeFromIrdi(node.irdi);
     return {
       code,
@@ -41,8 +45,9 @@ const tabs: EntityTab[] = TABBABLE_TYPES.map((type) => {
   return {
     type,
     label: entityPluralTitleFor(type),
-    count,
+    count: totalCount,
     items,
+    totalCount,
   };
 }).filter((t): t is EntityTab => t !== null);
 ---
