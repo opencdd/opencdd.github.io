@@ -3,9 +3,10 @@ import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Field from "~/components/ui/Field.astro";
-import EntityLinkList from "~/components/ui/EntityLinkList.astro";
+import FilterableEntityList from "~/components/islands/FilterableEntityList.vue";
 import EntityLink from "~/components/ui/EntityLink.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
+import { toEntityListItems } from "~/lib/listItems";
 import type { RelationNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -19,6 +20,10 @@ const { node, bundle } = loadEntityForPage<RelationNode>(dict!, irdi as string);
 if (!node || node.type !== "relation") {
   return Astro.redirect("/404/");
 }
+
+const domainItems = node.domain
+  ? toEntityListItems(node.domain, bundle, dict!)
+  : [];
 ---
 
 <EntityDetailShell
@@ -46,8 +51,8 @@ if (!node || node.type !== "relation") {
         </Field>
       )}
       <Field label="Domain">
-        {node.domain && node.domain.length > 0 ? (
-          <EntityLinkList slug={dict!} bundle={bundle} irdis={node.domain} />
+        {domainItems.length > 0 ? (
+          <FilterableEntityList client:visible items={domainItems} />
         ) : (
           <span class="text-ink-400">—</span>
         )}

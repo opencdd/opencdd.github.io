@@ -1,6 +1,7 @@
 ---
 import Field from "./Field.astro";
-import EntityLinkList from "./EntityLinkList.astro";
+import FilterableEntityList from "~/components/islands/FilterableEntityList.vue";
+import { toEntityListItems } from "~/lib/listItems";
 import type { DictionaryBundle } from "~/lib/bundle";
 import type { EntityNode } from "~/lib/types";
 
@@ -9,7 +10,6 @@ interface Props {
   slug: string;
   bundle: DictionaryBundle;
   entities: readonly EntityNode[];
-  /** IRDI-of-the-current-entity — filtered out to avoid self-ref. */
   exceptIrdi?: string;
 }
 
@@ -17,14 +17,15 @@ const { label, slug, bundle, entities, exceptIrdi } = Astro.props;
 const filtered = exceptIrdi
   ? entities.filter((e) => e.irdi !== exceptIrdi)
   : entities;
+const items = toEntityListItems(
+  filtered.map((e) => e.irdi),
+  bundle,
+  slug,
+);
 ---
 
 {filtered.length > 0 && (
   <Field label={`${label} (${filtered.length})`}>
-    <EntityLinkList
-      slug={slug}
-      bundle={bundle}
-      irdis={filtered.map((e) => e.irdi)}
-    />
+    <FilterableEntityList client:visible items={items} />
   </Field>
 )}
