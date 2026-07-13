@@ -34,12 +34,18 @@ if (node.term_irdis && node.term_irdis.length > 0) {
 }
 
 const termItems = toValueTermListItems(terms, dict!);
+
+const stats = [
+  ...(terms.length > 0 ? [{ label: "Terms", value: terms.length }] : []),
+  ...(usedBy.length > 0 ? [{ label: "Used by properties", value: usedBy.length }] : []),
+];
 ---
 
 <EntityDetailShell
   dict={dict!}
   node={node}
   title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
+  stats={stats}
 >
   <EntityBadge slot="badge" type="value_list" />
 

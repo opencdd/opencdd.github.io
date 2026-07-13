@@ -25,12 +25,17 @@ if (!node || node.type !== "property") {
 const usedBy = bundle.classesDeclaringProperty(node.irdi);
 const valueList = node.value_list;
 const unit = node.unit;
+
+const stats = usedBy.length > 0
+  ? [{ label: "Used by classes", value: usedBy.length }]
+  : [];
 ---
 
 <EntityDetailShell
   dict={dict!}
   node={node}
   title={`${node.preferred_name ?? node.code} (${node.code}) — ${bundle.registry.title} — OpenCDD`}
+  stats={stats}
 >
   <EntityBadge slot="badge" type="property" />
 
