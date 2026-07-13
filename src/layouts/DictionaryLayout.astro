@@ -39,7 +39,7 @@ const bundle = loadDictionary(dict);
     <div class="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-4 px-4 py-4 lg:flex-row lg:px-6 lg:py-6">
       <aside
         aria-label="Class tree"
-        class="hidden shrink-0 lg:block lg:w-80 lg:overflow-y-auto lg:max-h-[calc(100vh-7rem)] lg:sticky lg:top-20 lg:pr-2 scroll-thin"
+        class="hidden shrink-0 lg:block lg:w-72 lg:overflow-y-auto lg:max-h-[calc(100vh-7rem)] lg:sticky lg:top-20 lg:pr-2 scroll-thin"
       >
         <ClassTree
           client:only="vue"
@@ -54,6 +54,12 @@ const bundle = loadDictionary(dict);
       >
         <slot />
       </section>
+      <aside
+        aria-label="On this page"
+        class="hidden shrink-0 xl:block xl:w-56 xl:sticky xl:top-20 xl:self-start xl:max-h-[calc(100vh-7rem)] xl:overflow-y-auto scroll-thin"
+      >
+        <slot name="sidebar-right" />
+      </aside>
     </div>
     <Footer />
     <KeyboardShortcuts />
