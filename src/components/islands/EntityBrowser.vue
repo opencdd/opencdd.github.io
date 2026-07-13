@@ -15,7 +15,6 @@ export interface EntityTab {
   label: string;
   count: number;
   items: EntityTabItem[];
-  /** True total before capping (equals items.length when not capped). */
   totalCount: number;
 }
 
@@ -39,10 +38,22 @@ const isCapped = computed(
   () => (activeTab.value?.totalCount ?? 0) > (activeTab.value?.items.length ?? 0),
 );
 
-const { query, filtered } = useFilter(
-  computed(() => activeTab.value?.items ?? []),
-  (item) => [item.code, item.name],
-);
+const sortBy = ref<"code" | "name">("code");
+
+const sortedItems = computed(() => {
+  const items = [...(activeTab.value?.items ?? [])];
+  items.sort((a, b) =>
+    sortBy.value === "name"
+      ? a.name.localeCompare(b.name)
+      : a.code.localeCompare(b.code),
+  );
+  return items;
+});
+
+const { query, filtered } = useFilter(sortedItems, (item) => [
+  item.code,
+  item.name,
+]);
 
 const PAGE_SIZE = 50;
 const visibleCount = ref(PAGE_SIZE);
@@ -141,13 +152,51 @@ function onTabKeydown(event: KeyboardEvent, idx: number) {
       :aria-labelledby="`tab-${activeType}`"
       class="mt-4"
     >
-      <FilterBar
-        v-model="query"
-        :filtered="filtered.length"
-        :total="activeTab?.items.length ?? 0"
-        :placeholder="`Filter ${activeTab?.label ?? ''}…`"
-        :aria-label="`Filter ${activeTab?.label ?? 'entities'}`"
-      />
+      <div
+        v-if="isCapped"
+        class="mb-3 rounded-lg border border-lapis-200 bg-lapis-50/40 px-4 py-2 text-xs text-ink-600"
+      >
+        Showing the first {{ activeTab?.items.length.toLocaleString() }} of
+        {{ activeTab?.totalCount.toLocaleString() }}.
+        <a href="/search" class="font-medium text-lapis-700 underline decoration-dotted underline-offset-2">
+          Use search →
+        </a>
+      </div>
+
+      <div class="mb-3 flex items-center gap-2">
+        <div class="relative flex-1">
+          <svg
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="pointer-events-none absolute left-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-ink-400"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9 3.5a5.5 5.5 0 1 0 3.39 9.83l3.39 3.39a.75.75 0 1 0 1.06-1.06l-3.39-3.39A5.5 5.5 0 0 0 9 3.5ZM5 9a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z"
+            />
+          </svg>
+          <input
+            v-model="query"
+            type="search"
+            :placeholder="`Filter ${activeTab?.label ?? ''}…`"
+            :aria-label="`Filter ${activeTab?.label ?? 'entities'}`"
+            class="w-full rounded-md border border-paper-300 bg-paper-50 py-1.5 pl-8 pr-3 text-sm text-ink-800 placeholder:text-ink-400 focus:border-lapis-500 focus:bg-paper-100 focus:outline-none focus:ring-2 focus:ring-lapis-200"
+          />
+        </div>
+        <span class="shrink-0 text-xs tabular-nums text-ink-500">
+          {{ filtered.length }} / {{ activeTab?.items.length ?? 0 }}
+        </span>
+        <select
+          v-model="sortBy"
+          aria-label="Sort by"
+          class="shrink-0 rounded-md border border-paper-300 bg-paper-50 px-2 py-1.5 text-xs text-ink-700 focus:border-lapis-500 focus:outline-none focus:ring-2 focus:ring-lapis-200"
+        >
+          <option value="code">Sort: Code</option>
+          <option value="name">Sort: Name</option>
+        </select>
+      </div>
 
       <p v-if="filtered.length === 0" class="py-8 text-center text-sm text-ink-500">
         No matches for "{{ query }}"
@@ -182,17 +231,6 @@ function onTabKeydown(event: KeyboardEvent, idx: number) {
           Show {{ Math.min(PAGE_SIZE, filtered.length - visibleCount) }} more
           ({{ filtered.length - visibleCount }} remaining)
         </button>
-      </div>
-
-      <div
-        v-if="isCapped"
-        class="mt-4 rounded-lg border border-lapis-200 bg-lapis-50/40 px-4 py-2.5 text-xs text-ink-600"
-      >
-        Showing the first {{ activeTab?.items.length.toLocaleString() }} of
-        {{ activeTab?.totalCount.toLocaleString() }}.
-        <a href="/search" class="font-medium text-lapis-700 underline decoration-dotted underline-offset-2">
-          Use search →
-        </a>
       </div>
     </div>
   </div>

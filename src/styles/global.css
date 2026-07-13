@@ -416,6 +416,22 @@ body {
   white-space: normal;
 }
 
+/* ── Section anchor flash highlight ────────────────────────────── */
+/* When a TOC link is clicked, the browser navigates to #section-id.
+   This animation briefly highlights the target so the user sees where
+   they landed. */
+@keyframes section-flash {
+  0% { background-color: rgb(37 162 203 / 0); }
+  15% { background-color: rgb(37 162 203 / 0.08); }
+  100% { background-color: rgb(37 162 203 / 0); }
+}
+:target[data-section-anchor],
+h2[id]:target,
+h3[id]:target {
+  animation: section-flash 1.2s ease-out;
+  border-radius: 8px;
+}
+
 /* ── Multilingual visibility ───────────────────────────────────── */
 /* CSS-driven language switching. The LanguageSwitcher island sets
    body[data-lang="xx"]; spans tagged per language show/hide via
