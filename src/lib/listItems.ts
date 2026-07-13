@@ -8,17 +8,13 @@
  */
 
 import type { DictionaryBundle } from "./bundle";
-import type { EntityNode, PropertyNode } from "./types";
+import type { PropertyNode } from "./types";
 import { codeFromIrdi } from "./irdi";
-import { entityRoute, detailableTypeOf } from "./entityTypeMeta";
+import { entityRoute } from "./entityTypeMeta";
 import { parseDataType, dataTypeLabel } from "./dataType";
+import { resolveEntityRef, type EntityRef } from "./entityRef";
 
-export interface EntityListItem {
-  code: string;
-  name: string;
-  href: string | null;
-  resolved: boolean;
-}
+export type { EntityRef as EntityListItem } from "./entityRef";
 
 export interface PropertyListItem {
   code: string;
@@ -34,24 +30,16 @@ export function toEntityListItem(
   irdi: string,
   bundle: DictionaryBundle,
   slug: string,
-): EntityListItem {
-  const node = bundle.find(irdi) as EntityNode | undefined;
-  const type = node?.type ?? null;
-  const detailable = type
-    ? detailableTypeOf({ type, irdi } as EntityNode)
-    : null;
-  const code = node?.code ?? codeFromIrdi(irdi);
-  const name = node?.preferred_name ?? code;
-  const href = detailable ? entityRoute(slug, detailable, code) : null;
-  return { code, name, href, resolved: !!node };
+): EntityRef {
+  return resolveEntityRef(irdi, bundle, slug);
 }
 
 export function toEntityListItems(
   irdis: readonly string[],
   bundle: DictionaryBundle,
   slug: string,
-): EntityListItem[] {
-  return irdis.map((irdi) => toEntityListItem(irdi, bundle, slug));
+): EntityRef[] {
+  return irdis.map((irdi) => resolveEntityRef(irdi, bundle, slug));
 }
 
 export function toPropertyListItem(
@@ -66,7 +54,7 @@ export function toPropertyListItem(
   let unitName: string | null = null;
   let unitHref: string | null = null;
   if (p.unit) {
-    const unitNode = bundle.find(p.unit) as EntityNode | undefined;
+    const unitNode = bundle.find(p.unit);
     if (unitNode) {
       unitName = unitNode.preferred_name ?? unitNode.code ?? null;
       if (unitNode.code && unitNode.type) {

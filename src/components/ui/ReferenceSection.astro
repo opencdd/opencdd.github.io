@@ -1,0 +1,39 @@
+---
+import Card from "./Card.astro";
+import SectionTitle from "./SectionTitle.astro";
+import UnresolvedIrdiList from "./UnresolvedIrdiList.astro";
+
+interface Props {
+  title: string;
+  count?: number;
+  anchor?: boolean;
+  unresolved?: string[];
+  unresolvedLabel?: string;
+  unresolvedTone?: "amber" | "rose";
+  class?: string;
+}
+
+const {
+  title,
+  count,
+  anchor = false,
+  unresolved = [],
+  unresolvedLabel,
+  unresolvedTone = "amber",
+  class: className,
+} = Astro.props;
+---
+
+<Card class={className}>
+  <SectionTitle count={count} anchor={anchor}>{title}</SectionTitle>
+  <div class="mt-3">
+    <slot />
+  </div>
+  {unresolved.length > 0 && (
+    <UnresolvedIrdiList
+      irdis={unresolved}
+      label={unresolvedLabel}
+      tone={unresolvedTone}
+    />
+  )}
+</Card>

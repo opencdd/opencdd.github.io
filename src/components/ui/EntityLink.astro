@@ -1,22 +1,17 @@
 ---
-import { entityRoute, detailableTypeOf } from "~/lib/entityTypeMeta";
-import { codeFromIrdi } from "~/lib/irdi";
+import { resolveEntityRef } from "~/lib/entityRef";
 import type { DictionaryBundle } from "~/lib/bundle";
-import type { EntityNode, EntityType } from "~/lib/types";
+import type { EntityType } from "~/lib/types";
+import { codeFromIrdi } from "~/lib/irdi";
 
 interface Props {
   slug: string;
   irdi: string;
   bundle: DictionaryBundle;
-  /** Optional override code (skip the bundle lookup). */
   code?: string;
-  /** Optional override label. */
   label?: string;
-  /** Optional override type. */
   type?: EntityType;
-  /** Show the full IRDI instead of the short code. */
   showIrdi?: boolean;
-  /** Suppress the code prefix entirely. */
   hideCode?: boolean;
 }
 
@@ -31,32 +26,28 @@ const {
   hideCode = false,
 } = Astro.props;
 
-const node: EntityNode | undefined = bundle.find(irdi);
-const resolvedType = type ?? node?.type ?? null;
-const resolvedCode = code ?? node?.code ?? codeFromIrdi(irdi);
-const resolvedLabel =
-  label ?? node?.preferred_name ?? node?.code ?? codeFromIrdi(irdi);
-
-const detailable = resolvedType ? detailableTypeOf({ type: resolvedType, irdi } as EntityNode) : null;
-const identifier = showIrdi ? irdi : resolvedCode;
+const ref = resolveEntityRef(irdi, bundle, slug);
+const identifier = showIrdi ? irdi : (code ?? ref.code);
+const displayLabel = label ?? ref.name;
+const hasHref = ref.href !== null;
 ---
 
-{detailable && resolvedType ? (
+{hasHref ? (
   <a
-    href={entityRoute(slug, resolvedType, resolvedCode)}
-    title={`${irdi} — ${resolvedLabel}`}
+    href={ref.href}
+    title={`${irdi} — ${displayLabel}`}
     class="text-lapis-700 underline decoration-dotted underline-offset-2 transition hover:text-lapis-900 hover:decoration-solid"
   >
     {!hideCode && (
       <span class="mr-1 font-mono text-[10px] text-ink-400">{identifier}</span>
     )}
-    {resolvedLabel}
+    {displayLabel}
   </a>
 ) : (
   <span class="text-ink-700" title={irdi}>
     {!hideCode && (
       <span class="mr-1 font-mono text-[10px] text-ink-400">{identifier}</span>
     )}
-    {resolvedLabel}
+    {displayLabel}
   </span>
 )}

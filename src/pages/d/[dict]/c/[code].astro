@@ -1,27 +1,22 @@
 ---
 import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
 import Card from "~/components/ui/Card.astro";
-import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
 import TableOfContents from "~/components/islands/TableOfContents.vue";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Badge from "~/components/ui/Badge.astro";
 import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
-import EntityLinkList from "~/components/ui/EntityLinkList.astro";
-import PropertyTable from "~/components/ui/PropertyTable.astro";
 import FilterableEntityList from "~/components/islands/FilterableEntityList.vue";
 import FilterablePropertyList from "~/components/islands/FilterablePropertyList.vue";
+import ReferenceSection from "~/components/ui/ReferenceSection.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import RawProperties from "~/components/ui/RawProperties.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
-import UnresolvedIrdiList from "~/components/ui/UnresolvedIrdiList.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
 import { toEntityListItems, toPropertyListItems } from "~/lib/listItems";
+import { buildClassPageData } from "~/lib/classPage";
 import type { ClassNode } from "~/lib/types";
-
-const FILTER_ENTITY_THRESHOLD = 10;
-const FILTER_PROPERTY_THRESHOLD = 8;
 
 export function getStaticPaths() {
   return entityStaticPaths("class");
@@ -35,64 +30,19 @@ if (!node || node.type !== "class") {
   return Astro.redirect("/404/");
 }
 
-const subclasses = bundle.subclassesOf(node.irdi);
-const instances = bundle.instancesOf(node.irdi);
-const declared = bundle.propertiesByClassIrdi(node.irdi);
-const effective = bundle.effectivePropertiesOf(node.irdi);
-const declaredIrdiSet = new Set(declared.map((p) => p.irdi));
-const inherited = effective.properties.filter((p) => !declaredIrdiSet.has(p.irdi));
-const relationsAsDomain = bundle.relationsForClass(node.irdi);
-const relationsAsCodomain = bundle.relationsForCodomainClass(node.irdi);
-const ancestorChain = bundle.ancestorChainOf(node.irdi);
+const page = buildClassPageData(node, bundle, dict!);
 
-const applicableIrdis = node.applicable_properties ?? [];
-const importedIrdis = node.imported_properties ?? [];
-const isCaseOfIrdis = node.is_case_of ?? [];
-const compositionIrdis = node.sub_class_selection ?? [];
-
-const unresolvedDeclared = bundle.resolveIrdis(applicableIrdis).unresolved;
-const unresolvedImported = bundle.resolveIrdis(importedIrdis).unresolved;
-const unresolvedIsCaseOf = bundle.resolveIrdis(isCaseOfIrdis).unresolved;
-const unresolvedComposition = bundle.resolveIrdis(compositionIrdis).unresolved;
-const unresolvedSuperclass =
-  node.superclass && !bundle.hasEntity(node.superclass) ? [node.superclass] : [];
-
-const higherLevel = ancestorChain.slice(0, -1);
-
-const stats = [
-  { label: "Properties", value: declared.length, href: "#declared-properties" },
-  { label: "Subclasses", value: subclasses.length, href: "#subclasses" },
-  ...(inherited.length > 0
-    ? [{ label: "Inherited", value: inherited.length }]
-    : []),
-];
-
-const subclassItems = toEntityListItems(
-  subclasses.map((c) => c.irdi),
+const higherLevelItems = toEntityListItems(
+  page.higherLevel.map((c) => c.irdi),
   bundle,
   dict!,
 );
-const useSubclassFilter = subclassItems.length > FILTER_ENTITY_THRESHOLD;
-
-const importedItems = toEntityListItems(importedIrdis, bundle, dict!);
-const useImportedFilter = importedItems.length > FILTER_ENTITY_THRESHOLD;
-
-const declaredItems = toPropertyListItems(declared, bundle, dict!);
-const useDeclaredFilter = declaredItems.length > FILTER_PROPERTY_THRESHOLD;
-
-const relationDomainItems = toEntityListItems(
-  relationsAsDomain.map((r) => r.irdi),
+const instanceItems = toEntityListItems(
+  page.instances.map((c) => c.irdi),
   bundle,
   dict!,
 );
-const useRelationDomainFilter = relationDomainItems.length > FILTER_ENTITY_THRESHOLD;
-
-const relationCodomainItems = toEntityListItems(
-  relationsAsCodomain.map((r) => r.irdi),
-  bundle,
-  dict!,
-);
-const useRelationCodomainFilter = relationCodomainItems.length > FILTER_ENTITY_THRESHOLD;
+const inheritedItems = toPropertyListItems(page.inherited, bundle, dict!);
 ---
 
 <DictionaryLayout
@@ -103,7 +53,7 @@ const useRelationCodomainFilter = relationCodomainItems.length > FILTER_ENTITY_T
     <Breadcrumbs
       slug={dict!}
       bundle={bundle}
-      crumbs={ancestorChain.map((c) => ({ irdi: c.irdi }))}
+      crumbs={page.ancestorCrumbs}
     />
 
     <TableOfContents client:only="vue" />
@@ -119,7 +69,7 @@ const useRelationCodomainFilter = relationCodomainItems.length > FILTER_ENTITY_T
       revision={node.revision}
       dates={node.dates}
       sourceDocument={node.source_document}
-      stats={stats}
+      stats={page.stats}
     >
       <EntityBadge slot="badge" type="class" />
       {node.class_type && (
@@ -129,191 +79,131 @@ const useRelationCodomainFilter = relationCodomainItems.length > FILTER_ENTITY_T
       )}
     </EntityHero>
 
-    {higherLevel.length > 0 && (
-      <Card>
-        <SectionTitle count={higherLevel.length} anchor={true}>Higher level classes</SectionTitle>
-        <div class="mt-3">
-          <EntityLinkList
-            slug={dict!}
-            bundle={bundle}
-            irdis={higherLevel.map((c) => c.irdi)}
-          />
-          {unresolvedSuperclass.length > 0 && (
-            <UnresolvedIrdiList
-              irdis={unresolvedSuperclass}
-              label="Superclass (entity not scraped)"
-              tone="rose"
-            />
-          )}
-        </div>
-      </Card>
+    {page.higherLevel.length > 0 && (
+      <ReferenceSection
+        title="Higher level classes"
+        count={page.higherLevel.length}
+        anchor
+        unresolved={page.unresolvedSuperclass}
+        unresolvedLabel="Superclass (entity not scraped)"
+        unresolvedTone="rose"
+      >
+        <FilterableEntityList client:visible items={higherLevelItems} />
+      </ReferenceSection>
     )}
 
-    <Card>
-      <SectionTitle count={applicableIrdis.length} anchor={true}>Declared properties</SectionTitle>
-      <div class="mt-3">
-        {declared.length === 0 ? (
-          <EmptyState title={applicableIrdis.length > 0 ? "Declared property records not in browser data" : "No declared properties"}>
-            {applicableIrdis.length > 0
-              ? `${applicableIrdis.length} property IRDIs are referenced but their full records weren't scraped. See the references list below.`
-              : "This class does not declare any properties of its own."}
-          </EmptyState>
-        ) : useDeclaredFilter ? (
-          <FilterablePropertyList client:visible items={declaredItems} />
-        ) : (
-          <PropertyTable slug={dict!} bundle={bundle} properties={declared} />
-        )}
-        <UnresolvedIrdiList
-          irdis={unresolvedDeclared}
-          label="Declared property references (entities not in browser data)"
-        />
-      </div>
-    </Card>
+    <ReferenceSection
+      title="Declared properties"
+      count={page.declared.applicableCount}
+      anchor
+      unresolved={page.declared.unresolved}
+      unresolvedLabel="Declared property references (entities not in browser data)"
+    >
+      {page.declared.properties.length === 0 ? (
+        <EmptyState title={page.declared.applicableCount > 0 ? "Declared property records not in browser data" : "No declared properties"}>
+          {page.declared.applicableCount > 0
+            ? `${page.declared.applicableCount} property IRDIs are referenced but their full records weren't scraped. See the references list below.`
+            : "This class does not declare any properties of its own."}
+        </EmptyState>
+      ) : (
+        <FilterablePropertyList client:visible items={page.declared.items} />
+      )}
+    </ReferenceSection>
 
-    {inherited.length > 0 && (
+    {page.inherited.length > 0 && (
       <Card>
-        <PropertyTable
-          slug={dict!}
-          bundle={bundle}
-          properties={inherited}
+        <FilterablePropertyList
+          client:visible
+          items={inheritedItems}
           collapsable
           label="Inherited properties"
         />
       </Card>
     )}
 
-    {importedIrdis.length > 0 && (
-      <Card>
-        <SectionTitle count={importedIrdis.length} anchor={true}>Imported properties</SectionTitle>
-        <div class="mt-3">
-          {importedIrdis.length === unresolvedImported.length ? (
-            <EmptyState title="Imported property records not in browser data" />
-          ) : useImportedFilter ? (
-            <FilterableEntityList client:visible items={importedItems} placeholder="Filter imported properties…" />
-          ) : (
-            <EntityLinkList
-              slug={dict!}
-              bundle={bundle}
-              irdis={importedIrdis}
-              empty="No imported properties."
-            />
-          )}
-          <UnresolvedIrdiList
-            irdis={unresolvedImported}
-            label="Imported property references (entities not in browser data)"
-          />
-        </div>
-      </Card>
-    )}
-
-    <Card>
-      <SectionTitle count={subclasses.length} anchor={true}>Subclasses</SectionTitle>
-      <div class="mt-3">
-        {subclasses.length === 0 ? (
-          <EmptyState title="No subclasses">
-            This class is a leaf — no other classes inherit from it.
-          </EmptyState>
-        ) : useSubclassFilter ? (
-          <FilterableEntityList client:visible items={subclassItems} placeholder="Filter subclasses…" />
+    {page.imported.irdis.length > 0 && (
+      <ReferenceSection
+        title="Imported properties"
+        count={page.imported.irdis.length}
+        anchor
+        unresolved={page.imported.unresolved}
+        unresolvedLabel="Imported property references (entities not in browser data)"
+      >
+        {page.imported.irdis.length === page.imported.unresolved.length ? (
+          <EmptyState title="Imported property records not in browser data" />
         ) : (
-          <EntityLinkList
-            slug={dict!}
-            bundle={bundle}
-            irdis={subclasses.map((c) => c.irdi)}
-            empty="No subclasses."
-          />
+          <FilterableEntityList client:visible items={page.imported.items} placeholder="Filter imported properties…" />
         )}
-      </div>
-    </Card>
-
-    {isCaseOfIrdis.length > 0 && (
-      <Card>
-        <SectionTitle count={isCaseOfIrdis.length} anchor={true}>Is case of (powertype parents)</SectionTitle>
-        <div class="mt-3">
-          {isCaseOfIrdis.length === unresolvedIsCaseOf.length ? (
-            <EmptyState title="Powertype parent records not in browser data" />
-          ) : (
-            <EntityLinkList slug={dict!} bundle={bundle} irdis={isCaseOfIrdis} />
-          )}
-          <UnresolvedIrdiList
-            irdis={unresolvedIsCaseOf}
-            label="Is-case-of references (entities not in browser data)"
-          />
-        </div>
-      </Card>
+      </ReferenceSection>
     )}
 
-    {instances.length > 0 && (
-      <Card>
-        <SectionTitle count={instances.length} anchor={true}>Instances (powertype)</SectionTitle>
-        <div class="mt-3">
-          <EntityLinkList slug={dict!} bundle={bundle} irdis={instances.map((c) => c.irdi)} />
-        </div>
-      </Card>
+    <ReferenceSection title="Subclasses" count={page.subclasses.nodes.length} anchor>
+      {page.subclasses.nodes.length === 0 ? (
+        <EmptyState title="No subclasses">
+          This class is a leaf — no other classes inherit from it.
+        </EmptyState>
+      ) : (
+        <FilterableEntityList client:visible items={page.subclasses.items} placeholder="Filter subclasses…" />
+      )}
+    </ReferenceSection>
+
+    {page.isCaseOf.irdis.length > 0 && (
+      <ReferenceSection
+        title="Is case of (powertype parents)"
+        count={page.isCaseOf.irdis.length}
+        anchor
+        unresolved={page.isCaseOf.unresolved}
+        unresolvedLabel="Is-case-of references (entities not in browser data)"
+      >
+        {page.isCaseOf.irdis.length === page.isCaseOf.unresolved.length ? (
+          <EmptyState title="Powertype parent records not in browser data" />
+        ) : (
+          <FilterableEntityList client:visible items={page.isCaseOf.items} placeholder="Filter powertype parents…" />
+        )}
+      </ReferenceSection>
     )}
 
-    {compositionIrdis.length > 0 && (
-      <Card>
-        <SectionTitle count={compositionIrdis.length} anchor={true}>Composition (sub_class_selection)</SectionTitle>
-        <div class="mt-3">
-          {compositionIrdis.length === unresolvedComposition.length ? (
-            <EmptyState title="Composition target records not in browser data" />
-          ) : (
-            <EntityLinkList slug={dict!} bundle={bundle} irdis={compositionIrdis} />
-          )}
-          <UnresolvedIrdiList
-            irdis={unresolvedComposition}
-            label="Composition references (entities not in browser data)"
-          />
-        </div>
-      </Card>
+    {page.instances.length > 0 && (
+      <ReferenceSection title="Instances (powertype)" count={page.instances.length} anchor>
+        <FilterableEntityList client:visible items={instanceItems} />
+      </ReferenceSection>
     )}
 
-    {relationsAsDomain.length > 0 && (
-      <Card>
-        <SectionTitle count={relationsAsDomain.length} anchor={true}>Relations</SectionTitle>
-        <div class="mt-3">
-          {useRelationDomainFilter ? (
-            <FilterableEntityList client:visible items={relationDomainItems} placeholder="Filter relations…" />
-          ) : (
-            <EntityLinkList
-              slug={dict!}
-              bundle={bundle}
-              irdis={relationsAsDomain.map((r) => r.irdi)}
-            />
-          )}
-        </div>
-      </Card>
+    {page.composition.irdis.length > 0 && (
+      <ReferenceSection
+        title="Composition (sub_class_selection)"
+        count={page.composition.irdis.length}
+        anchor
+        unresolved={page.composition.unresolved}
+        unresolvedLabel="Composition references (entities not in browser data)"
+      >
+        {page.composition.irdis.length === page.composition.unresolved.length ? (
+          <EmptyState title="Composition target records not in browser data" />
+        ) : (
+          <FilterableEntityList client:visible items={page.composition.items} placeholder="Filter composition…" />
+        )}
+      </ReferenceSection>
     )}
 
-    {relationsAsCodomain.length > 0 && (
-      <Card>
-        <SectionTitle count={relationsAsCodomain.length} anchor={true}>Referenced as codomain</SectionTitle>
-        <div class="mt-3">
-          {useRelationCodomainFilter ? (
-            <FilterableEntityList client:visible items={relationCodomainItems} placeholder="Filter references…" />
-          ) : (
-            <EntityLinkList
-              slug={dict!}
-              bundle={bundle}
-              irdis={relationsAsCodomain.map((r) => r.irdi)}
-            />
-          )}
-        </div>
-      </Card>
+    {page.relationsAsDomain.nodes.length > 0 && (
+      <ReferenceSection title="Relations" count={page.relationsAsDomain.nodes.length} anchor>
+        <FilterableEntityList client:visible items={page.relationsAsDomain.items} placeholder="Filter relations…" />
+      </ReferenceSection>
     )}
 
-    <Card>
-      <SectionTitle anchor={true}>Metadata</SectionTitle>
-      <div class="mt-3">
-        <MetadataFields entity={node} />
-      </div>
-    </Card>
+    {page.relationsAsCodomain.nodes.length > 0 && (
+      <ReferenceSection title="Referenced as codomain" count={page.relationsAsCodomain.nodes.length} anchor>
+        <FilterableEntityList client:visible items={page.relationsAsCodomain.items} placeholder="Filter references…" />
+      </ReferenceSection>
+    )}
+
+    <ReferenceSection title="Metadata" anchor>
+      <MetadataFields entity={node} />
+    </ReferenceSection>
 
     {(node as any).raw_properties && (
-      <Card>
-        <SectionTitle anchor={true}>Full source data</SectionTitle>
-        <p class="mt-2 text-xs text-ink-500">
+      <ReferenceSection title="Full source data" anchor>
+        <p class="text-xs text-ink-500">
           Every key from the original .xls export, including multilingual
           variants, status, publisher, committee, and workbook-specific
           codes.
@@ -321,7 +211,7 @@ const useRelationCodomainFilter = relationCodomainItems.length > FILTER_ENTITY_T
         <div class="mt-3">
           <RawProperties properties={(node as any).raw_properties} />
         </div>
-      </Card>
+      </ReferenceSection>
     )}
   </article>
 </DictionaryLayout>
