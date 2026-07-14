@@ -63,6 +63,7 @@ describe("toEntityListItem", () => {
       name: "Rated voltage",
       href: "/d/test/c/AAA001",
       resolved: true,
+      definition: null,
     });
   });
 
@@ -107,6 +108,7 @@ describe("toEntityListItem", () => {
       name: "missing-irdi",
       href: null,
       resolved: false,
+      definition: null,
     });
   });
 });

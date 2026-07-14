@@ -6,6 +6,7 @@ import Footer from "~/components/layout/Footer.astro";
 import KeyboardShortcuts from "~/components/layout/KeyboardShortcuts.astro";
 import ClassTree from "~/components/islands/ClassTree.vue";
 import BackToTop from "~/components/islands/BackToTop.vue";
+import ReadingProgress from "~/components/islands/ReadingProgress.vue";
 import { loadDictionary } from "~/lib/data";
 
 interface Props {
@@ -65,5 +66,6 @@ const bundle = loadDictionary(dict);
     <Footer />
     <KeyboardShortcuts />
     <BackToTop client:only="vue" />
+    <ReadingProgress client:only="vue" />
   </body>
 </html>

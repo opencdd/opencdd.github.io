@@ -57,6 +57,7 @@ describe("resolveEntityRef", () => {
       name: "Electrical appliance",
       href: "/d/test/c/AAA001",
       resolved: true,
+      definition: null,
     });
   });
 
@@ -100,6 +101,7 @@ describe("resolveEntityRef", () => {
       name: "nonexistent",
       href: null,
       resolved: false,
+      definition: null,
     });
   });
 
@@ -121,5 +123,34 @@ describe("resolveEntityRef", () => {
     const ref = resolveEntityRef(cls.irdi, bundle, SLUG);
 
     expect(ref.name).toBe("AAA001");
+  });
+
+  it("includes truncated definition when available", () => {
+    const longDef = "A".repeat(250);
+    const cls = makeClass({ code: "AAA001", definition: longDef });
+    const bundle = buildBundle([cls]);
+
+    const ref = resolveEntityRef(cls.irdi, bundle, SLUG);
+
+    expect(ref.definition).toHaveLength(201);
+    expect(ref.definition!.endsWith("…")).toBe(true);
+  });
+
+  it("includes full definition when under 200 chars", () => {
+    const cls = makeClass({ code: "AAA001", definition: "The rated voltage." });
+    const bundle = buildBundle([cls]);
+
+    const ref = resolveEntityRef(cls.irdi, bundle, SLUG);
+
+    expect(ref.definition).toBe("The rated voltage.");
+  });
+
+  it("returns null definition when entity has no definition", () => {
+    const cls = makeClass({ code: "AAA001", definition: undefined });
+    const bundle = buildBundle([cls]);
+
+    const ref = resolveEntityRef(cls.irdi, bundle, SLUG);
+
+    expect(ref.definition).toBeNull();
   });
 });
