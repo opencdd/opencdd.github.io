@@ -3,6 +3,7 @@ import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
 import Card from "~/components/ui/Card.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
 import TableOfContents from "~/components/islands/TableOfContents.vue";
+import MobileTOC from "~/components/islands/MobileTOC.vue";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Badge from "~/components/ui/Badge.astro";
 import Breadcrumbs from "~/components/ui/Breadcrumbs.astro";
@@ -59,6 +60,8 @@ const inheritedItems = toPropertyListItems(page.inherited, bundle, dict!);
       bundle={bundle}
       crumbs={page.ancestorCrumbs}
     />
+
+    <MobileTOC client:only="vue" />
 
     <EntityHero
       title={node.preferred_name ?? node.code ?? codeFromIrdi(node.irdi)}
