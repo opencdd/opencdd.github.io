@@ -22,6 +22,8 @@ export interface EntityRef {
   href: string | null;
   /** True when the entity exists in the bundle. */
   resolved: boolean;
+  /** First ~200 chars of the entity definition, for hover previews. */
+  definition: string | null;
 }
 
 export function resolveEntityRef(
@@ -37,5 +39,11 @@ export function resolveEntityRef(
   const code = node?.code ?? codeFromIrdi(irdi);
   const name = node?.preferred_name ?? code;
   const href = detailable ? entityRoute(slug, detailable, code) : null;
-  return { code, name, href, resolved: !!node };
+  const rawDef = node?.definition;
+  const definition = rawDef
+    ? rawDef.length > 200
+      ? rawDef.slice(0, 200) + "…"
+      : rawDef
+    : null;
+  return { code, name, href, resolved: !!node, definition };
 }

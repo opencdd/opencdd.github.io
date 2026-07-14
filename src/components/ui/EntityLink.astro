@@ -30,12 +30,16 @@ const ref = resolveEntityRef(irdi, bundle, slug);
 const identifier = showIrdi ? irdi : (code ?? ref.code);
 const displayLabel = label ?? ref.name;
 const hasHref = ref.href !== null;
+const tooltip = ref.definition
+  ? `${ref.code} — ${displayLabel}: ${ref.definition}`
+  : `${ref.code} — ${displayLabel}`;
 ---
 
 {hasHref ? (
   <a
     href={ref.href}
-    title={`${irdi} — ${displayLabel}`}
+    title={tooltip}
+    data-entity-tooltip={ref.definition ?? ""}
     class="text-lapis-700 underline decoration-dotted underline-offset-2 transition hover:text-lapis-900 hover:decoration-solid"
   >
     {!hideCode && (
