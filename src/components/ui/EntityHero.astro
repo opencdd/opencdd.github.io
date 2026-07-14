@@ -2,6 +2,7 @@
 import Badge from "./Badge.astro";
 import IrdiPill from "./IrdiPill.astro";
 import MultilingualText from "./MultilingualText.astro";
+import CopyButton from "~/components/islands/CopyButton.vue";
 import type { MultilingualText as MLText, EntityDates } from "~/lib/types";
 
 interface StatItem {
@@ -89,6 +90,11 @@ if (sourceDocument) {
   </h1>
   <div class="relative mt-2.5 flex flex-wrap items-center gap-2">
     <IrdiPill irdi={irdi} />
+    <CopyButton
+      client:only="vue"
+      value={Astro.url.href}
+      label="Copy link"
+    />
   </div>
   {(definition || definitionTranslations) && (
     <p class="relative mt-3 max-w-3xl text-sm leading-relaxed text-ink-600">
