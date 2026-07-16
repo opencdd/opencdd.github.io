@@ -12,11 +12,15 @@ import FilterablePropertyList from "~/components/islands/FilterablePropertyList.
 import ReferenceSection from "~/components/ui/ReferenceSection.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import RawProperties from "~/components/ui/RawProperties.astro";
+import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
+import DownloadMenu from "~/components/islands/DownloadMenu.vue";
+import EntityGraphButton from "~/components/islands/EntityGraphButton.vue";
 import EmptyState from "~/components/ui/EmptyState.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
 import { toEntityListItems, toPropertyListItems } from "~/lib/listItems";
 import { buildClassPageData } from "~/lib/classPage";
+import { computeEntityGraph } from "~/lib/entityGraph";
 import type { ClassNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -44,6 +48,7 @@ const instanceItems = toEntityListItems(
   dict!,
 );
 const inheritedItems = toPropertyListItems(page.inherited, bundle, dict!);
+const graph = computeEntityGraph(node.irdi, bundle, dict!, 2);
 ---
 
 <DictionaryLayout
@@ -77,6 +82,16 @@ const inheritedItems = toPropertyListItems(page.inherited, bundle, dict!);
       stats={page.stats}
     >
       <EntityBadge slot="badge" type="class" />
+      <div slot="actions" class="flex items-center gap-2">
+        <EntityGraphButton
+          client:load
+          nodes={graph.nodes}
+          edges={graph.edges}
+          centerIrdi={node.irdi}
+          dict={dict!}
+        />
+        <DownloadMenu client:load entity={node} dict={dict!} />
+      </div>
       {node.class_type && (
         <Badge slot="extra-badges" tone="violet">
           <span class="font-mono text-[10px]">{node.class_type}</span>
@@ -206,7 +221,7 @@ const inheritedItems = toPropertyListItems(page.inherited, bundle, dict!);
       <MetadataFields entity={node} />
     </ReferenceSection>
 
-    {(node as any).raw_properties && (
+    {node.raw_properties && Object.keys(node.raw_properties).length > 0 && (
       <ReferenceSection title="Full source data" anchor>
         <p class="text-xs text-ink-500">
           Every key from the original .xls export, including multilingual
@@ -214,9 +229,11 @@ const inheritedItems = toPropertyListItems(page.inherited, bundle, dict!);
           codes.
         </p>
         <div class="mt-3">
-          <RawProperties properties={(node as any).raw_properties} />
+          <RawProperties properties={node.raw_properties as Record<string, string>} />
         </div>
       </ReferenceSection>
     )}
+
+    <VersionHistorySection entity={node} dict={dict!} />
   </article>
 </DictionaryLayout>
