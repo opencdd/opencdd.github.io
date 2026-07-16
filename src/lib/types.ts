@@ -1,9 +1,9 @@
 /**
- * JSON wire types — re-exported from @opencdd/models (opencdd-ts).
+ * JSON wire types — re-exported from @opencdd/opencdd.
  *
  * The model package is the single source of truth for all types.
  * Uses `import type` so the dependency is compile-time only —
- * no runtime import from @opencdd/models (which has ESM extension
+ * no runtime import from @opencdd/opencdd (which has ESM extension
  * issues under tsx/Node). Type guards are trivial functions defined
  * locally to avoid the runtime import.
  */
@@ -24,7 +24,7 @@ import type {
   RelationNode,
   ViewControlNode,
   EntityNode,
-} from "@opencdd/models";
+} from "@opencdd/opencdd";
 
 export type {
   EntityType,
