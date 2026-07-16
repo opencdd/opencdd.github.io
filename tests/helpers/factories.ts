@@ -1,4 +1,5 @@
 import type { ClassNode, EntityNode, EntityType, PropertyNode, RelationNode, UnitNode, ValueListNode, ValueTermNode } from "~/lib/types";
+import type { DictionaryBundle } from "~/lib/bundle";
 
 let counter = 0;
 function next(prefix: string): string {
@@ -35,6 +36,8 @@ export function makeClass(overrides: Partial<ClassNode> = {}): ClassNode {
     revision: overrides.revision,
     time_stamp: overrides.time_stamp,
     dates: overrides.dates,
+    version_history: overrides.version_history,
+    raw_properties: overrides.raw_properties,
   };
 }
 
@@ -110,7 +113,7 @@ export function makeRelation(overrides: Partial<RelationNode> = {}): RelationNod
   };
 }
 
-export function makeBundle(entities: EntityNode[]) {
+export function makeBundle(entities: EntityNode[]): Promise<DictionaryBundle> {
   // Local import to avoid circular in factory module load order.
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   return makeBundleImpl(entities);
