@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.2",
-    "@opencdd/models": "^0.2.0",
+    "@opencdd/opencdd": "^0.3.3",
     "vue": "^3.5.13"
   },
   "devDependencies": {
