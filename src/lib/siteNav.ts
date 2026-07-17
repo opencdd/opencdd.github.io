@@ -14,10 +14,11 @@ export interface NavItem {
 }
 
 export const primaryNav: readonly NavItem[] = [
+  { href: "/dictionaries", label: "Dictionaries" },
+  { href: "/changes", label: "Changes" },
   { href: "/docs/", label: "Docs" },
   { href: "/blog/", label: "Blog" },
   { href: "/about/", label: "About" },
-  { href: "/", label: "Dictionaries" },
 ] as const;
 
 export const footerProjectNav: readonly NavItem[] = [

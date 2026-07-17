@@ -1,0 +1,118 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import PageHeader from "~/components/ui/PageHeader.astro";
+import Card from "~/components/ui/Card.astro";
+import Badge from "~/components/ui/Badge.astro";
+import { listDictionaries } from "~/lib/dictionary";
+import { loadDictionary } from "~/lib/data";
+import { recentChanges, type ChangeRow } from "~/lib/recentChanges";
+import { entityPluralTitleFor } from "~/lib/entityTypeMeta";
+
+type GlobalChangeRow = ChangeRow & { dictSlug: string; dictTitle: string };
+
+const allRows: GlobalChangeRow[] = [];
+
+for (const d of listDictionaries()) {
+  if (d.demonstration) continue;
+  const bundle = loadDictionary(d.slug);
+  const rows = recentChanges(bundle, d.slug, 200);
+  for (const r of rows) {
+    allRows.push({ ...r, dictSlug: d.slug, dictTitle: d.shortTitle });
+  }
+}
+
+allRows.sort((a, b) => {
+  const ta = a.timestamp ?? "";
+  const tb = b.timestamp ?? "";
+  return tb.localeCompare(ta);
+});
+
+const capped = allRows.slice(0, 500);
+
+// Group by month, preserving augmented fields
+const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const groupMap = new Map<string, GlobalChangeRow[]>();
+for (const row of capped) {
+  if (!row.timestamp) continue;
+  const m = row.timestamp.match(/^(\d{4})-(\d{2})/);
+  if (!m) continue;
+  const key = `${m[1]}-${m[2]}`;
+  const arr = groupMap.get(key) ?? [];
+  arr.push(row);
+  groupMap.set(key, arr);
+}
+const groups = Array.from(groupMap.entries())
+  .sort((a, b) => b[0].localeCompare(a[0]))
+  .map(([key, rows]) => ({
+    key,
+    label: `${MONTH_NAMES[parseInt(key.slice(5, 7)) - 1]} ${key.slice(0, 4)}`,
+    rows,
+  }));
+const multiVersionCount = capped.filter((r) => !r.isCurrent).length;
+const dictCount = new Set(capped.map((r) => r.dictSlug)).size;
+---
+
+<BaseLayout
+  title="Recent changes — OpenCDD"
+  description="Recently added and updated entities across all IEC CDD dictionaries, aggregated into one timeline."
+>
+  <article class="mx-auto max-w-4xl space-y-8">
+    <PageHeader
+      kicker="Global timeline"
+      title="Recent changes across all dictionaries"
+      description={`${capped.length.toLocaleString()} version entries from ${dictCount} dictionaries. ${multiVersionCount.toLocaleString()} historical versions. Sorted reverse-chronologically.`}
+      class="border-b border-paper-300 pb-8"
+    />
+
+    <div class="space-y-8">
+      {groups.map((group) => (
+        <section>
+          <div class="mb-3 flex items-baseline gap-3 border-b border-paper-200 pb-2">
+            <h2 class="font-display text-xl tracking-tight text-ink-900">{group.label}</h2>
+            <span class="font-mono text-xs text-ink-500">{group.rows.length} entries</span>
+          </div>
+          <div class="space-y-1.5">
+            {group.rows.map((row) => (
+              <div class="group flex items-center gap-3 rounded-lg border border-paper-100 bg-paper-50 px-3 py-2 transition hover:border-paper-300 hover:shadow-xs">
+                <span class={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+                  row.type === "class" ? "bg-teal-100 text-teal-700" :
+                  row.type === "property" ? "bg-emerald-100 text-emerald-700" :
+                  row.type === "unit" ? "bg-rose-100 text-rose-700" :
+                  row.type === "value_list" ? "bg-hex-100 text-hex-700" :
+                  row.type === "relation" ? "bg-violet-100 text-violet-700" :
+                  "bg-paper-200 text-ink-600"
+                }`}>
+                  {entityPluralTitleFor(row.type).replace(/s$/, "")}
+                </span>
+                <code class="shrink-0 font-mono text-[11px] text-ink-500">{row.code}</code>
+                <a
+                  href={row.href}
+                  class="min-w-0 flex-1 truncate text-sm font-medium text-ink-800 transition group-hover:text-lapis-700"
+                >
+                  {row.name}
+                </a>
+                <span class="hidden shrink-0 text-xs text-ink-400 sm:inline">{row.dictTitle}</span>
+                {row.isCurrent ? (
+                  <Badge tone="emerald">current</Badge>
+                ) : (
+                  <Badge tone="neutral">v{row.version}r{row.revision}</Badge>
+                )}
+                <span class="shrink-0 font-mono text-[10px] text-ink-400">
+                  {row.timestamp?.slice(0, 10) ?? "—"}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    {capped.length === 0 && (
+      <Card>
+        <p class="py-8 text-center text-sm text-ink-500">
+          No version history entries found across any dictionary.
+        </p>
+      </Card>
+    )}
+  </article>
+</BaseLayout>

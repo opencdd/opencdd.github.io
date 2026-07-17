@@ -6,6 +6,8 @@ import EntityHero from "~/components/ui/EntityHero.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
 import { codeFromIrdi } from "~/lib/irdi";
+import { findCrossDictMatches } from "~/lib/crossDict";
+import { entityPluralTitleFor } from "~/lib/entityTypeMeta";
 import type { EntityMetadata } from "~/lib/types";
 
 interface StatItem {
@@ -22,6 +24,7 @@ interface Props {
 }
 
 const { dict, node, title, stats = [] } = Astro.props;
+const crossMatches = findCrossDictMatches(node.preferred_name, dict);
 ---
 
 <DictionaryLayout dict={dict} title={title}>
@@ -43,6 +46,35 @@ const { dict, node, title, stats = [] } = Astro.props;
       <slot name="extra-badges" />
       <slot name="actions" />
     </EntityHero>
+
+    {crossMatches.length > 0 && (
+      <Card>
+        <SectionTitle count={crossMatches.length} anchor={true}>Also appears in</SectionTitle>
+        <div class="mt-3">
+          <p class="mb-2 text-xs text-ink-500">
+            Entities with the same name in other dictionaries:
+          </p>
+          <ul class="grid gap-1.5 sm:grid-cols-2">
+            {crossMatches.map((m) => (
+              <li>
+                <a
+                  href={m.href}
+                  class="group flex items-center gap-2.5 rounded-lg border border-paper-200 bg-paper-50 px-3 py-2 transition hover:border-lapis-300 hover:bg-lapis-50/30 hover:shadow-xs"
+                >
+                  <span class="shrink-0 rounded bg-paper-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-ink-500">
+                    {m.dictTitle}
+                  </span>
+                  <code class="shrink-0 font-mono text-[10px] text-ink-500">{m.code}</code>
+                  <span class="min-w-0 flex-1 truncate text-sm text-ink-800 transition group-hover:text-lapis-700">
+                    {entityPluralTitleFor(m.type).replace(/s$/, "")}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Card>
+    )}
 
     <slot />
 

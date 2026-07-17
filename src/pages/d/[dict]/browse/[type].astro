@@ -1,0 +1,98 @@
+---
+import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
+import FacetedBrowser from "~/components/islands/FacetedBrowser.vue";
+import type { FacetItem, FacetConfig } from "~/components/islands/FacetedBrowser.vue";
+import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { codeFromIrdi } from "~/lib/irdi";
+import { parseDataType, dataTypeLabel } from "~/lib/dataType";
+import {
+  entityPluralTitleFor,
+  entityTypeForSegment,
+  routeSegmentFor,
+  DETAILABLE_TYPES,
+} from "~/lib/entityTypeMeta";
+import type { EntityType } from "~/lib/types";
+
+export function getStaticPaths() {
+  return listRegistryEntries().flatMap((entry) => {
+    return DETAILABLE_TYPES.filter((t) => t !== "class").map((type) => ({
+      params: { dict: entry.slug, type: routeSegmentFor(type) },
+      props: { entityType: type },
+    }));
+  });
+}
+
+const { dict } = Astro.params;
+const { entityType } = Astro.props as { entityType: EntityType };
+const bundle = loadDictionary(dict!);
+const registry = bundle.registry;
+
+const nodes = bundle.entitiesOfType(entityType);
+const segment = routeSegmentFor(entityType);
+
+// Build facet configs per type
+const facetConfigs: FacetConfig[] = [];
+if (entityType === "property") {
+  facetConfigs.push(
+    { key: "dataType", label: "Data type" },
+    { key: "hasUnit", label: "Unit" },
+  );
+} else if (entityType === "unit") {
+  facetConfigs.push({ key: "symbol", label: "Symbol" });
+} else if (entityType === "value_list") {
+  facetConfigs.push({ key: "termCount", label: "Terms" });
+}
+
+const items: FacetItem[] = nodes.map((node: any) => {
+  const code = node.code ?? codeFromIrdi(node.irdi);
+  const facets: Record<string, string | null> = {};
+
+  if (entityType === "property") {
+    const parsed = node.data_type ? parseDataType(node.data_type) : null;
+    facets.dataType = parsed ? dataTypeLabel(parsed) : null;
+    facets.hasUnit = node.unit ? "has unit" : "no unit";
+  } else if (entityType === "unit") {
+    facets.symbol = node.symbol ?? null;
+  } else if (entityType === "value_list") {
+    facets.termCount = node.term_irdis ? `${node.term_irdis.length} terms` : "0 terms";
+  }
+
+  return {
+    code,
+    name: node.preferred_name ?? code,
+    href: `/d/${dict}/${segment}/${code}/`,
+    definition: node.definition ?? null,
+    facets,
+  };
+});
+
+const pageTitle = entityPluralTitleFor(entityType);
+---
+
+<DictionaryLayout
+  dict={dict!}
+  title={`${pageTitle} — ${registry.title} — OpenCDD`}
+  description={`Browse ${nodes.length.toLocaleString()} ${pageTitle.toLowerCase()} in ${registry.title}`}
+>
+  <article class="space-y-6">
+    <header class="space-y-2 border-b border-paper-300 pb-4">
+      <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
+        <a href={`/d/${dict}/`} class="hover:text-ink-700">{registry.title}</a>
+        {" › "}
+        {pageTitle}
+      </p>
+      <h1 class="font-display text-3xl tracking-tight text-ink-900">{pageTitle}</h1>
+      <p class="text-sm text-ink-600">
+        {nodes.length.toLocaleString()} {pageTitle.toLowerCase()}
+        {facetConfigs.length > 0 && " · filter by facets or search below"}
+      </p>
+    </header>
+
+    <FacetedBrowser
+      client:load
+      items={items}
+      facets={facetConfigs}
+      title={pageTitle.toLowerCase()}
+    />
+  </article>
+</DictionaryLayout>
