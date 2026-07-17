@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///63213#KEA395",
+  "code": "KEA395",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "data format for record (COMTRADE) present",
+  "preferred_name_ml": {
+    "en": "data format for record (COMTRADE) present",
+    "fr": "format données pour enregistrement (COMTRADE) présent",
+    "de": "Aufzeichnungs-Datenformat (COMTRADE) vorhanden",
+    "zh": "存在記錄數據格式 (COMTRADE)"
+  },
+  "definition": "format for files containing transient waveform and event and intended to provide an easily interpretable format for use in exchanging data, using Common format for Transient Data Exchange for power systems”",
+  "definition_ml": {
+    "en": "format for files containing transient waveform and event and intended to provide an easily interpretable format for use in exchanging data, using Common format for Transient Data Exchange for power systems”",
+    "fr": "format de fichier contenant des mesures, des formes d'onde, des événements facilement interprétable pour l'échange de données et utilisant le format  « Common format for Transient Data Exchange for power systems",
+    "de": "Dateiformat für transiente Wellenformen und Ereignisse, das ein leicht zu interpretierendes Format für den Datenaustausch bereitstellt, unter Verwendung des allgemeinen Formats für den Austausch transienter Daten für Stromversorgungssysteme. “",
+    "zh": "包含瞬态波形和事件的文件的格式，旨在提供用于交换数据的一种易于解释的格式，使用进行电力系统的瞬态数据交换的通用格式"
+  },
+  "synonyms": [],
+  "note": "Note to entry – COMTRADE format is defined in IEC 62055-24",
+  "note_ml": {
+    "en": "Note to entry – COMTRADE format is defined in IEC 62055-24",
+    "fr": "Note – Le format COMTRADE est défini dans la norme IEC 62055-24",
+    "de": "Anmerkung zum Begriff: Das COMTRADE-Format ist in IEC 62055-24 definiert",
+    "zh": "注：COMTRADE格式在IEC 62055-24中定义"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 63213DB",
+  "responsible_committee": "IEC/TC 85",
+  "change_request_id": "C00126",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///63213#KEA395",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "data format for record (COMTRADE) present",
+    "MDC_P006.en": "format for files containing transient waveform and event and intended to provide an easily interpretable format for use in exchanging data, using Common format for Transient Data Exchange for power systems”",
+    "MDC_P008.en": "Note to entry – COMTRADE format is defined in IEC 62055-24",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///63213#KEA026",
+    "C016": "Standard",
+    "C012": "IEC 63213DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-08-30",
+    "MDC_P003_1": "2021-08-26",
+    "MDC_P003_2": "2023-08-30",
+    "MDC_P003_3": "2023-08-30",
+    "MDC_P012": "IEC/TC 85",
+    "MDC_P004.fr": "format données pour enregistrement (COMTRADE) présent",
+    "MDC_P006.fr": "format de fichier contenant des mesures, des formes d'onde, des événements facilement interprétable pour l'échange de données et utilisant le format  « Common format for Transient Data Exchange for power systems",
+    "MDC_P008.fr": "Note – Le format COMTRADE est défini dans la norme IEC 62055-24",
+    "C019.fr": "IEC/TC 85",
+    "C017.fr": "1",
+    "C018.fr": "2022-07-25",
+    "MDC_P004.de": "Aufzeichnungs-Datenformat (COMTRADE) vorhanden",
+    "MDC_P006.de": "Dateiformat für transiente Wellenformen und Ereignisse, das ein leicht zu interpretierendes Format für den Datenaustausch bereitstellt, unter Verwendung des allgemeinen Formats für den Austausch transienter Daten für Stromversorgungssysteme. “",
+    "MDC_P008.de": "Anmerkung zum Begriff: Das COMTRADE-Format ist in IEC 62055-24 definiert",
+    "C019.de": "DKE",
+    "C017.de": "1",
+    "C018.de": "2022-07-25",
+    "MDC_P004.zh": "存在記錄數據格式 (COMTRADE)",
+    "MDC_P006.zh": "包含瞬态波形和事件的文件的格式，旨在提供用于交换数据的一种易于解释的格式，使用进行电力系统的瞬态数据交换的通用格式",
+    "MDC_P008.zh": "注：COMTRADE格式在IEC 62055-24中定义",
+    "C019.zh": "SAC",
+    "C017.zh": "1",
+    "C018.zh": "2022-07-25",
+    "C002": "C00126"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-08-30 15:40:47",
+      "user": "BATCH 00000923",
+      "unid": "1EEABFB422ADD482C1258A1B004B252F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-07-25 19:42:29",
+      "user": "BATCH 00000919",
+      "unid": "e2123818d281cbc9c125888a00614633",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-08-27 10:21:14",
+      "user": "BATCH 00000918",
+      "unid": "47fa5bc4ba23dd57c125873e002de3c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-08-26",
+    "current_version": "2023-08-30",
+    "current_revision": "2023-08-30"
+  },
+  "definition_class_irdi": "0112/2///63213#KEA026",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-08-30 15:40:47",
+    "user": "BATCH 00000923",
+    "change_request_id": null,
+    "unid": "1EEABFB422ADD482C1258A1B004B252F"
+  }
+}

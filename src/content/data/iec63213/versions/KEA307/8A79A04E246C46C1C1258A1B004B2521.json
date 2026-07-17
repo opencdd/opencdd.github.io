@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///63213#KEA307",
+  "code": "KEA307",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "manufacturer product description",
+  "preferred_name_ml": {
+    "en": "manufacturer product description",
+    "fr": "description du produit du fabricant",
+    "de": "Hersteller-Produktbeschreibung",
+    "zh": "製造商產品描述"
+  },
+  "definition": "general information about device features",
+  "definition_ml": {
+    "en": "general information about device features",
+    "fr": "informations générales sur les fonctionnalités de l'appareil",
+    "de": "allgemeine Informationen zum Gerät",
+    "zh": "设备特性的一般信息"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 63213DB",
+  "responsible_committee": "IEC/TC 85",
+  "change_request_id": "C00126",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///63213#KEA307",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "manufacturer product description",
+    "MDC_P006.en": "general information about device features",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "X..256",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///63213#KEA012",
+    "C016": "Standard",
+    "C012": "IEC 63213DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-08-30",
+    "MDC_P003_1": "2021-08-26",
+    "MDC_P003_2": "2023-08-30",
+    "MDC_P003_3": "2023-08-30",
+    "MDC_P012": "IEC/TC 85",
+    "MDC_P004.fr": "description du produit du fabricant",
+    "MDC_P006.fr": "informations générales sur les fonctionnalités de l'appareil",
+    "C019.fr": "IEC/TC 85",
+    "C017.fr": "1",
+    "C018.fr": "2022-07-25",
+    "MDC_P004.de": "Hersteller-Produktbeschreibung",
+    "MDC_P006.de": "allgemeine Informationen zum Gerät",
+    "C019.de": "DKE",
+    "C017.de": "1",
+    "C018.de": "2022-07-25",
+    "MDC_P004.zh": "製造商產品描述",
+    "MDC_P006.zh": "设备特性的一般信息",
+    "C019.zh": "SAC",
+    "C017.zh": "1",
+    "C018.zh": "2022-07-25",
+    "C002": "C00126"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-08-30 15:40:47",
+      "user": "BATCH 00000923",
+      "unid": "8A79A04E246C46C1C1258A1B004B2521",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-07-25 19:42:29",
+      "user": "BATCH 00000919",
+      "unid": "2091b9755ca35c5cc125888a00614627",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-08-27 10:21:13",
+      "user": "BATCH 00000918",
+      "unid": "3e7de80386c1ac2dc125873e002de3a6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-08-26",
+    "current_version": "2023-08-30",
+    "current_revision": "2023-08-30"
+  },
+  "value_format": "X..256",
+  "definition_class_irdi": "0112/2///63213#KEA012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-08-30 15:40:47",
+    "user": "BATCH 00000923",
+    "change_request_id": null,
+    "unid": "8A79A04E246C46C1C1258A1B004B2521"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///63213#KEA020",
+  "code": "KEA020",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Additional input/output circuit",
+  "preferred_name_ml": {
+    "en": "Additional input/output circuit",
+    "fr": "Circuit entrées/sorties additionnels",
+    "de": "Zusätzlicher Eingangs/Ausgangskreis",
+    "zh": "数据通信"
+  },
+  "definition": "information about I/O interfaces",
+  "definition_ml": {
+    "en": "information about I/O interfaces",
+    "fr": "informations sur les interfaces E/S",
+    "de": "Informationen über I/O-Schnittstellen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 63213DB",
+  "responsible_committee": "IEC/TC 85",
+  "change_request_id": "C00126",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///63213#KEA020",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Additional input/output circuit",
+    "MDC_P006.en": "information about I/O interfaces",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 63213DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-08-30",
+    "MDC_P003_1": "2017-10-20",
+    "MDC_P003_2": "2023-08-30",
+    "MDC_P003_3": "2023-08-30",
+    "MDC_P012": "IEC/TC 85",
+    "MDC_P010": "0112/2///63213#KEA010",
+    "MDC_P014": "{0112/2///63213#KEA371,0112/2///63213#KEA372}",
+    "MDC_P013": "{0112/2///62683#ACC015}",
+    "MDC_P090": "{0112/2///62683#ACE331,0112/2///62683#ACE333,0112/2///62683#ACE332}",
+    "MDC_P004.fr": "Circuit entrées/sorties additionnels",
+    "MDC_P006.fr": "informations sur les interfaces E/S",
+    "C019.fr": "IEC 85",
+    "C017.fr": "1",
+    "C018.fr": "2018-08-07",
+    "MDC_P004.de": "Zusätzlicher Eingangs/Ausgangskreis",
+    "MDC_P006.de": "Informationen über I/O-Schnittstellen",
+    "C019.de": "DKE",
+    "C017.de": "1",
+    "C018.de": "2018-08-07",
+    "MDC_P004.zh": "数据通信",
+    "C019.zh": "SAC",
+    "C017.zh": "1",
+    "C018.zh": "2018-07-08",
+    "C002": "C00126"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-08-30 15:40:33",
+      "user": "BATCH 00000923",
+      "unid": "BBD45CFC4914FADEC1258A1B004B1FE4",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-07-25 19:42:07",
+      "user": "BATCH 00000919",
+      "unid": "ce54bd16b4a64bd7c125888a00613daa",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-08-27 10:20:37",
+      "user": "BATCH 00000918",
+      "unid": "1a3f6b3dc9009e1ec125873e002dd56f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-10-20",
+    "current_version": "2023-08-30",
+    "current_revision": "2023-08-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC015"
+  ],
+  "applicable_properties": [
+    "0112/2///63213#KEA371",
+    "0112/2///63213#KEA372"
+  ],
+  "imported_properties": [
+    "0112/2///62683#ACE331",
+    "0112/2///62683#ACE333",
+    "0112/2///62683#ACE332"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///63213#KEA010",
+  "superclass_type_property": "0112/2///63213#KEA010",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-08-30 15:40:33",
+    "user": "BATCH 00000923",
+    "change_request_id": null,
+    "unid": "BBD45CFC4914FADEC1258A1B004B1FE4"
+  }
+}

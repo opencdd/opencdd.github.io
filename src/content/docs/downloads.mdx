@@ -1,0 +1,89 @@
+---
+title: Downloads — Parcel, JSON, CDDAL, CSV
+description: Every format you can pull from the OpenCDD browser.
+published: 2026-07-17
+order: 45
+---
+
+OpenCDD publishes every dictionary in four formats. Choose the one
+that matches your workflow.
+
+## Parcel (.xlsx)
+
+**Where:** `/d/<dict>/` overview, "Downloads" section.
+
+The canonical IEC 62656-1 workbook. 10 sheets, ready for
+ParcelMaker, Excel, or any CDD-aware pipeline. Produced at build
+time by `Opencdd::Parcel::Writer` in the Ruby gem.
+
+The workbook structure:
+
+```
+Project                 metadata
+sheetmap                sheet ↔ entity-type mapping
+pcls_LOCAL              local class-id bridge
+<PROJ>_CLASS            class definitions
+<PROJ>_PROPERTY         property definitions
+<PROJ>_ENUM             value lists (enumerations)
+<PROJ>_TERMINOLOGY      value terms (multilingual labels)
+<PROJ>_UoM              units of measurement
+<PROJ>_RELATION         relationships between classes
+<PROJ>_VIEWCONTROL      view-control metadata
+```
+
+## Full JSON
+
+**Where:** `/d/<dict>/` overview, "Downloads" section.
+
+The whole dictionary as one wire-format JSON array. Best for
+programmatic ingestion (Python, JS, anything that speaks JSON).
+
+Each entity carries parsed fields (`preferred_name`, `definition`,
+`synonyms`, etc.), multilingual maps (`preferred_name_ml`), the
+full `raw_properties` hash from the source `.xls`, and the
+`version_history` array.
+
+## Per-version JSON
+
+**Where:** `/d/<dict>/versions/<code>/<unid>.json` (linked from
+the version timeline on any multi-version entity).
+
+For entities with more than one published version, each historical
+version is emitted as its own JSON file. Powers time-travel and
+diff in the browser. Useful for audit pipelines that need to track
+what an entity looked like at a specific point in time.
+
+## Per-entity downloads
+
+**Where:** the "Download" button on any entity detail page.
+
+Four formats:
+
+- **JSON** — full entity payload, including `raw_properties` and
+  `version_history`.
+- **CDDAL** — canonical text fragment (IEC 62656-1). Human-readable,
+  diffs cleanly in git. Round-trips with the `opencdd` Ruby gem.
+- **CSV** — one row per `(property_id, language)` pair. Best for
+  spreadsheets (Excel, Numbers, Google Sheets). Multilingual keys
+  become separate rows.
+- **Source XLS** — link to the live `cdd.iec.ch` page where the
+  raw `.xls` exports can be re-fetched. (OpenCDD doesn't host raw
+  `.xls` archives.)
+
+## CDDAL fragment example
+
+```cddal
+# OpenCDD CDDAL fragment — single entity
+# Entity: 0112/2///63213#KEA012
+# Type:   class
+# Version: 003
+##########################################
+
+instance KEA012 < MDC_C002 {
+  MDC_P001_5: "0112/2///63213#KEA012"
+  MDC_P002_1: "003"
+  MDC_P011: ITEM_CLASS
+  preferred_name.en: "General technical data"
+  definition.en: "group of properties..."
+}
+```

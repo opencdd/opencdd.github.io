@@ -3,6 +3,7 @@ import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityBrowser from "~/components/islands/EntityBrowser.vue";
 import type { EntityTab } from "~/components/islands/EntityBrowser.vue";
+import DictionaryDownloads from "~/components/ui/DictionaryDownloads.astro";
 import {
   TABBABLE_TYPES,
   entityPluralTitleFor,
@@ -50,6 +51,13 @@ const tabs: EntityTab[] = TABBABLE_TYPES.map((type) => {
     totalCount,
   };
 }).filter((t): t is EntityTab => t !== null);
+
+const totalEntities = tabs.reduce((s, t) => s + t.count, 0);
+const multiVersionEntities = TABBABLE_TYPES.reduce((sum, type) => {
+  return sum + bundle.entitiesOfType(type).filter(
+    (e) => (e.version_history?.length ?? 0) > 1,
+  ).length;
+}, 0);
 ---
 
 <DictionaryLayout
@@ -72,23 +80,36 @@ const tabs: EntityTab[] = TABBABLE_TYPES.map((type) => {
           </>
         )}
       </p>
-      <p class="text-sm">
+      <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
         <a
           href={`/d/${dict}/about`}
           class="text-hex-700 underline decoration-dotted underline-offset-2"
         >
           About this dictionary →
         </a>
-      </p>
+        <a
+          href={`/d/${dict}/changes/`}
+          class="text-lapis-700 underline decoration-dotted underline-offset-2"
+        >
+          Recent version changes ({multiVersionEntities.toLocaleString()}) →
+        </a>
+      </div>
     </header>
 
     <div>
-      <SectionTitle count={tabs.reduce((s, t) => s + t.count, 0)}>
+      <SectionTitle count={totalEntities}>
         Browse entities
       </SectionTitle>
       <div class="mt-4">
         <EntityBrowser client:visible tabs={tabs} initialTab={initialTab} />
       </div>
     </div>
+
+    <DictionaryDownloads
+      dict={dict!}
+      parcelId={registry.parcelId}
+      totalEntities={totalEntities}
+      multiVersionEntities={multiVersionEntities}
+    />
   </div>
 </DictionaryLayout>
