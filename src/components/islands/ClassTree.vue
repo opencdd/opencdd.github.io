@@ -70,6 +70,7 @@ const focusIdx = ref(0);
 
 const inputRef = ref<HTMLInputElement | null>(null);
 const focusRef = ref<HTMLAnchorElement | null>(null);
+const treeRef = ref<HTMLElement | null>(null);
 
 // ── Data fetch ───────────────────────────────────────────────────
 let cancelled = false;
@@ -100,7 +101,9 @@ const nodeByIrdi = computed(() => {
   return m;
 });
 
-const highlightedCode = detectHighlightedCode(props.initialHighlightedIrdi);
+const highlightedPath = ref(props.initialHighlightedIrdi);
+
+const highlightedCode = computed(() => detectHighlightedCode(highlightedPath.value));
 
 const highlightedIrdi = computed<string | null>(() => {
   if (!highlightedCode) return null;
@@ -155,6 +158,21 @@ watch(highlightedIrdi, (hirdi) => {
   }
   if (changed) expanded.value = next;
 }, { immediate: true });
+
+// Scroll highlighted node into view after ancestors expand.
+watch(highlightedIrdi, () => {
+  nextTick(() => {
+    const el = treeRef.value?.querySelector('[data-irdi="' + highlightedIrdi.value + '"]');
+    el?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  });
+}, { flush: "post" });
+
+// Update highlighted path on View Transitions navigation.
+onMounted(() => {
+  document.addEventListener("astro:after-swap", () => {
+    highlightedPath.value = window.location.pathname;
+  });
+});
 
 // Persist expansion to sessionStorage.
 watch(expanded, (val) => saveExpanded(props.dict, val), { deep: true });
@@ -275,7 +293,7 @@ onUnmounted(() => {
     <p class="text-xs text-ink-500">Loading class tree…</p>
   </div>
 
-  <div v-else class="flex h-full flex-col">
+  <div v-else ref="treeRef" class="flex h-full flex-col">
     <div class="mb-2 flex items-center gap-1.5">
       <input
         ref="inputRef"
