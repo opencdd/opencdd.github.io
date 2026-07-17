@@ -3,8 +3,8 @@ import BaseLayout from "~/layouts/BaseLayout.astro";
 import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
 import Badge from "~/components/ui/Badge.astro";
-import { computeSiteStats, topTypes, entityCountLabel } from "~/lib/siteStats";
-import { TABBABLE_TYPES, entityPluralTitleFor, routeSegmentFor } from "~/lib/entityTypeMeta";
+import { computeSiteStats, topTypes } from "~/lib/siteStats";
+import { TABBABLE_TYPES, entityPluralTitleFor } from "~/lib/entityTypeMeta";
 
 const stats = computeSiteStats();
 const top = topTypes(stats, TABBABLE_TYPES.length);

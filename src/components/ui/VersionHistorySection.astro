@@ -1,0 +1,32 @@
+---
+import Card from "./Card.astro";
+import SectionTitle from "./SectionTitle.astro";
+import VersionTimeline from "~/components/islands/VersionTimeline.vue";
+import type { EntityMetadata } from "~/lib/types";
+
+interface Props {
+  entity: Pick<EntityMetadata, "irdi" | "code" | "version_history">;
+  dict: string;
+}
+
+const { entity, dict } = Astro.props;
+const entries = entity.version_history ?? [];
+const count = entries.length;
+---
+
+{count > 0 && (
+  <section class="space-y-3">
+    <SectionTitle anchor count={count}>
+      Version history
+    </SectionTitle>
+    <Card pad={false} class="overflow-hidden p-5">
+      <VersionTimeline
+        client:visible
+        entries={entries}
+        irdi={entity.irdi}
+        code={entity.code ?? ""}
+        dict={dict}
+      />
+    </Card>
+  </section>
+)}
