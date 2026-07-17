@@ -182,7 +182,7 @@
    mode. The text tones stay readable because the foreground is the
    lightest variant of the same hue. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --color-paper-50: #1a2230;
     --color-paper-100: #141c28;
     --color-paper-200: #1f2a3a;
@@ -345,12 +345,18 @@ body {
   display: none;
 }
 @media (prefers-color-scheme: dark) {
-  .logo-svg--light {
+  :root:not([data-theme="light"]) .logo-svg--light {
     display: none;
   }
-  .logo-svg--dark {
+  :root:not([data-theme="light"]) .logo-svg--dark {
     display: block;
   }
+}
+:root[data-theme="dark"] .logo-svg--light {
+  display: none;
+}
+:root[data-theme="dark"] .logo-svg--dark {
+  display: block;
 }
 
 /* ── Scrollbar (WebKit) ────────────────────────────────────────── */
@@ -629,4 +635,113 @@ body:not([data-lang]) .ml-en { display: inline; }
   border: none;
   border-top: 1px solid var(--color-paper-300);
   margin: 2.5em 0;
+}
+
+/* ── Manual dark mode override ───────────────────────────────── */
+/* Same tokens as prefers-color-scheme: dark above. Applied when the
+   user explicitly selects dark mode via the theme toggle. */
+:root[data-theme="dark"] {
+    --color-paper-50: #1a2230;
+    --color-paper-100: #141c28;
+    --color-paper-200: #1f2a3a;
+    --color-paper-300: #2a3850;
+    --color-paper-400: #38486a;
+    --color-paper-500: #4d5f80;
+
+    /* Inverted: 50 = dimmest (almost invisible), 900 = brightest text */
+    --color-ink-50: #1d1a13;
+    --color-ink-100: #2e291f;
+    --color-ink-200: #443e30;
+    --color-ink-300: #5e5742;
+    --color-ink-400: #7d755c;
+    --color-ink-500: #a39a7e;
+    --color-ink-600: #c8c0a3;
+    --color-ink-700: #e6dfc6;
+    --color-ink-800: #f7f0da;
+    --color-ink-900: #fefdf8;
+    --color-ink-950: #ffffff;
+
+    /* Brand accents — brighter on dark surfaces (sampled from dark SVG). */
+    /* Surfaces (50/100/200): deep, low-saturation for badges & callouts. */
+    --color-hex-50: #2a1c0b;
+    --color-hex-100: #3a2812;
+    --color-hex-200: #4a3318;
+    --color-hex-300: #f4b03a;
+    --color-hex-400: #f08b36;
+    --color-hex-500: #ec7a2a;
+    /* Text (700/800/900): bright amber, readable on dark hex surfaces. */
+    --color-hex-700: #f4b03a;
+    --color-hex-800: #f8cd84;
+    --color-hex-900: #fce5bf;
+
+    --color-teal-50: #0e2628;
+    --color-teal-100: #143036;
+    --color-teal-200: #1a3a42;
+    --color-teal-300: #73e0cd;
+    --color-teal-400: #52d3e0;
+    --color-teal-500: #38c3d3;
+    --color-teal-700: #52d3e0;
+    --color-teal-800: #73e0cd;
+    --color-teal-900: #a8dde6;
+
+    --color-lapis-50: #0e1a26;
+    --color-lapis-100: #122030;
+    --color-lapis-200: #162840;
+    --color-lapis-300: #6494e7;
+    --color-lapis-400: #4a78c4;
+    --color-lapis-500: #355e9c;
+    --color-lapis-700: #6494e7;
+    --color-lapis-800: #aec7d9;
+    --color-lapis-900: #d4e1ec;
+
+    --color-coral-50: #2a1216;
+    --color-coral-100: #38181e;
+    --color-coral-200: #4a1e26;
+    --color-coral-300: #fcceca;
+    --color-coral-400: #f9b6a8;
+    --color-coral-700: #f48671;
+    --color-coral-800: #f9b6a8;
+    --color-coral-900: #fcdcd4;
+
+    --color-clay-50: #1a1208;
+    --color-clay-100: #241a10;
+    --color-clay-200: #d5aa65;
+    --color-clay-300: #e99c61;
+    --color-clay-700: #c19452;
+    --color-clay-800: #d5aa65;
+    --color-clay-900: #e3d0a8;
+
+    /* Semantic dark surfaces — for callouts/badges that use light tints
+       in light mode. Dark variants are deep, low-saturation versions. */
+    --color-amber-50: #2a2014;
+    --color-amber-100: #3a2c18;
+    --color-amber-200: #4a3820;
+    /* Semantic text on dark surfaces: flip dark text to light. */
+    --color-amber-700: #fbbf24;
+    --color-amber-800: #fcd34d;
+    --color-amber-900: #fde68a;
+
+    --color-rose-50: #2a161a;
+    --color-rose-100: #3a1e24;
+    --color-rose-200: #4a2630;
+    --color-rose-700: #fb7185;
+    --color-rose-800: #fda4af;
+    --color-rose-900: #fecdd3;
+
+    --color-emerald-50: #142a1f;
+    --color-emerald-100: #18392a;
+    --color-emerald-700: #34d399;
+    --color-emerald-800: #6ee7b7;
+    --color-emerald-900: #a7f3d0;
+
+    --color-violet-50: #1f1929;
+    --color-violet-100: #2a223a;
+    --color-violet-700: #a78bfa;
+    --color-violet-800: #c4b5fd;
+    --color-violet-900: #ddd6fe;
+
+    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.5), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 4px 12px -2px rgb(0 0 0 / 0.5), 0 2px 6px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 12px 32px -8px rgb(0 0 0 / 0.6), 0 4px 12px -4px rgb(0 0 0 / 0.4);
 }

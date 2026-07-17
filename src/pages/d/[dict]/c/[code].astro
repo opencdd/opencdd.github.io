@@ -22,6 +22,7 @@ import { codeFromIrdi } from "~/lib/irdi";
 import { toEntityListItems, toPropertyListItems } from "~/lib/listItems";
 import { buildClassPageData } from "~/lib/classPage";
 import { computeEntityGraph } from "~/lib/entityGraph";
+import JsonLd from "~/components/ui/JsonLd.astro";
 import type { ClassNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -240,3 +241,5 @@ const graph = computeEntityGraph(node.irdi, bundle, dict!, 2);
     <VersionHistorySection entity={node} dict={dict!} />
   </article>
 </DictionaryLayout>
+
+<JsonLd node={node} type="class" dict={dict!} dictTitle={bundle.registry.title} />

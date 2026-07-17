@@ -3,6 +3,7 @@ import { platformModifierLabel } from "~/lib/platform";
 import { primaryNav, navItemIsActive } from "~/lib/siteNav";
 import LanguageSwitcher from "~/components/islands/LanguageSwitcher.vue";
 import MobileNav from "~/components/islands/MobileNav.vue";
+import ThemeToggle from "~/components/islands/ThemeToggle.vue";
 const modifier = platformModifierLabel();
 const current = Astro.url.pathname;
 ---
@@ -62,7 +63,8 @@ const current = Astro.url.pathname;
       })}
     </nav>
 
-    <div class="flex flex-1 items-center justify-end gap-3">
+    <div class="flex flex-1 items-center justify-end gap-2">
+      <ThemeToggle client:only="vue" />
       <LanguageSwitcher client:only="vue" transition:persist />
       <button
         type="button"

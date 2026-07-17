@@ -1,0 +1,38 @@
+---
+import type { EntityMetadata, EntityType } from "~/lib/types";
+
+interface Props {
+  node: EntityMetadata;
+  type: EntityType;
+  dict: string;
+  dictTitle: string;
+}
+
+const { node, type, dict, dictTitle } = Astro.props;
+
+const typeMap: Record<EntityType, string> = {
+  class: "DefinedTerm",
+  property: "DefinedTerm",
+  unit: "DefinedTerm",
+  value_list: "DefinedTermSet",
+  value_term: "DefinedTerm",
+  relation: "DefinedTerm",
+  view_control: "DefinedTerm",
+};
+
+const json = {
+  "@context": "https://schema.org",
+  "@type": typeMap[type],
+  name: node.preferred_name ?? node.code,
+  description: node.definition ?? undefined,
+  identifier: node.irdi,
+  url: `https://opencdd.github.io/d/${dict}/${
+    type === "class" ? "c" : type === "property" ? "p" : type === "unit" ? "u" : type === "value_list" ? "v" : type === "value_term" ? "t" : "r"
+  }/${node.code}/`,
+  inDefinedTermSet: dictTitle,
+  alternateName: node.short_name,
+  version: node.version,
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(json)} />
