@@ -1,0 +1,33 @@
+---
+import Card from "./Card.astro";
+import SectionTitle from "./SectionTitle.astro";
+import { computeClassHierarchy, renderHierarchySvg } from "~/lib/classHierarchy";
+import type { DictionaryBundle } from "~/lib/bundle";
+import type { ClassNode } from "~/lib/types";
+
+interface Props {
+  node: ClassNode;
+  bundle: DictionaryBundle;
+  dict: string;
+}
+
+const { node, bundle, dict } = Astro.props;
+const layout = computeClassHierarchy(node.irdi, bundle, dict);
+---
+
+{layout && layout.nodes.length > 1 && (
+  <section class="space-y-3">
+    <SectionTitle anchor>
+      Hierarchy
+    </SectionTitle>
+    <Card class="overflow-x-auto">
+      <div class="min-w-fit">
+        <Fragment set:html={renderHierarchySvg(layout)} />
+      </div>
+      <p class="mt-3 text-[11px] text-ink-500">
+        Ancestors (top) → <strong class="text-hex-700">{node.code}</strong> (highlighted) → subclasses and powertype instances.
+        Capped at 12 each; see the full lists in the sections below.
+      </p>
+    </Card>
+  </section>
+)}

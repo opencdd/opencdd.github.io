@@ -1,0 +1,121 @@
+---
+import Card from "./Card.astro";
+import SectionTitle from "./SectionTitle.astro";
+import { existsSync, statSync } from "node:fs";
+import { resolve } from "node:path";
+
+interface Props {
+  dict: string;
+  parcelId: string;
+  totalEntities: number;
+  multiVersionEntities: number;
+}
+
+const { dict, parcelId, totalEntities, multiVersionEntities } = Astro.props;
+
+const parcelPath = resolve(process.cwd(), "public/d", dict, `${parcelId}.xlsx`);
+const parcelExists = existsSync(parcelPath);
+const parcelSize = parcelExists ? statSync(parcelPath).size : 0;
+
+function formatBytes(n: number): string {
+  if (n < 1024) return `${n} B`;
+  if (n < 1024 * 1024) return `${(n / 1024).toFixed(1)} KB`;
+  return `${(n / 1024 / 1024).toFixed(2)} MB`;
+}
+
+const formats: Array<{
+  available: boolean;
+  href: string;
+  formatName: string;
+  fileName: string;
+  size?: string;
+  description: string;
+  icon: "parcel" | "json" | "cddal";
+}> = [
+  {
+    available: parcelExists,
+    href: `/d/${dict}/${parcelId}.xlsx`,
+    formatName: "Parcel (.xlsx)",
+    fileName: `${parcelId}.xlsx`,
+    size: parcelExists ? formatBytes(parcelSize) : undefined,
+    description:
+      "The canonical IEC 62656-1 workbook. 10 sheets, ready for ParcelMaker, Excel, or any CDD-aware pipeline.",
+    icon: "parcel",
+  },
+  {
+    available: true,
+    href: `/d/${dict}/database.json`,
+    formatName: "Full JSON",
+    fileName: "database.json",
+    description:
+      "The whole dictionary as one wire-format JSON array. Best for programmatic ingestion.",
+    icon: "json",
+  },
+];
+
+if (multiVersionEntities > 0) {
+  formats.push({
+    available: true,
+    href: `/d/${dict}/versions/`,
+    formatName: "Per-version JSON",
+    fileName: `versions/<code>/<unid>.json`,
+    description: `${multiVersionEntities} entities have multiple versions. Each historical version is emitted as its own JSON for time-travel.`,
+    icon: "json",
+  });
+}
+
+const visibleFormats = formats.filter((f) => f.available);
+---
+
+{visibleFormats.length > 0 && (
+  <section class="space-y-3">
+    <SectionTitle anchor count={visibleFormats.length}>
+      Downloads
+    </SectionTitle>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {visibleFormats.map((f) => (
+        <Card class="flex flex-col">
+          <div class="mb-2 flex items-center gap-2">
+            <span class="flex h-8 w-8 items-center justify-center rounded-md bg-paper-200 text-ink-700">
+              {f.icon === "parcel" && (
+                <svg viewBox="0 0 16 16" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+                  <path d="M4.75 1A1.75 1.75 0 0 0 3 2.75v10.5c0 .966.784 1.75 1.75 1.75h6.5A1.75 1.75 0 0 0 13 13.25v-7.5a.75.75 0 0 0-.22-.53l-3.25-3.25A.75.75 0 0 0 8.78 1.5H4.75Z"/>
+                </svg>
+              )}
+              {f.icon === "json" && (
+                <svg viewBox="0 0 16 16" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+                  <path d="M5.75 1A2.75 2.75 0 0 0 3 3.75v8.5A2.75 2.75 0 0 0 5.75 15h4.5A2.75 2.75 0 0 0 13 12.25v-7a.75.75 0 0 0-.22-.53l-3.5-3.5A.75.75 0 0 0 8.75 1h-3Zm3.25 1.5 2 2h-1.5a.5.5 0 0 1-.5-.5v-1.5Z"/>
+                </svg>
+              )}
+              {f.icon === "cddal" && (
+                <svg viewBox="0 0 16 16" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+                  <path d="M3 2.75A1.75 1.75 0 0 1 4.75 1h6.5A1.75 1.75 0 0 1 13 2.75v10.5A1.75 1.75 0 0 1 11.25 15h-6.5A1.75 1.75 0 0 1 3 13.25V2.75Z"/>
+                </svg>
+              )}
+            </span>
+            <h3 class="text-sm font-semibold text-ink-900">{f.formatName}</h3>
+            {f.size && (
+              <span class="ml-auto font-mono text-[11px] text-ink-500">{f.size}</span>
+            )}
+          </div>
+          <p class="flex-1 text-xs leading-relaxed text-ink-600">{f.description}</p>
+          <a
+            href={f.href}
+            class="mt-3 inline-flex items-center gap-1 self-start rounded-md border border-hex-300 bg-hex-50 px-2.5 py-1 text-[12px] font-medium text-hex-700 shadow-xs transition hover:border-hex-400 hover:bg-hex-100 hover:text-hex-800"
+            download={f.icon === "parcel" || f.icon === "json" ? f.fileName : undefined}
+          >
+            <svg viewBox="0 0 16 16" fill="currentColor" class="h-3 w-3" aria-hidden="true">
+              <path d="M8 1a.75.75 0 0 1 .75.75v6.94l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.22 2.22V1.75A.75.75 0 0 1 8 1Z"/>
+              <path d="M2.75 11.5a.75.75 0 0 1 .75.75v.5c0 .14.11.25.25.25h8.5a.25.25 0 0 0 .25-.25v-.5a.75.75 0 0 1 1.5 0v.5a1.75 1.75 0 0 1-1.75 1.75h-8.5A1.75 1.75 0 0 1 2 12.75v-.5a.75.75 0 0 1 .75-.75Z"/>
+            </svg>
+            Download {f.icon === "parcel" ? ".xlsx" : f.icon === "json" ? "" : ""}
+          </a>
+        </Card>
+      ))}
+    </div>
+    <p class="archive-notice">
+      {totalEntities.toLocaleString()} entities across this dictionary.
+      Per-entity JSON, CDDAL, and CSV downloads are available on each detail page.
+    </p>
+  </section>
+)}

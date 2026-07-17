@@ -1,8 +1,8 @@
 ---
 import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
-import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
+import DownloadMenu from "~/components/islands/DownloadMenu.vue";
 import Field from "~/components/ui/Field.astro";
 import UsedByField from "~/components/ui/UsedByField.astro";
 import DataTypeChip from "~/components/ui/DataTypeChip.astro";
@@ -38,6 +38,7 @@ const stats = usedBy.length > 0
   stats={stats}
 >
   <EntityBadge slot="badge" type="property" />
+  <DownloadMenu slot="actions" client:load entity={node} dict={dict!} />
 
   <Card>
     <dl class="grid gap-3 sm:grid-cols-2">
