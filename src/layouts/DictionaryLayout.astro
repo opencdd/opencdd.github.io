@@ -44,6 +44,9 @@ const dicts = listDictionaries().map((d) => ({
     <link rel="manifest" href="/site.webmanifest?v=20260712" />
     <meta name="theme-color" content="#fbfaf3" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#141c28" media="(prefers-color-scheme: dark)" />
+    <script is:inline>
+      (function(){try{var t=localStorage.getItem("opencdd:theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}})();
+    </script>
   </head>
   <body>
     <SkipToContent />
@@ -79,5 +82,28 @@ const dicts = listDictionaries().map((d) => ({
     <ReadingProgress client:only="vue" />
     <CommandPalette client:only="vue" dictionaries={dicts} />
     <KeyboardHelp client:only="vue" />
+    <script is:inline>
+      (function() {
+        var m = window.location.pathname.match(/^\/d\/([^/]+)\/([cptuvr])\/([^/]+)/);
+        if (!m) return;
+        var typeMap = { c: "class", p: "property", u: "unit", v: "value_list", t: "value_term", r: "relation" };
+        var entry = {
+          url: window.location.pathname,
+          title: document.querySelector("h1")?.textContent?.trim() || m[3],
+          code: m[3],
+          dict: m[1],
+          type: typeMap[m[2]] || "",
+          excerpt: ""
+        };
+        try {
+          var key = "opencdd:recent-entities";
+          var raw = localStorage.getItem(key);
+          var existing = raw ? JSON.parse(raw) : [];
+          var filtered = existing.filter(function(r) { return r.url !== entry.url; });
+          filtered.unshift(entry);
+          localStorage.setItem(key, JSON.stringify(filtered.slice(0, 5)));
+        } catch(e) {}
+      })();
+    </script>
   </body>
 </html>

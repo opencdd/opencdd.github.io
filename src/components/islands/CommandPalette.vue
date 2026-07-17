@@ -17,6 +17,7 @@ const loading = ref(false);
 const results = ref<SearchResult[]>([]);
 const selectedIndex = ref(0);
 const inputRef = ref<HTMLInputElement | null>(null);
+const recentEntities = ref<SearchResult[]>([]);
 
 interface SearchResult {
   url: string;
@@ -29,6 +30,41 @@ interface SearchResult {
 
 let pagefind: any = null;
 let searchTimer: ReturnType<typeof setTimeout> | undefined;
+
+const RECENT_KEY = "opencdd:recent-entities";
+const RECENT_MAX = 5;
+
+function loadRecent(): SearchResult[] {
+  try {
+    const raw = localStorage.getItem(RECENT_KEY);
+    if (!raw) return [];
+    return JSON.parse(raw) as SearchResult[];
+  } catch {
+    return [];
+  }
+}
+
+function saveRecent(entry: SearchResult) {
+  const existing = loadRecent().filter((r) => r.url !== entry.url);
+  existing.unshift(entry);
+  const trimmed = existing.slice(0, RECENT_MAX);
+  try {
+    localStorage.setItem(RECENT_KEY, JSON.stringify(trimmed));
+  } catch { /* ignore */
+  }
+  recentEntities.value = trimmed;
+}
+
+function detectIrdi(q: string): string | null {
+  const m = q.match(/#([A-Z0-9]+)/);
+  if (m) return m[1] ?? null;
+  if (/^[A-Z]{3}\d{3,}/.test(q.trim())) return q.trim();
+  return null;
+}
+
+function isIrdiQuery(q: string): boolean {
+  return q.includes("#") || /^\d{4}\/\d/.test(q.trim());
+}
 
 const TYPE_DOT: Record<string, string> = {
   class: "var(--color-teal-500)",
@@ -50,11 +86,17 @@ const TYPE_LABEL: Record<string, string> = {
 
 const flatResults = computed(() => {
   if (!query.value.trim()) {
-    return props.dictionaries.map((d, i) => ({
-      kind: "dict" as const,
-      ...d,
+    const recent = recentEntities.value.map((r, i) => ({
+      kind: "entity" as const,
+      ...r,
       index: i,
     }));
+    const dicts = props.dictionaries.map((d, i) => ({
+      kind: "dict" as const,
+      ...d,
+      index: recent.length + i,
+    }));
+    return [...recent, ...dicts];
   }
   return results.value.map((r, i) => ({
     kind: "entity" as const,
@@ -69,6 +111,7 @@ function openPalette() {
   results.value = [];
   query.value = "";
   selectedIndex.value = 0;
+  recentEntities.value = loadRecent();
   nextTick(() => inputRef.value?.focus());
   document.body.style.overflow = "hidden";
 }
@@ -83,6 +126,14 @@ function navigate(entry: (typeof flatResults.value)[0]) {
   if (entry.kind === "dict") {
     window.location.href = `/d/${entry.slug}/`;
   } else {
+    saveRecent({
+      url: entry.url,
+      title: entry.title,
+      excerpt: entry.excerpt,
+      dict: entry.dict,
+      type: entry.type,
+      code: entry.code,
+    });
     window.location.href = entry.url;
   }
 }
@@ -104,7 +155,9 @@ async function doSearch(q: string) {
 
   loading.value = true;
   try {
-    const search = await pf.search(q);
+    const irdiCode = detectIrdi(q);
+    const searchQuery = irdiCode ?? q;
+    const search = await pf.search(searchQuery);
     const top = search.results.slice(0, 15);
     const dataPromises = top.map((r: any) => r.data());
     const dataList = await Promise.all(dataPromises);
@@ -126,6 +179,15 @@ async function doSearch(q: string) {
           code: m?.[3] ?? "",
         };
       });
+
+    if (irdiCode) {
+      results.value = results.value.sort((a, b) => {
+        const aExact = a.code === irdiCode ? 0 : 1;
+        const bExact = b.code === irdiCode ? 0 : 1;
+        return aExact - bExact;
+      });
+    }
+
     selectedIndex.value = 0;
   } finally {
     loading.value = false;
@@ -244,19 +306,48 @@ function dictLabel(slug: string): string {
               </div>
             </div>
 
-            <!-- Empty search: dictionary shortcuts -->
+            <!-- Empty search: recently viewed + dictionaries -->
             <div v-else-if="!query.trim()" class="p-2">
-              <p class="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-ink-400">
+              <!-- Recently viewed -->
+              <template v-if="recentEntities.length > 0">
+                <p class="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-ink-400">
+                  Recently viewed
+                </p>
+                <button
+                  v-for="entry in recentEntities"
+                  :key="'recent-' + entry.url"
+                  @click="navigate({ kind: 'entity' as const, ...entry, index: 0 })"
+                  @mouseenter="selectedIndex = -1"
+                  class="flex w-full items-start gap-3 rounded-lg px-3 py-2 text-left transition hover:bg-paper-100"
+                >
+                  <span
+                    class="mt-0.5 h-2.5 w-2.5 shrink-0 rounded-full"
+                    :style="{ background: TYPE_DOT[entry.type] ?? 'var(--color-ink-400)' }"
+                  />
+                  <div class="min-w-0 flex-1">
+                    <div class="flex items-baseline gap-2">
+                      <code class="font-mono text-[11px] text-ink-500">{{ entry.code }}</code>
+                      <span class="truncate text-sm text-ink-800">{{ entry.title }}</span>
+                    </div>
+                  </div>
+                  <span class="shrink-0 rounded-full bg-paper-100 px-2 py-0.5 text-[10px] font-medium text-ink-500">
+                    {{ dictLabel(entry.dict) }}
+                  </span>
+                </button>
+              </template>
+
+              <!-- Dictionaries -->
+              <p class="px-3 pt-3 pb-1.5 text-[10px] font-semibold uppercase tracking-wide text-ink-400">
                 Dictionaries
               </p>
               <button
-                v-for="entry in flatResults"
-                :key="entry.slug"
-                @click="navigate(entry)"
-                @mouseenter="selectedIndex = entry.index"
+                v-for="entry in props.dictionaries"
+                :key="'dict-' + entry.slug"
+                @click="navigate({ kind: 'dict' as const, ...entry, index: 0 })"
+                @mouseenter="selectedIndex = -1"
                 :class="[
                   'flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-left transition',
-                  selectedIndex === entry.index ? 'bg-lapis-50' : 'hover:bg-paper-100',
+                  'hover:bg-paper-100',
                 ]"
               >
                 <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-teal-400 to-lapis-400 text-xs font-bold text-paper-50">

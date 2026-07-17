@@ -39,6 +39,9 @@ const dicts = listDictionaries().map((d) => ({
     <link rel="manifest" href="/site.webmanifest?v=20260712" />
     <meta name="theme-color" content="#fbfaf3" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#141c28" media="(prefers-color-scheme: dark)" />
+    <script is:inline>
+      (function(){try{var t=localStorage.getItem("opencdd:theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t;}catch(e){}})();
+    </script>
   </head>
   <body>
     <SkipToContent />

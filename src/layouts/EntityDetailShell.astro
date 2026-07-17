@@ -5,6 +5,7 @@ import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
+import JsonLd from "~/components/ui/JsonLd.astro";
 import { codeFromIrdi } from "~/lib/irdi";
 import { findCrossDictMatches } from "~/lib/crossDict";
 import { entityPluralTitleFor } from "~/lib/entityTypeMeta";
@@ -88,3 +89,5 @@ const crossMatches = findCrossDictMatches(node.preferred_name, dict);
     </Card>
   </article>
 </DictionaryLayout>
+
+<JsonLd node={node} type={(node as any).type} dict={dict} dictTitle={dict} />
