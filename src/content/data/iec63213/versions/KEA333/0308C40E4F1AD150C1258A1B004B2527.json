@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///63213#KEA333",
+  "code": "KEA333",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "integrated display present",
+  "preferred_name_ml": {
+    "en": "integrated display present",
+    "fr": "affichage intégré présent",
+    "de": "Integriertes Display vorhanden",
+    "zh": "集成顯示存在"
+  },
+  "definition": "display that is embedded within the device",
+  "definition_ml": {
+    "en": "display that is embedded within the device",
+    "fr": "afficheur intégré à l’appareil",
+    "de": "Anzeige, die im Gerät integriert ist",
+    "zh": "嵌入到设备中的显示器"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 63213DB",
+  "responsible_committee": "IEC/TC 85",
+  "change_request_id": "C00126",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///63213#KEA333",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "integrated display present",
+    "MDC_P006.en": "display that is embedded within the device",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///63213#KEA012",
+    "C016": "Standard",
+    "C012": "IEC 63213DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-08-30",
+    "MDC_P003_1": "2021-08-26",
+    "MDC_P003_2": "2023-08-30",
+    "MDC_P003_3": "2023-08-30",
+    "MDC_P012": "IEC/TC 85",
+    "MDC_P004.fr": "affichage intégré présent",
+    "MDC_P006.fr": "afficheur intégré à l’appareil",
+    "C019.fr": "IEC/TC 85",
+    "C017.fr": "1",
+    "C018.fr": "2022-07-25",
+    "MDC_P004.de": "Integriertes Display vorhanden",
+    "MDC_P006.de": "Anzeige, die im Gerät integriert ist",
+    "C019.de": "DKE",
+    "C017.de": "1",
+    "C018.de": "2022-07-25",
+    "MDC_P004.zh": "集成顯示存在",
+    "MDC_P006.zh": "嵌入到设备中的显示器",
+    "C019.zh": "SAC",
+    "C017.zh": "1",
+    "C018.zh": "2022-07-25",
+    "C002": "C00126"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-08-30 15:40:47",
+      "user": "BATCH 00000923",
+      "unid": "0308C40E4F1AD150C1258A1B004B2527",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-07-25 19:42:29",
+      "user": "BATCH 00000919",
+      "unid": "666b25fda8c43409c125888a0061462b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-08-27 10:21:14",
+      "user": "BATCH 00000918",
+      "unid": "0f375425f2924e3bc125873e002de3ac",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-08-26",
+    "current_version": "2023-08-30",
+    "current_revision": "2023-08-30"
+  },
+  "definition_class_irdi": "0112/2///63213#KEA012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-08-30 15:40:47",
+    "user": "BATCH 00000923",
+    "change_request_id": null,
+    "unid": "0308C40E4F1AD150C1258A1B004B2527"
+  }
+}

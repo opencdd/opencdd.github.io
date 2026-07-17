@@ -15,6 +15,7 @@ import RawProperties from "~/components/ui/RawProperties.astro";
 import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
 import DownloadMenu from "~/components/islands/DownloadMenu.vue";
 import EntityGraphButton from "~/components/islands/EntityGraphButton.vue";
+import ClassHierarchyDiagram from "~/components/ui/ClassHierarchyDiagram.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import { codeFromIrdi } from "~/lib/irdi";
@@ -98,6 +99,8 @@ const graph = computeEntityGraph(node.irdi, bundle, dict!, 2);
         </Badge>
       )}
     </EntityHero>
+
+    <ClassHierarchyDiagram node={node} bundle={bundle} dict={dict!} />
 
     {page.higherLevel.length > 0 && (
       <ReferenceSection

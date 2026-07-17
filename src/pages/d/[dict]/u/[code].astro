@@ -2,6 +2,7 @@
 import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
+import DownloadMenu from "~/components/islands/DownloadMenu.vue";
 import Field from "~/components/ui/Field.astro";
 import UsedByField from "~/components/ui/UsedByField.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
@@ -33,6 +34,7 @@ const stats = usedBy.length > 0
   stats={stats}
 >
   <EntityBadge slot="badge" type="unit" />
+  <DownloadMenu slot="actions" client:load entity={node} dict={dict!} />
 
   <Card>
     <dl class="grid gap-3 sm:grid-cols-2">

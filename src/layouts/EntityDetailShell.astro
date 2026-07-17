@@ -4,6 +4,7 @@ import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
+import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
 import { codeFromIrdi } from "~/lib/irdi";
 import type { EntityMetadata } from "~/lib/types";
 
@@ -40,9 +41,12 @@ const { dict, node, title, stats = [] } = Astro.props;
     >
       <slot name="badge" />
       <slot name="extra-badges" />
+      <slot name="actions" />
     </EntityHero>
 
     <slot />
+
+    <VersionHistorySection entity={node} dict={dict} />
 
     <Card>
       <SectionTitle anchor={true}>Metadata</SectionTitle>

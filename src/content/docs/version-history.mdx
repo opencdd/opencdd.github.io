@@ -1,0 +1,80 @@
+---
+title: Version History, Time Travel, and Diff
+description: Navigate every published revision of any entity in the OpenCDD browser.
+published: 2026-07-17
+order: 50
+---
+
+import { Fragment } from "astro/jsx-runtime";
+
+IEC CDD records every published revision of every entity — version
+number, status, timestamp, the change-request ID that introduced
+it, and the user who committed it. OpenCDD captures this chain of
+custody from `cdd.iec.ch` and exposes it on every entity that has
+multiple versions.
+
+## What's on the page
+
+Every entity detail page in the browser ends with a **Version
+history** section. Each version appears as a vertical timeline
+entry, styled as an archival specimen record:
+
+- A large serif **version numeral** (e.g. `003`).
+- A **wax-seal status pill** — amber for the current version,
+  emerald for `standard`, grey for `superseded`.
+- A **notary signature** row showing the timestamp and the
+  user/batch that committed the revision.
+- The **change request ID** rendered as a museum catalog number.
+
+For entities with more than one version, each non-current entry
+also offers:
+
+- **View this version** — fetches the historical JSON and applies
+  a subtle aged-paper treatment to the page. The URL becomes
+  `?v=<unid>` for shareability. A "Return to current" button
+  restores the live view.
+- **Diff vs current** — opens a modal showing the field-level
+  differences between the historical version and the current one,
+  with unified and split modes.
+
+## Keyboard navigation
+
+The timeline supports full keyboard control:
+
+| Key | Action |
+|-----|--------|
+| `ArrowDown` / `ArrowRight` | Move to next entry |
+| `ArrowUp` / `ArrowLeft` | Move to previous entry |
+| `Home` / `End` | Jump to first / last entry |
+| `Enter` | View the focused version |
+| `d` | Diff the focused version against current |
+
+## Per-version downloads
+
+Each version entry has a "Version JSON" link that downloads the
+historical JSON for that specific version. Use this to compare
+revisions offline or feed them into a custom analysis pipeline.
+
+## What's stored
+
+The JSON payload on every entity carries a `version_history`
+array. Each entry has:
+
+```json
+{
+  "version": "002",
+  "revision": "01",
+  "status": "superseded",
+  "timestamp": "2022-07-25 19:42:07",
+  "user": "BATCH 00000919",
+  "change_request_id": null,
+  "unid": "c7b602fc5672a876c125888a00613da8",
+  "is_current": false
+}
+```
+
+For historical versions where the scraper didn't capture the raw
+`.xls` exports (the common case), the version JSON is
+metadata-only. The browser shows an amber "Metadata-only view"
+notice when this happens; the full record can be fetched from
+`cdd.iec.ch` directly.

@@ -2,6 +2,7 @@
 import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import ReferenceSection from "~/components/ui/ReferenceSection.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
+import DownloadMenu from "~/components/islands/DownloadMenu.vue";
 import FilterableValueTermList from "~/components/islands/FilterableValueTermList.vue";
 import UsedByField from "~/components/ui/UsedByField.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
@@ -48,6 +49,7 @@ const stats = [
   stats={stats}
 >
   <EntityBadge slot="badge" type="value_list" />
+  <DownloadMenu slot="actions" client:load entity={node} dict={dict!} />
 
   {terms.length > 0 && (
     <ReferenceSection title="Terms" count={terms.length} anchor>

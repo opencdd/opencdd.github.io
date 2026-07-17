@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///63213#KEA408",
+  "code": "KEA408",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2022-07-25 19:42:29",
+    "user": "BATCH 00000919",
+    "change_request_id": null,
+    "unid": "55b02cb5c00f1c4fc125888a0061463b"
+  }
+}

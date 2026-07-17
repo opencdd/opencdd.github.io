@@ -2,6 +2,7 @@
 import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
 import Card from "~/components/ui/Card.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
+import DownloadMenu from "~/components/islands/DownloadMenu.vue";
 import Field from "~/components/ui/Field.astro";
 import FilterableEntityList from "~/components/islands/FilterableEntityList.vue";
 import EntityLink from "~/components/ui/EntityLink.astro";
@@ -32,6 +33,7 @@ const domainItems = node.domain
   title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
 >
   <EntityBadge slot="badge" type="relation" />
+  <DownloadMenu slot="actions" client:load entity={node} dict={dict!} />
 
   <Card>
     <dl class="grid gap-3 sm:grid-cols-2">

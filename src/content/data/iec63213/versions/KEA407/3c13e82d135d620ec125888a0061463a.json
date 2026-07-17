@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///63213#KEA407",
+  "code": "KEA407",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2022-07-25 19:42:29",
+    "user": "BATCH 00000919",
+    "change_request_id": null,
+    "unid": "3c13e82d135d620ec125888a0061463a"
+  }
+}

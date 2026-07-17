@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///63213#KEA404",
+  "code": "KEA404",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "access via webserver",
+  "preferred_name_ml": {
+    "en": "access via webserver",
+    "fr": "accès via serveur web",
+    "de": "Zugriff über Webserver",
+    "zh": "通過網絡服務器訪問"
+  },
+  "definition": "Integrated component of a device that delivers data to a web browser via the HTTP or HTTPS protocol",
+  "definition_ml": {
+    "en": "Integrated component of a device that delivers data to a web browser via the HTTP or HTTPS protocol",
+    "fr": "composant d’un dispositif logiciel qui implémente le protocole HTTP",
+    "de": "Integrierte Komponente eines Gerätes, welches Daten über das HTTP- oder HTTPS-Protokoll an einen Webrowser liefert",
+    "zh": "实现HTTP协议的软件设备的组件。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 63213DB",
+  "responsible_committee": "IEC/TC 85",
+  "change_request_id": "C00126",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///63213#KEA404",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "access via webserver",
+    "MDC_P006.en": "Integrated component of a device that delivers data to a web browser via the HTTP or HTTPS protocol",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///63213#KEA022",
+    "C016": "Standard",
+    "C012": "IEC 63213DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-08-30",
+    "MDC_P003_1": "2021-08-26",
+    "MDC_P003_2": "2023-08-30",
+    "MDC_P003_3": "2023-08-30",
+    "MDC_P012": "IEC/TC 85",
+    "MDC_P004.fr": "accès via serveur web",
+    "MDC_P006.fr": "composant d’un dispositif logiciel qui implémente le protocole HTTP",
+    "C019.fr": "IEC/TC 85",
+    "C017.fr": "1",
+    "C018.fr": "2022-07-25",
+    "MDC_P004.de": "Zugriff über Webserver",
+    "MDC_P006.de": "Integrierte Komponente eines Gerätes, welches Daten über das HTTP- oder HTTPS-Protokoll an einen Webrowser liefert",
+    "C019.de": "DKE",
+    "C017.de": "1",
+    "C018.de": "2022-07-25",
+    "MDC_P004.zh": "通過網絡服務器訪問",
+    "MDC_P006.zh": "实现HTTP协议的软件设备的组件。",
+    "C019.zh": "SAC",
+    "C017.zh": "1",
+    "C018.zh": "2022-07-25",
+    "C002": "C00126"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-08-30 15:40:47",
+      "user": "BATCH 00000923",
+      "unid": "673FA6207F26BC8CC1258A1B004B2535",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-07-25 19:42:29",
+      "user": "BATCH 00000919",
+      "unid": "915ae88afa6b4289c125888a00614639",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-08-27 10:21:14",
+      "user": "BATCH 00000918",
+      "unid": "f7bff90fb411a20fc125873e002de3cb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-08-26",
+    "current_version": "2023-08-30",
+    "current_revision": "2023-08-30"
+  },
+  "definition_class_irdi": "0112/2///63213#KEA022",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-08-30 15:40:47",
+    "user": "BATCH 00000923",
+    "change_request_id": null,
+    "unid": "673FA6207F26BC8CC1258A1B004B2535"
+  }
+}

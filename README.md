@@ -79,18 +79,38 @@ for the full architecture and the eight decisions that shape it.
 | Path | Page |
 |------|------|
 | `/` | Dictionary index |
-| `/d/:dict/` | Dictionary overview (`?tab=p\|v\|t\|u\|r`) |
+| `/stats` | Site-wide stats — total entities, version distribution, dictionary comparison |
+| `/d/:dict/` | Dictionary overview — entity browser + Parcel/JSON/CDDAL downloads |
 | `/d/:dict/about` | About the dictionary |
-| `/d/:dict/c/:code` | Class detail (breadcrumb, declared/inherited props, subclasses, instances, composition, relations) |
-| `/d/:dict/p/:code` | Property detail (data type, unit, condition, formula, used-by) |
-| `/d/:dict/v/:code` | Value list detail (terms) |
+| `/d/:dict/changes` | Recent version-history entries (aggregated, reverse-chronological) |
+| `/d/:dict/c/:code` | Class detail — hierarchy diagram, breadcrumb, declared/inherited props, subclasses, instances, composition, relations, version timeline |
+| `/d/:dict/p/:code` | Property detail (data type, unit, condition, formula, used-by, version timeline) |
+| `/d/:dict/v/:code` | Value list detail (terms, version timeline) |
 | `/d/:dict/t/:code` | Value term detail |
 | `/d/:dict/u/:code` | Unit detail (used-by) |
 | `/d/:dict/r/:code` | Relation detail (domain, codomain) |
 | `/search` | Pagefind full-text search |
 | `*` | 404 |
 
-The class tree sidebar persists across all `/d/:dict/*` routes.
+The class tree sidebar persists across all `/d/:dict/*` routes. The
+Recently Viewed rail (right sidebar, `xl:` breakpoint) records the
+last 12 entity detail pages you visit via `localStorage`.
+
+## Downloads
+
+- **Per-dictionary** Parcel `.xlsx` (IEC 62656-1) — linked from each `/d/:dict/` overview. Built by `rake browser:build_parcel[<dict>]` in cdd-data.
+- **Per-dictionary** full JSON — `database.json` is the wire payload from `Opencdd::Exporters::Json`.
+- **Per-version** JSON for entities with multi-version history — `/d/:dict>/versions/<code>/<unid>.json`. Powers time-travel and diff.
+- **Per-entity** JSON, CDDAL, CSV — from any entity detail page's DownloadMenu.
+- **Source XLS** — link to `cdd.iec.ch` (we don't host raw `.xls` archives).
+
+## Version history
+
+Multi-version entities (8,868 across the dataset) get:
+- A version timeline at the bottom of the detail page (wax-seal status pills, archival numerals).
+- "View this version" button — fetches historical JSON, applies `[data-time-travel]` archival treatment, URL becomes `?v=<unid>`.
+- "Diff vs current" button — opens a modal with unified/split diff.
+- Keyboard nav: ArrowUp/Down to navigate entries, Enter to view, "d" for diff.
 
 ## Conventions
 
