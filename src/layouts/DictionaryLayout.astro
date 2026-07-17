@@ -9,6 +9,7 @@ import BackToTop from "~/components/islands/BackToTop.vue";
 import ReadingProgress from "~/components/islands/ReadingProgress.vue";
 import RecentlyViewed from "~/components/islands/RecentlyViewed.vue";
 import CommandPalette from "~/components/islands/CommandPalette.vue";
+import KeyboardHelp from "~/components/islands/KeyboardHelp.vue";
 import { loadDictionary } from "~/lib/data";
 import { listDictionaries } from "~/lib/dictionary";
 
@@ -77,5 +78,6 @@ const dicts = listDictionaries().map((d) => ({
     <BackToTop client:only="vue" />
     <ReadingProgress client:only="vue" />
     <CommandPalette client:only="vue" dictionaries={dicts} />
+    <KeyboardHelp client:only="vue" />
   </body>
 </html>

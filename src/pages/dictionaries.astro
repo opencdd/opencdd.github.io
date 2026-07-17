@@ -1,0 +1,55 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import PageHeader from "~/components/ui/PageHeader.astro";
+import DictionaryTable from "~/components/islands/DictionaryTable.vue";
+import type { DictRow } from "~/components/islands/DictionaryTable.vue";
+import { listDictionaries } from "~/lib/dictionary";
+import { loadDictionary } from "~/lib/data";
+import { ENTITY_TYPE_ORDER } from "~/lib/entityTypeMeta";
+
+const allDicts = listDictionaries();
+
+const rows: DictRow[] = allDicts.map((d) => {
+  const bundle = loadDictionary(d.slug);
+  const byType: Record<string, number> = {};
+  for (const type of ENTITY_TYPE_ORDER) {
+    byType[type] = bundle.entityCount(type);
+  }
+  const totalEntities = Object.values(byType).reduce((s, n) => s + n, 0);
+  const totalVersions = bundle.entitiesOfType("class").filter((n: any) => n.version_history && n.version_history.length > 0).length +
+    bundle.entitiesOfType("property").filter((n: any) => n.version_history && n.version_history.length > 0).length;
+
+  return {
+    slug: d.slug,
+    title: d.title,
+    shortTitle: d.shortTitle,
+    parcelId: d.parcelId,
+    publicationId: d.publicationId,
+    edition: d.edition,
+    technicalCommittee: d.technicalCommittee,
+    publishedYear: String(d.publishedYear ?? ""),
+    webstoreUrl: d.webstoreUrl,
+    abstract: d.abstract,
+    totalEntities,
+    byType,
+    totalVersions,
+    multiVersionEntities: totalVersions,
+    demonstration: d.demonstration === true,
+  };
+});
+---
+
+<BaseLayout
+  title="Dictionaries — OpenCDD"
+  description="All published IEC Common Data Dictionary editions, sortable by entity count, version history, and publication year."
+>
+  <article class="mx-auto max-w-6xl space-y-8">
+    <PageHeader
+      kicker="Dictionaries"
+      title="All published IEC CDD editions"
+      description="Every dictionary in the OpenCDD browser — sortable, filterable, and linked to the canonical IEC publication. Click any column header to sort. Click a dictionary name to browse its entities."
+    />
+
+    <DictionaryTable client:load rows={rows} />
+  </article>
+</BaseLayout>
