@@ -4,7 +4,8 @@ import { ClientRouter } from "astro:transitions";
 import SkipToContent from "~/components/ui/SkipToContent.astro";
 import Header from "~/components/layout/Header.astro";
 import Footer from "~/components/layout/Footer.astro";
-import KeyboardShortcuts from "~/components/layout/KeyboardShortcuts.astro";
+import CommandPalette from "~/components/islands/CommandPalette.vue";
+import { listDictionaries } from "~/lib/dictionary";
 
 interface Props {
   title: string;
@@ -13,6 +14,12 @@ interface Props {
 
 const { title, description = "OpenCDD — a modern browser for published IEC CDD data." } =
   Astro.props;
+
+const dicts = listDictionaries().map((d) => ({
+  slug: d.slug,
+  title: d.shortTitle,
+  entityCount: Object.values(d.counts).reduce((s: number, n) => s + (n as number), 0),
+}));
 ---
 
 <!doctype html>
@@ -39,6 +46,6 @@ const { title, description = "OpenCDD — a modern browser for published IEC CDD
       <slot />
     </main>
     <Footer />
-    <KeyboardShortcuts />
+    <CommandPalette client:only="vue" dictionaries={dicts} />
   </body>
 </html>

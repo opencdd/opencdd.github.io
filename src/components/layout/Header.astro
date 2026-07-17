@@ -64,16 +64,17 @@ const current = Astro.url.pathname;
 
     <div class="flex flex-1 items-center justify-end gap-3">
       <LanguageSwitcher client:only="vue" transition:persist />
-      <a
-        href="/search"
+      <button
+        type="button"
+        onclick="window.dispatchEvent(new CustomEvent('opencdd:open-palette'))"
         class="hidden md:inline-flex items-center gap-2 rounded-lg border border-paper-300 bg-paper-50 px-3 py-1.5 text-sm text-ink-500 transition hover:border-paper-400 hover:text-ink-700"
-        aria-label="Search (opens search page)"
+        aria-label="Open command palette"
       >
         <svg viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4" aria-hidden="true">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 3.39 9.83l3.39 3.39a.75.75 0 1 0 1.06-1.06l-3.39-3.39A5.5 5.5 0 0 0 9 3.5ZM5 9a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z" />
         </svg>
         <span>Search</span>
-      </a>
+      </button>
       <span class="hidden shrink-0 items-center gap-1 lg:flex">
         <kbd class="rounded border border-paper-300 bg-paper-100 px-1.5 py-0.5 font-mono text-[10px] text-ink-600" aria-hidden="true">
           {modifier}K

@@ -7,7 +7,10 @@ import KeyboardShortcuts from "~/components/layout/KeyboardShortcuts.astro";
 import ClassTree from "~/components/islands/ClassTree.vue";
 import BackToTop from "~/components/islands/BackToTop.vue";
 import ReadingProgress from "~/components/islands/ReadingProgress.vue";
+import RecentlyViewed from "~/components/islands/RecentlyViewed.vue";
+import CommandPalette from "~/components/islands/CommandPalette.vue";
 import { loadDictionary } from "~/lib/data";
+import { listDictionaries } from "~/lib/dictionary";
 
 interface Props {
   title: string;
@@ -17,6 +20,12 @@ interface Props {
 
 const { title, description, dict } = Astro.props;
 const bundle = loadDictionary(dict);
+
+const dicts = listDictionaries().map((d) => ({
+  slug: d.slug,
+  title: d.shortTitle,
+  entityCount: Object.values(d.counts).reduce((s: number, n) => s + (n as number), 0),
+}));
 ---
 
 <!doctype html>
@@ -58,14 +67,15 @@ const bundle = loadDictionary(dict);
       </section>
       <aside
         aria-label="On this page"
-        class="hidden shrink-0 xl:block xl:w-56 xl:sticky xl:top-20 xl:self-start xl:max-h-[calc(100vh-7rem)] xl:overflow-y-auto scroll-thin"
+        class="hidden shrink-0 xl:block xl:w-56 xl:sticky xl:top-20 xl:self-start xl:max-h-[calc(100vh-7rem)] xl:overflow-y-auto scroll-thin space-y-6"
       >
         <slot name="sidebar-right" />
+        <RecentlyViewed client:idle />
       </aside>
     </div>
     <Footer />
-    <KeyboardShortcuts />
     <BackToTop client:only="vue" />
     <ReadingProgress client:only="vue" />
+    <CommandPalette client:only="vue" dictionaries={dicts} />
   </body>
 </html>
