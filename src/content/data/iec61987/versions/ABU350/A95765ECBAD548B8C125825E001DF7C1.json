@@ -1,0 +1,82 @@
+{
+  "irdi": "0112/2///61987#ABU350",
+  "code": "ABU350",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "reference to Auxiliary input [2]",
+  "preferred_name_ml": {
+    "en": "reference to Auxiliary input [2]"
+  },
+  "definition": "reference to block ABC127",
+  "definition_ml": {
+    "en": "reference to block ABC127"
+  },
+  "synonyms": [],
+  "remark": "Id specified in IEC61987-12/-13: ABC757",
+  "remark_ml": {
+    "en": "Id specified in IEC61987-12/-13: ABC757"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00014",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU350",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Auxiliary input [2]",
+    "MDC_P006.en": "reference to block ABC127",
+    "MDC_P009.en": "Id specified in IEC61987-12/-13: ABC757",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC127)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2014-03-13",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "C002": "C00014"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:19",
+      "user": "BATCH 00000762",
+      "unid": "A95765ECBAD548B8C125825E001DF7C1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:55",
+      "user": "BATCH 00000699",
+      "unid": "a8f668f68798b6dbc1257cb40054c559",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2014-03-13",
+    "current_revision": "2014-06-18"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC127)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC127)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:19",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A95765ECBAD548B8C125825E001DF7C1"
+  }
+}

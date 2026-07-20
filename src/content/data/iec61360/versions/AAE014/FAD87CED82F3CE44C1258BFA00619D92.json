@@ -1,0 +1,147 @@
+{
+  "irdi": "0112/2///61360_4#AAE014",
+  "code": "AAE014",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "ambient temperature",
+  "preferred_name_ml": {
+    "en": "ambient temperature",
+    "de": "Umgebungstemperatur"
+  },
+  "short_name": "@Θ_amb}",
+  "short_name_ml": {
+    "en": "@Θ_amb}"
+  },
+  "definition": "temperature of the air or other media, in the immediate vicinity of the equipment or component",
+  "definition_ml": {
+    "en": "temperature of the air or other media, in the immediate vicinity of the equipment or component"
+  },
+  "source_document": "IEV 426-04-09",
+  "synonyms": [],
+  "remark": "For a heat-dissipating specimen in free air conditions, the ambient temperature is the temperature of the air at such distance from the specimen that the effect of the dissipation is negligible.",
+  "remark_ml": {
+    "en": "For a heat-dissipating specimen in free air conditions, the ambient temperature is the temperature of the air at such distance from the specimen that the effect of the dissipation is negligible."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE014",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "ambient temperature",
+    "MDC_P005.en": "@Θ_amb}",
+    "MDC_P006.en": "temperature of the air or other media, in the immediate vicinity of the equipment or component",
+    "MDC_P009.en": "For a heat-dissipating specimen in free air conditions, the ambient temperature is the temperature of the air at such distance from the specimen that the effect of the dissipation is negligible.",
+    "MDC_P025_1": "@Θ_amb}",
+    "MDC_P023": "°C",
+    "MDC_P022": "INT_MEASURE_TYPE",
+    "MDC_P024": "NR1 S..4",
+    "MDC_P006_1": "IEV 426-04-09",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P040": "H02",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_2": "2024-06-21",
+    "MDC_P003_3": "2024-06-21",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P004.de": "Umgebungstemperatur",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:13",
+      "user": "BATCH 00001336",
+      "unid": "FAD87CED82F3CE44C1258BFA00619D92",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-12-21 12:45:19",
+      "user": "BATCH 00001033",
+      "unid": "50a2e0f3665cd840c12581fd00409324",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "7f9bf570a8216477c1257ea4004b1e8a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "a571fab8ad49ce35c1257e8b003234dc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "c229cbc10c8906c3c1257e8a0043e2ad",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "35acb9e4eb90ee3bc1257a0e0047bb01",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:49",
+      "user": "BATCH 00000787",
+      "unid": "49a3103b20a4ae98c1257a0e0046d881",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-06-21",
+    "current_revision": "2024-06-21"
+  },
+  "symbol_in_text": "@Θ_amb}",
+  "value_format": "NR1 S..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INTEGER_MEASURE_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "parsed_value_format": "NR1 S..4",
+  "type": "property",
+  "data_type": "INTEGER_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:13",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "FAD87CED82F3CE44C1258BFA00619D92"
+  }
+}

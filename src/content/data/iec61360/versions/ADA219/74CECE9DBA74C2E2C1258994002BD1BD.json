@@ -1,0 +1,91 @@
+{
+  "irdi": "0112/2///61360_4#ADA219",
+  "code": "ADA219",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "maintenance support performance",
+  "preferred_name_ml": {
+    "en": "maintenance support performance",
+    "de": "Instandhaltungsbereitschaft"
+  },
+  "definition": "effectiveness of an organization in respect of maintenance support",
+  "definition_ml": {
+    "en": "effectiveness of an organization in respect of maintenance support"
+  },
+  "source_document": "IEV 192-01-29:2015",
+  "synonyms": [],
+  "note": "Note 1 Maintenance support performance may be quantified using measures defined in Section IEV 192-07, Maintainability and maintenance support: measures.",
+  "note_ml": {
+    "en": "Note 1 Maintenance support performance may be quantified using measures defined in Section IEV 192-07, Maintainability and maintenance support: measures."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA219",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maintenance support performance",
+    "MDC_P006.en": "effectiveness of an organization in respect of maintenance support",
+    "MDC_P008.en": "Note 1 Maintenance support performance may be quantified using measures defined in Section IEV 192-07, Maintainability and maintenance support: measures.",
+    "MDC_P006_1": "IEV 192-01-29:2015",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#ADA137",
+    "MDC_P014": "{0112/2///61360_4#ADA227}",
+    "MDC_P004.de": "Instandhaltungsbereitschaft",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "74CECE9DBA74C2E2C1258994002BD1BD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:02",
+      "user": "BATCH 00001062",
+      "unid": "ab13bf8212db305dc1258407003de4b5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA227"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ADA137",
+  "superclass_type_property": "0112/2///61360_4#ADA137",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "74CECE9DBA74C2E2C1258994002BD1BD"
+  }
+}

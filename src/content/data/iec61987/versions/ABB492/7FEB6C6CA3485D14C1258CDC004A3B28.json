@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABB492",
+  "code": "ABB492",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "method of fastening of clamp-on sensor assembly",
+  "preferred_name_ml": {
+    "en": "method of fastening of clamp-on sensor assembly",
+    "fr": "méthode d'attache d'un assemblage de capteur à bride",
+    "de": "Befestigungsmethode des Ultraschall-Aufschnallmessaufnehmers"
+  },
+  "definition": "means by which a device is fastened to a pipe or wall",
+  "definition_ml": {
+    "en": "means by which a device is fastened to a pipe or wall",
+    "fr": "méthodes par lesquelles un appareil est rattaché à une canalisation ou un mur",
+    "de": "Methode, mit der ein Gerät an ein Rohr oder eine Wand befestigt wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB492",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "method of fastening of clamp-on sensor assembly",
+    "MDC_P006.en": "means by which a device is fastened to a pipe or wall",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL336)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "méthode d'attache d'un assemblage de capteur à bride",
+    "MDC_P006.fr": "méthodes par lesquelles un appareil est rattaché à une canalisation ou un mur",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Befestigungsmethode des Ultraschall-Aufschnallmessaufnehmers",
+    "MDC_P006.de": "Methode, mit der ein Gerät an ein Rohr oder eine Wand befestigt wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "7FEB6C6CA3485D14C1258CDC004A3B28",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "d22eb566e7d6cd4dc1258518003c491e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:43",
+      "user": "BATCH 00000762",
+      "unid": "e2f628b599b97677c125825e001de9cb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:36",
+      "user": "BATCH 00000699",
+      "unid": "ef698c4719b71a46c1257cb40054be10",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL336)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL336)",
+  "value_list": "0112/2///61987#ABL336",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:48",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "7FEB6C6CA3485D14C1258CDC004A3B28"
+  }
+}

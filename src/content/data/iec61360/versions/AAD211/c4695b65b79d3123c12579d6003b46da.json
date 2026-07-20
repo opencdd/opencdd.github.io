@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAD211",
+  "code": "AAD211",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2012-04-04 12:47:27",
+    "user": "BATCH 00000783",
+    "change_request_id": null,
+    "unid": "c4695b65b79d3123c12579d6003b46da"
+  }
+}

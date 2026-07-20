@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB168",
+  "code": "ABB168",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:22",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "26e7b11ab307bc49c12580d6004c1d38"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAD193",
+  "code": "AAD193",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "terminal shape and size",
+  "preferred_name_ml": {
+    "en": "terminal shape and size"
+  },
+  "short_name": "terminal size",
+  "short_name_ml": {
+    "en": "terminal size"
+  },
+  "definition": "description of the shape and size of all terminals on a minimally-packaged device",
+  "definition_ml": {
+    "en": "description of the shape and size of all terminals on a minimally-packaged device"
+  },
+  "synonyms": [],
+  "note": "The type of terminals on the device shall be stated and the following information shall be given:|a)~for ball- or column-grid arrays, the height of the terminals perpendicular to the die surface. In addition, the tolerance on the height of the terminals, their shapes and dimensions parallel to the die surface should also be given. Where appropriate, a drawing or diagram of the terminals should also be supplied as a document or in electronic form using a suitable graphics format.|b)~for non-leaded packages, the dimensions of the effective footprint area on the mounting surface shall be given.",
+  "note_ml": {
+    "en": "The type of terminals on the device shall be stated and the following information shall be given:|a)~for ball- or column-grid arrays, the height of the terminals perpendicular to the die surface. In addition, the tolerance on the height of the terminals, their shapes and dimensions parallel to the die surface should also be given. Where appropriate, a drawing or diagram of the terminals should also be supplied as a document or in electronic form using a suitable graphics format.|b)~for non-leaded packages, the dimensions of the effective footprint area on the mounting surface shall be given."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD193",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "terminal shape and size",
+    "MDC_P005.en": "terminal size",
+    "MDC_P006.en": "description of the shape and size of all terminals on a minimally-packaged device",
+    "MDC_P008.en": "The type of terminals on the device shall be stated and the following information shall be given:|a)~for ball- or column-grid arrays, the height of the terminals perpendicular to the die surface. In addition, the tolerance on the height of the terminals, their shapes and dimensions parallel to the die surface should also be given. Where appropriate, a drawing or diagram of the terminals should also be supplied as a document or in electronic form using a suitable graphics format.|b)~for non-leaded packages, the dimensions of the effective footprint area on the mounting surface shall be given.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2006-11-10",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "0A8797966423A6A8C1257EA4004B1E62",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "956d613eb7f3f454c1257e8b003234b4",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "aa524a34ea4b35cfc1257e8a0043e285",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:27",
+      "user": "BATCH 00000783",
+      "unid": "f19dae204dc1161dc12579d6003b46d6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2006-11-10",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "0A8797966423A6A8C1257EA4004B1E62"
+  }
+}

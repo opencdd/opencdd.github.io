@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61360_4#AAE518",
+  "code": "AAE518",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "quality factor",
+  "preferred_name_ml": {
+    "en": "quality factor"
+  },
+  "short_name": "Q",
+  "short_name_ml": {
+    "en": "Q"
+  },
+  "definition": "value as specified by level (miNomax) of the quality factor of an inductive antenna or inductor at specified frequency",
+  "definition_ml": {
+    "en": "value as specified by level (miNomax) of the quality factor of an inductive antenna or inductor at specified frequency"
+  },
+  "source_document": "IEC 60492 (2.2) (1974)",
+  "synonyms": [],
+  "remark": "For measuring procedure see IEC 60492 (6) (1974).",
+  "remark_ml": {
+    "en": "For measuring procedure see IEC 60492 (6) (1974)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE518",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "quality factor",
+    "MDC_P005.en": "Q",
+    "MDC_P006.en": "value as specified by level (miNomax) of the quality factor of an inductive antenna or inductor at specified frequency",
+    "MDC_P009.en": "For measuring procedure see IEC 60492 (6) (1974).",
+    "MDC_P025_1": "Q",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60492 (2.2) (1974)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E46",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE029}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "3BB9A8EA2071D85EC1257EA4004B1FDB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "0cf0b46cf09266d4c1257e8b0032362a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:32",
+      "user": "BATCH 00000904",
+      "unid": "801f009cb42204ffc1257e8a0043e3fe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "401b097d3ff1ac8fc1257a0e0047bc45",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:52",
+      "user": "BATCH 00000787",
+      "unid": "ea8e9dc4879c15a9c1257a0e0046d9c5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "Q",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE029}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "3BB9A8EA2071D85EC1257EA4004B1FDB"
+  }
+}

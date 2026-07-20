@@ -1,0 +1,81 @@
+{
+  "irdi": "0112/2///61360_4#ADA161",
+  "code": "ADA161",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "prolongation of warranty period by manufacturer",
+  "preferred_name_ml": {
+    "en": "prolongation of warranty period by manufacturer"
+  },
+  "definition": "period of time for which a  warranty period can be extended by the manufacturer or its representative",
+  "definition_ml": {
+    "en": "period of time for which a  warranty period can be extended by the manufacturer or its representative"
+  },
+  "synonyms": [],
+  "note": "a prolongation of a warranty period may be possible under conditions settled by the manufacturer",
+  "note_ml": {
+    "en": "a prolongation of a warranty period may be possible under conditions settled by the manufacturer"
+  },
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA161",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "prolongation of warranty period by manufacturer",
+    "MDC_P006.en": "period of time for which a  warranty period can be extended by the manufacturer or its representative",
+    "MDC_P008.en": "a prolongation of a warranty period may be possible under conditions settled by the manufacturer",
+    "MDC_P023": "year",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A31",
+    "MDC_P021": "0112/2///61360_4#ADA112",
+    "MDC_P041": "0112/2///62720#UAB026",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-06-26",
+    "MDC_P003_3": "2019-06-26"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2019-06-26 10:04:50",
+      "user": "BATCH 00001070",
+      "unid": "CF76425A5A8CCB15C1258425002C6353",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-07 10:21:16",
+      "user": "BATCH 00001052",
+      "unid": "298c5d4a68637cdcc12582e2002de4b3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2019-06-26"
+  },
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#ADA112",
+  "unit_irdi": "0112/2///62720#UAB026",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2019-06-26 10:04:50",
+    "user": "BATCH 00001070",
+    "change_request_id": null,
+    "unid": "CF76425A5A8CCB15C1258425002C6353"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#ADA004",
+  "code": "ADA004",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "version number",
+  "preferred_name_ml": {
+    "en": "version number"
+  },
+  "short_name": "version ID",
+  "short_name_ml": {
+    "en": "version ID"
+  },
+  "definition": "identification number assigned to a version",
+  "definition_ml": {
+    "en": "identification number assigned to a version"
+  },
+  "source_document": "IEC 62507-1:2010",
+  "synonyms": [],
+  "note": "The object number of the related object serves as domain number for the version number.",
+  "note_ml": {
+    "en": "The object number of the related object serves as domain number for the version number."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC TC3",
+  "published_in": "IEC 62507-1:2010",
+  "responsible_committee": "TC3",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA004",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "version number",
+    "MDC_P005.en": "version ID",
+    "MDC_P006.en": "identification number assigned to a version",
+    "MDC_P008.en": "The object number of the related object serves as domain number for the version number.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "IEC 62507-1:2010",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62507-1:2010",
+    "C011": "IEC TC3",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "175eb51df81e8c6cc1257e8b00323b09",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "59ec2d2f37363affc1257e8a0043e904",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "254958E9633397FAC1257EA4004B24E2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "ed61cbe270529958c1257ea4004b24e1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:39",
+      "user": "BATCH 00000788",
+      "unid": "04e11ad0ec03b2eac1257a0e0047bee2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:59",
+      "user": "BATCH 00000787",
+      "unid": "f08d58a3ab3e71adc1257a0e0046dc62",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:39",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "175eb51df81e8c6cc1257e8b00323b09"
+  }
+}

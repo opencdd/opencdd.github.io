@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABU442",
+  "code": "ABU442",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:41:57",
+    "user": "BATCH 00000702",
+    "change_request_id": null,
+    "unid": "eb1960a36b943475c1257cfb004043f8"
+  }
+}

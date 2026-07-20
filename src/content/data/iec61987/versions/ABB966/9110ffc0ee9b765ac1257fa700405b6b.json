@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB966",
+  "code": "ABB966",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-05-02 13:42:57",
+    "user": "BATCH 00000717",
+    "change_request_id": null,
+    "unid": "9110ffc0ee9b765ac1257fa700405b6b"
+  }
+}

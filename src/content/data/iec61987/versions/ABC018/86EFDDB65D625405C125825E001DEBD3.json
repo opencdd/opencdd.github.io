@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABC018",
+  "code": "ABC018",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "total error (absolute or gauge pressure, -10 °C to 60 °C)",
+  "preferred_name_ml": {
+    "en": "total error (absolute or gauge pressure, -10 °C to 60 °C)",
+    "fr": "erreur totale (pression absolue ou relative, -10 °C à 60 °C)",
+    "de": "Gesamtabweichung (Absolut- oder Überdruck, -10 °C bis 60 °C)"
+  },
+  "definition": "for absolute or gauge pressure measuring devices, total error for one year, calculated by the sum of the total performance (absolute or gauge pressure, -10 °C to 60 °C) and the long term drift per annum, expressed as percentage of span",
+  "definition_ml": {
+    "en": "for absolute or gauge pressure measuring devices, total error for one year, calculated by the sum of the total performance (absolute or gauge pressure, -10 °C to 60 °C) and the long term drift per annum, expressed as percentage of span",
+    "fr": "pour des appareils de mesure de pression absolue ou relative, erreur totale pour un an, calculée par la somme des performances totales (pression absolue ou relative, -10 °C à 60 °C) et la dérive à long terme par année, exprimée en pourcentage de l’intervalle de mesure",
+    "de": "Gesamtfehler eines Jahres bei Absolut- oder Überdruckmessgeräten, berechnet durch die Summe der Grundgenauigkeit (Absolut- oder Überdruck, -10 °C bis 60 °C) und der langfristigen Abweichung pro Jahr, in relativen Einheiten der Spanne"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABC018",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "total error (absolute or gauge pressure, -10 °C to 60 °C)",
+    "MDC_P006.en": "for absolute or gauge pressure measuring devices, total error for one year, calculated by the sum of the total performance (absolute or gauge pressure, -10 °C to 60 °C) and the long term drift per annum, expressed as percentage of span",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "erreur totale (pression absolue ou relative, -10 °C à 60 °C)",
+    "MDC_P006.fr": "pour des appareils de mesure de pression absolue ou relative, erreur totale pour un an, calculée par la somme des performances totales (pression absolue ou relative, -10 °C à 60 °C) et la dérive à long terme par année, exprimée en pourcentage de l’intervalle de mesure",
+    "C019.fr": "AFNOR",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-02",
+    "MDC_P004.de": "Gesamtabweichung (Absolut- oder Überdruck, -10 °C bis 60 °C)",
+    "MDC_P006.de": "Gesamtfehler eines Jahres bei Absolut- oder Überdruckmessgeräten, berechnet durch die Summe der Grundgenauigkeit (Absolut- oder Überdruck, -10 °C bis 60 °C) und der langfristigen Abweichung pro Jahr, in relativen Einheiten der Spanne",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:49",
+      "user": "BATCH 00000762",
+      "unid": "86EFDDB65D625405C125825E001DEBD3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "aedd43a19454debfc1257fa700405b7f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:42",
+      "user": "BATCH 00000702",
+      "unid": "58e55ff792675067c1257cfb00403e5b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:42",
+      "user": "BATCH 00000699",
+      "unid": "d6f53721cee519eec1257cb40054c018",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:49",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "86EFDDB65D625405C125825E001DEBD3"
+  }
+}

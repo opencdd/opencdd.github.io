@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61360_4#AFA012",
+  "code": "AFA012",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "crystal filter",
+  "preferred_name_ml": {
+    "en": "crystal filter"
+  },
+  "definition": "electrical filter in which one or more quartz crystal resonators are incorporated",
+  "definition_ml": {
+    "en": "electrical filter in which one or more quartz crystal resonators are incorporated"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA012",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "crystal filter",
+    "MDC_P006.en": "electrical filter in which one or more quartz crystal resonators are incorporated",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AFA003",
+    "MDC_P014": "{0112/2///61360_4#AFD003,0112/2///61360_4#AFD004,0112/2///61360_4#AFD005,0112/2///61360_4#AFD006,0112/2///61360_4#AFD007,0112/2///61360_4#AFD009,0112/2///61360_4#AFD010,0112/2///61360_4#AFD011}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "e2e842514f74c2f0c1258994002bd1cc",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "40c7b8d58db7d8d9c1257dd30051603b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "3f9ab63187d0eeb6c1257d7300506a62",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:03",
+      "user": "BATCH 00000817",
+      "unid": "37c83d8b905a6a3ac1257b020042908a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD003",
+    "0112/2///61360_4#AFD004",
+    "0112/2///61360_4#AFD005",
+    "0112/2///61360_4#AFD006",
+    "0112/2///61360_4#AFD007",
+    "0112/2///61360_4#AFD009",
+    "0112/2///61360_4#AFD010",
+    "0112/2///61360_4#AFD011"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AFA003",
+  "superclass_type_property": "0112/2///61360_4#AFA003",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "e2e842514f74c2f0c1258994002bd1cc"
+  }
+}

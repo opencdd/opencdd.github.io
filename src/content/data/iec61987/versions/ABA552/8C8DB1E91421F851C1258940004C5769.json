@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61987#ABA552",
+  "code": "ABA552",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "set upper range end-value of frequency input/output",
+  "preferred_name_ml": {
+    "en": "set upper range end-value of frequency input/output",
+    "fr": "valeur d'extrémité supérieure d'étendue d'entrée/sortie de fréquence",
+    "de": "eingestellter Endwert des Frequenzeingangs oder -ausgangs"
+  },
+  "definition": "frequency value defining the end of a signal range of an input or output",
+  "definition_ml": {
+    "en": "frequency value defining the end of a signal range of an input or output",
+    "fr": "valeur de fréquence définissant la fin d'une étendue de mesure d'une entrée ou sortie",
+    "de": "Frequenzwert, der das Signalbereichsende eines Eingangs oder Ausgangs definiert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA552",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "set upper range end-value of frequency input/output",
+    "MDC_P006.en": "frequency value defining the end of a signal range of an input or output",
+    "MDC_P023": "Hz",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA170",
+    "C0104": "0112/2///61987#ABT561",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur d'extrémité supérieure d'étendue d'entrée/sortie de fréquence",
+    "MDC_P006.fr": "valeur de fréquence définissant la fin d'une étendue de mesure d'une entrée ou sortie",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "eingestellter Endwert des Frequenzeingangs oder -ausgangs",
+    "MDC_P006.de": "Frequenzwert, der das Signalbereichsende eines Eingangs oder Ausgangs definiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "8C8DB1E91421F851C1258940004C5769",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:21",
+      "user": "BATCH 00000803",
+      "unid": "25c4567270e079abc125891300304826",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "ed32939d0fcb2895c125825e001de71e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "8dea3c0ffd6c3307c1257fa700405948",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "6fda4becb0a3780cc1257cfb004039a4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:29",
+      "user": "BATCH 00000699",
+      "unid": "903bb5f3482aefeec1257cb40054bb61",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA170",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "8C8DB1E91421F851C1258940004C5769"
+  }
+}

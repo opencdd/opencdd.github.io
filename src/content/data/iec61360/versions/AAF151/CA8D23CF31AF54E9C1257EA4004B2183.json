@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61360_4#AAF151",
+  "code": "AAF151",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "adjustability type",
+  "preferred_name_ml": {
+    "en": "adjustability type"
+  },
+  "short_name": "adjustability",
+  "short_name_ml": {
+    "en": "adjustability"
+  },
+  "definition": "code of the type of mechanical adjustability identifying an inductor",
+  "definition_ml": {
+    "en": "code of the type of mechanical adjustability identifying an inductor"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF151",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "adjustability type",
+    "MDC_P005.en": "adjustability",
+    "MDC_P006.en": "code of the type of mechanical adjustability identifying an inductor",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA174)",
+    "MDC_P024": "M..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:37",
+      "user": "BATCH 00000917",
+      "unid": "CA8D23CF31AF54E9C1257EA4004B2183",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:30",
+      "user": "BATCH 00000907",
+      "unid": "c6f6612cdacd13f6c1257e8b003237cc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:37",
+      "user": "BATCH 00000904",
+      "unid": "e43cf5d17626e9f9c1257e8a0043e5a6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:36",
+      "user": "BATCH 00000788",
+      "unid": "385c705f2e89bee4c1257a0e0047bde0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:56",
+      "user": "BATCH 00000787",
+      "unid": "d2e59fbbdeb816e8c1257a0e0046db60",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA174)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA174)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:37",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "CA8D23CF31AF54E9C1257EA4004B2183"
+  }
+}

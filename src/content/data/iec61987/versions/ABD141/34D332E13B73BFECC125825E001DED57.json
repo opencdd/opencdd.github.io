@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABD141",
+  "code": "ABD141",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "reference to Physical layer",
+  "preferred_name_ml": {
+    "en": "reference to Physical layer"
+  },
+  "definition": "reference to block ABC511",
+  "definition_ml": {
+    "en": "reference to block ABC511"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD141",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Physical layer",
+    "MDC_P006.en": "reference to block ABC511",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC511)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:53",
+      "user": "BATCH 00000762",
+      "unid": "34D332E13B73BFECC125825E001DED57",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "ed124e560594dfd1c1258256003e93b0",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:34",
+      "user": "BATCH 00000732",
+      "unid": "65420e8490c1dd0ec12580d6004c2207",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:46",
+      "user": "BATCH 00000702",
+      "unid": "5f2dc9ffe721c2cfc1257cfb00403fde",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:45",
+      "user": "BATCH 00000699",
+      "unid": "bfe8572c3fc960d1c1257cb40054c19b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC511)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC511)",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:53",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "34D332E13B73BFECC125825E001DED57"
+  }
+}

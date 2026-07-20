@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///62683#ACF031",
+  "code": "ACF031",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "ratings of the assembly",
+  "preferred_name_ml": {
+    "en": "ratings of the assembly",
+    "fr": "caractéristiques assignées de l'ensemble"
+  },
+  "definition": "set of rated values and operating conditions of the assembly",
+  "definition_ml": {
+    "en": "set of rated values and operating conditions of the assembly",
+    "fr": "ensemble des valeurs assignées et des conditions d’exploitation de l'ensemble"
+  },
+  "source_document": "IEC 61439-1:2020, 3.8.4",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Main circuits"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Main circuits"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF031",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "ratings of the assembly",
+    "MDC_P007.en": "Main circuits",
+    "MDC_P006.en": "set of rated values and operating conditions of the assembly",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG031)",
+    "MDC_P006_1": "IEC 61439-1:2020, 3.8.4",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC006",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2023-04-05",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "caractéristiques assignées de l'ensemble",
+    "MDC_P006.fr": "ensemble des valeurs assignées et des conditions d’exploitation de l'ensemble",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2024-05-17",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:19",
+      "user": "BATCH 00000852",
+      "unid": "44E3DDAABFCB6A10C1258D8F003A70C2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:18",
+      "user": "BATCH 00000811",
+      "unid": "5f45b37a72e392c4c1258b9d00731c17",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "197605c65d5d9510c125803000457151",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-04-05",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC006",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG031)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG031)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:19",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "44E3DDAABFCB6A10C1258D8F003A70C2"
+  }
+}

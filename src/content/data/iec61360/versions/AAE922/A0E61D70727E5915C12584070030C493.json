@@ -1,0 +1,138 @@
+{
+  "irdi": "0112/2///61360_4#AAE922",
+  "code": "AAE922",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "mechanical durability",
+  "preferred_name_ml": {
+    "en": "mechanical durability",
+    "de": "mechanische Haltbarkeit"
+  },
+  "short_name": "N_cycl",
+  "short_name_ml": {
+    "en": "N_cycl"
+  },
+  "definition": "guaranteed number of no-load operating cycles (i.e. without current at the main contacts) which can be effected before it becomes necessary to replace the item, or when possible to service or replace any parts of this item",
+  "definition_ml": {
+    "en": "guaranteed number of no-load operating cycles (i.e. without current at the main contacts) which can be effected before it becomes necessary to replace the item, or when possible to service or replace any parts of this item"
+  },
+  "synonyms": [],
+  "note": "After the test the contact resistance shall be within its tolerance.",
+  "note_ml": {
+    "en": "After the test the contact resistance shall be within its tolerance."
+  },
+  "remark": "Applicable in classes relay and switch",
+  "remark_ml": {
+    "en": "Applicable in classes relay and switch"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE922",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "mechanical durability",
+    "MDC_P005.en": "N_cycl",
+    "MDC_P006.en": "guaranteed number of no-load operating cycles (i.e. without current at the main contacts) which can be effected before it becomes necessary to replace the item, or when possible to service or replace any parts of this item",
+    "MDC_P008.en": "After the test the contact resistance shall be within its tolerance.",
+    "MDC_P009.en": "Applicable in classes relay and switch",
+    "MDC_P025_1": "N_cycl}",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN) OF INT_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA147",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2019-05-27",
+    "MDC_P003_2": "2019-05-27",
+    "MDC_P003_3": "2019-05-27",
+    "MDC_P012": "SC3D",
+    "MDC_P004.de": "mechanische Haltbarkeit"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-05-27 10:52:40",
+      "user": "BATCH 00001060",
+      "unid": "A0E61D70727E5915C12584070030C493",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "543e51c31fd3e18cc1257ea4004b20ee",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "a3acb86778b4d779c1257e8b0032373c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "b49d2248102b93fbc1257e8a0043e511",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "32c063d7b613ab89c1257a0e0047bd4a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "a156ab7ecdd3358ec1257a0e0046daca",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2019-05-27",
+    "current_revision": "2019-05-27"
+  },
+  "symbol_in_text": "N_cycl}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA147",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF INT_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF INT_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-05-27 10:52:40",
+    "user": "BATCH 00001060",
+    "change_request_id": null,
+    "unid": "A0E61D70727E5915C12584070030C493"
+  }
+}

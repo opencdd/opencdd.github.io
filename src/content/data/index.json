@@ -118,6 +118,23 @@
         "view_control": 0
       },
       "metaClassIrdis": []
+    },
+    {
+      "slug": "iec62720",
+      "parcelId": "IEC62720",
+      "title": "Quantities and units",
+      "sourceLanguage": "en",
+      "translationLanguages": [],
+      "counts": {
+        "class": 23,
+        "property": 33,
+        "value_list": 9,
+        "value_term": 86,
+        "unit": 0,
+        "relation": 0,
+        "view_control": 0
+      },
+      "metaClassIrdis": []
     }
   ]
 }

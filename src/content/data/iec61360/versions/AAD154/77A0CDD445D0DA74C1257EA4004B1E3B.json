@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAD154",
+  "code": "AAD154",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "test maturity code",
+  "preferred_name_ml": {
+    "en": "test maturity code"
+  },
+  "short_name": "maturity",
+  "short_name_ml": {
+    "en": "maturity"
+  },
+  "definition": "code to indicate the maturity of the production process for a die device",
+  "definition_ml": {
+    "en": "code to indicate the maturity of the production process for a die device"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD154",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "test maturity code",
+    "MDC_P005.en": "maturity",
+    "MDC_P006.en": "code to indicate the maturity of the production process for a die device",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA016)",
+    "MDC_P024": "X1",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "77A0CDD445D0DA74C1257EA4004B1E3B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "2c3a0f56cc467988c1257e8b0032348d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "f95593c54ab925dec1257e8a0043e25e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "ab113a3b2d7233e1c125787f0042a24d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "X1",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA016)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA016)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "77A0CDD445D0DA74C1257EA4004B1E3B"
+  }
+}

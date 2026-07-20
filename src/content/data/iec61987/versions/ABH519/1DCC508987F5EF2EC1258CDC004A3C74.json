@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABH519",
+  "code": "ABH519",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "phase of matter",
+  "preferred_name_ml": {
+    "en": "phase of matter",
+    "fr": "phase de matière",
+    "de": "Aggregatzustand"
+  },
+  "definition": "state of a medium distinguishable by its physical properties from other states of the same or other media",
+  "definition_ml": {
+    "en": "state of a medium distinguishable by its physical properties from other states of the same or other media",
+    "fr": "état d’un milieu que l’on peut distinguer par ses propriétés physiques d'autres états du même milieu ou d’autres milieux",
+    "de": "Zustand eines Mediums, der durch seine physikalischen Eigenschaften von anderen Zuständen desselben oder anderer Medien unterscheidbar ist"
+  },
+  "source_document": "IEV 113-02-05",
+  "synonyms": [],
+  "note": "Any state of matter, such as solid, liquid, or gas, constitutes always a phase separate from other states of matter. Under usual condition, a gas is in one phase only. Non-mixable liquid components are in different phases. Different solid phases are associated with different structures, e.g. diamond and graphite, or paramagnetic and ferromagnetic materials.",
+  "note_ml": {
+    "en": "Any state of matter, such as solid, liquid, or gas, constitutes always a phase separate from other states of matter. Under usual condition, a gas is in one phase only. Non-mixable liquid components are in different phases. Different solid phases are associated with different structures, e.g. diamond and graphite, or paramagnetic and ferromagnetic materials.",
+    "de": "Jeder Zustand von Materie wie fest, flüssig oder gasförmig ist immer in einer anderen Phase getrennt von anderen Phasen der Materie. Unter normalen Bedingungen ist ein Gas nur in einem Aggregatzustand. Nicht mischbare Komponenten einer Flüssigkeit sind in unterschiedlichen Phasen. Unterschiedliche feste Phasen stellen unterschiedliche Strukturen dar wie Diamant und Graphit oder paramagnetische und ferromagnetische Materialien."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH519",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "phase of matter",
+    "MDC_P006.en": "state of a medium distinguishable by its physical properties from other states of the same or other media",
+    "MDC_P008.en": "Any state of matter, such as solid, liquid, or gas, constitutes always a phase separate from other states of matter. Under usual condition, a gas is in one phase only. Non-mixable liquid components are in different phases. Different solid phases are associated with different structures, e.g. diamond and graphite, or paramagnetic and ferromagnetic materials.",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ784)",
+    "MDC_P006_1": "IEV 113-02-05",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "phase de matière",
+    "MDC_P006.fr": "état d’un milieu que l’on peut distinguer par ses propriétés physiques d'autres états du même milieu ou d’autres milieux",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-17",
+    "MDC_P004.de": "Aggregatzustand",
+    "MDC_P006.de": "Zustand eines Mediums, der durch seine physikalischen Eigenschaften von anderen Zuständen desselben oder anderer Medien unterscheidbar ist",
+    "MDC_P008.de": "Jeder Zustand von Materie wie fest, flüssig oder gasförmig ist immer in einer anderen Phase getrennt von anderen Phasen der Materie. Unter normalen Bedingungen ist ein Gas nur in einem Aggregatzustand. Nicht mischbare Komponenten einer Flüssigkeit sind in unterschiedlichen Phasen. Unterschiedliche feste Phasen stellen unterschiedliche Strukturen dar wie Diamant und Graphit oder paramagnetische und ferromagnetische Materialien.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-07-17",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "1DCC508987F5EF2EC1258CDC004A3C74",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "4590867701294364c1258518003c4a97",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:16",
+      "user": "BATCH 00000762",
+      "unid": "f35f8c528bd7105dc125825e001df66a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ784)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ784)",
+  "value_list": "0112/2///61987#ABJ784",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "1DCC508987F5EF2EC1258CDC004A3C74"
+  }
+}

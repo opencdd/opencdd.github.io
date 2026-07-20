@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61987#ABH251",
+  "code": "ABH251",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "maximum operating pressure",
+  "preferred_name_ml": {
+    "en": "maximum operating pressure",
+    "de": "maximaler Betriebsdruck"
+  },
+  "definition": "highest allowable pressure at which a device may operate",
+  "definition_ml": {
+    "en": "highest allowable pressure at which a device may operate",
+    "de": "höchster zulässige Druck, bei der ein Gerät betrieben werden darf"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH251",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "maximum operating pressure",
+    "MDC_P006.en": "highest allowable pressure at which a device may operate",
+    "MDC_P023": "bar",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA323",
+    "C0104": "0112/2///61987#ABT524",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "maximaler Betriebsdruck",
+    "MDC_P006.de": "höchster zulässige Druck, bei der ein Gerät betrieben werden darf",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-09-30",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:14",
+      "user": "BATCH 00000762",
+      "unid": "B4A4CFBE98ECEE22C125825E001DF5C1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:08",
+      "user": "BATCH 00000715",
+      "unid": "d9d35b38b03c7d22c1257f7f004d024c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA323",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:14",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "B4A4CFBE98ECEE22C125825E001DF5C1"
+  }
+}

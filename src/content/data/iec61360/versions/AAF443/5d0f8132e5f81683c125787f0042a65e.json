@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF443",
+  "code": "AAF443",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2011-04-27 14:07:59",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "5d0f8132e5f81683c125787f0042a65e"
+  }
+}

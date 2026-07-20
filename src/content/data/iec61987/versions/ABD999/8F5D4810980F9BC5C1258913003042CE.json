@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABD999",
+  "code": "ABD999",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Rated operating conditions [10]",
+  "preferred_name_ml": {
+    "en": "Rated operating conditions [10]",
+    "fr": "Conditions assignées de fonctionnement [10]",
+    "de": "Einsatzbedingungen [10]"
+  },
+  "definition": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+  "definition_ml": {
+    "en": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+    "fr": "propriétés caractérisant les conditions qui doivent être remplies pendant la mesure afin qu’un système de mesure fonctionne comme prévu",
+    "de": "Merkmale, die die Bedingungen kennzeichnen, die während des Betriebs erfüllt sein müssen, damit ein Gerät oder eine Geräteanordnung gemäß der Auslegung arbeitet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD999",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Rated operating conditions [10]",
+    "MDC_P006.en": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE140,0112/2///61987#ABE370}",
+    "MDC_P004.fr": "Conditions assignées de fonctionnement [10]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions qui doivent être remplies pendant la mesure afin qu’un système de mesure fonctionne comme prévu",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Einsatzbedingungen [10]",
+    "MDC_P006.de": "Merkmale, die die Bedingungen kennzeichnen, die während des Betriebs erfüllt sein müssen, damit ein Gerät oder eine Geräteanordnung gemäß der Auslegung arbeitet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:08",
+      "user": "BATCH 00000803",
+      "unid": "8F5D4810980F9BC5C1258913003042CE",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "b8bff54715afe03cc125825e001dd92a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:06",
+      "user": "BATCH 00000732",
+      "unid": "4e4de579f4d5ab7ac12580d6004bffc6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "68c3cb5dae34dba5c1257cb400549e08",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE140",
+    "0112/2///61987#ABE370"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:08",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "8F5D4810980F9BC5C1258913003042CE"
+  }
+}

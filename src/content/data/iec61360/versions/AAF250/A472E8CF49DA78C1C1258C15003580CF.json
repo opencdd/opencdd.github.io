@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61360_4#AAF250",
+  "code": "AAF250",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "insulation colour code",
+  "preferred_name_ml": {
+    "en": "insulation colour code"
+  },
+  "definition": "IEC code of the colour of the insulation layer of an insulated wire",
+  "definition_ml": {
+    "en": "IEC code of the colour of the insulation layer of an insulated wire"
+  },
+  "source_document": "IEC 60757:2021 modified (two values added: N.A. (not applicable); Other",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF250",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "insulation colour code",
+    "MDC_P006.en": "IEC code of the colour of the insulation layer of an insulated wire",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_7#CEA012)",
+    "MDC_P024": "M..3",
+    "MDC_P006_1": "IEC 60757:2021 modified (two values added: N.A. (not applicable); Other",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-01-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2025-01-17",
+    "MDC_P003_3": "2025-01-17",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-01-17 10:44:23",
+      "user": "BATCH 00001353",
+      "unid": "A472E8CF49DA78C1C1258C15003580CF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "superseded",
+      "timestamp": "2023-10-13 13:19:50",
+      "user": "BATCH 00001266",
+      "unid": "e777ab84df6ac3d6c1258a47003e3dc7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:38",
+      "user": "BATCH 00000917",
+      "unid": "3879a4ad17fcb917c1257ea4004b21c9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:31",
+      "user": "BATCH 00000907",
+      "unid": "c27a5b7f69fcf374c1257e8b00323812",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:37",
+      "user": "BATCH 00000904",
+      "unid": "42a60184b1d4eb18c1257e8a0043e5ec",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:37",
+      "user": "BATCH 00000788",
+      "unid": "520c7da31c2b47f8c1257a0e0047be26",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:57",
+      "user": "BATCH 00000787",
+      "unid": "2254d862d60686e4c1257a0e0046dba6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2025-01-17",
+    "current_revision": "2025-01-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA012)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA012)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-01-17 10:44:23",
+    "user": "BATCH 00001353",
+    "change_request_id": null,
+    "unid": "A472E8CF49DA78C1C1258C15003580CF"
+  }
+}

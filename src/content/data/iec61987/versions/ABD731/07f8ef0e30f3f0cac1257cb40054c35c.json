@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD731",
+  "code": "ABD731",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:25:50",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "07f8ef0e30f3f0cac1257cb40054c35c"
+  }
+}

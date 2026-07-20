@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///62683#ACF184",
+  "code": "ACF184",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Connection facilities of transfer switching equipment",
+  "preferred_name_ml": {
+    "en": "Connection facilities of transfer switching equipment",
+    "fr": "Eléments de raccordement du matériel de connexion de transfert",
+    "de": "Anschlussmöglichkeiten für Module des Netzumschalters",
+    "zh": "转换开关电器模块的连接件"
+  },
+  "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the transfer switching equipment",
+  "definition_ml": {
+    "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the transfer switching equipment",
+    "fr": "bornes, vis et autres pièces, utilisées pour le raccordement électrique aux conducteurs des circuits externes du matériel de connexion de transfert",
+    "de": "Anschlussklemmen, Schrauben oder andere Teile, die für den elektrischen Anschluss von Leitern externer Stromkreise des Netzumschalters verwendet werden",
+    "zh": "用于转换开关电器外部电路导体电气连接的端子、螺钉或其他零件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF184",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Connection facilities of transfer switching equipment",
+    "MDC_P006.en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the transfer switching equipment",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG184)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "Eléments de raccordement du matériel de connexion de transfert",
+    "MDC_P006.fr": "bornes, vis et autres pièces, utilisées pour le raccordement électrique aux conducteurs des circuits externes du matériel de connexion de transfert",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2025-01-02",
+    "MDC_P004.de": "Anschlussmöglichkeiten für Module des Netzumschalters",
+    "MDC_P006.de": "Anschlussklemmen, Schrauben oder andere Teile, die für den elektrischen Anschluss von Leitern externer Stromkreise des Netzumschalters verwendet werden",
+    "C019.de": "DKE, A. Huhn",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "转换开关电器模块的连接件",
+    "MDC_P006.zh": "用于转换开关电器外部电路导体电气连接的端子、螺钉或其他零件",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:30",
+      "user": "BATCH 00000844",
+      "unid": "18079C1651B6C4D0C1258D2A006B879B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:18",
+      "user": "BATCH 00000811",
+      "unid": "e9b50e8eb3fb2ebfc1258b9d00731c3e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "903869de417efca6c1258030004571dd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG184)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG184)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:30",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "18079C1651B6C4D0C1258D2A006B879B"
+  }
+}

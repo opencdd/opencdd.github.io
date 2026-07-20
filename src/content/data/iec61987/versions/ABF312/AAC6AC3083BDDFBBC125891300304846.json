@@ -1,0 +1,94 @@
+{
+  "irdi": "0112/2///61987#ABF312",
+  "code": "ABF312",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "absolute long-term stability (90 d)",
+  "preferred_name_ml": {
+    "en": "absolute long-term stability (90 d)",
+    "de": "Absolute Langzeitstabilität (90 d)"
+  },
+  "definition": "reproducibility of measurements repeated over the time period of 90 days, expressed in engineering units",
+  "definition_ml": {
+    "en": "reproducibility of measurements repeated over the time period of 90 days, expressed in engineering units",
+    "de": "Reproduzierbarkeit von Messungen, wiederholt über die Zeitspanne von 90 Tagen und ausgedrückt in physikalischen Einheiten"
+  },
+  "source_document": "IEC 62492-1 MOD",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF312",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "absolute long-term stability (90 d)",
+    "MDC_P006.en": "reproducibility of measurements repeated over the time period of 90 days, expressed in engineering units",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 62492-1 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Absolute Langzeitstabilität (90 d)",
+    "MDC_P006.de": "Reproduzierbarkeit von Messungen, wiederholt über die Zeitspanne von 90 Tagen und ausgedrückt in physikalischen Einheiten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "AAC6AC3083BDDFBBC125891300304846",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:05",
+      "user": "BATCH 00000762",
+      "unid": "180c38961c51fb5dc125825e001df262",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "AAC6AC3083BDDFBBC125891300304846"
+  }
+}

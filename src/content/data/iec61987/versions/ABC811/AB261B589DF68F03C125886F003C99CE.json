@@ -1,0 +1,146 @@
+{
+  "irdi": "0112/2///61987#ABC811",
+  "code": "ABC811",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "reference to Dependability",
+  "preferred_name_ml": {
+    "en": "reference to Dependability"
+  },
+  "definition": "reference to block ABC181",
+  "definition_ml": {
+    "en": "reference to block ABC181"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABC811",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Dependability",
+    "MDC_P006.en": "reference to block ABC181",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC181)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P028": "{0112/2///61987#ABA310}",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:55",
+      "user": "BATCH 00000794",
+      "unid": "AB261B589DF68F03C125886F003C99CE",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:50",
+      "user": "BATCH 00000762",
+      "unid": "4f2ce52e43bd1d8cc125825e001dec2e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:28",
+      "user": "BATCH 00000755",
+      "unid": "f57c9acb76d352abc1258256003e931d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:31",
+      "user": "BATCH 00000732",
+      "unid": "0cab36fe9656d9c6c12580d6004c20de",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-09-28 09:59:25",
+      "user": "BATCH 00000728",
+      "unid": "dbc1020fa64356b2c125803c002be498",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-08-31 20:15:00",
+      "user": "BATCH 00000725",
+      "unid": "3d3a8d902897ba84c125802000644023",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:00",
+      "user": "BATCH 00000715",
+      "unid": "a5908751976966aac1257f7f004cff3d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:43",
+      "user": "BATCH 00000702",
+      "unid": "c51a96d576b38a2dc1257cfb00403eb5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:42",
+      "user": "BATCH 00000699",
+      "unid": "f130cc78dd1eeeb4c1257cb40054c072",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC181)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABA310}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC181)",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:55",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "AB261B589DF68F03C125886F003C99CE"
+  }
+}

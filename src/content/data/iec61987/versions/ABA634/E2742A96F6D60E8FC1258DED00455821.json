@@ -1,0 +1,152 @@
+{
+  "irdi": "0112/2///61987#ABA634",
+  "code": "ABA634",
+  "version": "6",
+  "revision": "2",
+  "preferred_name": "issuing organization or notified body for explosion protection or safety",
+  "preferred_name_ml": {
+    "en": "issuing organization or notified body for explosion protection or safety",
+    "fr": "agence d'homologation/d'essais",
+    "de": "herausgebende Organisation oder benannte Stelle für Ex-Schutz oder Sicherheit"
+  },
+  "definition": "independent, accredited body which is entitled by an authorized accrediting body to ensure and assess compliance to defined standards and regulations as well as to provide an official certification mark or a declaration of conformity",
+  "definition_ml": {
+    "en": "independent, accredited body which is entitled by an authorized accrediting body to ensure and assess compliance to defined standards and regulations as well as to provide an official certification mark or a declaration of conformity",
+    "fr": "agence répertoriée qui a approuvé l'utilisation d'un appareil dans une zone dangereuse",
+    "de": "unabhängige, akkreditierte Stelle, die von einer autorisierten Akkreditierungsstelle berechtigt ist, die Einhaltung festgelegter Normen und Vorschriften sicherzustellen und zu bewerten sowie ein offizielles Kennzeichen oder eine Konformitätserklärung auszustellen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA634",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "issuing organization or notified body for explosion protection or safety",
+    "MDC_P006.en": "independent, accredited body which is entitled by an authorized accrediting body to ensure and assess compliance to defined standards and regulations as well as to provide an official certification mark or a declaration of conformity",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABO126)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "agence d'homologation/d'essais",
+    "MDC_P006.fr": "agence répertoriée qui a approuvé l'utilisation d'un appareil dans une zone dangereuse",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "herausgebende Organisation oder benannte Stelle für Ex-Schutz oder Sicherheit",
+    "MDC_P006.de": "unabhängige, akkreditierte Stelle, die von einer autorisierten Akkreditierungsstelle berechtigt ist, die Einhaltung festgelegter Normen und Vorschriften sicherzustellen und zu bewerten sowie ein offizielles Kennzeichen oder eine Konformitätserklärung auszustellen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "E2742A96F6D60E8FC1258DED00455821",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "d958440786111d89c1258cdc004a3a2e",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:02:00",
+      "user": "BATCH 00000794",
+      "unid": "43938407ee3ec341c125886f003c9bc1",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "527667ea49ff01f6c125825e001de76f",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:32",
+      "user": "BATCH 00000755",
+      "unid": "c4994c666a1befdec1258256003e9473",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "44b2a11c43c7bc2ac12580d6004c1c1b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "0ae01a01aabace21c1257cfb004039f5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "2050ee71cee96fa9c1257cb40054bbb2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO126)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO126)",
+  "value_list": "0112/2///61987#ABO126",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "E2742A96F6D60E8FC1258DED00455821"
+  }
+}

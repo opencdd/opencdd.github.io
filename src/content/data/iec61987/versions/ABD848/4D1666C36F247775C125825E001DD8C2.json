@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABD848",
+  "code": "ABD848",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Dial indicator [3]",
+  "preferred_name_ml": {
+    "en": "Dial indicator [3]",
+    "fr": "Indicateur à cadran [3]",
+    "de": "Zeigerinstrument"
+  },
+  "definition": "properties characterizing a mechanical dial indicator supplied with the device",
+  "definition_ml": {
+    "en": "properties characterizing a mechanical dial indicator supplied with the device",
+    "fr": "propriétés caractérisant un indicateur mécanique fourni par l’appareil",
+    "de": "Merkmale, die ein mit dem Gerät geliefertes mechanisches Zeigerinstrument kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00009",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD848",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Dial indicator [3]",
+    "MDC_P006.en": "properties characterizing a mechanical dial indicator supplied with the device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA194,0112/2///61987#ABB393,0112/2///61987#ABA184,0112/2///61987#ABB502,0112/2///61987#ABB074,0112/2///61987#ABC785,0112/2///61987#ABA895,0112/2///61987#ABA198,0112/2///61987#ABA558,0112/2///61987#ABA179,0112/2///61987#ABB386,0112/2///61987#ABA155,0112/2///61987#ABD477,0112/2///61987#ABD466,0112/2///61987#ABD478,0112/2///61987#ABD479}",
+    "MDC_P004.fr": "Indicateur à cadran [3]",
+    "MDC_P006.fr": "propriétés caractérisant un indicateur mécanique fourni par l’appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-12-01",
+    "MDC_P004.de": "Zeigerinstrument",
+    "MDC_P006.de": "Merkmale, die ein mit dem Gerät geliefertes mechanisches Zeigerinstrument kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00009"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:00",
+      "user": "BATCH 00000762",
+      "unid": "4D1666C36F247775C125825E001DD8C2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:05",
+      "user": "BATCH 00000732",
+      "unid": "29af4460f5c3215cc12580d6004bff5e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:13",
+      "user": "BATCH 00000699",
+      "unid": "4edf9e35b35734c6c1257cb400549da0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA194",
+    "0112/2///61987#ABB393",
+    "0112/2///61987#ABA184",
+    "0112/2///61987#ABB502",
+    "0112/2///61987#ABB074",
+    "0112/2///61987#ABC785",
+    "0112/2///61987#ABA895",
+    "0112/2///61987#ABA198",
+    "0112/2///61987#ABA558",
+    "0112/2///61987#ABA179",
+    "0112/2///61987#ABB386",
+    "0112/2///61987#ABA155",
+    "0112/2///61987#ABD477",
+    "0112/2///61987#ABD466",
+    "0112/2///61987#ABD478",
+    "0112/2///61987#ABD479"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:00",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "4D1666C36F247775C125825E001DD8C2"
+  }
+}

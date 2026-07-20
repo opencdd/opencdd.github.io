@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABN661",
+  "code": "ABN661",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "bearing index per g",
+  "preferred_name_ml": {
+    "en": "bearing index per g",
+    "de": "Lagerkennwert in g"
+  },
+  "definition": "amplitude of the oscillation envelope after high pass filtering, expressed as acceleration in units of the acceleration of gravity g",
+  "definition_ml": {
+    "en": "amplitude of the oscillation envelope after high pass filtering, expressed as acceleration in units of the acceleration of gravity g",
+    "de": "Amplitude der Hüllkurve des Schwingungssignals nach der Hochpassfilterung, ausgedrückt als Beschleunigungswert in Einheiten der Erdbeschleunigung g"
+  },
+  "synonyms": [],
+  "note": "The parameter for the high pass filtering and oscillation envelope are regularly defined by the user.",
+  "note_ml": {
+    "en": "The parameter for the high pass filtering and oscillation envelope are regularly defined by the user.",
+    "de": "Die Parameter für die Hochpassfilterung und Hüllkurvenbildung werden in der Regel vom Nutzer festgelegt."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN661",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "bearing index per g",
+    "MDC_P006.en": "amplitude of the oscillation envelope after high pass filtering, expressed as acceleration in units of the acceleration of gravity g",
+    "MDC_P008.en": "The parameter for the high pass filtering and oscillation envelope are regularly defined by the user.",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "Lagerkennwert in g",
+    "MDC_P006.de": "Amplitude der Hüllkurve des Schwingungssignals nach der Hochpassfilterung, ausgedrückt als Beschleunigungswert in Einheiten der Erdbeschleunigung g",
+    "MDC_P008.de": "Die Parameter für die Hochpassfilterung und Hüllkurvenbildung werden in der Regel vom Nutzer festgelegt.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "A12BE5C807E19542C125886F003C9B76",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "8b491d89d67acbb3c1258518003fd7fa",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:59",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "A12BE5C807E19542C125886F003C9B76"
+  }
+}

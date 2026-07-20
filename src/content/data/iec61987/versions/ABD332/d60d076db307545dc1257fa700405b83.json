@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD332",
+  "code": "ABD332",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-05-02 13:42:57",
+    "user": "BATCH 00000717",
+    "change_request_id": null,
+    "unid": "d60d076db307545dc1257fa700405b83"
+  }
+}

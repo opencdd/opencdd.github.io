@@ -1,0 +1,152 @@
+{
+  "irdi": "0112/2///61987#ABA246",
+  "code": "ABA246",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "type of environmental protection approval",
+  "preferred_name_ml": {
+    "en": "type of environmental protection approval",
+    "fr": "type d'agrément de protection de l'environnement",
+    "de": "Art der Umweltschutzzulassung"
+  },
+  "definition": "classification of an environmental approval according to the issuing regulatory authority",
+  "definition_ml": {
+    "en": "classification of an environmental approval according to the issuing regulatory authority",
+    "fr": "classification d'un agrément environnemental selon l'autorité réglementaire émettrice",
+    "de": "Charakterisierung einer Umweltschutzzulassung bezüglich der herausgebenden Regulierungsbehörde"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA246",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of environmental protection approval",
+    "MDC_P006.en": "classification of an environmental approval according to the issuing regulatory authority",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL654)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type d'agrément de protection de l'environnement",
+    "MDC_P006.fr": "classification d'un agrément environnemental selon l'autorité réglementaire émettrice",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art der Umweltschutzzulassung",
+    "MDC_P006.de": "Charakterisierung einer Umweltschutzzulassung bezüglich der herausgebenden Regulierungsbehörde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "4D24C911DCD2DD6DC1258CDC004A3A64",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "0940164386096286c1258518003c4832",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:34",
+      "user": "BATCH 00000762",
+      "unid": "214d8e38a2616e0dc125825e001de601",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "9b353f409553e10dc1258256003e9541",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "691988f167a8e97dc125825600407a5c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "dc0ff3b578925931c12580d6004c1ac6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:28",
+      "user": "BATCH 00000702",
+      "unid": "eca696bd3ea32c94c1257cfb004038a0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:27",
+      "user": "BATCH 00000699",
+      "unid": "be5d9ffd52b310dcc1257cb40054ba5d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL654)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL654)",
+  "value_list": "0112/2///61987#ABL654",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "4D24C911DCD2DD6DC1258CDC004A3A64"
+  }
+}

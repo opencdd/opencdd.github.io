@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABP405",
+  "code": "ABP405",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Conductivity meter",
+  "preferred_name_ml": {
+    "en": "Conductivity meter",
+    "de": "Leitfähigkeitsmessgerät"
+  },
+  "short_name": "Conduct. meter",
+  "short_name_ml": {
+    "en": "Conduct. meter",
+    "de": "Leitf.-Messg."
+  },
+  "definition": "process analyser that measures the conductivity to determine the concentration of electrolytes in liquids",
+  "definition_ml": {
+    "en": "process analyser that measures the conductivity to determine the concentration of electrolytes in liquids",
+    "de": "Prozessanalysengerät, das die elektrolytische Leitfähigkeit zur Messung der Konzentration einer oder mehrerer Komponenten in Flüssigkeiten verwendet"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987-41",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP405",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "Conduct. meter",
+    "MDC_P004.en": "Conductivity meter",
+    "MDC_P006.en": "process analyser that measures the conductivity to determine the concentration of electrolytes in liquids",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987-41",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_2": "2025-04-07",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABP397",
+    "MDC_P014": "{0112/2///61987#ABQ100}",
+    "MDC_P005.de": "Leitf.-Messg.",
+    "MDC_P004.de": "Leitfähigkeitsmessgerät",
+    "MDC_P006.de": "Prozessanalysengerät, das die elektrolytische Leitfähigkeit zur Messung der Konzentration einer oder mehrerer Komponenten in Flüssigkeiten verwendet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-12-20",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "C28CE42CC519EFB7C1258D930049DE77",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-06-12 21:00:39",
+      "user": "BATCH 00000845",
+      "unid": "c7e40c77e9bd94b9c1258ca700686e56",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2024-09-16 16:44:32",
+      "user": "BATCH 00000833",
+      "unid": "f864aa9ca787fbc0c1258b9a0050fb6d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-04-07",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABQ100"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABP397",
+  "superclass_type_property": "0112/2///61987#ABP397",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "C28CE42CC519EFB7C1258D930049DE77"
+  }
+}

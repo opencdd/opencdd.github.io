@@ -1,0 +1,94 @@
+{
+  "irdi": "0112/2///61360_4#ACB024",
+  "code": "ACB024",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "product name",
+  "preferred_name_ml": {
+    "en": "product name"
+  },
+  "definition": "name of the product as defined by the declaring company",
+  "definition_ml": {
+    "en": "name of the product as defined by the declaring company"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "TC111",
+  "change_request_id": "C00052",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB024",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "product name",
+    "MDC_P006.en": "name of the product as defined by the declaring company",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A62",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-10-02",
+    "MDC_P003_2": "2015-12-21",
+    "MDC_P003_3": "2015-12-21",
+    "MDC_P012": "TC111",
+    "C002": "C00052"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2015-10-02 14:37:33",
+      "user": "BATCH 00000921",
+      "unid": "6446206542820F77C1257ED200455B66",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "d039ec55daf04d95c1257ea4004b24a8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "acca99a71365c596c1257e8a0043e8cb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-12-21",
+    "current_revision": "2015-12-21"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2015-10-02 14:37:33",
+    "user": "BATCH 00000921",
+    "change_request_id": null,
+    "unid": "6446206542820F77C1257ED200455B66"
+  }
+}

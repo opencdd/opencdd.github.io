@@ -1,0 +1,164 @@
+{
+  "irdi": "0112/2///61360_4#AAA057",
+  "code": "AAA057",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "integrated circuit",
+  "preferred_name_ml": {
+    "en": "integrated circuit"
+  },
+  "short_name": "IC",
+  "short_name_ml": {
+    "en": "IC"
+  },
+  "definition": "circuit in which all or some of the circuit elements are inseparably associated and electrically interconnected such that are considered to be indivisible for the purpose of construction and commerce",
+  "definition_ml": {
+    "en": "circuit in which all or some of the circuit elements are inseparably associated and electrically interconnected such that are considered to be indivisible for the purpose of construction and commerce"
+  },
+  "source_document": "IEC 60748-1 Amend. 2(IV.2.3) (1993)",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "IC"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "IC"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA057",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "IC",
+    "MDC_P004.en": "integrated circuit",
+    "MDC_P007.en": "IC",
+    "MDC_P006.en": "circuit in which all or some of the circuit elements are inseparably associated and electrically interconnected such that are considered to be indivisible for the purpose of construction and commerce",
+    "MDC_P006_1": "IEC 60748-1 Amend. 2(IV.2.3) (1993)",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA002",
+    "C021": "0112/2///61360_4#AAE077",
+    "MDC_P014": "{0112/2///61360_4#AAD175,0112/2///61360_4#AAD179,0112/2///61360_4#AAD180,0112/2///61360_4#AAD181,0112/2///61360_4#AAD182,0112/2///61360_4#AAD183,0112/2///61360_4#AAD184,0112/2///61360_4#AAD185,0112/2///61360_4#AAD186,0112/2///61360_4#AAD187,0112/2///61360_4#AAD188,0112/2///61360_4#AAD189,0112/2///61360_4#AAD190,0112/2///61360_4#AAD196,0112/2///61360_4#AAD199,0112/2///61360_4#AAE074,0112/2///61360_4#AAE077,0112/2///61360_4#AAE086,0112/2///61360_4#AAE106,0112/2///61360_4#AAE210,0112/2///61360_4#AAE214,0112/2///61360_4#AAE336,0112/2///61360_4#AAE337,0112/2///61360_4#AAE442,0112/2///61360_4#AAE458,0112/2///61360_4#AAE487,0112/2///61360_4#AAE490,0112/2///61360_4#AAE686,0112/2///61360_4#AAE690,0112/2///61360_4#AAE691,0112/2///61360_4#AAE786,0112/2///61360_4#AAE838,0112/2///61360_4#AAE898,0112/2///61360_4#AAF275,0112/2///61360_4#AAE014}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "88F9C6704E0B6BB0C1258994002BCFD5",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "0f4433c791106ba9c1257dd300515f3d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:02",
+      "user": "BATCH 00000881",
+      "unid": "8014fe91a630db67c1257db30042d672",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "310c6bc5a7ee63ecc1257d7300506964",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "613b362251140edec1257a0e0047b224",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2015-03-13",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAD175",
+    "0112/2///61360_4#AAD179",
+    "0112/2///61360_4#AAD180",
+    "0112/2///61360_4#AAD181",
+    "0112/2///61360_4#AAD182",
+    "0112/2///61360_4#AAD183",
+    "0112/2///61360_4#AAD184",
+    "0112/2///61360_4#AAD185",
+    "0112/2///61360_4#AAD186",
+    "0112/2///61360_4#AAD187",
+    "0112/2///61360_4#AAD188",
+    "0112/2///61360_4#AAD189",
+    "0112/2///61360_4#AAD190",
+    "0112/2///61360_4#AAD196",
+    "0112/2///61360_4#AAD199",
+    "0112/2///61360_4#AAE074",
+    "0112/2///61360_4#AAE077",
+    "0112/2///61360_4#AAE086",
+    "0112/2///61360_4#AAE106",
+    "0112/2///61360_4#AAE210",
+    "0112/2///61360_4#AAE214",
+    "0112/2///61360_4#AAE336",
+    "0112/2///61360_4#AAE337",
+    "0112/2///61360_4#AAE442",
+    "0112/2///61360_4#AAE458",
+    "0112/2///61360_4#AAE487",
+    "0112/2///61360_4#AAE490",
+    "0112/2///61360_4#AAE686",
+    "0112/2///61360_4#AAE690",
+    "0112/2///61360_4#AAE691",
+    "0112/2///61360_4#AAE786",
+    "0112/2///61360_4#AAE838",
+    "0112/2///61360_4#AAE898",
+    "0112/2///61360_4#AAF275",
+    "0112/2///61360_4#AAE014"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA002",
+  "superclass_type_property": "0112/2///61360_4#AAA002",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "88F9C6704E0B6BB0C1258994002BCFD5"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA042",
+  "code": "ABA042",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "device class",
+  "preferred_name_ml": {
+    "en": "device class",
+    "fr": "classe de l’appareil",
+    "de": "Geräteklasse"
+  },
+  "definition": "role which a device may adopt in a digital communication system",
+  "definition_ml": {
+    "en": "role which a device may adopt in a digital communication system",
+    "fr": "rôle qu'un appareil peut adopter dans un système de communication numérique",
+    "de": "Rolle, die ein Gerät in einem digitalen Kommunikationssystem annehmen kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA042",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "device class",
+    "MDC_P006.en": "role which a device may adopt in a digital communication system",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL508)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "classe de l’appareil",
+    "MDC_P006.fr": "rôle qu'un appareil peut adopter dans un système de communication numérique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Geräteklasse",
+    "MDC_P006.de": "Rolle, die ein Gerät in einem digitalen Kommunikationssystem annehmen kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "65DD8574966403BEC1258CDC004A3A37",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:25",
+      "user": "BATCH 00000774",
+      "unid": "5687fc9d53423b36c1258518003c47ff",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "e9c63d8e6f9a543ec125825e001de557",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "6f87818cd84bf4f2c1258256003e93a5",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "3c54df2f190877e6c12580d6004c1a2a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "751b7a565196e13ec1257cfb004037fd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:25",
+      "user": "BATCH 00000699",
+      "unid": "07b7d88ab7043f1ac1257cb40054b9c1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL508)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL508)",
+  "value_list": "0112/2///61987#ABL508",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "65DD8574966403BEC1258CDC004A3A37"
+  }
+}

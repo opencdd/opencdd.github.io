@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61360_4#AAE786",
+  "code": "AAE786",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "mode of operation",
+  "preferred_name_ml": {
+    "en": "mode of operation"
+  },
+  "short_name": "operation mode",
+  "short_name_ml": {
+    "en": "operation mode"
+  },
+  "definition": "code of the mode of operation of a function of an IC",
+  "definition_ml": {
+    "en": "code of the mode of operation of a function of an IC"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE786",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "mode of operation",
+    "MDC_P005.en": "operation mode",
+    "MDC_P006.en": "code of the mode of operation of a function of an IC",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA135)",
+    "MDC_P024": "M..8",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "IEC/SC 3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:13",
+      "user": "BATCH 00001336",
+      "unid": "5BC520516812129BC1258BFA00619D8E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "731049e3c5624db1c1257e8b003236ed",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "42888906fdf3680fc1257e8a0043e4c2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "960064c8efeb61cec1257a0e0047bcfb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "83bab71830f6f7dec1257a0e0046da7b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA135)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA135)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:13",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "5BC520516812129BC1258BFA00619D8E"
+  }
+}

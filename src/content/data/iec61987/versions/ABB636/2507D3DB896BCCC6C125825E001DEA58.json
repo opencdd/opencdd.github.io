@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61987#ABB636",
+  "code": "ABB636",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "number of performance variables",
+  "preferred_name_ml": {
+    "en": "number of performance variables",
+    "fr": "nombre de variables de performance",
+    "de": "Anzahl der Leistungsgrößen"
+  },
+  "definition": "@number of performance variables",
+  "definition_ml": {
+    "en": "@number of performance variables",
+    "fr": "propriété de cardinalité d'une variable de performance",
+    "de": "Kardinalitätsmerkmal für Leistungsgröße"
+  },
+  "synonyms": [],
+  "remark": "cardinality property",
+  "remark_ml": {
+    "en": "cardinality property"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB636",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of performance variables",
+    "MDC_P006.en": "@number of performance variables",
+    "MDC_P009.en": "cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "nombre de variables de performance",
+    "MDC_P006.fr": "propriété de cardinalité d'une variable de performance",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Anzahl der Leistungsgrößen",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Leistungsgröße",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "2507D3DB896BCCC6C125825E001DEA58",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "d67b19b3bb4de1d3c1258256003e93ee",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:26",
+      "user": "BATCH 00000732",
+      "unid": "c67c0b40ef313916c12580d6004c1f06",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:12",
+      "user": "BATCH 00000717",
+      "unid": "936dad2e756f054fc1257fa700404a14",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "288517a0f3b668e6c1257cfb00403ce0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "16a05c1318c66acbc1257cb40054be9d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:45",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2507D3DB896BCCC6C125825E001DEA58"
+  }
+}

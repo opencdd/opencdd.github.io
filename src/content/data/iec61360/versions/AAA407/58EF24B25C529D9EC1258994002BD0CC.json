@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61360_4#AAA407",
+  "code": "AAA407",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "straight lead",
+  "preferred_name_ml": {
+    "en": "straight lead"
+  },
+  "short_name": "T001",
+  "short_name_ml": {
+    "en": "T001"
+  },
+  "definition": "disc package outline style with straight axial wire leads",
+  "definition_ml": {
+    "en": "disc package outline style with straight axial wire leads"
+  },
+  "synonyms": [],
+  "simplified_drawing": "DAA012",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA407",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "T001",
+    "MDC_P004.en": "straight lead",
+    "MDC_P006.en": "disc package outline style with straight axial wire leads",
+    "MDC_P008_1": "DAA012",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA364",
+    "MDC_P014": "{0112/2///61360_4#AAG009,0112/2///61360_4#AAG014,0112/2///61360_4#AAG089,0112/2///61360_4#AAG090,0112/2///61360_4#AAG091,0112/2///61360_4#AAG111}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "58EF24B25C529D9EC1258994002BD0CC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:19",
+      "user": "BATCH 00000998",
+      "unid": "a5e21a93d82608e0c12580880052e27c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:02",
+      "user": "BATCH 00000997",
+      "unid": "6400f2987ac0f496c12580880051da2d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:51",
+      "user": "BATCH 00000890",
+      "unid": "b58b4b5f7da78ed7c1257dd300516089",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "0ed4527ca88728e6c1257d7300506ab0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:08",
+      "user": "BATCH 00000788",
+      "unid": "60690004bed25276c1257a0e0047b312",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG009",
+    "0112/2///61360_4#AAG014",
+    "0112/2///61360_4#AAG089",
+    "0112/2///61360_4#AAG090",
+    "0112/2///61360_4#AAG091",
+    "0112/2///61360_4#AAG111"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA364",
+  "superclass_type_property": "0112/2///61360_4#AAA364",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "58EF24B25C529D9EC1258994002BD0CC"
+  }
+}

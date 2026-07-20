@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61360_4#AAE923",
+  "code": "AAE923",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "operate time",
+  "preferred_name_ml": {
+    "en": "operate time"
+  },
+  "short_name": "t_oper",
+  "short_name_ml": {
+    "en": "t_oper"
+  },
+  "definition": "maximum time between the instant the energising power is applied and the instant the relay completes the specified function",
+  "definition_ml": {
+    "en": "maximum time between the instant the energising power is applied and the instant the relay completes the specified function"
+  },
+  "source_document": "IEC 60255-1-00 (2.6.13) (1975)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE923",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "operate time",
+    "MDC_P005.en": "t_oper",
+    "MDC_P006.en": "maximum time between the instant the energising power is applied and the instant the relay completes the specified function",
+    "MDC_P025_1": "t_oper}",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60255-1-00 (2.6.13) (1975)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "E2F46BC81D116B7EC1257EA4004B20EF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "fa73082b6b4d4148c1257e8b0032373d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "8c52f18b1a2521e3c1257e8a0043e512",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "121dc7a6d6a7e17fc1257a0e0047bd4b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "c920cfbcbb455cf1c1257a0e0046dacb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_oper}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:36",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E2F46BC81D116B7EC1257EA4004B20EF"
+  }
+}

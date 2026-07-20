@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///62683#ACF122",
+  "code": "ACF122",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "General technical data for inductive or capacitive proximity switch",
+  "preferred_name_ml": {
+    "en": "General technical data for inductive or capacitive proximity switch",
+    "fr": "Données techniques générales pour détecteur de proximité inductif ou capacitif",
+    "de": "Allgemeine technische Daten des induktiven oder kapazitiven Näherungsschalters",
+    "zh": "电感式或电容式接近开关的一般技术数据"
+  },
+  "definition": "general technical aspects of the inductive or capacitive proximity switch",
+  "definition_ml": {
+    "en": "general technical aspects of the inductive or capacitive proximity switch",
+    "fr": "aspects techniques généraux du détecteur de proximité inductif ou capacitif",
+    "de": "Allgemeine technische Gesichtspunkte des induktiven oder kapazitiven Näherungsschalters.",
+    "zh": "编码器和系统之间的信息传输独立通信接口的特性"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00087",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF122",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "General technical data for inductive or capacitive proximity switch",
+    "MDC_P006.en": "general technical aspects of the inductive or capacitive proximity switch",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG122)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2021-01-19",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2021-01-19",
+    "MDC_P003_3": "2021-01-19",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Données techniques générales pour détecteur de proximité inductif ou capacitif",
+    "MDC_P006.fr": "aspects techniques généraux du détecteur de proximité inductif ou capacitif",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "2",
+    "C018.fr": "2020-03-05",
+    "MDC_P004.de": "Allgemeine technische Daten des induktiven oder kapazitiven Näherungsschalters",
+    "MDC_P006.de": "Allgemeine technische Gesichtspunkte des induktiven oder kapazitiven Näherungsschalters.",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2020-06-24",
+    "MDC_P004.zh": "电感式或电容式接近开关的一般技术数据",
+    "MDC_P006.zh": "编码器和系统之间的信息传输独立通信接口的特性",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "3",
+    "C018.zh": "2018-05-30",
+    "C002": "C00087"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2021-01-19 10:59:17",
+      "user": "BATCH 00000779",
+      "unid": "04268F6843917662C12586620036DDC3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "8a268ac61c44f153c12584ec0072daea",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:30",
+      "user": "BATCH 00000704",
+      "unid": "d8cd157cae039e3fc1258030004571a6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2021-01-19",
+    "current_revision": "2021-01-19"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG122)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG122)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2021-01-19 10:59:17",
+    "user": "BATCH 00000779",
+    "change_request_id": null,
+    "unid": "04268F6843917662C12586620036DDC3"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACE302",
+  "code": "ACE302",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "cos(φ) variation detection",
+  "preferred_name_ml": {
+    "en": "cos(φ) variation detection",
+    "fr": "détection de variation du cos(φ)",
+    "de": "Erkennung der Veränderung des Leistungsfaktors",
+    "zh": "功率因数检测"
+  },
+  "definition": "ability to detect displacement power factor variation in accordance with specified requirements",
+  "definition_ml": {
+    "en": "ability to detect displacement power factor variation in accordance with specified requirements",
+    "fr": "faculté de détecter une variation du déphasage du facteur de puissance conformément aux exigences spécifiées",
+    "de": "Fähigkeit zum Ansprechen, im Falle der Veränderung des Leistungsfaktors in Übereinstimmung mit den vorgegebenen Anforderungen",
+    "zh": "根据规定要求检测位移功率因数的能力"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "displacement factor"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "displacement factor",
+    "fr": "facteur de déphasage tension-courant"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00073",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE302",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "cos(φ) variation detection",
+    "MDC_P007.en": "displacement factor",
+    "MDC_P006.en": "ability to detect displacement power factor variation in accordance with specified requirements",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC013",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "détection de variation du cos(φ)",
+    "MDC_P007.fr": "facteur de déphasage tension-courant",
+    "MDC_P006.fr": "faculté de détecter une variation du déphasage du facteur de puissance conformément aux exigences spécifiées",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-07-17",
+    "MDC_P004.de": "Erkennung der Veränderung des Leistungsfaktors",
+    "MDC_P006.de": "Fähigkeit zum Ansprechen, im Falle der Veränderung des Leistungsfaktors in Übereinstimmung mit den vorgegebenen Anforderungen",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "功率因数检测",
+    "MDC_P006.zh": "根据规定要求检测位移功率因数的能力",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00073"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:30",
+      "user": "BATCH 00000744",
+      "unid": "69658EB2E4CFA0B8C12584EC0072DAA7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:27",
+      "user": "BATCH 00000704",
+      "unid": "3c12fb41015eddcfc12580300045704e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC013",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:30",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "69658EB2E4CFA0B8C12584EC0072DAA7"
+  }
+}

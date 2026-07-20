@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///62683#ACF178",
+  "code": "ACF178",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Data communication of the transfer switching equipment",
+  "preferred_name_ml": {
+    "en": "Data communication of the transfer switching equipment",
+    "fr": "Communication de données du matériel de connexion de transfert",
+    "de": "Datenkommunikation des Netzumschalters",
+    "zh": "转换开关电器的数据通信"
+  },
+  "definition": "communication function for the transfer of information between the transfer switching equipment and the system",
+  "definition_ml": {
+    "en": "communication function for the transfer of information between the transfer switching equipment and the system",
+    "fr": "fonction de communication pour le transfert d’informations entre le matériel de connexion de Transfer et le système global",
+    "de": "Kommunikationsfunktion für die Übertragung von Informationen zwischen dem Netzumschalter und dem System",
+    "zh": "用于转换开关电器和系统间传输信息的通信功能"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF178",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Data communication of the transfer switching equipment",
+    "MDC_P006.en": "communication function for the transfer of information between the transfer switching equipment and the system",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG178)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "Communication de données du matériel de connexion de transfert",
+    "MDC_P006.fr": "fonction de communication pour le transfert d’informations entre le matériel de connexion de Transfer et le système global",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2025-01-02",
+    "MDC_P004.de": "Datenkommunikation des Netzumschalters",
+    "MDC_P006.de": "Kommunikationsfunktion für die Übertragung von Informationen zwischen dem Netzumschalter und dem System",
+    "C019.de": "DKE, A. Huhn",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "转换开关电器的数据通信",
+    "MDC_P006.zh": "用于转换开关电器和系统间传输信息的通信功能",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:30",
+      "user": "BATCH 00000844",
+      "unid": "0C63DA487B67C424C1258D2A006B8799",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:18",
+      "user": "BATCH 00000811",
+      "unid": "0f276c6d6d685005c1258b9d00731c3c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "299717e9aa6e869dc1258030004571d9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG178)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG178)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:30",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "0C63DA487B67C424C1258D2A006B8799"
+  }
+}

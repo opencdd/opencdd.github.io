@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61987#ABB247",
+  "code": "ABB247",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "number of optical communication interfaces",
+  "preferred_name_ml": {
+    "en": "number of optical communication interfaces",
+    "fr": "nombre d'interfaces de communication optiques",
+    "de": "Anzahl der optischen Kommunikationsschnittstellen"
+  },
+  "definition": "@number of optical communication interfaces",
+  "definition_ml": {
+    "en": "@number of optical communication interfaces",
+    "fr": "propriété de cardinalité des interfaces de communication optiques",
+    "de": "Kardinalitätsmerkmal für optische Kommunikationsschnittstelle"
+  },
+  "synonyms": [],
+  "remark": "cardinality property",
+  "remark_ml": {
+    "en": "cardinality property"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB247",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of optical communication interfaces",
+    "MDC_P006.en": "@number of optical communication interfaces",
+    "MDC_P009.en": "cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "nombre d'interfaces de communication optiques",
+    "MDC_P006.fr": "propriété de cardinalité des interfaces de communication optiques",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Anzahl der optischen Kommunikationsschnittstellen",
+    "MDC_P006.de": "Kardinalitätsmerkmal für optische Kommunikationsschnittstelle",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "B6C23C7D733298DFC125825E001DE8D8",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "d1d316c94b4fb0a5c1258256003e93bc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:22",
+      "user": "BATCH 00000732",
+      "unid": "7f0c127358f9968dc12580d6004c1d86",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:12",
+      "user": "BATCH 00000717",
+      "unid": "0dca1beec952cf29c1257fa7004049f3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "84d9b7d3ed2c9dbac1257cfb00403b60",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "d5aa10c0fdb97c58c1257cb40054bd1d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "B6C23C7D733298DFC125825E001DE8D8"
+  }
+}

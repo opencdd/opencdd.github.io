@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///61360_4#AAE595",
+  "code": "AAE595",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "tube size (cm)",
+  "preferred_name_ml": {
+    "en": "tube size (cm)"
+  },
+  "short_name": "d_gls(c)",
+  "short_name_ml": {
+    "en": "d_gls(c)"
+  },
+  "definition": "nominal overall outer diagonal of the glass envelope of a display tube, used as product identification",
+  "definition_ml": {
+    "en": "nominal overall outer diagonal of the glass envelope of a display tube, used as product identification"
+  },
+  "synonyms": [],
+  "remark": "In the Pro Electron type designation code for display tubes other than TV picture and monitor tubes, the face diagonal corresponds with the first number. |For TV picture tubes and monitor tubes see AAE592-005.",
+  "remark_ml": {
+    "en": "In the Pro Electron type designation code for display tubes other than TV picture and monitor tubes, the face diagonal corresponds with the first number. |For TV picture tubes and monitor tubes see AAE592-005."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE595",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "tube size (cm)",
+    "MDC_P005.en": "d_gls(c)",
+    "MDC_P006.en": "nominal overall outer diagonal of the glass envelope of a display tube, used as product identification",
+    "MDC_P009.en": "In the Pro Electron type designation code for display tubes other than TV picture and monitor tubes, the face diagonal corresponds with the first number. |For TV picture tubes and monitor tubes see AAE592-005.",
+    "MDC_P025_1": "d_gls(c)}",
+    "MDC_P023": "cm",
+    "MDC_P022": "LEVEL(NOM) OF INT_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA375",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "BF0D2C2162042706C1257EA4004B201B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "5a48545b1fb19fa2c1257e8b0032366a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "5a1d4617ab35a727c1257e8a0043e43e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "dbf169bc46755fa6c1257a0e0047bc81",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "6355ff8b1010a2d5c1257a0e0046da01",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "d_gls(c)}",
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA375",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF INT_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF INT_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "BF0D2C2162042706C1257EA4004B201B"
+  }
+}

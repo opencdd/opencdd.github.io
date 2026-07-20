@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABN614",
+  "code": "ABN614",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "zero point setting command",
+  "preferred_name_ml": {
+    "en": "zero point setting command",
+    "de": "Nullpunktsetz-Befehl"
+  },
+  "short_name": "Set Zero Point",
+  "short_name_ml": {
+    "en": "Set Zero Point",
+    "de": "Nullpunkt"
+  },
+  "definition": "property that initiates when set the TRUE (ON) state a procedure, which maybe automatic, to define or set the value zero of the output",
+  "definition_ml": {
+    "en": "property that initiates when set the TRUE (ON) state a procedure, which maybe automatic, to define or set the value zero of the output",
+    "de": "Merkmal, das bei Setzten auf \"Wahr\" (\"Ein\") eine (ggf. automatische) Funktion startet, die den Nullpunkt für den Ausgang festlegt"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN614",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "zero point setting command",
+    "MDC_P005.en": "Set Zero Point",
+    "MDC_P006.en": "property that initiates when set the TRUE (ON) state a procedure, which maybe automatic, to define or set the value zero of the output",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "BOOLEAN_TYPE",
+    "MDC_P024": "B 1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-05-20",
+    "MDC_P003_2": "2025-05-20",
+    "MDC_P003_3": "2025-05-20",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Nullpunktsetz-Befehl",
+    "MDC_P005.de": "Nullpunkt",
+    "MDC_P006.de": "Merkmal, das bei Setzten auf \"Wahr\" (\"Ein\") eine (ggf. automatische) Funktion startet, die den Nullpunkt für den Ausgang festlegt",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-05-20 11:52:36",
+      "user": "BATCH 00000843",
+      "unid": "7F12FAAB95FF2991C1258C9000364129",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "fd668c843ac0b646c1258c3b004b5c11",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "9992270f4d38f541c125886f003c9b4a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "82649b8c716aaff1c1258518003fd7cc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-05-20",
+    "current_revision": "2025-05-20"
+  },
+  "value_format": "B 1",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "BOOLEAN_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "BOOLEAN_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-05-20 11:52:36",
+    "user": "BATCH 00000843",
+    "change_request_id": null,
+    "unid": "7F12FAAB95FF2991C1258C9000364129"
+  }
+}

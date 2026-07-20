@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAE416",
+  "code": "AAE416",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2011-08-31 14:10:10",
+    "user": "BATCH 00000733",
+    "change_request_id": null,
+    "unid": "f9fc28f1d4ff34ecc12578fd0042d97c"
+  }
+}

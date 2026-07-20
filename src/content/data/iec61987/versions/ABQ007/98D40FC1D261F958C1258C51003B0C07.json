@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABQ007",
+  "code": "ABQ007",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "quantity of valve switching cycles",
+  "preferred_name_ml": {
+    "en": "quantity of valve switching cycles",
+    "de": "Zahl der Ventilschaltzyklen"
+  },
+  "short_name": "Switch Cycles",
+  "short_name_ml": {
+    "en": "Switch Cycles",
+    "de": "Ventilschaltzyklen"
+  },
+  "definition": "number of opening or closing operations of a valve",
+  "definition_ml": {
+    "en": "number of opening or closing operations of a valve",
+    "de": "Anzahl der Öffnungs- oder Schließvorgänge eines Ventils"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00178",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABQ007",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "quantity of valve switching cycles",
+    "MDC_P005.en": "Switch Cycles",
+    "MDC_P006.en": "number of opening or closing operations of a valve",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-03-18",
+    "MDC_P003_1": "2024-06-14",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-03-18",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Zahl der Ventilschaltzyklen",
+    "MDC_P005.de": "Ventilschaltzyklen",
+    "MDC_P006.de": "Anzahl der Öffnungs- oder Schließvorgänge eines Ventils",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2024-06-14",
+    "C002": "C00178"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-03-18 11:44:57",
+      "user": "BATCH 00000837",
+      "unid": "98D40FC1D261F958C1258C51003B0C07",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:06",
+      "user": "BATCH 00000835",
+      "unid": "0e16106a53d2f047c1258c3b004b5bb0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-06-14",
+    "current_version": "2025-02-24",
+    "current_revision": "2025-03-18"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-03-18 11:44:57",
+    "user": "BATCH 00000837",
+    "change_request_id": null,
+    "unid": "98D40FC1D261F958C1258C51003B0C07"
+  }
+}

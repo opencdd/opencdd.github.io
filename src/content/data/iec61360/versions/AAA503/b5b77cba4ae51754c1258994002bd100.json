@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61360_4#AAA503",
+  "code": "AAA503",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "solid aluminium electrolytic",
+  "preferred_name_ml": {
+    "en": "solid aluminium electrolytic"
+  },
+  "definition": "fixed electrolytic capacitor in which the oxide film formed on the surface of foil, wire or sintered slug of aluminium by anodic oxidation is employed as the dielectric, and solid electrolyte in close contact with this dielectric is employed as part of the cathode",
+  "definition_ml": {
+    "en": "fixed electrolytic capacitor in which the oxide film formed on the surface of foil, wire or sintered slug of aluminium by anodic oxidation is employed as the dielectric, and solid electrolyte in close contact with this dielectric is employed as part of the cathode"
+  },
+  "source_document": "EIAJ",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "solid aluminium"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "solid aluminium"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA503",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "solid aluminium electrolytic",
+    "MDC_P007.en": "solid aluminium",
+    "MDC_P006.en": "fixed electrolytic capacitor in which the oxide film formed on the surface of foil, wire or sintered slug of aluminium by anodic oxidation is employed as the dielectric, and solid electrolyte in close contact with this dielectric is employed as part of the cathode",
+    "MDC_P006_1": "EIAJ",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA026",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "b5b77cba4ae51754c1258994002bd100",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "d01bddfb5431caddc1257dd300515ff2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "00b5c8b5b9607693c1257d7300506a19",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-16 15:50:17",
+      "user": "BATCH 00000717",
+      "unid": "e25b26133b1d4aafc12578ee004c040e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA026",
+  "superclass_type_property": "0112/2///61360_4#AAA026",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "b5b77cba4ae51754c1258994002bd100"
+  }
+}

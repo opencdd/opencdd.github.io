@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABE375",
+  "code": "ABE375",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "face-to-face dimension/center-to-face dimension",
+  "preferred_name_ml": {
+    "en": "face-to-face dimension/center-to-face dimension",
+    "de": "Baulänge/Eckmaß"
+  },
+  "definition": "for straight pattern valves, distance between the two planes perpendicular to the valve axis located at the extremities of the body end ports or for angle pattern valves distance between the plane located at the extremity of either body end port and perpendicular to, its axis and the axis of the other body end port",
+  "definition_ml": {
+    "en": "for straight pattern valves, distance between the two planes perpendicular to the valve axis located at the extremities of the body end ports or for angle pattern valves distance between the plane located at the extremity of either body end port and perpendicular to, its axis and the axis of the other body end port",
+    "de": "bei einer Durchgangsamatur Abstand zwischen den beiden zur Mittellinie der Armatur senkrechten, äußeren Ebenen der Gehäuseendöffnungen bzw. bei einer Eckarmaturen Abstand zwischen der zur Mittellinie senkrechten, äußeren Ebene an einer Gehäuseendöffnung und der Mittellinie der anderen Gehäuseendöffnung"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE375",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "face-to-face dimension/center-to-face dimension",
+    "MDC_P006.en": "for straight pattern valves, distance between the two planes perpendicular to the valve axis located at the extremities of the body end ports or for angle pattern valves distance between the plane located at the extremity of either body end port and perpendicular to, its axis and the axis of the other body end port",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-10-29",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Baulänge/Eckmaß",
+    "MDC_P006.de": "bei einer Durchgangsamatur Abstand zwischen den beiden zur Mittellinie der Armatur senkrechten, äußeren Ebenen der Gehäuseendöffnungen bzw. bei einer Eckarmaturen Abstand zwischen der zur Mittellinie senkrechten, äußeren Ebene an einer Gehäuseendöffnung und der Mittellinie der anderen Gehäuseendöffnung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-29",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:59",
+      "user": "BATCH 00000762",
+      "unid": "633FEE7CC8ECA07CC125825E001DF006",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:41",
+      "user": "BATCH 00000732",
+      "unid": "b20a21df8bc74f95c12580d6004c24b5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:59",
+      "user": "BATCH 00000717",
+      "unid": "63de7922acff8d60c1257fa700405c32",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:53",
+      "user": "BATCH 00000702",
+      "unid": "39e7df7dabd2f1a5c1257cfb0040428b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:52",
+      "user": "BATCH 00000699",
+      "unid": "22f644023f0ef2cac1257cb40054c448",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-29",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:59",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "633FEE7CC8ECA07CC125825E001DF006"
+  }
+}

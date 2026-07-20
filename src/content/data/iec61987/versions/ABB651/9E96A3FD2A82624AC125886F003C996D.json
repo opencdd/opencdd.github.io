@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABB651",
+  "code": "ABB651",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference turndown ratio",
+  "preferred_name_ml": {
+    "en": "reference turndown ratio",
+    "fr": "rapport de marge de réglage effective de référence",
+    "de": "Referenzturndownverhältnis"
+  },
+  "definition": "turndown of the device output at which the performance of a device was tested",
+  "definition_ml": {
+    "en": "turndown of the device output at which the performance of a device was tested",
+    "fr": "marge de réglage effective de la sortie d’appareil à laquelle les performances d'un appareil sont soumises à essai",
+    "de": "Turndownverhältnis des Geräteausgangs, bei dem die Leistung des Geräts bestimmt wurde"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB651",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference turndown ratio",
+    "MDC_P006.en": "turndown of the device output at which the performance of a device was tested",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-06-28",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.fr": "rapport de marge de réglage effective de référence",
+    "MDC_P006.fr": "marge de réglage effective de la sortie d’appareil à laquelle les performances d'un appareil sont soumises à essai",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Referenzturndownverhältnis",
+    "MDC_P006.de": "Turndownverhältnis des Geräteausgangs, bei dem die Leistung des Geräts bestimmt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "9E96A3FD2A82624AC125886F003C996D",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "ba1302b260eb2c57c125825e001dea67",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:26",
+      "user": "BATCH 00000732",
+      "unid": "e8e1fe44c7433966c12580d6004c1f15",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "329c3437ccd74031c1257cb40054beac",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-06-28",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:54",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "9E96A3FD2A82624AC125886F003C996D"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#AFD045",
+  "code": "AFD045",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "output voltage",
+  "preferred_name_ml": {
+    "en": "output voltage"
+  },
+  "short_name": "output voltage",
+  "short_name_ml": {
+    "en": "output voltage"
+  },
+  "definition": "amplitude of the output waveform",
+  "definition_ml": {
+    "en": "amplitude of the output waveform"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD045",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "output voltage",
+    "MDC_P005.en": "output voltage",
+    "MDC_P006.en": "amplitude of the output waveform",
+    "MDC_P025_1": "Vpp",
+    "MDC_P023": "V",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA009",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "5C8D4C43FD27EE1EC1257EA4004B254B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "5199dcbd7611d1f5c1257e8b00323b53",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "bb0855b4914b40bfc1257e8a0043e96e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "14777a609b45bdfec1257b02004295fd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "Vpp",
+  "definition_class_irdi": "0112/2///61360_4#AFA009",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "5C8D4C43FD27EE1EC1257EA4004B254B"
+  }
+}

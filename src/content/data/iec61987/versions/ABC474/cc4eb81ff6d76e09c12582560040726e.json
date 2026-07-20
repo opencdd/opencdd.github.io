@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC474",
+  "code": "ABC474",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:43:55",
+    "user": "BATCH 00000756",
+    "change_request_id": null,
+    "unid": "cc4eb81ff6d76e09c12582560040726e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AFD063",
+  "code": "AFD063",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2013-01-18 14:54:43",
+    "user": "BATCH 00000812",
+    "change_request_id": null,
+    "unid": "ca16fa3f8c8ddf73c1257af7004c6bae"
+  }
+}

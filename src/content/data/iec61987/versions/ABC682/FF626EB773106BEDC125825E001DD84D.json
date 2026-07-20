@@ -1,0 +1,137 @@
+{
+  "irdi": "0112/2///61987#ABC682",
+  "code": "ABC682",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "Visual controls",
+  "preferred_name_ml": {
+    "en": "Visual controls",
+    "fr": "Commandes visuelles",
+    "de": "Optische Anzeigen"
+  },
+  "definition": "properties characterizing the visual controls provided for the operation of a device",
+  "definition_ml": {
+    "en": "properties characterizing the visual controls provided for the operation of a device",
+    "fr": "propriétés caractérisant les commandes visuelles disposées pour le fonctionnement d'un appareil",
+    "de": "Merkmale, die die optischen Anzeigen kennzeichnen, die für den Betrieb eines Geräts zur Verfügung stehen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC682",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Visual controls",
+    "MDC_P006.en": "properties characterizing the visual controls provided for the operation of a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA543,0112/2///61987#ABC943,0112/2///61987#ABB395,0112/2///61987#ABC835,0112/2///61987#ABD074,0112/2///61987#ABB399}",
+    "MDC_P004.fr": "Commandes visuelles",
+    "MDC_P006.fr": "propriétés caractérisant les commandes visuelles disposées pour le fonctionnement d'un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Optische Anzeigen",
+    "MDC_P006.de": "Merkmale, die die optischen Anzeigen kennzeichnen, die für den Betrieb eines Geräts zur Verfügung stehen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:59",
+      "user": "BATCH 00000762",
+      "unid": "FF626EB773106BEDC125825E001DD84D",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:07",
+      "user": "BATCH 00000755",
+      "unid": "321424b582841303c1258256003e731d",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:04",
+      "user": "BATCH 00000732",
+      "unid": "b5f28e2bc905a122c12580d6004bfef0",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:15",
+      "user": "BATCH 00000714",
+      "unid": "e68d2a0668f9625cc1257f7e0033a8d6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:42",
+      "user": "BATCH 00000701",
+      "unid": "8ceccdb0fe11ab38c1257cfb003f9a14",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:13",
+      "user": "BATCH 00000699",
+      "unid": "75aa022c5560741ac1257cb400549d60",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA543",
+    "0112/2///61987#ABC943",
+    "0112/2///61987#ABB395",
+    "0112/2///61987#ABC835",
+    "0112/2///61987#ABD074",
+    "0112/2///61987#ABB399"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:59",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "FF626EB773106BEDC125825E001DD84D"
+  }
+}

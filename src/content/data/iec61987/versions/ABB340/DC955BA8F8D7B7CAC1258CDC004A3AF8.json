@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABB340",
+  "code": "ABB340",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "pipe schedule",
+  "preferred_name_ml": {
+    "en": "pipe schedule",
+    "fr": "planification de canalisation",
+    "de": "Pipe Schedule"
+  },
+  "definition": "characteristic of a pipe rating system giving the wall thickness for the pipe nominal diameter",
+  "definition_ml": {
+    "en": "characteristic of a pipe rating system giving the wall thickness for the pipe nominal diameter",
+    "fr": "caractéristique d'un système de classification des canalisations donnant l'épaisseur de paroi pour le diamètre nominal de la canalisation",
+    "de": "Kennzeichnung eines Einordungssystems für Rohrleitungen, aus dem die Wanddicke für einen Durchmesser hervorgeht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB340",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "pipe schedule",
+    "MDC_P006.en": "characteristic of a pipe rating system giving the wall thickness for the pipe nominal diameter",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL265)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "planification de canalisation",
+    "MDC_P006.fr": "caractéristique d'un système de classification des canalisations donnant l'épaisseur de paroi pour le diamètre nominal de la canalisation",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Pipe Schedule",
+    "MDC_P006.de": "Kennzeichnung eines Einordungssystems für Rohrleitungen, aus dem die Wanddicke für einen Durchmesser hervorgeht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "DC955BA8F8D7B7CAC1258CDC004A3AF8",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "d0ab8f529e497030c1258518003c48ed",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "500eb42a08cbbbbbc125825e001de935",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "6c23709020e3b004c125825600407b24",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "6cc5e696bee78cd5c12580d6004c1de3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "bef9a59c0916ac46c1257cfb00403bbd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "00ce92d65fcfff4dc1257cb40054bd7a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL265)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL265)",
+  "value_list": "0112/2///61987#ABL265",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "DC955BA8F8D7B7CAC1258CDC004A3AF8"
+  }
+}

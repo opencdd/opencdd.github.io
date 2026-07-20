@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC051",
+  "code": "ABC051",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:24:06",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "3695366fc79ddd2ec1257cb400549afa"
+  }
+}

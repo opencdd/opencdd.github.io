@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#ADA077",
+  "code": "ADA077",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "object description",
+  "preferred_name_ml": {
+    "en": "object description"
+  },
+  "definition": "set of describing properties of the object",
+  "definition_ml": {
+    "en": "set of describing properties of the object"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA077",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "object description",
+    "MDC_P006.en": "set of describing properties of the object",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2015-06-25",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#AAE834,0112/2///61360_4#ADA078,0112/2///61360_4#AAE965,0112/2///61360_4#AAH547,0112/2///61360_4#AAE752,0112/2///61360_4#AAE987,0112/2///61360_4#ADA079}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "F39F17970EC46D41C1258994002BD1A6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-02-26 11:17:18",
+      "user": "BATCH 00000950",
+      "unid": "addf16751fb2a0b2c1257f6500388404",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-02-26 11:04:29",
+      "user": "BATCH 00000949",
+      "unid": "62f3ff5954e0d2a5c1257f65003757de",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-06-25",
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE834",
+    "0112/2///61360_4#ADA078",
+    "0112/2///61360_4#AAE965",
+    "0112/2///61360_4#AAH547",
+    "0112/2///61360_4#AAE752",
+    "0112/2///61360_4#AAE987",
+    "0112/2///61360_4#ADA079"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "F39F17970EC46D41C1258994002BD1A6"
+  }
+}

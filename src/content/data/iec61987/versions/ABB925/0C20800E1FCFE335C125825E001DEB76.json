@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABB925",
+  "code": "ABB925",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "maximum permissible voltage",
+  "preferred_name_ml": {
+    "en": "maximum permissible voltage",
+    "fr": "tension admissible maximale",
+    "de": "maximale zugelassene Spannung"
+  },
+  "definition": "highest voltage that is allowed to be applied to a device circuit",
+  "definition_ml": {
+    "en": "highest voltage that is allowed to be applied to a device circuit",
+    "fr": "tension la plus haute qui est admise pour s'appliquer à un circuit d’appareil",
+    "de": "höchste Spannung, die an einen Gerätekreis angelegt werden darf"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB925",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum permissible voltage",
+    "MDC_P006.en": "highest voltage that is allowed to be applied to a device circuit",
+    "MDC_P023": "V",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C0104": "0112/2///61987#ABT506",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "tension admissible maximale",
+    "MDC_P006.fr": "tension la plus haute qui est admise pour s'appliquer à un circuit d’appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximale zugelassene Spannung",
+    "MDC_P006.de": "höchste Spannung, die an einen Gerätekreis angelegt werden darf",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "0C20800E1FCFE335C125825E001DEB76",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:32",
+      "user": "BATCH 00000755",
+      "unid": "8b194549cbcf837fc1258256003e946e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:29",
+      "user": "BATCH 00000732",
+      "unid": "565e00e7b968758cc12580d6004c2024",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:04",
+      "user": "BATCH 00000715",
+      "unid": "687eed561113e811c1257f7f004d00ab",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:56",
+      "user": "BATCH 00000717",
+      "unid": "cc4626dd6dc5ab8cc1257fa700405b5a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:41",
+      "user": "BATCH 00000702",
+      "unid": "9e01e49f4909b34ac1257cfb00403dfe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "576b47dfd1c473acc1257cb40054bfbb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:48",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "0C20800E1FCFE335C125825E001DEB76"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAA233",
+  "code": "AAA233",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "feature",
+  "preferred_name_ml": {
+    "en": "feature"
+  },
+  "short_name": "FEA",
+  "short_name_ml": {
+    "en": "FEA"
+  },
+  "definition": "autonomous and stand-alone abstraction of an object of the parts/component library application domain",
+  "definition_ml": {
+    "en": "autonomous and stand-alone abstraction of an object of the parts/component library application domain"
+  },
+  "synonyms": [],
+  "note": "A feature might be represented as a specific subclass of other classes.",
+  "note_ml": {
+    "en": "A feature might be represented as a specific subclass of other classes."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00134",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA233",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "FEA",
+    "MDC_P004.en": "feature",
+    "MDC_P006.en": "autonomous and stand-alone abstraction of an object of the parts/component library application domain",
+    "MDC_P008.en": "A feature might be represented as a specific subclass of other classes.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-11",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-11",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA000",
+    "C002": "C00134"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-11 08:52:32",
+      "user": "BATCH 00001242",
+      "unid": "9EFFE6CEA6EF12D4C125898E0025C4C6",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-04-15 11:29:04",
+      "user": "BATCH 00000879",
+      "unid": "9eb63af966a12a09c125854b003419ca",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "d040e8ea47446db3c1257d73005069e4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-08-31 17:34:41",
+      "user": "BATCH 00000746",
+      "unid": "9202841294d45d80c12578fd005592c7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA000",
+  "superclass_type_property": "0112/2///61360_4#AAA000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-11 08:52:32",
+    "user": "BATCH 00001242",
+    "change_request_id": null,
+    "unid": "9EFFE6CEA6EF12D4C125898E0025C4C6"
+  }
+}

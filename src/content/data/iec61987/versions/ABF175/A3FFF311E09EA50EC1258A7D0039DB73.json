@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABF175",
+  "code": "ABF175",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "style of flooding protection",
+  "preferred_name_ml": {
+    "en": "style of flooding protection",
+    "de": "Typ des Flutungsschutzes"
+  },
+  "definition": "classification of a probe according to the method employed to prevent it flooding",
+  "definition_ml": {
+    "en": "classification of a probe according to the method employed to prevent it flooding",
+    "de": "Charakterisierung einer Sonde bezüglich der Methode ihre Überflutung zu verhindern"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF175",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of flooding protection",
+    "MDC_P006.en": "classification of a probe according to the method employed to prevent it flooding",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2018-03-28",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Typ des Flutungsschutzes",
+    "MDC_P006.de": "Charakterisierung einer Sonde bezüglich der Methode ihre Überflutung zu verhindern",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-09-30",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:57",
+      "user": "BATCH 00000818",
+      "unid": "A3FFF311E09EA50EC1258A7D0039DB73",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:04",
+      "user": "BATCH 00000762",
+      "unid": "bd68d014c90925b1c125825e001df1f8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2018-03-28",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:57",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "A3FFF311E09EA50EC1258A7D0039DB73"
+  }
+}

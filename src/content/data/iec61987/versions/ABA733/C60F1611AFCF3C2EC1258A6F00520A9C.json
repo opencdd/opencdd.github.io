@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61987#ABA733",
+  "code": "ABA733",
+  "version": "3",
+  "revision": "2",
+  "preferred_name": "Gauge pressure switch",
+  "preferred_name_ml": {
+    "en": "Gauge pressure switch",
+    "fr": "Commutateur de pression manométrique",
+    "de": "Überdruckschalter"
+  },
+  "definition": "pressure switch that outputs a discrete signal representative of a gauge pressure regime",
+  "definition_ml": {
+    "en": "pressure switch that outputs a discrete signal representative of a gauge pressure regime",
+    "fr": "commutateur de pression délivrant en sortie un signal discret représentatif d'un régime de pression manométrique",
+    "de": "Druckschalter, der ein diskretes Signal abgibt, welches für einen Überdruckzustand repräsentativ ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA733",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Gauge pressure switch",
+    "MDC_P006.en": "pressure switch that outputs a discrete signal representative of a gauge pressure regime",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA732",
+    "MDC_P004.fr": "Commutateur de pression manométrique",
+    "MDC_P006.fr": "commutateur de pression délivrant en sortie un signal discret représentatif d'un régime de pression manométrique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Überdruckschalter",
+    "MDC_P006.de": "Druckschalter, der ein diskretes Signal abgibt, welches für einen Überdruckzustand repräsentativ ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "C60F1611AFCF3C2EC1258A6F00520A9C",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "f015f7f061736399c125825e001dd396",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:35:36",
+      "user": "BATCH 00000701",
+      "unid": "f96cfc36d881d371c1257cfb003faf2a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "284cc0b3a001d2a1c1257cfb003f679e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-09 11:24:37",
+      "user": "BATCH 00000700",
+      "unid": "a4add3cfbf23a28dc1257cb50033b134",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "1c78509a81219b6cc1257cb3002a0c83",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA732",
+  "superclass_type_property": "0112/2///61987#ABA732",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "C60F1611AFCF3C2EC1258A6F00520A9C"
+  }
+}

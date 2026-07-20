@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61360_4#AAF403",
+  "code": "AAF403",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "z-coordinate preferred mounting position",
+  "preferred_name_ml": {
+    "en": "z-coordinate preferred mounting position"
+  },
+  "short_name": "z-coor pref pos",
+  "short_name_ml": {
+    "en": "z-coor pref pos"
+  },
+  "definition": "distance on the z-axis of the direction of the preferred mounting position of a component",
+  "definition_ml": {
+    "en": "distance on the z-axis of the direction of the preferred mounting position of a component"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 3",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF403",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "z-coordinate preferred mounting position",
+    "MDC_P005.en": "z-coor pref pos",
+    "MDC_P006.en": "distance on the z-axis of the direction of the preferred mounting position of a component",
+    "MDC_P025_1": "z-coor pref pos",
+    "MDC_P023": "m",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-06-04",
+    "MDC_P003_2": "2024-06-04",
+    "MDC_P003_3": "2024-06-04",
+    "MDC_P012": "IEC/TC 3",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-06-04 08:14:26",
+      "user": "BATCH 00001292",
+      "unid": "1F93FB7D3E092EA5C1258B3200224824",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-02-09 12:26:18",
+      "user": "BATCH 00001006",
+      "unid": "5161b1227754830dc12580c2003ed554",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:39",
+      "user": "BATCH 00000917",
+      "unid": "a894f31f35e4a881c1257ea4004b2252",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:32",
+      "user": "BATCH 00000907",
+      "unid": "54245d5221fa9830c1257e8b0032389a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "2c9924c6ffd8c978c1257e8a0043e675",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "022ef98b1d1532d2c1257a0e0047bea8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "006b917ea6c6a7e2c1257a0e0046dc28",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-06-04",
+    "current_revision": "2024-06-04"
+  },
+  "symbol_in_text": "z-coor pref pos",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-06-04 08:14:26",
+    "user": "BATCH 00001292",
+    "change_request_id": null,
+    "unid": "1F93FB7D3E092EA5C1258B3200224824"
+  }
+}

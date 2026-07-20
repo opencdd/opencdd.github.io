@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABH417",
+  "code": "ABH417",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "quantity of holes",
+  "preferred_name_ml": {
+    "en": "quantity of holes",
+    "de": "Zahl der Löcher"
+  },
+  "definition": "number of holes in a device or device component",
+  "definition_ml": {
+    "en": "number of holes in a device or device component",
+    "de": "Anzahl der Löcher in einem Gerät oder einer Gerätekomponente"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH417",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "quantity of holes",
+    "MDC_P006.en": "number of holes in a device or device component",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2015-02-05",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Zahl der Löcher",
+    "MDC_P006.de": "Anzahl der Löcher in einem Gerät oder einer Gerätekomponente",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-02-05",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:15",
+      "user": "BATCH 00000762",
+      "unid": "5C11B294F6B87E68C125825E001DF629",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "3a298dfc5822dbbec125825600407b40",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:44",
+      "user": "BATCH 00000732",
+      "unid": "a1dbf59fd2993a74c12580d6004c2615",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "c8629aed98f4b788c1257f7e0030f252",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "362df316482a7ac0c1257fa7003a3d99",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-05",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:15",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "5C11B294F6B87E68C125825E001DF629"
+  }
+}

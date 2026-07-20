@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABC069",
+  "code": "ABC069",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Accuracy for a subrange of actual volume flow",
+  "preferred_name_ml": {
+    "en": "Accuracy for a subrange of actual volume flow",
+    "fr": "Exactitude pour une sous-étendue de débit volumique réel",
+    "de": "Genauigkeit für einen Teilbereich von Betriebsvolumendurchfluss"
+  },
+  "definition": "properties characterizing the accuracy of an actual flow measurement for a subrange of ideal span",
+  "definition_ml": {
+    "en": "properties characterizing the accuracy of an actual flow measurement for a subrange of ideal span",
+    "fr": "propriétés caractérisant l’exactitude d’une mesure de débit réel pour une sous-étendue de l’intervalle de mesure idéal",
+    "de": "Merkmale, die die Genauigkeit einer Betriebsvolumendurchflussmessung für einen Teilbereich der Spanne kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC069",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Accuracy for a subrange of actual volume flow",
+    "MDC_P006.en": "properties characterizing the accuracy of an actual flow measurement for a subrange of ideal span",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB731,0112/2///61987#ABB732,0112/2///61987#ABB727,0112/2///61987#ABB728,0112/2///61987#ABB733}",
+    "MDC_P004.fr": "Exactitude pour une sous-étendue de débit volumique réel",
+    "MDC_P006.fr": "propriétés caractérisant l’exactitude d’une mesure de débit réel pour une sous-étendue de l’intervalle de mesure idéal",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Genauigkeit für einen Teilbereich von Betriebsvolumendurchfluss",
+    "MDC_P006.de": "Merkmale, die die Genauigkeit einer Betriebsvolumendurchflussmessung für einen Teilbereich der Spanne kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:49",
+      "user": "BATCH 00000762",
+      "unid": "1BEAD92B93AD2191C125825E001DD49A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "09f75e7d8d51d91bc1257cb400549b0c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB731",
+    "0112/2///61987#ABB732",
+    "0112/2///61987#ABB727",
+    "0112/2///61987#ABB728",
+    "0112/2///61987#ABB733"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:49",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "1BEAD92B93AD2191C125825E001DD49A"
+  }
+}

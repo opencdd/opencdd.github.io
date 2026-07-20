@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61360_4#ACA072",
+  "code": "ACA072",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "declaration of waste of electrical and electronic equipment",
+  "preferred_name_ml": {
+    "en": "declaration of waste of electrical and electronic equipment"
+  },
+  "definition": "information set related to the directive on waste of electrical and electronic equipment of the European Union",
+  "definition_ml": {
+    "en": "information set related to the directive on waste of electrical and electronic equipment of the European Union"
+  },
+  "synonyms": [],
+  "note": "NOTE: Declaration according to the EU directive 2012/19/EU, WEEE.",
+  "note_ml": {
+    "en": "NOTE: Declaration according to the EU directive 2012/19/EU, WEEE."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ACA072",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "declaration of waste of electrical and electronic equipment",
+    "MDC_P006.en": "information set related to the directive on waste of electrical and electronic equipment of the European Union",
+    "MDC_P008.en": "NOTE: Declaration according to the EU directive 2012/19/EU, WEEE.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/TC 111",
+    "MDC_P010": "0112/2///61360_4#ACA070",
+    "MDC_P014": "{0112/2///61360_4#ACB150,0112/2///61360_4#ACB156,0112/2///61360_4#ACB157,0112/2///61360_4#ACB158,0112/2///61360_4#ACB155}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "52AB73D6962292C8C1258994002BD19B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 12:21:41",
+      "user": "BATCH 00000898",
+      "unid": "0fd78b95c33bb82fc1257e650038eac1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ACB150",
+    "0112/2///61360_4#ACB156",
+    "0112/2///61360_4#ACB157",
+    "0112/2///61360_4#ACB158",
+    "0112/2///61360_4#ACB155"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ACA070",
+  "superclass_type_property": "0112/2///61360_4#ACA070",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "52AB73D6962292C8C1258994002BD19B"
+  }
+}

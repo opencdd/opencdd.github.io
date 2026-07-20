@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61987#ABN597",
+  "code": "ABN597",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "set display language",
+  "preferred_name_ml": {
+    "en": "set display language",
+    "de": "eingestellte Anzeigesprache"
+  },
+  "short_name": "Disp. Language",
+  "short_name_ml": {
+    "en": "Disp. Language",
+    "de": "Anzeigesprache"
+  },
+  "definition": "language or languages set on the display",
+  "definition_ml": {
+    "en": "language or languages set on the display",
+    "de": "Sprache oder Sprachen, die auf der Anzeige eingestellt ist"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN597",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "set display language",
+    "MDC_P005.en": "Disp. Language",
+    "MDC_P006.en": "language or languages set on the display",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_7#CEA011)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "eingestellte Anzeigesprache",
+    "MDC_P005.de": "Anzeigesprache",
+    "MDC_P006.de": "Sprache oder Sprachen, die auf der Anzeige eingestellt ist",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-12",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "66B7B0411565BF5AC1258CDC004A3CD8",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "2d2b048e79ef51e4c1258c3b004b5c09",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2024-08-13 13:58:17",
+      "user": "BATCH 00000832",
+      "unid": "79d5ce1c64abaa64c1258b780041c30b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "dc8365e394d89408c125891300304855",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "1ed25512b61c5da5c125886f003c9b41",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:33",
+      "user": "BATCH 00000774",
+      "unid": "926c2b6b0a79ac6cc1258518003c4ac4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA011)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA011)",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "66B7B0411565BF5AC1258CDC004A3CD8"
+  }
+}

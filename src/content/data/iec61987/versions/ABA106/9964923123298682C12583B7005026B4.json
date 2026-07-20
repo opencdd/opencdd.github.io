@@ -1,0 +1,158 @@
+{
+  "irdi": "0112/2///61987#ABA106",
+  "code": "ABA106",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "minimum limit of storage relative humidity",
+  "preferred_name_ml": {
+    "en": "minimum limit of storage relative humidity",
+    "fr": "limite minimale de l'humidité relative de stockage",
+    "de": "minimale relative Feuchtegrenze bei Lagerung"
+  },
+  "definition": "lowest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+  "definition_ml": {
+    "en": "lowest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+    "fr": "humidité relative la plus faible à laquelle un appareil peut être soumis entre le moment de la construction et le moment de l'exploitation sans dégradation permanente des caractéristiques de fonctionnement",
+    "de": "niedrigste relative Luftfeuchte, der ein Gerät zwischen dem Zeitpunkt der Konstruktion und dem Zeitpunkt des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C0004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA106",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "minimum limit of storage relative humidity",
+    "MDC_P006.en": "lowest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-03-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2019-03-08",
+    "MDC_P003_3": "2019-03-08",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "limite minimale de l'humidité relative de stockage",
+    "MDC_P006.fr": "humidité relative la plus faible à laquelle un appareil peut être soumis entre le moment de la construction et le moment de l'exploitation sans dégradation permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "minimale relative Feuchtegrenze bei Lagerung",
+    "MDC_P006.de": "niedrigste relative Luftfeuchte, der ein Gerät zwischen dem Zeitpunkt der Konstruktion und dem Zeitpunkt des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C0004"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-03-08 15:35:27",
+      "user": "BATCH 00000766",
+      "unid": "9964923123298682C12583B7005026B4",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 13:20:18",
+      "user": "BATCH 00000758",
+      "unid": "92fc1707136a9a7bc12582560043c6cc",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "a61f033cafc53d15c1258256003e941f",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "1f14ea7895e44e89c125825600407ae6",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "2b95a3043d7c1f13c12580d6004c1a56",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "7badf3d9925c1554c1257f7f004d0035",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:50",
+      "user": "BATCH 00000717",
+      "unid": "1f794b76b540f60bc1257fa7004058cf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "7eb13d19a88c1318c1257cfb00403830",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "c755a00f025d1d28c1257cb40054b9ed",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2019-03-08",
+    "current_revision": "2019-03-08"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-03-08 15:35:27",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "9964923123298682C12583B7005026B4"
+  }
+}

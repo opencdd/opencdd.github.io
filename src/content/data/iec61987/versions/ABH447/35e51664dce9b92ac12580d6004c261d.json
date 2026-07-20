@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABH447",
+  "code": "ABH447",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:44",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "35e51664dce9b92ac12580d6004c261d"
+  }
+}

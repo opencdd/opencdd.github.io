@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG318",
+  "code": "ACG318",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:19:13",
+    "user": "BATCH 00000747",
+    "change_request_id": null,
+    "unid": "6c6ad256b981239dc12584ec00751df0"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABA383",
+  "code": "ABA383",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "maximum load",
+  "preferred_name_ml": {
+    "en": "maximum load",
+    "fr": "charge maximale",
+    "de": "maximale Bürde"
+  },
+  "definition": "maximum load that can be applied to the terminals of the device or will be given by the device to an external device connected to it",
+  "definition_ml": {
+    "en": "maximum load that can be applied to the terminals of the device or will be given by the device to an external device connected to it",
+    "fr": "charge maximale qui peut être appliquée aux bornes de l’appareil ou sera fournie par l’appareil à des appareils externes qui lui sont raccordés",
+    "de": "maximale Bürde, die an den Anschlüssen des Geräts angelegt werden kann oder vom Gerät an ein externes angeschlossenes Gerät weitergegeben wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA383",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum load",
+    "MDC_P006.en": "maximum load that can be applied to the terminals of the device or will be given by the device to an external device connected to it",
+    "MDC_P023": "Ω",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA017",
+    "C0104": "0112/2///61987#ABT564",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "charge maximale",
+    "MDC_P006.fr": "charge maximale qui peut être appliquée aux bornes de l’appareil ou sera fournie par l’appareil à des appareils externes qui lui sont raccordés",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximale Bürde",
+    "MDC_P006.de": "maximale Bürde, die an den Anschlüssen des Geräts angelegt werden kann oder vom Gerät an ein externes angeschlossenes Gerät weitergegeben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "0608855C39D36EADC125825E001DE668",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:16",
+      "user": "BATCH 00000732",
+      "unid": "58696004527ddbc4c12580d6004c1b2b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "87107b6e46f1f4b1c1257fa700405916",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "c46a7fafdb94ae6dc1257cfb00403905",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "b45cce8658ab913ac1257cb40054bac2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA017",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:35",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "0608855C39D36EADC125825E001DE668"
+  }
+}

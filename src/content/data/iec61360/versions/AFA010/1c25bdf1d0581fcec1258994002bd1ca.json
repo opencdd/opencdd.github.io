@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AFA010",
+  "code": "AFA010",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "voltage controlled crystal oscillator",
+  "preferred_name_ml": {
+    "en": "voltage controlled crystal oscillator"
+  },
+  "definition": "quartz crystal oscillator, the frequency of which can be deviated or modulated according to a specified relation, by application of a control voltage",
+  "definition_ml": {
+    "en": "quartz crystal oscillator, the frequency of which can be deviated or modulated according to a specified relation, by application of a control voltage"
+  },
+  "source_document": "IEC 60679-1",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "VCXO"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "VCXO"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA010",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "voltage controlled crystal oscillator",
+    "MDC_P007.en": "VCXO",
+    "MDC_P006.en": "quartz crystal oscillator, the frequency of which can be deviated or modulated according to a specified relation, by application of a control voltage",
+    "MDC_P006_1": "IEC 60679-1",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AFA007",
+    "MDC_P014": "{0112/2///61360_4#AFD001,0112/2///61360_4#AFD002,0112/2///61360_4#AFD054}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "1c25bdf1d0581fcec1258994002bd1ca",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "c5197d948ebdec25c1257dd300516039",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "b6beca5aa0054d2cc1257d7300506a60",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:03",
+      "user": "BATCH 00000817",
+      "unid": "0168fc236d1f461ec1257b0200429088",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD001",
+    "0112/2///61360_4#AFD002",
+    "0112/2///61360_4#AFD054"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AFA007",
+  "superclass_type_property": "0112/2///61360_4#AFA007",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "1c25bdf1d0581fcec1258994002bd1ca"
+  }
+}

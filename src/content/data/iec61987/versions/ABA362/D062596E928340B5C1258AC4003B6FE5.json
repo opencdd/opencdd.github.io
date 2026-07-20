@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABA362",
+  "code": "ABA362",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Document information",
+  "preferred_name_ml": {
+    "en": "Document information",
+    "de": "Dokumenteninformation"
+  },
+  "definition": "properties characterizing a document that is delivered with a device",
+  "definition_ml": {
+    "en": "properties characterizing a document that is delivered with a device",
+    "de": "Merkmale, die ein mit einem Gerät geliefertes Dokument kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00144",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA362",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Document information",
+    "MDC_P006.en": "properties characterizing a document that is delivered with a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-02-15",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2024-02-15",
+    "MDC_P003_3": "2024-02-15",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABH494,0112/2///61987#ABA164,0112/2///61987#ABA168,0112/2///61987#ABA113,0112/2///61987#ABA274,0112/2///61987#ABH495,0112/2///61987#ABA272,0112/2///61987#ABA285,0112/2///61987#ABA087,0112/2///61987#ABA079,0112/2///61987#ABA121,0112/2///61987#ABA152,0112/2///61987#ABA126}",
+    "MDC_P004.de": "Dokumenteninformation",
+    "MDC_P006.de": "Merkmale, die ein mit einem Gerät geliefertes Dokument kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-18",
+    "C002": "C00144"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-02-15 11:49:12",
+      "user": "BATCH 00000823",
+      "unid": "D062596E928340B5C1258AC4003B6FE5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:11",
+      "user": "BATCH 00000766",
+      "unid": "6f6e033343781669c12583b70050206e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2024-02-15",
+    "current_revision": "2024-02-15"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH494",
+    "0112/2///61987#ABA164",
+    "0112/2///61987#ABA168",
+    "0112/2///61987#ABA113",
+    "0112/2///61987#ABA274",
+    "0112/2///61987#ABH495",
+    "0112/2///61987#ABA272",
+    "0112/2///61987#ABA285",
+    "0112/2///61987#ABA087",
+    "0112/2///61987#ABA079",
+    "0112/2///61987#ABA121",
+    "0112/2///61987#ABA152",
+    "0112/2///61987#ABA126"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-02-15 11:49:12",
+    "user": "BATCH 00000823",
+    "change_request_id": null,
+    "unid": "D062596E928340B5C1258AC4003B6FE5"
+  }
+}

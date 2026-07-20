@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///62683#ACC701",
+  "code": "ACC701",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Feed-through terminal block",
+  "preferred_name_ml": {
+    "en": "Feed-through terminal block",
+    "fr": "Bloc de jonction traversant",
+    "de": "Durchgangs-Reihenklemme",
+    "zh": "直通式接线端子"
+  },
+  "definition": "insulating part carrying one or more mutually insulated pairs of terminals interconnected on opposite sides and intended to be fixed to a support",
+  "definition_ml": {
+    "en": "insulating part carrying one or more mutually insulated pairs of terminals interconnected on opposite sides and intended to be fixed to a support",
+    "fr": "partie isolante portant une ou plusieurs paires de bornes de chaque côté, isolées entre elles, et prévue pour être fixée à un support",
+    "de": "isolierendes Teil mit einer oder mehreren gegeneinander isolierten Anschlussklemmen zur Montage auf einem Träger",
+    "zh": "具有一个或多个相互关联终端的彼此绝缘的接线端子部分，且预定装在一个支架上的一组绝缘部件。"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Terminal strip"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Terminal strip"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC701",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Feed-through terminal block",
+    "MDC_P007.en": "Terminal strip",
+    "MDC_P006.en": "insulating part carrying one or more mutually insulated pairs of terminals interconnected on opposite sides and intended to be fixed to a support",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC700",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF186,0112/2///62683#ACF187,0112/2///62683#ACF188,0112/2///62683#ACF189,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Bloc de jonction traversant",
+    "MDC_P006.fr": "partie isolante portant une ou plusieurs paires de bornes de chaque côté, isolées entre elles, et prévue pour être fixée à un support",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2013-09-17",
+    "MDC_P004.de": "Durchgangs-Reihenklemme",
+    "MDC_P006.de": "isolierendes Teil mit einer oder mehreren gegeneinander isolierten Anschlussklemmen zur Montage auf einem Träger",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "直通式接线端子",
+    "MDC_P006.zh": "具有一个或多个相互关联终端的彼此绝缘的接线端子部分，且预定装在一个支架上的一组绝缘部件。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "82164c298a1339bec12584e80070c0fe",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "d9eaeb02f8c20127c12580300045022a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF186",
+    "0112/2///62683#ACF187",
+    "0112/2///62683#ACF188",
+    "0112/2///62683#ACF189",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC700",
+  "superclass_type_property": "0112/2///62683#ACC700",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "82164c298a1339bec12584e80070c0fe"
+  }
+}

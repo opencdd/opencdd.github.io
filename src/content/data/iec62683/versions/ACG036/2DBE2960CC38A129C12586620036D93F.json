@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///62683#ACG036",
+  "code": "ACG036",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Interface element of the encoder",
+  "preferred_name_ml": {
+    "en": "Interface element of the encoder",
+    "fr": "Element d'interface de l'encodeur",
+    "de": "Schnittstellenelement des Gebers",
+    "zh": "编码器接口"
+  },
+  "definition": "characteristics of the individual communication interface for the transfer of information between the encoder and the system",
+  "definition_ml": {
+    "en": "characteristics of the individual communication interface for the transfer of information between the encoder and the system",
+    "fr": "caractéristiques de l'interface individuelle de communication pour le transfert d’informations entre l'encodeur et le système",
+    "de": "Merkmale der individuellen Kommunikationsschnittstelle für die Übertragung von Informationen zwischen dem Geber und dem System",
+    "zh": "编码器和系统之间的信息传输独立通信接口的特性"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00087",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG036",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Interface element of the encoder",
+    "MDC_P006.en": "characteristics of the individual communication interface for the transfer of information between the encoder and the system",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2021-01-19",
+    "MDC_P003_1": "2019-09-27",
+    "MDC_P003_2": "2021-01-19",
+    "MDC_P003_3": "2021-01-19",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC010",
+    "MDC_P013": "{0112/2///62683#ACC050}",
+    "MDC_P090": "{0112/2///62683#ACE364,0112/2///62683#ACE367,0112/2///62683#ACE366,0112/2///62683#ACE371,0112/2///62683#ACE368,0112/2///62683#ACE369,0112/2///62683#ACE370}",
+    "MDC_P004.fr": "Element d'interface de l'encodeur",
+    "MDC_P006.fr": "caractéristiques de l'interface individuelle de communication pour le transfert d’informations entre l'encodeur et le système",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-24",
+    "MDC_P004.de": "Schnittstellenelement des Gebers",
+    "MDC_P006.de": "Merkmale der individuellen Kommunikationsschnittstelle für die Übertragung von Informationen zwischen dem Geber und dem System",
+    "C019.de": "DKE, Andreas Bäumler",
+    "C017.de": "1",
+    "C018.de": "2020-06-23",
+    "MDC_P004.zh": "编码器接口",
+    "MDC_P006.zh": "编码器和系统之间的信息传输独立通信接口的特性",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2020-06-17",
+    "C002": "C00087"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2021-01-19 10:59:05",
+      "user": "BATCH 00000779",
+      "unid": "2DBE2960CC38A129C12586620036D93F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "385b550cd1b14d1ac1258034002e3579",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "e8b33d0dfbd4823dc12580300045024f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-09-27",
+    "current_version": "2021-01-19",
+    "current_revision": "2021-01-19"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC050"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE364",
+    "0112/2///62683#ACE367",
+    "0112/2///62683#ACE366",
+    "0112/2///62683#ACE371",
+    "0112/2///62683#ACE368",
+    "0112/2///62683#ACE369",
+    "0112/2///62683#ACE370"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC010",
+  "superclass_type_property": "0112/2///62683#ACC010",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2021-01-19 10:59:05",
+    "user": "BATCH 00000779",
+    "change_request_id": null,
+    "unid": "2DBE2960CC38A129C12586620036D93F"
+  }
+}

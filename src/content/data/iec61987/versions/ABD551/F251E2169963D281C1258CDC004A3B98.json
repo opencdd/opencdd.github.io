@@ -1,0 +1,109 @@
+{
+  "irdi": "0112/2///61987#ABD551",
+  "code": "ABD551",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "characteristic curve",
+  "preferred_name_ml": {
+    "en": "characteristic curve",
+    "de": "Kennlinie"
+  },
+  "definition": "characteristic of a signal or a physical output variable as response to a linear signal or physical input variable",
+  "definition_ml": {
+    "en": "characteristic of a signal or a physical output variable as response to a linear signal or physical input variable",
+    "de": "Kennzeichnung einer Signal- oder einer physikalischen Ausgangsgröße als Antwort auf ein lineares Signal oder eine physikalische Eingangsgröße"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD551",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "characteristic curve",
+    "MDC_P006.en": "characteristic of a signal or a physical output variable as response to a linear signal or physical input variable",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL492)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Kennlinie",
+    "MDC_P006.de": "Kennzeichnung einer Signal- oder einer physikalischen Ausgangsgröße als Antwort auf ein lineares Signal oder eine physikalische Eingangsgröße",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:49",
+      "user": "BATCH 00000849",
+      "unid": "F251E2169963D281C1258CDC004A3B98",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "1640b5a55c04312ac1258518003c49a1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:55",
+      "user": "BATCH 00000762",
+      "unid": "84842ed917a83cabc125825e001dee65",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:48",
+      "user": "BATCH 00000699",
+      "unid": "8102ca9a4681bdbcc1257cb40054c2a8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL492)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL492)",
+  "value_list": "0112/2///61987#ABL492",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:49",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "F251E2169963D281C1258CDC004A3B98"
+  }
+}

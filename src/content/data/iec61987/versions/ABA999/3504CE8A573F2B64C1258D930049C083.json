@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABA999",
+  "code": "ABA999",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "settling time",
+  "preferred_name_ml": {
+    "en": "settling time",
+    "fr": "durée d’établissement",
+    "de": "Einschwingzeit"
+  },
+  "definition": "time interval between the stepwise variation of the input variable und the instant, when the difference between the step response and their steady-state value is smaller than the transient value tolerance",
+  "definition_ml": {
+    "en": "time interval between the stepwise variation of the input variable und the instant, when the difference between the step response and their steady-state value is smaller than the transient value tolerance",
+    "fr": "intervalle de temps entre le changement d'échelon d'un signal d'entrée et l'instant auquel la variation résultante de la sortie du signal ne s'écarte pas de plus de 1 % de sa valeur stable finale",
+    "de": "bei einer Sprungantwort die Zeitspanne zwischen dem Zeitpunkt der sprunghaften Änderung einer Eingangsgröße und dem Zeitpunkt ab dem die Differenz zwischen der Sprungantwort und ihrem Beharrungswert kleiner als der Toleranzbereich bleibt"
+  },
+  "source_document": "IEC 60050-351:2013, 351-45-37, modified – definition modified",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA999",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "settling time",
+    "MDC_P006.en": "time interval between the stepwise variation of the input variable und the instant, when the difference between the step response and their steady-state value is smaller than the transient value tolerance",
+    "MDC_P023": "s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60050-351:2013, 351-45-37, modified – definition modified",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C0104": "0112/2///61987#ABT510",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2026-02-03",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "durée d’établissement",
+    "MDC_P006.fr": "intervalle de temps entre le changement d'échelon d'un signal d'entrée et l'instant auquel la variation résultante de la sortie du signal ne s'écarte pas de plus de 1 % de sa valeur stable finale",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Einschwingzeit",
+    "MDC_P006.de": "bei einer Sprungantwort die Zeitspanne zwischen dem Zeitpunkt der sprunghaften Änderung einer Eingangsgröße und dem Zeitpunkt ab dem die Differenz zwischen der Sprungantwort und ihrem Beharrungswert kleiner als der Toleranzbereich bleibt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-10-13",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:25:34",
+      "user": "BATCH 00000857",
+      "unid": "3504CE8A573F2B64C1258D930049C083",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "0c842aa74a52ec7cc125825e001de7e2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "a391ad0d47262805c1257fa70040599d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "81c7ba8b515385c4c1257cfb00403a6b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "29639ff16db91780c1257cb40054bc28",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2026-02-03",
+    "current_revision": "2026-02-03"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:25:34",
+    "user": "BATCH 00000857",
+    "change_request_id": null,
+    "unid": "3504CE8A573F2B64C1258D930049C083"
+  }
+}

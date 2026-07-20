@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#AFD099",
+  "code": "AFD099",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "write cycle time",
+  "preferred_name_ml": {
+    "en": "write cycle time"
+  },
+  "short_name": "Write cycle time",
+  "short_name_ml": {
+    "en": "Write cycle time"
+  },
+  "definition": "minimum cycle time of the write enable signal",
+  "definition_ml": {
+    "en": "minimum cycle time of the write enable signal"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD099",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "write cycle time",
+    "MDC_P005.en": "Write cycle time",
+    "MDC_P006.en": "minimum cycle time of the write enable signal",
+    "MDC_P025_1": "t_WC",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA017",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2014-06-02",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "372BA93B35161BA2C1257EA4004B2581",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "b73ab08872c79439c1257e8b00323b89",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "d9161f56aaf955e6c1257e8a0043e9a4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-03-31 11:23:55",
+      "user": "BATCH 00000865",
+      "unid": "47351ddbed5ff6c6c1257cac0033a10b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2014-06-02",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_WC",
+  "definition_class_irdi": "0112/2///61360_4#AFA017",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:48",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "372BA93B35161BA2C1257EA4004B2581"
+  }
+}

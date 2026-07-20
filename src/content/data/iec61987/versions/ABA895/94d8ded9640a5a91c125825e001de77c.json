@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA895",
+  "code": "ABA895",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:38",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "94d8ded9640a5a91c125825e001de77c"
+  }
+}

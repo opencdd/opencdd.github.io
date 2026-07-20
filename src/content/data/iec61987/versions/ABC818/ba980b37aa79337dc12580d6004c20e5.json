@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC818",
+  "code": "ABC818",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:31",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "ba980b37aa79337dc12580d6004c20e5"
+  }
+}

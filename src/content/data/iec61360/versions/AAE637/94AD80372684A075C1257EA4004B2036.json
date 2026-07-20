@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61360_4#AAE637",
+  "code": "AAE637",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "transistor package code",
+  "preferred_name_ml": {
+    "en": "transistor package code"
+  },
+  "short_name": "tra package",
+  "short_name_ml": {
+    "en": "tra package"
+  },
+  "definition": "code of the envelope type of a transistor",
+  "definition_ml": {
+    "en": "code of the envelope type of a transistor"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE637",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "transistor package code",
+    "MDC_P005.en": "tra package",
+    "MDC_P006.en": "code of the envelope type of a transistor",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..17",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "94AD80372684A075C1257EA4004B2036",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "07df8ccd33a01ca8c1257e8b00323685",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "6fcafb88a1976600c1257e8a0043e459",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "910682b979b7243bc1257a0e0047bc9b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "2fe1b740d8a1e00fc1257a0e0046da1b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..17",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..17",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "94AD80372684A075C1257EA4004B2036"
+  }
+}

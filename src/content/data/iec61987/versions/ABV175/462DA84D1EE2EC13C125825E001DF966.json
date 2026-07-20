@@ -1,0 +1,83 @@
+{
+  "irdi": "0112/2///61987#ABV175",
+  "code": "ABV175",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "reference to Analog voltage output [14]",
+  "preferred_name_ml": {
+    "en": "reference to Analog voltage output [14]"
+  },
+  "definition": "reference to block ABG187",
+  "definition_ml": {
+    "en": "reference to block ABG187"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABV175",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Analog voltage output [14]",
+    "MDC_P006.en": "reference to block ABG187",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABG187)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-08-31",
+    "MDC_P012": "SC65E",
+    "MDC_P028": "{0112/2///61987#ABV166}",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:23",
+      "user": "BATCH 00000762",
+      "unid": "462DA84D1EE2EC13C125825E001DF966",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:01",
+      "user": "BATCH 00000715",
+      "unid": "267943fed623a652c1257f7f004cff70",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-08-31"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABG187)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABV166}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABG187)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:23",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "462DA84D1EE2EC13C125825E001DF966"
+  }
+}

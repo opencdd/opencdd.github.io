@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///62683#ACG318",
+  "code": "ACG318",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Connection facilities of the cable",
+  "preferred_name_ml": {
+    "en": "Connection facilities of the cable",
+    "fr": "Eléments de raccordement du câble",
+    "de": "Anschlussmöglichkeiten der Leitung",
+    "zh": "电缆连接件"
+  },
+  "definition": "description of the electrical connection of the cable of the connection assembly for sensor",
+  "definition_ml": {
+    "en": "description of the electrical connection of the cable of the connection assembly for sensor",
+    "fr": "description du raccordement électrique du câble de l'assemblage de raccordement pour capteur",
+    "de": "Beschreibung der Art der elektrischen Verbindung der Leitung des Kabelanschlusssatzes für Sensor",
+    "zh": "传感器电缆连接组件的电气连接说明"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00122",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG318",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Connection facilities of the cable",
+    "MDC_P006.en": "description of the electrical connection of the cable of the connection assembly for sensor",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-05-31",
+    "MDC_P003_1": "2017-05-12",
+    "MDC_P003_2": "2023-05-31",
+    "MDC_P003_3": "2023-05-31",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC068}",
+    "MDC_P090": "{0112/2///62683#ACE859,0112/2///62683#ACE860,0112/2///62683#ACE878,0112/2///62683#ACE857,0112/2///62683#ACE868,0112/2///62683#ACE873,0112/2///62683#ACE862,0112/2///62683#ACE861}",
+    "MDC_P004.fr": "Eléments de raccordement du câble",
+    "MDC_P006.fr": "description du raccordement électrique du câble de l'assemblage de raccordement pour capteur",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2022-04-11",
+    "MDC_P004.de": "Anschlussmöglichkeiten der Leitung",
+    "MDC_P006.de": "Beschreibung der Art der elektrischen Verbindung der Leitung des Kabelanschlusssatzes für Sensor",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-12-05",
+    "MDC_P004.zh": "电缆连接件",
+    "MDC_P006.zh": "传感器电缆连接组件的电气连接说明",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2018-05-30",
+    "C002": "C00122"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-05-31 11:02:56",
+      "user": "BATCH 00000801",
+      "unid": "949547AECC2C36A0C12589C00031B512",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:19:13",
+      "user": "BATCH 00000747",
+      "unid": "6c6ad256b981239dc12584ec00751df0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-05-12",
+    "current_version": "2023-05-31",
+    "current_revision": "2023-05-31"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC068"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE859",
+    "0112/2///62683#ACE860",
+    "0112/2///62683#ACE878",
+    "0112/2///62683#ACE857",
+    "0112/2///62683#ACE868",
+    "0112/2///62683#ACE873",
+    "0112/2///62683#ACE862",
+    "0112/2///62683#ACE861"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-05-31 11:02:56",
+    "user": "BATCH 00000801",
+    "change_request_id": null,
+    "unid": "949547AECC2C36A0C12589C00031B512"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAA218",
+  "code": "AAA218",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "material",
+  "preferred_name_ml": {
+    "en": "material"
+  },
+  "short_name": "MA",
+  "short_name_ml": {
+    "en": "MA"
+  },
+  "definition": "product intended for further physical processing including chemical and nuclear processing during which their geometry or composition will change",
+  "definition_ml": {
+    "en": "product intended for further physical processing including chemical and nuclear processing during which their geometry or composition will change"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00134",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA218",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "MA",
+    "MDC_P004.en": "material",
+    "MDC_P006.en": "product intended for further physical processing including chemical and nuclear processing during which their geometry or composition will change",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-11",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-11",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA000",
+    "C021": "0112/2///61360_4#AAF311",
+    "MDC_P014": "{0112/2///61360_4#AAF286,0112/2///61360_4#AAF311}",
+    "C002": "C00134"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-11 08:52:32",
+      "user": "BATCH 00001242",
+      "unid": "52C3EF9C004816A2C125898E0025C4C5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "514ca3cd29c10435c1257dd300515fb2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "004fdafa1e264595c1257d73005069d9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "e188b6d04350c0efc1257a0e0047b29e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF286",
+    "0112/2///61360_4#AAF311"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA000",
+  "superclass_type_property": "0112/2///61360_4#AAA000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-11 08:52:32",
+    "user": "BATCH 00001242",
+    "change_request_id": null,
+    "unid": "52C3EF9C004816A2C125898E0025C4C5"
+  }
+}

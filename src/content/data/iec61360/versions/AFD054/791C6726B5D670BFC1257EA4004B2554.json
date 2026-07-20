@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AFD054",
+  "code": "AFD054",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "control voltage",
+  "preferred_name_ml": {
+    "en": "control voltage"
+  },
+  "short_name": "cont voltage",
+  "short_name_ml": {
+    "en": "cont voltage"
+  },
+  "definition": "input voltage applied to the frequency control terminal for controlling the output frequency",
+  "definition_ml": {
+    "en": "input voltage applied to the frequency control terminal for controlling the output frequency"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD054",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "control voltage",
+    "MDC_P005.en": "cont voltage",
+    "MDC_P006.en": "input voltage applied to the frequency control terminal for controlling the output frequency",
+    "MDC_P025_1": "Vc",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AFA010",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "791C6726B5D670BFC1257EA4004B2554",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "f68368c967859dccc1257e8b00323b5c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "d4ff9349e9739ab9c1257e8a0043e977",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "743983f433167df3c1257b0200429603",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "Vc",
+  "definition_class_irdi": "0112/2///61360_4#AFA010",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "791C6726B5D670BFC1257EA4004B2554"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABC080",
+  "code": "ABC080",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Additional component",
+  "preferred_name_ml": {
+    "en": "Additional component",
+    "fr": "Composant additionnel",
+    "de": "Weitere Komponente"
+  },
+  "definition": "properties characterizing an additional component of a device",
+  "definition_ml": {
+    "en": "properties characterizing an additional component of a device",
+    "fr": "propriétés caractérisant un composant additionnel d’un appareil",
+    "de": "Merkmale, die eine zusätzliche Komponente eines Geräts kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC080",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Additional component",
+    "MDC_P006.en": "properties characterizing an additional component of a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB385,0112/2///61987#ABB504,0112/2///61987#ABA299}",
+    "MDC_P004.fr": "Composant additionnel",
+    "MDC_P006.fr": "propriétés caractérisant un composant additionnel d’un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Weitere Komponente",
+    "MDC_P006.de": "Merkmale, die eine zusätzliche Komponente eines Geräts kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:49",
+      "user": "BATCH 00000762",
+      "unid": "197F460BAB9B9108C125825E001DD4A5",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:07",
+      "user": "BATCH 00000755",
+      "unid": "857aca9406ecf0dac1258256003e734c",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:43:56",
+      "user": "BATCH 00000756",
+      "unid": "0ec235d80b73732dc125825600407286",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:58",
+      "user": "BATCH 00000732",
+      "unid": "42bfe5e4f629b39bc12580d6004bfca4",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "9c1211b93562362bc1257f7e0033a791",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:36",
+      "user": "BATCH 00000701",
+      "unid": "237f7b3e0410c725c1257cfb003f97cb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "72bb63fc36dc9005c1257cb400549b17",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB385",
+    "0112/2///61987#ABB504",
+    "0112/2///61987#ABA299"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:49",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "197F460BAB9B9108C125825E001DD4A5"
+  }
+}

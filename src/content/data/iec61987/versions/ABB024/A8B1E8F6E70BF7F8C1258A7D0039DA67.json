@@ -1,0 +1,160 @@
+{
+  "irdi": "0112/2///61987#ABB024",
+  "code": "ABB024",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "installation instructions",
+  "preferred_name_ml": {
+    "en": "installation instructions",
+    "fr": "instructions d’installation",
+    "de": "Installationsvorschriften"
+  },
+  "definition": "additional instructions, and if appropriate warnings, on the mounting of equipment, so as to obtain the best performance from it",
+  "definition_ml": {
+    "en": "additional instructions, and if appropriate warnings, on the mounting of equipment, so as to obtain the best performance from it",
+    "fr": "instructions supplémentaires et, si approprié, avertissements sur le montage de l'équipement de mesure pour obtenir de ce dernier la meilleure performance",
+    "de": "zusätzliche Vorschriften und gegebenenfalls Warnungen zur Montage von Geräten, um die bestmögliche Leistung zu erzielen"
+  },
+  "source_document": "IEC 61987-1, 7.1.2",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB024",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "installation instructions",
+    "MDC_P006.en": "additional instructions, and if appropriate warnings, on the mounting of equipment, so as to obtain the best performance from it",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "IEC 61987-1, 7.1.2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "instructions d’installation",
+    "MDC_P006.fr": "instructions supplémentaires et, si approprié, avertissements sur le montage de l'équipement de mesure pour obtenir de ce dernier la meilleure performance",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Installationsvorschriften",
+    "MDC_P006.de": "zusätzliche Vorschriften und gegebenenfalls Warnungen zur Montage von Geräten, um die bestmögliche Leistung zu erzielen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "A8B1E8F6E70BF7F8C1258A7D0039DA67",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "39b4e9ca93633d62c125825e001de7fb",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:36",
+      "user": "BATCH 00000755",
+      "unid": "63fa4a265e8915fbc1258256003e95f3",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "aabd54777a3529eac1258256004079fe",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:20",
+      "user": "BATCH 00000732",
+      "unid": "807dcbe8e2aa9c03c12580d6004c1caa",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "f74c82af767d05acc1257f7e0030f1e7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "32f1f5616e7743a9c1257fa7003a3d23",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "b096553ebec9530cc1257cfb00403a84",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:32",
+      "user": "BATCH 00000699",
+      "unid": "820eacbc8e98c215c1257cb40054bc41",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:54",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "A8B1E8F6E70BF7F8C1258A7D0039DA67"
+  }
+}

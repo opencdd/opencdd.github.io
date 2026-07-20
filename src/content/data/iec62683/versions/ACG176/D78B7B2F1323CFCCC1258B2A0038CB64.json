@@ -1,0 +1,130 @@
+{
+  "irdi": "0112/2///62683#ACG176",
+  "code": "ACG176",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Digital output performance",
+  "preferred_name_ml": {
+    "en": "Digital output performance",
+    "fr": "Performances de la sortie numérique",
+    "de": "Betriebsverhalten des digitalen Ausgangs",
+    "zh": "数字输出性能"
+  },
+  "definition": "provision for fitness for purpose that concerns the behaviour of the digital output signal",
+  "definition_ml": {
+    "en": "provision for fitness for purpose that concerns the behaviour of the digital output signal",
+    "fr": "disposition d'aptitude à l'emploi, qui porte sur le comportement du signal de sortie numérique",
+    "de": "Kennwerte zur Gebrauchstauglichkeit, die das Verhalten des digitalen Ausgangssignals betreffen",
+    "zh": "关于数字输出信号行为的适用性规定"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00125",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG176",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Digital output performance",
+    "MDC_P006.en": "provision for fitness for purpose that concerns the behaviour of the digital output signal",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "MDC_P003_0": "2024-05-27",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2024-07-18",
+    "MDC_P003_3": "2024-07-18",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC015,0112/2///61987#ABP017,0112/2///61987#ABC067,0112/2///61987#ABC210}",
+    "MDC_P090": "{0112/2///61987#ABP168,0112/2///62683#ACE340,0112/2///62683#ACE342,0112/2///61987#ABB652,0112/2///61987#ABB005,0112/2///61987#ABA999,0112/2///61987#ABB803,0112/2///61987#ABB806,0112/2///61987#ABB653,0112/2///61987#ABB654,0112/2///61987#ABA568,0112/2///61987#ABB779}",
+    "MDC_P004.fr": "Performances de la sortie numérique",
+    "MDC_P006.fr": "disposition d'aptitude à l'emploi, qui porte sur le comportement du signal de sortie numérique",
+    "C019.fr": "TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2023-10-11",
+    "MDC_P004.de": "Betriebsverhalten des digitalen Ausgangs",
+    "MDC_P006.de": "Kennwerte zur Gebrauchstauglichkeit, die das Verhalten des digitalen Ausgangssignals betreffen",
+    "C019.de": "DKE, Volker Schaber",
+    "C017.de": "1",
+    "C018.de": "2024-05-14",
+    "MDC_P004.zh": "数字输出性能",
+    "MDC_P006.zh": "关于数字输出信号行为的适用性规定",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2024-05-14",
+    "C002": "C00125"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-05-27 12:20:20",
+      "user": "BATCH 00000807",
+      "unid": "D78B7B2F1323CFCCC1258B2A0038CB64",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "9ab73560e9249a14c1258034002e35fa",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:47",
+      "user": "BATCH 00000703",
+      "unid": "ec4213696ce46a8ec1258030004502d0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2024-07-18",
+    "current_revision": "2024-07-18"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC015",
+    "0112/2///61987#ABP017",
+    "0112/2///61987#ABC067",
+    "0112/2///61987#ABC210"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///61987#ABP168",
+    "0112/2///62683#ACE340",
+    "0112/2///62683#ACE342",
+    "0112/2///61987#ABB652",
+    "0112/2///61987#ABB005",
+    "0112/2///61987#ABA999",
+    "0112/2///61987#ABB803",
+    "0112/2///61987#ABB806",
+    "0112/2///61987#ABB653",
+    "0112/2///61987#ABB654",
+    "0112/2///61987#ABA568",
+    "0112/2///61987#ABB779"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-05-27 12:20:20",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "D78B7B2F1323CFCCC1258B2A0038CB64"
+  }
+}

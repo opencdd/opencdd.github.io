@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///62683#ACC202",
+  "code": "ACC202",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "Release for circuit-breaker",
+  "preferred_name_ml": {
+    "en": "Release for circuit-breaker",
+    "fr": "Déclencheur pour disjoncteur",
+    "de": "Auslöser für Leistungsschalter",
+    "zh": "断路器脱扣器"
+  },
+  "definition": "unit connected to a circuit-breaker which initiates action that causes the protected circuit to be switched off when a pre-set threshold is exceeded",
+  "definition_ml": {
+    "en": "unit connected to a circuit-breaker which initiates action that causes the protected circuit to be switched off when a pre-set threshold is exceeded",
+    "fr": "unité raccordée à un disjoncteur qui provoque la coupure du circuit protégé lors du dépassement d'un seuil prédéfini",
+    "de": "an einen Leistungsschalter angeschlossene Einheit, die ein Abschalten des geschützten Stromkreises veranlasst, wenn ein voreinge­stellter Grenzwert überschritten wird",
+    "zh": "与断路器相连、当超过规定阈值时触发保护电路分断的单元。"
+  },
+  "source_document": "derived from IEC 60947-1:2007, 2.4.25",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Trip unit"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Trip unit",
+    "fr": "Unité de déclenchement",
+    "de": "Auslöseeinheit"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC202",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "Release for circuit-breaker",
+    "MDC_P007.en": "Trip unit",
+    "MDC_P006.en": "unit connected to a circuit-breaker which initiates action that causes the protected circuit to be switched off when a pre-set threshold is exceeded",
+    "MDC_P006_1": "derived from IEC 60947-1:2007, 2.4.25",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC200",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF010,0112/2///62683#ACF005,0112/2///62683#ACF007,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Déclencheur pour disjoncteur",
+    "MDC_P007.fr": "Unité de déclenchement",
+    "MDC_P006.fr": "unité raccordée à un disjoncteur qui provoque la coupure du circuit protégé lors du dépassement d'un seuil prédéfini",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Auslöser für Leistungsschalter",
+    "MDC_P007.de": "Auslöseeinheit",
+    "MDC_P006.de": "an einen Leistungsschalter angeschlossene Einheit, die ein Abschalten des geschützten Stromkreises veranlasst, wenn ein voreinge­stellter Grenzwert überschritten wird",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "断路器脱扣器",
+    "MDC_P006.zh": "与断路器相连、当超过规定阈值时触发保护电路分断的单元。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:34",
+      "user": "BATCH 00000749",
+      "unid": "73eeb5b754e901e7c12584ec0078a0b4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "cf66f6e98d6bcb84c1258030004501f1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF010",
+    "0112/2///62683#ACF005",
+    "0112/2///62683#ACF007",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC200",
+  "superclass_type_property": "0112/2///62683#ACC200",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:34",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "73eeb5b754e901e7c12584ec0078a0b4"
+  }
+}

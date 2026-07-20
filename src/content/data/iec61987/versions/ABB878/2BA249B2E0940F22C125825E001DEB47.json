@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB878",
+  "code": "ABB878",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "pulse rate for lower signal on alarm",
+  "preferred_name_ml": {
+    "en": "pulse rate for lower signal on alarm",
+    "fr": "taux d'impulsions du signal inférieur sur l'alarme",
+    "de": "unteres Alarmpulsratensignal"
+  },
+  "definition": "value of a pulse signal on alarm when the signal on alarm function is configured to \"Minimum\"",
+  "definition_ml": {
+    "en": "value of a pulse signal on alarm when the signal on alarm function is configured to \"Minimum\"",
+    "fr": "valeur d'un signal d'impulsion sur l'alarme lorsque le signal sur la fonction d'alarme est configuré à son \"Minimum\"",
+    "de": "Wert eines Alarmpulsratensignals, wenn das Signal bei der Alarmfunktion auf den Wert \"Minimum\" eingestellt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB878",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "pulse rate for lower signal on alarm",
+    "MDC_P006.en": "value of a pulse signal on alarm when the signal on alarm function is configured to \"Minimum\"",
+    "MDC_P023": "Hz",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA170",
+    "C0104": "0112/2///61987#ABT561",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "taux d'impulsions du signal inférieur sur l'alarme",
+    "MDC_P006.fr": "valeur d'un signal d'impulsion sur l'alarme lorsque le signal sur la fonction d'alarme est configuré à son \"Minimum\"",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "unteres Alarmpulsratensignal",
+    "MDC_P006.de": "Wert eines Alarmpulsratensignals, wenn das Signal bei der Alarmfunktion auf den Wert \"Minimum\" eingestellt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:47",
+      "user": "BATCH 00000762",
+      "unid": "2BA249B2E0940F22C125825E001DEB47",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:56",
+      "user": "BATCH 00000717",
+      "unid": "61baad32093ec5ebc1257fa700405b42",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:41",
+      "user": "BATCH 00000702",
+      "unid": "e9a3a6c1e3b366d2c1257cfb00403dcf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:40",
+      "user": "BATCH 00000699",
+      "unid": "0df4fb7a5e57f528c1257cb40054bf8c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA170",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2BA249B2E0940F22C125825E001DEB47"
+  }
+}

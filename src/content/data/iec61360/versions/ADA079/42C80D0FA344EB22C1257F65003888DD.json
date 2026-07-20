@@ -1,0 +1,89 @@
+{
+  "irdi": "0112/2///61360_4#ADA079",
+  "code": "ADA079",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "warning notice",
+  "preferred_name_ml": {
+    "en": "warning notice"
+  },
+  "short_name": "warning notice",
+  "short_name_ml": {
+    "en": "warning notice"
+  },
+  "definition": "provides general or special warnings to users in order to avoid misuse of the object in application areas for which it is neither foreseen nor designed",
+  "definition_ml": {
+    "en": "provides general or special warnings to users in order to avoid misuse of the object in application areas for which it is neither foreseen nor designed"
+  },
+  "synonyms": [],
+  "note": "The use of the warning notice provides the possibility to exclude responsibilities of the manufacturer if the object is used  in application areas outside the intended ones",
+  "note_ml": {
+    "en": "The use of the warning notice provides the possibility to exclude responsibilities of the manufacturer if the object is used  in application areas outside the intended ones"
+  },
+  "status_level": "Standard",
+  "change_request_id": "C00061",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA079",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "warning notice",
+    "MDC_P005.en": "warning notice",
+    "MDC_P006.en": "provides general or special warnings to users in order to avoid misuse of the object in application areas for which it is neither foreseen nor designed",
+    "MDC_P008.en": "The use of the warning notice provides the possibility to exclude responsibilities of the manufacturer if the object is used  in application areas outside the intended ones",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..70",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A61",
+    "MDC_P021": "0112/2///61360_4#ADA077",
+    "C016": "Standard",
+    "MDC_P003_0": "2016-02-26",
+    "MDC_P003_1": "2015-06-25",
+    "MDC_P003_2": "2016-04-29",
+    "MDC_P003_3": "2016-04-29",
+    "C002": "C00061"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2016-02-26 11:17:30",
+      "user": "BATCH 00000950",
+      "unid": "42C80D0FA344EB22C1257F65003888DD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-02-26 11:04:58",
+      "user": "BATCH 00000949",
+      "unid": "8fc83ee2f6f069ccc1257f65003762ea",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-06-25",
+    "current_version": "2016-04-29",
+    "current_revision": "2016-04-29"
+  },
+  "value_format": "M..70",
+  "definition_class_irdi": "0112/2///61360_4#ADA077",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..70",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2016-02-26 11:17:30",
+    "user": "BATCH 00000950",
+    "change_request_id": null,
+    "unid": "42C80D0FA344EB22C1257F65003888DD"
+  }
+}

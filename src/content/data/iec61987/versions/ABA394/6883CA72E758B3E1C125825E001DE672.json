@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABA394",
+  "code": "ABA394",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "minimum core cross-section",
+  "preferred_name_ml": {
+    "en": "minimum core cross-section",
+    "fr": "coupe transversale de conducteur minimale",
+    "de": "minimaler Anschlussquerschnitt"
+  },
+  "definition": "smallest core cross-section expressed as an area that can be accommodated by a terminal",
+  "definition_ml": {
+    "en": "smallest core cross-section expressed as an area that can be accommodated by a terminal",
+    "fr": "coupe transversale de conducteur la plus petite exprimée en une zone qui peut être équipée d'une borne",
+    "de": "kleinster Anschlussquerschnitt, ausgedrückt als Bereich, in dem ein Anschluss untergebracht sein kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA394",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "minimum core cross-section",
+    "MDC_P006.en": "smallest core cross-section expressed as an area that can be accommodated by a terminal",
+    "MDC_P023": "mm²",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA871",
+    "C0104": "0112/2///61987#ABT578",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "coupe transversale de conducteur minimale",
+    "MDC_P006.fr": "coupe transversale de conducteur la plus petite exprimée en une zone qui peut être équipée d'une borne",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "minimaler Anschlussquerschnitt",
+    "MDC_P006.de": "kleinster Anschlussquerschnitt, ausgedrückt als Bereich, in dem ein Anschluss untergebracht sein kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "6883CA72E758B3E1C125825E001DE672",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:33",
+      "user": "BATCH 00000755",
+      "unid": "0d0162e94a6ab93ac1258256003e9507",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "0367120851fdbb38c12580d6004c1b35",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:05",
+      "user": "BATCH 00000715",
+      "unid": "563a4a1bb9e3c9a3c1257f7f004d0145",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "7629f9651df74be0c1257fa70040591b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "ff7282e143b66de0c1257cfb0040390f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "d993cf0c5f3ba9ecc1257cb40054bacc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA871",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:35",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "6883CA72E758B3E1C125825E001DE672"
+  }
+}

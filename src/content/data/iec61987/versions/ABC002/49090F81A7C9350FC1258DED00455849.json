@@ -1,0 +1,144 @@
+{
+  "irdi": "0112/2///61987#ABC002",
+  "code": "ABC002",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "vertical distance of transmitter to high/single pressure process connection",
+  "preferred_name_ml": {
+    "en": "vertical distance of transmitter to high/single pressure process connection",
+    "fr": "dist. vertic. de transmetteur à raccordement d'extrémités à press. élevée/unique",
+    "de": "Vertikalabstand Messumformer zum Prozessanschluss bzw. zum Hochdruckanschluss"
+  },
+  "definition": "vertical distance between the high/single pressure process connection and the sensing element of the pressure transmitter or pressure gauge",
+  "definition_ml": {
+    "en": "vertical distance between the high/single pressure process connection and the sensing element of the pressure transmitter or pressure gauge",
+    "fr": "distance verticale entre le raccordement d'extrémités haute pression/pression unique et l'élément sensible du transmetteur de pression ou de la jauge de pression",
+    "de": "Vertikalabstand zwischen dem Prozessanschluss der Hochdruckseite bzw. dem Prozessanschluss bei einfacher Druckentnahme und dem Sensor des Druckmessumformers oder des Manometers"
+  },
+  "synonyms": [],
+  "note": "In the case of a higher position of the sensing element, the value is negative",
+  "note_ml": {
+    "en": "In the case of a higher position of the sensing element, the value is negative",
+    "fr": "En cas de position plus élevée de l'élément sensible, la valeur est négative.",
+    "de": "Falls der Sensor eine höhere Position hat, ist der Wert negativ"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABC002",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "vertical distance of transmitter to high/single pressure process connection",
+    "MDC_P006.en": "vertical distance between the high/single pressure process connection and the sensing element of the pressure transmitter or pressure gauge",
+    "MDC_P008.en": "In the case of a higher position of the sensing element, the value is negative",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "dist. vertic. de transmetteur à raccordement d'extrémités à press. élevée/unique",
+    "MDC_P006.fr": "distance verticale entre le raccordement d'extrémités haute pression/pression unique et l'élément sensible du transmetteur de pression ou de la jauge de pression",
+    "MDC_P008.fr": "En cas de position plus élevée de l'élément sensible, la valeur est négative.",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "Vertikalabstand Messumformer zum Prozessanschluss bzw. zum Hochdruckanschluss",
+    "MDC_P006.de": "Vertikalabstand zwischen dem Prozessanschluss der Hochdruckseite bzw. dem Prozessanschluss bei einfacher Druckentnahme und dem Sensor des Druckmessumformers oder des Manometers",
+    "MDC_P008.de": "Falls der Sensor eine höhere Position hat, ist der Wert negativ",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "49090F81A7C9350FC1258DED00455849",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "b9f9000db3b20707c125825e001debc3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:30",
+      "user": "BATCH 00000732",
+      "unid": "8cd2e393dadc3a57c12580d6004c2074",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "4dac64f1ea749c03c1257fa700405b76",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:42",
+      "user": "BATCH 00000702",
+      "unid": "744ec5d0a22d4f67c1257cfb00403e4b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "e033647494369f1cc1257cb40054c008",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "49090F81A7C9350FC1258DED00455849"
+  }
+}

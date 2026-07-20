@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAA161",
+  "code": "AAA161",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "linear motor",
+  "preferred_name_ml": {
+    "en": "linear motor"
+  },
+  "short_name": "LIN",
+  "short_name_ml": {
+    "en": "LIN"
+  },
+  "definition": "electric motor that has been split and unrolled into two flat sheets, that the motion between rotor and stator is linear rather than rotary",
+  "definition_ml": {
+    "en": "electric motor that has been split and unrolled into two flat sheets, that the motion between rotor and stator is linear rather than rotary"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "linear"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "linear"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA161",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "LIN",
+    "MDC_P004.en": "linear motor",
+    "MDC_P007.en": "linear",
+    "MDC_P006.en": "electric motor that has been split and unrolled into two flat sheets, that the motion between rotor and stator is linear rather than rotary",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA160",
+    "C021": "0112/2///61360_4#AAE178",
+    "MDC_P014": "{0112/2///61360_4#AAE178,0112/2///61360_4#AAF049,0112/2///61360_4#AAF132,0112/2///61360_4#AAF133}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "2E221A6B4EE321E7C1258994002BD03D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "e8612df7604464eac1257dd300515fa0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "da7c9297501adf37c1257d73005069c7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "71d0022455450567c1257a0e0047b28c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE178",
+    "0112/2///61360_4#AAF049",
+    "0112/2///61360_4#AAF132",
+    "0112/2///61360_4#AAF133"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA160",
+  "superclass_type_property": "0112/2///61360_4#AAA160",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "2E221A6B4EE321E7C1258994002BD03D"
+  }
+}

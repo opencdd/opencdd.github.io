@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABH537",
+  "code": "ABH537",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "designation of compensation variable",
+  "preferred_name_ml": {
+    "en": "designation of compensation variable",
+    "de": "Bezeichnung der Kompensationsgröße"
+  },
+  "definition": "alphanumeric character sequence identifying a variable used for compensation of a measurement",
+  "definition_ml": {
+    "en": "alphanumeric character sequence identifying a variable used for compensation of a measurement",
+    "de": "alphanumerische Zeichenfolge, die eine Kompensationsgröße für eine Messung identifiziert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH537",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "designation of compensation variable",
+    "MDC_P006.en": "alphanumeric character sequence identifying a variable used for compensation of a measurement",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL581)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Bezeichnung der Kompensationsgröße",
+    "MDC_P006.de": "alphanumerische Zeichenfolge, die eine Kompensationsgröße für eine Messung identifiziert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-09-28",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "39329CF25B90BD94C1258CDC004A3C79",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "b0c77197a39dc0c4c1258518003c4a9d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:29",
+      "user": "BATCH 00000766",
+      "unid": "4433ee264b9dc0b0c12583b700502724",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL581)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL581)",
+  "value_list": "0112/2///61987#ABL581",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "39329CF25B90BD94C1258CDC004A3C79"
+  }
+}

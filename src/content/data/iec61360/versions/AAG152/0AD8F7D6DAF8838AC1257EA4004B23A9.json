@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///61360_4#AAG152",
+  "code": "AAG152",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "electric conductivity of water",
+  "preferred_name_ml": {
+    "en": "electric conductivity of water",
+    "de": "Leitfähigkeit des Wassers"
+  },
+  "short_name": "$s_water",
+  "short_name_ml": {
+    "en": "$s_water"
+  },
+  "definition": "scalar or tensor quantity the product of which by the electric field strength in the water is equal to the electric current density at a given reference temperature of the water",
+  "definition_ml": {
+    "en": "scalar or tensor quantity the product of which by the electric field strength in the water is equal to the electric current density at a given reference temperature of the water"
+  },
+  "source_document": "IEC 60050-121:1998, 121-12-03 mod",
+  "synonyms": [],
+  "synonyms_ml": {
+    "de": "elektrische Leitfähigkeit des Wassers"
+  },
+  "note": "For an isotropic medium the conductivity is a scalar quantity; for an anisotropic medium it is a tensor quantity.",
+  "note_ml": {
+    "en": "For an isotropic medium the conductivity is a scalar quantity; for an anisotropic medium it is a tensor quantity."
+  },
+  "remark": "For reference purposes conductivity values are provided at a reference temperature of 20 °C.",
+  "remark_ml": {
+    "en": "For reference purposes conductivity values are provided at a reference temperature of 20 °C."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG152",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "electric conductivity of water",
+    "MDC_P005.en": "$s_water",
+    "MDC_P006.en": "scalar or tensor quantity the product of which by the electric field strength in the water is equal to the electric current density at a given reference temperature of the water",
+    "MDC_P008.en": "For an isotropic medium the conductivity is a scalar quantity; for an anisotropic medium it is a tensor quantity.",
+    "MDC_P009.en": "For reference purposes conductivity values are provided at a reference temperature of 20 °C.",
+    "MDC_P025_1": "$g, $s, $k",
+    "MDC_P023": "S/m",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60050-121:1998, 121-12-03 mod",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E37",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA279",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D",
+    "MDC_P028": "{0112/2///61360_4#AFD029}",
+    "MDC_P004.de": "Leitfähigkeit des Wassers",
+    "MDC_P007.de": "elektrische Leitfähigkeit des Wassers"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "0AD8F7D6DAF8838AC1257EA4004B23A9",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "dbc548b3c9078440c1257e8b003239d8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "51d9d0f0a4cfb71ac1257e8a0043e7cc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 12:43:34",
+      "user": "BATCH 00000825",
+      "unid": "7d6f9794561f8e97c1257e8a003aebe4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "345c4d61cdd28492c1257b9e0044e89d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "$g, $s, $k",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA279",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AFD029}",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "0AD8F7D6DAF8838AC1257EA4004B23A9"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABH819",
+  "code": "ABH819",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "hazard category",
+  "preferred_name_ml": {
+    "en": "hazard category",
+    "de": "Gefahrkategorie"
+  },
+  "definition": "allocation of chemicals substances into toxicity categories based on acute toxicity by the oral, dermal or inhalation exposure route",
+  "definition_ml": {
+    "en": "allocation of chemicals substances into toxicity categories based on acute toxicity by the oral, dermal or inhalation exposure route",
+    "de": "Zuordnung von chemischen Substanzen in Giftigkeitskategorien, basierend auf der akuten Toxizität durch orale, dermale oder respiratorische Aufnahme"
+  },
+  "source_document": "UNECE Globally Harmonized System of Classification and Labelling of Chemicals GHS Rev.5, 2013",
+  "synonyms": [],
+  "note": "Depending on the hazard category specified hazard pictograms, signal words, hazard statements and precautionary statements have to be provided on the packing of the substance.",
+  "note_ml": {
+    "en": "Depending on the hazard category specified hazard pictograms, signal words, hazard statements and precautionary statements have to be provided on the packing of the substance.",
+    "de": "Abhängig von der Gefahrkategorie müssen spezifische Gefahrpiktogrammen, Signalbegriffe, Gefährdungsangaben und Vorsichtsmaßnahmen auf der Verpackung der Substanz vorgesehen werden."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH819",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "hazard category",
+    "MDC_P006.en": "allocation of chemicals substances into toxicity categories based on acute toxicity by the oral, dermal or inhalation exposure route",
+    "MDC_P008.en": "Depending on the hazard category specified hazard pictograms, signal words, hazard statements and precautionary statements have to be provided on the packing of the substance.",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "UNECE Globally Harmonized System of Classification and Labelling of Chemicals GHS Rev.5, 2013",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Gefahrkategorie",
+    "MDC_P006.de": "Zuordnung von chemischen Substanzen in Giftigkeitskategorien, basierend auf der akuten Toxizität durch orale, dermale oder respiratorische Aufnahme",
+    "MDC_P008.de": "Abhängig von der Gefahrkategorie müssen spezifische Gefahrpiktogrammen, Signalbegriffe, Gefährdungsangaben und Vorsichtsmaßnahmen auf der Verpackung der Substanz vorgesehen werden.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-20",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "718244EC0A9DCC49C1258A7D0039DC37",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:30",
+      "user": "BATCH 00000766",
+      "unid": "5e1ce51c80ad3252c12583b7005027eb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:59",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "718244EC0A9DCC49C1258A7D0039DC37"
+  }
+}

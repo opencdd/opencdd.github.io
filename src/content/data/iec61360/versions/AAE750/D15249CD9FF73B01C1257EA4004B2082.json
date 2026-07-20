@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#AAE750",
+  "code": "AAE750",
+  "version": "6",
+  "revision": "4",
+  "preferred_name": "cathode-gate trigger voltage",
+  "preferred_name_ml": {
+    "en": "cathode-gate trigger voltage"
+  },
+  "short_name": "V_GKT",
+  "short_name_ml": {
+    "en": "V_GKT"
+  },
+  "definition": "value of the cathode-gate to cathode voltage that will trigger a tetrode thyristor, at specified conditons",
+  "definition_ml": {
+    "en": "value of the cathode-gate to cathode voltage that will trigger a tetrode thyristor, at specified conditons"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE750",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "cathode-gate trigger voltage",
+    "MDC_P005.en": "V_GKT",
+    "MDC_P006.en": "value of the cathode-gate to cathode voltage that will trigger a tetrode thyristor, at specified conditons",
+    "MDC_P025_1": "V_GKT}",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2008-02-25",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE271,0112/2///61360_4#AAE737}"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:35",
+      "user": "BATCH 00000917",
+      "unid": "D15249CD9FF73B01C1257EA4004B2082",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "235fe22d494f7030c1257e8b003236d1",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "c7901460cb2fb63fc1257e8a0043e4a5",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-31 14:10:12",
+      "user": "BATCH 00000733",
+      "unid": "c6aff7ee639d8e92c12578fd0042da2f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2008-02-25",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "V_GKT}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE271,0112/2///61360_4#AAE737}",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:35",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D15249CD9FF73B01C1257EA4004B2082"
+  }
+}

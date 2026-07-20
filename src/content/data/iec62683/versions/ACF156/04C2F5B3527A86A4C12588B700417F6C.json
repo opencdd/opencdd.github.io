@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF156",
+  "code": "ACF156",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "General technical data of the coded magnetic switch",
+  "preferred_name_ml": {
+    "en": "General technical data of the coded magnetic switch",
+    "fr": "Données techniques générales de l'interrupteur codé magnétique",
+    "de": "Allgemeine technische Daten des kodierten Magnetschalters",
+    "zh": "编码磁性开关通用技术数据"
+  },
+  "definition": "general technical aspects of the coded magnetic switch",
+  "definition_ml": {
+    "en": "general technical aspects of the coded magnetic switch",
+    "fr": "aspects techniques généraux de l'interrupteur codé magnétique",
+    "de": "Allgemeine technische Gesichtspunkte des kodierten Magnetschalters",
+    "zh": "编码磁性开关的一般技术因素"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00107",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF156",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "General technical data of the coded magnetic switch",
+    "MDC_P006.en": "general technical aspects of the coded magnetic switch",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG156)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-09-08",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2022-09-08",
+    "MDC_P003_3": "2022-09-08",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "Données techniques générales de l'interrupteur codé magnétique",
+    "MDC_P006.fr": "aspects techniques généraux de l'interrupteur codé magnétique",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2020-11-24",
+    "MDC_P004.de": "Allgemeine technische Daten des kodierten Magnetschalters",
+    "MDC_P006.de": "Allgemeine technische Gesichtspunkte des kodierten Magnetschalters",
+    "C019.de": "DKE; Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2022-08-16",
+    "MDC_P004.zh": "编码磁性开关通用技术数据",
+    "MDC_P006.zh": "编码磁性开关的一般技术因素",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2022-07-31",
+    "C002": "C00107"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-09-08 13:55:24",
+      "user": "BATCH 00000798",
+      "unid": "04C2F5B3527A86A4C12588B700417F6C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "043442ba1889dbecc1258030004571c5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2022-09-08",
+    "current_revision": "2022-09-08"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG156)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG156)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-09-08 13:55:24",
+    "user": "BATCH 00000798",
+    "change_request_id": null,
+    "unid": "04C2F5B3527A86A4C12588B700417F6C"
+  }
+}

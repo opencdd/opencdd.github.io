@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#AAD163",
+  "code": "AAD163",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "die step size x",
+  "preferred_name_ml": {
+    "en": "die step size x"
+  },
+  "short_name": "l_stepx(waf)",
+  "short_name_ml": {
+    "en": "l_stepx(waf)"
+  },
+  "definition": "nominal length of the step-and-repeat dimensions of die on a wafer in the x direction",
+  "definition_ml": {
+    "en": "nominal length of the step-and-repeat dimensions of die on a wafer in the x direction"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "3D/ggg",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD163",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "die step size x",
+    "MDC_P005.en": "l_stepx(waf)",
+    "MDC_P006.en": "nominal length of the step-and-repeat dimensions of die on a wafer in the x direction",
+    "MDC_P025_1": "l_stepx(waf)}",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "3D/ggg",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-04-01",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "880F5E1544F57792C1257EA4004B1E44",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "662f6e18d23a2d52c1257e8b00323496",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "0e97a31cae45d348c1257e8a0043e267",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "569ca9fb88240deac125787f0042a256",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-04-01",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "l_stepx(waf)}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "880F5E1544F57792C1257EA4004B1E44"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61360_4#ACB001",
+  "code": "ACB001",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "substance database version",
+  "preferred_name_ml": {
+    "en": "substance database version"
+  },
+  "definition": "version of the IEC Database which contains the list of reportable substances",
+  "definition_ml": {
+    "en": "version of the IEC Database which contains the list of reportable substances"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "TC111",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB001",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "substance database version",
+    "MDC_P006.en": "version of the IEC Database which contains the list of reportable substances",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A51",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC111"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "F113643F76132556C1257EA4004B249A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "d0b8db72e4dc4713c1257e8b00323ac9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:44",
+      "user": "BATCH 00000904",
+      "unid": "55dccf548118de70c1257e8a0043e8bd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "a97cfac4e3098e50c1257e65003ff57f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "F113643F76132556C1257EA4004B249A"
+  }
+}

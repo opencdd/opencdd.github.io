@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABA762",
+  "code": "ABA762",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Mass flow transmitter",
+  "preferred_name_ml": {
+    "en": "Mass flow transmitter",
+    "fr": "Transmetteur de débit massique",
+    "de": "Massedurchflussmessgerät",
+    "jp": "質量流量計"
+  },
+  "definition": "flow transmitter that outputs a signal that is directly representative of a mass flow",
+  "definition_ml": {
+    "en": "flow transmitter that outputs a signal that is directly representative of a mass flow",
+    "fr": "transmetteur qui délivre en sortie un signal directement représentatif d'un débit massique",
+    "de": "Durchflussmessgerät, das ein Signal abgibt, welches für einen Massedurchfluss unmittelbar repräsentativ ist",
+    "jp": "質量流量を計測する流量計"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA762",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Mass flow transmitter",
+    "MDC_P006.en": "flow transmitter that outputs a signal that is directly representative of a mass flow",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA761",
+    "MDC_P004.fr": "Transmetteur de débit massique",
+    "MDC_P006.fr": "transmetteur qui délivre en sortie un signal directement représentatif d'un débit massique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Massedurchflussmessgerät",
+    "MDC_P006.de": "Durchflussmessgerät, das ein Signal abgibt, welches für einen Massedurchfluss unmittelbar repräsentativ ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "MDC_P004.jp": "質量流量計",
+    "MDC_P006.jp": "質量流量を計測する流量計",
+    "MDC_P009.jp": "JEMIS-043_ANNEX_A_080331 Draft, ID: JEMIMA_C000019",
+    "C019.jp": "Mr. Takaharu Matsumoto",
+    "C017.jp": "0",
+    "C018.jp": "2016-08-04",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "C3A50CA94A6A98C6C125825E001DD3B7",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:35",
+      "user": "BATCH 00000701",
+      "unid": "a94710aee57404c5c1257cfb003f9761",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "986a8d0f02bcb65bc1257cfb003f67bb",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:06",
+      "user": "BATCH 00000699",
+      "unid": "d466e398aaeaa441c1257cb400549a9f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "218f9344c33cb83fc1257cb3002a0ca0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA761",
+  "superclass_type_property": "0112/2///61987#ABA761",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "C3A50CA94A6A98C6C125825E001DD3B7"
+  }
+}

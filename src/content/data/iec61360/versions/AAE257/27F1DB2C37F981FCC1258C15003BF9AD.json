@@ -1,0 +1,163 @@
+{
+  "irdi": "0112/2///61360_4#AAE257",
+  "code": "AAE257",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "power dissipation",
+  "preferred_name_ml": {
+    "en": "power dissipation",
+    "de": "Leistungsabstrahlung"
+  },
+  "short_name": "P_dis}",
+  "short_name_ml": {
+    "en": "P_dis}"
+  },
+  "definition": "permissible power which may be dissipated continuously, at normal operating conditions",
+  "definition_ml": {
+    "en": "permissible power which may be dissipated continuously, at normal operating conditions"
+  },
+  "synonyms": [],
+  "note": "NOTE 1: Normal operating conditions represent as closely as possible the range of normal use that can reasonably be expected (source: IEV 903-01-21)",
+  "note_ml": {
+    "en": "NOTE 1: Normal operating conditions represent as closely as possible the range of normal use that can reasonably be expected (source: IEV 903-01-21)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE257",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "power dissipation",
+    "MDC_P005.en": "P_dis}",
+    "MDC_P006.en": "permissible power which may be dissipated continuously, at normal operating conditions",
+    "MDC_P008.en": "NOTE 1: Normal operating conditions represent as closely as possible the range of normal use that can reasonably be expected (source: IEV 903-01-21)",
+    "MDC_P025_1": "P",
+    "MDC_P023": "W",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "H07",
+    "MDC_P021": "0112/2///61360_4#ADA083",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-01-17",
+    "MDC_P003_2": "2025-01-17",
+    "MDC_P003_3": "2025-01-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P004.de": "Leistungsabstrahlung",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-01-17 11:55:05",
+      "user": "BATCH 00001355",
+      "unid": "27F1DB2C37F981FCC1258C15003BF9AD",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-11-28 07:54:30",
+      "user": "BATCH 00001137",
+      "unid": "4d3825c524a12443c12584c00025f326",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-12-21 12:45:19",
+      "user": "BATCH 00001033",
+      "unid": "fff8423f458fe687c12581fd0040932b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:31",
+      "user": "BATCH 00000917",
+      "unid": "9f94055258345aabc1257ea4004b1f32",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:24",
+      "user": "BATCH 00000907",
+      "unid": "2c753d5091cea787c1257e8b00323581",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "d74b27a0373f96b3c1257e8a0043e355",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "80078d96196aec75c1257db30042e18c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:30",
+      "user": "BATCH 00000788",
+      "unid": "bd98c43b4d5dcd46c1257a0e0047bba6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:51",
+      "user": "BATCH 00000787",
+      "unid": "9b9d081c6820c525c1257a0e0046d926",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-01-17",
+    "current_revision": "2025-01-17"
+  },
+  "symbol_in_text": "P",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#ADA083",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-01-17 11:55:05",
+    "user": "BATCH 00001355",
+    "change_request_id": null,
+    "unid": "27F1DB2C37F981FCC1258C15003BF9AD"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAD215",
+  "code": "AAD215",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "long-term storage",
+  "preferred_name_ml": {
+    "en": "long-term storage"
+  },
+  "short_name": "long-term storage",
+  "short_name_ml": {
+    "en": "long-term storage"
+  },
+  "definition": "description of the storage conditions for die devices that have been stored for an extended period",
+  "definition_ml": {
+    "en": "description of the storage conditions for die devices that have been stored for an extended period"
+  },
+  "synonyms": [],
+  "note": "The supplier shall certify that these conditions and traceability of product stored have been maintained throughout the storage period",
+  "note_ml": {
+    "en": "The supplier shall certify that these conditions and traceability of product stored have been maintained throughout the storage period"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD215",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "long-term storage",
+    "MDC_P005.en": "long-term storage",
+    "MDC_P006.en": "description of the storage conditions for die devices that have been stored for an extended period",
+    "MDC_P008.en": "The supplier shall certify that these conditions and traceability of product stored have been maintained throughout the storage period",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2007-03-02",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "F8661C3B703EE68DC1257EA4004B1E76",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "453525d4d8fedd63c1257e8b003234c8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "a5c5fbd2fdf52f0dc1257e8a0043e299",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "9265bb50d6e6e4a2c125787f0042a285",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2007-03-02",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "F8661C3B703EE68DC1257EA4004B1E76"
+  }
+}

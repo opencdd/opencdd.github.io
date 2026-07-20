@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61987#ABH414",
+  "code": "ABH414",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "control mode",
+  "preferred_name_ml": {
+    "en": "control mode",
+    "de": "Typ des Reglers"
+  },
+  "definition": "classification of a controller according to its time and control behaviour",
+  "definition_ml": {
+    "en": "classification of a controller according to its time and control behaviour",
+    "de": "Charakterisierung eines Reglers bezüglich seines Zeit- und Regelverhaltens"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH414",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "control mode",
+    "MDC_P006.en": "classification of a controller according to its time and control behaviour",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL564)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Typ des Reglers",
+    "MDC_P006.de": "Charakterisierung eines Reglers bezüglich seines Zeit- und Regelverhaltens",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-02-05",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "9B455A03B15A5D1FC1258CDC004A3C6D",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "ef884876abbb6a2ac1258518003c4a90",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:15",
+      "user": "BATCH 00000762",
+      "unid": "a861e66265a9af1fc125825e001df626",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "6b767c3210c5c516c1258256003e9447",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:44",
+      "user": "BATCH 00000732",
+      "unid": "b424e31589c128e3c12580d6004c2614",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "41f2b711f1780d6dc1257f7e0030f251",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "a52143cfc6119543c1257fa7003a3d98",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL564)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL564)",
+  "value_list": "0112/2///61987#ABL564",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "9B455A03B15A5D1FC1258CDC004A3C6D"
+  }
+}

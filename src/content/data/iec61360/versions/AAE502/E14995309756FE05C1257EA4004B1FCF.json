@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE502",
+  "code": "AAE502",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "capacitance ratio",
+  "preferred_name_ml": {
+    "en": "capacitance ratio"
+  },
+  "short_name": "C_d1/C_d2",
+  "short_name_ml": {
+    "en": "C_d1/C_d2"
+  },
+  "definition": "value as specified by level (minTypmax) of the capacitance ratio of a tuning variable capacitance diode, within a reverse voltage range, specified by the reverse voltages (V_1} and V_2}), and at specified frequency",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the capacitance ratio of a tuning variable capacitance diode, within a reverse voltage range, specified by the reverse voltages (V_1} and V_2}), and at specified frequency"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE502",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "capacitance ratio",
+    "MDC_P005.en": "C_d1/C_d2",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the capacitance ratio of a tuning variable capacitance diode, within a reverse voltage range, specified by the reverse voltages (V_1} and V_2}), and at specified frequency",
+    "MDC_P025_1": "C_d1}/C_d2}",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E09",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE961,0112/2///61360_4#AAE962}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "E14995309756FE05C1257EA4004B1FCF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "7ad90e602d2c3c19c1257e8b0032361e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:32",
+      "user": "BATCH 00000904",
+      "unid": "df2332c0fc4a5646c1257e8a0043e3f2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "c4e40149e6a340a4c1257a0e0047bc39",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:52",
+      "user": "BATCH 00000787",
+      "unid": "afab767d321ce564c1257a0e0046d9b9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "C_d1}/C_d2}",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE961,0112/2///61360_4#AAE962}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E14995309756FE05C1257EA4004B1FCF"
+  }
+}

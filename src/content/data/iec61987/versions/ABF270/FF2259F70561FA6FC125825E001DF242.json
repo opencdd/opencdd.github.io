@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61987#ABF270",
+  "code": "ABF270",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "maximum temperature of cooling system",
+  "preferred_name_ml": {
+    "en": "maximum temperature of cooling system",
+    "de": "maximale Temperatur des Kühlungssystems"
+  },
+  "definition": "highest temperature that a cooling system can attain in normal operation",
+  "definition_ml": {
+    "en": "highest temperature that a cooling system can attain in normal operation",
+    "de": "höchste Temperatur, die eine Kühlung im normalen Betrieb erreichen kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF270",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum temperature of cooling system",
+    "MDC_P006.en": "highest temperature that a cooling system can attain in normal operation",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "maximale Temperatur des Kühlungssystems",
+    "MDC_P006.de": "höchste Temperatur, die eine Kühlung im normalen Betrieb erreichen kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:05",
+      "user": "BATCH 00000762",
+      "unid": "FF2259F70561FA6FC125825E001DF242",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:42",
+      "user": "BATCH 00000732",
+      "unid": "fd72696dbc22aabdc12580d6004c2524",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:11",
+      "user": "BATCH 00000715",
+      "unid": "fd1b54d2f724b175c1257f7f004d0346",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:05",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "FF2259F70561FA6FC125825E001DF242"
+  }
+}

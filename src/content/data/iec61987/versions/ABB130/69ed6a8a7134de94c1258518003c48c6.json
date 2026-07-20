@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB130",
+  "code": "ABB130",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:27",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "69ed6a8a7134de94c1258518003c48c6"
+  }
+}

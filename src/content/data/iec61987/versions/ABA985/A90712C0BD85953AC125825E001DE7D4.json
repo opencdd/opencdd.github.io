@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA985",
+  "code": "ABA985",
+  "type": "property",
+  "is_current": true,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:38",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A90712C0BD85953AC125825E001DE7D4"
+  }
+}

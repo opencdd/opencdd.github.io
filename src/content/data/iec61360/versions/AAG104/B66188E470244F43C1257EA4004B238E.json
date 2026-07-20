@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAG104",
+  "code": "AAG104",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "drawing sequence code",
+  "preferred_name_ml": {
+    "en": "drawing sequence code"
+  },
+  "short_name": "drawing ID",
+  "short_name_ml": {
+    "en": "drawing ID"
+  },
+  "definition": "suffix to the drawing code which serves to identify a particular dimension set related to the drawing",
+  "definition_ml": {
+    "en": "suffix to the drawing code which serves to identify a particular dimension set related to the drawing"
+  },
+  "synonyms": [],
+  "remark": "The suffix is a serial numeric, separated from the drawing reference by a solidus: thus BCY-W01/24",
+  "remark_ml": {
+    "en": "The suffix is a serial numeric, separated from the drawing reference by a solidus: thus BCY-W01/24"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG104",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "drawing sequence code",
+    "MDC_P005.en": "drawing ID",
+    "MDC_P006.en": "suffix to the drawing code which serves to identify a particular dimension set related to the drawing",
+    "MDC_P009.en": "The suffix is a serial numeric, separated from the drawing reference by a solidus: thus BCY-W01/24",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..20",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA303",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "B66188E470244F43C1257EA4004B238E",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:35",
+      "user": "BATCH 00000907",
+      "unid": "2fe6c857f7b52a3ac1257e8b003239bd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "3e7e04053657b86fc1257e8a0043e7b1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:28",
+      "user": "BATCH 00000783",
+      "unid": "14575dd05acaa4c9c12579d6003b4700",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..20",
+  "definition_class_irdi": "0112/2///61360_4#AAA303",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..20",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "B66188E470244F43C1257EA4004B238E"
+  }
+}

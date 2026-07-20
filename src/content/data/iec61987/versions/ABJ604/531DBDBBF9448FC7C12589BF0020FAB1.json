@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABJ604",
+  "code": "ABJ604",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "LOQ",
+  "preferred_name_ml": {
+    "en": "LOQ",
+    "de": "QML"
+  },
+  "definition": "list of qualifiers characterizing the additional information to values by qualifiers",
+  "definition_ml": {
+    "en": "list of qualifiers characterizing the additional information to values by qualifiers",
+    "de": "Qualifiermerkmalleiste (QML), die die zusätzlichen Informationen zu Werten durch Qualifier kennzeichnet"
+  },
+  "synonyms": [],
+  "note": "Qualifiers are defined in the data dictionary IEC 61360-7 and reused in this block (LOQ)",
+  "note_ml": {
+    "en": "Qualifiers are defined in the data dictionary IEC 61360-7 and reused in this block (LOQ)",
+    "de": "Qualifier sind im Datenwörterbuch IEC 61360-7 definiert und werden in diesem Block (LOQ) wiederverwendet"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00141",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABJ604",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "LOQ",
+    "MDC_P006.en": "list of qualifiers characterizing the additional information to values by qualifiers",
+    "MDC_P008.en": "Qualifiers are defined in the data dictionary IEC 61360-7 and reused in this block (LOQ)",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P033": "{false}",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-05-30",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-05-30",
+    "MDC_P003_3": "2023-05-30",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV001",
+    "MDC_P013": "{0112/2///61360_7#CAA002}",
+    "MDC_P090": "{0112/2///61360_7#CBA001,0112/2///61360_7#CBA002,0112/2///61360_7#CBA003,0112/2///61360_7#CBA004,0112/2///61360_7#CBA005,0112/2///61360_7#CBA006,0112/2///61360_7#CBA007,0112/2///61360_7#CBA008}",
+    "MDC_P004.de": "QML",
+    "MDC_P006.de": "Qualifiermerkmalleiste (QML), die die zusätzlichen Informationen zu Werten durch Qualifier kennzeichnet",
+    "MDC_P008.de": "Qualifier sind im Datenwörterbuch IEC 61360-7 definiert und werden in diesem Block (LOQ) wiederverwendet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2023-05-26",
+    "C002": "C00141"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-05-30 08:00:13",
+      "user": "BATCH 00000809",
+      "unid": "531DBDBBF9448FC7C12589BF0020FAB1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:13",
+      "user": "BATCH 00000766",
+      "unid": "afa27916fafee8c3c12583b70050212e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-05-30",
+    "current_revision": "2023-05-30"
+  },
+  "is_case_of": [
+    "0112/2///61360_7#CAA002"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///61360_7#CBA001",
+    "0112/2///61360_7#CBA002",
+    "0112/2///61360_7#CBA003",
+    "0112/2///61360_7#CBA004",
+    "0112/2///61360_7#CBA005",
+    "0112/2///61360_7#CBA006",
+    "0112/2///61360_7#CBA007",
+    "0112/2///61360_7#CBA008"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV001",
+  "superclass_type_property": "0112/2///61987#ABV001",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-05-30 08:00:13",
+    "user": "BATCH 00000809",
+    "change_request_id": null,
+    "unid": "531DBDBBF9448FC7C12589BF0020FAB1"
+  }
+}

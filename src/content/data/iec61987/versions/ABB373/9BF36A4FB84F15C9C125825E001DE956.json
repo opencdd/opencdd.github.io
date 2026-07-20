@@ -1,0 +1,151 @@
+{
+  "irdi": "0112/2///61987#ABB373",
+  "code": "ABB373",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "maximum surface temperature",
+  "preferred_name_ml": {
+    "en": "maximum surface temperature",
+    "fr": "température de surface maximale",
+    "de": "maximale Oberflächentemperatur"
+  },
+  "definition": "highest temperature which is attained in service under the most adverse conditions (but within the specified tolerances) by any part of surface of an electrical apparatus, which would be able to produce an ignition of the surrounding explosive atmosphere",
+  "definition_ml": {
+    "en": "highest temperature which is attained in service under the most adverse conditions (but within the specified tolerances) by any part of surface of an electrical apparatus, which would be able to produce an ignition of the surrounding explosive atmosphere",
+    "fr": "température la plus haute qui peut être atteinte en fonctionnement dans les conditions les plus rigoureuses (mais dans les tolérances spécifiées) par une partie quelconque de la surface d'un appareil électrique, qui serait capable de produire l'allumage d'une atmosphère environnante explosive",
+    "de": "höchste Temperatur, die bei Einsatz unter ungünstigsten Bedingungen (aber innerhalb der festgelegten Toleranzen) von einem Teil der Oberfläche eines elektrischen Geräts erreicht wird und die Zündung der umgebenden explosionsfähigen Atmosphäre hervorrufen könnte"
+  },
+  "source_document": "IEC 60050, part 426-01-04 (Draft)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB373",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum surface temperature",
+    "MDC_P006.en": "highest temperature which is attained in service under the most adverse conditions (but within the specified tolerances) by any part of surface of an electrical apparatus, which would be able to produce an ignition of the surrounding explosive atmosphere",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60050, part 426-01-04 (Draft)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "température de surface maximale",
+    "MDC_P006.fr": "température la plus haute qui peut être atteinte en fonctionnement dans les conditions les plus rigoureuses (mais dans les tolérances spécifiées) par une partie quelconque de la surface d'un appareil électrique, qui serait capable de produire l'allumage d'une atmosphère environnante explosive",
+    "C019.fr": "AFNOR",
+    "C017.fr": "0",
+    "C018.fr": "2014-05-03",
+    "MDC_P004.de": "maximale Oberflächentemperatur",
+    "MDC_P006.de": "höchste Temperatur, die bei Einsatz unter ungünstigsten Bedingungen (aber innerhalb der festgelegten Toleranzen) von einem Teil der Oberfläche eines elektrischen Geräts erreicht wird und die Zündung der umgebenden explosionsfähigen Atmosphäre hervorrufen könnte",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "9BF36A4FB84F15C9C125825E001DE956",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "21ed476c321abb44c1258256003e95bf",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "959e2a31d4db38d5c12580d6004c1e04",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:09",
+      "user": "BATCH 00000715",
+      "unid": "3196d36d1e57446dc1257f7f004d0275",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "6c724eef8e2db9adc1257f7e0030f20e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "a54e9394ff6d1930c1257fa7003a3d3c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "664c085ab8f646a7c1257cfb00403bde",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "6b4353d28b91cb96c1257cb40054bd9b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:42",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "9BF36A4FB84F15C9C125825E001DE956"
+  }
+}

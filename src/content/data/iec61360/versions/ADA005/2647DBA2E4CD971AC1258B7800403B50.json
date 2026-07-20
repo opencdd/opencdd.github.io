@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61360_4#ADA005",
+  "code": "ADA005",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "country code",
+  "preferred_name_ml": {
+    "en": "country code"
+  },
+  "short_name": "country code",
+  "short_name_ml": {
+    "en": "country code"
+  },
+  "definition": "two-letter country code (alpha-2 code) for the representation of countries in accordance with ISO 3166-1",
+  "definition_ml": {
+    "en": "two-letter country code (alpha-2 code) for the representation of countries in accordance with ISO 3166-1"
+  },
+  "source_document": "ISO 3166-1 (alpha-2 code)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00109",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA005",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "country code",
+    "MDC_P005.en": "country code",
+    "MDC_P006.en": "two-letter country code (alpha-2 code) for the representation of countries in accordance with ISO 3166-1",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_7#CEA008)",
+    "MDC_P024": "A..2",
+    "MDC_P006_1": "ISO 3166-1 (alpha-2 code)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-08-13",
+    "MDC_P003_2": "2024-08-13",
+    "MDC_P003_3": "2024-08-13",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00109"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-08-13 13:41:34",
+      "user": "BATCH 00001320",
+      "unid": "2647DBA2E4CD971AC1258B7800403B50",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "7db9a69b66c51d6cc1257e8b00323b0a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "9877139aca1df9a6c1257ea4004b24e4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "6016f8c1780c03d6c1257e8a0043e906",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "6cfd9ebcdac923fac1257ea4004b24e3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:39",
+      "user": "BATCH 00000788",
+      "unid": "84f11ae2ea12f0bfc1257a0e0047bee3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:59",
+      "user": "BATCH 00000787",
+      "unid": "588014ae2133aba0c1257a0e0046dc63",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-08-13",
+    "current_revision": "2024-08-13"
+  },
+  "value_format": "A..2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_7#CEA008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-08-13 13:41:34",
+    "user": "BATCH 00001320",
+    "change_request_id": null,
+    "unid": "2647DBA2E4CD971AC1258B7800403B50"
+  }
+}

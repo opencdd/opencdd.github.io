@@ -1,0 +1,130 @@
+{
+  "irdi": "0112/2///61360_4#AAF049",
+  "code": "AAF049",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "speed",
+  "preferred_name_ml": {
+    "en": "speed"
+  },
+  "short_name": "v_mot",
+  "short_name_ml": {
+    "en": "v_mot"
+  },
+  "definition": "nominal speed of a linear motor",
+  "definition_ml": {
+    "en": "nominal speed of a linear motor"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF049",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "speed",
+    "MDC_P005.en": "v_mot",
+    "MDC_P006.en": "nominal speed of a linear motor",
+    "MDC_P025_1": "v_mot}",
+    "MDC_P023": "m/s",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "F03",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA733",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 14:02:47",
+      "user": "BATCH 00001305",
+      "unid": "7549F226F2F3B57CC1258B5600422C5C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:37",
+      "user": "BATCH 00000917",
+      "unid": "43d5bca7d14aa9b5c1257ea4004b2140",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:30",
+      "user": "BATCH 00000907",
+      "unid": "ea493fb8b569ee3cc1257e8b00323789",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:36",
+      "user": "BATCH 00000904",
+      "unid": "33d57c04591c1b01c1257e8a0043e563",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "ebf26804cd6b471ac1257a0e0047bd9d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:56",
+      "user": "BATCH 00000787",
+      "unid": "1b0b188c2db3511ec1257a0e0046db1d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "v_mot}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA733",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 14:02:47",
+    "user": "BATCH 00001305",
+    "change_request_id": null,
+    "unid": "7549F226F2F3B57CC1258B5600422C5C"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF376",
+  "code": "AAF376",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-22 14:21:38",
+    "user": "BATCH 00000904",
+    "change_request_id": null,
+    "unid": "c4a16b2bf927e242c1257e8a0043e665"
+  }
+}

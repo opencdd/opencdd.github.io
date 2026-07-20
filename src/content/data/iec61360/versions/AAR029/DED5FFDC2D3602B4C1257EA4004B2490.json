@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61360_4#AAR029",
+  "code": "AAR029",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "vibration resistance",
+  "preferred_name_ml": {
+    "en": "vibration resistance"
+  },
+  "short_name": "vibration",
+  "short_name_ml": {
+    "en": "vibration"
+  },
+  "definition": "code for the resistance of a relay to vibration for a specified pulse duration at specified test criteria",
+  "definition_ml": {
+    "en": "code for the resistance of a relay to vibration for a specified pulse duration at specified test criteria"
+  },
+  "source_document": "IEC 60068-2-6 (5.2, Table 5) (1995)",
+  "synonyms": [],
+  "note": "The values listed represent the vibration amplitude below and - separated by a slash - the acceleration above the transition frequency (between 57 and 62 Hz).",
+  "note_ml": {
+    "en": "The values listed represent the vibration amplitude below and - separated by a slash - the acceleration above the transition frequency (between 57 and 62 Hz)."
+  },
+  "status_level": "Standard",
+  "publisher": "SC3D",
+  "published_in": "3D/90/CD",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAR029",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "vibration resistance",
+    "MDC_P005.en": "vibration",
+    "MDC_P006.en": "code for the resistance of a relay to vibration for a specified pulse duration at specified test criteria",
+    "MDC_P008.en": "The values listed represent the vibration amplitude below and - separated by a slash - the acceleration above the transition frequency (between 57 and 62 Hz).",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA322)",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "IEC 60068-2-6 (5.2, Table 5) (1995)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "3D/90/CD",
+    "C011": "SC3D",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-05-28",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAR032,0112/2///61360_4#AAR033}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "DED5FFDC2D3602B4C1257EA4004B2490",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "c3e94dfe9a4274e3c1257e8b00323abf",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:44",
+      "user": "BATCH 00000904",
+      "unid": "55fe18a7e28e2f90c1257e8a0043e8b3",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:03",
+      "user": "BATCH 00000704",
+      "unid": "a254049c297f3adec125787f0042a7cc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-05-28",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA322)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "condition_raw": "{0112/2///61360_4#AAR032,0112/2///61360_4#AAR033}",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA322)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "DED5FFDC2D3602B4C1257EA4004B2490"
+  }
+}

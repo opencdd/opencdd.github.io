@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABH458",
+  "code": "ABH458",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Rated operating conditions [27]",
+  "preferred_name_ml": {
+    "en": "Rated operating conditions [27]",
+    "fr": "Conditions assignées de fonctionnement [1]",
+    "de": "Einsatzbedingungen [27]"
+  },
+  "definition": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+  "definition_ml": {
+    "en": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+    "fr": "propriétés caractérisant les conditions qui doivent être remplies pendant la mesure afin qu’un système de mesure fonctionne comme prévu (version de bloc 1)",
+    "de": "Merkmale, die die Bedingungen kennzeichnen, die während des Betriebs erfüllt sein müssen, damit ein Gerät oder eine Geräteanordnung gemäß der Auslegung arbeitet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH458",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Rated operating conditions [27]",
+    "MDC_P006.en": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2018-03-21",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABC933,0112/2///61987#ABC859,0112/2///61987#ABH461,0112/2///61987#ABD163}",
+    "MDC_P004.fr": "Conditions assignées de fonctionnement [1]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions qui doivent être remplies pendant la mesure afin qu’un système de mesure fonctionne comme prévu (version de bloc 1)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2016-10-04",
+    "MDC_P004.de": "Einsatzbedingungen [27]",
+    "MDC_P006.de": "Merkmale, die die Bedingungen kennzeichnen, die während des Betriebs erfüllt sein müssen, damit ein Gerät oder eine Geräteanordnung gemäß der Auslegung arbeitet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:08",
+      "user": "BATCH 00000803",
+      "unid": "8AC75349089B5321C1258913003042DE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:12",
+      "user": "BATCH 00000762",
+      "unid": "a9ac47350cac5941c125825e001ddd92",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2018-03-21",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABC933",
+    "0112/2///61987#ABC859",
+    "0112/2///61987#ABH461",
+    "0112/2///61987#ABD163"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:08",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "8AC75349089B5321C1258913003042DE"
+  }
+}

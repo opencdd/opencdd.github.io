@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABE882",
+  "code": "ABE882",
+  "version": "2",
+  "revision": "3",
+  "preferred_name": "pulse value of volume",
+  "preferred_name_ml": {
+    "en": "pulse value of volume",
+    "de": "Pulswert des Volumens"
+  },
+  "short_name": "Vol. Pulse Value",
+  "short_name_ml": {
+    "en": "Vol. Pulse Value",
+    "de": "Pulswert Volumen"
+  },
+  "definition": "volume quantity assigned to one pulse",
+  "definition_ml": {
+    "en": "volume quantity assigned to one pulse",
+    "de": "Betriebsvolumenmenge, die einem Puls zugeordnet ist"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE882",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "pulse value of volume",
+    "MDC_P005.en": "Vol. Pulse Value",
+    "MDC_P006.en": "volume quantity assigned to one pulse",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P023": "m³",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA757",
+    "C0104": "0112/2///61987#ABT505",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Pulswert des Volumens",
+    "MDC_P005.de": "Pulswert Volumen",
+    "MDC_P006.de": "Betriebsvolumenmenge, die einem Puls zugeordnet ist",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-09-30",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "79DBF1403A08E79FC1258C3B004B5BFF",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:57",
+      "user": "BATCH 00000794",
+      "unid": "b73085a645630279c125886f003c9a76",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "dcc68c1803974459c1258518003c49f0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:02",
+      "user": "BATCH 00000762",
+      "unid": "d938f54dd2a51b99c125825e001df11b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA757",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "79DBF1403A08E79FC1258C3B004B5BFF"
+  }
+}

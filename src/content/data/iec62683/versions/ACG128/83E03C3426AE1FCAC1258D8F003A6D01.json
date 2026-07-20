@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///62683#ACG128",
+  "code": "ACG128",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Fixing of the assembly",
+  "preferred_name_ml": {
+    "en": "Fixing of the assembly",
+    "fr": "Fixation de l'ensemble"
+  },
+  "definition": "identification and localisation of the fixing points of the assembly",
+  "definition_ml": {
+    "en": "identification and localisation of the fixing points of the assembly",
+    "fr": "identification et localisation des points de fixation de l'ensemble"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG128",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Fixing of the assembly",
+    "MDC_P006.en": "identification and localisation of the fixing points of the assembly",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2024-02-06",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P014": "{0112/2///62683#ACE932,0112/2///62683#ACE942,0112/2///62683#ACE943,0112/2///62683#ACF132}",
+    "MDC_P004.fr": "Fixation de l'ensemble",
+    "MDC_P006.fr": "identification et localisation des points de fixation de l'ensemble",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C018.fr": "2/6/2024",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "83E03C3426AE1FCAC1258D8F003A6D01",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "7ecbc594413449a7c1258b9d00731743",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "327a74f3365fd7a4c1258034002e35ce",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "80ceccd6825fc4b8c1258030004502a4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-02-06",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACE932",
+    "0112/2///62683#ACE942",
+    "0112/2///62683#ACE943",
+    "0112/2///62683#ACF132"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "83E03C3426AE1FCAC1258D8F003A6D01"
+  }
+}

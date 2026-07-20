@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABB209",
+  "code": "ABB209",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "accuracy of pressure measuring  instrument",
+  "preferred_name_ml": {
+    "en": "accuracy of pressure measuring  instrument",
+    "fr": "précision de la pression",
+    "de": "Genauigkeit des Druckmessgeräts"
+  },
+  "definition": "quality which characterizes the ability of a pressure measuring instrument to provide an indicated value close to a true value of the measurand under reference conditions",
+  "definition_ml": {
+    "en": "quality which characterizes the ability of a pressure measuring instrument to provide an indicated value close to a true value of the measurand under reference conditions",
+    "fr": "étroitesse de l'accord entre le résultat d'une mesure de pression et la valeur conventionnellement vraie du mesurande dans des conditions de référence",
+    "de": "Eigenschaft, welche die Fähigkeit eines Druckmessgeräts unter Referenzbedingungen kennzeichnet, einen angezeigten Wert zu liefern, der in der Nähe eines wahren Werts der Messgröße liegt"
+  },
+  "source_document": "IEV 311-06-08 (modified)",
+  "synonyms": [],
+  "note": "the accuracy is based on a statistical sample of test devices",
+  "note_ml": {
+    "en": "the accuracy is based on a statistical sample of test devices",
+    "de": "die Genauigkeit beruht auf einer statistischen Stichprobe von Messgeräten"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB209",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "accuracy of pressure measuring  instrument",
+    "MDC_P006.en": "quality which characterizes the ability of a pressure measuring instrument to provide an indicated value close to a true value of the measurand under reference conditions",
+    "MDC_P008.en": "the accuracy is based on a statistical sample of test devices",
+    "MDC_P023": "mbar",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEV 311-06-08 (modified)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA810",
+    "C0104": "0112/2///61987#ABT524",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "précision de la pression",
+    "MDC_P006.fr": "étroitesse de l'accord entre le résultat d'une mesure de pression et la valeur conventionnellement vraie du mesurande dans des conditions de référence",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Genauigkeit des Druckmessgeräts",
+    "MDC_P006.de": "Eigenschaft, welche die Fähigkeit eines Druckmessgeräts unter Referenzbedingungen kennzeichnet, einen angezeigten Wert zu liefern, der in der Nähe eines wahren Werts der Messgröße liegt",
+    "MDC_P008.de": "die Genauigkeit beruht auf einer statistischen Stichprobe von Messgeräten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "530AAB5F4F01D506C125825E001DE8B2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "5b41d4a4ede5f4e5c1257fa7004059ec",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:34",
+      "user": "BATCH 00000702",
+      "unid": "abbd267ac00ec1dec1257cfb00403b3a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "26e8aa5a94c16354c1257cb40054bcf7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA810",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "530AAB5F4F01D506C125825E001DE8B2"
+  }
+}

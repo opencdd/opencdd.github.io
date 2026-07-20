@@ -1,0 +1,155 @@
+{
+  "irdi": "0112/2///61987#ABC100",
+  "code": "ABC100",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "Application",
+  "preferred_name_ml": {
+    "en": "Application",
+    "fr": "Application",
+    "de": "Anwendungsbereich"
+  },
+  "definition": "properties characterizing the application for which the device is designed, together with the reasons and if applicable, restrictions for use",
+  "definition_ml": {
+    "en": "properties characterizing the application for which the device is designed, together with the reasons and if applicable, restrictions for use",
+    "fr": "propriétés caractérisant l’application pour laquelle l’équipement de mesure est conçu, conjointement avec les raisons et, le cas échéant, les restrictions d’utilisation",
+    "de": "Merkmale, die die Anwendung kennzeichnen, für die das Gerät ausgelegt ist, zusammen mit den Gründen und, falls zutreffend, den Einschränkungen für die Nutzung"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC100",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Application",
+    "MDC_P006.en": "properties characterizing the application for which the device is designed, together with the reasons and if applicable, restrictions for use",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB014}",
+    "MDC_P004.fr": "Application",
+    "MDC_P006.fr": "propriétés caractérisant l’application pour laquelle l’équipement de mesure est conçu, conjointement avec les raisons et, le cas échéant, les restrictions d’utilisation",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Anwendungsbereich",
+    "MDC_P006.de": "Merkmale, die die Anwendung kennzeichnen, für die das Gerät ausgelegt ist, zusammen mit den Gründen und, falls zutreffend, den Einschränkungen für die Nutzung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:07",
+      "user": "BATCH 00000803",
+      "unid": "1FA40238C56518CAC12589130030426D",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "694aca54698fefd8c125825e001dd4be",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:06",
+      "user": "BATCH 00000755",
+      "unid": "1118da71b94e04d0c1258256003e72dc",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:43:55",
+      "user": "BATCH 00000756",
+      "unid": "43182bd65c6aec4bc12582560040725c",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:58",
+      "user": "BATCH 00000732",
+      "unid": "e4a2f36a8d50276cc12580d6004bfcb8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "d1fe3c923c7fb4eac1257f7e0033a79c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:36",
+      "user": "BATCH 00000701",
+      "unid": "660103cd9ccc33dec1257cfb003f97df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "0aa6b4c6819c94cbc1257cb400549b2b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB014"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:07",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "1FA40238C56518CAC12589130030426D"
+  }
+}

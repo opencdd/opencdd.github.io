@@ -1,0 +1,130 @@
+{
+  "irdi": "0112/2///62683#ACG174",
+  "code": "ACG174",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Communication interface",
+  "preferred_name_ml": {
+    "en": "Communication interface",
+    "fr": "Interface de communication",
+    "de": "Kommunikationsschnittstelle",
+    "zh": "通信接口"
+  },
+  "definition": "communication functions for the transfer of information between the proximity switch and the system",
+  "definition_ml": {
+    "en": "communication functions for the transfer of information between the proximity switch and the system",
+    "fr": "fonctions de communication pour le transfert d’informations entre le capteur de proximité et le système",
+    "de": "Kommunikationsfunktionen für die Übertragung von Informationen zwischen dem Näherungsschalter und dem System",
+    "zh": "用于在接近开关和系统之间传输信息的通信功能"
+  },
+  "synonyms": [],
+  "remark": "morphism corresponding to the value code COMMIF",
+  "remark_ml": {
+    "en": "morphism corresponding to the value code COMMIF",
+    "fr": "morphisme correspondant au code valeur COMMIF",
+    "de": "Morphismus, der den Wertcode COMMIF entspricht",
+    "zh": "与值代码COMMIF对应的态射"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00125",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG174",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Communication interface",
+    "MDC_P006.en": "communication functions for the transfer of information between the proximity switch and the system",
+    "MDC_P009.en": "morphism corresponding to the value code COMMIF",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "MDC_P003_0": "2024-05-27",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2024-07-18",
+    "MDC_P003_3": "2024-07-18",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC050}",
+    "MDC_P090": "{0112/2///62683#ACE371,0112/2///62683#ACE368,0112/2///62683#ACE369,0112/2///62683#ACF176}",
+    "MDC_P004.fr": "Interface de communication",
+    "MDC_P006.fr": "fonctions de communication pour le transfert d’informations entre le capteur de proximité et le système",
+    "MDC_P009.fr": "morphisme correspondant au code valeur COMMIF",
+    "C019.fr": "TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2023-10-11",
+    "MDC_P004.de": "Kommunikationsschnittstelle",
+    "MDC_P006.de": "Kommunikationsfunktionen für die Übertragung von Informationen zwischen dem Näherungsschalter und dem System",
+    "MDC_P009.de": "Morphismus, der den Wertcode COMMIF entspricht",
+    "C019.de": "DKE, Volker Schaber",
+    "C017.de": "1",
+    "C018.de": "2024-05-14",
+    "MDC_P004.zh": "通信接口",
+    "MDC_P006.zh": "用于在接近开关和系统之间传输信息的通信功能",
+    "MDC_P009.zh": "与值代码COMMIF对应的态射",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2024-05-14",
+    "C002": "C00125"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-05-27 12:20:20",
+      "user": "BATCH 00000807",
+      "unid": "CAE49A470718F247C1258B2A0038CB63",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "e33c9aaf5c190b92c1258034002e35f8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:47",
+      "user": "BATCH 00000703",
+      "unid": "14c32baf8f1b1d15c1258030004502ce",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2024-07-18",
+    "current_revision": "2024-07-18"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC050"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE371",
+    "0112/2///62683#ACE368",
+    "0112/2///62683#ACE369",
+    "0112/2///62683#ACF176"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-05-27 12:20:20",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "CAE49A470718F247C1258B2A0038CB63"
+  }
+}

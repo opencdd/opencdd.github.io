@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC568",
+  "code": "ABC568",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "e38321c6c300ed4ac1258a6f00520b09"
+  }
+}

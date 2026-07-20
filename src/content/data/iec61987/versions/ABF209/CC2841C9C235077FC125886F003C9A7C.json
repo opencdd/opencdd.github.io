@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABF209",
+  "code": "ABF209",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "number of external switches",
+  "preferred_name_ml": {
+    "en": "number of external switches",
+    "de": "Anzahl der externen Schalter"
+  },
+  "definition": "@number of external switches",
+  "definition_ml": {
+    "en": "@number of external switches",
+    "de": "Kardinalitätsmerkmal für Externer Schalter"
+  },
+  "synonyms": [],
+  "remark": "Cardinality property",
+  "remark_ml": {
+    "en": "Cardinality property"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF209",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "number of external switches",
+    "MDC_P006.en": "@number of external switches",
+    "MDC_P009.en": "Cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "Anzahl der externen Schalter",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Externer Schalter",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-01",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:57",
+      "user": "BATCH 00000794",
+      "unid": "CC2841C9C235077FC125886F003C9A7C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:05",
+      "user": "BATCH 00000762",
+      "unid": "9d0ca70262536092c125825e001df210",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:57",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "CC2841C9C235077FC125886F003C9A7C"
+  }
+}

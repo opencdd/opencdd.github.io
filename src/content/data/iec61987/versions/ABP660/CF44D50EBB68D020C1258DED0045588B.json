@@ -1,0 +1,81 @@
+{
+  "irdi": "0112/2///61987#ABP660",
+  "code": "ABP660",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "ref. Tuneable diode laser spectrometer-specific condition monitoring variables",
+  "preferred_name_ml": {
+    "en": "ref. Tuneable diode laser spectrometer-specific condition monitoring variables"
+  },
+  "definition": "reference to block ABP489",
+  "definition_ml": {
+    "en": "reference to block ABP489"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP660",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "ref. Tuneable diode laser spectrometer-specific condition monitoring variables",
+    "MDC_P006.en": "reference to block ABP489",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABP489)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2023-03-06",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:26",
+      "user": "BATCH 00000863",
+      "unid": "CF44D50EBB68D020C1258DED0045588B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:04",
+      "user": "BATCH 00000835",
+      "unid": "e1d20ea5d1eafda4c1258c3b004b5adc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-03-06",
+    "current_version": "2025-02-24",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABP489)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABP489)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:26",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "CF44D50EBB68D020C1258DED0045588B"
+  }
+}

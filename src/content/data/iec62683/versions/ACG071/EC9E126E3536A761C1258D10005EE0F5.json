@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///62683#ACG071",
+  "code": "ACG071",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Operating conditions of reliability characteristics",
+  "preferred_name_ml": {
+    "en": "Operating conditions of reliability characteristics",
+    "fr": "Conditions de fonctionnement des caractéristiques de fiabilité et de sécurité fonctionnelle",
+    "de": "Betriebsbedingungen für die Eigenschaften der Funktionsfähigkeit",
+    "zh": "可靠性特性的运行条件"
+  },
+  "definition": "operating condition limits for which the reliability characteristics are valid",
+  "definition_ml": {
+    "en": "operating condition limits for which the reliability characteristics are valid",
+    "fr": "limites des conditions de fonctionnement pour lesquelles les caractéristiques de fiabilité sont valables",
+    "de": "Betriebsbedingungsgrenzen innerhalb derer die Funktionsfähigkeitsangaben gültig sind",
+    "zh": "可靠性特性有效的运行条件限值"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00094",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG071",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Operating conditions of reliability characteristics",
+    "MDC_P006.en": "operating condition limits for which the reliability characteristics are valid",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-09-25",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2025-09-26",
+    "MDC_P003_3": "2025-09-26",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC076}",
+    "MDC_P090": "{0112/2///62683#ACE455,0112/2///62683#ACE533,0112/2///62683#ACE534,0112/2///62683#ACE070,0112/2///62683#ACE055,0112/2///62683#ACE054}",
+    "MDC_P004.fr": "Conditions de fonctionnement des caractéristiques de fiabilité et de sécurité fonctionnelle",
+    "MDC_P006.fr": "limites des conditions de fonctionnement pour lesquelles les caractéristiques de fiabilité sont valables",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2022-12-19",
+    "MDC_P004.de": "Betriebsbedingungen für die Eigenschaften der Funktionsfähigkeit",
+    "MDC_P006.de": "Betriebsbedingungsgrenzen innerhalb derer die Funktionsfähigkeitsangaben gültig sind",
+    "C019.de": "DKE, Silvio Foertsch",
+    "C017.de": "1",
+    "C018.de": "2025-09-01",
+    "MDC_P004.zh": "可靠性特性的运行条件",
+    "MDC_P006.zh": "可靠性特性有效的运行条件限值",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-05",
+    "C002": "C00094"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-09-25 19:16:19",
+      "user": "BATCH 00000840",
+      "unid": "EC9E126E3536A761C1258D10005EE0F5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "93f3f7b45322069ec1258b9d0073172a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "cd4a66fa555ebcd1c1258034002e3597",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "f8b2d523a69359dcc12580300045026d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2025-09-26",
+    "current_revision": "2025-09-26"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC076"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE455",
+    "0112/2///62683#ACE533",
+    "0112/2///62683#ACE534",
+    "0112/2///62683#ACE070",
+    "0112/2///62683#ACE055",
+    "0112/2///62683#ACE054"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-09-25 19:16:19",
+    "user": "BATCH 00000840",
+    "change_request_id": null,
+    "unid": "EC9E126E3536A761C1258D10005EE0F5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA906",
+  "code": "ABA906",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:27",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "cc6ae621a73f7539c1258518003c4886"
+  }
+}

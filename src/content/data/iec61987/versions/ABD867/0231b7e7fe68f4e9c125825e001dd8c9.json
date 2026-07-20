@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD867",
+  "code": "ABD867",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:00",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "0231b7e7fe68f4e9c125825e001dd8c9"
+  }
+}

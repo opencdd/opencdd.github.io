@@ -1,0 +1,170 @@
+{
+  "irdi": "0112/2///61987#ABC193",
+  "code": "ABC193",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "Device tag plate",
+  "preferred_name_ml": {
+    "en": "Device tag plate",
+    "fr": "Plaque d'identification d’appareil",
+    "de": "Gerätebeschriftungsschild"
+  },
+  "definition": "properties characterizing a customized tag plate to be delivered ready mounted on the device",
+  "definition_ml": {
+    "en": "properties characterizing a customized tag plate to be delivered ready mounted on the device",
+    "fr": "propriétés caractérisant une plaque d’identification spécifique à fournir déjà montée sur l’appareil",
+    "de": "Merkmale die ein individuell angepasstes Beschriftungsschild kennzeichnen, das bei Lieferung bereits am Gerät montiert ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00144",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC193",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Device tag plate",
+    "MDC_P006.en": "properties characterizing a customized tag plate to be delivered ready mounted on the device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-02-15",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2024-02-15",
+    "MDC_P003_3": "2024-02-15",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB265,0112/2///61987#ABB266,0112/2///61987#ABB267,0112/2///61987#ABB268,0112/2///61987#ABB269,0112/2///61987#ABB270,0112/2///61987#ABB262,0112/2///61987#ABD277}",
+    "MDC_P004.fr": "Plaque d'identification d’appareil",
+    "MDC_P006.fr": "propriétés caractérisant une plaque d’identification spécifique à fournir déjà montée sur l’appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Gerätebeschriftungsschild",
+    "MDC_P006.de": "Merkmale die ein individuell angepasstes Beschriftungsschild kennzeichnen, das bei Lieferung bereits am Gerät montiert ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00144"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-02-15 11:49:12",
+      "user": "BATCH 00000823",
+      "unid": "641ECA35099140F1C1258AC4003B6FE9",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-09-08 10:23:20",
+      "user": "BATCH 00000799",
+      "unid": "f4a816c9348b7118c12588b7002e14fe",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "bce0e5e966366637c125825e001dd526",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:06",
+      "user": "BATCH 00000755",
+      "unid": "fc081fd73e3decc0c1258256003e72d9",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:43:55",
+      "user": "BATCH 00000756",
+      "unid": "18baf533ed32933cc12582560040725a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:59",
+      "user": "BATCH 00000732",
+      "unid": "853a5d7837e225d3c12580d6004bfd14",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "c03bbb77f3e9b455c1257f7e0033a7cb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:37",
+      "user": "BATCH 00000701",
+      "unid": "9dcadb313f943156c1257cfb003f983b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "edd6cf9636a55851c1257cb400549b87",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2024-02-15",
+    "current_revision": "2024-02-15"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB265",
+    "0112/2///61987#ABB266",
+    "0112/2///61987#ABB267",
+    "0112/2///61987#ABB268",
+    "0112/2///61987#ABB269",
+    "0112/2///61987#ABB270",
+    "0112/2///61987#ABB262",
+    "0112/2///61987#ABD277"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-02-15 11:49:12",
+    "user": "BATCH 00000823",
+    "change_request_id": null,
+    "unid": "641ECA35099140F1C1258AC4003B6FE9"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "irdi": "0112/2///61987#ABA571",
+  "code": "ABA571",
+  "version": "10",
+  "revision": "1",
+  "preferred_name": "climate class",
+  "preferred_name_ml": {
+    "en": "climate class",
+    "fr": "classe climatique",
+    "de": "Klimaklasse"
+  },
+  "definition": "climatic conditions, i.e. ambient temperature, pressure and humidity, to which the measurement equipment can be subjected during operation (including shutdown), transport and storage (over land or sea)",
+  "definition_ml": {
+    "en": "climatic conditions, i.e. ambient temperature, pressure and humidity, to which the measurement equipment can be subjected during operation (including shutdown), transport and storage (over land or sea)",
+    "fr": "séquence de caractères alphanumériques dénotant un ensemble de conditions climatiques, c'est-à-dire la température ambiante, la pression et l'humidité, auxquelles l'équipement de mesure peut être ou est soumis lors de son fonctionnement",
+    "de": "klimatische Bedingungen, d. h. Umgebungstemperatur, Druck und Luftfeuchtigkeit, denen das Gerät während des Betriebs (inklusive Stillstand), des Transports (über Land oder Meer) und der Lagerung ausgesetzt sein kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA571",
+    "MDC_P002_1": "10",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "climate class",
+    "MDC_P006.en": "climatic conditions, i.e. ambient temperature, pressure and humidity, to which the measurement equipment can be subjected during operation (including shutdown), transport and storage (over land or sea)",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ740)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2026-02-03",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "classe climatique",
+    "MDC_P006.fr": "séquence de caractères alphanumériques dénotant un ensemble de conditions climatiques, c'est-à-dire la température ambiante, la pression et l'humidité, auxquelles l'équipement de mesure peut être ou est soumis lors de son fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Klimaklasse",
+    "MDC_P006.de": "klimatische Bedingungen, d. h. Umgebungstemperatur, Druck und Luftfeuchtigkeit, denen das Gerät während des Betriebs (inklusive Stillstand), des Transports (über Land oder Meer) und der Lagerung ausgesetzt sein kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-10-13",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "010",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:25:33",
+      "user": "BATCH 00000857",
+      "unid": "F5136A340C797094C1258D930049C060",
+      "is_current": true
+    },
+    {
+      "version": "009",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "5d2b20e1ecfc0a40c1258cdc004a3a8e",
+      "is_current": false
+    },
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "2a10f14dfc634d3bc1258518003c486b",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "046be67c217206f5c125825e001de731",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "f3b9a86562876edbc1258256003e940c",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "ee63ab1ef1d98201c125825600407ad4",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "d4472c6db3a7071fc12580d6004c1bdd",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "ca6e5957aa0c8ed4c1257f7e0030f1bd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "c42fa536802f2157c1257fa7003a3cf6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "24fe752131f8122ec1257cfb004039b7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "4eea4d27dd5632b8c1257cb40054bb74",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2026-02-03",
+    "current_revision": "2026-02-03"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ740)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ740)",
+  "value_list": "0112/2///61987#ABJ740",
+  "is_current": true,
+  "version_meta": {
+    "version": "010",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:25:33",
+    "user": "BATCH 00000857",
+    "change_request_id": null,
+    "unid": "F5136A340C797094C1258D930049C060"
+  }
+}

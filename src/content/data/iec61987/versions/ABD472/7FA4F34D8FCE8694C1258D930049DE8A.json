@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABD472",
+  "code": "ABD472",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Pointer",
+  "preferred_name_ml": {
+    "en": "Pointer",
+    "fr": "Pointeur",
+    "de": "Zeiger"
+  },
+  "definition": "properties characterizing a pointer",
+  "definition_ml": {
+    "en": "properties characterizing a pointer",
+    "fr": "propriétés caractérisant un pointeur",
+    "de": "Merkmale, die einen Zeiger kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD472",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Pointer",
+    "MDC_P006.en": "properties characterizing a pointer",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2026-02-03",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABD473,0112/2///61987#ABB050,0112/2///61987#ABQ179,0112/2///61987#ABC009,0112/2///61987#ABD474,0112/2///61987#ABD475,0112/2///61987#ABC008,0112/2///61987#ABA586,0112/2///61987#ABA205,0112/2///61987#ABD467,0112/2///61987#ABA896}",
+    "MDC_P004.fr": "Pointeur",
+    "MDC_P006.fr": "propriétés caractérisant un pointeur",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2014-03-13",
+    "MDC_P004.de": "Zeiger",
+    "MDC_P006.de": "Merkmale, die einen Zeiger kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "7FA4F34D8FCE8694C1258D930049DE8A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:59",
+      "user": "BATCH 00000762",
+      "unid": "ebd47be1c58b9064c125825e001dd88c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:13",
+      "user": "BATCH 00000699",
+      "unid": "34455de0eb352e3ac1257cb400549d6a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2026-02-03",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABD473",
+    "0112/2///61987#ABB050",
+    "0112/2///61987#ABQ179",
+    "0112/2///61987#ABC009",
+    "0112/2///61987#ABD474",
+    "0112/2///61987#ABD475",
+    "0112/2///61987#ABC008",
+    "0112/2///61987#ABA586",
+    "0112/2///61987#ABA205",
+    "0112/2///61987#ABD467",
+    "0112/2///61987#ABA896"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "7FA4F34D8FCE8694C1258D930049DE8A"
+  }
+}

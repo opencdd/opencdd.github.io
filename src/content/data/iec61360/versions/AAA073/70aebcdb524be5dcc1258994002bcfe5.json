@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61360_4#AAA073",
+  "code": "AAA073",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "periodic/dc function",
+  "preferred_name_ml": {
+    "en": "periodic/dc function"
+  },
+  "short_name": "PER",
+  "short_name_ml": {
+    "en": "PER"
+  },
+  "definition": "periodic/ DC function ICs",
+  "definition_ml": {
+    "en": "periodic/ DC function ICs"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "periodic/dc"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "periodic/dc"
+  },
+  "note": "Periodic/ DC function indicates either periodic signals (signals f(x) of a real or complex variable with period T if f(x+T)= f(x) for every value of x) or DC signals (signals whose electric current flows in one direction only, as opposed to alternating current signal).",
+  "note_ml": {
+    "en": "Periodic/ DC function indicates either periodic signals (signals f(x) of a real or complex variable with period T if f(x+T)= f(x) for every value of x) or DC signals (signals whose electric current flows in one direction only, as opposed to alternating current signal)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA073",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P005.en": "PER",
+    "MDC_P004.en": "periodic/dc function",
+    "MDC_P007.en": "periodic/dc",
+    "MDC_P006.en": "periodic/ DC function ICs",
+    "MDC_P008.en": "Periodic/ DC function indicates either periodic signals (signals f(x) of a real or complex variable with period T if f(x+T)= f(x) for every value of x) or DC signals (signals whose electric current flows in one direction only, as opposed to alternating current signal).",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA057",
+    "MDC_P014": "{0112/2///61360_4#AAE789}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "70aebcdb524be5dcc1258994002bcfe5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:18",
+      "user": "BATCH 00000998",
+      "unid": "80af2e9fd0deaaebc12580880052e237",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:01",
+      "user": "BATCH 00000997",
+      "unid": "6e9bea24bddb1ea4c12580880051d9e0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "28975f3262008270c1257dd300516044",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "4d9586209578ff1cc1257d7300506a6b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "4481706928bdd1b8c1257a0e0047b234",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE789"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA057",
+  "superclass_type_property": "0112/2///61360_4#AAA057",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "70aebcdb524be5dcc1258994002bcfe5"
+  }
+}

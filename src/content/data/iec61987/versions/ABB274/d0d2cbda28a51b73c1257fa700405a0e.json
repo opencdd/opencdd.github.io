@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB274",
+  "code": "ABB274",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-05-02 13:42:53",
+    "user": "BATCH 00000717",
+    "change_request_id": null,
+    "unid": "d0d2cbda28a51b73c1257fa700405a0e"
+  }
+}

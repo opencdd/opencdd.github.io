@@ -1,0 +1,137 @@
+{
+  "irdi": "0112/2///61360_4#AAE255",
+  "code": "AAE255",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "HIGH-level output current",
+  "preferred_name_ml": {
+    "en": "HIGH-level output current"
+  },
+  "short_name": "I_OH",
+  "short_name_ml": {
+    "en": "I_OH"
+  },
+  "definition": "HIGH-level DC output current of a digital function of an integrated circuit, at specified conditions",
+  "definition_ml": {
+    "en": "HIGH-level DC output current of a digital function of an integrated circuit, at specified conditions"
+  },
+  "source_document": "IEC 60748-2 (III.5.3.1) (1985)",
+  "synonyms": [],
+  "remark": "Refers to the minimum current sourcing capacity of the output of a digital IC, at which a specified output voltage (V_O = V_OH) is still maintained, while the inputs are either at zero (GND/V_SS) or at supply voltage level (V_CC/V_DD).",
+  "remark_ml": {
+    "en": "Refers to the minimum current sourcing capacity of the output of a digital IC, at which a specified output voltage (V_O = V_OH) is still maintained, while the inputs are either at zero (GND/V_SS) or at supply voltage level (V_CC/V_DD)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE255",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "HIGH-level output current",
+    "MDC_P005.en": "I_OH",
+    "MDC_P006.en": "HIGH-level DC output current of a digital function of an integrated circuit, at specified conditions",
+    "MDC_P009.en": "Refers to the minimum current sourcing capacity of the output of a digital IC, at which a specified output voltage (V_O = V_OH) is still maintained, while the inputs are either at zero (GND/V_SS) or at supply voltage level (V_CC/V_DD).",
+    "MDC_P025_1": "I_OH}",
+    "MDC_P023": "A",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P006_1": "IEC 60748-2 (III.5.3.1) (1985)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE228,0112/2///61360_4#AAE958,0112/2///61360_4#AAE959,0112/2///61360_4#AAE014}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:31",
+      "user": "BATCH 00000917",
+      "unid": "41E12A831B6508E2C1257EA4004B1F30",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:24",
+      "user": "BATCH 00000907",
+      "unid": "e2acc22ffdc3dd1cc1257e8b0032357f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "c7a5b6a7ff9e7da9c1257e8a0043e353",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "dcaca48ef120df66c1257db30042e184",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:30",
+      "user": "BATCH 00000788",
+      "unid": "0528d35d58bc8ad0c1257a0e0047bba4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:51",
+      "user": "BATCH 00000787",
+      "unid": "74b02e14b625a3ecc1257a0e0046d924",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2015-03-13",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "I_OH}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE228,0112/2///61360_4#AAE958,0112/2///61360_4#AAE959,0112/2///61360_4#AAE014}",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:31",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "41E12A831B6508E2C1257EA4004B1F30"
+  }
+}

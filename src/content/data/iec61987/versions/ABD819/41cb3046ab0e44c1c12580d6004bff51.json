@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD819",
+  "code": "ABD819",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:50:05",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "41cb3046ab0e44c1c12580d6004bff51"
+  }
+}

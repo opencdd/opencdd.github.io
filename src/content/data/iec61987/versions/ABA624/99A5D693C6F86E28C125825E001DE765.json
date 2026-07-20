@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61987#ABA624",
+  "code": "ABA624",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "compressibility factor",
+  "preferred_name_ml": {
+    "en": "compressibility factor",
+    "fr": "facteur de compressibilité",
+    "de": "Realgasfaktor"
+  },
+  "definition": "factor describing the deviation of a real gas from ideal behavior",
+  "definition_ml": {
+    "en": "factor describing the deviation of a real gas from ideal behavior",
+    "fr": "facteur décrivant l'écart d'un gaz réel par rapport à son comportement idéal",
+    "de": "Faktor, der die Abweichung eines Realgases vom idealen Verhalten beschreibt"
+  },
+  "synonyms": [],
+  "note": "In the case of real gases the ideal gas equation is valid if the term pressure times molar volume is divided by the compressibility factor",
+  "note_ml": {
+    "en": "In the case of real gases the ideal gas equation is valid if the term pressure times molar volume is divided by the compressibility factor",
+    "de": "Im Fall von realen Gasen gilt die Zustandsgleichung idealer Gase, wenn der Druck multipliziert mit dem Molvolumen durch den Realgasfaktor dividiert wird"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA624",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "compressibility factor",
+    "MDC_P006.en": "factor describing the deviation of a real gas from ideal behavior",
+    "MDC_P008.en": "In the case of real gases the ideal gas equation is valid if the term pressure times molar volume is divided by the compressibility factor",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2014-03-13",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "facteur de compressibilité",
+    "MDC_P006.fr": "facteur décrivant l'écart d'un gaz réel par rapport à son comportement idéal",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Realgasfaktor",
+    "MDC_P006.de": "Faktor, der die Abweichung eines Realgases vom idealen Verhalten beschreibt",
+    "MDC_P008.de": "Im Fall von realen Gasen gilt die Zustandsgleichung idealer Gase, wenn der Druck multipliziert mit dem Molvolumen durch den Realgasfaktor dividiert wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "99A5D693C6F86E28C125825E001DE765",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "bb24981ac7e84a15c1257cfb004039eb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "92037aa245f6ade0c1257cb40054bba8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2014-03-13",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:37",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "99A5D693C6F86E28C125825E001DE765"
+  }
+}

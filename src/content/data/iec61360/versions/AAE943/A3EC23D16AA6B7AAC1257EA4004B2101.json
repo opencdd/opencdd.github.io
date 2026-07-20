@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61360_4#AAE943",
+  "code": "AAE943",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "charge time",
+  "preferred_name_ml": {
+    "en": "charge time"
+  },
+  "short_name": "t_chrg",
+  "short_name_ml": {
+    "en": "t_chrg"
+  },
+  "definition": "value as specified by level (minmax) of the time after which a discharged secondary battery attains the fully charged state at specified ambient temperature and at specified direct current",
+  "definition_ml": {
+    "en": "value as specified by level (minmax) of the time after which a discharged secondary battery attains the fully charged state at specified ambient temperature and at specified direct current"
+  },
+  "source_document": "IEC 60050 (486.04) (1991) derived",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE943",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "charge time",
+    "MDC_P005.en": "t_chrg",
+    "MDC_P006.en": "value as specified by level (minmax) of the time after which a discharged secondary battery attains the fully charged state at specified ambient temperature and at specified direct current",
+    "MDC_P025_1": "t_chrg}",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60050 (486.04) (1991) derived",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE945}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "A3EC23D16AA6B7AAC1257EA4004B2101",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "b266fbb02f8bf6d5c1257e8b0032374f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "2a984df3e232c018c1257e8a0043e524",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "968ebd384efa24bbc1257a0e0047bd5d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "b863bf1945222c67c1257a0e0046dadd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_chrg}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE945}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:36",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "A3EC23D16AA6B7AAC1257EA4004B2101"
+  }
+}

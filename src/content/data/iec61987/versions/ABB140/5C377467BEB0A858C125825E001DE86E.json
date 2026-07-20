@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABB140",
+  "code": "ABB140",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "leak tightness to exterior",
+  "preferred_name_ml": {
+    "en": "leak tightness to exterior",
+    "fr": "étanchéité aux fuites vers l'extérieur",
+    "de": "Dichtheit nach außen"
+  },
+  "definition": "tightness of a pressure or vacuum housing expressed in terms of the leakage rate to or from its environment",
+  "definition_ml": {
+    "en": "tightness of a pressure or vacuum housing expressed in terms of the leakage rate to or from its environment",
+    "fr": "étanchéité d'un boîtier sous pression ou sous vide exprimée en termes de taux de fuite",
+    "de": "Dichtheit eines Druck- oder Vakuumgehäuses, ausgedrückt in Bezug auf die Leckrate nach außen oder nach innen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB140",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "leak tightness to exterior",
+    "MDC_P006.en": "tightness of a pressure or vacuum housing expressed in terms of the leakage rate to or from its environment",
+    "MDC_P023": "mbar·l/s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA813",
+    "C0104": "0112/2///61987#ABT552",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "étanchéité aux fuites vers l'extérieur",
+    "MDC_P006.fr": "étanchéité d'un boîtier sous pression ou sous vide exprimée en termes de taux de fuite",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Dichtheit nach außen",
+    "MDC_P006.de": "Dichtheit eines Druck- oder Vakuumgehäuses, ausgedrückt in Bezug auf die Leckrate nach außen oder nach innen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:40",
+      "user": "BATCH 00000762",
+      "unid": "5C377467BEB0A858C125825E001DE86E",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:40",
+      "user": "BATCH 00000755",
+      "unid": "10d2e6b1f3fd34e7c1258256003e9781",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:21",
+      "user": "BATCH 00000732",
+      "unid": "259c74dbb446e797c12580d6004c1d1d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:10",
+      "user": "BATCH 00000715",
+      "unid": "f04ecffaa84975dcc1257f7f004d02e7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "83d06968fee9482bc1257fa7004059c5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:33",
+      "user": "BATCH 00000702",
+      "unid": "624e7481b6ec3b21c1257cfb00403af7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "828e01fe1aed063bc1257cb40054bcb4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA813",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:40",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "5C377467BEB0A858C125825E001DE86E"
+  }
+}

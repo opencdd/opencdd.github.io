@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE244",
+  "code": "ABE244",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:40",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "1a83c394303bf4cac12580d6004c247f"
+  }
+}

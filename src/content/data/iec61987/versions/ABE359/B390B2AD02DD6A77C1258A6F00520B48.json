@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61987#ABE359",
+  "code": "ABE359",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Thermographic device with single element detector",
+  "preferred_name_ml": {
+    "en": "Thermographic device with single element detector",
+    "de": "Thermografiegerät mit Einzelelementdetektor"
+  },
+  "definition": "area temperature measuring device with a single detector that samples radiation sequentially across an area by opto-mechanical means",
+  "definition_ml": {
+    "en": "area temperature measuring device with a single detector that samples radiation sequentially across an area by opto-mechanical means",
+    "de": "Thermografiegerät mit zeilenförmig angeordneten Einzeldetektoren, das die Strahlung einer Fläche sequenziell durch Scannen mit opto-mechanischen Mitteln abtastet"
+  },
+  "synonyms": [],
+  "note": "In thermographic devices with single-element detector, image sampling takes place with a two-dimensional sequential opto-mechanical sampling system consisting of rotating prisms or polygonal mirrors.",
+  "note_ml": {
+    "en": "In thermographic devices with single-element detector, image sampling takes place with a two-dimensional sequential opto-mechanical sampling system consisting of rotating prisms or polygonal mirrors.",
+    "de": "In Thermografiegeräten mit Einzelelementdetektoren findet eine zweidimensionale opto-mechanische Erfassung statt, die aus rotierenden Prismen oder polygonalen Spiegeln besteht."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE359",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Thermographic device with single element detector",
+    "MDC_P006.en": "area temperature measuring device with a single detector that samples radiation sequentially across an area by opto-mechanical means",
+    "MDC_P008.en": "In thermographic devices with single-element detector, image sampling takes place with a two-dimensional sequential opto-mechanical sampling system consisting of rotating prisms or polygonal mirrors.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABE358",
+    "MDC_P004.de": "Thermografiegerät mit Einzelelementdetektor",
+    "MDC_P006.de": "Thermografiegerät mit zeilenförmig angeordneten Einzeldetektoren, das die Strahlung einer Fläche sequenziell durch Scannen mit opto-mechanischen Mitteln abtastet",
+    "MDC_P008.de": "In Thermografiegeräten mit Einzelelementdetektoren findet eine zweidimensionale opto-mechanische Erfassung statt, die aus rotierenden Prismen oder polygonalen Spiegeln besteht.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:08",
+      "user": "BATCH 00000816",
+      "unid": "B390B2AD02DD6A77C1258A6F00520B48",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:02",
+      "user": "BATCH 00000762",
+      "unid": "e4e4e4e21098304dc125825e001dd99c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABE358",
+  "superclass_type_property": "0112/2///61987#ABE358",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:08",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "B390B2AD02DD6A77C1258A6F00520B48"
+  }
+}

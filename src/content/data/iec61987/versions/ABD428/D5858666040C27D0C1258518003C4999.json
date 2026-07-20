@@ -1,0 +1,141 @@
+{
+  "irdi": "0112/2///61987#ABD428",
+  "code": "ABD428",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "maximum operating relative permittivity",
+  "preferred_name_ml": {
+    "en": "maximum operating relative permittivity",
+    "fr": "constante diélectrique maximale de service",
+    "de": "maximale Permittivitätszahl"
+  },
+  "definition": "highest relative permittivity for which a device is or should be designed to operate within its specified limits",
+  "definition_ml": {
+    "en": "highest relative permittivity for which a device is or should be designed to operate within its specified limits",
+    "fr": "constante diélectrique la plus élevée pour laquelle un appareil est ou doit être conçu pour fonctionner dans ses limites spécifiées",
+    "de": "höchste Permittivitätszahl, für die ein Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb seiner Spezifikationen betrieben wird"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "maximum operating dielectric constant"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "maximum operating dielectric constant",
+    "de": "maximale Dielektrizitäskonstante"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD428",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum operating relative permittivity",
+    "MDC_P007.en": "maximum operating dielectric constant",
+    "MDC_P006.en": "highest relative permittivity for which a device is or should be designed to operate within its specified limits",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "constante diélectrique maximale de service",
+    "MDC_P006.fr": "constante diélectrique la plus élevée pour laquelle un appareil est ou doit être conçu pour fonctionner dans ses limites spécifiées",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "maximale Permittivitätszahl",
+    "MDC_P007.de": "maximale Dielektrizitäskonstante",
+    "MDC_P006.de": "höchste Permittivitätszahl, für die ein Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb seiner Spezifikationen betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-07-12",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "D5858666040C27D0C1258518003C4999",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:54",
+      "user": "BATCH 00000762",
+      "unid": "7887422c9c76f510c125825e001dee0e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:36",
+      "user": "BATCH 00000732",
+      "unid": "2e8177922559b3a8c12580d6004c22be",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "20ae60d43197de62c1257fa700405b97",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:48",
+      "user": "BATCH 00000702",
+      "unid": "f3739937d0978af1c1257cfb00404094",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:47",
+      "user": "BATCH 00000699",
+      "unid": "f6e8dd9d8ca4240ac1257cb40054c251",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:30",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "D5858666040C27D0C1258518003C4999"
+  }
+}

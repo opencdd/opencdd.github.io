@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61360_4#AAA016",
+  "code": "AAA016",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "resistive antenna",
+  "preferred_name_ml": {
+    "en": "resistive antenna"
+  },
+  "short_name": "RES",
+  "short_name_ml": {
+    "en": "RES"
+  },
+  "definition": "antenna in which, under given conditions, the predominant function is effected by means of resistance",
+  "definition_ml": {
+    "en": "antenna in which, under given conditions, the predominant function is effected by means of resistance"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "resistive"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "resistive"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA016",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "RES",
+    "MDC_P004.en": "resistive antenna",
+    "MDC_P007.en": "resistive",
+    "MDC_P006.en": "antenna in which, under given conditions, the predominant function is effected by means of resistance",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA013",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "3f7c6c5fc7ef2413c1258994002bcfac",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "5f94ca65c62d94fac1257dd300515f15",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "f3a90a1dd8096668c1257d730050693b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "2d9e3ffbf2ca6b52c1257a0e0047b1fb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA013",
+  "superclass_type_property": "0112/2///61360_4#AAA013",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "3f7c6c5fc7ef2413c1258994002bcfac"
+  }
+}

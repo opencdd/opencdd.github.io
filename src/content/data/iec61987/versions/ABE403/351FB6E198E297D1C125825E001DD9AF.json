@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABE403",
+  "code": "ABE403",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Closure member",
+  "preferred_name_ml": {
+    "en": "Closure member",
+    "de": "Drosselkörper"
+  },
+  "definition": "properties characterizing a closure member of a final control element",
+  "definition_ml": {
+    "en": "properties characterizing a closure member of a final control element",
+    "de": "Merkmale, die einen Drosselkörper für ein Stellgerät kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE403",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Closure member",
+    "MDC_P006.en": "properties characterizing a closure member of a final control element",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE419,0112/2///61987#ABA591,0112/2///61987#ABE414,0112/2///61987#ABE406,0112/2///61987#ABE408}",
+    "MDC_P004.de": "Drosselkörper",
+    "MDC_P006.de": "Merkmale, die einen Drosselkörper für ein Stellgerät kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-01-14",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:02",
+      "user": "BATCH 00000762",
+      "unid": "351FB6E198E297D1C125825E001DD9AF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:15",
+      "user": "BATCH 00000699",
+      "unid": "dc4ce55212e0698dc1257cb400549e49",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE419",
+    "0112/2///61987#ABA591",
+    "0112/2///61987#ABE414",
+    "0112/2///61987#ABE406",
+    "0112/2///61987#ABE408"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:02",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "351FB6E198E297D1C125825E001DD9AF"
+  }
+}

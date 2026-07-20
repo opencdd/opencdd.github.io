@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABA086",
+  "code": "ABA086",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "type of telephone number",
+  "preferred_name_ml": {
+    "en": "type of telephone number",
+    "de": "Art der Telefonnummer"
+  },
+  "definition": "characterization of a telephone according to its location or usage",
+  "definition_ml": {
+    "en": "characterization of a telephone according to its location or usage",
+    "de": "Kennzeichnung einer Telefonnummer bezüglich ihres Orts oder ihrer Verwendung"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA086",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of telephone number",
+    "MDC_P006.en": "characterization of a telephone according to its location or usage",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL551)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art der Telefonnummer",
+    "MDC_P006.de": "Kennzeichnung einer Telefonnummer bezüglich ihres Orts oder ihrer Verwendung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-07-23",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "8AACE979DC0C09A1C1258CDC004A3A3F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "5d9371def4e2cff3c1258518003c4808",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:27",
+      "user": "BATCH 00000766",
+      "unid": "aa958f740af6e499c12583b7005026aa",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL551)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL551)",
+  "value_list": "0112/2///61987#ABL551",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "8AACE979DC0C09A1C1258CDC004A3A3F"
+  }
+}

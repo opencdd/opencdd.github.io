@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE616",
+  "code": "AAE616",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "thermal sensitivity index B25/75",
+  "preferred_name_ml": {
+    "en": "thermal sensitivity index B25/75"
+  },
+  "short_name": "B_25/75",
+  "short_name_ml": {
+    "en": "B_25/75"
+  },
+  "definition": "value as specified by level (miNomax) of the mean temperature sensitivity index of an NTC thermistor between 25 and 75 Cel",
+  "definition_ml": {
+    "en": "value as specified by level (miNomax) of the mean temperature sensitivity index of an NTC thermistor between 25 and 75 Cel"
+  },
+  "source_document": "IEC 60539 (4.13) (1976)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE616",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "thermal sensitivity index B25/75",
+    "MDC_P005.en": "B_25/75",
+    "MDC_P006.en": "value as specified by level (miNomax) of the mean temperature sensitivity index of an NTC thermistor between 25 and 75 Cel",
+    "MDC_P025_1": "B_25/75}",
+    "MDC_P023": "K",
+    "MDC_P022": "LEVEL(MIN,MAX,NOM) OF INT_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P006_1": "IEC 60539 (4.13) (1976)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "H01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA185",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "106B85A1FE190332C1257EA4004B2027",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "71d9a22d7de47c0ec1257e8b00323676",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "0098531853e57387c1257e8a0043e44a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "73033566661ed394c1257a0e0047bc8d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "a149f29d371b44c6c1257a0e0046da0d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "B_25/75}",
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA185",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,NOM) OF INT_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,NOM) OF INT_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "106B85A1FE190332C1257EA4004B2027"
+  }
+}

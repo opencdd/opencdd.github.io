@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA858",
+  "code": "ABA858",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Bypass/measuring chamber",
+  "preferred_name_ml": {
+    "en": "Bypass/measuring chamber",
+    "fr": "Chambre de mesure",
+    "de": "Bypass/Messkammer"
+  },
+  "definition": "fitting comprising a chamber that creates an environment where a liquid level is measured",
+  "definition_ml": {
+    "en": "fitting comprising a chamber that creates an environment where a liquid level is measured",
+    "fr": "adaptateur comprenant une chambre qui crée un environnement où un niveau de liquide est mesuré",
+    "de": "Formstück mit einer Kammer, die eine Umgebung schafft, in der der Füllstand einer Flüssigkeit gemessen wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA858",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Bypass/measuring chamber",
+    "MDC_P006.en": "fitting comprising a chamber that creates an environment where a liquid level is measured",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA856",
+    "MDC_P014": "{0112/2///61987#ABF873}",
+    "MDC_P004.fr": "Chambre de mesure",
+    "MDC_P006.fr": "adaptateur comprenant une chambre qui crée un environnement où un niveau de liquide est mesuré",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-27",
+    "MDC_P004.de": "Bypass/Messkammer",
+    "MDC_P006.de": "Formstück mit einer Kammer, die eine Umgebung schafft, in der der Füllstand einer Flüssigkeit gemessen wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "25E53703D5970BA1C1258A6F00520AF1",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "d079c32fc2d0a4a4c125825e001dd44a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:58",
+      "user": "BATCH 00000732",
+      "unid": "4d9739fe049eaa5fc12580d6004bfc5c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "a740e0c5d0eac83fc1257cb3002a0cff",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF873"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA856",
+  "superclass_type_property": "0112/2///61987#ABA856",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "25E53703D5970BA1C1258A6F00520AF1"
+  }
+}

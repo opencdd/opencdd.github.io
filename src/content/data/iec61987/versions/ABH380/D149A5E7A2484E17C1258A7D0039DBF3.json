@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABH380",
+  "code": "ABH380",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "alignment of sheath",
+  "preferred_name_ml": {
+    "en": "alignment of sheath",
+    "de": "Ausrichtung der Ummantelung"
+  },
+  "definition": "classification of a sheath according to its angle of installation",
+  "definition_ml": {
+    "en": "classification of a sheath according to its angle of installation",
+    "de": "Charakterisierung einer Ummantelung bezüglich der Winkels seiner Montage"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH380",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "alignment of sheath",
+    "MDC_P006.en": "classification of a sheath according to its angle of installation",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2014-12-30",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Ausrichtung der Ummantelung",
+    "MDC_P006.de": "Charakterisierung einer Ummantelung bezüglich der Winkels seiner Montage",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-30",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:58",
+      "user": "BATCH 00000818",
+      "unid": "D149A5E7A2484E17C1258A7D0039DBF3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:15",
+      "user": "BATCH 00000762",
+      "unid": "4063767384709188c125825e001df606",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-30",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:58",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "D149A5E7A2484E17C1258A7D0039DBF3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABG809",
+  "code": "ABG809",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:27:11",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "ee45c1ae4bb6e4fec125825e001df48a"
+  }
+}

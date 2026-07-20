@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABU581",
+  "code": "ABU581",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "measured variable type [5]",
+  "preferred_name_ml": {
+    "en": "measured variable type [5]",
+    "fr": "type de variable mesurée",
+    "de": "Messgrößentyp"
+  },
+  "definition": "type of quantity subject to measurement",
+  "definition_ml": {
+    "en": "type of quantity subject to measurement",
+    "fr": "type de variable mesurée",
+    "de": "Art einer Größe, die gemessen wird"
+  },
+  "synonyms": [],
+  "remark": "Polymorphic control property;|Id specified in IEC61987: ABE468",
+  "remark_ml": {
+    "en": "Polymorphic control property;|Id specified in IEC61987: ABE468"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00016",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU581",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "measured variable type [5]",
+    "MDC_P006.en": "type of quantity subject to measurement",
+    "MDC_P009.en": "Polymorphic control property;|Id specified in IEC61987: ABE468",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU573(Travel measurement,Other variable))",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-07-25",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "MDC_P004.fr": "type de variable mesurée",
+    "MDC_P006.fr": "type de variable mesurée",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2014-07-25",
+    "MDC_P004.de": "Messgrößentyp",
+    "MDC_P006.de": "Art einer Größe, die gemessen wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-09-30",
+    "C002": "C00016"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:21",
+      "user": "BATCH 00000762",
+      "unid": "18941A278DCFD069C125825E001DF862",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:48",
+      "user": "BATCH 00000732",
+      "unid": "7cc794eebafd0930c12580d6004c27af",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-07-25",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU573(Travel measurement,Other variable))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU573(Travel measurement,Other variable))",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:21",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "18941A278DCFD069C125825E001DF862"
+  }
+}

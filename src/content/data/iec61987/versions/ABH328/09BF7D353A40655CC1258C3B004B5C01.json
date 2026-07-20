@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABH328",
+  "code": "ABH328",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "actual volume",
+  "preferred_name_ml": {
+    "en": "actual volume",
+    "de": "Volumen"
+  },
+  "short_name": "Volume",
+  "short_name_ml": {
+    "en": "Volume",
+    "de": "Volumen"
+  },
+  "definition": "volume of material measured under operating conditions",
+  "definition_ml": {
+    "en": "volume of material measured under operating conditions",
+    "de": "Volumen eines Mediums, gemessen unter Betriebsbedingungen"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH328",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "actual volume",
+    "MDC_P005.en": "Volume",
+    "MDC_P006.en": "volume of material measured under operating conditions",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P023": "m³",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA757",
+    "C0104": "0112/2///61987#ABT505",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Volumen",
+    "MDC_P005.de": "Volumen",
+    "MDC_P006.de": "Volumen eines Mediums, gemessen unter Betriebsbedingungen",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-09-28",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "09BF7D353A40655CC1258C3B004B5C01",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:58",
+      "user": "BATCH 00000794",
+      "unid": "f200038aa6f10a5bc125886f003c9adc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:14",
+      "user": "BATCH 00000762",
+      "unid": "89e590ca33365b52c125825e001df5e5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA757",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "09BF7D353A40655CC1258C3B004B5C01"
+  }
+}

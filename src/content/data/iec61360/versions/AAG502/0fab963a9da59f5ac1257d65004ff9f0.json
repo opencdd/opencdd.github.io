@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAG502",
+  "code": "AAG502",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-10-02 16:33:33",
+    "user": "BATCH 00000878",
+    "change_request_id": null,
+    "unid": "0fab963a9da59f5ac1257d65004ff9f0"
+  }
+}

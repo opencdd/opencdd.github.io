@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABN972",
+  "code": "ABN972",
+  "version": "2",
+  "revision": "3",
+  "preferred_name": "Device diagnostic status",
+  "preferred_name_ml": {
+    "en": "Device diagnostic status",
+    "de": "Gerätediagnosestatus"
+  },
+  "short_name": "Diagnostic status",
+  "short_name_ml": {
+    "en": "Diagnostic status"
+  },
+  "definition": "properties characterizing device diagnostic function states",
+  "definition_ml": {
+    "en": "properties characterizing device diagnostic function states",
+    "de": "Merkmale, die die Gerätediagnosefunktionsstati kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00178",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABN972",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "3",
+    "MDC_P005.en": "Diagnostic status",
+    "MDC_P004.en": "Device diagnostic status",
+    "MDC_P006.en": "properties characterizing device diagnostic function states",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-14",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-07-14",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABH925,0112/2///61987#ABH926,0112/2///61987#ABH927,0112/2///61987#ABH928,0112/2///61987#ABN599,0112/2///61987#ABN600,0112/2///61987#ABN601}",
+    "MDC_P004.de": "Gerätediagnosestatus",
+    "MDC_P006.de": "Merkmale, die die Gerätediagnosefunktionsstati kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00178"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-07-14 15:51:26",
+      "user": "BATCH 00000847",
+      "unid": "3D589A16663CB989C1258CC7004C1EF2",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-03-18 11:43:15",
+      "user": "BATCH 00000836",
+      "unid": "d4d8714495564491c1258c51003ae453",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:45:21",
+      "user": "BATCH 00000835",
+      "unid": "26fc0b389ec65017c1258c3b004b9053",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:11",
+      "user": "BATCH 00000778",
+      "unid": "c1ea39c2131fe020c1258518003fd489",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-02-24",
+    "current_revision": "2025-07-14"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH925",
+    "0112/2///61987#ABH926",
+    "0112/2///61987#ABH927",
+    "0112/2///61987#ABH928",
+    "0112/2///61987#ABN599",
+    "0112/2///61987#ABN600",
+    "0112/2///61987#ABN601"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-07-14 15:51:26",
+    "user": "BATCH 00000847",
+    "change_request_id": null,
+    "unid": "3D589A16663CB989C1258CC7004C1EF2"
+  }
+}

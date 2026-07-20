@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF277",
+  "code": "ACF277",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "General technical data for Linear encoder",
+  "preferred_name_ml": {
+    "en": "General technical data for Linear encoder",
+    "fr": "Données techniques générales pour Codeur linéaire",
+    "de": "Allgemeine technische Daten für Lineargeber",
+    "zh": "线性编码器的一般技术数据"
+  },
+  "definition": "general technical aspects of the linear encoder",
+  "definition_ml": {
+    "en": "general technical aspects of the linear encoder",
+    "fr": "aspects techniques généraux du codeur linéaire",
+    "de": "Allgemeine technische Gesichtspunkte des Lineargebers",
+    "zh": "线性编码器的一般数据"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00087",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF277",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "General technical data for Linear encoder",
+    "MDC_P006.en": "general technical aspects of the linear encoder",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG277)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2021-02-16",
+    "MDC_P003_1": "2016-02-01",
+    "MDC_P003_2": "2021-02-16",
+    "MDC_P003_3": "2021-02-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Données techniques générales pour Codeur linéaire",
+    "MDC_P006.fr": "aspects techniques généraux du codeur linéaire",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Allgemeine technische Daten für Lineargeber",
+    "MDC_P006.de": "Allgemeine technische Gesichtspunkte des Lineargebers",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2018-01-18",
+    "MDC_P004.zh": "线性编码器的一般技术数据",
+    "MDC_P006.zh": "线性编码器的一般数据",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2018-05-30",
+    "C002": "C00087"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2021-02-16 08:32:21",
+      "user": "BATCH 00000793",
+      "unid": "6DE1976127979A5FC125867E00296A37",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:08:18",
+      "user": "BATCH 00000746",
+      "unid": "617460b30894cb62c12584ec00741dfd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2016-02-01",
+    "current_version": "2021-02-16",
+    "current_revision": "2021-02-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG277)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG277)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2021-02-16 08:32:21",
+    "user": "BATCH 00000793",
+    "change_request_id": null,
+    "unid": "6DE1976127979A5FC125867E00296A37"
+  }
+}

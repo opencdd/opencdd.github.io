@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ADA229",
+  "code": "ADA229",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2019-06-26 10:07:44",
+    "user": "BATCH 00001071",
+    "change_request_id": null,
+    "unid": "a9504c80c2632b5ec1258425002ca754"
+  }
+}

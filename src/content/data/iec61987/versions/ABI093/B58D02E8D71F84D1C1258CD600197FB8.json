@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABI093",
+  "code": "ABI093",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "CALIBRATION_POINT_LOW",
+  "preferred_name_ml": {
+    "en": "CALIBRATION_POINT_LOW",
+    "de": "CALIBRATION_POINT_LOW"
+  },
+  "definition": "parameter setting the lower calibration point of a device",
+  "definition_ml": {
+    "en": "parameter setting the lower calibration point of a device",
+    "de": "Parameter, der den unteren Kalibrierpunkt eines Geräts bestimmt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABI093",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "CALIBRATION_POINT_LOW",
+    "MDC_P006.en": "parameter setting the lower calibration point of a device",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-29",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-07-29",
+    "MDC_P003_3": "2025-07-29",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "CALIBRATION_POINT_LOW",
+    "MDC_P006.de": "Parameter, der den unteren Kalibrierpunkt eines Geräts bestimmt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-12-21",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-29 06:38:30",
+      "user": "BATCH 00000848",
+      "unid": "B58D02E8D71F84D1C1258CD600197FB8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "9454a980cd1ec2e7c12583b700502817",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-07-29",
+    "current_revision": "2025-07-29"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-29 06:38:30",
+    "user": "BATCH 00000848",
+    "change_request_id": null,
+    "unid": "B58D02E8D71F84D1C1258CD600197FB8"
+  }
+}

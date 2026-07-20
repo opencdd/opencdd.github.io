@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61360_4#AFD068",
+  "code": "AFD068",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "turn-on delay time",
+  "preferred_name_ml": {
+    "en": "turn-on delay time"
+  },
+  "short_name": "t_d(on)",
+  "short_name_ml": {
+    "en": "t_d(on)"
+  },
+  "definition": "time interval between the start of a voltage applied to the gate terminal that switches the IGBT from the off-state to the on-state and the start of the rise of the collector current",
+  "definition_ml": {
+    "en": "time interval between the start of a voltage applied to the gate terminal that switches the IGBT from the off-state to the on-state and the start of the rise of the collector current"
+  },
+  "source_document": "IEC 60747-9 2007",
+  "synonyms": [],
+  "note": "Usually, the time is measured between points corresponding to 10 % of the input and output pulse amplitudes.",
+  "note_ml": {
+    "en": "Usually, the time is measured between points corresponding to 10 % of the input and output pulse amplitudes."
+  },
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD068",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "turn-on delay time",
+    "MDC_P005.en": "t_d(on)",
+    "MDC_P006.en": "time interval between the start of a voltage applied to the gate terminal that switches the IGBT from the off-state to the on-state and the start of the rise of the collector current",
+    "MDC_P008.en": "Usually, the time is measured between points corresponding to 10 % of the input and output pulse amplitudes.",
+    "MDC_P025_1": "t_d(on)",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60747-9 2007",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA015",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-04-24",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "2AA8FC0DBCB6F2ACC1257EA4004B2562",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "082b611ac808cf1dc1257e8b00323b6a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "fd068331c023cf52c1257e8a0043e985",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-18 14:54:43",
+      "user": "BATCH 00000812",
+      "unid": "9b1eddc8ea291a9fc1257af7004c6bb3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-04-24",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_d(on)",
+  "definition_class_irdi": "0112/2///61360_4#AFA015",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "2AA8FC0DBCB6F2ACC1257EA4004B2562"
+  }
+}

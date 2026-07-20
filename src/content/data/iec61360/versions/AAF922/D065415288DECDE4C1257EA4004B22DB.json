@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61360_4#AAF922",
+  "code": "AAF922",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "dust suspension",
+  "preferred_name_ml": {
+    "en": "dust suspension"
+  },
+  "definition": "amount of particles in suspension in a gas that would have a gravitational settling velocity in air greater than 0,25 m/s",
+  "definition_ml": {
+    "en": "amount of particles in suspension in a gas that would have a gravitational settling velocity in air greater than 0,25 m/s"
+  },
+  "source_document": "IEC 60050-393:2003, 393-11-39 MOD",
+  "synonyms": [],
+  "note": "Equivalent aerodynamic diameter of dust is generally included between 100 μm to 2 mm.",
+  "note_ml": {
+    "en": "Equivalent aerodynamic diameter of dust is generally included between 100 μm to 2 mm."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF922",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "dust suspension",
+    "MDC_P006.en": "amount of particles in suspension in a gas that would have a gravitational settling velocity in air greater than 0,25 m/s",
+    "MDC_P008.en": "Equivalent aerodynamic diameter of dust is generally included between 100 μm to 2 mm.",
+    "MDC_P023": "mg/m³",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60050-393:2003, 393-11-39 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A57",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA830",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "D065415288DECDE4C1257EA4004B22DB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "89a4d91d2786a49ac1257e8b0032390a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "fe3aff112be764b2c1257e8a0043e6fe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "5be0b22d5a5d3a7bc1257b9e0044e850",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA830",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D065415288DECDE4C1257EA4004B22DB"
+  }
+}

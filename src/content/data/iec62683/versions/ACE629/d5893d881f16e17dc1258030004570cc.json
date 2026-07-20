@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///62683#ACE629",
+  "code": "ACE629",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "unlatching method",
+  "preferred_name_ml": {
+    "en": "unlatching method",
+    "fr": "méthode de déverrouillage",
+    "de": "Entriegelungsmethode",
+    "zh": "解锁方法"
+  },
+  "definition": "method to release the actuator from the latched position",
+  "definition_ml": {
+    "en": "method to release the actuator from the latched position",
+    "fr": "méthode utilisée pour déverrouiller l'organe de commande de sa position accrochée",
+    "de": "Methode um das Bedienteil aus der eingerasteten Position zu entriegeln.",
+    "zh": "从锁扣位置释放操动器的方式"
+  },
+  "synonyms": [
+    {
+      "lang": "reset",
+      "name": "to disengage"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "reset, to disengage",
+    "fr": "réarmement"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE629",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "unlatching method",
+    "MDC_P007.en": "reset, to disengage",
+    "MDC_P006.en": "method to release the actuator from the latched position",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///62683#ACI016)",
+    "MDC_P024": "X..32",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC017",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-01-28",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "méthode de déverrouillage",
+    "MDC_P007.fr": "réarmement",
+    "MDC_P006.fr": "méthode utilisée pour déverrouiller l'organe de commande de sa position accrochée",
+    "C019.fr": "AFNOR",
+    "C017.fr": "2",
+    "C018.fr": "2025-03-14",
+    "MDC_P004.de": "Entriegelungsmethode",
+    "MDC_P006.de": "Methode um das Bedienteil aus der eingerasteten Position zu entriegeln.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "解锁方法",
+    "MDC_P006.zh": "从锁扣位置释放操动器的方式",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:28",
+      "user": "BATCH 00000704",
+      "unid": "d5893d881f16e17dc1258030004570cc",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:49",
+      "user": "BATCH 00000741",
+      "unid": "A4FE49029897FE67C12584EC006DC150",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-01-28",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "value_format": "X..32",
+  "definition_class_irdi": "0112/2///62683#ACC017",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///62683#ACI016)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///62683#ACI016)",
+  "value_list": "0112/2///62683#ACI016",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:28",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "d5893d881f16e17dc1258030004570cc"
+  }
+}

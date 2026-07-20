@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///62683#ACE626",
+  "code": "ACE626",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "mounting hole size",
+  "preferred_name_ml": {
+    "en": "mounting hole size",
+    "fr": "diamètre du trou de fixation",
+    "de": "Größe des Befestigungsloches",
+    "zh": "安装孔尺寸"
+  },
+  "definition": "diameter of the mounting hole supporting the device",
+  "definition_ml": {
+    "en": "diameter of the mounting hole supporting the device",
+    "fr": "diamètre du trou de montage supportant l'appareil",
+    "de": "Durchmesser des Befestigungslochs des Geräts.",
+    "zh": "支撑电器的安装孔的直径"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00159",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE626",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "mounting hole size",
+    "MDC_P006.en": "diameter of the mounting hole supporting the device",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///62683#ACI085)",
+    "MDC_P024": "X..5",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC010",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-05-07",
+    "MDC_P003_1": "2012-11-26",
+    "MDC_P003_2": "2024-05-06",
+    "MDC_P003_3": "2024-05-06",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "diamètre du trou de fixation",
+    "MDC_P006.fr": "diamètre du trou de montage supportant l'appareil",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2015-05-20",
+    "MDC_P004.de": "Größe des Befestigungsloches",
+    "MDC_P006.de": "Durchmesser des Befestigungslochs des Geräts.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "安装孔尺寸",
+    "MDC_P006.zh": "支撑电器的安装孔的直径",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00159"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-05-07 21:51:19",
+      "user": "BATCH 00000806",
+      "unid": "484EE4ADCB76538AC1258B16006D1199",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 20:58:49",
+      "user": "BATCH 00000741",
+      "unid": "1869c94d8cd9df77c12584ec006dc14f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:28",
+      "user": "BATCH 00000704",
+      "unid": "0f3e003049e60efcc1258030004570c9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-11-26",
+    "current_version": "2024-05-06",
+    "current_revision": "2024-05-06"
+  },
+  "value_format": "X..5",
+  "definition_class_irdi": "0112/2///62683#ACC010",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///62683#ACI085)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///62683#ACI085)",
+  "value_list": "0112/2///62683#ACI085",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-05-07 21:51:19",
+    "user": "BATCH 00000806",
+    "change_request_id": null,
+    "unid": "484EE4ADCB76538AC1258B16006D1199"
+  }
+}

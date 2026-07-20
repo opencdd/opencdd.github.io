@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABA345",
+  "code": "ABA345",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "lower range-value of mass flow",
+  "preferred_name_ml": {
+    "en": "lower range-value of mass flow",
+    "fr": "valeur de plage inférieure du débit massique",
+    "de": "Bereichsanfangswert für Massedurchfluss"
+  },
+  "definition": "mass flow value assigned to the lower range end-value of the input or output signal",
+  "definition_ml": {
+    "en": "mass flow value assigned to the lower range end-value of the input or output signal",
+    "fr": "valeur de débit massique assignée à la valeur inférieure d'extrémité de plage du signal d'entrée ou de sortie",
+    "de": "Wert für Massedurchfluss, der dem Bereichsanfangswert des Eingangs- oder Ausgangssignals zugeordnet ist"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "lower range-value"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "lower range-value",
+    "de": "Bereichsanfangswert"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA345",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "lower range-value of mass flow",
+    "MDC_P007.en": "lower range-value",
+    "MDC_P006.en": "mass flow value assigned to the lower range end-value of the input or output signal",
+    "MDC_P023": "kg/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA607",
+    "C0104": "0112/2///61987#ABT545",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "valeur de plage inférieure du débit massique",
+    "MDC_P006.fr": "valeur de débit massique assignée à la valeur inférieure d'extrémité de plage du signal d'entrée ou de sortie",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Bereichsanfangswert für Massedurchfluss",
+    "MDC_P007.de": "Bereichsanfangswert",
+    "MDC_P006.de": "Wert für Massedurchfluss, der dem Bereichsanfangswert des Eingangs- oder Ausgangssignals zugeordnet ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:34",
+      "user": "BATCH 00000762",
+      "unid": "D6885001231260C1C125825E001DE648",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:50",
+      "user": "BATCH 00000717",
+      "unid": "f5b2ae1af5cfbd3cc1257fa7004058fa",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:28",
+      "user": "BATCH 00000702",
+      "unid": "ed714140cf70fb2bc1257cfb004038e5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "3264ff351bb7871bc1257cb40054baa2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA607",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:34",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D6885001231260C1C125825E001DE648"
+  }
+}

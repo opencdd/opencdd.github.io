@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61987#ABC221",
+  "code": "ABC221",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Electrical wiring data",
+  "preferred_name_ml": {
+    "en": "Electrical wiring data",
+    "fr": "Données de câblage électrique",
+    "de": "Daten der elektrische Verkabelung"
+  },
+  "definition": "properties characterizing the electrical wiring data of an installation point",
+  "definition_ml": {
+    "en": "properties characterizing the electrical wiring data of an installation point",
+    "fr": "propriétés caractérisant les données de câblage électrique d’un point de mesurage",
+    "de": "Merkmale, die die Daten der elektrischen Verkabelung eines Installationspunkts kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC221",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Electrical wiring data",
+    "MDC_P006.en": "properties characterizing the electrical wiring data of an installation point",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2019-03-12",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB355,0112/2///61987#ABB356,0112/2///61987#ABB357}",
+    "MDC_P004.fr": "Données de câblage électrique",
+    "MDC_P006.fr": "propriétés caractérisant les données de câblage électrique d’un point de mesurage",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Daten der elektrische Verkabelung",
+    "MDC_P006.de": "Merkmale, die die Daten der elektrischen Verkabelung eines Installationspunkts kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:07",
+      "user": "BATCH 00000803",
+      "unid": "E4C627488CF64B97C12589130030428A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "1ffc256a0bdcbcc7c125825e001dd542",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "e9367aa438454437c1257cb400549ba3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-03-12",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB355",
+    "0112/2///61987#ABB356",
+    "0112/2///61987#ABB357"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:07",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "E4C627488CF64B97C12589130030428A"
+  }
+}

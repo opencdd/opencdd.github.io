@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAA761",
+  "code": "AAA761",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "classification",
+  "preferred_name_ml": {
+    "en": "classification"
+  },
+  "definition": "concept for the association of an object to a class within a documented classification system",
+  "definition_ml": {
+    "en": "concept for the association of an object to a class within a documented classification system"
+  },
+  "source_document": "IEC 81346-2:2009",
+  "synonyms": [],
+  "remark": "An object may be multiply classified if different classification systems are applied",
+  "remark_ml": {
+    "en": "An object may be multiply classified if different classification systems are applied"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA761",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "classification",
+    "MDC_P006.en": "concept for the association of an object to a class within a documented classification system",
+    "MDC_P009.en": "An object may be multiply classified if different classification systems are applied",
+    "MDC_P006_1": "IEC 81346-2:2009",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2011-10-19",
+    "MDC_P003_2": "2012-07-03",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#AAF709,0112/2///61360_4#AAF710}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "ED484B80392EF6C4C1258994002BD185",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "cf3388d918cece32c1257dd30051602b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "f72ec4a26ee8c045c1257d7300506a52",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-04-26 11:05:20",
+      "user": "BATCH 00000784",
+      "unid": "fd56447b69b0db4dc12579ec0031ed86",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "fae52355fc9b467cc1257a0e0047b347",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-10-19",
+    "current_version": "2012-07-03",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF709",
+    "0112/2///61360_4#AAF710"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "ED484B80392EF6C4C1258994002BD185"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAA586",
+  "code": "AAA586",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "fibre optic isolator",
+  "preferred_name_ml": {
+    "en": "fibre optic isolator"
+  },
+  "short_name": "ISOL",
+  "short_name_ml": {
+    "en": "ISOL"
+  },
+  "definition": "optical component which allows the transmission of light in only one direction",
+  "definition_ml": {
+    "en": "optical component which allows the transmission of light in only one direction"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA586",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "ISOL",
+    "MDC_P004.en": "fibre optic isolator",
+    "MDC_P006.en": "optical component which allows the transmission of light in only one direction",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA578",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "e1a3a440d961d4b1c1258994002bd13d",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:20",
+      "user": "BATCH 00000998",
+      "unid": "5677bc1866126ecdc12580880052e2dd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:03",
+      "user": "BATCH 00000997",
+      "unid": "c25d3fcd9cdcb78ac12580880051da8e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:22",
+      "user": "BATCH 00000879",
+      "unid": "bc88830e58c2c5b1c1257d7300506b12",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA578",
+  "superclass_type_property": "0112/2///61360_4#AAA578",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "e1a3a440d961d4b1c1258994002bd13d"
+  }
+}

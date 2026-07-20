@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61360_4#AAA665",
+  "code": "AAA665",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "sphere",
+  "preferred_name_ml": {
+    "en": "sphere"
+  },
+  "definition": "solid with a spherical surface defined by a centre and a radius",
+  "definition_ml": {
+    "en": "solid with a spherical surface defined by a centre and a radius"
+  },
+  "source_document": "ISO 10303-42:2003, 6.4.14,",
+  "synonyms": [],
+  "note": "NOTE 1  The property sphere center specifies the position of the sphere within the geometric context.",
+  "note_ml": {
+    "en": "NOTE 1  The property sphere center specifies the position of the sphere within the geometric context."
+  },
+  "simplified_drawing": "DAAA665",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "ISO 10303-42",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA665",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "sphere",
+    "MDC_P006.en": "solid with a spherical surface defined by a centre and a radius",
+    "MDC_P008.en": "NOTE 1  The property sphere center specifies the position of the sphere within the geometric context.",
+    "MDC_P006_1": "ISO 10303-42:2003, 6.4.14,",
+    "MDC_P008_1": "DAAA665",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "ISO 10303-42",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2015-02-19",
+    "MDC_P003_2": "2015-10-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA668",
+    "MDC_P014": "{0112/2///61360_4#AAF417,0112/2///61360_4#AAF418}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "21A38D4E499B1FFCC1258994002BD17E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:16",
+      "user": "BATCH 00000902",
+      "unid": "f696f91d61a2246dc1257e89004bd4ce",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-19",
+    "current_version": "2015-10-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF417",
+    "0112/2///61360_4#AAF418"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA668",
+  "superclass_type_property": "0112/2///61360_4#AAA668",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "21A38D4E499B1FFCC1258994002BD17E"
+  }
+}

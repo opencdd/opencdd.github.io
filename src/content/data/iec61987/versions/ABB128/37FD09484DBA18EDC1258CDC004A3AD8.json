@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABB128",
+  "code": "ABB128",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "style of rotating element flowmeter",
+  "preferred_name_ml": {
+    "en": "style of rotating element flowmeter",
+    "fr": "style de débitmètre à élément rotatif",
+    "de": "Ausführung des Rotationselementdurchflussmessumformers"
+  },
+  "definition": "classification of a flow transmitter with a rotating element or vane according to its measuring principle",
+  "definition_ml": {
+    "en": "classification of a flow transmitter with a rotating element or vane according to its measuring principle",
+    "fr": "classification d'un transmetteur de débit avec un élément rotatif ou aube en fonction de son principe de mesure",
+    "de": "Charakterisierung eines Durchflussmessumformers mit einem rotierenden Element oder Schaufel bezüglich seines Messprinzips"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB128",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of rotating element flowmeter",
+    "MDC_P006.en": "classification of a flow transmitter with a rotating element or vane according to its measuring principle",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL671)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "style de débitmètre à élément rotatif",
+    "MDC_P006.fr": "classification d'un transmetteur de débit avec un élément rotatif ou aube en fonction de son principe de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Ausführung des Rotationselementdurchflussmessumformers",
+    "MDC_P006.de": "Charakterisierung eines Durchflussmessumformers mit einem rotierenden Element oder Schaufel bezüglich seines Messprinzips",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "37FD09484DBA18EDC1258CDC004A3AD8",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "544db46aa8d517edc1258518003c48c5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:40",
+      "user": "BATCH 00000762",
+      "unid": "dcf7572fbfcc388bc125825e001de863",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "a6acc05e5ea4e88dc1257cb40054bca9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL671)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL671)",
+  "value_list": "0112/2///61987#ABL671",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "37FD09484DBA18EDC1258CDC004A3AD8"
+  }
+}

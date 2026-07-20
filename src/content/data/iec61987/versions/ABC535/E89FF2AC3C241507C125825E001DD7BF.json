@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABC535",
+  "code": "ABC535",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Process case [pressure]",
+  "preferred_name_ml": {
+    "en": "Process case [pressure]",
+    "fr": "Cas de processus [pression]",
+    "de": "Prozessfall [Druck]"
+  },
+  "definition": "properties characterizing a set of process case variables",
+  "definition_ml": {
+    "en": "properties characterizing a set of process case variables",
+    "fr": "propriétés caractérisant un ensemble de variables de cas de processus",
+    "de": "Merkmale, die eine Gruppe von Prozessfallgrößen kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC535",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Process case [pressure]",
+    "MDC_P006.en": "properties characterizing a set of process case variables",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB165,0112/2///61987#ABB376,0112/2///61987#ABB377,0112/2///61987#ABB288,0112/2///61987#ABC898,0112/2///61987#ABC957,0112/2///61987#ABC829}",
+    "MDC_P004.fr": "Cas de processus [pression]",
+    "MDC_P006.fr": "propriétés caractérisant un ensemble de variables de cas de processus",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Prozessfall [Druck]",
+    "MDC_P006.de": "Merkmale, die eine Gruppe von Prozessfallgrößen kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "E89FF2AC3C241507C125825E001DD7BF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:40",
+      "user": "BATCH 00000701",
+      "unid": "87128c000098afc3c1257cfb003f9989",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "a8a5dfec431170e8c1257cb400549cd5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB165",
+    "0112/2///61987#ABB376",
+    "0112/2///61987#ABB377",
+    "0112/2///61987#ABB288",
+    "0112/2///61987#ABC898",
+    "0112/2///61987#ABC957",
+    "0112/2///61987#ABC829"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "E89FF2AC3C241507C125825E001DD7BF"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABC286",
+  "code": "ABC286",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Influence of process temperature at selected test point",
+  "preferred_name_ml": {
+    "en": "Influence of process temperature at selected test point",
+    "fr": "Influence de la température de processus à un point d’essai sélectionné",
+    "de": "Einfluss der Prozesstemperatur am bestimmten Messpunkt"
+  },
+  "definition": "properties characterizing the influence of process temperature for selected process temperatures",
+  "definition_ml": {
+    "en": "properties characterizing the influence of process temperature for selected process temperatures",
+    "fr": "propriétés caractérisant l’influence de la température de processus pour des températures de processus sélectionnées",
+    "de": "Merkmale, die den Einfluss der Prozesstemperatur bei bestimmten Prozesstemperaturen kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "PROLIST-Id: Prol_neu-xxx725",
+  "remark_ml": {
+    "en": "PROLIST-Id: Prol_neu-xxx725"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC286",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Influence of process temperature at selected test point",
+    "MDC_P006.en": "properties characterizing the influence of process temperature for selected process temperatures",
+    "MDC_P009.en": "PROLIST-Id: Prol_neu-xxx725",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB677,0112/2///61987#ABB678,0112/2///61987#ABB679}",
+    "MDC_P004.fr": "Influence de la température de processus à un point d’essai sélectionné",
+    "MDC_P006.fr": "propriétés caractérisant l’influence de la température de processus pour des températures de processus sélectionnées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Einfluss der Prozesstemperatur am bestimmten Messpunkt",
+    "MDC_P006.de": "Merkmale, die den Einfluss der Prozesstemperatur bei bestimmten Prozesstemperaturen kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:52",
+      "user": "BATCH 00000762",
+      "unid": "8F4C9FF6B6C80517C125825E001DD5C9",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:09",
+      "user": "BATCH 00000699",
+      "unid": "d4bd572af7b0093dc1257cb400549be1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB677",
+    "0112/2///61987#ABB678",
+    "0112/2///61987#ABB679"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:52",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "8F4C9FF6B6C80517C125825E001DD5C9"
+  }
+}

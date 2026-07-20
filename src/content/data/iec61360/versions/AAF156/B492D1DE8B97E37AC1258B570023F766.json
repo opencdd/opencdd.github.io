@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61360_4#AAF156",
+  "code": "AAF156",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "max.temp coef input offset voltage",
+  "preferred_name_ml": {
+    "en": "max.temp coef input offset voltage"
+  },
+  "short_name": "$a_VIO",
+  "short_name_ml": {
+    "en": "$a_VIO"
+  },
+  "definition": "maximum value of the quotient, of the change of input offset voltage of an operational amplifier over the operating temperature range and at the nominal supply voltage",
+  "definition_ml": {
+    "en": "maximum value of the quotient, of the change of input offset voltage of an operational amplifier over the operating temperature range and at the nominal supply voltage"
+  },
+  "source_document": "IEC 60748-3 (II.2.1.7) (1986)",
+  "synonyms": [],
+  "note": "Typically specified in V/℃",
+  "note_ml": {
+    "en": "Typically specified in V/℃"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00152",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF156",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "max.temp coef input offset voltage",
+    "MDC_P005.en": "$a_VIO",
+    "MDC_P006.en": "maximum value of the quotient, of the change of input offset voltage of an operational amplifier over the operating temperature range and at the nominal supply voltage",
+    "MDC_P008.en": "Typically specified in V/℃",
+    "MDC_P025_1": "α_VIO}",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P006_1": "IEC 60748-3 (II.2.1.7) (1986)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-11",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2024-07-11",
+    "MDC_P003_3": "2024-07-11",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00152"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-11 08:32:50",
+      "user": "BATCH 00001318",
+      "unid": "B492D1DE8B97E37AC1258B570023F766",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:37",
+      "user": "BATCH 00000917",
+      "unid": "270e2cb365c6783bc1257ea4004b2188",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:30",
+      "user": "BATCH 00000907",
+      "unid": "baca1c7be53b095dc1257e8b003237d1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:37",
+      "user": "BATCH 00000904",
+      "unid": "f2abe9d4168ce9e5c1257e8a0043e5ab",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:36",
+      "user": "BATCH 00000788",
+      "unid": "3f5ae0a5301e0ac9c1257a0e0047bde5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:56",
+      "user": "BATCH 00000787",
+      "unid": "f45a015fb1ec84a7c1257a0e0046db65",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2024-07-11",
+    "current_revision": "2024-07-11"
+  },
+  "symbol_in_text": "α_VIO}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-11 08:32:50",
+    "user": "BATCH 00001318",
+    "change_request_id": null,
+    "unid": "B492D1DE8B97E37AC1258B570023F766"
+  }
+}

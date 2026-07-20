@@ -1,0 +1,161 @@
+{
+  "irdi": "0112/2///61987#ABB367",
+  "code": "ABB367",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "division",
+  "preferred_name_ml": {
+    "en": "division",
+    "fr": "division",
+    "de": "Division"
+  },
+  "definition": "element of a hazardous area classification system in the USA and Canada indicating the likelihood of the existence of a classified hazard",
+  "definition_ml": {
+    "en": "element of a hazardous area classification system in the USA and Canada indicating the likelihood of the existence of a classified hazard",
+    "fr": "élément d'un système de classification des zones dangereuses en Amérique du Nord indiquant la probabilité de l'existence d'un danger classé",
+    "de": "Element eines nordamerikanischen Einstufungssystems für explosionsgefährdete Bereiche, das die Wahrscheinlichkeit des Bestehens einer als explosionsfähig eingestuften Atmosphäre angibt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB367",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "division",
+    "MDC_P006.en": "element of a hazardous area classification system in the USA and Canada indicating the likelihood of the existence of a classified hazard",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ747)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "division",
+    "MDC_P006.fr": "élément d'un système de classification des zones dangereuses en Amérique du Nord indiquant la probabilité de l'existence d'un danger classé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Division",
+    "MDC_P006.de": "Element eines nordamerikanischen Einstufungssystems für explosionsgefährdete Bereiche, das die Wahrscheinlichkeit des Bestehens einer als explosionsfähig eingestuften Atmosphäre angibt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "2CF0B09AA385A309C1258CDC004A3AFC",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "a3d429bc46eed5ffc1258518003c48f1",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "30c7b6f13b8cd8dbc125825e001de950",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "fc94e5c2b66d55a7c1258256003e95b9",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "5a3602be29251f93c12580d6004c1dfe",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "305bccaef87b9638c1257f7e0030f20d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "cc042e8c185d24d2c1257fa7003a3d3b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "e98fb727ef09bc46c1257cfb00403bd8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "73d01fbe153d0b18c1257cb40054bd95",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ747)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ747)",
+  "value_list": "0112/2///61987#ABJ747",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "2CF0B09AA385A309C1258CDC004A3AFC"
+  }
+}

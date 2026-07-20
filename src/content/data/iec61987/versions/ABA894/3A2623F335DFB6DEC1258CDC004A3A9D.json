@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABA894",
+  "code": "ABA894",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "pressure chamber venting",
+  "preferred_name_ml": {
+    "en": "pressure chamber venting",
+    "fr": "ventilation de chambre de pression",
+    "de": "Druckraumentlüftung"
+  },
+  "definition": "provision of a bore to allow venting of a pressure transmitter pressure chamber",
+  "definition_ml": {
+    "en": "provision of a bore to allow venting of a pressure transmitter pressure chamber",
+    "fr": "fourniture d'un alésage pour permettre la ventilation de la chambre de pression du transmetteur de pression",
+    "de": "Bereitstellung einer Bohrung zur Entlüftung des Druckraums eines Druckmessumformers"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA894",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "pressure chamber venting",
+    "MDC_P006.en": "provision of a bore to allow venting of a pressure transmitter pressure chamber",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "ventilation de chambre de pression",
+    "MDC_P006.fr": "fourniture d'un alésage pour permettre la ventilation de la chambre de pression du transmetteur de pression",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Druckraumentlüftung",
+    "MDC_P006.de": "Bereitstellung einer Bohrung zur Entlüftung des Druckraums eines Druckmessumformers",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "3A2623F335DFB6DEC1258CDC004A3A9D",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "6cc5e34655329a3ec1258518003c4880",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "72c228154463905bc125825e001de77b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "3815b2ac930d08f0c1257cb40054bbbf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "3A2623F335DFB6DEC1258CDC004A3A9D"
+  }
+}

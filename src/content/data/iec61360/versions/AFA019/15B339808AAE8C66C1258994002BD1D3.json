@@ -1,0 +1,91 @@
+{
+  "irdi": "0112/2///61360_4#AFA019",
+  "code": "AFA019",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "integrated circuit for power supply",
+  "preferred_name_ml": {
+    "en": "integrated circuit for power supply"
+  },
+  "definition": "linear integrated circuit used for power line regulation",
+  "definition_ml": {
+    "en": "linear integrated circuit used for power line regulation"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA019",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "integrated circuit for power supply",
+    "MDC_P006.en": "linear integrated circuit used for power line regulation",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2015-12-21",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA058",
+    "MDC_P014": "{0112/2///61360_4#AFD120,0112/2///61360_4#AFD121,0112/2///61360_4#AFD122,0112/2///61360_4#AFD123,0112/2///61360_4#AFD124,0112/2///61360_4#AFD125,0112/2///61360_4#AFD126,0112/2///61360_4#AFD148,0112/2///61360_4#AFD149,0112/2///61360_4#AFD150}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "15B339808AAE8C66C1258994002BD1D3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-10-02 14:09:09",
+      "user": "BATCH 00000920",
+      "unid": "dea7d2aa2c55a92ec1257ed20042c1a7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-12-21",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD120",
+    "0112/2///61360_4#AFD121",
+    "0112/2///61360_4#AFD122",
+    "0112/2///61360_4#AFD123",
+    "0112/2///61360_4#AFD124",
+    "0112/2///61360_4#AFD125",
+    "0112/2///61360_4#AFD126",
+    "0112/2///61360_4#AFD148",
+    "0112/2///61360_4#AFD149",
+    "0112/2///61360_4#AFD150"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA058",
+  "superclass_type_property": "0112/2///61360_4#AAA058",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "15B339808AAE8C66C1258994002BD1D3"
+  }
+}

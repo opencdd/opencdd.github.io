@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61360_4#AAA411",
+  "code": "AAA411",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "leads on a circle",
+  "preferred_name_ml": {
+    "en": "leads on a circle"
+  },
+  "short_name": "T003",
+  "short_name_ml": {
+    "en": "T003"
+  },
+  "definition": "flange-mount package outline style with bottom pins on a circle",
+  "definition_ml": {
+    "en": "flange-mount package outline style with bottom pins on a circle"
+  },
+  "synonyms": [],
+  "simplified_drawing": "DAA016",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA411",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "T003",
+    "MDC_P004.en": "leads on a circle",
+    "MDC_P006.en": "flange-mount package outline style with bottom pins on a circle",
+    "MDC_P008_1": "DAA016",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA366",
+    "MDC_P014": "{0112/2///61360_4#AAG001,0112/2///61360_4#AAG004,0112/2///61360_4#AAG009,0112/2///61360_4#AAG014,0112/2///61360_4#AAG018,0112/2///61360_4#AAG029,0112/2///61360_4#AAG039,0112/2///61360_4#AAG042,0112/2///61360_4#AAG047,0112/2///61360_4#AAG049,0112/2///61360_4#AAG083,0112/2///61360_4#AAG084,0112/2///61360_4#AAG085,0112/2///61360_4#AAG086}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "88663ECEEDB9DCB5C1258994002BD0D0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:19",
+      "user": "BATCH 00000998",
+      "unid": "a304cdb07a6b1ad9c12580880052e280",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:02",
+      "user": "BATCH 00000997",
+      "unid": "7815369a7ff3999cc12580880051da31",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:51",
+      "user": "BATCH 00000890",
+      "unid": "4526e5e508cb3185c1257dd30051608d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "f3b4de12c643c471c1257d7300506ab4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "df12b0a977cbf489c1257a0e0047b316",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG001",
+    "0112/2///61360_4#AAG004",
+    "0112/2///61360_4#AAG009",
+    "0112/2///61360_4#AAG014",
+    "0112/2///61360_4#AAG018",
+    "0112/2///61360_4#AAG029",
+    "0112/2///61360_4#AAG039",
+    "0112/2///61360_4#AAG042",
+    "0112/2///61360_4#AAG047",
+    "0112/2///61360_4#AAG049",
+    "0112/2///61360_4#AAG083",
+    "0112/2///61360_4#AAG084",
+    "0112/2///61360_4#AAG085",
+    "0112/2///61360_4#AAG086"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA366",
+  "superclass_type_property": "0112/2///61360_4#AAA366",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "88663ECEEDB9DCB5C1258994002BD0D0"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61987#ABQ087",
+  "code": "ABQ087",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "LOPD for catalytic bead sensor",
+  "preferred_name_ml": {
+    "en": "LOPD for catalytic bead sensor",
+    "de": "MLD für elektrokatalytischen Sensor"
+  },
+  "definition": "list of dynamic properties characterizing information issued by a catalytic bead sensor",
+  "definition_ml": {
+    "en": "list of dynamic properties characterizing information issued by a catalytic bead sensor",
+    "de": "Merkmalleiste für dynamische Daten, die die Informationen, die ein elektrokatalytischer Sensor ausgibt, kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABQ087",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "LOPD for catalytic bead sensor",
+    "MDC_P006.en": "list of dynamic properties characterizing information issued by a catalytic bead sensor",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2024-08-19",
+    "MDC_P003_2": "2025-04-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABP907",
+    "MDC_P014": "{0112/2///61987#ABQ081,0112/2///61987#ABQ120,0112/2///61987#ABP959,0112/2///61987#ABQ126,0112/2///61987#ABP960,0112/2///61987#ABP961}",
+    "MDC_P004.de": "MLD für elektrokatalytischen Sensor",
+    "MDC_P006.de": "Merkmalleiste für dynamische Daten, die die Informationen, die ein elektrokatalytischer Sensor ausgibt, kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2024-08-19",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:34:44",
+      "user": "BATCH 00000863",
+      "unid": "22D57AE6C957F42FC1258DED0045192B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-06-12 21:00:40",
+      "user": "BATCH 00000845",
+      "unid": "085dd5577ad757d7c1258ca700686e81",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-08-19",
+    "current_version": "2025-04-07",
+    "current_revision": "2026-05-04"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABQ081",
+    "0112/2///61987#ABQ120",
+    "0112/2///61987#ABP959",
+    "0112/2///61987#ABQ126",
+    "0112/2///61987#ABP960",
+    "0112/2///61987#ABP961"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABP907",
+  "superclass_type_property": "0112/2///61987#ABP907",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:34:44",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "22D57AE6C957F42FC1258DED0045192B"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABH414",
+  "code": "ABH414",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-03-22 09:54:37",
+    "user": "BATCH 00000714",
+    "change_request_id": null,
+    "unid": "41f2b711f1780d6dc1257f7e0030f251"
+  }
+}

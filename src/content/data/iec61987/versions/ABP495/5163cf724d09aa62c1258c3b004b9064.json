@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABP495",
+  "code": "ABP495",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2025-02-24 14:45:21",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "5163cf724d09aa62c1258c3b004b9064"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "irdi": "0112/2///61987#ABA553",
+  "code": "ABA553",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "weight",
+  "preferred_name_ml": {
+    "en": "weight",
+    "fr": "poids",
+    "de": "Gewicht"
+  },
+  "definition": "mass of a device or component in full working order",
+  "definition_ml": {
+    "en": "mass of a device or component in full working order",
+    "fr": "masse d’un appareil ou composant pleinement fonctionnel",
+    "de": "Masse eines Geräts oder einer Komponente in funktionsfähigem Zustand"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C0004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA553",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "weight",
+    "MDC_P006.en": "mass of a device or component in full working order",
+    "MDC_P023": "kg",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA594",
+    "C0104": "0112/2///61987#ABT546",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-03-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2019-03-08",
+    "MDC_P003_3": "2019-03-08",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "poids",
+    "MDC_P006.fr": "masse d’un appareil ou composant pleinement fonctionnel",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Gewicht",
+    "MDC_P006.de": "Masse eines Geräts oder einer Komponente in funktionsfähigem Zustand",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C0004"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "E72F5F00EC290A9DC12583B7005026F1",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "7fe6d70b4dbd3b4fc125825e001de71f",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "ec45733021812f62c1258256003e9426",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "f66249d9f71d1cbbc125825600407a1b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "471b06dd6003ed67c12580d6004c1bcb",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "1d5f81a6dfcb8150c1257f7f004d0065",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "e668001322ce3c61c1257fa700405949",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "9c56ca2cc82921c7c1257cfb004039a5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:29",
+      "user": "BATCH 00000699",
+      "unid": "c0f145b8f59a7a87c1257cb40054bb62",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2019-03-08",
+    "current_revision": "2019-03-08"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA594",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-03-08 15:35:28",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "E72F5F00EC290A9DC12583B7005026F1"
+  }
+}

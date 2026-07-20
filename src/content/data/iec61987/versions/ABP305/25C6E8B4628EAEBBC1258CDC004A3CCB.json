@@ -1,0 +1,91 @@
+{
+  "irdi": "0112/2///61987#ABP305",
+  "code": "ABP305",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "vacuum application",
+  "preferred_name_ml": {
+    "en": "vacuum application",
+    "de": "Vakuumanwendung"
+  },
+  "definition": "characterization of a valve concerning its usabilty in vacuum applications",
+  "definition_ml": {
+    "en": "characterization of a valve concerning its usabilty in vacuum applications",
+    "de": "Kennzeichnung eines Ventils hinsichtlich seiner Verwendbarkeit in Vakuumanwendungen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP305",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "vacuum application",
+    "MDC_P006.en": "characterization of a valve concerning its usabilty in vacuum applications",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2022-02-21",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Vakuumanwendung",
+    "MDC_P006.de": "Kennzeichnung eines Ventils hinsichtlich seiner Verwendbarkeit in Vakuumanwendungen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2022-02-21",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "25C6E8B4628EAEBBC1258CDC004A3CCB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-01-23 14:53:54",
+      "user": "BATCH 00000807",
+      "unid": "0c2af291e56637ecc1258940004c588e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2022-02-21",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "value_list": "0112/2///61987#ABJ765",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "25C6E8B4628EAEBBC1258CDC004A3CCB"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "irdi": "0112/2///62683#ACG065",
+  "code": "ACG065",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Safety subsystem",
+  "preferred_name_ml": {
+    "en": "Safety subsystem",
+    "fr": "Sous-système de sécurité",
+    "de": "Sicherheitsteilsystem",
+    "zh": "安全子系统"
+  },
+  "definition": "entity of the top-level architectural design of a safety-related system where a dangerous failure of the subsystem results in dangerous failure of a safety function",
+  "definition_ml": {
+    "en": "entity of the top-level architectural design of a safety-related system where a dangerous failure of the subsystem results in dangerous failure of a safety function",
+    "fr": "entité de la conception architecturale générale d'un système relatif à la sécurité dans laquelle une défaillance dangereuse du sous-système conduit à une défaillance dangereuse d'une fonction de sécurité",
+    "de": "Einheit des Architekturentwurfs auf oberster Ebene eines sicherheitsbezogenen Systems, bei der ein gefahrbringender Ausfall des Teilsystems zu einem gefahrbringenden Ausfall einer Sicherheitsfunktion führt",
+    "zh": "安全相关系统顶层架构设计的实体，其中子系统的危险失效导致安全功能的危险失效"
+  },
+  "source_document": "IEC 62061:2021, 3.2.4",
+  "synonyms": [
+    {
+      "lang": "device type 1",
+      "name": "subsystem"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "device type 1, subsystem",
+    "fr": "dispositif de type 1, sous-système"
+  },
+  "note": "Note 1 to entry: This differs from common language where “subsystem” may mean any sub-divided part of an entity, the term “subsystem” is used in this document within a strongly defined hierarchy of terminology: “subsystem” is the first level subdivision of a system. The parts resulting from further subdivision of a subsystem are called “subsystem elements”. \r\nNote 2 to entry: A complete subsystem can be made up from a number of identifiable and separate subsystem elements.\r\nNote 3 to entry: The subsystem specification includes its role in the safety function and its interface with the other subsystems of the SCS.\r\nNote 4 to entry: One subsystem can be part of several safety functions, e.g. the same combination of contactors can be used to de-energise a motor either in the event of detection of a person in a danger zone or also in the event of opening an interlock guard.",
+  "note_ml": {
+    "en": "Note 1 to entry: This differs from common language where “subsystem” may mean any sub-divided part of an entity, the term “subsystem” is used in this document within a strongly defined hierarchy of terminology: “subsystem” is the first level subdivision of a system. The parts resulting from further subdivision of a subsystem are called “subsystem elements”. \r\nNote 2 to entry: A complete subsystem can be made up from a number of identifiable and separate subsystem elements.\r\nNote 3 to entry: The subsystem specification includes its role in the safety function and its interface with the other subsystems of the SCS.\r\nNote 4 to entry: One subsystem can be part of several safety functions, e.g. the same combination of contactors can be used to de-energise a motor either in the event of detection of a person in a danger zone or also in the event of opening an interlock guard.",
+    "fr": "Note 1 à l’article: Cette définition diffère du langage courant où le terme \"sous-système\" peut signifier une quelconque partie subdivisée d'une entité; le terme \"sous-système\" est utilisé dans le présent document dans une hiérarchie terminologique bien déterminée: le \"sous-système\" est le premier niveau de subdivision d'un système. Les parties résultant de subdivisions ultérieures d'un sous-système sont appelées \"éléments de sous-système\".\r\nNote 2 à l’article: Un sous-système complet peut être constitué d'un certain nombre d'éléments de sous-système identifiables et séparés.\r\nNote 3 à l’article: La spécification du sous-système inclut son rôle dans la fonction de sécurité et son interface avec les autres sous-systèmes du SCS.\r\nNote 4 à l’article: Un sous-système peut faire partie de plusieurs fonctions de sécurité, par exemple, la même combinaison de contacteurs peut être utilisée pour couper l'alimentation d'un moteur soit en cas de détection d’une personne dans une zone de danger, soit également en cas d'ouverture d'un protecteur avec dispositif de verrouillage.",
+    "de": "Anmerkung 1 zum Begriff: Dies unterscheidet sich von der allgemeinen Sprache, wo „Teilsystem“ jeden unterteilten Teil einer Einheit bedeuten kann, der Begriff „Teilsystem“ wird in diesem Dokument innerhalb einer stark definierten Hierarchie der Terminologie verwendet: „Teilsystem“ ist die Unterteilung eines Systems auf oberster Ebene. Die Teile, die sich aus der weiteren Unterteilung eines Teilsystems ergeben, werden als „Teilsystem-Elemente“ bezeichnet.",
+    "zh": "注 1：这与日常用语不同，在日常用语中，“子系统” 可指一个实体的任何细分部分；而在本文档中，“子系统” 一词用于严格定义的术语层级体系中：“子系统” 是系统的第一层级细分。对子系统进一步细分后产生的部分称为 “子系统组件”。\r\n注 2：一个完整的子系统可由若干可识别且相互独立的子系统组件构成。\r\n注 3：子系统规范包括其在安全功能中所承担的角色，以及它与安全控制系统（SCS）中其他子系统的接口。\r\n注 4：一个子系统可属于多个安全功能的组成部分，例如，同一组接触器既可用于在检测到危险区域内有人时切断电机电源，也可用于在联锁防护打开时切断电机电源。"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00094",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG065",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Safety subsystem",
+    "MDC_P007.en": "device type 1, subsystem",
+    "MDC_P006.en": "entity of the top-level architectural design of a safety-related system where a dangerous failure of the subsystem results in dangerous failure of a safety function",
+    "MDC_P008.en": "Note 1 to entry: This differs from common language where “subsystem” may mean any sub-divided part of an entity, the term “subsystem” is used in this document within a strongly defined hierarchy of terminology: “subsystem” is the first level subdivision of a system. The parts resulting from further subdivision of a subsystem are called “subsystem elements”. \r\nNote 2 to entry: A complete subsystem can be made up from a number of identifiable and separate subsystem elements.\r\nNote 3 to entry: The subsystem specification includes its role in the safety function and its interface with the other subsystems of the SCS.\r\nNote 4 to entry: One subsystem can be part of several safety functions, e.g. the same combination of contactors can be used to de-energise a motor either in the event of detection of a person in a danger zone or also in the event of opening an interlock guard.",
+    "MDC_P006_1": "IEC 62061:2021, 3.2.4",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-09-25",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2025-09-26",
+    "MDC_P003_3": "2025-09-26",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC077,0112/2///62683#ACC078}",
+    "MDC_P090": "{0112/2///62683#ACE051,0112/2///62683#ACE052,0112/2///62683#ACE058,0112/2///62683#ACE060,0112/2///62683#ACE063}",
+    "MDC_P004.fr": "Sous-système de sécurité",
+    "MDC_P007.fr": "dispositif de type 1, sous-système",
+    "MDC_P006.fr": "entité de la conception architecturale générale d'un système relatif à la sécurité dans laquelle une défaillance dangereuse du sous-système conduit à une défaillance dangereuse d'une fonction de sécurité",
+    "MDC_P008.fr": "Note 1 à l’article: Cette définition diffère du langage courant où le terme \"sous-système\" peut signifier une quelconque partie subdivisée d'une entité; le terme \"sous-système\" est utilisé dans le présent document dans une hiérarchie terminologique bien déterminée: le \"sous-système\" est le premier niveau de subdivision d'un système. Les parties résultant de subdivisions ultérieures d'un sous-système sont appelées \"éléments de sous-système\".\r\nNote 2 à l’article: Un sous-système complet peut être constitué d'un certain nombre d'éléments de sous-système identifiables et séparés.\r\nNote 3 à l’article: La spécification du sous-système inclut son rôle dans la fonction de sécurité et son interface avec les autres sous-systèmes du SCS.\r\nNote 4 à l’article: Un sous-système peut faire partie de plusieurs fonctions de sécurité, par exemple, la même combinaison de contacteurs peut être utilisée pour couper l'alimentation d'un moteur soit en cas de détection d’une personne dans une zone de danger, soit également en cas d'ouverture d'un protecteur avec dispositif de verrouillage.",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2021-10-05",
+    "MDC_P004.de": "Sicherheitsteilsystem",
+    "MDC_P006.de": "Einheit des Architekturentwurfs auf oberster Ebene eines sicherheitsbezogenen Systems, bei der ein gefahrbringender Ausfall des Teilsystems zu einem gefahrbringenden Ausfall einer Sicherheitsfunktion führt",
+    "MDC_P008.de": "Anmerkung 1 zum Begriff: Dies unterscheidet sich von der allgemeinen Sprache, wo „Teilsystem“ jeden unterteilten Teil einer Einheit bedeuten kann, der Begriff „Teilsystem“ wird in diesem Dokument innerhalb einer stark definierten Hierarchie der Terminologie verwendet: „Teilsystem“ ist die Unterteilung eines Systems auf oberster Ebene. Die Teile, die sich aus der weiteren Unterteilung eines Teilsystems ergeben, werden als „Teilsystem-Elemente“ bezeichnet.",
+    "C019.de": "DKE, Silvio Foertsch",
+    "C017.de": "1",
+    "C018.de": "2025-09-01",
+    "MDC_P004.zh": "安全子系统",
+    "MDC_P006.zh": "安全相关系统顶层架构设计的实体，其中子系统的危险失效导致安全功能的危险失效",
+    "MDC_P008.zh": "注 1：这与日常用语不同，在日常用语中，“子系统” 可指一个实体的任何细分部分；而在本文档中，“子系统” 一词用于严格定义的术语层级体系中：“子系统” 是系统的第一层级细分。对子系统进一步细分后产生的部分称为 “子系统组件”。\r\n注 2：一个完整的子系统可由若干可识别且相互独立的子系统组件构成。\r\n注 3：子系统规范包括其在安全功能中所承担的角色，以及它与安全控制系统（SCS）中其他子系统的接口。\r\n注 4：一个子系统可属于多个安全功能的组成部分，例如，同一组接触器既可用于在检测到危险区域内有人时切断电机电源，也可用于在联锁防护打开时切断电机电源。",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-05",
+    "C002": "C00094"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-09-25 19:16:19",
+      "user": "BATCH 00000840",
+      "unid": "928957EF86832114C1258D10005EE0F0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "ff225f183bf7a968c1258b9d00731727",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "c372592d87c15d79c1258034002e3593",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "b1d1aed6567357c7c125803000450269",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2025-09-26",
+    "current_revision": "2025-09-26"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC077",
+    "0112/2///62683#ACC078"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE051",
+    "0112/2///62683#ACE052",
+    "0112/2///62683#ACE058",
+    "0112/2///62683#ACE060",
+    "0112/2///62683#ACE063"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-09-25 19:16:19",
+    "user": "BATCH 00000840",
+    "change_request_id": null,
+    "unid": "928957EF86832114C1258D10005EE0F0"
+  }
+}

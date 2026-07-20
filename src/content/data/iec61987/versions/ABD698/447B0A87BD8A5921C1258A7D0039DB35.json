@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABD698",
+  "code": "ABD698",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference standard for connection",
+  "preferred_name_ml": {
+    "en": "reference standard for connection",
+    "de": "Referenznorm für Anschluss"
+  },
+  "definition": "standard to which a construction of a connection or codes of the material refer",
+  "definition_ml": {
+    "en": "standard to which a construction of a connection or codes of the material refer",
+    "de": "Norm, auf der die Konstruktion einer Verbindung oder Materialcodes beruhen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD698",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference standard for connection",
+    "MDC_P006.en": "standard to which a construction of a connection or codes of the material refer",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Referenznorm für Anschluss",
+    "MDC_P006.de": "Norm, auf der die Konstruktion einer Verbindung oder Materialcodes beruhen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:56",
+      "user": "BATCH 00000818",
+      "unid": "447B0A87BD8A5921C1258A7D0039DB35",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "7bce91f552d07894c125825e001deef8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:38",
+      "user": "BATCH 00000732",
+      "unid": "b0e79be3ba8589dec12580d6004c23a8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "f61792ead9a01032c1257cb40054c33b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:56",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "447B0A87BD8A5921C1258A7D0039DB35"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///62683#ACC516",
+  "code": "ACC516",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Safety switch for hinge door",
+  "preferred_name_ml": {
+    "en": "Safety switch for hinge door",
+    "fr": "Interrupteur de sécurité sur charnière",
+    "de": "Scharnierschalter"
+  },
+  "definition": "positive opening pilot switch, the actuating system of which is operated by the pivoting of a guard, when this guard reaches a predetermined angle",
+  "definition_ml": {
+    "en": "positive opening pilot switch, the actuating system of which is operated by the pivoting of a guard, when this guard reaches a predetermined angle",
+    "fr": "auxiliaire automatique de commande à manœuvre positive dont l'ouverture est actionnée par un protecteur pivotant lorsque celui-ci atteint un angle prédéterminé",
+    "de": "ein zwangsöffnender Hilfsstromschalter, dessen Betätigungssystem durch das Schwenken des Schutzgitters geschaltet wird, wenn dieses Schutzgitter einen vorbestimmten Winkel erreicht",
+    "zh": "当防护装置达到一个预定角度，通过旋转防护装置来操作操动系统的正极断开的指示开关。"
+  },
+  "source_document": "ISO 14119:2013, A.3",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Hinge switch"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Hinge switch",
+    "zh": "铰链式开关"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC516",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Safety switch for hinge door",
+    "MDC_P007.en": "Hinge switch",
+    "MDC_P006.en": "positive opening pilot switch, the actuating system of which is operated by the pivoting of a guard, when this guard reaches a predetermined angle",
+    "MDC_P006_1": "ISO 14119:2013, A.3",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-07-31",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2020-07-31",
+    "MDC_P003_3": "2020-07-31",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC500",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF137,0112/2///62683#ACF138,0112/2///62683#ACF139,0112/2///62683#ACF152,0112/2///62683#ACF141,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Interrupteur de sécurité sur charnière",
+    "MDC_P006.fr": "auxiliaire automatique de commande à manœuvre positive dont l'ouverture est actionnée par un protecteur pivotant lorsque celui-ci atteint un angle prédéterminé",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-04-01",
+    "MDC_P004.de": "Scharnierschalter",
+    "MDC_P006.de": "ein zwangsöffnender Hilfsstromschalter, dessen Betätigungssystem durch das Schwenken des Schutzgitters geschaltet wird, wenn dieses Schutzgitter einen vorbestimmten Winkel erreicht",
+    "MDC_P007.zh": "铰链式开关",
+    "MDC_P006.zh": "当防护装置达到一个预定角度，通过旋转防护装置来操作操动系统的正极断开的指示开关。",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-07-31 11:02:22",
+      "user": "BATCH 00000754",
+      "unid": "1631f6e61fb09799c12585b60031a7eb",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "896603c6b27c58e2c12584e80070c0f9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "8afd3140e806513dc12580300045021a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2020-07-31",
+    "current_revision": "2020-07-31"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF137",
+    "0112/2///62683#ACF138",
+    "0112/2///62683#ACF139",
+    "0112/2///62683#ACF152",
+    "0112/2///62683#ACF141",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC500",
+  "superclass_type_property": "0112/2///62683#ACC500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-07-31 11:02:22",
+    "user": "BATCH 00000754",
+    "change_request_id": null,
+    "unid": "1631f6e61fb09799c12585b60031a7eb"
+  }
+}

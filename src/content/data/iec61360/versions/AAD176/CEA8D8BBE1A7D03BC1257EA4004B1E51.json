@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAD176",
+  "code": "AAD176",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "metallisation",
+  "preferred_name_ml": {
+    "en": "metallisation"
+  },
+  "short_name": "metallisation",
+  "short_name_ml": {
+    "en": "metallisation"
+  },
+  "definition": "description of the metal layers forming the pad on a die device to which external connection is made",
+  "definition_ml": {
+    "en": "description of the metal layers forming the pad on a die device to which external connection is made"
+  },
+  "synonyms": [],
+  "note": "The description should include the nature of the materials forming each layer of the metallisation and the nominal thickness of each layer",
+  "note_ml": {
+    "en": "The description should include the nature of the materials forming each layer of the metallisation and the nominal thickness of each layer"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD176",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "metallisation",
+    "MDC_P005.en": "metallisation",
+    "MDC_P006.en": "description of the metal layers forming the pad on a die device to which external connection is made",
+    "MDC_P008.en": "The description should include the nature of the materials forming each layer of the metallisation and the nominal thickness of each layer",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A57",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2006-11-10",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "CEA8D8BBE1A7D03BC1257EA4004B1E51",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "4e7e72f454c5cbf1c1257e8b003234a3",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "1fec70b7ef34967cc1257e8a0043e274",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "bc79b2f462fec7ecc125787f0042a263",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2006-11-10",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "CEA8D8BBE1A7D03BC1257EA4004B1E51"
+  }
+}

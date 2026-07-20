@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA156",
+  "code": "ABA156",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:26",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "c4cb32bdadfc67c8c1258518003c480e"
+  }
+}

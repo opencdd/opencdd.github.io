@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABB308",
+  "code": "ABB308",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference standard for flammability rating",
+  "preferred_name_ml": {
+    "en": "reference standard for flammability rating",
+    "fr": "norme de référence pour la caractéristique d'inflammabilité assignée",
+    "de": "Referenznorm für Gefährdungseinstufung durch Entflammbarkeit"
+  },
+  "definition": "standard in which the flammability of a substance is rated",
+  "definition_ml": {
+    "en": "standard in which the flammability of a substance is rated",
+    "fr": "norme dans laquelle l'inflammabilité d'une substance est assignée",
+    "de": "Norm, auf der die Einstufung der Entflammbarkeit einer Substanz beruht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB308",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference standard for flammability rating",
+    "MDC_P006.en": "standard in which the flammability of a substance is rated",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ787)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "norme de référence pour la caractéristique d'inflammabilité assignée",
+    "MDC_P006.fr": "norme dans laquelle l'inflammabilité d'une substance est assignée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Referenznorm für Gefährdungseinstufung durch Entflammbarkeit",
+    "MDC_P006.de": "Norm, auf der die Einstufung der Entflammbarkeit einer Substanz beruht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "884CACF7748F60A9C1258CDC004A3AF4",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "25fb44cfc26f5266c1258518003c48e9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "3acf3240c31fe624c125825e001de915",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "7de94d21a34b0d36c1257cb40054bd5a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ787)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ787)",
+  "value_list": "0112/2///61987#ABJ787",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "884CACF7748F60A9C1258CDC004A3AF4"
+  }
+}

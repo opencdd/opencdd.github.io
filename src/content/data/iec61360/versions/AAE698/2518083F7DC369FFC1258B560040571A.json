@@ -1,0 +1,138 @@
+{
+  "irdi": "0112/2///61360_4#AAE698",
+  "code": "AAE698",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "output voltage",
+  "preferred_name_ml": {
+    "en": "output voltage"
+  },
+  "short_name": "V_o",
+  "short_name_ml": {
+    "en": "V_o"
+  },
+  "definition": "value as specified by level (minTypmax) of the output voltage of a wideband amplifier at specified supply voltage, intermodulation distortion and temperature of a temperature type",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the output voltage of a wideband amplifier at specified supply voltage, intermodulation distortion and temperature of a temperature type"
+  },
+  "synonyms": [],
+  "remark": "Intermodulation distortion measured according to the three-tone method:|V_p} = V_o} ,  f_p} = 287.25 MHz| V_q} = V_o-6 dB},   f_q} = 294.25 MHz| V_r} = V_o-6 dB},   f_r} = 296.25 MHz| measuring frequency is f_(p+q-r)} = 285.25 MHz |60 dB(mV) means 60 dB above 1 mV, is 1 V.",
+  "remark_ml": {
+    "en": "Intermodulation distortion measured according to the three-tone method:|V_p} = V_o} ,  f_p} = 287.25 MHz| V_q} = V_o-6 dB},   f_q} = 294.25 MHz| V_r} = V_o-6 dB},   f_r} = 296.25 MHz| measuring frequency is f_(p+q-r)} = 285.25 MHz |60 dB(mV) means 60 dB above 1 mV, is 1 V."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE698",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "output voltage",
+    "MDC_P005.en": "V_o",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the output voltage of a wideband amplifier at specified supply voltage, intermodulation distortion and temperature of a temperature type",
+    "MDC_P009.en": "Intermodulation distortion measured according to the three-tone method:|V_p} = V_o} ,  f_p} = 287.25 MHz| V_q} = V_o-6 dB},   f_q} = 294.25 MHz| V_r} = V_o-6 dB},   f_r} = 296.25 MHz| measuring frequency is f_(p+q-r)} = 285.25 MHz |60 dB(mV) means 60 dB above 1 mV, is 1 V.",
+    "MDC_P025_1": "V_o}",
+    "MDC_P023": "dB",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE709}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 13:42:46",
+      "user": "BATCH 00001303",
+      "unid": "2518083F7DC369FFC1258B560040571A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "f5212043d2097ee9c1257ea4004b204f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "30f8e28663016500c1257e8b0032369e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "f769a1d1379134f2c1257e8a0043e472",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "3f391beefca81340c1257a0e0047bcb4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "344519cd6a1bc9e8c1257a0e0046da34",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "V_o}",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE709}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 13:42:46",
+    "user": "BATCH 00001303",
+    "change_request_id": null,
+    "unid": "2518083F7DC369FFC1258B560040571A"
+  }
+}

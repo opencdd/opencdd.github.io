@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#AAH037",
+  "code": "AAH037",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "flammability, glow wire",
+  "preferred_name_ml": {
+    "en": "flammability, glow wire"
+  },
+  "short_name": "flam glow",
+  "short_name_ml": {
+    "en": "flam glow"
+  },
+  "definition": "classifies an EM component whether it fits to the IEC 60512-20-3 requirements",
+  "definition_ml": {
+    "en": "classifies an EM component whether it fits to the IEC 60512-20-3 requirements"
+  },
+  "source_document": "IEC 60512-20-3:2010",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAH037",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "flammability, glow wire",
+    "MDC_P005.en": "flam glow",
+    "MDC_P006.en": "classifies an EM component whether it fits to the IEC 60512-20-3 requirements",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_4#ASA328)",
+    "MDC_P024": "M..23",
+    "MDC_P006_1": "IEC 60512-20-3:2010",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-06-24",
+    "MDC_P003_1": "2001-05-31",
+    "MDC_P003_2": "2025-06-24",
+    "MDC_P003_3": "2025-06-24",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-06-24 08:30:24",
+      "user": "BATCH 00001383",
+      "unid": "223BB01950C37D9CC1258CB30023BE61",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "2e9c8066cca042b6c1257ea4004b23dd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "4e715ae068cd37cec1257e8b00323a0c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:43",
+      "user": "BATCH 00000904",
+      "unid": "9ae1e8909b3fb54ac1257e8a0043e800",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:01",
+      "user": "BATCH 00000704",
+      "unid": "421cb482cdbb21d1c125787f0042a716",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-05-31",
+    "current_version": "2025-06-24",
+    "current_revision": "2025-06-24"
+  },
+  "value_format": "M..23",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_4#ASA328)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..23",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_4#ASA328)",
+  "value_list": "0112/2///61360_4#ASA328",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-06-24 08:30:24",
+    "user": "BATCH 00001383",
+    "change_request_id": null,
+    "unid": "223BB01950C37D9CC1258CB30023BE61"
+  }
+}

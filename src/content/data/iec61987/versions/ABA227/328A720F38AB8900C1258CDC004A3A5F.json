@@ -1,0 +1,151 @@
+{
+  "irdi": "0112/2///61987#ABA227",
+  "code": "ABA227",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "type of general usage approval",
+  "preferred_name_ml": {
+    "en": "type of general usage approval",
+    "fr": "type d'agrément pour usage général",
+    "de": "Art der Zulassung für allgemeine Nutzung"
+  },
+  "definition": "classification of a general usage approval according to the regulatory or issuing authority",
+  "definition_ml": {
+    "en": "classification of a general usage approval according to the regulatory or issuing authority",
+    "fr": "classification d'un agrément pour usage général selon l'autorité réglementaire ou émettrice",
+    "de": "Charakterisierung einer Zulassung für allgemeine Nutzung bezüglich der Regulierungsbehörde oder ausgebenden Stelle"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA227",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of general usage approval",
+    "MDC_P006.en": "classification of a general usage approval according to the regulatory or issuing authority",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL392)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type d'agrément pour usage général",
+    "MDC_P006.fr": "classification d'un agrément pour usage général selon l'autorité réglementaire ou émettrice",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art der Zulassung für allgemeine Nutzung",
+    "MDC_P006.de": "Charakterisierung einer Zulassung für allgemeine Nutzung bezüglich der Regulierungsbehörde oder ausgebenden Stelle",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "328A720F38AB8900C1258CDC004A3A5F",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "148e4849fb722ba1c1258518003c482b",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "1708170e8d68f2f2c125825e001de5e7",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "9382aad8ce1862abc1258256003e9521",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "7592f0f60f6480c5c125825600407a40",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "cb04ab063c1171e2c12580d6004c1ab7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "81fb84fd81d3e7c4c1257cfb00403891",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:27",
+      "user": "BATCH 00000699",
+      "unid": "a0c09c8e3e47c6bec1257cb40054ba4e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL392)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL392)",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "328A720F38AB8900C1258CDC004A3A5F"
+  }
+}

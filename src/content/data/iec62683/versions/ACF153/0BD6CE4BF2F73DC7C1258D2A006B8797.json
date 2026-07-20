@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///62683#ACF153",
+  "code": "ACF153",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Control and auxiliary circuits of transfer switching equipment",
+  "preferred_name_ml": {
+    "en": "Control and auxiliary circuits of transfer switching equipment",
+    "fr": "Circuits de commande et auxiliaire du matériel de connexion de transfert",
+    "de": "Steuer- und Hilfsstromkreise eines Netzumschalters",
+    "zh": "转换开关电器的控制和辅助电路"
+  },
+  "definition": "all the conductive parts of the transfer switching equipment which are intended to be included in a circuit other than the main circuit",
+  "definition_ml": {
+    "en": "all the conductive parts of the transfer switching equipment which are intended to be included in a circuit other than the main circuit",
+    "fr": "ensemble des pièces conductrices du matériel de connexion de transfert destinées à être insérées dans un circuit autre que le circuit principal",
+    "de": "alle leitfähigen Teile des Netzumschalters, die dazu vorgesehen sind, in einen anderen Stromkreis als den Hauptstromkreis eingefügt zu werden",
+    "zh": "除主电路外，接入电路中用作转换开关电器的闭合操作和/或断开操作的开关电器所有导电部件。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF153",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Control and auxiliary circuits of transfer switching equipment",
+    "MDC_P006.en": "all the conductive parts of the transfer switching equipment which are intended to be included in a circuit other than the main circuit",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG153)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "Circuits de commande et auxiliaire du matériel de connexion de transfert",
+    "MDC_P006.fr": "ensemble des pièces conductrices du matériel de connexion de transfert destinées à être insérées dans un circuit autre que le circuit principal",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2025-01-02",
+    "MDC_P004.de": "Steuer- und Hilfsstromkreise eines Netzumschalters",
+    "MDC_P006.de": "alle leitfähigen Teile des Netzumschalters, die dazu vorgesehen sind, in einen anderen Stromkreis als den Hauptstromkreis eingefügt zu werden",
+    "C019.de": "DKE, A. Huhn",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "转换开关电器的控制和辅助电路",
+    "MDC_P006.zh": "除主电路外，接入电路中用作转换开关电器的闭合操作和/或断开操作的开关电器所有导电部件。",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:30",
+      "user": "BATCH 00000844",
+      "unid": "0BD6CE4BF2F73DC7C1258D2A006B8797",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:18",
+      "user": "BATCH 00000811",
+      "unid": "63c828461f3f894bc1258b9d00731c3b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "97b16d17db428c34c1258030004571c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG153)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG153)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:30",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "0BD6CE4BF2F73DC7C1258D2A006B8797"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61360_4#ADA088",
+  "code": "ADA088",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "current derating factor",
+  "preferred_name_ml": {
+    "en": "current derating factor",
+    "de": "Stromreduzierfaktor"
+  },
+  "short_name": "I_der}",
+  "short_name_ml": {
+    "en": "I_der}"
+  },
+  "definition": "required minimum current derating factor of an electric-electronic or electromechanical component, for a  specified ambient temperature higher than the rated temperature",
+  "definition_ml": {
+    "en": "required minimum current derating factor of an electric-electronic or electromechanical component, for a  specified ambient temperature higher than the rated temperature"
+  },
+  "synonyms": [],
+  "note": "The derating factor (< 1) indicates the required reduction of the maximum ocurring current ( (rated current) above the rated ambient temperature avoiding the overheating of the component. In such case, the thermal power loss corresponds to the value as if operating the component  with rated current at rated ambient temperature.",
+  "note_ml": {
+    "en": "The derating factor (< 1) indicates the required reduction of the maximum ocurring current ( (rated current) above the rated ambient temperature avoiding the overheating of the component. In such case, the thermal power loss corresponds to the value as if operating the component  with rated current at rated ambient temperature."
+  },
+  "remark": "replaces AAE905 dissipation derating factor",
+  "remark_ml": {
+    "en": "replaces AAE905 dissipation derating factor"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA088",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "current derating factor",
+    "MDC_P005.en": "I_der}",
+    "MDC_P006.en": "required minimum current derating factor of an electric-electronic or electromechanical component, for a  specified ambient temperature higher than the rated temperature",
+    "MDC_P008.en": "The derating factor (< 1) indicates the required reduction of the maximum ocurring current ( (rated current) above the rated ambient temperature avoiding the overheating of the component. In such case, the thermal power loss corresponds to the value as if operating the component  with rated current at rated ambient temperature.",
+    "MDC_P009.en": "replaces AAE905 dissipation derating factor",
+    "MDC_P025_1": "I_der}",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "Q56",
+    "MDC_P021": "0112/2///61360_4#ADA083",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P004.de": "Stromreduzierfaktor",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 14:45:52",
+      "user": "BATCH 00001307",
+      "unid": "AEB8AE2DB47F0CCCC1258B5600461E55",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-12-21 12:45:19",
+      "user": "BATCH 00001033",
+      "unid": "2645b2327d980fd2c12581fd0040930d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "I_der}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#ADA083",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 14:45:52",
+    "user": "BATCH 00001307",
+    "change_request_id": null,
+    "unid": "AEB8AE2DB47F0CCCC1258B5600461E55"
+  }
+}

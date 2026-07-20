@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61360_4#AAH003",
+  "code": "AAH003",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "fixing method",
+  "preferred_name_ml": {
+    "en": "fixing method"
+  },
+  "short_name": "fxg method",
+  "short_name_ml": {
+    "en": "fxg method"
+  },
+  "definition": "code identifying the method of fixing a component to its counterpart",
+  "definition_ml": {
+    "en": "code identifying the method of fixing a component to its counterpart"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "SC3D",
+  "published_in": "3D/91/CD",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAH003",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "fixing method",
+    "MDC_P005.en": "fxg method",
+    "MDC_P006.en": "code identifying the method of fixing a component to its counterpart",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA251)",
+    "MDC_P024": "X..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "3D/91/CD",
+    "C011": "SC3D",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-05-31",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "D0569176DFF51BBEC1257EA4004B23C0",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "a60e1b501c03c173c1257e8b003239ef",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "de50b5aa5ecf5a34c1257e8a0043e7e3",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:01",
+      "user": "BATCH 00000704",
+      "unid": "591feebf717bd6e0c125787f0042a6fc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-05-31",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "X..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA251)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA251)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D0569176DFF51BBEC1257EA4004B23C0"
+  }
+}

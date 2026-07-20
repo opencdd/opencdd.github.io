@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///62683#ACC401",
+  "code": "ACC401",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Motor protective switching device",
+  "preferred_name_ml": {
+    "en": "Motor protective switching device",
+    "fr": "Appareil de connexion de protection des moteurs",
+    "de": "Motorschutzschalter",
+    "zh": "电动机保护开关设备"
+  },
+  "definition": "manually operated motor starter additionally providing resettable short-circuit protection to the motor and the circuit",
+  "definition_ml": {
+    "en": "manually operated motor starter additionally providing resettable short-circuit protection to the motor and the circuit",
+    "fr": "démarreur moteur à commande manuelle assurant en plus une protection réarmable contre les courts-circuits du moteur et du circuit",
+    "de": "von Hand betätigter Motorstarter, der zusätzlich einen wiedereinschaltbaren Kurzschlussschutz für den Motor",
+    "zh": "手动操作的电动机起动器，具有电动机及电路的可复位短路保护功能。"
+  },
+  "source_document": "IEC 60947-4-1:2018, 3.4.31",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "MPSD"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "MPSD",
+    "fr": "ACPM",
+    "de": "MPSD",
+    "zh": "MPSD"
+  },
+  "note": "Note 1 to entry: A MPSD can also be used as a manual starter, a protected starter or a combination starter. , Note 2 to entry: A MPSD can be used as a SCPD within the motor branch. , Note 3 to entry: In North America, this device is called manual motor controller suitable for tap conductor protection.",
+  "note_ml": {
+    "en": "Note 1 to entry: A MPSD can also be used as a manual starter, a protected starter or a combination starter. , Note 2 to entry: A MPSD can be used as a SCPD within the motor branch. , Note 3 to entry: In North America, this device is called manual motor controller suitable for tap conductor protection.",
+    "fr": "Note 1 à l'article: Un ACPM peut également être utilisé comme démarreur à main, démarreur protégé ou combiné de démarrage. , Note 2 à l'article: Un ACPM peut être utilisé comme DPCC dans la branche du moteur. , Note 3 à l'article: En Amérique du Nord, cet appareil est appelé contrôleur de moteur manuel, apte à la protection du conducteur dérivé.",
+    "de": "Anmerkung 1 zum Begriff: Ein Motorschutzschalter kann auch als Starter mit Handbetätigung, als gegen Kurzschluss geschützter Starter oder als kombinierter Starter verwendet werden., Anmerkung 2 zum Begriff: Ein Motorschutzschalter kann als Kurzschlussschutzeinrichtung (SCPD, en: short-circuit protective device) innerhalb des Motorabzweigs verwendet werden., Anmerkung 3 zum Begriff: In Nordamerika wird dieses Gerät als Motorsteuergerät mit Handantrieb bezeichnet, die zum Schutz für Abzweigleitungen geeignet sind.",
+    "zh": "注1: MPSD还可用作手动起动器、保护起动器或组合起动器。, 注2：MPSD可用作电机分支回路内的SCPD。, 注3：在北美，这种装置被称为手动电机控制器，适用于支线回路保护。"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC401",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Motor protective switching device",
+    "MDC_P007.en": "MPSD",
+    "MDC_P006.en": "manually operated motor starter additionally providing resettable short-circuit protection to the motor and the circuit",
+    "MDC_P008.en": "Note 1 to entry: A MPSD can also be used as a manual starter, a protected starter or a combination starter. , Note 2 to entry: A MPSD can be used as a SCPD within the motor branch. , Note 3 to entry: In North America, this device is called manual motor controller suitable for tap conductor protection.",
+    "MDC_P006_1": "IEC 60947-4-1:2018, 3.4.31",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-08-24",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2020-08-24",
+    "MDC_P003_3": "2020-08-24",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P010": "0112/2///62683#ACC400",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF037,0112/2///62683#ACF038,0112/2///62683#ACF039,0112/2///62683#ACF040,0112/2///62683#ACF041,0112/2///62683#ACF042,0112/2///62683#ACF043,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Appareil de connexion de protection des moteurs",
+    "MDC_P007.fr": "ACPM",
+    "MDC_P006.fr": "démarreur moteur à commande manuelle assurant en plus une protection réarmable contre les courts-circuits du moteur et du circuit",
+    "MDC_P008.fr": "Note 1 à l'article: Un ACPM peut également être utilisé comme démarreur à main, démarreur protégé ou combiné de démarrage. , Note 2 à l'article: Un ACPM peut être utilisé comme DPCC dans la branche du moteur. , Note 3 à l'article: En Amérique du Nord, cet appareil est appelé contrôleur de moteur manuel, apte à la protection du conducteur dérivé.",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "2",
+    "C018.fr": "2020-09-28",
+    "MDC_P004.de": "Motorschutzschalter",
+    "MDC_P007.de": "MPSD",
+    "MDC_P006.de": "von Hand betätigter Motorstarter, der zusätzlich einen wiedereinschaltbaren Kurzschlussschutz für den Motor",
+    "MDC_P008.de": "Anmerkung 1 zum Begriff: Ein Motorschutzschalter kann auch als Starter mit Handbetätigung, als gegen Kurzschluss geschützter Starter oder als kombinierter Starter verwendet werden., Anmerkung 2 zum Begriff: Ein Motorschutzschalter kann als Kurzschlussschutzeinrichtung (SCPD, en: short-circuit protective device) innerhalb des Motorabzweigs verwendet werden., Anmerkung 3 zum Begriff: In Nordamerika wird dieses Gerät als Motorsteuergerät mit Handantrieb bezeichnet, die zum Schutz für Abzweigleitungen geeignet sind.",
+    "C019.de": "DKE, Andreas Bäumler",
+    "C017.de": "2",
+    "C018.de": "2022-01-28",
+    "MDC_P004.zh": "电动机保护开关设备",
+    "MDC_P007.zh": "MPSD",
+    "MDC_P006.zh": "手动操作的电动机起动器，具有电动机及电路的可复位短路保护功能。",
+    "MDC_P008.zh": "注1: MPSD还可用作手动起动器、保护起动器或组合起动器。, 注2：MPSD可用作电机分支回路内的SCPD。, 注3：在北美，这种装置被称为手动电机控制器，适用于支线回路保护。",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "2",
+    "C018.zh": "2022-01-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-08-24 12:06:18",
+      "user": "BATCH 00000757",
+      "unid": "0e8bc2e382138f1ac12585ce00378228",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "dc2e662580bad3b9c1258030004501fb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2020-08-24",
+    "current_revision": "2020-08-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF037",
+    "0112/2///62683#ACF038",
+    "0112/2///62683#ACF039",
+    "0112/2///62683#ACF040",
+    "0112/2///62683#ACF041",
+    "0112/2///62683#ACF042",
+    "0112/2///62683#ACF043",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC400",
+  "superclass_type_property": "0112/2///62683#ACC400",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-08-24 12:06:18",
+    "user": "BATCH 00000757",
+    "change_request_id": null,
+    "unid": "0e8bc2e382138f1ac12585ce00378228"
+  }
+}

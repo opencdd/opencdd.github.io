@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABI474",
+  "code": "ABI474",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Consumable",
+  "preferred_name_ml": {
+    "en": "Consumable",
+    "de": "Verbrauchsmaterial"
+  },
+  "definition": "properties characterizing a consumable",
+  "definition_ml": {
+    "en": "properties characterizing a consumable",
+    "de": "Merkmale, die ein Verbrauchsmaterial kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABI474",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Consumable",
+    "MDC_P006.en": "properties characterizing a consumable",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-11-10",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABI519,0112/2///61987#ABI520,0112/2///61987#ABI521,0112/2///61987#ABI514,0112/2///61987#ABI522}",
+    "MDC_P013": "{0112/2///61360_7#CAA014}",
+    "MDC_P090": "{0112/2///61360_7#CBA042}",
+    "MDC_P004.de": "Verbrauchsmaterial",
+    "MDC_P006.de": "Merkmale, die ein Verbrauchsmaterial kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-08-19",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:23",
+      "user": "BATCH 00000855",
+      "unid": "37B3C916A14B249DC1258D3E003CD3CE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:13",
+      "user": "BATCH 00000766",
+      "unid": "f9ecd912df756901c12583b7005020f9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-11-10",
+    "current_revision": "2025-11-10"
+  },
+  "is_case_of": [
+    "0112/2///61360_7#CAA014"
+  ],
+  "applicable_properties": [
+    "0112/2///61987#ABI519",
+    "0112/2///61987#ABI520",
+    "0112/2///61987#ABI521",
+    "0112/2///61987#ABI514",
+    "0112/2///61987#ABI522"
+  ],
+  "imported_properties": [
+    "0112/2///61360_7#CBA042"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:23",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "37B3C916A14B249DC1258D3E003CD3CE"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB317",
+  "code": "ABB317",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "condensing point",
+  "preferred_name_ml": {
+    "en": "condensing point",
+    "fr": "point de condensation",
+    "de": "Kondensationspunkt"
+  },
+  "definition": "temperature at which a vapor changes to the liquid state at the given operating pressure",
+  "definition_ml": {
+    "en": "temperature at which a vapor changes to the liquid state at the given operating pressure",
+    "fr": "température à laquelle la vapeur passe à l'état liquide à la pression de fonctionnement donnée",
+    "de": "Temperatur, bei der ein Dampf bei gegebenem Betriebsdruck in den flüssigen Zustand übergeht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB317",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "condensing point",
+    "MDC_P006.en": "temperature at which a vapor changes to the liquid state at the given operating pressure",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "point de condensation",
+    "MDC_P006.fr": "température à laquelle la vapeur passe à l'état liquide à la pression de fonctionnement donnée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Kondensationspunkt",
+    "MDC_P006.de": "Temperatur, bei der ein Dampf bei gegebenem Betriebsdruck in den flüssigen Zustand übergeht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "6224B20975283786C125825E001DE91E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "6e74300402b17ec8c1257fa700405a27",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "af83bf55be49688fc1257cfb00403ba6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "0facf61a37dd20eec1257cb40054bd63",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:42",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "6224B20975283786C125825E001DE91E"
+  }
+}

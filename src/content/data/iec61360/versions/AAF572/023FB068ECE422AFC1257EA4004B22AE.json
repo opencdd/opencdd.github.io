@@ -1,0 +1,153 @@
+{
+  "irdi": "0112/2///61360_4#AAF572",
+  "code": "AAF572",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "signal connection characteristics",
+  "preferred_name_ml": {
+    "en": "signal connection characteristics"
+  },
+  "definition": "optional description of the  technical characteristics of the signal connection",
+  "definition_ml": {
+    "en": "optional description of the  technical characteristics of the signal connection"
+  },
+  "source_document": "IEC 61175-1, Ed.1",
+  "synonyms": [],
+  "note": "In IEC 61175 Ed.2, the name \"additional information\" instead of \"signal connection characteristics\" was used",
+  "note_ml": {
+    "en": "In IEC 61175 Ed.2, the name \"additional information\" instead of \"signal connection characteristics\" was used"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61175-1:2014",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF572",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "signal connection characteristics",
+    "MDC_P006.en": "optional description of the  technical characteristics of the signal connection",
+    "MDC_P008.en": "In IEC 61175 Ed.2, the name \"additional information\" instead of \"signal connection characteristics\" was used",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "IEC 61175-1, Ed.1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A62",
+    "MDC_P021": "0112/2///61360_4#AAF526",
+    "C016": "Standard",
+    "C012": "IEC 61175-1:2014",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2011-11-09",
+    "MDC_P003_2": "2011-11-09",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "023FB068ECE422AFC1257EA4004B22AE",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "329e5c2c2014e9bcc1257e8b003238e2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "04dab150f0177874c1257e8a0043e6d1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-06-26 13:12:14",
+      "user": "BATCH 00000892",
+      "unid": "aeb600f0cd95cbf5c1257e70003d8b7a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-02-18 17:01:55",
+      "user": "BATCH 00000892",
+      "unid": "5d9dc21fc2d7c990c1257df0005810fa",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-02-18 16:48:04",
+      "user": "BATCH 00000891",
+      "unid": "0a05ccef35ba496ac1257df00056cc77",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-01-14 10:12:34",
+      "user": "BATCH 00000886",
+      "unid": "c8545fad8ea3bad9c1257dcd0032970d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-09-20 17:38:05",
+      "user": "BATCH 00000801",
+      "unid": "c1e43e6bd76a74e6c1257a7f0055e27c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-06-14 18:10:26",
+      "user": "BATCH 00000794",
+      "unid": "7f3de62cf1dce84cc1257a1d0058d8d5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-11-09",
+    "current_version": "2011-11-09",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAF526",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:40",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "023FB068ECE422AFC1257EA4004B22AE"
+  }
+}

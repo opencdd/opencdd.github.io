@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA812",
+  "code": "ABA812",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Hydrostatic pressure level transmitter",
+  "preferred_name_ml": {
+    "en": "Hydrostatic pressure level transmitter",
+    "fr": "Transmetteur de niveau à pression hydrostatique",
+    "de": "Hydrostatischer Füllstandmessumformer"
+  },
+  "definition": "level transmitter that uses the pressure exerted by a head of liquid to measure level",
+  "definition_ml": {
+    "en": "level transmitter that uses the pressure exerted by a head of liquid to measure level",
+    "fr": "transmetteur de niveau utilisant la pression exercée par la charge d'un liquide pour mesurer un niveau",
+    "de": "Füllstandmessumformer, der von einer Flüssigkeitssäule ausgeübten Druck nutzt, um einen Füllstand zu messen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA812",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Hydrostatic pressure level transmitter",
+    "MDC_P006.en": "level transmitter that uses the pressure exerted by a head of liquid to measure level",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-05",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-12-05",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA803",
+    "MDC_P014": "{0112/2///61987#ABF882}",
+    "MDC_P004.fr": "Transmetteur de niveau à pression hydrostatique",
+    "MDC_P006.fr": "transmetteur de niveau utilisant la pression exercée par la charge d'un liquide pour mesurer un niveau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-27",
+    "MDC_P004.de": "Hydrostatischer Füllstandmessumformer",
+    "MDC_P006.de": "Füllstandmessumformer, der von einer Flüssigkeitssäule ausgeübten Druck nutzt, um einen Füllstand zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-12-05 10:00:24",
+      "user": "BATCH 00000817",
+      "unid": "69C4BC757B959C7BC1258A7C003179BF",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "e23f70fe4f0f23e1c125825e001dd3f3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:57",
+      "user": "BATCH 00000732",
+      "unid": "14744e908ff52558c12580d6004bfc2f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "f85dffc83fa03f9bc1257cb3002a0cd2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-12-05"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF882"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA803",
+  "superclass_type_property": "0112/2///61987#ABA803",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-12-05 10:00:24",
+    "user": "BATCH 00000817",
+    "change_request_id": null,
+    "unid": "69C4BC757B959C7BC1258A7C003179BF"
+  }
+}

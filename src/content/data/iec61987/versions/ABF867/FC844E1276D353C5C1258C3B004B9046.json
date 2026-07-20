@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61987#ABF867",
+  "code": "ABF867",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Operating LOP for temperature measuring equipment",
+  "preferred_name_ml": {
+    "en": "Operating LOP for temperature measuring equipment",
+    "de": "Betriebs-Merkmalleiste für Temperatur-Messgeräte"
+  },
+  "definition": "list of properties characterizing the operating conditions of temperature measuring instruments",
+  "definition_ml": {
+    "en": "list of properties characterizing the operating conditions of temperature measuring instruments",
+    "de": "Merkmalleiste, die die Betriebsbedingungen für Temperaturmessgeräte kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABF867",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Operating LOP for temperature measuring equipment",
+    "MDC_P006.en": "list of properties characterizing the operating conditions of temperature measuring instruments",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV503",
+    "MDC_P014": "{0112/2///61987#ABH440,0112/2///61987#ABE064,0112/2///61987#ABB164,0112/2///61987#ABH011,0112/2///61987#ABH028,0112/2///61987#ABH039,0112/2///61987#ABB348,0112/2///61987#ABD142}",
+    "MDC_P004.de": "Betriebs-Merkmalleiste für Temperatur-Messgeräte",
+    "MDC_P006.de": "Merkmalleiste, die die Betriebsbedingungen für Temperaturmessgeräte kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-03-20",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:45:21",
+      "user": "BATCH 00000835",
+      "unid": "FC844E1276D353C5C1258C3B004B9046",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:06",
+      "user": "BATCH 00000762",
+      "unid": "1976fde427b91310c125825e001ddb43",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH440",
+    "0112/2///61987#ABE064",
+    "0112/2///61987#ABB164",
+    "0112/2///61987#ABH011",
+    "0112/2///61987#ABH028",
+    "0112/2///61987#ABH039",
+    "0112/2///61987#ABB348",
+    "0112/2///61987#ABD142"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV503",
+  "superclass_type_property": "0112/2///61987#ABV503",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:45:21",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "FC844E1276D353C5C1258C3B004B9046"
+  }
+}

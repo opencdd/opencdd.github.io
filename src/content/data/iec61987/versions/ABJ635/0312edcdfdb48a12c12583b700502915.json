@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABJ635",
+  "code": "ABJ635",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2019-03-08 15:35:33",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "0312edcdfdb48a12c12583b700502915"
+  }
+}

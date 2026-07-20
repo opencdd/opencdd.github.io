@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///62683#ACC526",
+  "code": "ACC526",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "Contact block for control circuit",
+  "preferred_name_ml": {
+    "en": "Contact block for control circuit",
+    "fr": "Bloc de contact pour circuit de commande",
+    "de": "Schalteinheit für den Steuerstromkreis",
+    "zh": "控制电路的触头模块"
+  },
+  "definition": "a contact element or contact element combination which can be combined with similar units operated by a common actuating system",
+  "definition_ml": {
+    "en": "a contact element or contact element combination which can be combined with similar units operated by a common actuating system",
+    "fr": "élément de contact ou combinaison d'éléments de contact qui peuvent être combinés avec des unités semblables manœuvrées par un mécanisme transmetteur commun",
+    "de": "Schaltglied oder Schaltgliedkombination, das/die mit ähnlichen Einheiten kombiniert und durch ein gemeinsames Betätigungssystem angetrieben werden kann",
+    "zh": "可以与类似单元相组合的触头元件或触头元件组合，该单元可由共用操动系统操作。"
+  },
+  "source_document": "2.3.3.10 of IEC 60947-5-1: 2016",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Contact unit"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Contact unit"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC526",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "Contact block for control circuit",
+    "MDC_P007.en": "Contact unit",
+    "MDC_P006.en": "a contact element or contact element combination which can be combined with similar units operated by a common actuating system",
+    "MDC_P006_1": "2.3.3.10 of IEC 60947-5-1: 2016",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-12-14",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC500",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF175,0112/2///62683#ACF130,0112/2///62683#ACF146,0112/2///62683#ACF058,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Bloc de contact pour circuit de commande",
+    "MDC_P006.fr": "élément de contact ou combinaison d'éléments de contact qui peuvent être combinés avec des unités semblables manœuvrées par un mécanisme transmetteur commun",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Schalteinheit für den Steuerstromkreis",
+    "MDC_P006.de": "Schaltglied oder Schaltgliedkombination, das/die mit ähnlichen Einheiten kombiniert und durch ein gemeinsames Betätigungssystem angetrieben werden kann",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "控制电路的触头模块",
+    "MDC_P006.zh": "可以与类似单元相组合的触头元件或触头元件组合，该单元可由共用操动系统操作。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:34",
+      "user": "BATCH 00000749",
+      "unid": "c4f2b6adfb9bf7cfc12584ec0078a0da",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "58fbdbfb74e0970ac125803000450224",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-12-14",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF175",
+    "0112/2///62683#ACF130",
+    "0112/2///62683#ACF146",
+    "0112/2///62683#ACF058",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC500",
+  "superclass_type_property": "0112/2///62683#ACC500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:34",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "c4f2b6adfb9bf7cfc12584ec0078a0da"
+  }
+}

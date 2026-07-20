@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61987#ABA143",
+  "code": "ABA143",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "design derating temperature",
+  "preferred_name_ml": {
+    "en": "design derating temperature",
+    "fr": "température de réduction de charge de calcul",
+    "de": "Derating-Auslegungstemperatur"
+  },
+  "definition": "temperature at which the design pressure deratings have been determined",
+  "definition_ml": {
+    "en": "temperature at which the design pressure deratings have been determined",
+    "fr": "température à laquelle les réductions de charge de pression de calcul ont été déterminées",
+    "de": "Temperatur, bei der das Derating des Auslegungsdrucks bestimmt wurde"
+  },
+  "source_document": "IEC 62424 MOD",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA143",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "design derating temperature",
+    "MDC_P006.en": "temperature at which the design pressure deratings have been determined",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 62424 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "température de réduction de charge de calcul",
+    "MDC_P006.fr": "température à laquelle les réductions de charge de pression de calcul ont été déterminées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Derating-Auslegungstemperatur",
+    "MDC_P006.de": "Temperatur, bei der das Derating des Auslegungsdrucks bestimmt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "7A5605F57C224A03C125825E001DE59C",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "41b11c2703c0ee27c125825600407a12",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "db0e9c2bc061353ec12580d6004c1a73",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "67b30924e77a047bc1257f7f004d005e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:50",
+      "user": "BATCH 00000717",
+      "unid": "4d7fb87b3105458bc1257fa7004058e1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "2e27d78f66dcd7c2c1257cfb0040384d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "486d8798a1b1d027c1257cb40054ba0a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:33",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "7A5605F57C224A03C125825E001DE59C"
+  }
+}

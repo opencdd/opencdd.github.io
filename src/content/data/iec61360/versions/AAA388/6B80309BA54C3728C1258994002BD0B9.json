@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAA388",
+  "code": "AAA388",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "gull-wing",
+  "preferred_name_ml": {
+    "en": "gull-wing"
+  },
+  "short_name": "G",
+  "short_name_ml": {
+    "en": "G"
+  },
+  "definition": "dual small package outline style with gull-wing leads",
+  "definition_ml": {
+    "en": "dual small package outline style with gull-wing leads"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00035",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA388",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "G",
+    "MDC_P004.en": "gull-wing",
+    "MDC_P006.en": "dual small package outline style with gull-wing leads",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2016-12-13",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2016-12-13",
+    "MDC_P012": "SC3D",
+    "MDC_P010": "0112/2///61360_4#AAA350",
+    "C021": "0112/2///61360_4#AAG054",
+    "MDC_P014": "{0112/2///61360_4#AAG054}",
+    "C002": "C00035"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:34",
+      "user": "BATCH 00001245",
+      "unid": "6B80309BA54C3728C1258994002BD0B9",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:34",
+      "user": "BATCH 00001245",
+      "unid": "58f949244a052aa4c1258994002bd0b8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:02",
+      "user": "BATCH 00000997",
+      "unid": "a0460b03f25d9bacc12580880051da1a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "bc8188922e1a59bac1257d7300506a9d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:08",
+      "user": "BATCH 00000788",
+      "unid": "bcd352bbd4db2d59c1257a0e0047b2ff",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2016-12-13"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG054"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA350",
+  "superclass_type_property": "0112/2///61360_4#AAA350",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:34",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "6B80309BA54C3728C1258994002BD0B9"
+  }
+}

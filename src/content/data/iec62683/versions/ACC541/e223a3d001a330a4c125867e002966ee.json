@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///62683#ACC541",
+  "code": "ACC541",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Linear encoder",
+  "preferred_name_ml": {
+    "en": "Linear encoder",
+    "fr": "Codeur linéaire",
+    "de": "Lineargeber",
+    "zh": "线性编码器"
+  },
+  "definition": "transducer converting its linear position or its linear displacement along a scale of an analogue or digital code",
+  "definition_ml": {
+    "en": "transducer converting its linear position or its linear displacement along a scale of an analogue or digital code",
+    "fr": "transducteur transformant la position ou le déplacement angulaire d'un axe en un code numérique ou analogique",
+    "de": "Wandler, der seine lineare Position oder seine lineare Verschiebung entlang einer Skala in einen analogen oder digitalen Wert umwandelt.",
+    "zh": "将线性位置或线性位移转换成模拟或数字编码的传感器"
+  },
+  "synonyms": [],
+  "synonyms_ml": {
+    "fr": "codeur optique linéaire, encodeur linéaire"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC541",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Linear encoder",
+    "MDC_P006.en": "transducer converting its linear position or its linear displacement along a scale of an analogue or digital code",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2021-02-16",
+    "MDC_P003_1": "2015-07-16",
+    "MDC_P003_2": "2021-02-16",
+    "MDC_P003_3": "2021-02-16",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC500",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF277,0112/2///62683#ACF278,0112/2///62683#ACF274,0112/2///62683#ACF275,0112/2///62683#ACF280,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Codeur linéaire",
+    "MDC_P007.fr": "codeur optique linéaire, encodeur linéaire",
+    "MDC_P006.fr": "transducteur transformant la position ou le déplacement angulaire d'un axe en un code numérique ou analogique",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Lineargeber",
+    "MDC_P006.de": "Wandler, der seine lineare Position oder seine lineare Verschiebung entlang einer Skala in einen analogen oder digitalen Wert umwandelt.",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-12-05",
+    "MDC_P004.zh": "线性编码器",
+    "MDC_P006.zh": "将线性位置或线性位移转换成模拟或数字编码的传感器",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2018-05-30",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-02-16 08:32:13",
+      "user": "BATCH 00000793",
+      "unid": "e223a3d001a330a4c125867e002966ee",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:19:12",
+      "user": "BATCH 00000747",
+      "unid": "ea3e37cc0f95e0a7c12584ec00751d96",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-07-16",
+    "current_version": "2021-02-16",
+    "current_revision": "2021-02-16"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF277",
+    "0112/2///62683#ACF278",
+    "0112/2///62683#ACF274",
+    "0112/2///62683#ACF275",
+    "0112/2///62683#ACF280",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC500",
+  "superclass_type_property": "0112/2///62683#ACC500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2021-02-16 08:32:13",
+    "user": "BATCH 00000793",
+    "change_request_id": null,
+    "unid": "e223a3d001a330a4c125867e002966ee"
+  }
+}

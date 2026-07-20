@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61360_4#AAA609",
+  "code": "AAA609",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "low-power rotary potentiometer",
+  "preferred_name_ml": {
+    "en": "low-power rotary potentiometer"
+  },
+  "definition": "potentiometer for which the mechanical adjustment is achieved by turning a shaft and which is typically able to dissipate powers up to 10 W",
+  "definition_ml": {
+    "en": "potentiometer for which the mechanical adjustment is achieved by turning a shaft and which is typically able to dissipate powers up to 10 W"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "low-power rotary"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "low-power rotary"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA609",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "low-power rotary potentiometer",
+    "MDC_P007.en": "low-power rotary",
+    "MDC_P006.en": "potentiometer for which the mechanical adjustment is achieved by turning a shaft and which is typically able to dissipate powers up to 10 W",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA102",
+    "MDC_P014": "{0112/2///61360_4#AAE145,0112/2///61360_4#AAE147,0112/2///61360_4#AAE148,0112/2///61360_4#AAE173,0112/2///61360_4#AAJ014,0112/2///61360_4#AAJ015,0112/2///61360_4#AAJ123,0112/2///61360_4#AAJ124}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "73851160fe2489a0c1258994002bd151",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "627660a6777b30e2c1257dd300516001",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "f53dbbcab039d983c1257d7300506a28",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-16 15:50:18",
+      "user": "BATCH 00000717",
+      "unid": "c2767799be269bdac12578ee004c042e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE145",
+    "0112/2///61360_4#AAE147",
+    "0112/2///61360_4#AAE148",
+    "0112/2///61360_4#AAE173",
+    "0112/2///61360_4#AAJ014",
+    "0112/2///61360_4#AAJ015",
+    "0112/2///61360_4#AAJ123",
+    "0112/2///61360_4#AAJ124"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA102",
+  "superclass_type_property": "0112/2///61360_4#AAA102",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "73851160fe2489a0c1258994002bd151"
+  }
+}

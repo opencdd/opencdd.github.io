@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABA784",
+  "code": "ABA784",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Gear flow transmitter",
+  "preferred_name_ml": {
+    "en": "Gear flow transmitter",
+    "fr": "Transmetteur de débit à engrenages",
+    "de": "Zahnradzähler",
+    "jp": "ギア流量計"
+  },
+  "definition": "positive displacement flow transmitter that uses gears to divide and meter the flow",
+  "definition_ml": {
+    "en": "positive displacement flow transmitter that uses gears to divide and meter the flow",
+    "fr": "transmetteur de débit à déplacement positif utilisant des engrenages pour diviser et mesurer le débit",
+    "de": "Verdrängerzähler, der einen radförmigen Zähler nutzt, um den Durchfluss aufzuteilen und zu messen",
+    "jp": "測定にギアを使用する容積流量計"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA784",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Gear flow transmitter",
+    "MDC_P006.en": "positive displacement flow transmitter that uses gears to divide and meter the flow",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA783",
+    "MDC_P004.fr": "Transmetteur de débit à engrenages",
+    "MDC_P006.fr": "transmetteur de débit à déplacement positif utilisant des engrenages pour diviser et mesurer le débit",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-12-01",
+    "MDC_P004.de": "Zahnradzähler",
+    "MDC_P006.de": "Verdrängerzähler, der einen radförmigen Zähler nutzt, um den Durchfluss aufzuteilen und zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "MDC_P004.jp": "ギア流量計",
+    "MDC_P006.jp": "測定にギアを使用する容積流量計",
+    "MDC_P009.jp": "JEMIS-043_ANNEX_A_080331 Draft, ID: JEMIMA_C000030",
+    "C019.jp": "Mr. Takaharu Matsumoto",
+    "C017.jp": "0",
+    "C018.jp": "2016-09-22",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "1809DA68A26CEFCDC125825E001DD3CD",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:35",
+      "user": "BATCH 00000701",
+      "unid": "2f46f36250a5a20cc1257cfb003f9777",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "526bda34f950e2aac1257cfb003f67d1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:06",
+      "user": "BATCH 00000699",
+      "unid": "412bdab4b114fb73c1257cb400549abd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "ee2db8105431eda5c1257cb3002a0cb6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA783",
+  "superclass_type_property": "0112/2///61987#ABA783",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "1809DA68A26CEFCDC125825E001DD3CD"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG035",
+  "code": "ACG035",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2024-09-19 22:57:05",
+    "user": "BATCH 00000811",
+    "change_request_id": null,
+    "unid": "2411eef269b87ba2c1258b9d00731723"
+  }
+}

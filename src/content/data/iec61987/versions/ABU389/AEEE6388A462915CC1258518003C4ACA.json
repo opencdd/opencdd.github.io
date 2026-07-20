@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABU389",
+  "code": "ABU389",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "measured variable type [4]",
+  "preferred_name_ml": {
+    "en": "measured variable type [4]",
+    "fr": "type de variable mesurée [4]",
+    "de": "Messgrößentyp [4]"
+  },
+  "definition": "type of quantity subject to measurement",
+  "definition_ml": {
+    "en": "type of quantity subject to measurement",
+    "fr": "type de grandeur soumise à une mesure",
+    "de": "Art einer Größe, die gemessen wird"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property;|Id specified in IEC61987-12/-13",
+  "remark_ml": {
+    "en": "polymorphic control property;|Id specified in IEC61987-12/-13"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU389",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "measured variable type [4]",
+    "MDC_P006.en": "type of quantity subject to measurement",
+    "MDC_P009.en": "polymorphic control property;|Id specified in IEC61987-12/-13",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU116(Pressure measurement,Temperature measurement,Other variable))",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "type de variable mesurée [4]",
+    "MDC_P006.fr": "type de grandeur soumise à une mesure",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Messgrößentyp [4]",
+    "MDC_P006.de": "Art einer Größe, die gemessen wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:33",
+      "user": "BATCH 00000774",
+      "unid": "AEEE6388A462915CC1258518003C4ACA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:20",
+      "user": "BATCH 00000762",
+      "unid": "7301603cde106325c125825e001df7e8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:55",
+      "user": "BATCH 00000699",
+      "unid": "96a3a83cad827809c1257cb40054c580",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU116(Pressure measurement,Temperature measurement,Other variable))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU116(Pressure measurement,Temperature measurement,Other variable))",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:33",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "AEEE6388A462915CC1258518003C4ACA"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABA976",
+  "code": "ABA976",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "maximum conductor cross-section for internal equipotential bonding",
+  "preferred_name_ml": {
+    "en": "maximum conductor cross-section for internal equipotential bonding",
+    "fr": "coupe transversale maximale du conducteur pour liaison équipotentielle interne",
+    "de": "maximaler Leiterquerschnitt für internen Potenzialausgleich"
+  },
+  "definition": "largest cross-sectional area or gauge of a conductor that can be connected to the equipotential bonding terminal on the inside the device",
+  "definition_ml": {
+    "en": "largest cross-sectional area or gauge of a conductor that can be connected to the equipotential bonding terminal on the inside the device",
+    "fr": "zone de coupe transversale ou gabarit maximal d'un conducteur qui peut être connecté à la borne de liaison équipotentielle à l'intérieur de l’appareil",
+    "de": "größte Querschnittsfläche oder Breite eines Leiters, der an die Potentialausgleichsklemme im Innern des Geräts angeschlossen werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA976",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "maximum conductor cross-section for internal equipotential bonding",
+    "MDC_P006.en": "largest cross-sectional area or gauge of a conductor that can be connected to the equipotential bonding terminal on the inside the device",
+    "MDC_P023": "mm²",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA871",
+    "C0104": "0112/2///61987#ABT578",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "coupe transversale maximale du conducteur pour liaison équipotentielle interne",
+    "MDC_P006.fr": "zone de coupe transversale ou gabarit maximal d'un conducteur qui peut être connecté à la borne de liaison équipotentielle à l'intérieur de l’appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "maximaler Leiterquerschnitt für internen Potenzialausgleich",
+    "MDC_P006.de": "größte Querschnittsfläche oder Breite eines Leiters, der an die Potentialausgleichsklemme im Innern des Geräts angeschlossen werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "5D117F04FF878C88C1258DED00455822",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "3a7942ff9737422ec125825e001de7cb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "07e52face384d772c1257fa70040598c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "4010162c9feeb889c1257cfb00403a54",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "3c23dccabd57b4aec1257cb40054bc11",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA871",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "5D117F04FF878C88C1258DED00455822"
+  }
+}

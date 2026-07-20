@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61360_4#AAG509",
+  "code": "AAG509",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "power supply input",
+  "preferred_name_ml": {
+    "en": "power supply input"
+  },
+  "short_name": "PS input",
+  "short_name_ml": {
+    "en": "PS input"
+  },
+  "definition": "nominal electric power supplied to a display device",
+  "definition_ml": {
+    "en": "nominal electric power supplied to a display device"
+  },
+  "source_document": "AAE182",
+  "synonyms": [],
+  "note": "Usually Watt [W] is used for the unit of measure.",
+  "note_ml": {
+    "en": "Usually Watt [W] is used for the unit of measure."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG509",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "power supply input",
+    "MDC_P005.en": "PS input",
+    "MDC_P006.en": "nominal electric power supplied to a display device",
+    "MDC_P008.en": "Usually Watt [W] is used for the unit of measure.",
+    "MDC_P023": "W",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "AAE182",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AAB010",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2014-10-02",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "22915F4B29F073AFC1257EA4004B23BA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "a4932fbc012f7dfac1257e8b003239e9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "89391d806da6d6aec1257e8a0043e7dd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-10-02 16:33:33",
+      "user": "BATCH 00000878",
+      "unid": "b1c0ceedcd6575e4c1257d65004ff9f9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2014-10-02",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAB010",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "22915F4B29F073AFC1257EA4004B23BA"
+  }
+}

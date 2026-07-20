@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///62683#ACG020",
+  "code": "ACG020",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Service functions of the assembly",
+  "preferred_name_ml": {
+    "en": "Service functions of the assembly",
+    "fr": "Fonctions de service de l'ensemble"
+  },
+  "definition": "functions performed by the assembly in addition to its essential functions and capabilities",
+  "definition_ml": {
+    "en": "functions performed by the assembly in addition to its essential functions and capabilities",
+    "fr": "fonctions exercées par l'ensemble en plus de ses fonctions et capacités essentielles"
+  },
+  "synonyms": [],
+  "note": "Typical essential functions and capability are switching loads, over-current protections and short-circuit withstand.",
+  "note_ml": {
+    "en": "Typical essential functions and capability are switching loads, over-current protections and short-circuit withstand.",
+    "fr": "Les fonctions et capacités essentielles typiques sont la commutation de charges, les protections contre les surintensités et la tenue aux courts-circuits."
+  },
+  "remark": "This block of properties should be reserved for those if no other appropriate properties are made available.",
+  "remark_ml": {
+    "en": "This block of properties should be reserved for those if no other appropriate properties are made available.",
+    "fr": "Ce bloc de propriétés doit être réservé à celles qui ne disposent pas d'autres propriétés appropriées."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG020",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Service functions of the assembly",
+    "MDC_P006.en": "functions performed by the assembly in addition to its essential functions and capabilities",
+    "MDC_P008.en": "Typical essential functions and capability are switching loads, over-current protections and short-circuit withstand.",
+    "MDC_P009.en": "This block of properties should be reserved for those if no other appropriate properties are made available.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2022-08-03",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P014": "{0112/2///62683#ACE264,0112/2///62683#ACE265}",
+    "MDC_P013": "{0112/2///63213#KEA012}",
+    "MDC_P090": "{0112/2///63213#KEA306,0112/2///63213#KEA302}",
+    "MDC_P004.fr": "Fonctions de service de l'ensemble",
+    "MDC_P006.fr": "fonctions exercées par l'ensemble en plus de ses fonctions et capacités essentielles",
+    "MDC_P008.fr": "Les fonctions et capacités essentielles typiques sont la commutation de charges, les protections contre les surintensités et la tenue aux courts-circuits.",
+    "MDC_P009.fr": "Ce bloc de propriétés doit être réservé à celles qui ne disposent pas d'autres propriétés appropriées.",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "8/3/2022",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "1CDFAECF854E04C7C1258D8F003A6CFD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "69ea900ad2a73977c1258b9d00731720",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "5a021655111069e6c1258034002e3569",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "d2e100cffe9f95a6c12580300045023f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2022-08-03",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [
+    "0112/2///63213#KEA012"
+  ],
+  "applicable_properties": [
+    "0112/2///62683#ACE264",
+    "0112/2///62683#ACE265"
+  ],
+  "imported_properties": [
+    "0112/2///63213#KEA306",
+    "0112/2///63213#KEA302"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "1CDFAECF854E04C7C1258D8F003A6CFD"
+  }
+}

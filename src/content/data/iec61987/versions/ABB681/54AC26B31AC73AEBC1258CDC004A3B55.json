@@ -1,0 +1,117 @@
+{
+  "irdi": "0112/2///61987#ABB681",
+  "code": "ABB681",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference base for average influence of process pressure",
+  "preferred_name_ml": {
+    "en": "reference base for average influence of process pressure",
+    "fr": "base de référence pour l'influence moyenne de la pression de processus",
+    "de": "Bezug der Angabe des mittleren Prozessdruckeinflusses"
+  },
+  "definition": "basis for stating an average percentage influence of process pressure",
+  "definition_ml": {
+    "en": "basis for stating an average percentage influence of process pressure",
+    "fr": "base pour énoncer l'influence moyenne en pourcentage de la pression de processus",
+    "de": "Bezug, auf dem die Angabe des Werts des mittleren Prozessdruckeinflusses in relativen Einheiten beruht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB681",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference base for average influence of process pressure",
+    "MDC_P006.en": "basis for stating an average percentage influence of process pressure",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "base de référence pour l'influence moyenne de la pression de processus",
+    "MDC_P006.fr": "base pour énoncer l'influence moyenne en pourcentage de la pression de processus",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Bezug der Angabe des mittleren Prozessdruckeinflusses",
+    "MDC_P006.de": "Bezug, auf dem die Angabe des Werts des mittleren Prozessdruckeinflusses in relativen Einheiten beruht",
+    "MDC_P008.de": "Bezug, auf dem die Angabe des Prozessdruckeinflusses beruht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "54AC26B31AC73AEBC1258CDC004A3B55",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "209ddd810609df54c1258518003c4956",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "0b035d78751860f8c125825e001dea85",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "a29d11c31a89dec1c1257cb40054beca",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "value_list": "0112/2///61987#ABJ764",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:48",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "54AC26B31AC73AEBC1258CDC004A3B55"
+  }
+}

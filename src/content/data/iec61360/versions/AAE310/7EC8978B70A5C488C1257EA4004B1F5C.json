@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE310",
+  "code": "AAE310",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "diode forward resistance",
+  "preferred_name_ml": {
+    "en": "diode forward resistance"
+  },
+  "short_name": "r_D",
+  "short_name_ml": {
+    "en": "r_D"
+  },
+  "definition": "value as specified by level (minTypmax) of the series resistance of a signal diode or variable capacitance diode at specified frequency and forward current",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the series resistance of a signal diode or variable capacitance diode at specified frequency and forward current"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE310",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "diode forward resistance",
+    "MDC_P005.en": "r_D",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the series resistance of a signal diode or variable capacitance diode at specified frequency and forward current",
+    "MDC_P025_1": "r_D}",
+    "MDC_P023": "Ω",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E44",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA017",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE274}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:32",
+      "user": "BATCH 00000917",
+      "unid": "7EC8978B70A5C488C1257EA4004B1F5C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:25",
+      "user": "BATCH 00000907",
+      "unid": "593af05e13d7079fc1257e8b003235ab",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "6f88f49220788e6cc1257e8a0043e37f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:31",
+      "user": "BATCH 00000788",
+      "unid": "5d16b4633c30084ac1257a0e0047bbca",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:51",
+      "user": "BATCH 00000787",
+      "unid": "c64d11c5c33cb072c1257a0e0046d94a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "r_D}",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA017",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE274}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:32",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "7EC8978B70A5C488C1257EA4004B1F5C"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61360_4#AAE263",
+  "code": "AAE263",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "polarity type",
+  "preferred_name_ml": {
+    "en": "polarity type"
+  },
+  "short_name": "polarity",
+  "short_name_ml": {
+    "en": "polarity"
+  },
+  "definition": "code of the type of polarity of a fixed electrolytic capacitor indicating whether it is designed for unidirectional or alternating/reversible voltages",
+  "definition_ml": {
+    "en": "code of the type of polarity of a fixed electrolytic capacitor indicating whether it is designed for unidirectional or alternating/reversible voltages"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE263",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "polarity type",
+    "MDC_P005.en": "polarity",
+    "MDC_P006.en": "code of the type of polarity of a fixed electrolytic capacitor indicating whether it is designed for unidirectional or alternating/reversible voltages",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA072)",
+    "MDC_P024": "M..8",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:31",
+      "user": "BATCH 00000917",
+      "unid": "831BC7C0050A3597C1257EA4004B1F36",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:25",
+      "user": "BATCH 00000907",
+      "unid": "d6d978a0fa01c857c1257e8b00323585",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "72f2233f44f50d8bc1257e8a0043e359",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:30",
+      "user": "BATCH 00000788",
+      "unid": "1d0dda242e2b5f6fc1257a0e0047bbaa",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:51",
+      "user": "BATCH 00000787",
+      "unid": "73d06ff2cb9c01acc1257a0e0046d92a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA072)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA072)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:31",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "831BC7C0050A3597C1257EA4004B1F36"
+  }
+}

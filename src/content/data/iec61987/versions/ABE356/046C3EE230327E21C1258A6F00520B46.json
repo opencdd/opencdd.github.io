@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61987#ABE356",
+  "code": "ABE356",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Line scanner",
+  "preferred_name_ml": {
+    "en": "Line scanner",
+    "de": "Linienscanner"
+  },
+  "definition": "line temperature measuring device with a single detector that samples radiation sequentially along a line by opto-mechanical means",
+  "definition_ml": {
+    "en": "line temperature measuring device with a single detector that samples radiation sequentially along a line by opto-mechanical means",
+    "de": "Linien-Temperaturmessgerät mit einem Einzeldetektor, das Strahlung entlang einer Linie sequenziell mit opto-mechanischen Mitteln erfasst"
+  },
+  "synonyms": [],
+  "note": "Line scanners use a high-speed rotating scanning mirror integrated into the instrument in combination with imaging optics and a single detector with a very small time constant. Points on the measured object are sampled sequentially along a line.",
+  "note_ml": {
+    "en": "Line scanners use a high-speed rotating scanning mirror integrated into the instrument in combination with imaging optics and a single detector with a very small time constant. Points on the measured object are sampled sequentially along a line.",
+    "de": "Linienscanner benutzen einen rotierenden Hochgeschwindigkeitsspiegel, der in das Gerät zusammen mit Bildoptik und einem Einzeldetektor mit sehr geringer Zeitkonstante integriert ist. Punkte auf dem Messobjekt werden sequenziell entlang einer Linie erfasst."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE356",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Line scanner",
+    "MDC_P006.en": "line temperature measuring device with a single detector that samples radiation sequentially along a line by opto-mechanical means",
+    "MDC_P008.en": "Line scanners use a high-speed rotating scanning mirror integrated into the instrument in combination with imaging optics and a single detector with a very small time constant. Points on the measured object are sampled sequentially along a line.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABE355",
+    "MDC_P004.de": "Linienscanner",
+    "MDC_P006.de": "Linien-Temperaturmessgerät mit einem Einzeldetektor, das Strahlung entlang einer Linie sequenziell mit opto-mechanischen Mitteln erfasst",
+    "MDC_P008.de": "Linienscanner benutzen einen rotierenden Hochgeschwindigkeitsspiegel, der in das Gerät zusammen mit Bildoptik und einem Einzeldetektor mit sehr geringer Zeitkonstante integriert ist. Punkte auf dem Messobjekt werden sequenziell entlang einer Linie erfasst.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:08",
+      "user": "BATCH 00000816",
+      "unid": "046C3EE230327E21C1258A6F00520B46",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:02",
+      "user": "BATCH 00000762",
+      "unid": "0dbee48cdce92f33c125825e001dd987",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABE355",
+  "superclass_type_property": "0112/2///61987#ABE355",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:08",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "046C3EE230327E21C1258A6F00520B46"
+  }
+}

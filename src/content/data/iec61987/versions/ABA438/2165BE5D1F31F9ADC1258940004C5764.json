@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABA438",
+  "code": "ABA438",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "set lower range end-value of current output",
+  "preferred_name_ml": {
+    "en": "set lower range end-value of current output",
+    "fr": "valeur inférieure d'extrémité de plage de la sortie de courant",
+    "de": "eingestellter Anfangswert des Stromausgangs"
+  },
+  "definition": "current value to which the lower range end-value of a current output signal has been adjusted",
+  "definition_ml": {
+    "en": "current value to which the lower range end-value of a current output signal has been adjusted",
+    "fr": "valeur de courant à laquelle la valeur inférieure d'extrémité de plage d'un signal de sortie de courant a été réglée",
+    "de": "Stromwert, auf den der Anfangswert eines Stromausgangssignals eingestellt wurde"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA438",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "set lower range end-value of current output",
+    "MDC_P006.en": "current value to which the lower range end-value of a current output signal has been adjusted",
+    "MDC_P023": "mA",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA775",
+    "C0104": "0112/2///61987#ABT567",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur inférieure d'extrémité de plage de la sortie de courant",
+    "MDC_P006.fr": "valeur de courant à laquelle la valeur inférieure d'extrémité de plage d'un signal de sortie de courant a été réglée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "eingestellter Anfangswert des Stromausgangs",
+    "MDC_P006.de": "Stromwert, auf den der Anfangswert eines Stromausgangssignals eingestellt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "2165BE5D1F31F9ADC1258940004C5764",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "de62f245d105a692c1258518003c4850",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "7c493249fd1e306cc1257fa700405936",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "0911dbafa499fd24c1257cfb00403935",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "140e29dcbf04a089c1257cb40054baf2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA775",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "2165BE5D1F31F9ADC1258940004C5764"
+  }
+}

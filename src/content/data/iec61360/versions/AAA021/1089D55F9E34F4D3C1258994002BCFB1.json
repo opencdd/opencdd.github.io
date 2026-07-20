@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61360_4#AAA021",
+  "code": "AAA021",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "fixed capacitor",
+  "preferred_name_ml": {
+    "en": "fixed capacitor"
+  },
+  "definition": "capacitor with a designed inherent fixed capacitance",
+  "definition_ml": {
+    "en": "capacitor with a designed inherent fixed capacitance"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "fixed"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "fixed"
+  },
+  "note": "Since capacitance is a function of temperature, it may still vary with temperature.",
+  "note_ml": {
+    "en": "Since capacitance is a function of temperature, it may still vary with temperature."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA021",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "fixed capacitor",
+    "MDC_P007.en": "fixed",
+    "MDC_P006.en": "capacitor with a designed inherent fixed capacitance",
+    "MDC_P008.en": "Since capacitance is a function of temperature, it may still vary with temperature.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2020-01-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA020",
+    "C021": "0112/2///61360_4#AAE004",
+    "MDC_P014": "{0112/2///61360_4#AAE004,0112/2///61360_4#AAE009,0112/2///61360_4#AAE018,0112/2///61360_4#AAE034,0112/2///61360_4#AAE036,0112/2///61360_4#AAE046,0112/2///61360_4#AAE047,0112/2///61360_4#AAE063,0112/2///61360_4#AAE066,0112/2///61360_4#AAE071,0112/2///61360_4#AAE262,0112/2///61360_4#AAE268,0112/2///61360_4#AAE269,0112/2///61360_4#AAF462,0112/2///61360_4#AAJ008}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "1089D55F9E34F4D3C1258994002BCFB1",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-02 09:01:47",
+      "user": "BATCH 00001163",
+      "unid": "c518efbb9d1e3077c12584e3002c1c29",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "f13170f238953e20c1257dd300515f1a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "069af2086b24ab11c1257d7300506940",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "f9ce0bd6a26805bac1257a0e0047b200",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2020-01-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE004",
+    "0112/2///61360_4#AAE009",
+    "0112/2///61360_4#AAE018",
+    "0112/2///61360_4#AAE034",
+    "0112/2///61360_4#AAE036",
+    "0112/2///61360_4#AAE046",
+    "0112/2///61360_4#AAE047",
+    "0112/2///61360_4#AAE063",
+    "0112/2///61360_4#AAE066",
+    "0112/2///61360_4#AAE071",
+    "0112/2///61360_4#AAE262",
+    "0112/2///61360_4#AAE268",
+    "0112/2///61360_4#AAE269",
+    "0112/2///61360_4#AAF462",
+    "0112/2///61360_4#AAJ008"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA020",
+  "superclass_type_property": "0112/2///61360_4#AAA020",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "1089D55F9E34F4D3C1258994002BCFB1"
+  }
+}

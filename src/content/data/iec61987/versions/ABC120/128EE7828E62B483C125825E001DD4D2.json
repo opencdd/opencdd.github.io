@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABC120",
+  "code": "ABC120",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Assigned variable [3]",
+  "preferred_name_ml": {
+    "en": "Assigned variable [3]",
+    "fr": "Variable affectée [3]",
+    "de": "Eingestellter Bereich"
+  },
+  "definition": "properties characterizing the configuration of the analog input or output",
+  "definition_ml": {
+    "en": "properties characterizing the configuration of the analog input or output",
+    "fr": "propriétés caractérisant la configuration de l’entrée ou sortie analogique (version de bloc 3)",
+    "de": "Merkmale, die die Konfiguration des analogen Eingangs oder Ausgangs kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "13 ABC120.13",
+  "remark_ml": {
+    "en": "13 ABC120.13"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC120",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Assigned variable [3]",
+    "MDC_P006.en": "properties characterizing the configuration of the analog input or output",
+    "MDC_P009.en": "13 ABC120.13",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABU429,0112/2///61987#ABU442,0112/2///61987#ABU443,0112/2///61987#ABU464,0112/2///61987#ABU444,0112/2///61987#ABU445,0112/2///61987#ABU446,0112/2///61987#ABU447,0112/2///61987#ABU448,0112/2///61987#ABU449,0112/2///61987#ABU450}",
+    "MDC_P004.fr": "Variable affectée [3]",
+    "MDC_P006.fr": "propriétés caractérisant la configuration de l’entrée ou sortie analogique (version de bloc 3)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-11-30",
+    "MDC_P004.de": "Eingestellter Bereich",
+    "MDC_P006.de": "Merkmale, die die Konfiguration des analogen Eingangs oder Ausgangs kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-30",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "128EE7828E62B483C125825E001DD4D2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "996fb08c4b8237e1c1257cb400549b3f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABU429",
+    "0112/2///61987#ABU442",
+    "0112/2///61987#ABU443",
+    "0112/2///61987#ABU464",
+    "0112/2///61987#ABU444",
+    "0112/2///61987#ABU445",
+    "0112/2///61987#ABU446",
+    "0112/2///61987#ABU447",
+    "0112/2///61987#ABU448",
+    "0112/2///61987#ABU449",
+    "0112/2///61987#ABU450"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:50",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "128EE7828E62B483C125825E001DD4D2"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61987#ABE318",
+  "code": "ABE318",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Device LOP for press. red. regulator or back/excess press. regulator",
+  "preferred_name_ml": {
+    "en": "Device LOP for press. red. regulator or back/excess press. regulator",
+    "de": "Geräte-Merkmalleiste für Druckminder/Überströmventil"
+  },
+  "definition": "list of properties characterizing a pressure reducing regulator or a back pressure/excess pressure regulator",
+  "definition_ml": {
+    "en": "list of properties characterizing a pressure reducing regulator or a back pressure/excess pressure regulator",
+    "de": "Merkmalleiste, die einen Druckminder oder Überströmer kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE318",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Device LOP for press. red. regulator or back/excess press. regulator",
+    "MDC_P006.en": "list of properties characterizing a pressure reducing regulator or a back pressure/excess pressure regulator",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-09-05",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV504",
+    "MDC_P014": "{0112/2///61987#ABC899,0112/2///61987#ABC730,0112/2///61987#ABE220,0112/2///61987#ABU548,0112/2///61987#ABE256,0112/2///61987#ABE187,0112/2///61987#ABE073,0112/2///61987#ABC795,0112/2///61987#ABA293,0112/2///61987#ABC710}",
+    "MDC_P004.de": "Geräte-Merkmalleiste für Druckminder/Überströmventil",
+    "MDC_P006.de": "Merkmalleiste, die einen Druckminder oder Überströmer kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:34:43",
+      "user": "BATCH 00000863",
+      "unid": "2B1B430F68324D64C1258DED0045190B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-09-08 10:23:20",
+      "user": "BATCH 00000799",
+      "unid": "7a31aa581a9c6330c12588b7002e1508",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "e046ef43cdf9f678c125825e001dd95b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:15",
+      "user": "BATCH 00000699",
+      "unid": "eeb2f9528e6d4b49c1257cb400549e39",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-09-05",
+    "current_revision": "2026-05-04"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABC899",
+    "0112/2///61987#ABC730",
+    "0112/2///61987#ABE220",
+    "0112/2///61987#ABU548",
+    "0112/2///61987#ABE256",
+    "0112/2///61987#ABE187",
+    "0112/2///61987#ABE073",
+    "0112/2///61987#ABC795",
+    "0112/2///61987#ABA293",
+    "0112/2///61987#ABC710"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV504",
+  "superclass_type_property": "0112/2///61987#ABV504",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:34:43",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "2B1B430F68324D64C1258DED0045190B"
+  }
+}

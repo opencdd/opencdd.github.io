@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA625",
+  "code": "ABA625",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:19",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "e07a2b9d7f2abe24c12580d6004c1c12"
+  }
+}

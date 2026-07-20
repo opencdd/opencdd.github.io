@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA390",
+  "code": "AAA390",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-01-20 15:48:51",
+    "user": "BATCH 00000890",
+    "change_request_id": null,
+    "unid": "9e2c88e87d8a42b7c1257dd300516078"
+  }
+}

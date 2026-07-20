@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61360_4#AAE983",
+  "code": "AAE983",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "output capacitance",
+  "preferred_name_ml": {
+    "en": "output capacitance"
+  },
+  "short_name": "C_oss",
+  "short_name_ml": {
+    "en": "C_oss"
+  },
+  "definition": "value as specified by level (minTypmax) of the guaranteed capacitance between drain and source connections, with gate-source connections short-circuited for ac voltage, of a field-effect transistor at specified frequency, drain-source voltage, and gate-source voltage",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the guaranteed capacitance between drain and source connections, with gate-source connections short-circuited for ac voltage, of a field-effect transistor at specified frequency, drain-source voltage, and gate-source voltage"
+  },
+  "source_document": "IEC 60747-8 (III.3.1.8) (1984)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE983",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "output capacitance",
+    "MDC_P005.en": "C_oss",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the guaranteed capacitance between drain and source connections, with gate-source connections short-circuited for ac voltage, of a field-effect transistor at specified frequency, drain-source voltage, and gate-source voltage",
+    "MDC_P025_1": "C_oss}",
+    "MDC_P023": "F",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60747-8 (III.3.1.8) (1984)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E09",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA144",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE376,0112/2///61360_4#AAE381}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "418384DABD108920C1257EA4004B2120",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "a1e6d6aa6845fe39c1257e8b0032376e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:36",
+      "user": "BATCH 00000904",
+      "unid": "2cc3c306e065459ec1257e8a0043e543",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "f33a229eb9b47731c1257a0e0047bd7c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "f1ec14e9862507a7c1257a0e0046dafc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "C_oss}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA144",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE376,0112/2///61360_4#AAE381}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:36",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "418384DABD108920C1257EA4004B2120"
+  }
+}

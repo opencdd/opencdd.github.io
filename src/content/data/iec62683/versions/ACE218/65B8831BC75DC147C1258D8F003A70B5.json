@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///62683#ACE218",
+  "code": "ACE218",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "degree of protection of enclosure",
+  "preferred_name_ml": {
+    "en": "degree of protection of enclosure",
+    "fr": "degré de protection procuré par l'enveloppe",
+    "de": "Schutzart des Gehäuses",
+    "zh": "外壳防护等级"
+  },
+  "definition": "coding system to indicate the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water and to give additional information in connection with such protection",
+  "definition_ml": {
+    "en": "coding system to indicate the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water and to give additional information in connection with such protection",
+    "fr": "système de codification pour indiquer les degrés de protection procurés par une enveloppe contre l’accès aux parties dangereuses, la pénétration de corps solides étrangers, la pénétration de l’eau et pour donner une information additionnelle liée à une telle protection"
+  },
+  "source_document": "IEC 60529:1989+AMD1:1999+AMD2:2013, 3.4, modified with new term and Note 1 to entry",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "IP code"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "IP code",
+    "fr": "Code IP"
+  },
+  "note": "For non-enclosed switchgear and controlgear, the IP code is given for the device itself.",
+  "note_ml": {
+    "en": "For non-enclosed switchgear and controlgear, the IP code is given for the device itself.",
+    "fr": "Pour les appareillages qui ne sont pas disposée sous enveloppe, le code IP est donnée pour l'appareil lui-même.",
+    "de": "Für nicht in Gehäusen verwendete Schaltgeräte ist der IP-Code für das Gerät selbst angegeben.",
+    "zh": "对于非密闭的开关设备和控制设备，本身已提供了IP等级"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE218",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "degree of protection of enclosure",
+    "MDC_P007.en": "IP code",
+    "MDC_P006.en": "coding system to indicate the degrees of protection provided by an enclosure against access to hazardous parts, ingress of solid foreign objects, ingress of water and to give additional information in connection with such protection",
+    "MDC_P008.en": "For non-enclosed switchgear and controlgear, the IP code is given for the device itself.",
+    "MDC_P025_1": "IP",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///62683#ACI001)",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "IEC 60529:1989+AMD1:1999+AMD2:2013, 3.4, modified with new term and Note 1 to entry",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC012",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2012-11-26",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "degré de protection procuré par l'enveloppe",
+    "MDC_P007.fr": "Code IP",
+    "MDC_P006.fr": "système de codification pour indiquer les degrés de protection procurés par une enveloppe contre l’accès aux parties dangereuses, la pénétration de corps solides étrangers, la pénétration de l’eau et pour donner une information additionnelle liée à une telle protection",
+    "MDC_P008.fr": "Pour les appareillages qui ne sont pas disposée sous enveloppe, le code IP est donnée pour l'appareil lui-même.",
+    "C019.fr": "AFNOR",
+    "C017.fr": "1",
+    "C018.fr": "2013-08-01",
+    "MDC_P004.de": "Schutzart des Gehäuses",
+    "MDC_P008.de": "Für nicht in Gehäusen verwendete Schaltgeräte ist der IP-Code für das Gerät selbst angegeben.",
+    "C019.de": "DKE",
+    "C017.de": "1",
+    "C018.de": "2020-03-01",
+    "MDC_P004.zh": "外壳防护等级",
+    "MDC_P008.zh": "对于非密闭的开关设备和控制设备，本身已提供了IP等级",
+    "C019.zh": "SAC",
+    "C017.zh": "1",
+    "C018.zh": "2020-03-01",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:19",
+      "user": "BATCH 00000852",
+      "unid": "65B8831BC75DC147C1258D8F003A70B5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 20:58:47",
+      "user": "BATCH 00000741",
+      "unid": "03cf1e3ab1620648c12584ec006dc0cf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:27",
+      "user": "BATCH 00000704",
+      "unid": "0f8a7c5d957688a6c12580300045702f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-11-26",
+    "current_version": "2016-09-16",
+    "current_revision": "2026-01-30"
+  },
+  "symbol_in_text": "IP",
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///62683#ACC012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///62683#ACI001)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///62683#ACI001)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:19",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "65B8831BC75DC147C1258D8F003A70B5"
+  }
+}

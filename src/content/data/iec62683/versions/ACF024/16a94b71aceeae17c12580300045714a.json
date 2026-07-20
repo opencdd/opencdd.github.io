@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF024",
+  "code": "ACF024",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "Short-circuit for Switch-disconnector",
+  "preferred_name_ml": {
+    "en": "Short-circuit for Switch-disconnector",
+    "fr": "Court-circuit pour Interrupteur-sectionneur",
+    "de": "Kurzschlussbemessung für Lasttrennschalter",
+    "zh": "隔离开关的短路"
+  },
+  "definition": "prospective short-circuit condition, stated by the manufacturer, which the switch-disconnector can withstand satisfactorily",
+  "definition_ml": {
+    "en": "prospective short-circuit condition, stated by the manufacturer, which the switch-disconnector can withstand satisfactorily",
+    "fr": "condition de court-circuit présumé, déclarée par le constructeur, que l'interrupteur-sectionneur peut supporter de façon satisfaisante",
+    "de": "Prospektive Kurzschlussbedingung, welcher der Lasttrennschalter nach Angaben des Herstellers ausreichend widerstehen kann",
+    "zh": "制造商所规定的隔离开关能够可靠耐受的预期短路条件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF024",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Short-circuit for Switch-disconnector",
+    "MDC_P006.en": "prospective short-circuit condition, stated by the manufacturer, which the switch-disconnector can withstand satisfactorily",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG024)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Court-circuit pour Interrupteur-sectionneur",
+    "MDC_P006.fr": "condition de court-circuit présumé, déclarée par le constructeur, que l'interrupteur-sectionneur peut supporter de façon satisfaisante",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Kurzschlussbemessung für Lasttrennschalter",
+    "MDC_P006.de": "Prospektive Kurzschlussbedingung, welcher der Lasttrennschalter nach Angaben des Herstellers ausreichend widerstehen kann",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2018-01-16",
+    "MDC_P004.zh": "隔离开关的短路",
+    "MDC_P006.zh": "制造商所规定的隔离开关能够可靠耐受的预期短路条件",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "16a94b71aceeae17c12580300045714a",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:50",
+      "user": "BATCH 00000741",
+      "unid": "48B774577214E1D9C12584EC006DC1AB",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG024)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG024)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:29",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "16a94b71aceeae17c12580300045714a"
+  }
+}

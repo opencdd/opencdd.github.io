@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD426",
+  "code": "ABD426",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-03-22 09:54:37",
+    "user": "BATCH 00000714",
+    "change_request_id": null,
+    "unid": "ccacb716d0b0ed06c1257f7e0030f234"
+  }
+}

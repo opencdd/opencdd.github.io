@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61360_4#AFD073",
+  "code": "AFD073",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "reverse recovery time",
+  "preferred_name_ml": {
+    "en": "reverse recovery time"
+  },
+  "short_name": "t_rr",
+  "short_name_ml": {
+    "en": "t_rr"
+  },
+  "definition": "time required for the reverse current of a diode to recover to a specified value, when switched from a specified forward current to a specified reverse voltage, at specified conditions",
+  "definition_ml": {
+    "en": "time required for the reverse current of a diode to recover to a specified value, when switched from a specified forward current to a specified reverse voltage, at specified conditions"
+  },
+  "source_document": "IEC 61360-4 AAE281",
+  "synonyms": [],
+  "note": "The reverse recovery time is measured as the time interval between t0, the point where the forward current crosses the zero current axis, and the instant when for decreasing values of iR a line through the points for 0.9 IRM and 0.25 IRM crosses the zero current axis.",
+  "note_ml": {
+    "en": "The reverse recovery time is measured as the time interval between t0, the point where the forward current crosses the zero current axis, and the instant when for decreasing values of iR a line through the points for 0.9 IRM and 0.25 IRM crosses the zero current axis."
+  },
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD073",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "reverse recovery time",
+    "MDC_P005.en": "t_rr",
+    "MDC_P006.en": "time required for the reverse current of a diode to recover to a specified value, when switched from a specified forward current to a specified reverse voltage, at specified conditions",
+    "MDC_P008.en": "The reverse recovery time is measured as the time interval between t0, the point where the forward current crosses the zero current axis, and the instant when for decreasing values of iR a line through the points for 0.9 IRM and 0.25 IRM crosses the zero current axis.",
+    "MDC_P025_1": "t_rr",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61360-4 AAE281",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA015",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-04-24",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "5B4FF67CEE66B99EC1257EA4004B2567",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "aa1c7b4c29b4aa59c1257e8b00323b6f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "ce9d802b0b7a52b0c1257e8a0043e98a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-18 14:54:43",
+      "user": "BATCH 00000812",
+      "unid": "b9efa7d265654871c1257af7004c6bb8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-04-24",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_rr",
+  "definition_class_irdi": "0112/2///61360_4#AFA015",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "5B4FF67CEE66B99EC1257EA4004B2567"
+  }
+}

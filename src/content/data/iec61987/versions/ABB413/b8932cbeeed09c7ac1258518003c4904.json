@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB413",
+  "code": "ABB413",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:28",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "b8932cbeeed09c7ac1258518003c4904"
+  }
+}

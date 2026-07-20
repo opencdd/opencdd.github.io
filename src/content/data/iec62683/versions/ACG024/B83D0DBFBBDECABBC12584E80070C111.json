@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///62683#ACG024",
+  "code": "ACG024",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Short-circuit rating",
+  "preferred_name_ml": {
+    "en": "Short-circuit rating",
+    "fr": "Valeur assignée de court-circuit",
+    "de": "Kurzschlussbemessung",
+    "zh": "短路额定值"
+  },
+  "definition": "prospective short-circuit condition, stated by the manufacturer, which the switch-disconnector can withstand satisfactorily",
+  "definition_ml": {
+    "en": "prospective short-circuit condition, stated by the manufacturer, which the switch-disconnector can withstand satisfactorily",
+    "fr": "condition de court-circuit présumé, déclarée par le constructeur, que l'interrupteur-sectionneur peut supporter de façon satisfaisante",
+    "de": "Prospektive Kurzschlussbedingung, welcher der Lasttrennschalter nach Angaben des Herstellers ausreichend widerstehen kann",
+    "zh": "制造商规定的，隔离开关能够可靠耐受的预期短路条件。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG024",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Short-circuit rating",
+    "MDC_P006.en": "prospective short-circuit condition, stated by the manufacturer, which the switch-disconnector can withstand satisfactorily",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2013-07-29",
+    "MDC_P003_3": "2016-09-20",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC040}",
+    "MDC_P090": "{0112/2///62683#ACE712,0112/2///62683#ACE722,0112/2///62683#ACE708,0112/2///62683#ACE723,0112/2///62683#ACE724,0112/2///62683#ACE725,0112/2///62683#ACE726}",
+    "MDC_P004.fr": "Valeur assignée de court-circuit",
+    "MDC_P006.fr": "condition de court-circuit présumé, déclarée par le constructeur, que l'interrupteur-sectionneur peut supporter de façon satisfaisante",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Kurzschlussbemessung",
+    "MDC_P006.de": "Prospektive Kurzschlussbedingung, welcher der Lasttrennschalter nach Angaben des Herstellers ausreichend widerstehen kann",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-11-29",
+    "MDC_P004.zh": "短路额定值",
+    "MDC_P006.zh": "制造商规定的，隔离开关能够可靠耐受的预期短路条件。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "B83D0DBFBBDECABBC12584E80070C111",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "2cc2769785f20abec1258034002e356d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "eb9d9f7fbb59599ec125803000450243",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2013-07-29",
+    "current_revision": "2016-09-20"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC040"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE712",
+    "0112/2///62683#ACE722",
+    "0112/2///62683#ACE708",
+    "0112/2///62683#ACE723",
+    "0112/2///62683#ACE724",
+    "0112/2///62683#ACE725",
+    "0112/2///62683#ACE726"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "B83D0DBFBBDECABBC12584E80070C111"
+  }
+}

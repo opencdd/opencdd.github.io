@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///62683#ACE212",
+  "code": "ACE212",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "bypass circuit integrated",
+  "preferred_name_ml": {
+    "en": "bypass circuit integrated",
+    "fr": "circuit de dérivation intégré",
+    "de": "integrierter Überbrückungsstromkreis",
+    "zh": "内置的旁路电路"
+  },
+  "definition": "main circuit of a mechanical switching device connected in parallel with the main circuit of a semiconductor switching device, and wherein the operating means of the two switching devices are co-ordinated",
+  "definition_ml": {
+    "en": "main circuit of a mechanical switching device connected in parallel with the main circuit of a semiconductor switching device, and wherein the operating means of the two switching devices are co-ordinated",
+    "fr": "circuit principal d’un appareil mécanique de connexion en parallèle avec le circuit principal d’un appareil de connexion à semiconducteur, et dont les dispositifs de commande des deux appareils de connexion sont coordonnés",
+    "de": "Hauptkontakte eines mechanischen Schaltgeräts parallel geschaltet mit den Hauptkontakten eines Halbleiterschaltgeräts und in dem die Betätigungseinrichtungen der beiden Schaltgeräte abgestimmt sind",
+    "zh": "与半导体开关电器主电路并联的机械式开关电器的主电路，该两种开关电器的操作件是相互协调的"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "bypass"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "bypass"
+  },
+  "note": "See IEC 60947-4-2.",
+  "note_ml": {
+    "en": "See IEC 60947-4-2.",
+    "fr": "Voir l'IEC 60947-4-2.",
+    "de": "Siehe IEC 60947‑4‑2.",
+    "zh": "见IEC 60947-4-2"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00073",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE212",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "bypass circuit integrated",
+    "MDC_P007.en": "bypass",
+    "MDC_P006.en": "main circuit of a mechanical switching device connected in parallel with the main circuit of a semiconductor switching device, and wherein the operating means of the two switching devices are co-ordinated",
+    "MDC_P008.en": "See IEC 60947-4-2.",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC012",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "circuit de dérivation intégré",
+    "MDC_P006.fr": "circuit principal d’un appareil mécanique de connexion en parallèle avec le circuit principal d’un appareil de connexion à semiconducteur, et dont les dispositifs de commande des deux appareils de connexion sont coordonnés",
+    "MDC_P008.fr": "Voir l'IEC 60947-4-2.",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2014-01-14",
+    "MDC_P004.de": "integrierter Überbrückungsstromkreis",
+    "MDC_P006.de": "Hauptkontakte eines mechanischen Schaltgeräts parallel geschaltet mit den Hauptkontakten eines Halbleiterschaltgeräts und in dem die Betätigungseinrichtungen der beiden Schaltgeräte abgestimmt sind",
+    "MDC_P008.de": "Siehe IEC 60947‑4‑2.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "内置的旁路电路",
+    "MDC_P006.zh": "与半导体开关电器主电路并联的机械式开关电器的主电路，该两种开关电器的操作件是相互协调的",
+    "MDC_P008.zh": "见IEC 60947-4-2",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00073"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:30",
+      "user": "BATCH 00000744",
+      "unid": "A02D64BB3C486FC5C12584EC0072DAA1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:26",
+      "user": "BATCH 00000704",
+      "unid": "1088653ecbc3977fc12580300045702a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:30",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "A02D64BB3C486FC5C12584EC0072DAA1"
+  }
+}

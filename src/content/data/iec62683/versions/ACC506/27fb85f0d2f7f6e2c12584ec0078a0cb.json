@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACC506",
+  "code": "ACC506",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:34",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "27fb85f0d2f7f6e2c12584ec0078a0cb"
+  }
+}

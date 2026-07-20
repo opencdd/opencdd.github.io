@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61987#ABC238",
+  "code": "ABC238",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "Explosion protection permissible temperature",
+  "preferred_name_ml": {
+    "en": "Explosion protection permissible temperature",
+    "fr": "Température tolérée de protection contre les explosions",
+    "de": "Zulässige Temperatur für Explosionsschutz"
+  },
+  "definition": "temperature class derating for explosion protection based on given operating and ambient temperatures",
+  "definition_ml": {
+    "en": "temperature class derating for explosion protection based on given operating and ambient temperatures",
+    "fr": "déclassement de classe de température pour la protection contre les explosions basé sur des températures de fonctionnement et ambiante données",
+    "de": "Derating der Temperaturklasse für Explosionsschutz basierend auf vorgegebenen Betriebs- und Umgebungstemperaturen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC238",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Explosion protection permissible temperature",
+    "MDC_P006.en": "temperature class derating for explosion protection based on given operating and ambient temperatures",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA593,0112/2///61987#ABA621,0112/2///61987#ABA623,0112/2///61987#ABA918,0112/2///61987#ABA919}",
+    "MDC_P004.fr": "Température tolérée de protection contre les explosions",
+    "MDC_P006.fr": "déclassement de classe de température pour la protection contre les explosions basé sur des températures de fonctionnement et ambiante données",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Zulässige Temperatur für Explosionsschutz",
+    "MDC_P006.de": "Derating der Temperaturklasse für Explosionsschutz basierend auf vorgegebenen Betriebs- und Umgebungstemperaturen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "D2FFDC44F9B077B8C125825E001DD550",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:06",
+      "user": "BATCH 00000755",
+      "unid": "8d18e75d0d779c22c1258256003e7310",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:00",
+      "user": "BATCH 00000732",
+      "unid": "c2eb2aed05aa8a14c12580d6004bfd3e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:13",
+      "user": "BATCH 00000714",
+      "unid": "7792af1ba361a0ffc1257f7e0033a7de",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:37",
+      "user": "BATCH 00000701",
+      "unid": "15020f550cb71abfc1257cfb003f9865",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "6394420ddb438138c1257cb400549bb1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA593",
+    "0112/2///61987#ABA621",
+    "0112/2///61987#ABA623",
+    "0112/2///61987#ABA918",
+    "0112/2///61987#ABA919"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:51",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D2FFDC44F9B077B8C125825E001DD550"
+  }
+}

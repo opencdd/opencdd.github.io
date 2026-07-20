@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABB275",
+  "code": "ABB275",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "angle of bevel",
+  "preferred_name_ml": {
+    "en": "angle of bevel",
+    "fr": "angle de biseau",
+    "de": "Abschrägwinkel"
+  },
+  "definition": "angle of bevel (F) of an orifice plate measured with respect to the horizontal",
+  "definition_ml": {
+    "en": "angle of bevel (F) of an orifice plate measured with respect to the horizontal",
+    "fr": "angle de biseau (F) d'un diaphragme mesuré par rapport à l'horizontale",
+    "de": "Winkel der Abflachung (oder Phase) einer Durchflussmessblende an der Messblendenbohrung bezogen auf die Horizontalebene"
+  },
+  "source_document": "ISO 5167",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB275",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "angle of bevel",
+    "MDC_P006.en": "angle of bevel (F) of an orifice plate measured with respect to the horizontal",
+    "MDC_P023": "°",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "ISO 5167",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA024",
+    "C0104": "0112/2///61987#ABT580",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "angle de biseau",
+    "MDC_P006.fr": "angle de biseau (F) d'un diaphragme mesuré par rapport à l'horizontale",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Abschrägwinkel",
+    "MDC_P006.de": "Winkel der Abflachung (oder Phase) einer Durchflussmessblende an der Messblendenbohrung bezogen auf die Horizontalebene",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "81FF4E5DC29193EBC125825E001DE8F4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "2a6df710146ff0fdc12580d6004c1da2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "17c080537f3a6fd6c1257fa700405a0f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "9bfdf268d7cf5674c1257cfb00403b7c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "56f326e7fc4e7f64c1257cb40054bd39",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA024",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "81FF4E5DC29193EBC125825E001DE8F4"
+  }
+}

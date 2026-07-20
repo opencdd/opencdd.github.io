@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///62683#ACG178",
+  "code": "ACG178",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Data communication",
+  "preferred_name_ml": {
+    "en": "Data communication",
+    "fr": "Communication de données",
+    "de": "Datenkommunikation",
+    "zh": "数据通讯"
+  },
+  "definition": "communication function for the transfer of information between the transfer switching equipment and the system",
+  "definition_ml": {
+    "en": "communication function for the transfer of information between the transfer switching equipment and the system",
+    "fr": "fonction de communication pour le transfert d’informations entre le matériel de connexion de transfert et le système global",
+    "de": "Kommunikationsfunktion für die Übertragung von Informationen zwischen dem Netzumschalter und dem System",
+    "zh": "用于转换开关电器和系统间传输信息的通信功能"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG178",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Data communication",
+    "MDC_P006.en": "communication function for the transfer of information between the transfer switching equipment and the system",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC050}",
+    "MDC_P090": "{0112/2///62683#ACE363,0112/2///62683#ACE361,0112/2///62683#ACE362,0112/2///62683#ACE368,0112/2///62683#ACE369}",
+    "MDC_P004.fr": "Communication de données",
+    "MDC_P006.fr": "fonction de communication pour le transfert d’informations entre le matériel de connexion de transfert et le système global",
+    "C019.fr": "IEC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2024-01-10",
+    "MDC_P004.de": "Datenkommunikation",
+    "MDC_P006.de": "Kommunikationsfunktion für die Übertragung von Informationen zwischen dem Netzumschalter und dem System",
+    "C019.de": "DKE, A Huhn",
+    "C017.de": "1",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "数据通讯",
+    "MDC_P006.zh": "用于转换开关电器和系统间传输信息的通信功能",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:04",
+      "user": "BATCH 00000844",
+      "unid": "4627CD87A7F1F017C1258D2A006B7D76",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "fee5e11aed70cc05c1258b9d00731747",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "dc414026f06c9446c1258034002e35fc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:47",
+      "user": "BATCH 00000703",
+      "unid": "f027d37c924bc0c3c1258030004502d2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC050"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE363",
+    "0112/2///62683#ACE361",
+    "0112/2///62683#ACE362",
+    "0112/2///62683#ACE368",
+    "0112/2///62683#ACE369"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:04",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "4627CD87A7F1F017C1258D2A006B7D76"
+  }
+}

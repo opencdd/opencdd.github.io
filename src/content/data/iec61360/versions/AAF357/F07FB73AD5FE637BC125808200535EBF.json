@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#AAF357",
+  "code": "AAF357",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "terminal identifier",
+  "preferred_name_ml": {
+    "en": "terminal identifier"
+  },
+  "short_name": "terminal id",
+  "short_name_ml": {
+    "en": "terminal id"
+  },
+  "definition": "one or more characters used to identify a specific terminal of a component",
+  "definition_ml": {
+    "en": "one or more characters used to identify a specific terminal of a component"
+  },
+  "synonyms": [],
+  "remark": "Rules should be established how the identifying process should take place.",
+  "remark_ml": {
+    "en": "Rules should be established how the identifying process should take place."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF357",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "terminal identifier",
+    "MDC_P005.en": "terminal id",
+    "MDC_P006.en": "one or more characters used to identify a specific terminal of a component",
+    "MDC_P009.en": "Rules should be established how the identifying process should take place.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2016-12-07 16:10:37",
+      "user": "BATCH 00000917",
+      "unid": "F07FB73AD5FE637BC125808200535EBF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:39",
+      "user": "BATCH 00000917",
+      "unid": "ae07b383f67f8020c1257ea4004b222f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:32",
+      "user": "BATCH 00000907",
+      "unid": "8235cfd5ae64ce36c1257e8b00323877",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:38",
+      "user": "BATCH 00000904",
+      "unid": "3a4e64bd8a9af35fc1257e8a0043e652",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "f9a35e84216b92a1c1257a0e0047be86",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "3153b4495201d3c0c1257a0e0046dc06",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2016-12-07 16:10:37",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "F07FB73AD5FE637BC125808200535EBF"
+  }
+}

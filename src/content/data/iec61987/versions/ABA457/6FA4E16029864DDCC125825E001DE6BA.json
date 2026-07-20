@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABA457",
+  "code": "ABA457",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "switching delay",
+  "preferred_name_ml": {
+    "en": "switching delay",
+    "fr": "délai de commutation",
+    "de": "Schaltverzögerung"
+  },
+  "definition": "time delay between the passing of a limit value and the resulting switching action",
+  "definition_ml": {
+    "en": "time delay between the passing of a limit value and the resulting switching action",
+    "fr": "délai entre le dépassement d’une valeur limite et la commutation du relais qui en résulte",
+    "de": "zeitliche Verzögerung zwischen dem Passieren eines Grenzwerts und der daraus resultierenden Schaltaktion"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA457",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "switching delay",
+    "MDC_P006.en": "time delay between the passing of a limit value and the resulting switching action",
+    "MDC_P023": "ms",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA899",
+    "C0104": "0112/2///61987#ABT510",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "délai de commutation",
+    "MDC_P006.fr": "délai entre le dépassement d’une valeur limite et la commutation du relais qui en résulte",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Schaltverzögerung",
+    "MDC_P006.de": "zeitliche Verzögerung zwischen dem Passieren eines Grenzwerts und der daraus resultierenden Schaltaktion",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:36",
+      "user": "BATCH 00000762",
+      "unid": "6FA4E16029864DDCC125825E001DE6BA",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:29",
+      "user": "BATCH 00000755",
+      "unid": "321b571106bd3918c1258256003e936b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "5d4a1cfd2889e5ecc12580d6004c1b6b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:01",
+      "user": "BATCH 00000715",
+      "unid": "9477437b9841060fc1257f7f004cff7f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "ce75b9193161b4c8c1257fa700405943",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "a8fe7e3b2f1bc351c1257cfb00403945",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "90218b7e27221e25c1257cb40054bb02",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA899",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:36",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "6FA4E16029864DDCC125825E001DE6BA"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABD406",
+  "code": "ABD406",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "distance of measuring point",
+  "preferred_name_ml": {
+    "en": "distance of measuring point",
+    "fr": "distance de point de mesure",
+    "de": "Abstand zum Messpunkt"
+  },
+  "definition": "distance between the measuring device reference point and the point at which the measurement is made",
+  "definition_ml": {
+    "en": "distance between the measuring device reference point and the point at which the measurement is made",
+    "fr": "distance entre le point de référence d'appareil de mesure et le point auquel la mesure est effectuée",
+    "de": "Abstand zwischen dem Referenzpunkt des Messinstruments und der Stelle, an der die Messgröße gemessen werden soll"
+  },
+  "synonyms": [],
+  "note": "the reference point of a measuring device is the sealing surface of the connection flange or the process end of the connection thread",
+  "note_ml": {
+    "en": "the reference point of a measuring device is the sealing surface of the connection flange or the process end of the connection thread",
+    "fr": "le point de référence d'un appareil de mesure est la surface d'étanchéité de la bride de raccordement ou l'extrémité processus du fil de connexion",
+    "de": "Der Referenzpunkt eines Messgeräts ist die Dichtfläche der Flanschverbindung oder der Prozessendanschluss eines Anschlussgewindes"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD406",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "distance of measuring point",
+    "MDC_P006.en": "distance between the measuring device reference point and the point at which the measurement is made",
+    "MDC_P008.en": "the reference point of a measuring device is the sealing surface of the connection flange or the process end of the connection thread",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "distance de point de mesure",
+    "MDC_P006.fr": "distance entre le point de référence d'appareil de mesure et le point auquel la mesure est effectuée",
+    "MDC_P008.fr": "le point de référence d'un appareil de mesure est la surface d'étanchéité de la bride de raccordement ou l'extrémité processus du fil de connexion",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Abstand zum Messpunkt",
+    "MDC_P006.de": "Abstand zwischen dem Referenzpunkt des Messinstruments und der Stelle, an der die Messgröße gemessen werden soll",
+    "MDC_P008.de": "Der Referenzpunkt eines Messgeräts ist die Dichtfläche der Flanschverbindung oder der Prozessendanschluss eines Anschlussgewindes",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:54",
+      "user": "BATCH 00000762",
+      "unid": "09A05B84845AD7A1C125825E001DEDF9",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:36",
+      "user": "BATCH 00000732",
+      "unid": "668f0b0c910ab307c12580d6004c22a9",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:08",
+      "user": "BATCH 00000715",
+      "unid": "80ed4779c3a4d8e8c1257f7f004d021f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "f9a5bfd47d3a182bc1257fa700405b8d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:48",
+      "user": "BATCH 00000702",
+      "unid": "8e47fc942f6b209fc1257cfb0040407f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:47",
+      "user": "BATCH 00000699",
+      "unid": "e6c415e1da44ac1fc1257cb40054c23c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:54",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "09A05B84845AD7A1C125825E001DEDF9"
+  }
+}

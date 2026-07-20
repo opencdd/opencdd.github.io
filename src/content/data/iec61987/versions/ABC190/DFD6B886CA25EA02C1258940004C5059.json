@@ -1,0 +1,147 @@
+{
+  "irdi": "0112/2///61987#ABC190",
+  "code": "ABC190",
+  "version": "5",
+  "revision": "2",
+  "preferred_name": "Device group and category",
+  "preferred_name_ml": {
+    "en": "Device group and category",
+    "fr": "Groupe et catégorie d’appareils",
+    "de": "Gerätegruppe und -Kategorie"
+  },
+  "definition": "properties characterizing parameters for the classification of dangerous substances based on their ability to cause an explosion and specific measures applied to electrical apparatus to avoid ignition of a surrounding atmosphere",
+  "definition_ml": {
+    "en": "properties characterizing parameters for the classification of dangerous substances based on their ability to cause an explosion and specific measures applied to electrical apparatus to avoid ignition of a surrounding atmosphere",
+    "fr": "propriétés caractérisant des paramètres pour la classification de substances dangereuses basées sur leur capacité à causer une explosion et des mesures spécifiques appliquées à un appareil électrique pour éviter l’allumage d’une atmosphère environnante",
+    "de": "Merkmale, die Parameter für die Einstufung von gefährlichen Substanzen anhand von deren Fähigkeit, eine Explosion auszulösen, kennzeichnen, sowie für spezifische auf elektrische Betriebsmittel angewandte Maßnahmen, um die Zündung einer umgebenden Atmosphäre zu vermeiden"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC190",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Device group and category",
+    "MDC_P006.en": "properties characterizing parameters for the classification of dangerous substances based on their ability to cause an explosion and specific measures applied to electrical apparatus to avoid ignition of a surrounding atmosphere",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA466,0112/2///61987#ABA467}",
+    "MDC_P004.fr": "Groupe et catégorie d’appareils",
+    "MDC_P006.fr": "propriétés caractérisant des paramètres pour la classification de substances dangereuses basées sur leur capacité à causer une explosion et des mesures spécifiques appliquées à un appareil électrique pour éviter l’allumage d’une atmosphère environnante",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Gerätegruppe und -Kategorie",
+    "MDC_P006.de": "Merkmale, die Parameter für die Einstufung von gefährlichen Substanzen anhand von deren Fähigkeit, eine Explosion auszulösen, kennzeichnen, sowie für spezifische auf elektrische Betriebsmittel angewandte Maßnahmen, um die Zündung einer umgebenden Atmosphäre zu vermeiden",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "DFD6B886CA25EA02C1258940004C5059",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "ffdc5a0e7767e68dc125825e001dd523",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:06",
+      "user": "BATCH 00000755",
+      "unid": "015663be2173419dc1258256003e730f",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:59",
+      "user": "BATCH 00000732",
+      "unid": "d69cfda3a9ad2ba3c12580d6004bfd11",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "fb7e4d40691e9e9fc1257f7e0033a7c9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:37",
+      "user": "BATCH 00000701",
+      "unid": "374b83c075ef2a87c1257cfb003f9838",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "22a14aa9a1dc77ebc1257cb400549b84",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA466",
+    "0112/2///61987#ABA467"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:33",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "DFD6B886CA25EA02C1258940004C5059"
+  }
+}

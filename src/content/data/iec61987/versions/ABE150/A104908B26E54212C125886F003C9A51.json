@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61987#ABE150",
+  "code": "ABE150",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "reference to Linear limit stop",
+  "preferred_name_ml": {
+    "en": "reference to Linear limit stop"
+  },
+  "definition": "reference to block ABD832",
+  "definition_ml": {
+    "en": "reference to block ABD832"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE150",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "reference to Linear limit stop",
+    "MDC_P006.en": "reference to block ABD832",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD832)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P028": "{0112/2///61987#ABD670}",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:56",
+      "user": "BATCH 00000794",
+      "unid": "A104908B26E54212C125886F003C9A51",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:58",
+      "user": "BATCH 00000762",
+      "unid": "d6667e5a06d103f6c125825e001def84",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-08-31 20:15:01",
+      "user": "BATCH 00000725",
+      "unid": "648e803563daefc7c1258020006440a3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:52",
+      "user": "BATCH 00000702",
+      "unid": "df32404054a745acc1257cfb00404209",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:51",
+      "user": "BATCH 00000699",
+      "unid": "28bf5d0a7c4263b6c1257cb40054c3c6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD832)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABD670}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD832)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:56",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "A104908B26E54212C125886F003C9A51"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#AAE560",
+  "code": "AAE560",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "package colour",
+  "preferred_name_ml": {
+    "en": "package colour"
+  },
+  "short_name": "package colour",
+  "short_name_ml": {
+    "en": "package colour"
+  },
+  "definition": "Name of the colour of a LED or IRED package",
+  "definition_ml": {
+    "en": "Name of the colour of a LED or IRED package"
+  },
+  "synonyms": [],
+  "remark": "For the materials used and the resulting colours in the emitting condition, see AAE563-005 and AAE564-005.",
+  "remark_ml": {
+    "en": "For the materials used and the resulting colours in the emitting condition, see AAE563-005 and AAE564-005."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE560",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "package colour",
+    "MDC_P005.en": "package colour",
+    "MDC_P006.en": "Name of the colour of a LED or IRED package",
+    "MDC_P009.en": "For the materials used and the resulting colours in the emitting condition, see AAE563-005 and AAE564-005.",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA113)",
+    "MDC_P024": "M..35",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "8F676E68FFADA554C1257EA4004B1FFB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "2fbcc8b91912b63fc1257e8b0032364a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "b370305b0d32e425c1257e8a0043e41e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "984049515e638711c1257a0e0047bc61",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:52",
+      "user": "BATCH 00000787",
+      "unid": "95c7f3842f30f697c1257a0e0046d9e1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA113)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA113)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "8F676E68FFADA554C1257EA4004B1FFB"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABD705",
+  "code": "ABD705",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "reference supply gauge pressure for forces by actuating fluid",
+  "preferred_name_ml": {
+    "en": "reference supply gauge pressure for forces by actuating fluid",
+    "de": "Bezugsversorgungsüberdruck für die Kräfte aus Stellmedium"
+  },
+  "definition": "gauge supply pressure at which the forces of an actuator were determined",
+  "definition_ml": {
+    "en": "gauge supply pressure at which the forces of an actuator were determined",
+    "de": "Überdruck der pneumatischen oder hydraulischen Hilfsenergieversorgung, auf der die Angabe für die Kräfte eines Antriebs beruhen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD705",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "reference supply gauge pressure for forces by actuating fluid",
+    "MDC_P006.en": "gauge supply pressure at which the forces of an actuator were determined",
+    "MDC_P023": "bar",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA323",
+    "C0104": "0112/2///61987#ABT524",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P004.de": "Bezugsversorgungsüberdruck für die Kräfte aus Stellmedium",
+    "MDC_P006.de": "Überdruck der pneumatischen oder hydraulischen Hilfsenergieversorgung, auf der die Angabe für die Kräfte eines Antriebs beruhen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "9E8DF72681BC4770C125825E001DEEFF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:58",
+      "user": "BATCH 00000717",
+      "unid": "9002e7e1a2e7dd61c1257fa700405c1d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:50",
+      "user": "BATCH 00000702",
+      "unid": "6e6031fc74fae3d5c1257cfb00404185",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "e195d47ac2178a88c1257cb40054c342",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA323",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "9E8DF72681BC4770C125825E001DEEFF"
+  }
+}

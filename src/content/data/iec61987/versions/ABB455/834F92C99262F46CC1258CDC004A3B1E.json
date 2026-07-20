@@ -1,0 +1,150 @@
+{
+  "irdi": "0112/2///61987#ABB455",
+  "code": "ABB455",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "designation of material",
+  "preferred_name_ml": {
+    "en": "designation of material",
+    "fr": "désignation du matériau",
+    "de": "Bezeichnung des Werkstoffs"
+  },
+  "definition": "alphanumeric character sequence identifying a material",
+  "definition_ml": {
+    "en": "alphanumeric character sequence identifying a material",
+    "fr": "séquence de caractères alphanumériques identifiant un matériau",
+    "de": "alphanumerische Zeichenfolge, die einen Werkstoff identifiziert"
+  },
+  "synonyms": [],
+  "note": "normally a general name like \"stainless steel\" is used",
+  "note_ml": {
+    "en": "normally a general name like \"stainless steel\" is used",
+    "de": "im Regelfall wird eine allgemeine Bezeichnung wie \"rostfreier Stahl\" verwendet"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB455",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "designation of material",
+    "MDC_P006.en": "alphanumeric character sequence identifying a material",
+    "MDC_P008.en": "normally a general name like \"stainless steel\" is used",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ735)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "désignation du matériau",
+    "MDC_P006.fr": "séquence de caractères alphanumériques identifiant un matériau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Bezeichnung des Werkstoffs",
+    "MDC_P006.de": "alphanumerische Zeichenfolge, die einen Werkstoff identifiziert",
+    "MDC_P008.de": "im Regelfall wird eine allgemeine Bezeichnung wie \"rostfreier Stahl\" verwendet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "834F92C99262F46CC1258CDC004A3B1E",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "5b901e95d2f7ded5c1258518003c4914",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:43",
+      "user": "BATCH 00000762",
+      "unid": "4f895d426176259dc125825e001de9a7",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "f308f75d879958e1c125825600407b2e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:25",
+      "user": "BATCH 00000732",
+      "unid": "065427b18a9e9632c12580d6004c1e55",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:37",
+      "user": "BATCH 00000702",
+      "unid": "6b99ded958c63729c1257cfb00403c2f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:36",
+      "user": "BATCH 00000699",
+      "unid": "a5c247f35c949596c1257cb40054bdec",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ735)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ735)",
+  "value_list": "0112/2///61987#ABJ735",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "834F92C99262F46CC1258CDC004A3B1E"
+  }
+}

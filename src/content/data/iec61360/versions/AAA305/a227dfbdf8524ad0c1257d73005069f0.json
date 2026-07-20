@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AAA305",
+  "code": "AAA305",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "chip-carrier",
+  "preferred_name_ml": {
+    "en": "chip-carrier"
+  },
+  "short_name": "CC",
+  "short_name_ml": {
+    "en": "CC"
+  },
+  "definition": "package style in which the body has a rectangular in shape and has very short connections or connections on the surface",
+  "definition_ml": {
+    "en": "package style in which the body has a rectangular in shape and has very short connections or connections on the surface"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA305",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "CC",
+    "MDC_P004.en": "chip-carrier",
+    "MDC_P006.en": "package style in which the body has a rectangular in shape and has very short connections or connections on the surface",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2019-12-20",
+    "MDC_P003_2": "2019-12-20",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA303",
+    "C021": "0112/2///61360_4#AAG056",
+    "MDC_P014": "{0112/2///61360_4#AAG056}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "a227dfbdf8524ad0c1257d73005069f0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:34",
+      "user": "BATCH 00001245",
+      "unid": "E95BF896924CFCC5C1258994002BD06B",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:08",
+      "user": "BATCH 00000788",
+      "unid": "3d8dace80fd8b244c1257a0e0047b2b2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-12-20 13:41:57",
+      "user": "BATCH 00001162",
+      "unid": "dccb7dd71837768fc12584d60045c260",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-12-20",
+    "current_version": "2019-12-20",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG056"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA303",
+  "superclass_type_property": "0112/2///61360_4#AAA303",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2014-10-16 16:38:20",
+    "user": "BATCH 00000879",
+    "change_request_id": null,
+    "unid": "a227dfbdf8524ad0c1257d73005069f0"
+  }
+}

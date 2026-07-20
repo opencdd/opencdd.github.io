@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61987#ABE361",
+  "code": "ABE361",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Thermographic device with matrix detector",
+  "preferred_name_ml": {
+    "en": "Thermographic device with matrix detector",
+    "de": "Thermografiegerät mit Matrixdetektor"
+  },
+  "definition": "area temperature measuring device with a two-dimensional array of individual detectors that samples radiation simultaneously across an area by electronic means",
+  "definition_ml": {
+    "en": "area temperature measuring device with a two-dimensional array of individual detectors that samples radiation simultaneously across an area by electronic means",
+    "de": "Thermografiegerät mit zweidimensional angeordneten Einzeldetektoren, das die Strahlung einer Fläche gleichzeitig mit elektronischen Mitteln erfasst"
+  },
+  "synonyms": [],
+  "note": "As with single-element detectors, a distinction can be made, according to the operating principle, between (mostly) cooled photoelectric matrix detectors.",
+  "note_ml": {
+    "en": "As with single-element detectors, a distinction can be made, according to the operating principle, between (mostly) cooled photoelectric matrix detectors.",
+    "de": "Wie bei Einzelelement-Detektoren kann eine Unterscheidung bezüglich des Ausführungsprinzips zwischen den (meist) gekühlten photoelektrischen Matrixdetektoren getroffen werden."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE361",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Thermographic device with matrix detector",
+    "MDC_P006.en": "area temperature measuring device with a two-dimensional array of individual detectors that samples radiation simultaneously across an area by electronic means",
+    "MDC_P008.en": "As with single-element detectors, a distinction can be made, according to the operating principle, between (mostly) cooled photoelectric matrix detectors.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABE358",
+    "MDC_P004.de": "Thermografiegerät mit Matrixdetektor",
+    "MDC_P006.de": "Thermografiegerät mit zweidimensional angeordneten Einzeldetektoren, das die Strahlung einer Fläche gleichzeitig mit elektronischen Mitteln erfasst",
+    "MDC_P008.de": "Wie bei Einzelelement-Detektoren kann eine Unterscheidung bezüglich des Ausführungsprinzips zwischen den (meist) gekühlten photoelektrischen Matrixdetektoren getroffen werden.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:08",
+      "user": "BATCH 00000816",
+      "unid": "201FB25435ECEF61C1258A6F00520B4A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:02",
+      "user": "BATCH 00000762",
+      "unid": "4ed4ed5bb58244d0c125825e001dd99f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABE358",
+  "superclass_type_property": "0112/2///61987#ABE358",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:08",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "201FB25435ECEF61C1258A6F00520B4A"
+  }
+}

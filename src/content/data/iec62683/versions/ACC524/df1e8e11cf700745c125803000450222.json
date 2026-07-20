@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACC524",
+  "code": "ACC524",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:33:45",
+    "user": "BATCH 00000703",
+    "change_request_id": null,
+    "unid": "df1e8e11cf700745c125803000450222"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///62683#ACC204",
+  "code": "ACC204",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Shunt release for circuit-breaker",
+  "preferred_name_ml": {
+    "en": "Shunt release for circuit-breaker",
+    "fr": "Déclencheur shunt pour disjoncteur",
+    "de": "Spannungsauslöser für Leistungsschalter",
+    "zh": "断路器分励脱扣器"
+  },
+  "definition": "release energized by a source of voltage",
+  "definition_ml": {
+    "en": "release energized by a source of voltage",
+    "fr": "déclencheur alimenté par une source de tension",
+    "de": "Auslöser, der von einer Spannungsquelle gespeist wird",
+    "zh": "由电压源激励的脱扣器。"
+  },
+  "source_document": "IEC 60050-441: 1984, 441-16-41, modified",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Shunt trip"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Shunt trip",
+    "fr": "Déclencheur à émission de courant",
+    "de": "Spannungsauslöser"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC204",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Shunt release for circuit-breaker",
+    "MDC_P007.en": "Shunt trip",
+    "MDC_P006.en": "release energized by a source of voltage",
+    "MDC_P006_1": "IEC 60050-441: 1984, 441-16-41, modified",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC200",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF016,0112/2///62683#ACF017,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Déclencheur shunt pour disjoncteur",
+    "MDC_P007.fr": "Déclencheur à émission de courant",
+    "MDC_P006.fr": "déclencheur alimenté par une source de tension",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-09-27",
+    "MDC_P004.de": "Spannungsauslöser für Leistungsschalter",
+    "MDC_P007.de": "Spannungsauslöser",
+    "MDC_P006.de": "Auslöser, der von einer Spannungsquelle gespeist wird",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "断路器分励脱扣器",
+    "MDC_P006.zh": "由电压源激励的脱扣器。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "772ba2e8fd652d17c12584e80070c0ec",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "0a19d5670bb54424c1258030004501f3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF016",
+    "0112/2///62683#ACF017",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC200",
+  "superclass_type_property": "0112/2///62683#ACC200",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "772ba2e8fd652d17c12584e80070c0ec"
+  }
+}

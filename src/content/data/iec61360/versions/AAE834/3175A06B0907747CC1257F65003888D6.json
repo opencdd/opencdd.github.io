@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61360_4#AAE834",
+  "code": "AAE834",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "object description",
+  "preferred_name_ml": {
+    "en": "object description"
+  },
+  "short_name": "obj descr",
+  "short_name_ml": {
+    "en": "obj descr"
+  },
+  "definition": "non-structured free text describing the object formulated in such a way by the manufacturer that its intended purpose, its intended functions and application  is unambiguously transmitted",
+  "definition_ml": {
+    "en": "non-structured free text describing the object formulated in such a way by the manufacturer that its intended purpose, its intended functions and application  is unambiguously transmitted"
+  },
+  "synonyms": [],
+  "note": "NOTE 1 - An object may be used in other aplication areas or for different purposes than intended by the manufacturer. This may influence product safety, private product liability and contractual liability.\nNOTE 2 - The object is considered  being newly manufactured not containing reused parts, unless such information is provided by the manufacturer (see IEC 62309).\nNOTE 3 - The object description is not to be mixed with a brand name or product name as given by the manufacturer for marketing purposes\nNOTE 4 - For object descriptions there may be local or regional specifications by special product provisions.",
+  "note_ml": {
+    "en": "NOTE 1 - An object may be used in other aplication areas or for different purposes than intended by the manufacturer. This may influence product safety, private product liability and contractual liability.\nNOTE 2 - The object is considered  being newly manufactured not containing reused parts, unless such information is provided by the manufacturer (see IEC 62309).\nNOTE 3 - The object description is not to be mixed with a brand name or product name as given by the manufacturer for marketing purposes\nNOTE 4 - For object descriptions there may be local or regional specifications by special product provisions."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "change_request_id": "C00061",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE834",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "object description",
+    "MDC_P005.en": "obj descr",
+    "MDC_P006.en": "non-structured free text describing the object formulated in such a way by the manufacturer that its intended purpose, its intended functions and application  is unambiguously transmitted",
+    "MDC_P008.en": "NOTE 1 - An object may be used in other aplication areas or for different purposes than intended by the manufacturer. This may influence product safety, private product liability and contractual liability.\nNOTE 2 - The object is considered  being newly manufactured not containing reused parts, unless such information is provided by the manufacturer (see IEC 62309).\nNOTE 3 - The object description is not to be mixed with a brand name or product name as given by the manufacturer for marketing purposes\nNOTE 4 - For object descriptions there may be local or regional specifications by special product provisions.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..175",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A62",
+    "MDC_P021": "0112/2///61360_4#ADA077",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2016-02-26",
+    "MDC_P003_2": "2016-04-29",
+    "MDC_P003_3": "2016-04-29",
+    "C002": "C00061"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2016-02-26 11:17:30",
+      "user": "BATCH 00000950",
+      "unid": "3175A06B0907747CC1257F65003888D6",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-02-26 11:04:57",
+      "user": "BATCH 00000949",
+      "unid": "2222fb7da6237d7cc1257f65003762dc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:35",
+      "user": "BATCH 00000917",
+      "unid": "ac30e0f96de1be1ec1257ea4004b20a8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "3a62989ee6b43a9dc1257e8b003236f6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "db42eb26f6d371d8c1257e8a0043e4cb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "e48331c0058237a3c1257a0e0047bd04",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "6752ab736437776dc1257a0e0046da84",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-04-29",
+    "current_revision": "2016-04-29"
+  },
+  "value_format": "M..175",
+  "definition_class_irdi": "0112/2///61360_4#ADA077",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..175",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2016-02-26 11:17:30",
+    "user": "BATCH 00000950",
+    "change_request_id": null,
+    "unid": "3175A06B0907747CC1257F65003888D6"
+  }
+}

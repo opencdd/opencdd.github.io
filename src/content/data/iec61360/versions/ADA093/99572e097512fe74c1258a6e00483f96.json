@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ADA093",
+  "code": "ADA093",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2023-11-21 14:09:08",
+    "user": "BATCH 00001271",
+    "change_request_id": null,
+    "unid": "99572e097512fe74c1258a6e00483f96"
+  }
+}

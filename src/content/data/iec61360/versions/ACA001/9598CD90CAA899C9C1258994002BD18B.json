@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61360_4#ACA001",
+  "code": "ACA001",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "product",
+  "preferred_name_ml": {
+    "en": "product"
+  },
+  "definition": "any goods or service",
+  "definition_ml": {
+    "en": "any goods or service"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "note": "This general definition of product is in the context of this International Standard limited to any product of the product category “hardware” according to ISO 9000:2005 No. 3.4.2 of and for the electrotechnical and electronic industry (E&E).",
+  "note_ml": {
+    "en": "This general definition of product is in the context of this International Standard limited to any product of the product category “hardware” according to ISO 9000:2005 No. 3.4.2 of and for the electrotechnical and electronic industry (E&E)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ACA001",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "product",
+    "MDC_P006.en": "any goods or service",
+    "MDC_P008.en": "This general definition of product is in the context of this International Standard limited to any product of the product category “hardware” according to ISO 9000:2005 No. 3.4.2 of and for the electrotechnical and electronic industry (E&E).",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/TC 111",
+    "MDC_P010": "0112/2///61360_4#ACA030",
+    "MDC_P014": "{0112/2///61360_4#ACB005,0112/2///61360_4#ACB006,0112/2///61360_4#ACB008,0112/2///61360_4#ACB009,0112/2///61360_4#ACB010,0112/2///61360_4#ACB011,0112/2///61360_4#ACB012,0112/2///61360_4#ACB013,0112/2///61360_4#ACB014,0112/2///61360_4#ACB015,0112/2///61360_4#ACB016}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "9598CD90CAA899C9C1258994002BD18B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 12:21:40",
+      "user": "BATCH 00000898",
+      "unid": "ece67c5e5ca2729dc1257e650038eab1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ACB005",
+    "0112/2///61360_4#ACB006",
+    "0112/2///61360_4#ACB008",
+    "0112/2///61360_4#ACB009",
+    "0112/2///61360_4#ACB010",
+    "0112/2///61360_4#ACB011",
+    "0112/2///61360_4#ACB012",
+    "0112/2///61360_4#ACB013",
+    "0112/2///61360_4#ACB014",
+    "0112/2///61360_4#ACB015",
+    "0112/2///61360_4#ACB016"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ACA030",
+  "superclass_type_property": "0112/2///61360_4#ACA030",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "9598CD90CAA899C9C1258994002BD18B"
+  }
+}

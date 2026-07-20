@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61360_4#AAF935",
+  "code": "AAF935",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "hydrogen sulphide concentration",
+  "preferred_name_ml": {
+    "en": "hydrogen sulphide concentration"
+  },
+  "short_name": "H_2}S concentration",
+  "short_name_ml": {
+    "en": "H_2}S concentration"
+  },
+  "definition": "ratio of the mass of hydrogen sulphide appearing in the surrounding environment to a specified unit volume",
+  "definition_ml": {
+    "en": "ratio of the mass of hydrogen sulphide appearing in the surrounding environment to a specified unit volume"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF935",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "hydrogen sulphide concentration",
+    "MDC_P005.en": "H_2}S concentration",
+    "MDC_P006.en": "ratio of the mass of hydrogen sulphide appearing in the surrounding environment to a specified unit volume",
+    "MDC_P025_1": "H_2}S",
+    "MDC_P023": "kg/m³",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "K02",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA619",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "B90CC378B7BA93E0C1257EA4004B22E8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "a0d27c0e72e26dadc1257e8b00323917",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "6fa0cfbb9328b07cc1257e8a0043e70b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "f9fd2020be91b8d7c1257b9e0044e85d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "H_2}S",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA619",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "B90CC378B7BA93E0C1257EA4004B22E8"
+  }
+}

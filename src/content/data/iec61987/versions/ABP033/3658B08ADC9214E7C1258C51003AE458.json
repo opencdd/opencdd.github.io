@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABP033",
+  "code": "ABP033",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Fuse",
+  "preferred_name_ml": {
+    "en": "Fuse",
+    "de": "Sicherung"
+  },
+  "definition": "properties characterizing a device that, by the fusing of one or more of their specially-designed and proportioned components, opens the circuit in which they is inserted by breaking the current when this exceeds a given value for a sufficient time",
+  "definition_ml": {
+    "en": "properties characterizing a device that, by the fusing of one or more of their specially-designed and proportioned components, opens the circuit in which they is inserted by breaking the current when this exceeds a given value for a sufficient time",
+    "de": "Merkmale, die eine Vorrichtung kennzeichnen, die durch das Schmelzen eines oder mehrerer ihrer speziell konzipierten und proportionierten Bauteile den Stromkreis, in den sie eingefügt sind, öffnet, indem sie den Strom unterbricht, wenn dieser für eine ausreichende Zeit einen bestimmten Wert überschreitet"
+  },
+  "source_document": "caseof0112/2///61360_4#AAA149",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00178",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP033",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Fuse",
+    "MDC_P006.en": "properties characterizing a device that, by the fusing of one or more of their specially-designed and proportioned components, opens the circuit in which they is inserted by breaking the current when this exceeds a given value for a sufficient time",
+    "MDC_P006_1": "case of 0112/2///61360_4#AAA149",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-03-18",
+    "MDC_P003_1": "2023-01-23",
+    "MDC_P003_2": "2023-01-23",
+    "MDC_P003_3": "2025-03-18",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P013": "{0112/2///61360_4#AAA149}",
+    "MDC_P090": "{0112/2///61360_4#AAE524,0112/2///61360_4#AAE525}",
+    "MDC_P004.de": "Sicherung",
+    "MDC_P006.de": "Merkmale, die eine Vorrichtung kennzeichnen, die durch das Schmelzen eines oder mehrerer ihrer speziell konzipierten und proportionierten Bauteile den Stromkreis, in den sie eingefügt sind, öffnet, indem sie den Strom unterbricht, wenn dieser für eine ausreichende Zeit einen bestimmten Wert überschreitet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-11-23",
+    "C002": "C00178"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-03-18 11:43:15",
+      "user": "BATCH 00000836",
+      "unid": "3658B08ADC9214E7C1258C51003AE458",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "9c8e655522612ceec1258940004c508b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-01-23",
+    "current_version": "2023-01-23",
+    "current_revision": "2025-03-18"
+  },
+  "is_case_of": [
+    "0112/2///61360_4#AAA149"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///61360_4#AAE524",
+    "0112/2///61360_4#AAE525"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-03-18 11:43:15",
+    "user": "BATCH 00000836",
+    "change_request_id": null,
+    "unid": "3658B08ADC9214E7C1258C51003AE458"
+  }
+}

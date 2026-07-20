@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61360_4#AAA074",
+  "code": "AAA074",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "inductor",
+  "preferred_name_ml": {
+    "en": "inductor"
+  },
+  "short_name": "IND",
+  "short_name_ml": {
+    "en": "IND"
+  },
+  "definition": "two- or n-terminal device with the purpose to provide a defined inductance between any two terminals",
+  "definition_ml": {
+    "en": "two- or n-terminal device with the purpose to provide a defined inductance between any two terminals"
+  },
+  "synonyms": [],
+  "remark": "Many components used in electric or electronic circuits have a (mostly unwanted) inductance, e.g., the inductance of the connecting leads of a resistor. Such parasitic inductances are in most cases not the main purpose of the component and thus should not be taken as a rationale for classifying the component as an inductor.",
+  "remark_ml": {
+    "en": "Many components used in electric or electronic circuits have a (mostly unwanted) inductance, e.g., the inductance of the connecting leads of a resistor. Such parasitic inductances are in most cases not the main purpose of the component and thus should not be taken as a rationale for classifying the component as an inductor."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA074",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "IND",
+    "MDC_P004.en": "inductor",
+    "MDC_P006.en": "two- or n-terminal device with the purpose to provide a defined inductance between any two terminals",
+    "MDC_P009.en": "Many components used in electric or electronic circuits have a (mostly unwanted) inductance, e.g., the inductance of the connecting leads of a resistor. Such parasitic inductances are in most cases not the main purpose of the component and thus should not be taken as a rationale for classifying the component as an inductor.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA002",
+    "C021": "0112/2///61360_4#AAE003",
+    "MDC_P014": "{0112/2///61360_4#AAE003,0112/2///61360_4#AAE262,0112/2///61360_4#AAE517,0112/2///61360_4#AAE518,0112/2///61360_4#AAE755,0112/2///61360_4#AAE756,0112/2///61360_4#AAE758,0112/2///61360_4#AAF052,0112/2///61360_4#AAF090,0112/2///61360_4#AAF103,0112/2///61360_4#AAF151,0112/2///61360_4#AAJ076,0112/2///61360_4#AAJ077}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "89FF18169A79A9ECC1258994002BCFE6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "c9ecfd19acbe7beac1257dd300515f4c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "3237437cea5741dac1257d7300506973",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "7a01765f2a593b22c1257a0e0047b235",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-08-31",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE003",
+    "0112/2///61360_4#AAE262",
+    "0112/2///61360_4#AAE517",
+    "0112/2///61360_4#AAE518",
+    "0112/2///61360_4#AAE755",
+    "0112/2///61360_4#AAE756",
+    "0112/2///61360_4#AAE758",
+    "0112/2///61360_4#AAF052",
+    "0112/2///61360_4#AAF090",
+    "0112/2///61360_4#AAF103",
+    "0112/2///61360_4#AAF151",
+    "0112/2///61360_4#AAJ076",
+    "0112/2///61360_4#AAJ077"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA002",
+  "superclass_type_property": "0112/2///61360_4#AAA002",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "89FF18169A79A9ECC1258994002BCFE6"
+  }
+}

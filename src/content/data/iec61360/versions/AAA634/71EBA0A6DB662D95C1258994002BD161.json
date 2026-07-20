@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61360_4#AAA634",
+  "code": "AAA634",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "biological condition",
+  "preferred_name_ml": {
+    "en": "biological condition"
+  },
+  "definition": "ambient conditions caused by flora or fauna",
+  "definition_ml": {
+    "en": "ambient conditions caused by flora or fauna"
+  },
+  "source_document": "IEC 60721-1:1990",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA634",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "biological condition",
+    "MDC_P006.en": "ambient conditions caused by flora or fauna",
+    "MDC_P006_1": "IEC 60721-1:1990",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA650",
+    "MDC_P014": "{0112/2///61360_4#AAF928,0112/2///61360_4#AAF929}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "71EBA0A6DB662D95C1258994002BD161",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "2528719e0dde9c5dc1257dd300516010",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "cc9b8b3ef5c1c7bdc1257d7300506a37",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:16",
+      "user": "BATCH 00000825",
+      "unid": "9a03ba6baf7a2808c1257b9e0044df6e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF928",
+    "0112/2///61360_4#AAF929"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA650",
+  "superclass_type_property": "0112/2///61360_4#AAA650",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "71EBA0A6DB662D95C1258994002BD161"
+  }
+}

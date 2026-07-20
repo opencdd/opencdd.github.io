@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABD516",
+  "code": "ABD516",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Rated operating conditions [8]",
+  "preferred_name_ml": {
+    "en": "Rated operating conditions [8]",
+    "fr": "Conditions assignées de fonctionnement [8]",
+    "de": "Einsatzbedingungen [8]"
+  },
+  "definition": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+  "definition_ml": {
+    "en": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+    "fr": "propriétés caractérisant les conditions qui doivent être remplies pendant la mesure afin qu’un système de mesure fonctionne comme prévu (version de bloc 8)",
+    "de": "Merkmale, die die Bedingungen kennzeichnen, die während des Betriebs erfüllt sein müssen, damit ein Gerät oder eine Geräteanordnung gemäß der Auslegung arbeitet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD516",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Rated operating conditions [8]",
+    "MDC_P006.en": "properties characterizing the conditions that must be fulfilled during operation in order that a device or assembly performs as designed",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABD508,0112/2///61987#ABD512,0112/2///61987#ABD173,0112/2///61987#ABD163}",
+    "MDC_P004.fr": "Conditions assignées de fonctionnement [8]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions qui doivent être remplies pendant la mesure afin qu’un système de mesure fonctionne comme prévu (version de bloc 8)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Einsatzbedingungen [8]",
+    "MDC_P006.de": "Merkmale, die die Bedingungen kennzeichnen, die während des Betriebs erfüllt sein müssen, damit ein Gerät oder eine Geräteanordnung gemäß der Auslegung arbeitet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:08",
+      "user": "BATCH 00000803",
+      "unid": "D6F78BB63F99095AC1258913003042E4",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:59",
+      "user": "BATCH 00000762",
+      "unid": "8cc9af4850273200c125825e001dd89c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:42",
+      "user": "BATCH 00000701",
+      "unid": "20752b4f028684f4c1257cfb003f9a2e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:13",
+      "user": "BATCH 00000699",
+      "unid": "6b706ef6ca20dda1c1257cb400549d7a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABD508",
+    "0112/2///61987#ABD512",
+    "0112/2///61987#ABD173",
+    "0112/2///61987#ABD163"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:08",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "D6F78BB63F99095AC1258913003042E4"
+  }
+}

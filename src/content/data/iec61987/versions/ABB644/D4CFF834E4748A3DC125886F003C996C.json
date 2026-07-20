@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61987#ABB644",
+  "code": "ABB644",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "reference relative permittivity",
+  "preferred_name_ml": {
+    "en": "reference relative permittivity",
+    "fr": "constante diélectrique de référence",
+    "de": "Referenzpermittivitätszahl"
+  },
+  "definition": "relative permittivity of the process material with which the performance of a device was tested",
+  "definition_ml": {
+    "en": "relative permittivity of the process material with which the performance of a device was tested",
+    "fr": "constante diélectrique du matériau de processus avec lequel les performances d'un appareil sont soumises à essai",
+    "de": "Permittivitätszahl des Prozessmediums, bei der die Leistung des Geräts bestimmt wurde"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "reference dielectric constant"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "reference dielectric constant",
+    "de": "Referenzdielektrizitätskonstante"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB644",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference relative permittivity",
+    "MDC_P007.en": "reference dielectric constant",
+    "MDC_P006.en": "relative permittivity of the process material with which the performance of a device was tested",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-06-28",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.fr": "constante diélectrique de référence",
+    "MDC_P006.fr": "constante diélectrique du matériau de processus avec lequel les performances d'un appareil sont soumises à essai",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Referenzpermittivitätszahl",
+    "MDC_P007.de": "Referenzdielektrizitätskonstante",
+    "MDC_P006.de": "Permittivitätszahl des Prozessmediums, bei der die Leistung des Geräts bestimmt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-07-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "D4CFF834E4748A3DC125886F003C996C",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "08e3232134e077b0c1258518003c494c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "6fe34e5c02b76c4fc125825e001dea60",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:26",
+      "user": "BATCH 00000732",
+      "unid": "156b6640606ed95cc12580d6004c1f0e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "3a0d6c79ecdb7773c1257cb40054bea5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-06-28",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,NOM,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:54",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "D4CFF834E4748A3DC125886F003C996C"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA831",
+  "code": "ABA831",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:35:36",
+    "user": "BATCH 00000701",
+    "change_request_id": null,
+    "unid": "4133d69a3d650be3c1257cfb003faf2d"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABN632",
+  "code": "ABN632",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "discrete two-state value of simulation",
+  "preferred_name_ml": {
+    "en": "discrete two-state value of simulation",
+    "de": "diskreter Simulationswert für Zweifachzustände"
+  },
+  "short_name": "Sim. Two-State",
+  "short_name_ml": {
+    "en": "Sim. Two-State",
+    "de": "Sim. Zweifachwert"
+  },
+  "definition": "parameter indicating the simulated value of a binary variable",
+  "definition_ml": {
+    "en": "parameter indicating the simulated value of a binary variable",
+    "de": "Parameter, den simulierten Wert einer binären Größe angibt"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN632",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "discrete two-state value of simulation",
+    "MDC_P005.en": "Sim. Two-State",
+    "MDC_P006.en": "parameter indicating the simulated value of a binary variable",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "BOOLEAN_TYPE",
+    "MDC_P024": "B 1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-05-20",
+    "MDC_P003_2": "2025-05-20",
+    "MDC_P003_3": "2025-05-20",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "diskreter Simulationswert für Zweifachzustände",
+    "MDC_P005.de": "Sim. Zweifachwert",
+    "MDC_P006.de": "Parameter, den simulierten Wert einer binären Größe angibt",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2023-03-01",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-05-20 11:52:36",
+      "user": "BATCH 00000843",
+      "unid": "E7C6675956B6170CC1258C900036412B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:03",
+      "user": "BATCH 00000835",
+      "unid": "5947d7eda5d778f7c1258c3b004b5a5e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "41dd9ffbebf2bd1dc125886f003c9b5a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "ab042bd0e094c7c9c1258518003fd7dd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-05-20",
+    "current_revision": "2025-05-20"
+  },
+  "value_format": "B 1",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "BOOLEAN_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "BOOLEAN_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-05-20 11:52:36",
+    "user": "BATCH 00000843",
+    "change_request_id": null,
+    "unid": "E7C6675956B6170CC1258C900036412B"
+  }
+}

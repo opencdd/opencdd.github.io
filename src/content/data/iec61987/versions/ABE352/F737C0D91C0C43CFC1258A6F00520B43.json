@@ -1,0 +1,89 @@
+{
+  "irdi": "0112/2///61987#ABE352",
+  "code": "ABE352",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Multichannel radiation thermometer with filter wheel",
+  "preferred_name_ml": {
+    "en": "Multichannel radiation thermometer with filter wheel",
+    "de": "Mehrkanal-Strahlungsthermometer mit Filterrad"
+  },
+  "definition": "multichannel radiation thermometer with a single detector in which the radiation is interrupted periodically by a modulator with more than two filters",
+  "definition_ml": {
+    "en": "multichannel radiation thermometer with a single detector in which the radiation is interrupted periodically by a modulator with more than two filters",
+    "de": "Mehrkanal-Strahlungsthermometer mit einem Einzeldetektor, in dem die Strahlung periodisch durch einen Modulator mit mehr als zwei Filtern unterbrochen wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE352",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Multichannel radiation thermometer with filter wheel",
+    "MDC_P006.en": "multichannel radiation thermometer with a single detector in which the radiation is interrupted periodically by a modulator with more than two filters",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABE351",
+    "MDC_P004.de": "Mehrkanal-Strahlungsthermometer mit Filterrad",
+    "MDC_P006.de": "Mehrkanal-Strahlungsthermometer mit einem Einzeldetektor, in dem die Strahlung periodisch durch einen Modulator mit mehr als zwei Filtern unterbrochen wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:08",
+      "user": "BATCH 00000816",
+      "unid": "F737C0D91C0C43CFC1258A6F00520B43",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:02",
+      "user": "BATCH 00000762",
+      "unid": "157e8c95b5de8a32c125825e001dd983",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABE351",
+  "superclass_type_property": "0112/2///61987#ABE351",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:08",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "F737C0D91C0C43CFC1258A6F00520B43"
+  }
+}

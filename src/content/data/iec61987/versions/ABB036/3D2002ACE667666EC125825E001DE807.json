@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABB036",
+  "code": "ABB036",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "influence of ambient temperature on the remote seal",
+  "preferred_name_ml": {
+    "en": "influence of ambient temperature on the remote seal",
+    "fr": "influence de la température ambiante sur le séparateur",
+    "de": "Einfluss der Umgebungstemperatur auf den Druckmittler"
+  },
+  "definition": "change in output of a remote seal caused by a change in ambient temperature with respect to reference conditions, expressed as the average of the upscale and downscale errors at selected test temperatures",
+  "definition_ml": {
+    "en": "change in output of a remote seal caused by a change in ambient temperature with respect to reference conditions, expressed as the average of the upscale and downscale errors at selected test temperatures",
+    "fr": "modification de la sortie d'un séparateur causée par une modification de la température ambiante par rapport aux conditions de référence, exprimée par la moyenne des erreurs des échelles supérieure et inférieure aux températures d'essai sélectionnées",
+    "de": "Änderung des Ausgangssignals eines Druckmittlers, verursacht durch eine Änderung der Umgebungstemperatur gegenüber den Referenzbedingungen, als Durchschnittswert der positiven und negativen Abweichungen bei gewählten Prüftemperaturen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB036",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "influence of ambient temperature on the remote seal",
+    "MDC_P006.en": "change in output of a remote seal caused by a change in ambient temperature with respect to reference conditions, expressed as the average of the upscale and downscale errors at selected test temperatures",
+    "MDC_P023": "mbar/K",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA811",
+    "C0104": "0112/2///61987#ABT523",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "influence de la température ambiante sur le séparateur",
+    "MDC_P006.fr": "modification de la sortie d'un séparateur causée par une modification de la température ambiante par rapport aux conditions de référence, exprimée par la moyenne des erreurs des échelles supérieure et inférieure aux températures d'essai sélectionnées",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Einfluss der Umgebungstemperatur auf den Druckmittler",
+    "MDC_P006.de": "Änderung des Ausgangssignals eines Druckmittlers, verursacht durch eine Änderung der Umgebungstemperatur gegenüber den Referenzbedingungen, als Durchschnittswert der positiven und negativen Abweichungen bei gewählten Prüftemperaturen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "3D2002ACE667666EC125825E001DE807",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:20",
+      "user": "BATCH 00000732",
+      "unid": "808ac0e454794e54c12580d6004c1cb6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "4e12369de1838949c1257fa7004059a8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "11bc207248b295b7c1257cfb00403a90",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:32",
+      "user": "BATCH 00000699",
+      "unid": "c9d02b8a46579141c1257cb40054bc4d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA811",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:39",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "3D2002ACE667666EC125825E001DE807"
+  }
+}

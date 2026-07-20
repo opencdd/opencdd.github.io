@@ -1,0 +1,78 @@
+{
+  "irdi": "0112/2///61360_4#ADA166",
+  "code": "ADA166",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "reference to class postal address",
+  "preferred_name_ml": {
+    "en": "reference to class postal address"
+  },
+  "definition": "relation to the specified class postal address",
+  "definition_ml": {
+    "en": "relation to the specified class postal address"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA166",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to class postal address",
+    "MDC_P006.en": "relation to the specified class postal address",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA657)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#ADA112",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-06-26",
+    "MDC_P003_3": "2019-06-26"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2019-06-26 10:04:50",
+      "user": "BATCH 00001070",
+      "unid": "EC2DE235AA3587FFC1258425002C6357",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:12",
+      "user": "BATCH 00001062",
+      "unid": "0afa32c0e748dc1ac1258407003de897",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-07 10:21:16",
+      "user": "BATCH 00001052",
+      "unid": "40489361485f0962c12582e2002de4ba",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2019-06-26"
+  },
+  "definition_class_irdi": "0112/2///61360_4#ADA112",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA657)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA657)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2019-06-26 10:04:50",
+    "user": "BATCH 00001070",
+    "change_request_id": null,
+    "unid": "EC2DE235AA3587FFC1258425002C6357"
+  }
+}

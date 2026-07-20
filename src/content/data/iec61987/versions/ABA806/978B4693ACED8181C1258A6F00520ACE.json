@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA806",
+  "code": "ABA806",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Capacitance level transmitter",
+  "preferred_name_ml": {
+    "en": "Capacitance level transmitter",
+    "fr": "Transmetteur de niveau capacitif",
+    "de": "Kapazitiver Füllstandmessumformer"
+  },
+  "definition": "electrical-based level transmitter that uses dielectric properties of a process material to measure level",
+  "definition_ml": {
+    "en": "electrical-based level transmitter that uses dielectric properties of a process material to measure level",
+    "fr": "transmetteur de niveau électrique utilisant les propriétés diélectriques d'un matériau du processus pour mesurer un niveau",
+    "de": "Füllstandmessumformer basierend auf elektrischen Größen, der die dielektrischen Eigenschaften eines Prozessstoffes nutzt, um einen Füllstand zu messen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA806",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Capacitance level transmitter",
+    "MDC_P006.en": "electrical-based level transmitter that uses dielectric properties of a process material to measure level",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA805",
+    "MDC_P014": "{0112/2///61987#ABF875}",
+    "MDC_P004.fr": "Transmetteur de niveau capacitif",
+    "MDC_P006.fr": "transmetteur de niveau électrique utilisant les propriétés diélectriques d'un matériau du processus pour mesurer un niveau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-27",
+    "MDC_P004.de": "Kapazitiver Füllstandmessumformer",
+    "MDC_P006.de": "Füllstandmessumformer basierend auf elektrischen Größen, der die dielektrischen Eigenschaften eines Prozessstoffes nutzt, um einen Füllstand zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "978B4693ACED8181C1258A6F00520ACE",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "35c9952d60933406c125825e001dd3e3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:57",
+      "user": "BATCH 00000732",
+      "unid": "a7f9342cd4ba4f1dc12580d6004bfc29",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "3595496a7032a84ec1257cb3002a0ccc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF875"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA805",
+  "superclass_type_property": "0112/2///61987#ABA805",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "978B4693ACED8181C1258A6F00520ACE"
+  }
+}

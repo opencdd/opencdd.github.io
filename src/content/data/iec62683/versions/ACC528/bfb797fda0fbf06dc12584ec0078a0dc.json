@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACC528",
+  "code": "ACC528",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "Module for indicating tower",
+  "preferred_name_ml": {
+    "en": "Module for indicating tower",
+    "fr": "Module pour colonne lumineuse",
+    "de": "Modul für eine Signalsäule",
+    "zh": "指示塔模块"
+  },
+  "definition": "assembly composed of a bezel and a lens for providing information either by lighting or sound signalling",
+  "definition_ml": {
+    "en": "assembly composed of a bezel and a lens for providing information either by lighting or sound signalling",
+    "fr": "ensemble composé de la monture et du cabochon d'un voyant lumineux fonctionnant par allumage ou signal sonore",
+    "de": "Zusammenstellung, bestehend aus einer Linsenhalterung und einer Linse für die Bereitstellung von Informationen entweder durch Leuchten oder Tonsignale",
+    "zh": "通过光或声音信号提供信息的由档板和遮光罩构成的组件。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC528",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "Module for indicating tower",
+    "MDC_P006.en": "assembly composed of a bezel and a lens for providing information either by lighting or sound signalling",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-12-14",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC500",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF182,0112/2///62683#ACF169,0112/2///62683#ACF146,0112/2///62683#ACF058,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Module pour colonne lumineuse",
+    "MDC_P006.fr": "ensemble composé de la monture et du cabochon d'un voyant lumineux fonctionnant par allumage ou signal sonore",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Modul für eine Signalsäule",
+    "MDC_P006.de": "Zusammenstellung, bestehend aus einer Linsenhalterung und einer Linse für die Bereitstellung von Informationen entweder durch Leuchten oder Tonsignale",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "指示塔模块",
+    "MDC_P006.zh": "通过光或声音信号提供信息的由档板和遮光罩构成的组件。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:35",
+      "user": "BATCH 00000749",
+      "unid": "bfb797fda0fbf06dc12584ec0078a0dc",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "b353dadb44bf2b38c125803000450226",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-12-14",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF182",
+    "0112/2///62683#ACF169",
+    "0112/2///62683#ACF146",
+    "0112/2///62683#ACF058",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC500",
+  "superclass_type_property": "0112/2///62683#ACC500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:35",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "bfb797fda0fbf06dc12584ec0078a0dc"
+  }
+}

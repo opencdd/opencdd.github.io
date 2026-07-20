@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAF979",
+  "code": "AAF979",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "prevailing water current direction",
+  "preferred_name_ml": {
+    "en": "prevailing water current direction",
+    "de": "vorherrschende Richtung der Wasserströmung"
+  },
+  "definition": "dominating horizontal main direction of the movement of the water current with the highest probability of occurrence",
+  "definition_ml": {
+    "en": "dominating horizontal main direction of the movement of the water current with the highest probability of occurrence"
+  },
+  "synonyms": [],
+  "note": "The current direction is defined as ‘going to’ in contrast to wind and wave direction.",
+  "note_ml": {
+    "en": "The current direction is defined as ‘going to’ in contrast to wind and wave direction."
+  },
+  "remark": "In practice the direction is applied in textual form either by abbreviations of the geographic directions or in full text (instead of being applied in nautical degree, i.e. degree relative to true north positive clockwise).",
+  "remark_ml": {
+    "en": "In practice the direction is applied in textual form either by abbreviations of the geographic directions or in full text (instead of being applied in nautical degree, i.e. degree relative to true north positive clockwise)."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF979",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "prevailing water current direction",
+    "MDC_P006.en": "dominating horizontal main direction of the movement of the water current with the highest probability of occurrence",
+    "MDC_P008.en": "The current direction is defined as ‘going to’ in contrast to wind and wave direction.",
+    "MDC_P009.en": "In practice the direction is applied in textual form either by abbreviations of the geographic directions or in full text (instead of being applied in nautical degree, i.e. degree relative to true north positive clockwise).",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A14",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D",
+    "MDC_P004.de": "vorherrschende Richtung der Wasserströmung"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "FA07167D83377AC8C1257EA4004B2312",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "c14ff12d5837d5a7c1257e8b00323941",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:41",
+      "user": "BATCH 00000904",
+      "unid": "5427506435895433c1257e8a0043e735",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "16924f74d13dea34c1257b9e0044e887",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "FA07167D83377AC8C1257EA4004B2312"
+  }
+}

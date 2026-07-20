@@ -1,0 +1,141 @@
+{
+  "irdi": "0112/2///61987#ABD742",
+  "code": "ABD742",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "type of actuator compatibility",
+  "preferred_name_ml": {
+    "en": "type of actuator compatibility",
+    "de": "Art der Antriebskompatibilität"
+  },
+  "short_name": "Actuator Type",
+  "short_name_ml": {
+    "en": "Actuator Type",
+    "de": "Antriebstyp"
+  },
+  "definition": "classification of a positioner according to the actuator for which it can be used",
+  "definition_ml": {
+    "en": "classification of a positioner according to the actuator for which it can be used",
+    "de": "Charakterisierung eines Stellungsreglers bezüglich des Antriebs, für den er genutzt werden kann"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD742",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of actuator compatibility",
+    "MDC_P005.en": "Actuator Type",
+    "MDC_P006.en": "classification of a positioner according to the actuator for which it can be used",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL634)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art der Antriebskompatibilität",
+    "MDC_P005.de": "Antriebstyp",
+    "MDC_P006.de": "Charakterisierung eines Stellungsreglers bezüglich des Antriebs, für den er genutzt werden kann",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "690958F14F1F9456C1258CDC004A3CD4",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "f6b23c4c21c685e1c1258c3b004b5bfe",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:56",
+      "user": "BATCH 00000794",
+      "unid": "9fef60712c4850ccc125886f003c9a48",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "ad66e972d4e676ffc1258518003c49c1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "a9a237b4b6dd62acc125825e001def24",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "101d4d8db5708aa6c1257cb40054c367",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL634)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL634)",
+  "value_list": "0112/2///61987#ABL634",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "690958F14F1F9456C1258CDC004A3CD4"
+  }
+}

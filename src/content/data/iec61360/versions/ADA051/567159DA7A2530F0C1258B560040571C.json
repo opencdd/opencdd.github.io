@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61360_4#ADA051",
+  "code": "ADA051",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "sound power level",
+  "preferred_name_ml": {
+    "en": "sound power level"
+  },
+  "short_name": "L_W",
+  "short_name_ml": {
+    "en": "L_W"
+  },
+  "definition": "ten times the logarithm to the base 10 of the ratio of the sound power radiated by the source under test to the reference sound power [W_0 = 1 pW]",
+  "definition_ml": {
+    "en": "ten times the logarithm to the base 10 of the ratio of the sound power radiated by the source under test to the reference sound power [W_0 = 1 pW]"
+  },
+  "source_document": "ISO 3740:2000, 3.3; ISO 4871:1996, 3.10",
+  "synonyms": [],
+  "note": "the frequency weighting or the width of the frequency band used should be indicated; for example A-weighted\r\nsound power level (L_WA).",
+  "note_ml": {
+    "en": "the frequency weighting or the width of the frequency band used should be indicated; for example A-weighted\r\nsound power level (L_WA)."
+  },
+  "remark": "The sound power level is describing the noise emission of a machine and independent of the environment in which the machine is situated. It allows the selection of quiet machines and is a key quantity to carry out a forecast of the resulting sound pressure levels when placing a machine into an environment",
+  "remark_ml": {
+    "en": "The sound power level is describing the noise emission of a machine and independent of the environment in which the machine is situated. It allows the selection of quiet machines and is a key quantity to carry out a forecast of the resulting sound pressure levels when placing a machine into an environment"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA051",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "sound power level",
+    "MDC_P005.en": "L_W",
+    "MDC_P006.en": "ten times the logarithm to the base 10 of the ratio of the sound power radiated by the source under test to the reference sound power [W_0 = 1 pW]",
+    "MDC_P008.en": "the frequency weighting or the width of the frequency band used should be indicated; for example A-weighted\r\nsound power level (L_WA).",
+    "MDC_P009.en": "The sound power level is describing the noise emission of a machine and independent of the environment in which the machine is situated. It allows the selection of quiet machines and is a key quantity to carry out a forecast of the resulting sound pressure levels when placing a machine into an environment",
+    "MDC_P025_1": "L_W",
+    "MDC_P023": "dB",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "ISO 3740:2000, 3.3; ISO 4871:1996, 3.10",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "G22",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 13:42:46",
+      "user": "BATCH 00001303",
+      "unid": "567159DA7A2530F0C1258B560040571C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-02-26 10:34:59",
+      "user": "BATCH 00000948",
+      "unid": "709af47079fcc322c1257f650034a46e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "L_W",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 13:42:46",
+    "user": "BATCH 00001303",
+    "change_request_id": null,
+    "unid": "567159DA7A2530F0C1258B560040571C"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAA091",
+  "code": "AAA091",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "fixed linear resistor",
+  "preferred_name_ml": {
+    "en": "fixed linear resistor"
+  },
+  "definition": "fixed resistor in which the voltage between the two terminals of the resistor is proportional to the current passing through it",
+  "definition_ml": {
+    "en": "fixed resistor in which the voltage between the two terminals of the resistor is proportional to the current passing through it"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "linear"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "linear"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA091",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "fixed linear resistor",
+    "MDC_P007.en": "linear",
+    "MDC_P006.en": "fixed resistor in which the voltage between the two terminals of the resistor is proportional to the current passing through it",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA090",
+    "C021": "0112/2///61360_4#AAF101",
+    "MDC_P014": "{0112/2///61360_4#AAE113,0112/2///61360_4#AAE116,0112/2///61360_4#AAE119,0112/2///61360_4#AAE621,0112/2///61360_4#AAF101,0112/2///61360_4#AAF463}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "51F99CE8B3321E6FC1258994002BCFF7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "c9e3576dfa0b2bfac1257dd300515f5d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "620110a13958877dc1257d7300506984",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "695a756775864955c1257a0e0047b246",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE113",
+    "0112/2///61360_4#AAE116",
+    "0112/2///61360_4#AAE119",
+    "0112/2///61360_4#AAE621",
+    "0112/2///61360_4#AAF101",
+    "0112/2///61360_4#AAF463"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA090",
+  "superclass_type_property": "0112/2///61360_4#AAA090",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "51F99CE8B3321E6FC1258994002BCFF7"
+  }
+}

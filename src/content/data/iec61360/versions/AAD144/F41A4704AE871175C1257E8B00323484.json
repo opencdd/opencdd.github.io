@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61360_4#AAD144",
+  "code": "AAD144",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "geometric view",
+  "preferred_name_ml": {
+    "en": "geometric view"
+  },
+  "short_name": "geometric view",
+  "short_name_ml": {
+    "en": "geometric view"
+  },
+  "definition": "code that specifies the geometric view that shall apply to all geometric shapes used in drawings of a die device",
+  "definition_ml": {
+    "en": "code that specifies the geometric view that shall apply to all geometric shapes used in drawings of a die device"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00027",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD144",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "geometric view",
+    "MDC_P005.en": "geometric view",
+    "MDC_P006.en": "code that specifies the geometric view that shall apply to all geometric shapes used in drawings of a die device",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA014)",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-07-23",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-07-23",
+    "MDC_P012": "SC3D",
+    "C002": "C00027"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "F41A4704AE871175C1257E8B00323484",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "471774f95364a6b5c1257e8a0043e255",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "9ddefa184ffcc60ac125787f0042a244",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-07-23"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA014)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA014)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-07-23 11:08:22",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "F41A4704AE871175C1257E8B00323484"
+  }
+}

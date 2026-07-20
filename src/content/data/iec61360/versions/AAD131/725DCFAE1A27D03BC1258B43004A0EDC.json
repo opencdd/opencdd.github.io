@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61360_4#AAD131",
+  "code": "AAD131",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "defect rate",
+  "preferred_name_ml": {
+    "en": "defect rate"
+  },
+  "short_name": "DPM",
+  "short_name_ml": {
+    "en": "DPM"
+  },
+  "definition": "average fraction of die which which may be expected to be defective on delivery to a customer",
+  "definition_ml": {
+    "en": "average fraction of die which which may be expected to be defective on delivery to a customer"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "note": "For low defect rates, DPM and yield are related by the formula DPM = 1.0E4*(100 - yield)",
+  "note_ml": {
+    "en": "For low defect rates, DPM and yield are related by the formula DPM = 1.0E4*(100 - yield)"
+  },
+  "remark": "Where a maximum figure is quoted, this will normally be a guarantee of delivered quality. Where a typical figure is given this is to be interpreted as an average for the processes employed",
+  "remark_ml": {
+    "en": "Where a maximum figure is quoted, this will normally be a guarantee of delivered quality. Where a typical figure is given this is to be interpreted as an average for the processes employed"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD131",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "defect rate",
+    "MDC_P005.en": "DPM",
+    "MDC_P006.en": "average fraction of die which which may be expected to be defective on delivery to a customer",
+    "MDC_P008.en": "For low defect rates, DPM and yield are related by the formula DPM = 1.0E4*(100 - yield)",
+    "MDC_P009.en": "Where a maximum figure is quoted, this will normally be a guarantee of delivered quality. Where a typical figure is given this is to be interpreted as an average for the processes employed",
+    "MDC_P025_1": "DPM",
+    "MDC_P023": "ppm",
+    "MDC_P022": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..2.2",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "Q59",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "MDC_P041": "0112/2///62720#UAD925",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-06-21",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2024-06-21",
+    "MDC_P003_3": "2024-06-21",
+    "MDC_P012": "IEC/SC3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-06-21 15:28:54",
+      "user": "BATCH 00001296",
+      "unid": "725DCFAE1A27D03BC1258B43004A0EDC",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "a3e8fdc90ddcae1bc1257ea4004b1e29",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "16cedabdba22dd16c1257e8b0032347b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "5201301d84dbe5c7c1257e8a0043e24c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "783b504b3a9bfaf3c125787f0042a23b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2024-06-21",
+    "current_revision": "2024-06-21"
+  },
+  "symbol_in_text": "DPM",
+  "value_format": "NR2..2.2",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "unit_irdi": "0112/2///62720#UAD925",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..2.2",
+  "type": "property",
+  "data_type": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-06-21 15:28:54",
+    "user": "BATCH 00001296",
+    "change_request_id": null,
+    "unid": "725DCFAE1A27D03BC1258B43004A0EDC"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "irdi": "0112/2///61987#ABC863",
+  "code": "ABC863",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "ref. Explosion protection device parameters for nonincendive installation",
+  "preferred_name_ml": {
+    "en": "ref. Explosion protection device parameters for nonincendive installation"
+  },
+  "definition": "reference to block ABC233",
+  "definition_ml": {
+    "en": "reference to block ABC233"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABC863",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "ref. Explosion protection device parameters for nonincendive installation",
+    "MDC_P006.en": "reference to block ABC233",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC233)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "2A94B80D79AF0D18C1258DED0045584D",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:50",
+      "user": "BATCH 00000762",
+      "unid": "7dcd3c8bb4e52c63c125825e001dec60",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:33",
+      "user": "BATCH 00000755",
+      "unid": "80a32310b21ef00ec1258256003e94fc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:32",
+      "user": "BATCH 00000732",
+      "unid": "cb1e1be6d6dc30c7c12580d6004c2110",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:44",
+      "user": "BATCH 00000702",
+      "unid": "9251fba12a66419ac1257cfb00403ee7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:43",
+      "user": "BATCH 00000699",
+      "unid": "87d5ff3eb148e60cc1257cb40054c0a4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC233)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC233)",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "2A94B80D79AF0D18C1258DED0045584D"
+  }
+}

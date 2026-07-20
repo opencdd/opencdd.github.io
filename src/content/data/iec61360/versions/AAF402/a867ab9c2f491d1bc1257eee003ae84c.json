@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF402",
+  "code": "AAF402",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "superseded",
+    "timestamp": "2015-10-30 11:43:25",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "a867ab9c2f491d1bc1257eee003ae84c"
+  }
+}

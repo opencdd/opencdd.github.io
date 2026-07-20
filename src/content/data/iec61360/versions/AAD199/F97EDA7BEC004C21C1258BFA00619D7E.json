@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAD199",
+  "code": "AAD199",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "outline drawing",
+  "preferred_name_ml": {
+    "en": "outline drawing"
+  },
+  "short_name": "outline drawing",
+  "short_name_ml": {
+    "en": "outline drawing"
+  },
+  "definition": "reference to a document or file containing a graphical representation of the outline drawing for a minimally-packaged die device",
+  "definition_ml": {
+    "en": "reference to a document or file containing a graphical representation of the outline drawing for a minimally-packaged die device"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/TC 47",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD199",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "outline drawing",
+    "MDC_P005.en": "outline drawing",
+    "MDC_P006.en": "reference to a document or file containing a graphical representation of the outline drawing for a minimally-packaged die device",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "2006-11-10",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2024-12-21",
+    "MDC_P012": "IEC/TC 47",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:13",
+      "user": "BATCH 00001336",
+      "unid": "F97EDA7BEC004C21C1258BFA00619D7E",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "a71c0246b96a9279c1257ea4004b1e66",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "62975c72ce4c3275c1257e8b003234b8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "557d07e59ffc162ec1257e8a0043e289",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "3287a458c2b89b68c125787f0042a276",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2006-11-10",
+    "current_version": "2011-02-15",
+    "current_revision": "2024-12-21"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:13",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "F97EDA7BEC004C21C1258BFA00619D7E"
+  }
+}

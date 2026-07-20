@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61360_4#AAA668",
+  "code": "AAA668",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "constructive solid geometry primitive",
+  "preferred_name_ml": {
+    "en": "constructive solid geometry primitive"
+  },
+  "definition": "solid three-dimensional geometric shape, which can be easily generated using parameters without applying special features, such as extruding or revolving",
+  "definition_ml": {
+    "en": "solid three-dimensional geometric shape, which can be easily generated using parameters without applying special features, such as extruding or revolving"
+  },
+  "synonyms": [],
+  "note": "Constructive solid geometry primitives can be used as an operands of a Boolean set operation to generate more a complex shape as a result of the operation.",
+  "note_ml": {
+    "en": "Constructive solid geometry primitives can be used as an operands of a Boolean set operation to generate more a complex shape as a result of the operation."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "ISO 10303-42",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA668",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "constructive solid geometry primitive",
+    "MDC_P006.en": "solid three-dimensional geometric shape, which can be easily generated using parameters without applying special features, such as extruding or revolving",
+    "MDC_P008.en": "Constructive solid geometry primitives can be used as an operands of a Boolean set operation to generate more a complex shape as a result of the operation.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "ISO 10303-42",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2015-02-19",
+    "MDC_P003_2": "2015-10-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "9E3C573F50AEAFF8C1258994002BD181",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:16",
+      "user": "BATCH 00000902",
+      "unid": "14216086bc60f81bc1257e89004bd4d1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-19",
+    "current_version": "2015-10-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "9E3C573F50AEAFF8C1258994002BD181"
+  }
+}

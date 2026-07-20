@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABE397",
+  "code": "ABE397",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "auxiliary input type [11]",
+  "preferred_name_ml": {
+    "en": "auxiliary input type [11]",
+    "fr": "type d'entrée auxiliaire [11]",
+    "de": "Hilfseingangstyp [11]"
+  },
+  "definition": "polymorphic control property; Id specified in IEC61987-22: ABE395",
+  "definition_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-22: ABE395",
+    "fr": "type de signal qui peut être connecté à l'entrée auxiliaire",
+    "de": "Polymorphismus-Merkmal für Hilfseingangstyp [11]"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property; Id specified in IEC61987-22: ABE395",
+  "remark_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-22: ABE395"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE397",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "auxiliary input type [11]",
+    "MDC_P006.en": "polymorphic control property; Id specified in IEC61987-22: ABE395",
+    "MDC_P009.en": "polymorphic control property; Id specified in IEC61987-22: ABE395",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABE458(Analog current input [3],Analog voltage input [3],Binary input, Binary input IEC 60947-5-6 (NAMUR),0112/2///61987#Manufacturer-specific input [3]))",
+    "MDC_P068": "0112/2///61987#ABE458",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "type d'entrée auxiliaire [11]",
+    "MDC_P006.fr": "type de signal qui peut être connecté à l'entrée auxiliaire",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Hilfseingangstyp [11]",
+    "MDC_P006.de": "Polymorphismus-Merkmal für Hilfseingangstyp [11]",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-06",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "DE4B18E2716A45B8C125891300304840",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:00",
+      "user": "BATCH 00000762",
+      "unid": "045687bf3d366e40c125825e001df017",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:53",
+      "user": "BATCH 00000702",
+      "unid": "e5f6823cae551320c1257cfb0040429c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:52",
+      "user": "BATCH 00000699",
+      "unid": "610982ac32ac140ec1257cb40054c459",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "constraint": "0112/2///61987#ABE458",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABE458(Analog current input [3],Analog voltage input [3],Binary input, Binary input IEC 60947-5-6 (NAMUR),0112/2///61987#Manufacturer-specific input [3]))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABE458(Analog current input [3],Analog voltage input [3],Binary input, Binary input IEC 60947-5-6 (NAMUR),0112/2///61987#Manufacturer-specific input [3]))",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "DE4B18E2716A45B8C125891300304840"
+  }
+}

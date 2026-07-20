@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA520",
+  "code": "AAA520",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2025-07-29 14:11:03",
+    "user": "BATCH 00001400",
+    "change_request_id": null,
+    "unid": "e49d7b0ec65cf7e2c1258cd60042ee57"
+  }
+}

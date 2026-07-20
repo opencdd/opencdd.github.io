@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABP407",
+  "code": "ABP407",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2025-06-12 21:00:39",
+    "user": "BATCH 00000845",
+    "change_request_id": null,
+    "unid": "55d9a5dfcdf6ae3ec1258ca700686e57"
+  }
+}

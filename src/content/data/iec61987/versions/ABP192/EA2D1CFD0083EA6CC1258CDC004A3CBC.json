@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61987#ABP192",
+  "code": "ABP192",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "method of galvanic isolation",
+  "preferred_name_ml": {
+    "en": "method of galvanic isolation",
+    "de": "Methode der galvanischen Trennung"
+  },
+  "definition": "means by which a galvanic isolation is realized",
+  "definition_ml": {
+    "en": "means by which a galvanic isolation is realized",
+    "de": "Methode, mit der eine galvanische Isolierung realisiert wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP192",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "method of galvanic isolation",
+    "MDC_P006.en": "means by which a galvanic isolation is realized",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABP317)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2021-11-23",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Methode der galvanischen Trennung",
+    "MDC_P006.de": "Methode, mit der eine galvanische Isolierung realisiert wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-11-23",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "EA2D1CFD0083EA6CC1258CDC004A3CBC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-01-23 14:53:53",
+      "user": "BATCH 00000807",
+      "unid": "e29afb26a40632b4c1258940004c582a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-11-23",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP317)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP317)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "EA2D1CFD0083EA6CC1258CDC004A3CBC"
+  }
+}

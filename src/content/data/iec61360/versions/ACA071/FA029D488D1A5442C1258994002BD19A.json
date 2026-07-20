@@ -1,0 +1,81 @@
+{
+  "irdi": "0112/2///61360_4#ACA071",
+  "code": "ACA071",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "material declaration based on IEC 62474",
+  "preferred_name_ml": {
+    "en": "material declaration based on IEC 62474"
+  },
+  "definition": "material declaration information set compliant with IEC 62474:2012 for products of companies operating in and supplying the electrotechnical industry",
+  "definition_ml": {
+    "en": "material declaration information set compliant with IEC 62474:2012 for products of companies operating in and supplying the electrotechnical industry"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ACA071",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "material declaration based on IEC 62474",
+    "MDC_P006.en": "material declaration information set compliant with IEC 62474:2012 for products of companies operating in and supplying the electrotechnical industry",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/TC 111",
+    "MDC_P010": "0112/2///61360_4#ACA070",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "FA029D488D1A5442C1258994002BD19A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 12:21:41",
+      "user": "BATCH 00000898",
+      "unid": "b02c48977021bf99c1257e650038eac0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ACA070",
+  "superclass_type_property": "0112/2///61360_4#ACA070",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "FA029D488D1A5442C1258994002BD19A"
+  }
+}

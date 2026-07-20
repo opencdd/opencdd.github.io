@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABB326",
+  "code": "ABB326",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "minimum mass flow rate",
+  "preferred_name_ml": {
+    "en": "minimum mass flow rate",
+    "fr": "débit massique minimal",
+    "de": "minimaler Massedurchfluss"
+  },
+  "definition": "lowest mass flow rate for which a device is or should be designed to operate within its specified limits",
+  "definition_ml": {
+    "en": "lowest mass flow rate for which a device is or should be designed to operate within its specified limits",
+    "fr": "débit massique le plus faible pour lequel un appareil est ou doit être conçu pour fonctionner dans ses limites spécifiées",
+    "de": "niedrigster Massedurchfluss, für den ein Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb seiner Spezifikationen betrieben wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB326",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "minimum mass flow rate",
+    "MDC_P006.en": "lowest mass flow rate for which a device is or should be designed to operate within its specified limits",
+    "MDC_P023": "kg/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA607",
+    "C0104": "0112/2///61987#ABT545",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "débit massique minimal",
+    "MDC_P006.fr": "débit massique le plus faible pour lequel un appareil est ou doit être conçu pour fonctionner dans ses limites spécifiées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "minimaler Massedurchfluss",
+    "MDC_P006.de": "niedrigster Massedurchfluss, für den ein Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb seiner Spezifikationen betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "43380A8FA707C782C125825E001DE927",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "51e3ee8b060d763bc1257f7e0030f204",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "14a618ebd1826551c1257fa700405a2d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "1031e5c114cad0e9c1257cfb00403baf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "2461b6ed4696886ac1257cb40054bd6c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA607",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:42",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "43380A8FA707C782C125825E001DE927"
+  }
+}

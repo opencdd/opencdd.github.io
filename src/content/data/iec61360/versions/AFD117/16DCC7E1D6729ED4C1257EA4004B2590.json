@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AFD117",
+  "code": "AFD117",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "maximum clock frequency",
+  "preferred_name_ml": {
+    "en": "maximum clock frequency"
+  },
+  "short_name": "f_clk(max)",
+  "short_name_ml": {
+    "en": "f_clk(max)"
+  },
+  "definition": "minimum value of the maximum clock frequency that may be applied to an analog/digital or digital signal function integrated circuit at which the device operates normally, at specified conditions",
+  "definition_ml": {
+    "en": "minimum value of the maximum clock frequency that may be applied to an analog/digital or digital signal function integrated circuit at which the device operates normally, at specified conditions"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD117",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "maximum clock frequency",
+    "MDC_P005.en": "f_clk(max)",
+    "MDC_P006.en": "minimum value of the maximum clock frequency that may be applied to an analog/digital or digital signal function integrated circuit at which the device operates normally, at specified conditions",
+    "MDC_P025_1": "f_clk(max)}",
+    "MDC_P025_3": "f_MAX}",
+    "MDC_P023": "Hz",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "F03",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA170",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2014-06-11",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P028": "{0112/2///61360_4#AAE958,0112/2///61360_4#AAE959,0112/2///61360_4#AAE256,0112/2///61360_4#AAE014}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "16DCC7E1D6729ED4C1257EA4004B2590",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "a245450c75a83e05c1257e8b00323b98",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "61fd4b17ffb125dcc1257e8a0043e9b3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "8bc0a01606ffb8b5c1257db30042e199",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-06-11",
+    "current_version": "2015-03-13",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "f_clk(max)}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA170",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE958,0112/2///61360_4#AAE959,0112/2///61360_4#AAE256,0112/2///61360_4#AAE014}",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:48",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "16DCC7E1D6729ED4C1257EA4004B2590"
+  }
+}

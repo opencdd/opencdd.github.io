@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AAA334",
+  "code": "AAA334",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "single-row lead",
+  "preferred_name_ml": {
+    "en": "single-row lead"
+  },
+  "short_name": "S",
+  "short_name_ml": {
+    "en": "S"
+  },
+  "definition": "lead which are disposed in a single row along one side of a package",
+  "definition_ml": {
+    "en": "lead which are disposed in a single row along one side of a package"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA334",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "S",
+    "MDC_P004.en": "single-row lead",
+    "MDC_P006.en": "lead which are disposed in a single row along one side of a package",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA309",
+    "C021": "0112/2///61360_4#AAG058",
+    "MDC_P014": "{0112/2///61360_4#AAG058}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:34",
+      "user": "BATCH 00001245",
+      "unid": "B622A308F73BC00BC1258994002BD082",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "11ddc13e3cbf0a57c1257dd300515fdf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "8942129ba3214df2c1257d7300506a06",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:08",
+      "user": "BATCH 00000788",
+      "unid": "32876f9848f642c3c1257a0e0047b2c9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG058"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA309",
+  "superclass_type_property": "0112/2///61360_4#AAA309",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:34",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "B622A308F73BC00BC1258994002BD082"
+  }
+}

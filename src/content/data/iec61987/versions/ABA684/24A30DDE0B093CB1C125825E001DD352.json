@@ -1,0 +1,109 @@
+{
+  "irdi": "0112/2///61987#ABA684",
+  "code": "ABA684",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Measuring assembly",
+  "preferred_name_ml": {
+    "en": "Measuring assembly",
+    "fr": "Assemblage de mesure",
+    "de": "Messanordnung"
+  },
+  "definition": "measuring instrument comprising several required and/or optional components which together function as a gauge, transmitter or switch",
+  "definition_ml": {
+    "en": "measuring instrument comprising several required and/or optional components which together function as a gauge, transmitter or switch",
+    "fr": "instrument de mesure comprenant plusieurs composants indispensables et/ou facultatifs qui fonctionnent ensemble comme une jauge, un transmetteur ou un commutateur",
+    "de": "Messgerät, bestehend aus mehreren erforderlichen und/oder zusätzlich möglichen Komponenten, die zusammen als anzeigendes Messgerät, Messumformer oder Schalter fungieren"
+  },
+  "synonyms": [],
+  "note": "NOTE 1: The components can often be ordered separately and as such require their own DLOPs., NOTE 2: A measuring assembly may also be called a composite device.",
+  "note_ml": {
+    "en": "NOTE 1: The components can often be ordered separately and as such require their own DLOPs., NOTE 2: A measuring assembly may also be called a composite device.",
+    "de": "Notiz 1: Die Komponenten können häufig getrennt beschafft werden und benötigen so ihre eigenen Gerätemerkmalleisten., Notiz 2: Eine Messanordnung kann auch ein Composite-Gerät genannt werden."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA684",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Measuring assembly",
+    "MDC_P006.en": "measuring instrument comprising several required and/or optional components which together function as a gauge, transmitter or switch",
+    "MDC_P008.en": "NOTE 1: The components can often be ordered separately and as such require their own DLOPs., NOTE 2: A measuring assembly may also be called a composite device.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA001",
+    "MDC_P004.fr": "Assemblage de mesure",
+    "MDC_P006.fr": "instrument de mesure comprenant plusieurs composants indispensables et/ou facultatifs qui fonctionnent ensemble comme une jauge, un transmetteur ou un commutateur",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Messanordnung",
+    "MDC_P006.de": "Messgerät, bestehend aus mehreren erforderlichen und/oder zusätzlich möglichen Komponenten, die zusammen als anzeigendes Messgerät, Messumformer oder Schalter fungieren",
+    "MDC_P008.de": "Notiz 1: Die Komponenten können häufig getrennt beschafft werden und benötigen so ihre eigenen Gerätemerkmalleisten., Notiz 2: Eine Messanordnung kann auch ein Composite-Gerät genannt werden.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:46",
+      "user": "BATCH 00000762",
+      "unid": "24A30DDE0B093CB1C125825E001DD352",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "14534843e94d5527c1257cfb003f676d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "dc4818b89651efa2c1257cb3002a0c52",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA001",
+  "superclass_type_property": "0112/2///61987#ABA001",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:46",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "24A30DDE0B093CB1C125825E001DD352"
+  }
+}

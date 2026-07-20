@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61987#ABU535",
+  "code": "ABU535",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "reference to Analog voltage output [5]",
+  "preferred_name_ml": {
+    "en": "reference to Analog voltage output [5]"
+  },
+  "definition": "reference to block ABD802",
+  "definition_ml": {
+    "en": "reference to block ABD802"
+  },
+  "synonyms": [],
+  "remark": "Id specified in IEC61987-22: ABE058",
+  "remark_ml": {
+    "en": "Id specified in IEC61987-22: ABE058"
+  },
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU535",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Analog voltage output [5]",
+    "MDC_P006.en": "reference to block ABD802",
+    "MDC_P009.en": "Id specified in IEC61987-22: ABE058",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD802)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P028": "{0112/2///61987#ABU529}",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:21",
+      "user": "BATCH 00000762",
+      "unid": "EE6A6B791D984099C125825E001DF849",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:48",
+      "user": "BATCH 00000732",
+      "unid": "45e3de0be09f916ec12580d6004c2798",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:57",
+      "user": "BATCH 00000702",
+      "unid": "832d12baab78c786c1257cfb00404424",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:56",
+      "user": "BATCH 00000699",
+      "unid": "98ffdb123a828044c1257cb40054c5e1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD802)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU529}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD802)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:21",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "EE6A6B791D984099C125825E001DF849"
+  }
+}

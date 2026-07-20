@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61360_4#AAD032",
+  "code": "AAD032",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "supply voltage",
+  "preferred_name_ml": {
+    "en": "supply voltage"
+  },
+  "short_name": "V_sup",
+  "short_name_ml": {
+    "en": "V_sup"
+  },
+  "definition": "value as specified by level (miNomax) of a dc voltage connected to the supply terminal of an integrated circuit",
+  "definition_ml": {
+    "en": "value as specified by level (miNomax) of a dc voltage connected to the supply terminal of an integrated circuit"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "note": "For a fixed supply, the nominal value is given with the minimum and maximum giving the maximum permissible excursions from that value. |For a variable supply voltage, the minimum and maximum values are the permissible extremes of the range of supply voltages.",
+  "note_ml": {
+    "en": "For a fixed supply, the nominal value is given with the minimum and maximum giving the maximum permissible excursions from that value. |For a variable supply voltage, the minimum and maximum values are the permissible extremes of the range of supply voltages."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD032",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "supply voltage",
+    "MDC_P005.en": "V_sup",
+    "MDC_P006.en": "value as specified by level (miNomax) of a dc voltage connected to the supply terminal of an integrated circuit",
+    "MDC_P008.en": "For a fixed supply, the nominal value is given with the minimum and maximum giving the maximum permissible excursions from that value. |For a variable supply voltage, the minimum and maximum values are the permissible extremes of the range of supply voltages.",
+    "MDC_P025_1": "V_sup}",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2 S..3.3",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:28",
+      "user": "BATCH 00000917",
+      "unid": "001C8F6717A21339C1257EA4004B1E04",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:21",
+      "user": "BATCH 00000907",
+      "unid": "b86c1a3ff2f37bc6c1257e8b00323456",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "3c0b3de899c9a4c3c1257e8a0043e227",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2011-08-31 17:08:44",
+      "user": "BATCH 00000744",
+      "unid": "127f36f875e1874ac12578fd005332ab",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "V_sup}",
+  "value_format": "NR2 S..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 S..3.3",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:28",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "001C8F6717A21339C1257EA4004B1E04"
+  }
+}

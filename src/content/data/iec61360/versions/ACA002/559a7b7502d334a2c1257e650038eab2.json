@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ACA002",
+  "code": "ACA002",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2015-06-15 12:21:40",
+    "user": "BATCH 00000898",
+    "change_request_id": null,
+    "unid": "559a7b7502d334a2c1257e650038eab2"
+  }
+}

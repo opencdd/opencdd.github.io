@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACE863",
+  "code": "ACE863",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:08:17",
+    "user": "BATCH 00000746",
+    "change_request_id": null,
+    "unid": "28fe0f30f8ca7677c12584ec00741dc5"
+  }
+}

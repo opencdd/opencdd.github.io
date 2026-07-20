@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61987#ABB297",
+  "code": "ABB297",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "specific gravity",
+  "preferred_name_ml": {
+    "en": "specific gravity",
+    "fr": "poids spécifique",
+    "de": "relative Dichte"
+  },
+  "definition": "ratio of the density of a liquid or a solid to the density of water at reference temperature",
+  "definition_ml": {
+    "en": "ratio of the density of a liquid or a solid to the density of water at reference temperature",
+    "fr": "rapport de la masse volumique d'un liquide ou d'un solide à la masse volumique de l'eau à une température de référence",
+    "de": "Verhältnis der Dichte einer Flüssigkeit oder eines Feststoffes zur Dichte von Wasser bei Referenztemperatur"
+  },
+  "source_document": "from IEV 426-03-15",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB297",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "specific gravity",
+    "MDC_P006.en": "ratio of the density of a liquid or a solid to the density of water at reference temperature",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "from IEV 426-03-15",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "poids spécifique",
+    "MDC_P006.fr": "rapport de la masse volumique d'un liquide ou d'un solide à la masse volumique de l'eau à une température de référence",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "relative Dichte",
+    "MDC_P006.de": "Verhältnis der Dichte einer Flüssigkeit oder eines Feststoffes zur Dichte von Wasser bei Referenztemperatur",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "0BC8079A72CDADE6C125891300304836",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "29d60ce0c8927880c125825e001de90a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "1c1d7f64b6c4e34dc1257fa700405a1a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "988793db4e0053f8c1257cfb00403b92",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "0529f6045e373a77c1257cb40054bd4f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "0BC8079A72CDADE6C125891300304836"
+  }
+}

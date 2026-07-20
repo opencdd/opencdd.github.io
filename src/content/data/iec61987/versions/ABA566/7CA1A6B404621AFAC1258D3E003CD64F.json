@@ -1,0 +1,159 @@
+{
+  "irdi": "0112/2///61987#ABA566",
+  "code": "ABA566",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "type name of product",
+  "preferred_name_ml": {
+    "en": "type name of product",
+    "de": "Typ-Bezeichnung des Produkts"
+  },
+  "definition": "first level of a product description hierarchy as defined by the manufacturer, characterizing the article or product based on its usage, operation principle and its fabricated form",
+  "definition_ml": {
+    "en": "first level of a product description hierarchy as defined by the manufacturer, characterizing the article or product based on its usage, operation principle and its fabricated form",
+    "de": "erste Hierarchie-Ebene einer herstellerspezifischen Produktbeschreibungshierarchie, die den Artikel oder das Erzeugnis bezüglich seiner Benutzung, seines Funktionsprinzips und seiner Herstellung kennzeichnet"
+  },
+  "synonyms": [],
+  "remark": "legacy property, updated by 0112/2///61360_7#CBA037 - type name of product",
+  "remark_ml": {
+    "en": "legacy property, updated by 0112/2///61360_7#CBA037 - type name of product"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA566",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type name of product",
+    "MDC_P006.en": "first level of a product description hierarchy as defined by the manufacturer, characterizing the article or product based on its usage, operation principle and its fabricated form",
+    "MDC_P009.en": "legacy property, updated by 0112/2///61360_7#CBA037 - type name of product",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABN418)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_1": "2020-02-24",
+    "MDC_P003_2": "2025-11-10",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Typ-Bezeichnung des Produkts",
+    "MDC_P006.de": "erste Hierarchie-Ebene einer herstellerspezifischen Produktbeschreibungshierarchie, die den Artikel oder das Erzeugnis bezüglich seiner Benutzung, seines Funktionsprinzips und seiner Herstellung kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-06-16",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "7CA1A6B404621AFAC1258D3E003CD64F",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-10-02 08:35:11",
+      "user": "BATCH 00000814",
+      "unid": "df0af7d78c653f47c1258a3c00242e6b",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "68a0ac0c03175b57c1258518003c4869",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "5f261d1a0bf49635c125825e001de72c",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:28",
+      "user": "BATCH 00000755",
+      "unid": "728d613df7329a76c1258256003e92f9",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:14",
+      "user": "BATCH 00000756",
+      "unid": "093cc81f9a4e0b08c1258256004079c7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "d31a86657a08167fc12580d6004c1bd8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "e99c029dbadd48b9c1257cfb004039b2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "f9e444d5cb0b2da8c1257cb40054bb6f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2020-02-24",
+    "current_version": "2025-11-10",
+    "current_revision": "2025-11-10"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABN418)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABN418)",
+  "value_list": "0112/2///61987#ABN418",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "7CA1A6B404621AFAC1258D3E003CD64F"
+  }
+}

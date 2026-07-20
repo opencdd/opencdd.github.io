@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABH838",
+  "code": "ABH838",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2019-03-08 15:35:12",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "1be5d3584aada3f7c12583b7005020d6"
+  }
+}

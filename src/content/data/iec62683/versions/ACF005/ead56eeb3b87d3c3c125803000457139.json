@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF005",
+  "code": "ACF005",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "Over-current release for Circuit-breaker",
+  "preferred_name_ml": {
+    "en": "Over-current release for Circuit-breaker",
+    "fr": "Protection contre la surintensité pour Disjoncteur",
+    "de": "Überstromauslöser für Leitungsschalter",
+    "zh": "断路器的过电流脱扣器"
+  },
+  "definition": "release which causes the circuit-breaker to open when the current in the release exceeds a predetermined value",
+  "definition_ml": {
+    "en": "release which causes the circuit-breaker to open when the current in the release exceeds a predetermined value",
+    "fr": "déclencheur qui permet l'ouverture du disjoncteur, lorsque le courant dans le déclencheur dépasse une valeur prédéterminée",
+    "de": "Auslöser, der das Öffnen eines Leistungsschalters verursacht, wenn der Strom in dem Auslöser einen vorgegebenen Wert überschreitet",
+    "zh": "当电流超过预定值时，使断路器断开的脱扣器"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF005",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Over-current release for Circuit-breaker",
+    "MDC_P006.en": "release which causes the circuit-breaker to open when the current in the release exceeds a predetermined value",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG005)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Protection contre la surintensité pour Disjoncteur",
+    "MDC_P006.fr": "déclencheur qui permet l'ouverture du disjoncteur, lorsque le courant dans le déclencheur dépasse une valeur prédéterminée",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2017-03-22",
+    "MDC_P004.de": "Überstromauslöser für Leitungsschalter",
+    "MDC_P006.de": "Auslöser, der das Öffnen eines Leistungsschalters verursacht, wenn der Strom in dem Auslöser einen vorgegebenen Wert überschreitet",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2018-01-16",
+    "MDC_P004.zh": "断路器的过电流脱扣器",
+    "MDC_P006.zh": "当电流超过预定值时，使断路器断开的脱扣器",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "ead56eeb3b87d3c3c125803000457139",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:49",
+      "user": "BATCH 00000741",
+      "unid": "4D4E7A7D01096467C12584EC006DC19F",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG005)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG005)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:29",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "ead56eeb3b87d3c3c125803000457139"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///62683#ACC511",
+  "code": "ACC511",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Position switch",
+  "preferred_name_ml": {
+    "en": "Position switch",
+    "fr": "Interrupteur de position",
+    "de": "Positionsschalter",
+    "zh": "位置开关"
+  },
+  "definition": "pilot switch, the actuating system of which is operated by a moving part of a machine, when this part reaches a predetermined position",
+  "definition_ml": {
+    "en": "pilot switch, the actuating system of which is operated by a moving part of a machine, when this part reaches a predetermined position",
+    "fr": "auxiliaire automatique de commande dont le mécanisme transmetteur est actionné par une partie mobile de machine lorsque cette partie atteint une position prédéterminée",
+    "de": "Hilfsstromschalter, bei dem das Betätigungssystem durch ein sich bewegendes Maschinenteil betätigt wird, wenn dieses Teil eine vorbe­stimmte Stellung erreicht hat",
+    "zh": "操动机构是在及其的运动部件到达一个预定位置时操作的一种指示开关。"
+  },
+  "source_document": "IEC 60050-441: 1984, 441-14-49",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Limit switch"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Limit switch",
+    "fr": "Interrupteur de fin de course"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC511",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Position switch",
+    "MDC_P007.en": "Limit switch",
+    "MDC_P006.en": "pilot switch, the actuating system of which is operated by a moving part of a machine, when this part reaches a predetermined position",
+    "MDC_P006_1": "IEC 60050-441: 1984, 441-14-49",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC500",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF137,0112/2///62683#ACF138,0112/2///62683#ACF139,0112/2///62683#ACF140,0112/2///62683#ACF141,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Interrupteur de position",
+    "MDC_P007.fr": "Interrupteur de fin de course",
+    "MDC_P006.fr": "auxiliaire automatique de commande dont le mécanisme transmetteur est actionné par une partie mobile de machine lorsque cette partie atteint une position prédéterminée",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-09-27",
+    "MDC_P004.de": "Positionsschalter",
+    "MDC_P006.de": "Hilfsstromschalter, bei dem das Betätigungssystem durch ein sich bewegendes Maschinenteil betätigt wird, wenn dieses Teil eine vorbe­stimmte Stellung erreicht hat",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "位置开关",
+    "MDC_P006.zh": "操动机构是在及其的运动部件到达一个预定位置时操作的一种指示开关。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "289918f0d4bc6a6cc12584e80070c0f7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "9e385fc2387edf0bc125803000450215",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF137",
+    "0112/2///62683#ACF138",
+    "0112/2///62683#ACF139",
+    "0112/2///62683#ACF140",
+    "0112/2///62683#ACF141",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC500",
+  "superclass_type_property": "0112/2///62683#ACC500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "289918f0d4bc6a6cc12584e80070c0f7"
+  }
+}

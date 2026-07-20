@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61987#ABB578",
+  "code": "ABB578",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "set span for volume",
+  "preferred_name_ml": {
+    "en": "set span for volume",
+    "fr": "intervalle de mesure de réglage pour volume",
+    "de": "eingestellte Spanne für Volumen"
+  },
+  "definition": "difference between the upper and lower range value of volume to which a volume measurement instrument is adjusted",
+  "definition_ml": {
+    "en": "difference between the upper and lower range value of volume to which a volume measurement instrument is adjusted",
+    "fr": "différence entre les valeurs supérieure et inférieure d'étendue de volume auxquelles un instrument de mesure de volume est réglé",
+    "de": "Differenz zwischen dem Bereichsendwert und Bereichsanfangswert einer Messung für Volumen, für die ein Messgerät für Volumen eingestellt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB578",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "set span for volume",
+    "MDC_P006.en": "difference between the upper and lower range value of volume to which a volume measurement instrument is adjusted",
+    "MDC_P023": "m³",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA757",
+    "C0104": "0112/2///61987#ABT505",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.fr": "intervalle de mesure de réglage pour volume",
+    "MDC_P006.fr": "différence entre les valeurs supérieure et inférieure d'étendue de volume auxquelles un instrument de mesure de volume est réglé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "eingestellte Spanne für Volumen",
+    "MDC_P006.de": "Differenz zwischen dem Bereichsendwert und Bereichsanfangswert einer Messung für Volumen, für die ein Messgerät für Volumen eingestellt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2019-07-08",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "9FE5A46A10D74D7EC125886F003C99A5",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "d71bee354ca1fa4fc1258518003c493c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "f749072c27900f9ac125825e001dea1e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:54",
+      "user": "BATCH 00000717",
+      "unid": "d3bb883783520b0cc1257fa700405a8e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "18bbfcf35512b134c1257cfb00403ca6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "1389832650c2bf41c1257cb40054be63",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA757",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:54",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "9FE5A46A10D74D7EC125886F003C99A5"
+  }
+}

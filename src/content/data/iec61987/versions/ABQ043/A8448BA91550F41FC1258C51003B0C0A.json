@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABQ043",
+  "code": "ABQ043",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "total area of measured peaks",
+  "preferred_name_ml": {
+    "en": "total area of measured peaks",
+    "de": "Gesamtfläche der gemessenen Peaks"
+  },
+  "short_name": "Peak Area Total",
+  "short_name_ml": {
+    "en": "Peak Area Total",
+    "de": "Gesamtpeakfläche"
+  },
+  "definition": "integral of the area under the output peaks of all chromatogram substance signals in units defined by the manufacturer",
+  "definition_ml": {
+    "en": "integral of the area under the output peaks of all chromatogram substance signals in units defined by the manufacturer",
+    "de": "Integral der Fläche unter den Ausgangspeaks aller Chromatogrammsubstanzsignale in vom Hersteller festgelegten Einheiten"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00178",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABQ043",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "total area of measured peaks",
+    "MDC_P005.en": "Peak Area Total",
+    "MDC_P006.en": "integral of the area under the output peaks of all chromatogram substance signals in units defined by the manufacturer",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-03-18",
+    "MDC_P003_1": "2024-06-14",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-03-18",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Gesamtfläche der gemessenen Peaks",
+    "MDC_P005.de": "Gesamtpeakfläche",
+    "MDC_P006.de": "Integral der Fläche unter den Ausgangspeaks aller Chromatogrammsubstanzsignale in vom Hersteller festgelegten Einheiten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2024-06-14",
+    "C002": "C00178"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-03-18 11:44:57",
+      "user": "BATCH 00000837",
+      "unid": "A8448BA91550F41FC1258C51003B0C0A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "b6d08e6fccc7ccc3c1258c3b004b5bd4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-06-14",
+    "current_version": "2025-02-24",
+    "current_revision": "2025-03-18"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-03-18 11:44:57",
+    "user": "BATCH 00000837",
+    "change_request_id": null,
+    "unid": "A8448BA91550F41FC1258C51003B0C0A"
+  }
+}

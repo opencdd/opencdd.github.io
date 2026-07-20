@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61987#ABJ296",
+  "code": "ABJ296",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "DIAGNOSIS",
+  "preferred_name_ml": {
+    "en": "DIAGNOSIS",
+    "de": "DIAGNOSIS"
+  },
+  "definition": "parameter, the bits of which indicate the current status of a device",
+  "definition_ml": {
+    "en": "parameter, the bits of which indicate the current status of a device",
+    "de": "Parameter, dessen Bits den aktuellen Status des Geräts angeben"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABJ296",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "DIAGNOSIS",
+    "MDC_P006.en": "parameter, the bits of which indicate the current status of a device",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P024": "B 32",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-05-20",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-05-20",
+    "MDC_P003_3": "2025-05-20",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "DIAGNOSIS",
+    "MDC_P006.de": "Parameter, dessen Bits den aktuellen Status des Geräts angeben",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-11-20",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-05-20 11:52:35",
+      "user": "BATCH 00000843",
+      "unid": "E717D3FE9324EBF2C1258C900036410E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:33",
+      "user": "BATCH 00000766",
+      "unid": "9cf9069f07321588c12583b7005028ec",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-05-20",
+    "current_revision": "2025-05-20"
+  },
+  "value_format": "B 32",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-05-20 11:52:35",
+    "user": "BATCH 00000843",
+    "change_request_id": null,
+    "unid": "E717D3FE9324EBF2C1258C900036410E"
+  }
+}

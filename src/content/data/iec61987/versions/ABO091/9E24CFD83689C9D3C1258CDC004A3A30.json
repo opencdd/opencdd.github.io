@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61987#ABO091",
+  "code": "ABO091",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "type of certificate/approval/declaration document",
+  "preferred_name_ml": {
+    "en": "type of certificate/approval/declaration document",
+    "de": "Art des Zertifikats/der Zulassung/der Erklärung"
+  },
+  "definition": "classification of a certificate or approval document according to its purpose or the information it contains",
+  "definition_ml": {
+    "en": "classification of a certificate or approval document according to its purpose or the information it contains",
+    "de": "Charakterisierung eines Zertifikats oder Genehmigungsdokuments entsprechend seinem Zweck oder den darin enthaltenen Informationen"
+  },
+  "synonyms": [],
+  "note": "A certificate or approval is usually issued by a third-party, a declaration by the manufacturer or supplier of the entity concerned.",
+  "note_ml": {
+    "en": "A certificate or approval is usually issued by a third-party, a declaration by the manufacturer or supplier of the entity concerned.",
+    "de": "Ein Zertifikat oder eine Zulassung wird in der Regel von einem Dritten ausgestellt, eine Erklärung des Herstellers oder Lieferanten der betreffenden Einheit."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABO091",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of certificate/approval/declaration document",
+    "MDC_P006.en": "classification of a certificate or approval document according to its purpose or the information it contains",
+    "MDC_P008.en": "A certificate or approval is usually issued by a third-party, a declaration by the manufacturer or supplier of the entity concerned.",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABO105)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2021-04-30",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art des Zertifikats/der Zulassung/der Erklärung",
+    "MDC_P006.de": "Charakterisierung eines Zertifikats oder Genehmigungsdokuments entsprechend seinem Zweck oder den darin enthaltenen Informationen",
+    "MDC_P008.de": "Ein Zertifikat oder eine Zulassung wird in der Regel von einem Dritten ausgestellt, eine Erklärung des Herstellers oder Lieferanten der betreffenden Einheit.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-05-03",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "9E24CFD83689C9D3C1258CDC004A3A30",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:02:00",
+      "user": "BATCH 00000794",
+      "unid": "d6aef0742d33e53cc125886f003c9ba6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-04-30",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO105)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO105)",
+  "value_list": "0112/2///61987#ABO105",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "9E24CFD83689C9D3C1258CDC004A3A30"
+  }
+}

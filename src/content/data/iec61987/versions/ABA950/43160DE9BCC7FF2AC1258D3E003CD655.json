@@ -1,0 +1,165 @@
+{
+  "irdi": "0112/2///61987#ABA950",
+  "code": "ABA950",
+  "version": "8",
+  "revision": "2",
+  "preferred_name": "order code of product",
+  "preferred_name_ml": {
+    "en": "order code of product",
+    "de": "Bestellcode des Produkts"
+  },
+  "definition": "unique combination of numbers and letters used to configure and order the product instance",
+  "definition_ml": {
+    "en": "unique combination of numbers and letters used to configure and order the product instance",
+    "de": "eindeutige Kombination aus Zahlen und Buchstaben zur Konfiguration und Bestellung der Produktinstanz"
+  },
+  "synonyms": [],
+  "remark": "legacy property, updated by 0112/2///61360_7#CBA041 - order code of product",
+  "remark_ml": {
+    "en": "legacy property, updated by 0112/2///61360_7#CBA041 - order code of product"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA950",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "order code of product",
+    "MDC_P006.en": "unique combination of numbers and letters used to configure and order the product instance",
+    "MDC_P009.en": "legacy property, updated by 0112/2///61360_7#CBA041 - order code of product",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_1": "2019-03-08",
+    "MDC_P003_2": "2023-09-04",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Bestellcode des Produkts",
+    "MDC_P006.de": "eindeutige Kombination aus Zahlen und Buchstaben zur Konfiguration und Bestellung der Produktinstanz",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2023-09-04",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "43160DE9BCC7FF2AC1258D3E003CD655",
+      "is_current": true
+    },
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "6b94be3d0f688668c1258a7d0039da55",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-10-02 08:35:11",
+      "user": "BATCH 00000814",
+      "unid": "cd22e5fe29de0580c1258a3c00242e6f",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "137b50464f4e3e25c12583b7005026ff",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "002b8cc0cf950528c125825e001de7b1",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:28",
+      "user": "BATCH 00000755",
+      "unid": "8b8c9d8b46e72158c1258256003e92fb",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:14",
+      "user": "BATCH 00000756",
+      "unid": "ef8709173cb72ecfc1258256004079c9",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:20",
+      "user": "BATCH 00000732",
+      "unid": "a9ecaabaa0912b00c12580d6004c1c60",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "6f106ce82c8b81f5c1257cfb00403a3a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "a3ae09bb47a7fcb2c1257cb40054bbf7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-03-08",
+    "current_version": "2023-09-04",
+    "current_revision": "2025-11-10"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "43160DE9BCC7FF2AC1258D3E003CD655"
+  }
+}

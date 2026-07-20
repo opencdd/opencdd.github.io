@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AFD036",
+  "code": "AFD036",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "disable current",
+  "preferred_name_ml": {
+    "en": "disable current"
+  },
+  "short_name": "disable cur",
+  "short_name_ml": {
+    "en": "disable cur"
+  },
+  "definition": "consumed current at which, by application of an external control voltage, the output is disabled while the oscillation of the crystal is maintained for the device",
+  "definition_ml": {
+    "en": "consumed current at which, by application of an external control voltage, the output is disabled while the oscillation of the crystal is maintained for the device"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD036",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "disable current",
+    "MDC_P005.en": "disable cur",
+    "MDC_P006.en": "consumed current at which, by application of an external control voltage, the output is disabled while the oscillation of the crystal is maintained for the device",
+    "MDC_P025_1": "I_dis",
+    "MDC_P023": "A",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AFA008",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "4FBCA563CCB89067C1257EA4004B2543",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "67f4f78f3a9bbe6bc1257e8b00323b4b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "5f4086f65512611dc1257e8a0043e966",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "5247fe1ec816c41dc1257b02004295f5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "I_dis",
+  "definition_class_irdi": "0112/2///61360_4#AFA008",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "4FBCA563CCB89067C1257EA4004B2543"
+  }
+}

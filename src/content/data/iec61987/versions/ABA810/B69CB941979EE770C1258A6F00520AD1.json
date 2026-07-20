@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA810",
+  "code": "ABA810",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Magnetostrictive level transmitter",
+  "preferred_name_ml": {
+    "en": "Magnetostrictive level transmitter",
+    "fr": "Transmetteur de niveau magnétostrictif",
+    "de": "Magnetostriktiver Füllstandmessumformer"
+  },
+  "definition": "is a float level transmitter that uses the magnetostrictive effect to determine the position of the float",
+  "definition_ml": {
+    "en": "is a float level transmitter that uses the magnetostrictive effect to determine the position of the float",
+    "fr": "transmetteur de niveau à flotteur utilisant l'effet magnétostrictif pour déterminer la position du flotteur",
+    "de": "Schwimmer-Füllstandmessumformer, der den magnetostriktiven Effekt nutzt, um die Position des Schwimmers zu bestimmen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA810",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Magnetostrictive level transmitter",
+    "MDC_P006.en": "is a float level transmitter that uses the magnetostrictive effect to determine the position of the float",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA809",
+    "MDC_P004.fr": "Transmetteur de niveau magnétostrictif",
+    "MDC_P006.fr": "transmetteur de niveau à flotteur utilisant l'effet magnétostrictif pour déterminer la position du flotteur",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Magnetostriktiver Füllstandmessumformer",
+    "MDC_P006.de": "Schwimmer-Füllstandmessumformer, der den magnetostriktiven Effekt nutzt, um die Position des Schwimmers zu bestimmen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "B69CB941979EE770C1258A6F00520AD1",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "230be80da9b87df7c125825e001dd3f1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "32554ec8f0926cb6c1257cfb003f67eb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "2c83ac830d5e4304c1257cb3002a0cd0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA809",
+  "superclass_type_property": "0112/2///61987#ABA809",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "B69CB941979EE770C1258A6F00520AD1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF499",
+  "code": "ABF499",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:31",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "a76c77fd463730cfc1258518003c4a5a"
+  }
+}

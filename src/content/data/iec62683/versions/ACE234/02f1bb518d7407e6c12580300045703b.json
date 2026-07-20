@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACE234",
+  "code": "ACE234",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "main contact fully visible in open position",
+  "preferred_name_ml": {
+    "en": "main contact fully visible in open position",
+    "fr": "position de contact principal parfaitement visible en position ouverte",
+    "de": "Hauptkontakt vollständig sichtbar in offener Position",
+    "zh": "主触头在断开状态下完全可见"
+  },
+  "definition": "ability associated to the device construction in which the position and the intended separation of all main contact parts of all poles is unambiguously visible when the device is in the open position",
+  "definition_ml": {
+    "en": "ability associated to the device construction in which the position and the intended separation of all main contact parts of all poles is unambiguously visible when the device is in the open position",
+    "fr": "faculté associée à la construction de l'appareil dans lequel la position et la séparation intentionnelle de tous les principaux organes de contact de tous les pôles est sans ambiguïté visible lorsque l'appareil est en position ouverte",
+    "de": "Fähigkeit, entsprechend der Gerätekonstruktion, die Position und die beabsichtigte Trennung aller Hauptkontaktteile aller Pole eindeutig anzuzeigen, wenn das Gerät in der offenen Position ist",
+    "zh": "在电器处于断开位置时，电器的结构能够使得所有极上的所有主触头的位置和触头断开位置都清晰可见"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "visible break"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "visible break",
+    "fr": "coupure visible"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE234",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "main contact fully visible in open position",
+    "MDC_P007.en": "visible break",
+    "MDC_P006.en": "ability associated to the device construction in which the position and the intended separation of all main contact parts of all poles is unambiguously visible when the device is in the open position",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC012",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-02-15",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "position de contact principal parfaitement visible en position ouverte",
+    "MDC_P007.fr": "coupure visible",
+    "MDC_P006.fr": "faculté associée à la construction de l'appareil dans lequel la position et la séparation intentionnelle de tous les principaux organes de contact de tous les pôles est sans ambiguïté visible lorsque l'appareil est en position ouverte",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2013-10-03",
+    "MDC_P004.de": "Hauptkontakt vollständig sichtbar in offener Position",
+    "MDC_P006.de": "Fähigkeit, entsprechend der Gerätekonstruktion, die Position und die beabsichtigte Trennung aller Hauptkontaktteile aller Pole eindeutig anzuzeigen, wenn das Gerät in der offenen Position ist",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "主触头在断开状态下完全可见",
+    "MDC_P006.zh": "在电器处于断开位置时，电器的结构能够使得所有极上的所有主触头的位置和触头断开位置都清晰可见",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:27",
+      "user": "BATCH 00000704",
+      "unid": "02f1bb518d7407e6c12580300045703b",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:47",
+      "user": "BATCH 00000741",
+      "unid": "F91089F94452454CC12584EC006DC0DE",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-02-15",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:27",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "02f1bb518d7407e6c12580300045703b"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABD470",
+  "code": "ABD470",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "reference standard for safety application",
+  "preferred_name_ml": {
+    "en": "reference standard for safety application",
+    "fr": "norme de référence pour application de sécurité",
+    "de": "Referenznorm für Sicherheit"
+  },
+  "definition": "standard on which the design of a pressure gauge is based",
+  "definition_ml": {
+    "en": "standard on which the design of a pressure gauge is based",
+    "fr": "norme sur laquelle la conception d'une jauge de pression est basée",
+    "de": "Norm, auf der die Auslegung eines Druckmessgeräts beruht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD470",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference standard for safety application",
+    "MDC_P006.en": "standard on which the design of a pressure gauge is based",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "norme de référence pour application de sécurité",
+    "MDC_P006.fr": "norme sur laquelle la conception d'une jauge de pression est basée",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Referenznorm für Sicherheit",
+    "MDC_P006.de": "Norm, auf der die Auslegung eines Druckmessgeräts beruht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:56",
+      "user": "BATCH 00000818",
+      "unid": "6710EAD639EAD8F5C1258A7D0039DB20",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:55",
+      "user": "BATCH 00000762",
+      "unid": "f0b61366a770e98bc125825e001dee37",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:48",
+      "user": "BATCH 00000699",
+      "unid": "7ce541a82109c5cfc1257cb40054c27a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:56",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "6710EAD639EAD8F5C1258A7D0039DB20"
+  }
+}

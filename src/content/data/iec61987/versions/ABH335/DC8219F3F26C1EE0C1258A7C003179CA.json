@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABH335",
+  "code": "ABH335",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Separate density transmitter",
+  "preferred_name_ml": {
+    "en": "Separate density transmitter",
+    "de": "Separater Dichtemessumformer"
+  },
+  "definition": "separate transmitter designed for density measurement",
+  "definition_ml": {
+    "en": "separate transmitter designed for density measurement",
+    "de": "separater Messumformer, ausgelegt für Dichtemessungen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH335",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Separate density transmitter",
+    "MDC_P006.en": "separate transmitter designed for density measurement",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-05",
+    "MDC_P003_1": "2014-07-18",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-12-05",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA638",
+    "MDC_P014": "{0112/2///61987#ABF919}",
+    "MDC_P004.de": "Separater Dichtemessumformer",
+    "MDC_P006.de": "separater Messumformer, ausgelegt für Dichtemessungen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-13",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-12-05 10:00:24",
+      "user": "BATCH 00000817",
+      "unid": "DC8219F3F26C1EE0C1258A7C003179CA",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:12",
+      "user": "BATCH 00000762",
+      "unid": "5a2dad0ec4e05837c125825e001ddd7b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-02 16:49:58",
+      "user": "BATCH 00000733",
+      "unid": "92d0771311f9bee5c12580d70056f902",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-07-18",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-12-05"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF919"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA638",
+  "superclass_type_property": "0112/2///61987#ABA638",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-12-05 10:00:24",
+    "user": "BATCH 00000817",
+    "change_request_id": null,
+    "unid": "DC8219F3F26C1EE0C1258A7C003179CA"
+  }
+}

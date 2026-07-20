@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABP444",
+  "code": "ABP444",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2024-09-16 16:44:32",
+    "user": "BATCH 00000833",
+    "change_request_id": null,
+    "unid": "13ad6d8014b8e4dec1258b9a0050fb94"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "irdi": "0112/2///61987#ABB202",
+  "code": "ABB202",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "safety integrity level",
+  "preferred_name_ml": {
+    "en": "safety integrity level",
+    "fr": "niveau d'intégrité de sécurité",
+    "de": "Sicherheitsintegrationsstufe"
+  },
+  "definition": "discrete level (one out of a possible four), corresponding to a range of safety integrity values, where safety integrity level 4 has the highest level of safety integrity and safety integrity level 1 has the lowest",
+  "definition_ml": {
+    "en": "discrete level (one out of a possible four), corresponding to a range of safety integrity values, where safety integrity level 4 has the highest level of safety integrity and safety integrity level 1 has the lowest",
+    "fr": "niveau discret (un sur quatre possibles) pour spécifier les exigences d'intégrité de sécurité des fonctions de sécurité à affecter aux systèmes associés à la sécurité E/E/PE, le niveau d'intégrité de sécurité 4 ayant le plus haut niveau d'intégrité de sécurité et de sûreté",
+    "de": "eine von vier diskreten Stufen, die einem Wertebereich der Sicherheitsintegrität entsprechen, wobei der Sicherheits-Integritätslevel 4 die höchste Stufe der Sicherheitsintegrität und der Sicherheits-Integritätslevel 1 die niedrigste darstellt"
+  },
+  "source_document": "IEC 61508-4",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB202",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "safety integrity level",
+    "MDC_P006.en": "discrete level (one out of a possible four), corresponding to a range of safety integrity values, where safety integrity level 4 has the highest level of safety integrity and safety integrity level 1 has the lowest",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ755)",
+    "MDC_P006_1": "IEC 61508-4",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "niveau d'intégrité de sécurité",
+    "MDC_P006.fr": "niveau discret (un sur quatre possibles) pour spécifier les exigences d'intégrité de sécurité des fonctions de sécurité à affecter aux systèmes associés à la sécurité E/E/PE, le niveau d'intégrité de sécurité 4 ayant le plus haut niveau d'intégrité de sécurité et de sûreté",
+    "C019.fr": "AFNOR",
+    "C017.fr": "0",
+    "C018.fr": "2014-05-03",
+    "MDC_P004.de": "Sicherheitsintegrationsstufe",
+    "MDC_P006.de": "eine von vier diskreten Stufen, die einem Wertebereich der Sicherheitsintegrität entsprechen, wobei der Sicherheits-Integritätslevel 4 die höchste Stufe der Sicherheitsintegrität und der Sicherheits-Integritätslevel 1 die niedrigste darstellt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "FE24E470279F0680C1258CDC004A3AE6",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "e720de7fbd7e1ddcc1258518003c48d7",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "f27c3f4c2d25cc4ec125825e001de8ab",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:29",
+      "user": "BATCH 00000755",
+      "unid": "22db1391eda35d55c1258256003e9324",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:22",
+      "user": "BATCH 00000732",
+      "unid": "571331f499ff9035c12580d6004c1d5a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "4e750e189816c3a8c1257f7e0030f1fc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "dc49fad38a049528c1257fa7003a3d31",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:34",
+      "user": "BATCH 00000702",
+      "unid": "bd42ae88425381c2c1257cfb00403b34",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "688920b1c8502255c1257cb40054bcf1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ755)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ755)",
+  "value_list": "0112/2///61987#ABJ755",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "FE24E470279F0680C1258CDC004A3AE6"
+  }
+}

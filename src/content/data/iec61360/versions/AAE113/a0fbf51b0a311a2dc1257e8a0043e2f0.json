@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAE113",
+  "code": "AAE113",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-22 14:21:30",
+    "user": "BATCH 00000904",
+    "change_request_id": null,
+    "unid": "a0fbf51b0a311a2dc1257e8a0043e2f0"
+  }
+}

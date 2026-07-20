@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///61987#ABA845",
+  "code": "ABA845",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Measuring instrument component",
+  "preferred_name_ml": {
+    "en": "Measuring instrument component",
+    "fr": "Composant d'instrument de mesure",
+    "de": "Messgerätekomponente"
+  },
+  "definition": "entity within a measuring instrument that plays a specific role and which can be handled separately if necessary",
+  "definition_ml": {
+    "en": "entity within a measuring instrument that plays a specific role and which can be handled separately if necessary",
+    "fr": "composant pouvant faire partie intégrante d'une jauge, un transmetteur ou un commutateur et/ou un composant individuel d'un assemblage de mesure",
+    "de": "Einheit innerhalb eines Messgeräts, die eine spezifische Aufgabe erfüllt und, sofern erforderlich, getrennt gehandhabt werden kann"
+  },
+  "synonyms": [],
+  "note": "EXAMPLES: Thermowell within a temperature assembly, remote seal for a pressure transmitter",
+  "note_ml": {
+    "en": "EXAMPLES: Thermowell within a temperature assembly, remote seal for a pressure transmitter"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA845",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Measuring instrument component",
+    "MDC_P006.en": "entity within a measuring instrument that plays a specific role and which can be handled separately if necessary",
+    "MDC_P008.en": "EXAMPLES: Thermowell within a temperature assembly, remote seal for a pressure transmitter",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV000",
+    "MDC_P004.fr": "Composant d'instrument de mesure",
+    "MDC_P006.fr": "composant pouvant faire partie intégrante d'une jauge, un transmetteur ou un commutateur et/ou un composant individuel d'un assemblage de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Messgerätekomponente",
+    "MDC_P006.de": "Einheit innerhalb eines Messgeräts, die eine spezifische Aufgabe erfüllt und, sofern erforderlich, getrennt gehandhabt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "B4A9BCF9DB6DDF08C125825E001DD432",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:35:35",
+      "user": "BATCH 00000701",
+      "unid": "7381e9841aea9818c1257cfb003faf11",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:34",
+      "user": "BATCH 00000701",
+      "unid": "96d315988be1ed7cc1257cfb003f680d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-09 11:24:36",
+      "user": "BATCH 00000700",
+      "unid": "33dcffa8e0821250c1257cb50033b11b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "b2aa788d685fa564c1257cb3002a0cf2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV000",
+  "superclass_type_property": "0112/2///61987#ABV000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:48",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "B4A9BCF9DB6DDF08C125825E001DD432"
+  }
+}

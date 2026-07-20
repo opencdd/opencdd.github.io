@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///62683#ACG089",
+  "code": "ACG089",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Construction of the assembly",
+  "preferred_name_ml": {
+    "en": "Construction of the assembly",
+    "fr": "Construction de l'ensemble"
+  },
+  "definition": "technical information on the construction features of the assembly",
+  "definition_ml": {
+    "en": "technical information on the construction features of the assembly",
+    "fr": "informations sur les éléments de construction de l'ensemble"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG089",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Construction of the assembly",
+    "MDC_P006.en": "technical information on the construction features of the assembly",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P014": "{0112/2///62683#ACE926,0112/2///62683#ACE929,0112/2///62683#ACE930,0112/2///62683#ACE931,0112/2///62683#ACE934,0112/2///62683#ACE933}",
+    "MDC_P013": "{0112/2///62683#ACC066,0112/2///62683#ACC012}",
+    "MDC_P090": "{0112/2///62683#ACE299,0112/2///62683#ACE260}",
+    "MDC_P004.fr": "Construction de l'ensemble",
+    "MDC_P006.fr": "informations sur les éléments de construction de l'ensemble",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "9/16/2016",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "C06E877DCD74921FC1258D8F003A6CF9",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "3a506dd5084f5c27c1258b9d00731735",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "3c0d06cc591f9319c1258034002e35a9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "df37c5338e2b0fecc12580300045027f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC066",
+    "0112/2///62683#ACC012"
+  ],
+  "applicable_properties": [
+    "0112/2///62683#ACE926",
+    "0112/2///62683#ACE929",
+    "0112/2///62683#ACE930",
+    "0112/2///62683#ACE931",
+    "0112/2///62683#ACE934",
+    "0112/2///62683#ACE933"
+  ],
+  "imported_properties": [
+    "0112/2///62683#ACE299",
+    "0112/2///62683#ACE260"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "C06E877DCD74921FC1258D8F003A6CF9"
+  }
+}

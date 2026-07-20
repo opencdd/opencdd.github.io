@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACF071",
+  "code": "ACF071",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "operating conditions of reliability characteristics",
+  "preferred_name_ml": {
+    "en": "operating conditions of reliability characteristics",
+    "fr": "conditions de fonctionnement des caractéristiques de fiabilité et de sécurité fonctionnelle",
+    "de": "Betriebsbedingungen für die Eigenschaften der Funktionsfähigkeit",
+    "zh": "可靠性特性的运行条件"
+  },
+  "definition": "operating condition limits for which the reliability characteristics are valid",
+  "definition_ml": {
+    "en": "operating condition limits for which the reliability characteristics are valid",
+    "fr": "limites des conditions de fonctionnement pour lesquelles les caractéristiques de fiabilité sont valables",
+    "de": "Betriebsbedingungsgrenzen innerhalb derer die Funktionsfähigkeitsangaben gültig sind",
+    "zh": "可靠性特征有效的运行条件限值"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00094",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF071",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "operating conditions of reliability characteristics",
+    "MDC_P006.en": "operating condition limits for which the reliability characteristics are valid",
+    "MDC_P022": "LIST(0,?) OF CLASS_REFERENCE_TYPE(0112/2///62683#ACG071)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC076",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-09-25",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2025-09-26",
+    "MDC_P003_3": "2025-09-26",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P028": "{0112/2///62683#ACE006}",
+    "MDC_P004.fr": "conditions de fonctionnement des caractéristiques de fiabilité et de sécurité fonctionnelle",
+    "MDC_P006.fr": "limites des conditions de fonctionnement pour lesquelles les caractéristiques de fiabilité sont valables",
+    "C019.fr": "IEC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2021-10-20",
+    "MDC_P004.de": "Betriebsbedingungen für die Eigenschaften der Funktionsfähigkeit",
+    "MDC_P006.de": "Betriebsbedingungsgrenzen innerhalb derer die Funktionsfähigkeitsangaben gültig sind",
+    "C019.de": "DKE, Silvio Foertsch",
+    "C017.de": "1",
+    "C018.de": "2025-09-01",
+    "MDC_P004.zh": "可靠性特性的运行条件",
+    "MDC_P006.zh": "可靠性特征有效的运行条件限值",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-05",
+    "C002": "C00094"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-09-25 19:16:10",
+      "user": "BATCH 00000840",
+      "unid": "9C31A58F2D974A33C1258D10005EDD4F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:18",
+      "user": "BATCH 00000811",
+      "unid": "ad0097aafdc4732bc1258b9d00731c20",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:30",
+      "user": "BATCH 00000704",
+      "unid": "f1d6467b47eb9c6ec125803000457174",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2025-09-26",
+    "current_revision": "2025-09-26"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC076",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LIST(0,?) OF CLASS_REFERENCE_TYPE(0112/2///62683#ACG071)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///62683#ACE006}",
+  "type": "property",
+  "data_type": "LIST(0,?) OF CLASS_REFERENCE_TYPE(0112/2///62683#ACG071)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-09-25 19:16:10",
+    "user": "BATCH 00000840",
+    "change_request_id": null,
+    "unid": "9C31A58F2D974A33C1258D10005EDD4F"
+  }
+}

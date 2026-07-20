@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABI423",
+  "code": "ABI423",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "volume",
+  "preferred_name_ml": {
+    "en": "volume",
+    "de": "Volumen"
+  },
+  "definition": "amount of three-dimensional space that an object occupies",
+  "definition_ml": {
+    "en": "amount of three-dimensional space that an object occupies",
+    "de": "dreidimensionaler Raum, den ein Objekt einnimmt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABI423",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "volume",
+    "MDC_P006.en": "amount of three-dimensional space that an object occupies",
+    "MDC_P023": "l",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA649",
+    "C0104": "0112/2///61987#ABT505",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-03-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2019-03-08",
+    "MDC_P003_3": "2019-03-08",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Volumen",
+    "MDC_P006.de": "dreidimensionaler Raum, den ein Objekt einnimmt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-02-11",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "250B607A94F26613C12583B70050284F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:17",
+      "user": "BATCH 00000762",
+      "unid": "14c38956e7632f36c125825e001df6c7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2019-03-08",
+    "current_revision": "2019-03-08"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA649",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-03-08 15:35:31",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "250B607A94F26613C12583B70050284F"
+  }
+}

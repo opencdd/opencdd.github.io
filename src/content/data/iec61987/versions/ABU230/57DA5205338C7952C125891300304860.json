@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABU230",
+  "code": "ABU230",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "auxiliary input type [5]",
+  "preferred_name_ml": {
+    "en": "auxiliary input type [5]",
+    "fr": "type d'entrée auxiliaire [5]",
+    "de": "Hilfseingangstyp [5]"
+  },
+  "definition": "type of signal that can be connected to the auxiliary input",
+  "definition_ml": {
+    "en": "type of signal that can be connected to the auxiliary input",
+    "fr": "type de signal qui peut être connecté à l'entrée auxiliaire",
+    "de": "Signaltyp, der an einem Hilfseingang angeschlossen werden kann"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property; Id specified in IEC61987-12/-13: ABA343",
+  "remark_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-12/-13: ABA343"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU230",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "auxiliary input type [5]",
+    "MDC_P006.en": "type of signal that can be connected to the auxiliary input",
+    "MDC_P009.en": "polymorphic control property; Id specified in IEC61987-12/-13: ABA343",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU099(Analog current input [2],Analog voltage input [2],Resistance temperature detector/thermocouple input,Binary input,Binary input IEC 60947-5-6 (NAMUR),0112/2///61987#Frequency input [2],0112/2///61987#Pulse input,0112/2///61987#Manufacturer-specific input [2],0112/2///61987#Pneumatic/hydraulic input))",
+    "MDC_P068": "0112/2///61987#ABU099",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "type d'entrée auxiliaire [5]",
+    "MDC_P006.fr": "type de signal qui peut être connecté à l'entrée auxiliaire",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Hilfseingangstyp [5]",
+    "MDC_P006.de": "Signaltyp, der an einem Hilfseingang angeschlossen werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "57DA5205338C7952C125891300304860",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:18",
+      "user": "BATCH 00000762",
+      "unid": "06bc6eeb80ca2834c125825e001df749",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:54",
+      "user": "BATCH 00000699",
+      "unid": "72d6d41e74454a10c1257cb40054c4e1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-12-09"
+  },
+  "constraint": "0112/2///61987#ABU099",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU099(Analog current input [2],Analog voltage input [2],Resistance temperature detector/thermocouple input,Binary input,Binary input IEC 60947-5-6 (NAMUR),0112/2///61987#Frequency input [2],0112/2///61987#Pulse input,0112/2///61987#Manufacturer-specific input [2],0112/2///61987#Pneumatic/hydraulic input))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU099(Analog current input [2],Analog voltage input [2],Resistance temperature detector/thermocouple input,Binary input,Binary input IEC 60947-5-6 (NAMUR),0112/2///61987#Frequency input [2],0112/2///61987#Pulse input,0112/2///61987#Manufacturer-specific input [2],0112/2///61987#Pneumatic/hydraulic input))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "57DA5205338C7952C125891300304860"
+  }
+}

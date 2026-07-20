@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABA915",
+  "code": "ABA915",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "diameter of orifice plate",
+  "preferred_name_ml": {
+    "en": "diameter of orifice plate",
+    "fr": "diamètre de diaphragme",
+    "de": "Durchmesser der Blende"
+  },
+  "definition": "outer diameter of an orifice plate",
+  "definition_ml": {
+    "en": "outer diameter of an orifice plate",
+    "fr": "diamètre externe d'un diaphragme",
+    "de": "Außendurchmesser einer Blende"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA915",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "diameter of orifice plate",
+    "MDC_P006.en": "outer diameter of an orifice plate",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "diamètre de diaphragme",
+    "MDC_P006.fr": "diamètre externe d'un diaphragme",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Durchmesser der Blende",
+    "MDC_P006.de": "Außendurchmesser einer Blende",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "86E6CD517B0C06CEC125825E001DE790",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "f956827d688cf5c1c1257fa70040596f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "4d77364b2aaf552bc1257cfb00403a17",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "59aba2186291ea7ac1257cb40054bbd4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:38",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "86E6CD517B0C06CEC125825E001DE790"
+  }
+}

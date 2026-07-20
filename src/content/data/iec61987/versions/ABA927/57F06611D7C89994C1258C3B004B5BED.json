@@ -1,0 +1,187 @@
+{
+  "irdi": "0112/2///61987#ABA927",
+  "code": "ABA927",
+  "version": "5",
+  "revision": "3",
+  "preferred_name": "temperature",
+  "preferred_name_ml": {
+    "en": "temperature",
+    "fr": "température",
+    "de": "Temperatur"
+  },
+  "short_name": "Temperature",
+  "short_name_ml": {
+    "en": "Temperature",
+    "de": "Temperatur"
+  },
+  "definition": "for a physical system exchanging quantities of heat with two bodies, during a reversible cycle, a positive state quantity characterizing each body and proportional to the quantity of heat exchanged with this body",
+  "definition_ml": {
+    "en": "for a physical system exchanging quantities of heat with two bodies, during a reversible cycle, a positive state quantity characterizing each body and proportional to the quantity of heat exchanged with this body",
+    "fr": "pour un système physique échangeant des quantités de chaleur avec deux corps, pendant un cycle réversible, quantité d’état positive caractérisant chaque corps et proportionnelle à la quantité de chaleur échangée avec ce corps",
+    "de": "eine positive Zustandsgröße, die jeden Körper kennzeichnet und proportional zur Größe der mit diesem Körper ausgetauschten Wärmemenge in einem physikalischen System ist, in dem Wärmemengen mit zwei Körpern ausgetauscht werden"
+  },
+  "source_document": "IEV 111-13-36",
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA927",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "temperature",
+    "MDC_P005.en": "Temperature",
+    "MDC_P006.en": "for a physical system exchanging quantities of heat with two bodies, during a reversible cycle, a positive state quantity characterizing each body and proportional to the quantity of heat exchanged with this body",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEV 111-13-36",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "température",
+    "MDC_P006.fr": "pour un système physique échangeant des quantités de chaleur avec deux corps, pendant un cycle réversible, quantité d’état positive caractérisant chaque corps et proportionnelle à la quantité de chaleur échangée avec ce corps",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Temperatur",
+    "MDC_P005.de": "Temperatur",
+    "MDC_P006.de": "eine positive Zustandsgröße, die jeden Körper kennzeichnet und proportional zur Größe der mit diesem Körper ausgetauschten Wärmemenge in einem physikalischen System ist, in dem Wärmemengen mit zwei Körpern ausgetauscht werden",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "57F06611D7C89994C1258C3B004B5BED",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "647f59cb815721dcc125886f003c9990",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "abb5fa161d39c458c1258518003c488c",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "6b0f2988733cfd49c125825e001de79a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "10bb419b61983513c125825600407aa7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "451083f2aec5aabdc12580d6004c1c49",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:07",
+      "user": "BATCH 00000715",
+      "unid": "94bd57c446739912c1257f7f004d01d9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "167103e86a70b5c9c1257fa700405974",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "25b4b9103d674b3cc1257cfb00403a23",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "2d88eed8325d982ec1257cb40054bbe0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "57F06611D7C89994C1258C3B004B5BED"
+  }
+}

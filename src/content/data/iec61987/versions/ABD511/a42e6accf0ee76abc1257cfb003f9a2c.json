@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD511",
+  "code": "ABD511",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:34:42",
+    "user": "BATCH 00000701",
+    "change_request_id": null,
+    "unid": "a42e6accf0ee76abc1257cfb003f9a2c"
+  }
+}

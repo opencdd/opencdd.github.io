@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA509",
+  "code": "ABA509",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "mounting style of display",
+  "preferred_name_ml": {
+    "en": "mounting style of display",
+    "fr": "style de montage de l'écran",
+    "de": "Montageart des Displays"
+  },
+  "definition": "classification of a display or keypad display according to its method of mounting",
+  "definition_ml": {
+    "en": "classification of a display or keypad display according to its method of mounting",
+    "fr": "classification d'un écran ou de l'affichage du clavier selon sa méthode de montage",
+    "de": "Charakterisierung einer Anzeige oder eines Tastatur-Displays bezüglich der Montageart"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA509",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "mounting style of display",
+    "MDC_P006.en": "classification of a display or keypad display according to its method of mounting",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL408)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "style de montage de l'écran",
+    "MDC_P006.fr": "classification d'un écran ou de l'affichage du clavier selon sa méthode de montage",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Montageart des Displays",
+    "MDC_P006.de": "Charakterisierung einer Anzeige oder eines Tastatur-Displays bezüglich der Montageart",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "FF53945027251445C1258CDC004A3A88",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "4bd52fc6bffbef8bc1258518003c4861",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:36",
+      "user": "BATCH 00000762",
+      "unid": "4bbfac47dfda2aefc125825e001de6f3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:29",
+      "user": "BATCH 00000699",
+      "unid": "a2a3b36c58224668c1257cb40054bb36",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL408)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL408)",
+  "value_list": "0112/2///61987#ABL408",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "FF53945027251445C1258CDC004A3A88"
+  }
+}

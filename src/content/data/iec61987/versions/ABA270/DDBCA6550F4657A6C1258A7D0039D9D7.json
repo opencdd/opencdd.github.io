@@ -1,0 +1,167 @@
+{
+  "irdi": "0112/2///61987#ABA270",
+  "code": "ABA270",
+  "version": "9",
+  "revision": "1",
+  "preferred_name": "pattern approval",
+  "preferred_name_ml": {
+    "en": "pattern approval",
+    "fr": "approbation de modèle",
+    "de": "Messtechnikzertifikat"
+  },
+  "definition": "designation of a certificate testifying that the particular pattern of a device conforms to applicable standards and is approved for use in the Russian territory",
+  "definition_ml": {
+    "en": "designation of a certificate testifying that the particular pattern of a device conforms to applicable standards and is approved for use in the Russian territory",
+    "fr": "désignation d'un certificat attestant que le modèle particulier de l'instrument de mesure est conforme aux normes en vigueur et que son utilisation est approuvée sur le territoire russe",
+    "de": "Bezeichnung eines Zertifikats, das bestätigt, dass die spezielle Bauart eines Geräts den zu beachtenden Standards entspricht und für die Verwendung in Russland zugelassen ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA270",
+    "MDC_P002_1": "9",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "pattern approval",
+    "MDC_P006.en": "designation of a certificate testifying that the particular pattern of a device conforms to applicable standards and is approved for use in the Russian territory",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "approbation de modèle",
+    "MDC_P006.fr": "désignation d'un certificat attestant que le modèle particulier de l'instrument de mesure est conforme aux normes en vigueur et que son utilisation est approuvée sur le territoire russe",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Messtechnikzertifikat",
+    "MDC_P006.de": "Bezeichnung eines Zertifikats, das bestätigt, dass die spezielle Bauart eines Geräts den zu beachtenden Standards entspricht und für die Verwendung in Russland zugelassen ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "009",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:53",
+      "user": "BATCH 00000818",
+      "unid": "DDBCA6550F4657A6C1258A7D0039D9D7",
+      "is_current": true
+    },
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:21",
+      "user": "BATCH 00000803",
+      "unid": "cebbff39a34bb2a1c12589130030481e",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:34",
+      "user": "BATCH 00000762",
+      "unid": "a8eb405f4694bdd5c125825e001de615",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "bc872c7780682b0ec1258256003e9561",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "8c0d30516c3d87bdc125825600407a73",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:16",
+      "user": "BATCH 00000732",
+      "unid": "c2e59251301fffd4c12580d6004c1ad8",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:35",
+      "user": "BATCH 00000714",
+      "unid": "815e998711658eb4c1257f7e0030f1ae",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "d838b93b64a43bd2c1257fa7003a3ce5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:28",
+      "user": "BATCH 00000702",
+      "unid": "6d4a0133577b256bc1257cfb004038b2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:27",
+      "user": "BATCH 00000699",
+      "unid": "918222b8b31ba8a4c1257cb40054ba6f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "009",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:53",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "DDBCA6550F4657A6C1258A7D0039D9D7"
+  }
+}

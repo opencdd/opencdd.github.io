@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABB073",
+  "code": "ABB073",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "pressure shock resistance",
+  "preferred_name_ml": {
+    "en": "pressure shock resistance",
+    "fr": "résistance au coup de bélier",
+    "de": "Druckwechselfestigkeit"
+  },
+  "definition": "mechanical resistance of devices to rapid pressure changes in specified degrees of severity without the device sustaining any permanent damage",
+  "definition_ml": {
+    "en": "mechanical resistance of devices to rapid pressure changes in specified degrees of severity without the device sustaining any permanent damage",
+    "fr": "résistance mécanique des appareils aux changements de pression brusques dans les degrés de gravité spécifiés sans que l’appareil ne subisse un dommage permanent",
+    "de": "mechanische Festigkeit von Geräten gegenüber schnellen Druckänderungen in bestimmten Schweregraden, ohne dass am Gerät ein dauerhafter Schaden entsteht"
+  },
+  "source_document": "IEC 60068-2-14",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB073",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "pressure shock resistance",
+    "MDC_P006.en": "mechanical resistance of devices to rapid pressure changes in specified degrees of severity without the device sustaining any permanent damage",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "IEC 60068-2-14",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "résistance au coup de bélier",
+    "MDC_P006.fr": "résistance mécanique des appareils aux changements de pression brusques dans les degrés de gravité spécifiés sans que l’appareil ne subisse un dommage permanent",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Druckwechselfestigkeit",
+    "MDC_P006.de": "mechanische Festigkeit von Geräten gegenüber schnellen Druckänderungen in bestimmten Schweregraden, ohne dass am Gerät ein dauerhafter Schaden entsteht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "32F9CCAB59895A09C1258A7D0039DA70",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "e41a1b521c744663c125825e001de82c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:21",
+      "user": "BATCH 00000732",
+      "unid": "f2b310c6731ba259c12580d6004c1cdb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:33",
+      "user": "BATCH 00000702",
+      "unid": "e6a2159820130ad6c1257cfb00403ab5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:32",
+      "user": "BATCH 00000699",
+      "unid": "5efdcde139ac880dc1257cb40054bc72",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:54",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "32F9CCAB59895A09C1258A7D0039DA70"
+  }
+}

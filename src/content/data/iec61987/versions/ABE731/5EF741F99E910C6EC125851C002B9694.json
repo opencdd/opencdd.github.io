@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61987#ABE731",
+  "code": "ABE731",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Device LOP for thermal level switch",
+  "preferred_name_ml": {
+    "en": "Device LOP for thermal level switch",
+    "de": "Geräte-Merkmalleiste für thermischen Grenzstandschalter"
+  },
+  "definition": "list of properties characterizing a thermal level switch",
+  "definition_ml": {
+    "en": "list of properties characterizing a thermal level switch",
+    "de": "Merkmalleiste, die einen thermischen Grenzstandschalter kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE731",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Device LOP for thermal level switch",
+    "MDC_P006.en": "list of properties characterizing a thermal level switch",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-02-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-28",
+    "MDC_P003_3": "2020-02-28",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV504",
+    "MDC_P014": "{0112/2///61987#ABC899,0112/2///61987#ABC730,0112/2///61987#ABU857,0112/2///61987#ABG488,0112/2///61987#ABB206,0112/2///61987#ABG689,0112/2///61987#ABC830,0112/2///61987#ABN984,0112/2///61987#ABG886,0112/2///61987#ABG941,0112/2///61987#ABD088,0112/2///61987#ABD153,0112/2///61987#ABC786,0112/2///61987#ABC795,0112/2///61987#ABA293,0112/2///61987#ABC710}",
+    "MDC_P004.de": "Geräte-Merkmalleiste für thermischen Grenzstandschalter",
+    "MDC_P006.de": "Merkmalleiste, die einen thermischen Grenzstandschalter kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-18",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-28 08:56:05",
+      "user": "BATCH 00000784",
+      "unid": "5EF741F99E910C6EC125851C002B9694",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:04",
+      "user": "BATCH 00000762",
+      "unid": "359bad4b59fe92fbc125825e001dda3b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-28",
+    "current_revision": "2020-02-28"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABC899",
+    "0112/2///61987#ABC730",
+    "0112/2///61987#ABU857",
+    "0112/2///61987#ABG488",
+    "0112/2///61987#ABB206",
+    "0112/2///61987#ABG689",
+    "0112/2///61987#ABC830",
+    "0112/2///61987#ABN984",
+    "0112/2///61987#ABG886",
+    "0112/2///61987#ABG941",
+    "0112/2///61987#ABD088",
+    "0112/2///61987#ABD153",
+    "0112/2///61987#ABC786",
+    "0112/2///61987#ABC795",
+    "0112/2///61987#ABA293",
+    "0112/2///61987#ABC710"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV504",
+  "superclass_type_property": "0112/2///61987#ABV504",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-28 08:56:05",
+    "user": "BATCH 00000784",
+    "change_request_id": null,
+    "unid": "5EF741F99E910C6EC125851C002B9694"
+  }
+}

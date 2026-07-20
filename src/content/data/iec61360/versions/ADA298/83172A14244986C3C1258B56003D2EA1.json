@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61360_4#ADA298",
+  "code": "ADA298",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "power drain in deenergized state",
+  "preferred_name_ml": {
+    "en": "power drain in deenergized state",
+    "de": "Leistungsaufnahme im abgeschalteten Zustand"
+  },
+  "definition": "power consumption when the item is in a non-operating up state during non-required time and measured at rated ambient temperature and rated frequency",
+  "definition_ml": {
+    "en": "power consumption when the item is in a non-operating up state during non-required time and measured at rated ambient temperature and rated frequency"
+  },
+  "source_document": "based on IEV 192-02-14,",
+  "synonyms": [],
+  "note": "1  Zero power consumption is only possible if the item is directly disconnected from its power supply, i.e. by disconnecting via an additional switch-off unit.\r\n\r\n2  Power drain in the deenergized state results in thermal loss.",
+  "note_ml": {
+    "en": "1  Zero power consumption is only possible if the item is directly disconnected from its power supply, i.e. by disconnecting via an additional switch-off unit.\r\n\r\n2  Power drain in the deenergized state results in thermal loss."
+  },
+  "remark": "Replaces ADA126",
+  "remark_ml": {
+    "en": "Replaces ADA126"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA298",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "power drain in deenergized state",
+    "MDC_P006.en": "power consumption when the item is in a non-operating up state during non-required time and measured at rated ambient temperature and rated frequency",
+    "MDC_P008.en": "1  Zero power consumption is only possible if the item is directly disconnected from its power supply, i.e. by disconnecting via an additional switch-off unit.\r\n\r\n2  Power drain in the deenergized state results in thermal loss.",
+    "MDC_P009.en": "Replaces ADA126",
+    "MDC_P023": "W",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "based on IEV 192-02-14,",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E49",
+    "MDC_P021": "0112/2///61360_4#ADA083",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE029}",
+    "MDC_P004.de": "Leistungsaufnahme im abgeschalteten Zustand",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 13:08:16",
+      "user": "BATCH 00001302",
+      "unid": "83172A14244986C3C1258B56003D2EA1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-04-17 06:42:34",
+      "user": "BATCH 00001186",
+      "unid": "10298dd6d66559f6c125854d0019ded7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#ADA083",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE029}",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 13:08:16",
+    "user": "BATCH 00001302",
+    "change_request_id": null,
+    "unid": "83172A14244986C3C1258B56003D2EA1"
+  }
+}

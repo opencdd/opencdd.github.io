@@ -98,6 +98,18 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     webstoreUrl: "https://webstore.iec.ch/en/publication/63704",
     publishedYear: 2019,
   },
+  iec62720: {
+    publicationId: "IEC 62720:2023",
+    edition: "Ed 2.0",
+    title:
+      "Quantities and units — Code values for quantities and units",
+    shortTitle: "Quantities & Units (IEC 62720)",
+    abstract:
+      "IEC 62720 provides an unambiguous set of identifiers for quantities and units used in electrotechnology. Each quantity and unit receives a globally unique code within the IEC CDD framework, ensuring consistent terminology across all IEC product standards.",
+    technicalCommittee: "IEC TC 1",
+    webstoreUrl: "https://webstore.iec.ch/en/publication/60017",
+    publishedYear: 2023,
+  },
   iec63508: {
     publicationId: "IEC 63508:2026",
     edition: "Ed 1.0",

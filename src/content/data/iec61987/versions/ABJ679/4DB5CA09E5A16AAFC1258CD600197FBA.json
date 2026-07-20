@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABJ679",
+  "code": "ABJ679",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "TRANSFORMATION_PARAMETER",
+  "preferred_name_ml": {
+    "en": "TRANSFORMATION_PARAMETER",
+    "de": "TRANSFORMATION_PARAMETER"
+  },
+  "definition": "parameter defined in manufacturer specific tables setting the type of linearization e.g. none, square-root, polynomial or tabular",
+  "definition_ml": {
+    "en": "parameter defined in manufacturer specific tables setting the type of linearization e.g. none, square-root, polynomial or tabular",
+    "de": "Parameter, der in herstellerspezifischen Tabellen definiert ist und der die Art der Linearisierung wie \"keine\", \"Quadratwurzel\" , \"Polynom\" oder \"Tabelle\" festlegt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABJ679",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "TRANSFORMATION_PARAMETER",
+    "MDC_P006.en": "parameter defined in manufacturer specific tables setting the type of linearization e.g. none, square-root, polynomial or tabular",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-29",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-07-29",
+    "MDC_P003_3": "2025-07-29",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "TRANSFORMATION_PARAMETER",
+    "MDC_P006.de": "Parameter, der in herstellerspezifischen Tabellen definiert ist und der die Art der Linearisierung wie \"keine\", \"Quadratwurzel\" , \"Polynom\" oder \"Tabelle\" festlegt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-12-21",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-29 06:38:30",
+      "user": "BATCH 00000848",
+      "unid": "4DB5CA09E5A16AAFC1258CD600197FBA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:34",
+      "user": "BATCH 00000766",
+      "unid": "0d5b19f9f1e6bdd5c12583b700502940",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-07-29",
+    "current_revision": "2025-07-29"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-29 06:38:30",
+    "user": "BATCH 00000848",
+    "change_request_id": null,
+    "unid": "4DB5CA09E5A16AAFC1258CD600197FBA"
+  }
+}

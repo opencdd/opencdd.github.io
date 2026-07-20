@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61360_4#ACA011",
+  "code": "ACA011",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "exemption",
+  "preferred_name_ml": {
+    "en": "exemption"
+  },
+  "definition": "statement indicating the state of being free or freed from a charge or obligation to which others are subject",
+  "definition_ml": {
+    "en": "statement indicating the state of being free or freed from a charge or obligation to which others are subject"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "note": "EXAMPLE Exemptions to RoHS are granted to narrowly-defined applications for which the elimination of the prohibited substance is technically or scientifically impracticable or when the only available substitution produces more negative than positive benefits to the environment, health, or consumer safety.",
+  "note_ml": {
+    "en": "EXAMPLE Exemptions to RoHS are granted to narrowly-defined applications for which the elimination of the prohibited substance is technically or scientifically impracticable or when the only available substitution produces more negative than positive benefits to the environment, health, or consumer safety."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ACA011",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "exemption",
+    "MDC_P006.en": "statement indicating the state of being free or freed from a charge or obligation to which others are subject",
+    "MDC_P008.en": "EXAMPLE Exemptions to RoHS are granted to narrowly-defined applications for which the elimination of the prohibited substance is technically or scientifically impracticable or when the only available substitution produces more negative than positive benefits to the environment, health, or consumer safety.",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/TC 111",
+    "MDC_P010": "0112/2///61360_4#ACA030",
+    "MDC_P014": "{0112/2///61360_4#ACB075,0112/2///61360_4#ACB076}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "BE661EF71EFDF110C1258994002BD195",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 12:21:41",
+      "user": "BATCH 00000898",
+      "unid": "703073a6f95d32bbc1257e650038eabb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ACB075",
+    "0112/2///61360_4#ACB076"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ACA030",
+  "superclass_type_property": "0112/2///61360_4#ACA030",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "BE661EF71EFDF110C1258994002BD195"
+  }
+}

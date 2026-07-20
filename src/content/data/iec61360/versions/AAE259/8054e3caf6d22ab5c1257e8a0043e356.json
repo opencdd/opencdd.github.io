@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAE259",
+  "code": "AAE259",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-22 14:21:31",
+    "user": "BATCH 00000904",
+    "change_request_id": null,
+    "unid": "8054e3caf6d22ab5c1257e8a0043e356"
+  }
+}

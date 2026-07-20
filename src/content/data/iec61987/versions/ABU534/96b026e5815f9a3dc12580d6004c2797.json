@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABU534",
+  "code": "ABU534",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:48",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "96b026e5815f9a3dc12580d6004c2797"
+  }
+}

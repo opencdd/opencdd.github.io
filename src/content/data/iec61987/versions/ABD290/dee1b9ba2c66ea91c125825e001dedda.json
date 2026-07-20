@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD290",
+  "code": "ABD290",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:54",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "dee1b9ba2c66ea91c125825e001dedda"
+  }
+}

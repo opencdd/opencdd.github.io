@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61987#ABH842",
+  "code": "ABH842",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Diagnostic status",
+  "preferred_name_ml": {
+    "en": "Diagnostic status",
+    "de": "Diagnosestatus"
+  },
+  "definition": "properties characterizing NE107 diagnostic function states",
+  "definition_ml": {
+    "en": "properties characterizing NE107 diagnostic function states",
+    "de": "Merkmale, die die NE107-Diagnosefunktionsstati kennzeichnen"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "DIAGNOSIS_MASK"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "DIAGNOSIS_MASK"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH842",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Diagnostic status",
+    "MDC_P007.en": "DIAGNOSIS_MASK",
+    "MDC_P006.en": "properties characterizing NE107 diagnostic function states",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-03-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2019-03-08",
+    "MDC_P003_3": "2019-03-08",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABH925,0112/2///61987#ABH926,0112/2///61987#ABH927,0112/2///61987#ABH928}",
+    "MDC_P004.de": "Diagnosestatus",
+    "MDC_P006.de": "Merkmale, die die NE107-Diagnosefunktionsstati kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-11-20",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-03-08 15:35:12",
+      "user": "BATCH 00000766",
+      "unid": "6131993BAF780CB4C12583B7005020DA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:12",
+      "user": "BATCH 00000762",
+      "unid": "b0723b9f9291e1e2c125825e001ddd99",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2019-03-08",
+    "current_revision": "2019-03-08"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH925",
+    "0112/2///61987#ABH926",
+    "0112/2///61987#ABH927",
+    "0112/2///61987#ABH928"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-03-08 15:35:12",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "6131993BAF780CB4C12583B7005020DA"
+  }
+}

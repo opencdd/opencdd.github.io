@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABC540",
+  "code": "ABC540",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Process design conditions [flow]",
+  "preferred_name_ml": {
+    "en": "Process design conditions [flow]",
+    "fr": "Conditions de conception de processus [débit]",
+    "de": "Prozessauslegungsbedingungen [Durchfluss]"
+  },
+  "definition": "properties characterizing the process conditions for which a device shall be designed",
+  "definition_ml": {
+    "en": "properties characterizing the process conditions for which a device shall be designed",
+    "fr": "propriétés caractérisant les conditions de processus pour lesquelles un appareil est conçu (version de bloc pour le débit)",
+    "de": "Merkmale, die die Prozessbedingungen kennzeichnen, für die ein Gerät auszulegen ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC540",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Process design conditions [flow]",
+    "MDC_P006.en": "properties characterizing the process conditions for which a device shall be designed",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABD085,0112/2///61987#ABC817}",
+    "MDC_P004.fr": "Conditions de conception de processus [débit]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions de processus pour lesquelles un appareil est conçu (version de bloc pour le débit)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-01-14",
+    "MDC_P004.de": "Prozessauslegungsbedingungen [Durchfluss]",
+    "MDC_P006.de": "Merkmale, die die Prozessbedingungen kennzeichnen, für die ein Gerät auszulegen ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-01-14",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "58F9494999162A53C125825E001DD7C4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:40",
+      "user": "BATCH 00000701",
+      "unid": "175606919ad1a57fc1257cfb003f998e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "4f81562d7e74df72c1257cb400549cda",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABD085",
+    "0112/2///61987#ABC817"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "58F9494999162A53C125825E001DD7C4"
+  }
+}

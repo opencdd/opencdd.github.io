@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF112",
+  "code": "ACF112",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "Input / Output circuit for Relay for thermistor protection (PTC)",
+  "preferred_name_ml": {
+    "en": "Input / Output circuit for Relay for thermistor protection (PTC)",
+    "fr": "Circuit d’entrée/sortie pour Relais de protection à thermistance (CTP)",
+    "de": "Eingangs-/Ausgangskreise für Thermistormotorschutzrelais (PTC)",
+    "zh": "热敏电阻（PTC）保护继电器的输入/输出电路"
+  },
+  "definition": "circuit of the relay for thermistor protection used to receive or to send signals or data",
+  "definition_ml": {
+    "en": "circuit of the relay for thermistor protection used to receive or to send signals or data",
+    "fr": "circuit du relais de protection à thermistance servant à recevoir ou envoyer des signaux ou des données",
+    "de": "Stromkreis eines Thermistormotorschutzrelais (PTC), der benutzt wird, um Signale oder Daten zu empfangen oder zu senden",
+    "zh": "用于接收或发送信号或数据的热敏电阻保护继电器的电路"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF112",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Input / Output circuit for Relay for thermistor protection (PTC)",
+    "MDC_P006.en": "circuit of the relay for thermistor protection used to receive or to send signals or data",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG112)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Circuit d’entrée/sortie pour Relais de protection à thermistance (CTP)",
+    "MDC_P006.fr": "circuit du relais de protection à thermistance servant à recevoir ou envoyer des signaux ou des données",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Eingangs-/Ausgangskreise für Thermistormotorschutzrelais (PTC)",
+    "MDC_P006.de": "Stromkreis eines Thermistormotorschutzrelais (PTC), der benutzt wird, um Signale oder Daten zu empfangen oder zu senden",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2018-01-18",
+    "MDC_P004.zh": "热敏电阻（PTC）保护继电器的输入/输出电路",
+    "MDC_P006.zh": "用于接收或发送信号或数据的热敏电阻保护继电器的电路",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:30",
+      "user": "BATCH 00000704",
+      "unid": "b6c7afc070d774e2c12580300045719c",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:50",
+      "user": "BATCH 00000741",
+      "unid": "DD31A7BA4DD503EBC12584EC006DC1D4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG112)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG112)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:30",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "b6c7afc070d774e2c12580300045719c"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABB201",
+  "code": "ABB201",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "measured error of dynamic viscosity",
+  "preferred_name_ml": {
+    "en": "measured error of dynamic viscosity",
+    "fr": "erreur mesurée de viscosité dynamique",
+    "de": "maximale Messabweichung der dynamischen Viskosität"
+  },
+  "definition": "largest positive or negative value of error of the average upscale or downscale value at each point of dynamic viscosity measurement expressed as an absolute value",
+  "definition_ml": {
+    "en": "largest positive or negative value of error of the average upscale or downscale value at each point of dynamic viscosity measurement expressed as an absolute value",
+    "fr": "valeur d'erreur positive ou négative la plus grande de la valeur moyenne d'échelle supérieure ou inférieure à chaque point de mesure de la viscosité dynamique, exprimée sous forme de valeur absolue",
+    "de": "größter positiver oder negativer Wert der Messabweichungen, bestimmt aus der Kurve der mittleren positiven Messabweichung oder der Kurve der mittleren negativen Messabweichung der dynamischen Viskosität, ausgedrückt als Absolutwert"
+  },
+  "source_document": "IEC 61298 and IEC 60770-2",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB201",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "measured error of dynamic viscosity",
+    "MDC_P006.en": "largest positive or negative value of error of the average upscale or downscale value at each point of dynamic viscosity measurement expressed as an absolute value",
+    "MDC_P023": "mPa·s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61298 and IEC 60770-2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA797",
+    "C0104": "0112/2///61987#ABT571",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "erreur mesurée de viscosité dynamique",
+    "MDC_P006.fr": "valeur d'erreur positive ou négative la plus grande de la valeur moyenne d'échelle supérieure ou inférieure à chaque point de mesure de la viscosité dynamique, exprimée sous forme de valeur absolue",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximale Messabweichung der dynamischen Viskosität",
+    "MDC_P006.de": "größter positiver oder negativer Wert der Messabweichungen, bestimmt aus der Kurve der mittleren positiven Messabweichung oder der Kurve der mittleren negativen Messabweichung der dynamischen Viskosität, ausgedrückt als Absolutwert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "01A1265BD8077672C125825E001DE8AA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "5c4dac88b06be08ac1257fa7004059e8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:34",
+      "user": "BATCH 00000702",
+      "unid": "9dbc3a2b321ed994c1257cfb00403b33",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "f5bae3a1bef9a9c5c1257cb40054bcf0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA797",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "01A1265BD8077672C125825E001DE8AA"
+  }
+}

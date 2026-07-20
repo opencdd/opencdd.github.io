@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///62683#ACG112",
+  "code": "ACG112",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Input / Output circuit",
+  "preferred_name_ml": {
+    "en": "Input / Output circuit",
+    "fr": "Circuit d’entrée/sortie",
+    "de": "Eingangs-/Ausgangskreise",
+    "zh": "输入/输出电路"
+  },
+  "definition": "circuit of the relay for thermistor protection used to receive or to send signals or data",
+  "definition_ml": {
+    "en": "circuit of the relay for thermistor protection used to receive or to send signals or data",
+    "fr": "circuit du relais de protection à thermistance servant à recevoir ou envoyer des signaux ou des données",
+    "de": "Stromkreis eines Thermistormotorschutzrelais (PTC), der benutzt wird, um Signale oder Daten zu empfangen oder zu senden",
+    "zh": "热敏电阻保护继电器用于接收或发送信号或数据的电路。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683 DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00116",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG112",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Input / Output circuit",
+    "MDC_P006.en": "circuit of the relay for thermistor protection used to receive or to send signals or data",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683 DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-05-30",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2023-05-30",
+    "MDC_P003_3": "2023-05-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC015}",
+    "MDC_P090": "{0112/2///62683#ACE334,0112/2///62683#ACE335,0112/2///62683#ACE336,0112/2///62683#ACE337}",
+    "MDC_P004.fr": "Circuit d’entrée/sortie",
+    "MDC_P006.fr": "circuit du relais de protection à thermistance servant à recevoir ou envoyer des signaux ou des données",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2022-12-08",
+    "MDC_P004.de": "Eingangs-/Ausgangskreise",
+    "MDC_P006.de": "Stromkreis eines Thermistormotorschutzrelais (PTC), der benutzt wird, um Signale oder Daten zu empfangen oder zu senden",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-11-29",
+    "MDC_P004.zh": "输入/输出电路",
+    "MDC_P006.zh": "热敏电阻保护继电器用于接收或发送信号或数据的电路。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00116"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-05-30 06:54:20",
+      "user": "BATCH 00000800",
+      "unid": "9BA3EEF2EE9FE683C12589BF001AF27A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "5d208c5d81c339c1c12584e80070c13b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "db9c4a84d7e34c23c1258034002e35bf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "efb421be25ab425fc125803000450295",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2023-05-30",
+    "current_revision": "2023-05-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC015"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE334",
+    "0112/2///62683#ACE335",
+    "0112/2///62683#ACE336",
+    "0112/2///62683#ACE337"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-05-30 06:54:20",
+    "user": "BATCH 00000800",
+    "change_request_id": null,
+    "unid": "9BA3EEF2EE9FE683C12589BF001AF27A"
+  }
+}

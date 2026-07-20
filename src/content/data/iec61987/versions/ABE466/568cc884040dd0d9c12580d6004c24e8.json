@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE466",
+  "code": "ABE466",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:41",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "568cc884040dd0d9c12580d6004c24e8"
+  }
+}

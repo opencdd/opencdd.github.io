@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG193",
+  "code": "ACG193",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:33:47",
+    "user": "BATCH 00000703",
+    "change_request_id": null,
+    "unid": "f0e66974c2f5b0ebc1258030004502df"
+  }
+}

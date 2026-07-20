@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61360_4#AAE001",
+  "code": "AAE001",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "main class of component",
+  "preferred_name_ml": {
+    "en": "main class of component"
+  },
+  "short_name": "main class",
+  "short_name_ml": {
+    "en": "main class"
+  },
+  "definition": "code of the main functional class to which a component belongs",
+  "definition_ml": {
+    "en": "code of the main functional class to which a component belongs"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-5",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE001",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "main class of component",
+    "MDC_P005.en": "main class",
+    "MDC_P006.en": "code of the main functional class to which a component belongs",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA020)",
+    "MDC_P024": "X..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A52",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-5",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-03-03",
+    "MDC_P003_1": "2025-03-03",
+    "MDC_P003_2": "2025-03-03",
+    "MDC_P003_3": "2025-03-03",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "deleted (2025-02-26 19:19:51)",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "e8f9a51231deca16c1257ea4004b1e7e",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "deleted (2025-02-26 19:21:29)",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "80e1af8f2f0daad4c1257e8b003234d0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "deleted (2025-02-26 19:21:13)",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "f0bbc4dc811be3c6c1257e8a0043e2a1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "deleted (2025-02-26 19:21:39)",
+      "timestamp": "2013-11-08 11:14:01",
+      "user": "BATCH 00000845",
+      "unid": "8e9ee93ae1ec08c9c1257c1d00383760",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-03-03 10:13:05",
+      "user": "BATCH 00001371",
+      "unid": "8A10F9E5181D2684C1258C420032A333",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2025-03-03",
+    "current_version": "2025-03-03",
+    "current_revision": "2025-03-03"
+  },
+  "value_format": "X..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA020)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA020)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "deleted (2025-02-26 19:19:51)",
+    "timestamp": "2015-08-17 15:40:30",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "e8f9a51231deca16c1257ea4004b1e7e"
+  }
+}

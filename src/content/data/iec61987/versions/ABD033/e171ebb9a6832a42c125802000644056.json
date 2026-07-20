@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD033",
+  "code": "ABD033",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-08-31 20:15:00",
+    "user": "BATCH 00000725",
+    "change_request_id": null,
+    "unid": "e171ebb9a6832a42c125802000644056"
+  }
+}

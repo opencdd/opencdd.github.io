@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///62683#ACC507",
+  "code": "ACC507",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Diffuse reflective photoelectric proximity switch",
+  "preferred_name_ml": {
+    "en": "Diffuse reflective photoelectric proximity switch",
+    "fr": "Détecteur de proximité photoélectrique à détection directe",
+    "de": "Reflexions-Lichttaster",
+    "zh": "漫射光电式接近开关"
+  },
+  "definition": "photoelectric proximity switch which is directly operated through lateral or axial approach to its reference axis by a defined object",
+  "definition_ml": {
+    "en": "photoelectric proximity switch which is directly operated through lateral or axial approach to its reference axis by a defined object",
+    "fr": "détecteur de proximité photoélectrique actionné directement par l’approche, latérale ou axiale à son axe de référence, d’un objet défini",
+    "de": "fotoelektrischer Näherungsschalter, der direkt durch seitliche oder axiale Annäherung zur Referenzachse durch ein definiertes Objekt betätigt wird",
+    "zh": "由定义的对象通过横向或轴向接近基准轴来直接操作的光电接近开关。"
+  },
+  "source_document": "2.1.1.4.1 of IEC 60947-5-2:2007 modified",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Photoelectric proximity switch type D"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Photoelectric proximity switch type D",
+    "fr": "Détecteur de proximité photoélectrique type D"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC507",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Diffuse reflective photoelectric proximity switch",
+    "MDC_P007.en": "Photoelectric proximity switch type D",
+    "MDC_P006.en": "photoelectric proximity switch which is directly operated through lateral or axial approach to its reference axis by a defined object",
+    "MDC_P006_1": "2.1.1.4.1 of IEC 60947-5-2:2007 modified",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2021-01-19",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2021-01-19",
+    "MDC_P003_3": "2021-01-19",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC500",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF121,0112/2///62683#ACF226,0112/2///62683#ACF123,0112/2///62683#ACF124,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Détecteur de proximité photoélectrique à détection directe",
+    "MDC_P007.fr": "Détecteur de proximité photoélectrique type D",
+    "MDC_P006.fr": "détecteur de proximité photoélectrique actionné directement par l’approche, latérale ou axiale à son axe de référence, d’un objet défini",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-03-05",
+    "MDC_P004.de": "Reflexions-Lichttaster",
+    "MDC_P006.de": "fotoelektrischer Näherungsschalter, der direkt durch seitliche oder axiale Annäherung zur Referenzachse durch ein definiertes Objekt betätigt wird",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "漫射光电式接近开关",
+    "MDC_P006.zh": "由定义的对象通过横向或轴向接近基准轴来直接操作的光电接近开关。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-01-19 10:59:05",
+      "user": "BATCH 00000779",
+      "unid": "ff4ff76ba379d46ac12586620036d93c",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:34",
+      "user": "BATCH 00000749",
+      "unid": "ad995b0edc9d54a5c12584ec0078a0cc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "62d30b0b7703f8b9c125803000450211",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2021-01-19",
+    "current_revision": "2021-01-19"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF121",
+    "0112/2///62683#ACF226",
+    "0112/2///62683#ACF123",
+    "0112/2///62683#ACF124",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC500",
+  "superclass_type_property": "0112/2///62683#ACC500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2021-01-19 10:59:05",
+    "user": "BATCH 00000779",
+    "change_request_id": null,
+    "unid": "ff4ff76ba379d46ac12586620036d93c"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB220",
+  "code": "ABB220",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "lower range-limit of density",
+  "preferred_name_ml": {
+    "en": "lower range-limit of density",
+    "fr": "limite inférieure de plage de densité",
+    "de": "Messbereichsanfang Dichte"
+  },
+  "definition": "lowest value of density that a device can be adjusted to measure within its specified accuracy limits",
+  "definition_ml": {
+    "en": "lowest value of density that a device can be adjusted to measure within its specified accuracy limits",
+    "fr": "valeur de densité la plus faible à laquelle un appareil peut être réglé pour mesurer dans ses limites de précision spécifiées",
+    "de": "niedrigster Wert von Dichte, auf den ein Gerät innerhalb seiner angegebenen Genauigkeitsgrenzen eingestellt werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB220",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "lower range-limit of density",
+    "MDC_P006.en": "lowest value of density that a device can be adjusted to measure within its specified accuracy limits",
+    "MDC_P023": "kg/m³",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA619",
+    "C0104": "0112/2///61987#ABT573",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "limite inférieure de plage de densité",
+    "MDC_P006.fr": "valeur de densité la plus faible à laquelle un appareil peut être réglé pour mesurer dans ses limites de précision spécifiées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Messbereichsanfang Dichte",
+    "MDC_P006.de": "niedrigster Wert von Dichte, auf den ein Gerät innerhalb seiner angegebenen Genauigkeitsgrenzen eingestellt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "5C0EE7246BDC4F37C125825E001DE8BD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "fb561097016a82f2c1257fa7004059f7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:34",
+      "user": "BATCH 00000702",
+      "unid": "66b705b2ecf4270bc1257cfb00403b45",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "6f8b43c4dd5b27d3c1257cb40054bd02",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA619",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "5C0EE7246BDC4F37C125825E001DE8BD"
+  }
+}

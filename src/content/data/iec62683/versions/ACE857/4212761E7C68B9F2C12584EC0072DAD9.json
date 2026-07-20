@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///62683#ACE857",
+  "code": "ACE857",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "cable length",
+  "preferred_name_ml": {
+    "en": "cable length",
+    "fr": "longueur du câble",
+    "de": "Leitungslänge",
+    "zh": "电缆长度"
+  },
+  "definition": "value of the length of the electrical connecting cable",
+  "definition_ml": {
+    "en": "value of the length of the electrical connecting cable",
+    "fr": "valeur de la longueur du câble de raccordement électrique",
+    "de": "Länge der elektrischen Verbindungsleitung",
+    "zh": "进行电气连接的电缆的长度值"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00074",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE857",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "cable length",
+    "MDC_P006.en": "value of the length of the electrical connecting cable",
+    "MDC_P023": "m",
+    "MDC_P111": "{foot}",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..2.1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC068",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "MDC_P042": "{0112/2///62720#UAA440}",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-02-13",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "longueur du câble",
+    "MDC_P006.fr": "valeur de la longueur du câble de raccordement électrique",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2017-01-24",
+    "MDC_P004.de": "Leitungslänge",
+    "MDC_P006.de": "Länge der elektrischen Verbindungsleitung",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "电缆长度",
+    "MDC_P006.zh": "进行电气连接的电缆的长度值",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00074"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "4212761E7C68B9F2C12584EC0072DAD9",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "2e6a0ab280bd5558c125803000457124",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-02-13",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "value_format": "NR2..2.1",
+  "definition_class_irdi": "0112/2///62683#ACC068",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [
+    "0112/2///62720#UAA440"
+  ],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..2.1",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:31",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "4212761E7C68B9F2C12584EC0072DAD9"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61360_4#AAA666",
+  "code": "AAA666",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "torus",
+  "preferred_name_ml": {
+    "en": "torus"
+  },
+  "definition": "solid defined by sweeping the area of a circle (the generatrix) along a larger circle (the directrix)",
+  "definition_ml": {
+    "en": "solid defined by sweeping the area of a circle (the generatrix) along a larger circle (the directrix)"
+  },
+  "source_document": "ISO 10303-42:2003, 6.4.18",
+  "synonyms": [],
+  "note": "NOTE 1  The major radius shall be greater than the minor radius.||NOTE 2  The location of the central point on the axis and the direction of the axis define the centre and plane of the directrix.||NOTE 3  The property axis1_placement3d specifies the local coordinate system of the torus whereas the property location specifies the position of the origin of the local coordinate system within the geometric context.",
+  "note_ml": {
+    "en": "NOTE 1  The major radius shall be greater than the minor radius.||NOTE 2  The location of the central point on the axis and the direction of the axis define the centre and plane of the directrix.||NOTE 3  The property axis1_placement3d specifies the local coordinate system of the torus whereas the property location specifies the position of the origin of the local coordinate system within the geometric context."
+  },
+  "simplified_drawing": "DAAA666",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "ISO 10303-42",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA666",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "torus",
+    "MDC_P006.en": "solid defined by sweeping the area of a circle (the generatrix) along a larger circle (the directrix)",
+    "MDC_P008.en": "NOTE 1  The major radius shall be greater than the minor radius.||NOTE 2  The location of the central point on the axis and the direction of the axis define the centre and plane of the directrix.||NOTE 3  The property axis1_placement3d specifies the local coordinate system of the torus whereas the property location specifies the position of the origin of the local coordinate system within the geometric context.",
+    "MDC_P006_1": "ISO 10303-42:2003, 6.4.18",
+    "MDC_P008_1": "DAAA666",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "ISO 10303-42",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2015-02-19",
+    "MDC_P003_2": "2015-10-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA668",
+    "MDC_P014": "{0112/2///61360_4#AAF695,0112/2///61360_4#AAF698,0112/2///61360_4#AAF421,0112/2///61360_4#AAF422}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "062869BF52E17645C1258994002BD17F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:16",
+      "user": "BATCH 00000902",
+      "unid": "7fa469253e97a068c1257e89004bd4cf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-19",
+    "current_version": "2015-10-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF695",
+    "0112/2///61360_4#AAF698",
+    "0112/2///61360_4#AAF421",
+    "0112/2///61360_4#AAF422"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA668",
+  "superclass_type_property": "0112/2///61360_4#AAA668",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "062869BF52E17645C1258994002BD17F"
+  }
+}

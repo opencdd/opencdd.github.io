@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE333",
+  "code": "ABE333",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-07 09:39:18",
+    "user": "BATCH 00000696",
+    "change_request_id": null,
+    "unid": "5d1773b95684b71fc1257cb3002a0d29"
+  }
+}

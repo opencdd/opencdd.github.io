@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABA779",
+  "code": "ABA779",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Open channel flow transmitter",
+  "preferred_name_ml": {
+    "en": "Open channel flow transmitter",
+    "fr": "Transmetteur de débit à canal ouvert",
+    "de": "Durchflussmessgerät mit offenem Kanal",
+    "jp": "開水路流量計"
+  },
+  "definition": "head-type flow transmitter that uses an obstruction or restriction in an open channel to output a signal representative of flow",
+  "definition_ml": {
+    "en": "head-type flow transmitter that uses an obstruction or restriction in an open channel to output a signal representative of flow",
+    "fr": "transmetteur de débit du type à charge utilisant une obstruction ou restriction dans un canal ouvert pour délivrer en sortie un signal représentatif du débit",
+    "de": "Stauwehr-Durchflussmessgerät, das ein Hindernis oder eine Einschränkung in einem offenen Kanal nutzt, um ein Signal abzugeben, das für den Durchfluss repräsentativ ist",
+    "jp": "開水路流量を計測する流量計"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA779",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Open channel flow transmitter",
+    "MDC_P006.en": "head-type flow transmitter that uses an obstruction or restriction in an open channel to output a signal representative of flow",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA778",
+    "MDC_P004.fr": "Transmetteur de débit à canal ouvert",
+    "MDC_P006.fr": "transmetteur de débit du type à charge utilisant une obstruction ou restriction dans un canal ouvert pour délivrer en sortie un signal représentatif du débit",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Durchflussmessgerät mit offenem Kanal",
+    "MDC_P006.de": "Stauwehr-Durchflussmessgerät, das ein Hindernis oder eine Einschränkung in einem offenen Kanal nutzt, um ein Signal abzugeben, das für den Durchfluss repräsentativ ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "MDC_P004.jp": "開水路流量計",
+    "MDC_P006.jp": "開水路流量を計測する流量計",
+    "MDC_P009.jp": "JEMIS-043_ANNEX_A_080331 Draft, ID: JEMIMA_C000024",
+    "C019.jp": "Mr. Takaharu Matsumoto",
+    "C017.jp": "0",
+    "C018.jp": "2016-09-22",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "81635B4398BDA637C125825E001DD3C8",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:35",
+      "user": "BATCH 00000701",
+      "unid": "78214c8e152ec199c1257cfb003f9772",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "0b9b91b7cf9079e0c1257cfb003f67cc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:06",
+      "user": "BATCH 00000699",
+      "unid": "ac750588b0246418c1257cb400549ab7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "165a85ecbed1a184c1257cb3002a0cb1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA778",
+  "superclass_type_property": "0112/2///61987#ABA778",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "81635B4398BDA637C125825E001DD3C8"
+  }
+}

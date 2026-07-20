@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61987#ABA150",
+  "code": "ABA150",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "face finish",
+  "preferred_name_ml": {
+    "en": "face finish",
+    "fr": "fini de face",
+    "de": "Oberflächenbehandlung der Dichtfläche"
+  },
+  "definition": "surface finish applied to the face of a sealing surface",
+  "definition_ml": {
+    "en": "surface finish applied to the face of a sealing surface",
+    "fr": "fini de surface appliqué sur la surface d'étanchéité",
+    "de": "Oberflächenbehandlung, die auf einer Dichtfläche durchgeführt wurde"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA150",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "face finish",
+    "MDC_P006.en": "surface finish applied to the face of a sealing surface",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "fini de face",
+    "MDC_P006.fr": "fini de surface appliqué sur la surface d'étanchéité",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Oberflächenbehandlung der Dichtfläche",
+    "MDC_P006.de": "Oberflächenbehandlung, die auf einer Dichtfläche durchgeführt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:52",
+      "user": "BATCH 00000818",
+      "unid": "0ED61B682C284665C1258A7D0039D9AF",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "9dc5262797407313c125825e001de5a1",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "009db37a61505e4ac125825600407b3f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "5d185631aaa87426c12580d6004c1a78",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "4bb1911a35b7f735c1257cfb00403852",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "ed37e26bdbd97bb3c1257cb40054ba0f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:52",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "0ED61B682C284665C1258A7D0039D9AF"
+  }
+}

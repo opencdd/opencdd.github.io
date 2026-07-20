@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA077",
+  "code": "ABA077",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "style of function block",
+  "preferred_name_ml": {
+    "en": "style of function block",
+    "fr": "style de bloc de fonction",
+    "de": "Typ des Function Blocks"
+  },
+  "definition": "classification of a function block according to interoperability",
+  "definition_ml": {
+    "en": "classification of a function block according to interoperability",
+    "fr": "classification d’un bloc de fonction en fonction de l’interopérabilité",
+    "de": "Charakterisierung eines Function Blocks bezüglich seiner Interoperabilität"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA077",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of function block",
+    "MDC_P006.en": "classification of a function block according to interoperability",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL641)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "style de bloc de fonction",
+    "MDC_P006.fr": "classification d’un bloc de fonction en fonction de l’interopérabilité",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Typ des Function Blocks",
+    "MDC_P006.de": "Charakterisierung eines Function Blocks bezüglich seiner Interoperabilität",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "165125EB597751E4C1258CDC004A3A3D",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:25",
+      "user": "BATCH 00000774",
+      "unid": "cf92a04b2d9759eec1258518003c4806",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "6d9e1221aca6f473c125825e001de570",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "4d8e9bb0e1c5a5afc1257cb40054b9da",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL641)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL641)",
+  "value_list": "0112/2///61987#ABL641",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "165125EB597751E4C1258CDC004A3A3D"
+  }
+}

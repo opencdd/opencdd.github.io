@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA969",
+  "code": "ABA969",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:23:32",
+    "user": "BATCH 00000755",
+    "change_request_id": null,
+    "unid": "15171e63a2facd0fc1258256003e946f"
+  }
+}

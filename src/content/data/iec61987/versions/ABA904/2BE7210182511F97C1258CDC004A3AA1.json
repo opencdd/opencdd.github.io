@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA904",
+  "code": "ABA904",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "type of power supply",
+  "preferred_name_ml": {
+    "en": "type of power supply",
+    "fr": "type d’alimentation",
+    "de": "Art der Energieversorgung"
+  },
+  "definition": "classification of a power supply according to the current mode which can be used to operate a device",
+  "definition_ml": {
+    "en": "classification of a power supply according to the current mode which can be used to operate a device",
+    "fr": "classification d’une alimentation en fonction du mode actuel qui peut être utilisé pour faire fonctionner un appareil",
+    "de": "Charakterisierung einer Energieversorgung bezüglich des Strommodus, der benutzt werden kann, um ein Gerät zu betreiben"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA904",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of power supply",
+    "MDC_P006.en": "classification of a power supply according to the current mode which can be used to operate a device",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL355)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type d’alimentation",
+    "MDC_P006.fr": "classification d’une alimentation en fonction du mode actuel qui peut être utilisé pour faire fonctionner un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art der Energieversorgung",
+    "MDC_P006.de": "Charakterisierung einer Energieversorgung bezüglich des Strommodus, der benutzt werden kann, um ein Gerät zu betreiben",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "2BE7210182511F97C1258CDC004A3AA1",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "a5fe0a7f53bab627c1258518003c4884",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "ac63e460ff37a996c125825e001de785",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "6d6ad4b6005a8791c1258256003e9444",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "3bce579a51da950bc12580d6004c1c32",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "49bc4b865a1d6b1ec1257cfb00403a0c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "72423ee497f87af3c1257cb40054bbc9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL355)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL355)",
+  "value_list": "0112/2///61987#ABL355",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "2BE7210182511F97C1258CDC004A3AA1"
+  }
+}

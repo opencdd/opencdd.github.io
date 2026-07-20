@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABV158",
+  "code": "ABV158",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "reference to Design ratings for thermowell",
+  "preferred_name_ml": {
+    "en": "reference to Design ratings for thermowell"
+  },
+  "definition": "reference to block ABV234",
+  "definition_ml": {
+    "en": "reference to block ABV234"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABV158",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "reference to Design ratings for thermowell",
+    "MDC_P006.en": "reference to block ABV234",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABV234)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P028": "{0112/2///61987#ABF555}",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:02:00",
+      "user": "BATCH 00000794",
+      "unid": "B66DBCA92BB28676C125886F003C9BB2",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:23",
+      "user": "BATCH 00000762",
+      "unid": "36371a0bc8f4e34ac125825e001df955",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-09-28 09:59:27",
+      "user": "BATCH 00000728",
+      "unid": "437482a73c02a942c125803c002be551",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-08-31 20:15:04",
+      "user": "BATCH 00000725",
+      "unid": "829568e5adfcf1c0c1258020006441da",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:07",
+      "user": "BATCH 00000715",
+      "unid": "3a32b4ef84dca934c1257f7f004d0205",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:44:05",
+      "user": "BATCH 00000717",
+      "unid": "da64fe522a13247dc1257fa700407606",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABV234)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABF555}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABV234)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:02:00",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "B66DBCA92BB28676C125886F003C9BB2"
+  }
+}

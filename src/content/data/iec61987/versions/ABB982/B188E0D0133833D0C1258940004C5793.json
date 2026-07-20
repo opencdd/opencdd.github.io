@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB982",
+  "code": "ABB982",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "set lower range end-value of displayed variable",
+  "preferred_name_ml": {
+    "en": "set lower range end-value of displayed variable",
+    "fr": "valeur inférieure d'extrémité d'étendue de la variable affichée",
+    "de": "eingestellter Anfangswert der dargestellten Größe"
+  },
+  "definition": "value defining the lower end of a measuring range of a displayed variable",
+  "definition_ml": {
+    "en": "value defining the lower end of a measuring range of a displayed variable",
+    "fr": "valeur définissant l'extrémité inférieure d'une étendue de mesures d'une variable affichée",
+    "de": "Wert, der den Messbereichsbeginn einer dargestellten Größe definiert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB982",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "set lower range end-value of displayed variable",
+    "MDC_P006.en": "value defining the lower end of a measuring range of a displayed variable",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur inférieure d'extrémité d'étendue de la variable affichée",
+    "MDC_P006.fr": "valeur définissant l'extrémité inférieure d'une étendue de mesures d'une variable affichée",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "eingestellter Anfangswert der dargestellten Größe",
+    "MDC_P006.de": "Wert, der den Messbereichsbeginn einer dargestellten Größe definiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "B188E0D0133833D0C1258940004C5793",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "936771c18c2dc10ec125825e001debaf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:42",
+      "user": "BATCH 00000702",
+      "unid": "ccbac2cba657504bc1257cfb00403e37",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "031ab7ca04293300c1257cb40054bff4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "B188E0D0133833D0C1258940004C5793"
+  }
+}

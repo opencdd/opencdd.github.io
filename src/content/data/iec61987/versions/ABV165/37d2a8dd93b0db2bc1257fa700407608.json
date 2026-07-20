@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABV165",
+  "code": "ABV165",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-05-02 13:44:05",
+    "user": "BATCH 00000717",
+    "change_request_id": null,
+    "unid": "37d2a8dd93b0db2bc1257fa700407608"
+  }
+}

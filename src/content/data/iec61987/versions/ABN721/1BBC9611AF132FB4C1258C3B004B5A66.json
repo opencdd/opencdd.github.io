@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABN721",
+  "code": "ABN721",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "analog setpoint value",
+  "preferred_name_ml": {
+    "en": "analog setpoint value",
+    "de": "analoger Sollwert"
+  },
+  "short_name": "Analog SP",
+  "short_name_ml": {
+    "en": "Analog SP",
+    "de": "Sollwert"
+  },
+  "definition": "in a control loop, the target value the process value is intended to assume, expressed as the percentage of the process value measuring range",
+  "definition_ml": {
+    "en": "in a control loop, the target value the process value is intended to assume, expressed as the percentage of the process value measuring range",
+    "de": "in einem Regelkreis der Zielwert, den der Prozesswert annehmen soll, ausgedrückt in relativen Einheiten des Prozesswert-Messbereichs"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN721",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "analog setpoint value",
+    "MDC_P005.en": "Analog SP",
+    "MDC_P006.en": "in a control loop, the target value the process value is intended to assume, expressed as the percentage of the process value measuring range",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "analoger Sollwert",
+    "MDC_P005.de": "Sollwert",
+    "MDC_P006.de": "in einem Regelkreis der Zielwert, den der Prozesswert annehmen soll, ausgedrückt in relativen Einheiten des Prozesswert-Messbereichs",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2024-01-08",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:03",
+      "user": "BATCH 00000835",
+      "unid": "1BBC9611AF132FB4C1258C3B004B5A66",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:02:00",
+      "user": "BATCH 00000794",
+      "unid": "0062a9f7f676f114c125886f003c9ba2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:21",
+      "user": "BATCH 00000778",
+      "unid": "c1b254990b5b6b01c1258518003fd826",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:03",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "1BBC9611AF132FB4C1258C3B004B5A66"
+  }
+}

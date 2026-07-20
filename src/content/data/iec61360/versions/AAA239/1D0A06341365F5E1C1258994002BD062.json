@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#AAA239",
+  "code": "AAA239",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "toleranced resistance",
+  "preferred_name_ml": {
+    "en": "toleranced resistance"
+  },
+  "short_name": "TOLRES",
+  "short_name_ml": {
+    "en": "TOLRES"
+  },
+  "definition": "resistance of an electric component together with associated tolerances",
+  "definition_ml": {
+    "en": "resistance of an electric component together with associated tolerances"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA239",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "TOLRES",
+    "MDC_P004.en": "toleranced resistance",
+    "MDC_P006.en": "resistance of an electric component together with associated tolerances",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2020-08-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA235",
+    "MDC_P014": "{0112/2///61360_4#AAF450,0112/2///61360_4#AAF451,0112/2///61360_4#AAF452,0112/2///61360_4#AAF453}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "1D0A06341365F5E1C1258994002BD062",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2020-08-11 12:06:12",
+      "user": "BATCH 00001197",
+      "unid": "bf92dc19b01443abc12585c100377ff3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2020-05-14 14:06:55",
+      "user": "BATCH 00000879",
+      "unid": "9a45f60b11dc624ec125856800428d61",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-05-14 14:07:10",
+      "user": "BATCH 00000746",
+      "unid": "5bcc4c2f422bf4ebc12585680042930f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2020-08-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF450",
+    "0112/2///61360_4#AAF451",
+    "0112/2///61360_4#AAF452",
+    "0112/2///61360_4#AAF453"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA235",
+  "superclass_type_property": "0112/2///61360_4#AAA235",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "1D0A06341365F5E1C1258994002BD062"
+  }
+}

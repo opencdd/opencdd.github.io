@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///62683#ACG095",
+  "code": "ACG095",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Conductor entry reference point",
+  "preferred_name_ml": {
+    "en": "Conductor entry reference point",
+    "fr": "Point de référence de l'entrée de conducteur"
+  },
+  "definition": "point of reference located at the extreme left (x axis), bottom (z axis) and rear (z axis) of the conductor entry",
+  "definition_ml": {
+    "en": "point of reference located at the extreme left (x axis), bottom (z axis) and rear (z axis) of the conductor entry",
+    "fr": "point de référence a l'extrémité arrière (axe Y), gauche (axe X) et basse  (axe Z) de l'entrée de conducteur"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG095",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Conductor entry reference point",
+    "MDC_P006.en": "point of reference located at the extreme left (x axis), bottom (z axis) and rear (z axis) of the conductor entry",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2024-05-16",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P014": "{0112/2///62683#ACE890,0112/2///62683#ACE891,0112/2///62683#ACE892}",
+    "MDC_P004.fr": "Point de référence de l'entrée de conducteur",
+    "MDC_P006.fr": "point de référence a l'extrémité arrière (axe Y), gauche (axe X) et basse  (axe Z) de l'entrée de conducteur",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "12/27/2024",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "6AB793645027F45AC1258D8F003A6D06",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "a82cd62bddcab341c1258b9d00731739",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "672cc6ef5b097967c1258034002e35af",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "2b19d9524aa988f5c125803000450285",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-05-16",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACE890",
+    "0112/2///62683#ACE891",
+    "0112/2///62683#ACE892"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "6AB793645027F45AC1258D8F003A6D06"
+  }
+}

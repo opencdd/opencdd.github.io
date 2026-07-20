@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABU373",
+  "code": "ABU373",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "reference to Percentage performance",
+  "preferred_name_ml": {
+    "en": "reference to Percentage performance"
+  },
+  "definition": "reference to block ABC489",
+  "definition_ml": {
+    "en": "reference to block ABC489"
+  },
+  "synonyms": [],
+  "remark": "Id specified in IEC61987-12/-13: ABD119",
+  "remark_ml": {
+    "en": "Id specified in IEC61987-12/-13: ABD119"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU373",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "reference to Percentage performance",
+    "MDC_P006.en": "reference to block ABC489",
+    "MDC_P009.en": "Id specified in IEC61987-12/-13: ABD119",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC489)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-08-31",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P028": "{0112/2///61987#ABU348}",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:19",
+      "user": "BATCH 00000762",
+      "unid": "D90BB4310262E5E4C125825E001DF7D8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:56",
+      "user": "BATCH 00000702",
+      "unid": "6b02a6b7bcf20c0fc1257cfb004043b3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:55",
+      "user": "BATCH 00000699",
+      "unid": "624ee019e7a05e59c1257cb40054c570",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-08-31"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC489)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU348}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC489)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:19",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D90BB4310262E5E4C125825E001DF7D8"
+  }
+}

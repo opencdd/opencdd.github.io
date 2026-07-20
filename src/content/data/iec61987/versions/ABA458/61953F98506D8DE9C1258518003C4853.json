@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61987#ABA458",
+  "code": "ABA458",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "electrical service life",
+  "preferred_name_ml": {
+    "en": "electrical service life",
+    "fr": "durée de vie électrique",
+    "de": "maximale Zahl der Schaltspiele"
+  },
+  "definition": "number of switching events for which a relay was designed",
+  "definition_ml": {
+    "en": "number of switching events for which a relay was designed",
+    "fr": "nombre des événements de commutation pour lesquels un relais a été conçu",
+    "de": "Zahl der Schaltvorgänge, für die ein Relais ausgelegt wurde"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA458",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "electrical service life",
+    "MDC_P006.en": "number of switching events for which a relay was designed",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "durée de vie électrique",
+    "MDC_P006.fr": "nombre des événements de commutation pour lesquels un relais a été conçu",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximale Zahl der Schaltspiele",
+    "MDC_P006.de": "Zahl der Schaltvorgänge, für die ein Relais ausgelegt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "61953F98506D8DE9C1258518003C4853",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:29",
+      "user": "BATCH 00000755",
+      "unid": "19ba7bc811080154c1258256003e9386",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "7d849dfe1e7573a5c12580d6004c1b6c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:12",
+      "user": "BATCH 00000717",
+      "unid": "eacd0bb6a2878387c1257fa7004049d0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "bf3ccdd91618be34c1257cfb00403946",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "e2a27e145caefe42c1257cb40054bb03",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:26",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "61953F98506D8DE9C1258518003C4853"
+  }
+}

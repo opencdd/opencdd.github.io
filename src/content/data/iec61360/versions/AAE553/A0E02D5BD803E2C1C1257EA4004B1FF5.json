@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#AAE553",
+  "code": "AAE553",
+  "version": "6",
+  "revision": "4",
+  "preferred_name": "turn-off time",
+  "preferred_name_ml": {
+    "en": "turn-off time"
+  },
+  "short_name": "t_off",
+  "short_name_ml": {
+    "en": "t_off"
+  },
+  "definition": "value of the time interval between the end of the input pulse (90% of its maximum value) and the moment when the corresponding output signal of a photocoupler falls to 10% of its maximum value, at specified conditions",
+  "definition_ml": {
+    "en": "value of the time interval between the end of the input pulse (90% of its maximum value) and the moment when the corresponding output signal of a photocoupler falls to 10% of its maximum value, at specified conditions"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE553",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "turn-off time",
+    "MDC_P005.en": "t_off",
+    "MDC_P006.en": "value of the time interval between the end of the input pulse (90% of its maximum value) and the moment when the corresponding output signal of a photocoupler falls to 10% of its maximum value, at specified conditions",
+    "MDC_P025_1": "t_off}",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2008-02-25",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE212,0112/2///61360_4#AAE271,0112/2///61360_4#AAE274,0112/2///61360_4#AAE406,0112/2///61360_4#AAE547}"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "A0E02D5BD803E2C1C1257EA4004B1FF5",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "9a08a0d69267d686c1257e8b00323644",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "f1526a249406ffeac1257e8a0043e418",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-31 14:10:11",
+      "user": "BATCH 00000733",
+      "unid": "232686fcaa8dc78fc12578fd0042d9b7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2008-02-25",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_off}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE212,0112/2///61360_4#AAE271,0112/2///61360_4#AAE274,0112/2///61360_4#AAE406,0112/2///61360_4#AAE547}",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "A0E02D5BD803E2C1C1257EA4004B1FF5"
+  }
+}

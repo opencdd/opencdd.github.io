@@ -1,0 +1,151 @@
+{
+  "irdi": "0112/2///61987#ABC220",
+  "code": "ABC220",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Electrical terminal",
+  "preferred_name_ml": {
+    "en": "Electrical terminal",
+    "fr": "Borne électrique",
+    "de": "Elektrischer Anschluss"
+  },
+  "definition": "properties characterizing the electrical connections provided by a device",
+  "definition_ml": {
+    "en": "properties characterizing the electrical connections provided by a device",
+    "fr": "propriétés caractérisant les connexions électriques fournies par un appareil",
+    "de": "Merkmale, die die von einem Gerät bereitgestellten elektrischen Anschlüsse kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC220",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Electrical terminal",
+    "MDC_P006.en": "properties characterizing the electrical connections provided by a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB147,0112/2///61987#ABB148,0112/2///61987#ABB149,0112/2///61987#ABA978,0112/2///61987#ABH368,0112/2///61987#ABA392,0112/2///61987#ABE364,0112/2///61987#ABA394,0112/2///61987#ABB150,0112/2///61987#ABA397,0112/2///61987#ABA400}",
+    "MDC_P004.fr": "Borne électrique",
+    "MDC_P006.fr": "propriétés caractérisant les connexions électriques fournies par un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Elektrischer Anschluss",
+    "MDC_P006.de": "Merkmale, die die von einem Gerät bereitgestellten elektrischen Anschlüsse kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "7747205718A7ECD3C125825E001DD541",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:07",
+      "user": "BATCH 00000755",
+      "unid": "d9d9d6d63cbc7ffdc1258256003e732c",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:00",
+      "user": "BATCH 00000732",
+      "unid": "d006fda26ed0ed93c12580d6004bfd2f",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:13",
+      "user": "BATCH 00000714",
+      "unid": "1c682a443631853fc1257f7e0033a7d6",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:35:49",
+      "user": "BATCH 00000716",
+      "unid": "3adc2ba653a010c6c1257fa7003a3643",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:37",
+      "user": "BATCH 00000701",
+      "unid": "d21a8710ba8eab22c1257cfb003f9856",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "1bdf574d3c51b5f3c1257cb400549ba2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB147",
+    "0112/2///61987#ABB148",
+    "0112/2///61987#ABB149",
+    "0112/2///61987#ABA978",
+    "0112/2///61987#ABH368",
+    "0112/2///61987#ABA392",
+    "0112/2///61987#ABE364",
+    "0112/2///61987#ABA394",
+    "0112/2///61987#ABB150",
+    "0112/2///61987#ABA397",
+    "0112/2///61987#ABA400"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:51",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "7747205718A7ECD3C125825E001DD541"
+  }
+}

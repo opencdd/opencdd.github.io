@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAH014",
+  "code": "AAH014",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "voltage proof",
+  "preferred_name_ml": {
+    "en": "voltage proof"
+  },
+  "short_name": "U_proof",
+  "short_name_ml": {
+    "en": "U_proof"
+  },
+  "definition": "maximum value of the voltage proof an EM component is designed for",
+  "definition_ml": {
+    "en": "maximum value of the voltage proof an EM component is designed for"
+  },
+  "source_document": "IEC 60512-4-1 Test 4a",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "SC3D",
+  "published_in": "3D/91/CD",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAH014",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "voltage proof",
+    "MDC_P005.en": "U_proof",
+    "MDC_P006.en": "maximum value of the voltage proof an EM component is designed for",
+    "MDC_P025_1": "V_proof}",
+    "MDC_P025_3": "U_proof}",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3",
+    "MDC_P006_1": "IEC 60512-4-1 Test 4a",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "C012": "3D/91/CD",
+    "C011": "SC3D",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-05-31",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "E4A9214ACFCB702DC1257EA4004B23C9",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "7619f5fd0b224a9ac1257e8b003239f8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "2f250fc737be5345c1257e8a0043e7ec",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:01",
+      "user": "BATCH 00000704",
+      "unid": "bdda56e63c1f9298c125787f0042a705",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-05-31",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "V_proof}",
+  "value_format": "NR3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR3",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E4A9214ACFCB702DC1257EA4004B23C9"
+  }
+}

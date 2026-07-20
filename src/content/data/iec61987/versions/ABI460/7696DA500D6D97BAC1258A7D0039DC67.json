@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABI460",
+  "code": "ABI460",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "brand name of material",
+  "preferred_name_ml": {
+    "en": "brand name of material",
+    "de": "Markenname des Werkstoffs"
+  },
+  "definition": "designation of material in common industrial use given by a manufacturer",
+  "definition_ml": {
+    "en": "designation of material in common industrial use given by a manufacturer",
+    "de": "Bezeichnung des Werkstoffs, der allgemein in der Industrie verwendet wird und von einem Hersteller stammt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABI460",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "brand name of material",
+    "MDC_P006.en": "designation of material in common industrial use given by a manufacturer",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2016-05-13",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Markenname des Werkstoffs",
+    "MDC_P006.de": "Bezeichnung des Werkstoffs, der allgemein in der Industrie verwendet wird und von einem Hersteller stammt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-05-13",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "7696DA500D6D97BAC1258A7D0039DC67",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:17",
+      "user": "BATCH 00000762",
+      "unid": "e886ee27f6ccd877c125825e001df6cc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "8df396b0d2b281e9c125825600407b2f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-09-18 15:29:49",
+      "user": "BATCH 00000740",
+      "unid": "d9343f4b155fb964c125819f004a2427",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2016-05-13",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:59",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "7696DA500D6D97BAC1258A7D0039DC67"
+  }
+}

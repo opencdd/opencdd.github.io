@@ -1,0 +1,161 @@
+{
+  "irdi": "0112/2///61987#ABA587",
+  "code": "ABA587",
+  "version": "6",
+  "revision": "2",
+  "preferred_name": "GTIN code",
+  "preferred_name_ml": {
+    "en": "GTIN code",
+    "fr": "code GTIN",
+    "de": "GTIN-Code"
+  },
+  "definition": "bar code number that identifies the device based on the Global Trade Item Number system",
+  "definition_ml": {
+    "en": "bar code number that identifies the device based on the Global Trade Item Number system",
+    "fr": "code barre identifiant l’appareil en fonction du système de code article international",
+    "de": "Barcode-Nummer, die das Gerät gemäß des Global Trade Item Number Systems identifiziert"
+  },
+  "synonyms": [],
+  "note": "GTIN replaces the former EAN",
+  "note_ml": {
+    "en": "GTIN replaces the former EAN",
+    "de": "GTIN ersetzt die frühere Bezeichnung EAN"
+  },
+  "remark": "legacy property, updated by 0112/2///61360_7#CBA043 - global trade item number (GTIN)",
+  "remark_ml": {
+    "en": "legacy property, updated by 0112/2///61360_7#CBA043 - global trade item number (GTIN)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA587",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "GTIN code",
+    "MDC_P006.en": "bar code number that identifies the device based on the Global Trade Item Number system",
+    "MDC_P008.en": "GTIN replaces the former EAN",
+    "MDC_P009.en": "legacy property, updated by 0112/2///61360_7#CBA043 - global trade item number (GTIN)",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "code GTIN",
+    "MDC_P006.fr": "code barre identifiant l’appareil en fonction du système de code article international",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "GTIN-Code",
+    "MDC_P006.de": "Barcode-Nummer, die das Gerät gemäß des Global Trade Item Number Systems identifiziert",
+    "MDC_P008.de": "GTIN ersetzt die frühere Bezeichnung EAN",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "3062B08D4E7EF1D1C1258D3E003CD652",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "d474ac2d2fef6c0cc1258a7d0039da3f",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "dfb0fd723b342905c125825e001de740",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:28",
+      "user": "BATCH 00000755",
+      "unid": "99ded8b036b84f01c1258256003e92fd",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:14",
+      "user": "BATCH 00000756",
+      "unid": "738fa1a0332087dac1258256004079cb",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "f6c99bd33af8f73ec12580d6004c1bec",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "337924d3060d6238c1257cfb004039c6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "54ae4a161c6f8f91c1257cb40054bb83",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2025-11-10"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "3062B08D4E7EF1D1C1258D3E003CD652"
+  }
+}

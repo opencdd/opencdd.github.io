@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61987#ABH113",
+  "code": "ABH113",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Head",
+  "preferred_name_ml": {
+    "en": "Head",
+    "de": "Behälterboden/-deckel"
+  },
+  "definition": "properties characterizing the heads of a piece of process equipment",
+  "definition_ml": {
+    "en": "properties characterizing the heads of a piece of process equipment",
+    "de": "Merkmale, die den Boden eines Behälters kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH113",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Head",
+    "MDC_P006.en": "properties characterizing the heads of a piece of process equipment",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABH114,0112/2///61987#ABH115,0112/2///61987#ABA145,0112/2///61987#ABH117,0112/2///61987#ABH118,0112/2///61987#ABH119,0112/2///61987#ABA910,0112/2///61987#ABB932,0112/2///61987#ABH110,0112/2///61987#ABH111,0112/2///61987#ABA554,0112/2///61987#ABH120,0112/2///61987#ABH121,0112/2///61987#ABH122,0112/2///61987#ABH123,0112/2///61987#ABH124}",
+    "MDC_P004.de": "Behälterboden/-deckel",
+    "MDC_P006.de": "Merkmale, die den Boden eines Behälters kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:16",
+      "user": "BATCH 00000774",
+      "unid": "1A0543F5EC6431ADC1258518003C444E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:12",
+      "user": "BATCH 00000762",
+      "unid": "1ddbde5caea5d6b8c125825e001ddd62",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH114",
+    "0112/2///61987#ABH115",
+    "0112/2///61987#ABA145",
+    "0112/2///61987#ABH117",
+    "0112/2///61987#ABH118",
+    "0112/2///61987#ABH119",
+    "0112/2///61987#ABA910",
+    "0112/2///61987#ABB932",
+    "0112/2///61987#ABH110",
+    "0112/2///61987#ABH111",
+    "0112/2///61987#ABA554",
+    "0112/2///61987#ABH120",
+    "0112/2///61987#ABH121",
+    "0112/2///61987#ABH122",
+    "0112/2///61987#ABH123",
+    "0112/2///61987#ABH124"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:16",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "1A0543F5EC6431ADC1258518003C444E"
+  }
+}

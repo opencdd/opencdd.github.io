@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA907",
+  "code": "ABA907",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "reference standard for material code",
+  "preferred_name_ml": {
+    "en": "reference standard for material code",
+    "fr": "norme de référence pour le code de matériau",
+    "de": "Referenznorm für Werkstoffnummer"
+  },
+  "definition": "standard to which the code of a material refers",
+  "definition_ml": {
+    "en": "standard to which the code of a material refers",
+    "fr": "norme à laquelle le code d'un matériau fait référence",
+    "de": "Norm, auf der die Materialcodes beruhen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA907",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference standard for material code",
+    "MDC_P006.en": "standard to which the code of a material refers",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ737)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "norme de référence pour le code de matériau",
+    "MDC_P006.fr": "norme à laquelle le code d'un matériau fait référence",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Referenznorm für Werkstoffnummer",
+    "MDC_P006.de": "Norm, auf der die Materialcodes beruhen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "CB2292EA66490E6DC1258CDC004A3AA4",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "e63822d2b2588c17c1258518003c4887",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "0bd58cbcf237c26bc125825e001de788",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "7ac6dc8d5dee160fc125825600407b31",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "a4ce5be99461e262c12580d6004c1c35",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "187c110278d713efc1257cfb00403a0f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "1d669eab1854a784c1257cb40054bbcc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ737)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ737)",
+  "value_list": "0112/2///61987#ABJ737",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "CB2292EA66490E6DC1258CDC004A3AA4"
+  }
+}

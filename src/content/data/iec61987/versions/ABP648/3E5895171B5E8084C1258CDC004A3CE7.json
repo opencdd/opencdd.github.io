@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABP648",
+  "code": "ABP648",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "type of component/measurand classification",
+  "preferred_name_ml": {
+    "en": "type of component/measurand classification",
+    "de": "Art der Komponenten-/Messgrößen-Klassifikation"
+  },
+  "short_name": "Comp. Class Type",
+  "short_name_ml": {
+    "en": "Comp. Class Type",
+    "de": "Komp.-Klass."
+  },
+  "definition": "categorization of a chemical component or a measurand according to an existing or user defined scheme",
+  "definition_ml": {
+    "en": "categorization of a chemical component or a measurand according to an existing or user defined scheme",
+    "de": "Einstufung eines chemischen Bestandteils oder einer Messgröße nach einer bestehenden oder benutzerdefinierten Systematik"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP648",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of component/measurand classification",
+    "MDC_P005.en": "Comp. Class Type",
+    "MDC_P006.en": "categorization of a chemical component or a measurand according to an existing or user defined scheme",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABP716)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2023-03-06",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art der Komponenten-/Messgrößen-Klassifikation",
+    "MDC_P005.de": "Komp.-Klass.",
+    "MDC_P006.de": "Einstufung eines chemischen Bestandteils oder einer Messgröße nach einer bestehenden oder benutzerdefinierten Systematik",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-03-06",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "3E5895171B5E8084C1258CDC004A3CE7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:04",
+      "user": "BATCH 00000835",
+      "unid": "f8d8980d0aa93b62c1258c3b004b5ad0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-03-06",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP716)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP716)",
+  "value_list": "0112/2///61987#ABP716",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "3E5895171B5E8084C1258CDC004A3CE7"
+  }
+}

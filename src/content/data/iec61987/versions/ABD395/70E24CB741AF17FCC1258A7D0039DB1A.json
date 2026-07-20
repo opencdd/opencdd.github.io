@@ -1,0 +1,149 @@
+{
+  "irdi": "0112/2///61987#ABD395",
+  "code": "ABD395",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "service description of device",
+  "preferred_name_ml": {
+    "en": "service description of device",
+    "fr": "description de service d'appareil",
+    "de": "Beschreibung der Geräteverwendung"
+  },
+  "definition": "plain text characterizing the usage of a device",
+  "definition_ml": {
+    "en": "plain text characterizing the usage of a device",
+    "fr": "texte simple caractérisant l'utilisation d'un appareil",
+    "de": "einfacher Text, der die Verwendung eines Geräts kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD395",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "service description of device",
+    "MDC_P006.en": "plain text characterizing the usage of a device",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "description de service d'appareil",
+    "MDC_P006.fr": "texte simple caractérisant l'utilisation d'un appareil",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Beschreibung der Geräteverwendung",
+    "MDC_P006.de": "einfacher Text, der die Verwendung eines Geräts kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:56",
+      "user": "BATCH 00000818",
+      "unid": "70E24CB741AF17FCC1258A7D0039DB1A",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "d5716b806e6ad0b5c12583b700502709",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:54",
+      "user": "BATCH 00000762",
+      "unid": "542a83f78717dbdbc125825e001dedef",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "45ac497fe3e50a40c1258256003e958b",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "f917219396a2f002c125825600407ac7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:35",
+      "user": "BATCH 00000732",
+      "unid": "375196e174a9ddc1c12580d6004c229f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:48",
+      "user": "BATCH 00000702",
+      "unid": "8437ed99d8fa3ccbc1257cfb00404075",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:47",
+      "user": "BATCH 00000699",
+      "unid": "01a4b5ae9d64140dc1257cb40054c232",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:56",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "70E24CB741AF17FCC1258A7D0039DB1A"
+  }
+}

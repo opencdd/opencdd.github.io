@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ACB155",
+  "code": "ACB155",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2015-06-15 13:38:36",
+    "user": "BATCH 00000898",
+    "change_request_id": null,
+    "unid": "ebef14a2cbb7410ac1257e65003ff5bd"
+  }
+}

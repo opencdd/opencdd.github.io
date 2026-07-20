@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///62683#ACF147",
+  "code": "ACF147",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "General technical aspects of transfer switching equipment",
+  "preferred_name_ml": {
+    "en": "General technical aspects of transfer switching equipment",
+    "fr": "Aspects techniques généraux du matériel de connexion de transfert",
+    "de": "Allgemeine technische Aspekte von Netzumschaltern",
+    "zh": "转换开关电器通用要求"
+  },
+  "definition": "general technical aspects of the transfer switching equipment",
+  "definition_ml": {
+    "en": "general technical aspects of the transfer switching equipment",
+    "fr": "aspects techniques généraux du matériel de connexion de transfert",
+    "de": "Allgemeine technische Aspekte von Netzumschaltern",
+    "zh": "转换开关电器通用要求"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF147",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "General technical aspects of transfer switching equipment",
+    "MDC_P006.en": "general technical aspects of the transfer switching equipment",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG147)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P004.fr": "Aspects techniques généraux du matériel de connexion de transfert",
+    "MDC_P006.fr": "aspects techniques généraux du matériel de connexion de transfert",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2025-01-02",
+    "MDC_P004.de": "Allgemeine technische Aspekte von Netzumschaltern",
+    "MDC_P006.de": "Allgemeine technische Aspekte von Netzumschaltern",
+    "C019.de": "DKE, A. Huhn",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "转换开关电器通用要求",
+    "MDC_P006.zh": "转换开关电器通用要求",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:30",
+      "user": "BATCH 00000844",
+      "unid": "B06A2C5385482059C1258D2A006B8795",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-01-17 10:55:42",
+      "user": "BATCH 00000822",
+      "unid": "a2262c999794729bc1258c15003689de",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "098b1e466c855b61c1258030004571be",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG147)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG147)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:30",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "B06A2C5385482059C1258D2A006B8795"
+  }
+}

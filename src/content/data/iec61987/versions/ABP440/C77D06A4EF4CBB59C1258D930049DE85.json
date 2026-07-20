@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABP440",
+  "code": "ABP440",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "pH meter",
+  "preferred_name_ml": {
+    "en": "pH meter",
+    "de": "pH-Messgerät"
+  },
+  "short_name": "pH meter",
+  "short_name_ml": {
+    "en": "pH meter",
+    "de": "pH-Messg."
+  },
+  "definition": "process analyser that measures the concentration of hydrogen ions to determine the pH value or potentiometric properties of liquids",
+  "definition_ml": {
+    "en": "process analyser that measures the concentration of hydrogen ions to determine the pH value or potentiometric properties of liquids",
+    "de": "Prozessanalysengerät, das die Konzentration von Wasserstoffionen misst um den pH-Wert zu bestimmen"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987-41",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP440",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "pH meter",
+    "MDC_P004.en": "pH meter",
+    "MDC_P006.en": "process analyser that measures the concentration of hydrogen ions to determine the pH value or potentiometric properties of liquids",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987-41",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_2": "2025-04-07",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABP397",
+    "MDC_P014": "{0112/2///61987#ABQ097}",
+    "MDC_P005.de": "pH-Messg.",
+    "MDC_P004.de": "pH-Messgerät",
+    "MDC_P006.de": "Prozessanalysengerät, das die Konzentration von Wasserstoffionen misst um den pH-Wert zu bestimmen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-12-20",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "C77D06A4EF4CBB59C1258D930049DE85",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-06-12 21:00:40",
+      "user": "BATCH 00000845",
+      "unid": "4d9f78e3c775f157c1258ca700686e64",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2024-09-16 16:44:32",
+      "user": "BATCH 00000833",
+      "unid": "a775e3ee43e82060c1258b9a0050fb90",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-04-07",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABQ097"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABP397",
+  "superclass_type_property": "0112/2///61987#ABP397",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "C77D06A4EF4CBB59C1258D930049DE85"
+  }
+}

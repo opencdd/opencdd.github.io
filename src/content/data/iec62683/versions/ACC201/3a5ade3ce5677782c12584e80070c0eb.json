@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///62683#ACC201",
+  "code": "ACC201",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Circuit-breaker",
+  "preferred_name_ml": {
+    "en": "Circuit-breaker",
+    "fr": "Disjoncteur",
+    "de": "Leistungsschalter",
+    "zh": "断路器"
+  },
+  "definition": "mechanical switching device, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified time and breaking currents under specified abnormal circuit conditions such as those of short-circuit",
+  "definition_ml": {
+    "en": "mechanical switching device, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified time and breaking currents under specified abnormal circuit conditions such as those of short-circuit",
+    "fr": "appareil mécanique de connexion capable d'établir, de supporter et d'interrompre des courants dans les conditions normales du circuit, ainsi que d'établir, de supporter pendant une durée spécifiée et d'interrompre des courants dans des conditions anormales spécifiées du circuit telles que celles du court-circuit",
+    "de": "mechanisches Schaltgerät, das Ströme unter bestimmungsgemäßen Betriebsbedingungen im Stromkreis einschalten, führen und ausschalten und auch unter festgelegten außergewöhnlichen Bedingungen wie z. B. Kurzschluss einschalten, während einer festgelegten Zeit führen und ausschalten kann",
+    "zh": "能接通、承载以及分断正常电路条件下的电流，也能在所规定的非正常电路(例如短路)下接通、承载一定时间和分断电流的一种机械开关电器。"
+  },
+  "source_document": "IEC 60050-441: 1984, 441-14-20",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Moulded case circuit breaker"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Moulded case circuit breaker",
+    "fr": "disjoncteur boîtier moulé, disjoncteur ouvert",
+    "de": "kompakter Leistungsschalter, offener Leistungs-schalter"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC201",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Circuit-breaker",
+    "MDC_P007.en": "Moulded case circuit breaker",
+    "MDC_P006.en": "mechanical switching device, capable of making, carrying and breaking currents under normal circuit conditions and also making, carrying for a specified time and breaking currents under specified abnormal circuit conditions such as those of short-circuit",
+    "MDC_P006_1": "IEC 60050-441: 1984, 441-14-20",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "MDC_P033": "{false}",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC200",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF002,0112/2///62683#ACF003,0112/2///62683#ACF004,0112/2///62683#ACF005,0112/2///62683#ACF006,0112/2///62683#ACF007,0112/2///62683#ACF008,0112/2///62683#ACF009,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Disjoncteur",
+    "MDC_P007.fr": "disjoncteur boîtier moulé, disjoncteur ouvert",
+    "MDC_P006.fr": "appareil mécanique de connexion capable d'établir, de supporter et d'interrompre des courants dans les conditions normales du circuit, ainsi que d'établir, de supporter pendant une durée spécifiée et d'interrompre des courants dans des conditions anormales spécifiées du circuit telles que celles du court-circuit",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-09-27",
+    "MDC_P004.de": "Leistungsschalter",
+    "MDC_P007.de": "kompakter Leistungsschalter, offener Leistungs-schalter",
+    "MDC_P006.de": "mechanisches Schaltgerät, das Ströme unter bestimmungsgemäßen Betriebsbedingungen im Stromkreis einschalten, führen und ausschalten und auch unter festgelegten außergewöhnlichen Bedingungen wie z. B. Kurzschluss einschalten, während einer festgelegten Zeit führen und ausschalten kann",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "断路器",
+    "MDC_P006.zh": "能接通、承载以及分断正常电路条件下的电流，也能在所规定的非正常电路(例如短路)下接通、承载一定时间和分断电流的一种机械开关电器。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "3a5ade3ce5677782c12584e80070c0eb",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "e61d5a61211a76adc1258030004501f0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF002",
+    "0112/2///62683#ACF003",
+    "0112/2///62683#ACF004",
+    "0112/2///62683#ACF005",
+    "0112/2///62683#ACF006",
+    "0112/2///62683#ACF007",
+    "0112/2///62683#ACF008",
+    "0112/2///62683#ACF009",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC200",
+  "superclass_type_property": "0112/2///62683#ACC200",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "3a5ade3ce5677782c12584e80070c0eb"
+  }
+}

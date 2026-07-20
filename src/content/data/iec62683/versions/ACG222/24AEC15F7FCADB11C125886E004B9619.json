@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///62683#ACG222",
+  "code": "ACG222",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "General technical data",
+  "preferred_name_ml": {
+    "en": "General technical data",
+    "fr": "Données techniques générales",
+    "de": "Allgemeine technische Daten",
+    "zh": "一般技术数据"
+  },
+  "definition": "general technical aspects of the through beam photoelectric proximity switch",
+  "definition_ml": {
+    "en": "general technical aspects of the through beam photoelectric proximity switch",
+    "fr": "aspects techniques généraux du détecteur de proximité photoélectrique à barrage",
+    "de": "Allgemeine technische Gesichtspunkte für die Einweg-Lichtschranke",
+    "zh": "对射光电式接近开关一般数据"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC TC121",
+  "change_request_id": "C00111",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG222",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "General technical data",
+    "MDC_P006.en": "general technical aspects of the through beam photoelectric proximity switch",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-27",
+    "MDC_P003_1": "2016-02-01",
+    "MDC_P003_2": "2022-06-27",
+    "MDC_P003_3": "2022-06-27",
+    "MDC_P012": "IEC TC121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC012}",
+    "MDC_P090": "{0112/2///62683#ACE251,0112/2///62683#ACE257,0112/2///62683#ACE258,0112/2///62683#ACE253,0112/2///62683#ACE601,0112/2///62683#ACE254,0112/2///62683#ACE229,0112/2///62683#ACE877,0112/2///62683#ACE218,0112/2///62683#ACE440,0112/2///62683#ACE249,0112/2///62683#ACE260,0112/2///62683#ACE256,0112/2///62683#ACE284}",
+    "MDC_P004.fr": "Données techniques générales",
+    "MDC_P006.fr": "aspects techniques généraux du détecteur de proximité photoélectrique à barrage",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2021-12-08",
+    "MDC_P004.de": "Allgemeine technische Daten",
+    "MDC_P006.de": "Allgemeine technische Gesichtspunkte für die Einweg-Lichtschranke",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-12-05",
+    "MDC_P004.zh": "一般技术数据",
+    "MDC_P006.zh": "对射光电式接近开关一般数据",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "2",
+    "C018.zh": "2022-01-27",
+    "C002": "C00111"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-06-27 15:45:36",
+      "user": "BATCH 00000795",
+      "unid": "24AEC15F7FCADB11C125886E004B9619",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2021-01-19 10:59:05",
+      "user": "BATCH 00000779",
+      "unid": "00141f5d538edd94c12586620036d944",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:19:13",
+      "user": "BATCH 00000747",
+      "unid": "dbff0d95f32dcde5c12584ec00751db0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2016-02-01",
+    "current_version": "2022-06-27",
+    "current_revision": "2022-06-27"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC012"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE251",
+    "0112/2///62683#ACE257",
+    "0112/2///62683#ACE258",
+    "0112/2///62683#ACE253",
+    "0112/2///62683#ACE601",
+    "0112/2///62683#ACE254",
+    "0112/2///62683#ACE229",
+    "0112/2///62683#ACE877",
+    "0112/2///62683#ACE218",
+    "0112/2///62683#ACE440",
+    "0112/2///62683#ACE249",
+    "0112/2///62683#ACE260",
+    "0112/2///62683#ACE256",
+    "0112/2///62683#ACE284"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-06-27 15:45:36",
+    "user": "BATCH 00000795",
+    "change_request_id": null,
+    "unid": "24AEC15F7FCADB11C125886E004B9619"
+  }
+}

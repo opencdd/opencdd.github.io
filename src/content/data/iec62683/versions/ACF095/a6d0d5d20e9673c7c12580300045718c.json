@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACF095",
+  "code": "ACF095",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:30",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "a6d0d5d20e9673c7c12580300045718c"
+  }
+}

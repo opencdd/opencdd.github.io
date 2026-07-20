@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#AAA653",
+  "code": "AAA653",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "nationally registered identification system",
+  "preferred_name_ml": {
+    "en": "nationally registered identification system"
+  },
+  "definition": "generic concept for the use of a nationally registered identification system for objects",
+  "definition_ml": {
+    "en": "generic concept for the use of a nationally registered identification system for objects"
+  },
+  "source_document": "IEC 62507-1:2010",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA653",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "nationally registered identification system",
+    "MDC_P006.en": "generic concept for the use of a nationally registered identification system for objects",
+    "MDC_P006_1": "IEC 62507-1:2010",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-08-13",
+    "MDC_P003_1": "2011-12-14",
+    "MDC_P003_2": "2011-12-14",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA750",
+    "MDC_P014": "{0112/2///61360_4#ADA001,0112/2///61360_4#ADA002,0112/2///61360_4#ADA003,0112/2///61360_4#ADA004,0112/2///61360_4#ADA005}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2024-08-13 13:41:26",
+      "user": "BATCH 00001320",
+      "unid": "E5329B2A5C3897FCC1258B7800403837",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2016-06-08 12:43:07",
+      "user": "BATCH 00000890",
+      "unid": "beaeb6fda929c9d2c1257fcc003ae122",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-05-27 10:42:34",
+      "user": "BATCH 00000879",
+      "unid": "dbc36973c67bf24cc1257e52002fd7cd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "9ca4bfae97c253cfc1257dd300516022",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "433e5382de0339dfc1257d7300506a49",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "35248838df0ae866c1257a0e0047b33e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-12-14",
+    "current_version": "2011-12-14",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA001",
+    "0112/2///61360_4#ADA002",
+    "0112/2///61360_4#ADA003",
+    "0112/2///61360_4#ADA004",
+    "0112/2///61360_4#ADA005"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA750",
+  "superclass_type_property": "0112/2///61360_4#AAA750",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2024-08-13 13:41:26",
+    "user": "BATCH 00001320",
+    "change_request_id": null,
+    "unid": "E5329B2A5C3897FCC1258B7800403837"
+  }
+}

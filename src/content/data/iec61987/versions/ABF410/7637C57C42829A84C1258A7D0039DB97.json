@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABF410",
+  "code": "ABF410",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "insulation material between sensing element wires",
+  "preferred_name_ml": {
+    "en": "insulation material between sensing element wires",
+    "de": "Isolierwerkstoff zwischen Sensordrähten"
+  },
+  "definition": "material placed between electrical conductors to ensure their electrical isolation",
+  "definition_ml": {
+    "en": "material placed between electrical conductors to ensure their electrical isolation",
+    "de": "Werkstoff, der zwischen elektrischen Leiter angebracht ist, um eine elektrische Isolierung der Leiter zu erzielen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF410",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "insulation material between sensing element wires",
+    "MDC_P006.en": "material placed between electrical conductors to ensure their electrical isolation",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Isolierwerkstoff zwischen Sensordrähten",
+    "MDC_P006.de": "Werkstoff, der zwischen elektrischen Leiter angebracht ist, um eine elektrische Isolierung der Leiter zu erzielen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:57",
+      "user": "BATCH 00000818",
+      "unid": "7637C57C42829A84C1258A7D0039DB97",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:06",
+      "user": "BATCH 00000762",
+      "unid": "cc07c31ec1df74b6c125825e001df2a5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:57",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "7637C57C42829A84C1258A7D0039DB97"
+  }
+}

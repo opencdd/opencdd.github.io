@@ -1,0 +1,78 @@
+{
+  "irdi": "0112/2///61360_4#ADA167",
+  "code": "ADA167",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "reference to class electronic address",
+  "preferred_name_ml": {
+    "en": "reference to class electronic address"
+  },
+  "definition": "relation to the specified class electronic address",
+  "definition_ml": {
+    "en": "relation to the specified class electronic address"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA167",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to class electronic address",
+    "MDC_P006.en": "relation to the specified class electronic address",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA656)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#ADA112",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-06-26",
+    "MDC_P003_3": "2019-06-26"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2019-06-26 10:04:50",
+      "user": "BATCH 00001070",
+      "unid": "59CEBF243F0DCE34C1258425002C6358",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:12",
+      "user": "BATCH 00001062",
+      "unid": "a186632bd6695b9fc1258407003de898",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-07 10:21:16",
+      "user": "BATCH 00001052",
+      "unid": "8a116ad2a53d9bf7c12582e2002de4bb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2019-06-26"
+  },
+  "definition_class_irdi": "0112/2///61360_4#ADA112",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA656)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA656)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2019-06-26 10:04:50",
+    "user": "BATCH 00001070",
+    "change_request_id": null,
+    "unid": "59CEBF243F0DCE34C1258425002C6358"
+  }
+}

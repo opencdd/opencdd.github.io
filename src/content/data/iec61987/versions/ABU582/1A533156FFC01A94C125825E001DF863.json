@@ -1,0 +1,95 @@
+{
+  "irdi": "0112/2///61987#ABU582",
+  "code": "ABU582",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "reference to Travel measurement",
+  "preferred_name_ml": {
+    "en": "reference to Travel measurement"
+  },
+  "definition": "reference to block ABE566",
+  "definition_ml": {
+    "en": "reference to block ABE566"
+  },
+  "synonyms": [],
+  "remark": "Id specified in IEC61987: ABE469",
+  "remark_ml": {
+    "en": "Id specified in IEC61987: ABE469"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00016",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU582",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Travel measurement",
+    "MDC_P006.en": "reference to block ABE566",
+    "MDC_P009.en": "Id specified in IEC61987: ABE469",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE566)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "MDC_P028": "{0112/2///61987#ABU581}",
+    "C002": "C00016"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:21",
+      "user": "BATCH 00000762",
+      "unid": "1A533156FFC01A94C125825E001DF863",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:48",
+      "user": "BATCH 00000732",
+      "unid": "0a2b8109fee2df39c12580d6004c27b0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "a997cd0b13f3e234c1257fa7003a3dbb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE566)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU581}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE566)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:21",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "1A533156FFC01A94C125825E001DF863"
+  }
+}

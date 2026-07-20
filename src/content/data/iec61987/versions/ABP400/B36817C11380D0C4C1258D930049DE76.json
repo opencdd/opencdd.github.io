@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABP400",
+  "code": "ABP400",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Gas chromatograph",
+  "preferred_name_ml": {
+    "en": "Gas chromatograph",
+    "de": "Gas-Chromatograph"
+  },
+  "short_name": "Gas chromatogr.",
+  "short_name_ml": {
+    "en": "Gas chromatogr.",
+    "de": "Gas-Chromatogr."
+  },
+  "definition": "chromatograph that takes a gaseous sample or liquid samples that can be vaporized and separates the components in a gaseous phase",
+  "definition_ml": {
+    "en": "chromatograph that takes a gaseous sample or liquid samples that can be vaporized and separates the components in a gaseous phase",
+    "de": "Chromatograph, der eine gasförmige oder flüssige Probe, die verdampft werden kann, aufnimmt und die Bestandteile in einer Gasphase trennt"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987-41",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP400",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "Gas chromatogr.",
+    "MDC_P004.en": "Gas chromatograph",
+    "MDC_P006.en": "chromatograph that takes a gaseous sample or liquid samples that can be vaporized and separates the components in a gaseous phase",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987-41",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_2": "2025-04-07",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABP399",
+    "MDC_P014": "{0112/2///61987#ABQ127}",
+    "MDC_P005.de": "Gas-Chromatogr.",
+    "MDC_P004.de": "Gas-Chromatograph",
+    "MDC_P006.de": "Chromatograph, der eine gasförmige oder flüssige Probe, die verdampft werden kann, aufnimmt und die Bestandteile in einer Gasphase trennt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-12-20",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "B36817C11380D0C4C1258D930049DE76",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-06-12 21:00:39",
+      "user": "BATCH 00000845",
+      "unid": "dde3d63fea7c5e1fc1258ca700686e55",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2024-09-16 16:44:32",
+      "user": "BATCH 00000833",
+      "unid": "0eb9da8ab2bce1f1c1258b9a0050fb68",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-04-07",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABQ127"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABP399",
+  "superclass_type_property": "0112/2///61987#ABP399",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "B36817C11380D0C4C1258D930049DE76"
+  }
+}

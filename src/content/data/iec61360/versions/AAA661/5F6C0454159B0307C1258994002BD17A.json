@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#AAA661",
+  "code": "AAA661",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "rectangular pyramid",
+  "preferred_name_ml": {
+    "en": "rectangular pyramid"
+  },
+  "definition": "solid pyramid with a rectangular base whose apex is directly above the centre point of the base",
+  "definition_ml": {
+    "en": "solid pyramid with a rectangular base whose apex is directly above the centre point of the base"
+  },
+  "source_document": "ISO 10303-42:2003, 6.4.10",
+  "synonyms": [],
+  "note": "The location and orientation of the pyramid defines a placement coordinate system for the pyramid. The pyramid has one corner of its base at its location and the edges of the base are aligned with the first two placement axes in the positive sense.||NOTE 2  The property axis2_placement3d specifies the local coordinate system of the rectangular pyramid whereas the property location specifies the position of the origin of the local coordinate system within the geometric context.",
+  "note_ml": {
+    "en": "The location and orientation of the pyramid defines a placement coordinate system for the pyramid. The pyramid has one corner of its base at its location and the edges of the base are aligned with the first two placement axes in the positive sense.||NOTE 2  The property axis2_placement3d specifies the local coordinate system of the rectangular pyramid whereas the property location specifies the position of the origin of the local coordinate system within the geometric context."
+  },
+  "simplified_drawing": "DAAA661",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "ISO 10303-42",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA661",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "rectangular pyramid",
+    "MDC_P006.en": "solid pyramid with a rectangular base whose apex is directly above the centre point of the base",
+    "MDC_P008.en": "The location and orientation of the pyramid defines a placement coordinate system for the pyramid. The pyramid has one corner of its base at its location and the edges of the base are aligned with the first two placement axes in the positive sense.||NOTE 2  The property axis2_placement3d specifies the local coordinate system of the rectangular pyramid whereas the property location specifies the position of the origin of the local coordinate system within the geometric context.",
+    "MDC_P006_1": "ISO 10303-42:2003, 6.4.10",
+    "MDC_P008_1": "DAAA661",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "ISO 10303-42",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2015-02-19",
+    "MDC_P003_2": "2015-10-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA668",
+    "MDC_P014": "{0112/2///61360_4#AAF695,0112/2///61360_4#AAF700,0112/2///61360_4#AAF426,0112/2///61360_4#AAF427,0112/2///61360_4#AAF432}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "5F6C0454159B0307C1258994002BD17A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:16",
+      "user": "BATCH 00000902",
+      "unid": "3a4fe10330e178dec1257e89004bd4c9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-19",
+    "current_version": "2015-10-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF695",
+    "0112/2///61360_4#AAF700",
+    "0112/2///61360_4#AAF426",
+    "0112/2///61360_4#AAF427",
+    "0112/2///61360_4#AAF432"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA668",
+  "superclass_type_property": "0112/2///61360_4#AAA668",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "5F6C0454159B0307C1258994002BD17A"
+  }
+}

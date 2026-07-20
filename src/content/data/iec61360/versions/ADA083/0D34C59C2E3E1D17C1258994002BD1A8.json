@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#ADA083",
+  "code": "ADA083",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "power loss",
+  "preferred_name_ml": {
+    "en": "power loss"
+  },
+  "definition": "difference between input power and output power of a device",
+  "definition_ml": {
+    "en": "difference between input power and output power of a device"
+  },
+  "source_document": "IEV 151-15-26",
+  "synonyms": [],
+  "note": "If the output power and/or input power is electric, active power is meant.",
+  "note_ml": {
+    "en": "If the output power and/or input power is electric, active power is meant."
+  },
+  "remark": "1 This collection provides a overview of power losses of a component during all operational stages defined in IEC 62744, independent whether the power consumption is caused by unintended losses or whether it is intended, e.g. for radiation or heating purposes.\r\n\r\n2  The properties can be applied also for calculation of the energy efficiency of a component being defined by: ratio or other quantitative relationship between an output of performance, service, goods or energy, and an input of energy \r\n[SOURCE: ISO 50001:2011, 3.8]\r\n\r\n3 IEC 61439-1 provides guidance to the calculation of power losses in closed assemblies, e.g. cubicles, when having the losses of the assembled components.",
+  "remark_ml": {
+    "en": "1 This collection provides a overview of power losses of a component during all operational stages defined in IEC 62744, independent whether the power consumption is caused by unintended losses or whether it is intended, e.g. for radiation or heating purposes.\r\n\r\n2  The properties can be applied also for calculation of the energy efficiency of a component being defined by: ratio or other quantitative relationship between an output of performance, service, goods or energy, and an input of energy \r\n[SOURCE: ISO 50001:2011, 3.8]\r\n\r\n3 IEC 61439-1 provides guidance to the calculation of power losses in closed assemblies, e.g. cubicles, when having the losses of the assembled components."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA083",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "power loss",
+    "MDC_P006.en": "difference between input power and output power of a device",
+    "MDC_P008.en": "If the output power and/or input power is electric, active power is meant.",
+    "MDC_P009.en": "1 This collection provides a overview of power losses of a component during all operational stages defined in IEC 62744, independent whether the power consumption is caused by unintended losses or whether it is intended, e.g. for radiation or heating purposes.\r\n\r\n2  The properties can be applied also for calculation of the energy efficiency of a component being defined by: ratio or other quantitative relationship between an output of performance, service, goods or energy, and an input of energy \r\n[SOURCE: ISO 50001:2011, 3.8]\r\n\r\n3 IEC 61439-1 provides guidance to the calculation of power losses in closed assemblies, e.g. cubicles, when having the losses of the assembled components.",
+    "MDC_P006_1": "IEV 151-15-26",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#ADA084,0112/2///61360_4#ADA085,0112/2///61360_4#ADA086,0112/2///61360_4#ADA087,0112/2///61360_4#ADA088,0112/2///61360_4#ADA298,0112/2///61360_4#ADA299,0112/2///61360_4#ADA128,0112/2///61360_4#ADA129,0112/2///61360_4#AAE257}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "0D34C59C2E3E1D17C1258994002BD1A8",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-04-17 06:47:55",
+      "user": "BATCH 00001187",
+      "unid": "d7b03a9b9881bbeec125854d001a5c0f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-12-21 12:45:09",
+      "user": "BATCH 00001033",
+      "unid": "029b3030d58bcff0c12581fd00408f06",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA084",
+    "0112/2///61360_4#ADA085",
+    "0112/2///61360_4#ADA086",
+    "0112/2///61360_4#ADA087",
+    "0112/2///61360_4#ADA088",
+    "0112/2///61360_4#ADA298",
+    "0112/2///61360_4#ADA299",
+    "0112/2///61360_4#ADA128",
+    "0112/2///61360_4#ADA129",
+    "0112/2///61360_4#AAE257"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "0D34C59C2E3E1D17C1258994002BD1A8"
+  }
+}

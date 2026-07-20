@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61987#ABC599",
+  "code": "ABC599",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Sour gas approval",
+  "preferred_name_ml": {
+    "en": "Sour gas approval",
+    "fr": "Agrément de gaz acide",
+    "de": "Sauergaszulassung"
+  },
+  "definition": "properties characterizing certificates and approvals pertaining to usage in sour gas application",
+  "definition_ml": {
+    "en": "properties characterizing certificates and approvals pertaining to usage in sour gas application",
+    "fr": "propriétés caractérisant les certificats et agréments relatifs à l’utilisation dans une application de gaz acide",
+    "de": "Merkmale, die Zertifikate und Zulassungen kennzeichnen, die für eine Nutzung in Anwendungen für Sauergas gelten"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC599",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Sour gas approval",
+    "MDC_P006.en": "properties characterizing certificates and approvals pertaining to usage in sour gas application",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB956,0112/2///61987#ABB957}",
+    "MDC_P004.fr": "Agrément de gaz acide",
+    "MDC_P006.fr": "propriétés caractérisant les certificats et agréments relatifs à l’utilisation dans une application de gaz acide",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Sauergaszulassung",
+    "MDC_P006.de": "Merkmale, die Zertifikate und Zulassungen kennzeichnen, die für eine Nutzung in Anwendungen für Sauergas gelten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:58",
+      "user": "BATCH 00000762",
+      "unid": "2EDDB176EC38BA0FC125825E001DD7FC",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:07",
+      "user": "BATCH 00000755",
+      "unid": "d509499c34ad0583c1258256003e733e",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:43:56",
+      "user": "BATCH 00000756",
+      "unid": "3dfd150b4b31a370c12582560040727b",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:03",
+      "user": "BATCH 00000732",
+      "unid": "fd38912ad9c9e388c12580d6004bfe9f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:14",
+      "user": "BATCH 00000714",
+      "unid": "6f77700dfc9b76abc1257f7e0033a890",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:41",
+      "user": "BATCH 00000701",
+      "unid": "d303f4a26af3d1c2c1257cfb003f99c3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:12",
+      "user": "BATCH 00000699",
+      "unid": "3f5ff084dbfc8081c1257cb400549d0f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB956",
+    "0112/2///61987#ABB957"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:58",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2EDDB176EC38BA0FC125825E001DD7FC"
+  }
+}

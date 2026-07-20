@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61360_4#ACB075",
+  "code": "ACB075",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "exemption identifier",
+  "preferred_name_ml": {
+    "en": "exemption identifier"
+  },
+  "definition": "unique identifier that distinguishes one exemption from another",
+  "definition_ml": {
+    "en": "unique identifier that distinguishes one exemption from another"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "note": "The identity is to be used in any case where there is a conflict between the identity and the description.||Since this identifier may not be unique across authorizing bodies it is joined with the UniqueID to assure uniqueness.",
+  "note_ml": {
+    "en": "The identity is to be used in any case where there is a conflict between the identity and the description.||Since this identifier may not be unique across authorizing bodies it is joined with the UniqueID to assure uniqueness."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "TC111",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB075",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "exemption identifier",
+    "MDC_P006.en": "unique identifier that distinguishes one exemption from another",
+    "MDC_P008.en": "The identity is to be used in any case where there is a conflict between the identity and the description.||Since this identifier may not be unique across authorizing bodies it is joined with the UniqueID to assure uniqueness.",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61360_4#ACA020)",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A62",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC111"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "E71E0B9D81CA2417C1257EA4004B24C8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "b8f02efc2364cc47c1257e8b00323af3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "88c90d31e4239377c1257e8a0043e8eb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "bcca63b6d14fe8b2c1257e65003ff5ae",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#ACA020)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#ACA020)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:46",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E71E0B9D81CA2417C1257EA4004B24C8"
+  }
+}

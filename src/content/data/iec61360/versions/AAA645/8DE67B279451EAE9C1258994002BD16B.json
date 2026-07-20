@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61360_4#AAA645",
+  "code": "AAA645",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "electromagnetic compatibility",
+  "preferred_name_ml": {
+    "en": "electromagnetic compatibility"
+  },
+  "definition": "ambient conditions related to the existence of unwanted electric or magnetic fields",
+  "definition_ml": {
+    "en": "ambient conditions related to the existence of unwanted electric or magnetic fields"
+  },
+  "source_document": "IEC 60721-1:1990",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA645",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "electromagnetic compatibility",
+    "MDC_P006.en": "ambient conditions related to the existence of unwanted electric or magnetic fields",
+    "MDC_P006_1": "IEC 60721-1:1990",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA650",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "8DE67B279451EAE9C1258994002BD16B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "2dd1214fd97c4b9dc1257d7300506a41",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:16",
+      "user": "BATCH 00000825",
+      "unid": "f245d662c28d43d4c1257b9e0044df78",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA650",
+  "superclass_type_property": "0112/2///61360_4#AAA650",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "8DE67B279451EAE9C1258994002BD16B"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABD424",
+  "code": "ABD424",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "style of packing adjustment",
+  "preferred_name_ml": {
+    "en": "style of packing adjustment",
+    "fr": "style d'aptitude au réglage de joint de tige",
+    "de": "Ausführung der Spindeldichtungsnachstellbarkeit"
+  },
+  "definition": "classification of the stem or shaft seal adjustability according to its means to enhance or maintain its tightness",
+  "definition_ml": {
+    "en": "classification of the stem or shaft seal adjustability according to its means to enhance or maintain its tightness",
+    "fr": "classification de l'aptitude au réglage du joint de tige en fonction de ses moyens de renforcer ou de maintenir son étanchéité",
+    "de": "Charakterisierung der Spindeldichtungsnachstellbarkeit bezüglich der Methode, die Dichtheit zu verbessern oder sicher zu stellen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD424",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of packing adjustment",
+    "MDC_P006.en": "classification of the stem or shaft seal adjustability according to its means to enhance or maintain its tightness",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ772)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "style d'aptitude au réglage de joint de tige",
+    "MDC_P006.fr": "classification de l'aptitude au réglage du joint de tige en fonction de ses moyens de renforcer ou de maintenir son étanchéité",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Ausführung der Spindeldichtungsnachstellbarkeit",
+    "MDC_P006.de": "Charakterisierung der Spindeldichtungsnachstellbarkeit bezüglich der Methode, die Dichtheit zu verbessern oder sicher zu stellen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:49",
+      "user": "BATCH 00000849",
+      "unid": "E7711FA34C6FB067C1258CDC004A3B91",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "733f884ee46a1d22c1258518003c4998",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:54",
+      "user": "BATCH 00000762",
+      "unid": "33a362d739db69bcc125825e001dee0a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:47",
+      "user": "BATCH 00000699",
+      "unid": "a9f35d06ddcad15ac1257cb40054c24d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ772)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ772)",
+  "value_list": "0112/2///61987#ABJ772",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:49",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "E7711FA34C6FB067C1258CDC004A3B91"
+  }
+}

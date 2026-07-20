@@ -1,0 +1,174 @@
+{
+  "irdi": "0112/2///61987#ABA573",
+  "code": "ABA573",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "width",
+  "preferred_name_ml": {
+    "en": "width",
+    "de": "Breite"
+  },
+  "definition": "horizontal distance between the left-hand and right-hand extremes of an object when standing in its normal position of use",
+  "definition_ml": {
+    "en": "horizontal distance between the left-hand and right-hand extremes of an object when standing in its normal position of use",
+    "de": "Horizontalabstand zwischen der linken und rechten Seite eines Objekts in seiner normalen Benutzungsstellung"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "breadth"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "breadth"
+  },
+  "note": "Width is used together with length and height or with depth and height and is orthogonal to height and length and depth.",
+  "note_ml": {
+    "en": "Width is used together with length and height or with depth and height and is orthogonal to height and length and depth.",
+    "de": "Breite wird zusammen mit Länge und Höhe oder mit Tiefe und Höhe benutzt und ist orthogonal zu Höhe und Länge und Tiefe."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA573",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "width",
+    "MDC_P007.en": "breadth",
+    "MDC_P006.en": "horizontal distance between the left-hand and right-hand extremes of an object when standing in its normal position of use",
+    "MDC_P008.en": "Width is used together with length and height or with depth and height and is orthogonal to height and length and depth.",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Breite",
+    "MDC_P006.de": "Horizontalabstand zwischen der linken und rechten Seite eines Objekts in seiner normalen Benutzungsstellung",
+    "MDC_P008.de": "Breite wird zusammen mit Länge und Höhe oder mit Tiefe und Höhe benutzt und ist orthogonal zu Höhe und Länge und Tiefe.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-18",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "E35265F046A65E12C1258518003C486C",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "3f88a9b8fac58c42c12583b7005026f4",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "50eea18c47ff9fadc125825e001de733",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "5d0797f2cd976a72c1258256003e9428",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "a0bcf5dc352b8dd9c125825600407a1d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "ace25c69db7aa7b5c12580d6004c1bdf",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "773de317fe9155b0c1257f7f004d0067",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "0321106ef88055dcc1257fa700405956",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "efa1e4d95d3942fdc1257cfb004039b9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "9ee633099f11f04fc1257cb40054bb76",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:27",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "E35265F046A65E12C1258518003C486C"
+  }
+}

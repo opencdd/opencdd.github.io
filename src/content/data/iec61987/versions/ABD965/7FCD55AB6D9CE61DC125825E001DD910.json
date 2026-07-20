@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABD965",
+  "code": "ABD965",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Parameters of valve body assembly [1]",
+  "preferred_name_ml": {
+    "en": "Parameters of valve body assembly [1]",
+    "de": "Kennwerte des Ventils"
+  },
+  "definition": "properties characterizing the configuration of a valve according to its specific values",
+  "definition_ml": {
+    "en": "properties characterizing the configuration of a valve according to its specific values",
+    "de": "Merkmale, die die Eigenschaften eines Ventils gemäß dessen Kennwerten kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00009",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD965",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Parameters of valve body assembly [1]",
+    "MDC_P006.en": "properties characterizing the configuration of a valve according to its specific values",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-09-02",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABD696,0112/2///61987#ABD695,0112/2///61987#ABD666,0112/2///61987#ABD597,0112/2///61987#ABD600,0112/2///61987#ABD699,0112/2///61987#ABD551,0112/2///61987#ABD588,0112/2///61987#ABD587,0112/2///61987#ABD586,0112/2///61987#ABD585,0112/2///61987#ABD572,0112/2///61987#ABD689,0112/2///61987#ABD552,0112/2///61987#ABD559}",
+    "MDC_P004.de": "Kennwerte des Ventils",
+    "MDC_P006.de": "Merkmale, die die Eigenschaften eines Ventils gemäß dessen Kennwerten kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00009"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "7FCD55AB6D9CE61DC125825E001DD910",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "84a69e59de3ee35ac1257cb400549dee",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-09-02",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABD696",
+    "0112/2///61987#ABD695",
+    "0112/2///61987#ABD666",
+    "0112/2///61987#ABD597",
+    "0112/2///61987#ABD600",
+    "0112/2///61987#ABD699",
+    "0112/2///61987#ABD551",
+    "0112/2///61987#ABD588",
+    "0112/2///61987#ABD587",
+    "0112/2///61987#ABD586",
+    "0112/2///61987#ABD585",
+    "0112/2///61987#ABD572",
+    "0112/2///61987#ABD689",
+    "0112/2///61987#ABD552",
+    "0112/2///61987#ABD559"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "7FCD55AB6D9CE61DC125825E001DD910"
+  }
+}

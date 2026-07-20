@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABB430",
+  "code": "ABB430",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "calculation report",
+  "preferred_name_ml": {
+    "en": "calculation report",
+    "fr": "rapport de calcul",
+    "de": "Berechnungsbericht"
+  },
+  "definition": "requirement of a report documenting the calculation used in determining the size of a device for a particular application",
+  "definition_ml": {
+    "en": "requirement of a report documenting the calculation used in determining the size of a device for a particular application",
+    "fr": "exigence d'un rapport documentant le calcul utilisé pour déterminer la taille d'un appareil pour une application spécifique",
+    "de": "Erfordernis eines Berichts, der die zur Bestimmung der Größe eines Geräts für eine bestimmte Anwendung verwendete Berechnung dokumentiert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB430",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "calculation report",
+    "MDC_P006.en": "requirement of a report documenting the calculation used in determining the size of a device for a particular application",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "rapport de calcul",
+    "MDC_P006.fr": "exigence d'un rapport documentant le calcul utilisé pour déterminer la taille d'un appareil pour une application spécifique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Berechnungsbericht",
+    "MDC_P006.de": "Erfordernis eines Berichts, der die zur Bestimmung der Größe eines Geräts für eine bestimmte Anwendung verwendete Berechnung dokumentiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:55",
+      "user": "BATCH 00000818",
+      "unid": "7D12A77F9ACEF012C1258A7D0039DABF",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:43",
+      "user": "BATCH 00000762",
+      "unid": "ba0fb9164c22589dc125825e001de98f",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "c24f83f6c57f794dc1258256003e9575",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "191a6252bbb28126c125825600407a83",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "57a5016803a3e490c12580d6004c1e3d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "2877493f79e54124c1257cfb00403c17",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:36",
+      "user": "BATCH 00000699",
+      "unid": "61717228cfc2ddfdc1257cb40054bdd4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:55",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "7D12A77F9ACEF012C1258A7D0039DABF"
+  }
+}

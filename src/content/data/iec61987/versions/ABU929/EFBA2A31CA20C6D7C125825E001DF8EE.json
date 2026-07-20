@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61987#ABU929",
+  "code": "ABU929",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "reference to Absolute performance for density",
+  "preferred_name_ml": {
+    "en": "reference to Absolute performance for density"
+  },
+  "definition": "reference to block ABC058",
+  "definition_ml": {
+    "en": "reference to block ABC058"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU929",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Absolute performance for density",
+    "MDC_P006.en": "reference to block ABC058",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC058)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "MDC_P028": "{0112/2///61987#ABU918}",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:22",
+      "user": "BATCH 00000762",
+      "unid": "EFBA2A31CA20C6D7C125825E001DF8EE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:48",
+      "user": "BATCH 00000732",
+      "unid": "43caf14c939cb54bc12580d6004c27b1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "0cb06fd8915be994c1257f7e0030f267",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC058)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU918}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC058)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:22",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "EFBA2A31CA20C6D7C125825E001DF8EE"
+  }
+}

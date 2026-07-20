@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABA201",
+  "code": "ABA201",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "set upper range end-value of dial",
+  "preferred_name_ml": {
+    "en": "set upper range end-value of dial",
+    "fr": "valeur d'extrémité supérieure d'étendue de cadran",
+    "de": "eingestellter Endwert des Anzeigebereichs"
+  },
+  "definition": "value defining the end of a measuring range of a dial indicator",
+  "definition_ml": {
+    "en": "value defining the end of a measuring range of a dial indicator",
+    "fr": "valeur définissant la fin d'une plage de mesure d'un indicateur à cadran",
+    "de": "Wert, der das Ende eines Messbereichs eines Zeigerinstruments definiert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA201",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "set upper range end-value of dial",
+    "MDC_P006.en": "value defining the end of a measuring range of a dial indicator",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur d'extrémité supérieure d'étendue de cadran",
+    "MDC_P006.fr": "valeur définissant la fin d'une plage de mesure d'un indicateur à cadran",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "eingestellter Endwert des Anzeigebereichs",
+    "MDC_P006.de": "Wert, der das Ende eines Messbereichs eines Zeigerinstruments definiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "4BB54874E66BC3C6C1258940004C575D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "a578428562cfd623c125825e001de5ca",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "1e13deda9bddc257c1257cfb0040387b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "961e1a98a24b1797c1257cb40054ba38",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "4BB54874E66BC3C6C1258940004C575D"
+  }
+}

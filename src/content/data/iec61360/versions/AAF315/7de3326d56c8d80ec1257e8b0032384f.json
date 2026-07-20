@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF315",
+  "code": "AAF315",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:32",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "7de3326d56c8d80ec1257e8b0032384f"
+  }
+}

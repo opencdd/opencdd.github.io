@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61987#ABH926",
+  "code": "ABH926",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "failure",
+  "preferred_name_ml": {
+    "en": "failure",
+    "de": "Ausfall"
+  },
+  "definition": "parameter, the value of which indicates a failure of the device",
+  "definition_ml": {
+    "en": "parameter, the value of which indicates a failure of the device",
+    "de": "Parameter, dessen Wert auf einen Ausfall des Geräts anzeigt"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "FAILURE"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "FAILURE",
+    "de": "FAILURE"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH926",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "failure",
+    "MDC_P007.en": "FAILURE",
+    "MDC_P006.en": "parameter, the value of which indicates a failure of the device",
+    "MDC_P022": "BOOLEAN_TYPE",
+    "MDC_P024": "B 1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-05-20",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-05-20",
+    "MDC_P003_3": "2025-05-20",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Ausfall",
+    "MDC_P007.de": "FAILURE",
+    "MDC_P006.de": "Parameter, dessen Wert auf einen Ausfall des Geräts anzeigt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-11-20",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-05-20 11:52:36",
+      "user": "BATCH 00000843",
+      "unid": "FCE68E69E5E020ECC1258C900036411A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "5921e44f52716f0bc12583b7005027fc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:16",
+      "user": "BATCH 00000762",
+      "unid": "6e2fef2dbdab62dbc125825e001df672",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-05-20",
+    "current_revision": "2025-05-20"
+  },
+  "value_format": "B 1",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "BOOLEAN_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "BOOLEAN_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-05-20 11:52:36",
+    "user": "BATCH 00000843",
+    "change_request_id": null,
+    "unid": "FCE68E69E5E020ECC1258C900036411A"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AFD034",
+  "code": "AFD034",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "rise time",
+  "preferred_name_ml": {
+    "en": "rise time"
+  },
+  "short_name": "rise time",
+  "short_name_ml": {
+    "en": "rise time"
+  },
+  "definition": "time interval required for the rising edge of a square waveform to change between two defined levels",
+  "definition_ml": {
+    "en": "time interval required for the rising edge of a square waveform to change between two defined levels"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD034",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "rise time",
+    "MDC_P005.en": "rise time",
+    "MDC_P006.en": "time interval required for the rising edge of a square waveform to change between two defined levels",
+    "MDC_P025_1": "tr",
+    "MDC_P023": "s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AFA008",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "ABE4384D4CD671A8C1257EA4004B2541",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "cc580a7d09a4aefec1257e8b00323b49",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "2ce9e8eb55fef0a9c1257e8a0043e964",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "5b82de70c57d8639c1257b02004295f3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "tr",
+  "definition_class_irdi": "0112/2///61360_4#AFA008",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "ABE4384D4CD671A8C1257EA4004B2541"
+  }
+}

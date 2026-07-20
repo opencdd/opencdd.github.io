@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABN653",
+  "code": "ABN653",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "overall vibration velocity 0-p",
+  "preferred_name_ml": {
+    "en": "overall vibration velocity 0-p",
+    "de": "Summenpegel der Schwinggeschwindigkeit (0-p)"
+  },
+  "definition": "maximum oscillation amplitude, expressed as velocity",
+  "definition_ml": {
+    "en": "maximum oscillation amplitude, expressed as velocity",
+    "de": "maximale Schwingamplitude, ausgedrückt als Geschwindigkeitswert"
+  },
+  "synonyms": [],
+  "note": "The oscillation range is the difference between the minimum and maximum value within the time range under consideration.",
+  "note_ml": {
+    "en": "The oscillation range is the difference between the minimum and maximum value within the time range under consideration.",
+    "de": "Die maximale Schwingamplitude ist der größte Betrag der Schwingung im betrachteten Zeitbereich."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN653",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "overall vibration velocity 0-p",
+    "MDC_P006.en": "maximum oscillation amplitude, expressed as velocity",
+    "MDC_P008.en": "The oscillation range is the difference between the minimum and maximum value within the time range under consideration.",
+    "MDC_P023": "mm/s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA867",
+    "C0104": "0112/2///61987#ABT509",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "Summenpegel der Schwinggeschwindigkeit (0-p)",
+    "MDC_P006.de": "maximale Schwingamplitude, ausgedrückt als Geschwindigkeitswert",
+    "MDC_P008.de": "Die maximale Schwingamplitude ist der größte Betrag der Schwingung im betrachteten Zeitbereich.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "70686290CFE71FDAC125886F003C9B6E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "e95e1814d74e3ef3c1258518003fd7f2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA867",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:59",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "70686290CFE71FDAC125886F003C9B6E"
+  }
+}

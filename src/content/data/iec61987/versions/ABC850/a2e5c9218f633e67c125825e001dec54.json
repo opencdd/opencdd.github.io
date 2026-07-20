@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC850",
+  "code": "ABC850",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:50",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "a2e5c9218f633e67c125825e001dec54"
+  }
+}

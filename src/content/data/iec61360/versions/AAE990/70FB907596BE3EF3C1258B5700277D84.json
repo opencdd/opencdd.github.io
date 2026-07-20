@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAE990",
+  "code": "AAE990",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "specific capacitance",
+  "preferred_name_ml": {
+    "en": "specific capacitance"
+  },
+  "short_name": "C_s",
+  "short_name_ml": {
+    "en": "C_s"
+  },
+  "definition": "capacitance between segment and back-plane of a liquid crystal display at the typical operating voltage, drive frequency of 32 Hz, ambient temperature of 25 Cel and specified driving method",
+  "definition_ml": {
+    "en": "capacitance between segment and back-plane of a liquid crystal display at the typical operating voltage, drive frequency of 32 Hz, ambient temperature of 25 Cel and specified driving method"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE990",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "specific capacitance",
+    "MDC_P005.en": "C_s",
+    "MDC_P006.en": "capacitance between segment and back-plane of a liquid crystal display at the typical operating voltage, drive frequency of 32 Hz, ambient temperature of 25 Cel and specified driving method",
+    "MDC_P025_1": "C_s}",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E09",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA017",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-11",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2024-07-11",
+    "MDC_P003_3": "2024-07-11",
+    "MDC_P012": "IEC/SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAF264}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-11 09:11:20",
+      "user": "BATCH 00001319",
+      "unid": "70FB907596BE3EF3C1258B5700277D84",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "ad5fcc85e48b5f4cc1257ea4004b2126",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "7c0f2234b32c8529c1257e8b00323774",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:36",
+      "user": "BATCH 00000904",
+      "unid": "c1e246e5d7777752c1257e8a0043e549",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "f6b2deb248898d26c1257a0e0047bd82",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "d7afaa0fc8f924d4c1257a0e0046db02",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2024-07-11",
+    "current_revision": "2024-07-11"
+  },
+  "symbol_in_text": "C_s}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA017",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAF264}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-11 09:11:20",
+    "user": "BATCH 00001319",
+    "change_request_id": null,
+    "unid": "70FB907596BE3EF3C1258B5700277D84"
+  }
+}

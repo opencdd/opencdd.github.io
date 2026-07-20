@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB590",
+  "code": "ABB590",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:41:38",
+    "user": "BATCH 00000702",
+    "change_request_id": null,
+    "unid": "843b77097933bb7ac1257cfb00403cb2"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61987#ABE018",
+  "code": "ABE018",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Structural design [valve body assembly]",
+  "preferred_name_ml": {
+    "en": "Structural design [valve body assembly]",
+    "de": "Konstruktiver Aufbau"
+  },
+  "definition": "properties characterizing the constructional details of a device",
+  "definition_ml": {
+    "en": "properties characterizing the constructional details of a device",
+    "de": "Merkmale, die die konstruktiven Details eines Geräts kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E-IEC61987",
+  "change_request_id": "C00009",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE018",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Structural design [valve body assembly]",
+    "MDC_P006.en": "properties characterizing the constructional details of a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-09-02",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E-IEC61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE070,0112/2///61987#ABE295}",
+    "MDC_P004.de": "Konstruktiver Aufbau",
+    "MDC_P006.de": "Merkmale, die die konstruktiven Details eines Geräts kennzeichnen",
+    "C019.de": "set by Dr. W. Hartmann",
+    "C017.de": "Revision 0",
+    "C018.de": "2013-12-01",
+    "C002": "C00009"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "B4E6CBDABCDAB978C125825E001DD936",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "6d92a5db87e0c2fbc1257cb400549e14",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-09-02",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE070",
+    "0112/2///61987#ABE295"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "B4E6CBDABCDAB978C125825E001DD936"
+  }
+}

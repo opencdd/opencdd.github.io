@@ -1,0 +1,146 @@
+{
+  "irdi": "0112/2///61987#ABB612",
+  "code": "ABB612",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "maximum current consumption",
+  "preferred_name_ml": {
+    "en": "maximum current consumption",
+    "de": "maximale Stromaufnahme"
+  },
+  "definition": "highest current that may flow in a device circuit",
+  "definition_ml": {
+    "en": "highest current that may flow in a device circuit",
+    "de": "höchster Strom, der in einem Stromkreis fließen darf"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB612",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "maximum current consumption",
+    "MDC_P006.en": "highest current that may flow in a device circuit",
+    "MDC_P023": "A",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C0104": "0112/2///61987#ABT567",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "maximale Stromaufnahme",
+    "MDC_P006.de": "höchster Strom, der in einem Stromkreis fließen darf",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "5407B3CCFBE11C5BC1258940004C577E",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "f3ef20a451c5833cc125825e001dea40",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:33",
+      "user": "BATCH 00000755",
+      "unid": "66bce25e06087063c1258256003e94d6",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:26",
+      "user": "BATCH 00000732",
+      "unid": "31d33df6119dca9cc12580d6004c1eee",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:05",
+      "user": "BATCH 00000715",
+      "unid": "8d49e49a5a68b9e9c1257f7f004d0113",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:54",
+      "user": "BATCH 00000717",
+      "unid": "5142fdb4719f38f3c1257fa700405a99",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "907fd2c26f3571bdc1257cfb00403cc8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "251b4ae55c91410ec1257cb40054be85",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "5407B3CCFBE11C5BC1258940004C577E"
+  }
+}

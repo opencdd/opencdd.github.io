@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACE206",
+  "code": "ACE206",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "suitable for use in single phase",
+  "preferred_name_ml": {
+    "en": "suitable for use in single phase",
+    "fr": "utilisable en monophasé",
+    "de": "Einphasenfähigkeit",
+    "zh": "适用于单相"
+  },
+  "definition": "ability to use the three phase device on single-phase power circuit",
+  "definition_ml": {
+    "en": "ability to use the three phase device on single-phase power circuit",
+    "fr": "faculté à utiliser l'appareil triphasé sur un circuit de puissance monophasé",
+    "de": "Fähigkeit, ein dreiphasiges Gerät im einphasigen Netz zu betreiben",
+    "zh": "三相电器在单相电源电路中使用的能力"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE206",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "suitable for use in single phase",
+    "MDC_P006.en": "ability to use the three phase device on single-phase power circuit",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC012",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "utilisable en monophasé",
+    "MDC_P006.fr": "faculté à utiliser l'appareil triphasé sur un circuit de puissance monophasé",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-09-27",
+    "MDC_P004.de": "Einphasenfähigkeit",
+    "MDC_P006.de": "Fähigkeit, ein dreiphasiges Gerät im einphasigen Netz zu betreiben",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "适用于单相",
+    "MDC_P006.zh": "三相电器在单相电源电路中使用的能力",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:26",
+      "user": "BATCH 00000704",
+      "unid": "822608fcfcf21963c125803000457024",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:47",
+      "user": "BATCH 00000741",
+      "unid": "D522D04502B7B359C12584EC006DC0C1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:26",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "822608fcfcf21963c125803000457024"
+  }
+}

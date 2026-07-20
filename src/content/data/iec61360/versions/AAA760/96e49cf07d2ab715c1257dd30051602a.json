@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA760",
+  "code": "AAA760",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-01-20 15:48:50",
+    "user": "BATCH 00000890",
+    "change_request_id": null,
+    "unid": "96e49cf07d2ab715c1257dd30051602a"
+  }
+}

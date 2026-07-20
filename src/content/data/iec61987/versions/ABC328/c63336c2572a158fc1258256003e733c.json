@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC328",
+  "code": "ABC328",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:22:07",
+    "user": "BATCH 00000755",
+    "change_request_id": null,
+    "unid": "c63336c2572a158fc1258256003e733c"
+  }
+}

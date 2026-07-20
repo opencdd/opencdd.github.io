@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC805",
+  "code": "ABC805",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2016-08-31 20:15:00",
+    "user": "BATCH 00000725",
+    "change_request_id": null,
+    "unid": "28b054fc3c7358d7c125802000644020"
+  }
+}

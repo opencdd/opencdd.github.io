@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAE871",
+  "code": "AAE871",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "substrate width",
+  "preferred_name_ml": {
+    "en": "substrate width"
+  },
+  "short_name": "W_s",
+  "short_name_ml": {
+    "en": "W_s"
+  },
+  "definition": "nominal total width of the substrate of an hybrid inductive proximity detector",
+  "definition_ml": {
+    "en": "nominal total width of the substrate of an hybrid inductive proximity detector"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE871",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "substrate width",
+    "MDC_P005.en": "W_s",
+    "MDC_P006.en": "nominal total width of the substrate of an hybrid inductive proximity detector",
+    "MDC_P025_1": "W_s}",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:35",
+      "user": "BATCH 00000917",
+      "unid": "4DDF47804C9279E8C1257EA4004B20CA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "be39d87b14725961c1257e8b00323718",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "73e17797af4ecc3bc1257e8a0043e4ed",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "ed64e15a760c1ec6c1257a0e0047bd26",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "ad98e0b67333ed5ec1257a0e0046daa6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "W_s}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:35",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "4DDF47804C9279E8C1257EA4004B20CA"
+  }
+}

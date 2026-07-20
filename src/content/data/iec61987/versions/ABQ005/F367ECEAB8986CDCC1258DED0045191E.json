@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABQ005",
+  "code": "ABQ005",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Raman spectrometer specific condition monitoring variables",
+  "preferred_name_ml": {
+    "en": "Raman spectrometer specific condition monitoring variables",
+    "de": "Condition Monitoring-Variablen für Raman-Spektrometer"
+  },
+  "definition": "properties characterizing dynamic data which are diagnostic results generated for an Raman spectrometer",
+  "definition_ml": {
+    "en": "properties characterizing dynamic data which are diagnostic results generated for an Raman spectrometer",
+    "de": "Merkmale, die dynamische Daten charakterisieren, bei denen es sich um Diagnosedaten handelt, welche für ein Raman-Spektrometer erzeugt wurden"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABQ005",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Raman spectrometer specific condition monitoring variables",
+    "MDC_P006.en": "properties characterizing dynamic data which are diagnostic results generated for an Raman spectrometer",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2024-06-14",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABP552,0112/2///61987#ABP565,0112/2///61987#ABQ037,0112/2///61987#ABQ038,0112/2///61987#ABQ057,0112/2///61987#ABP996,0112/2///61987#ABQ039}",
+    "MDC_P004.de": "Condition Monitoring-Variablen für Raman-Spektrometer",
+    "MDC_P006.de": "Merkmale, die dynamische Daten charakterisieren, bei denen es sich um Diagnosedaten handelt, welche für ein Raman-Spektrometer erzeugt wurden",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2024-06-14",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:34:44",
+      "user": "BATCH 00000863",
+      "unid": "F367ECEAB8986CDCC1258DED0045191E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:45:22",
+      "user": "BATCH 00000835",
+      "unid": "16318fe9f3f3ea2ec1258c3b004b90d5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-06-14",
+    "current_version": "2025-02-24",
+    "current_revision": "2026-05-04"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABP552",
+    "0112/2///61987#ABP565",
+    "0112/2///61987#ABQ037",
+    "0112/2///61987#ABQ038",
+    "0112/2///61987#ABQ057",
+    "0112/2///61987#ABP996",
+    "0112/2///61987#ABQ039"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:34:44",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "F367ECEAB8986CDCC1258DED0045191E"
+  }
+}

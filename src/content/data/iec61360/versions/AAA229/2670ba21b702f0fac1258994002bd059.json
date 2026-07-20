@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61360_4#AAA229",
+  "code": "AAA229",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "microwave component",
+  "preferred_name_ml": {
+    "en": "microwave component"
+  },
+  "short_name": "MIC",
+  "short_name_ml": {
+    "en": "MIC"
+  },
+  "definition": "component for handling radio waves with a wavelength sufficiently low to allow use of technologies such as waveguides, cavities, or planar transmission lines; the corresponding frequencies are higher than about 1 GHz",
+  "definition_ml": {
+    "en": "component for handling radio waves with a wavelength sufficiently low to allow use of technologies such as waveguides, cavities, or planar transmission lines; the corresponding frequencies are higher than about 1 GHz"
+  },
+  "synonyms": [],
+  "note": "The term microwave generally refers to the frequency range where circuits and device interconnects are described as distributed elements instead of lumped elements.",
+  "note_ml": {
+    "en": "The term microwave generally refers to the frequency range where circuits and device interconnects are described as distributed elements instead of lumped elements."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA229",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P005.en": "MIC",
+    "MDC_P004.en": "microwave component",
+    "MDC_P006.en": "component for handling radio waves with a wavelength sufficiently low to allow use of technologies such as waveguides, cavities, or planar transmission lines; the corresponding frequencies are higher than about 1 GHz",
+    "MDC_P008.en": "The term microwave generally refers to the frequency range where circuits and device interconnects are described as distributed elements instead of lumped elements.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA002",
+    "MDC_P014": "{0112/2///61360_4#AAF260,0112/2///61360_4#AAJ041,0112/2///61360_4#AAJ056,0112/2///61360_4#AAJ117,0112/2///61360_4#AAJ118,0112/2///61360_4#AAJ119,0112/2///61360_4#AAJ120,0112/2///61360_4#AAJ121,0112/2///61360_4#AAJ122}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "2670ba21b702f0fac1258994002bd059",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:18",
+      "user": "BATCH 00000998",
+      "unid": "856caddd86a0b3f2c12580880052e23b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:01",
+      "user": "BATCH 00000997",
+      "unid": "eda51ff1c79f2d48c12580880051d9e4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "27bb438a579b3985c1257d7300506a6f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-08-31 17:34:41",
+      "user": "BATCH 00000746",
+      "unid": "e95cbf3261989dafc12578fd005592c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF260",
+    "0112/2///61360_4#AAJ041",
+    "0112/2///61360_4#AAJ056",
+    "0112/2///61360_4#AAJ117",
+    "0112/2///61360_4#AAJ118",
+    "0112/2///61360_4#AAJ119",
+    "0112/2///61360_4#AAJ120",
+    "0112/2///61360_4#AAJ121",
+    "0112/2///61360_4#AAJ122"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA002",
+  "superclass_type_property": "0112/2///61360_4#AAA002",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "2670ba21b702f0fac1258994002bd059"
+  }
+}

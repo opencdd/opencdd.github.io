@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61360_4#AFD128",
+  "code": "AFD128",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "recommended input voltage",
+  "preferred_name_ml": {
+    "en": "recommended input voltage"
+  },
+  "short_name": "V_IN",
+  "short_name_ml": {
+    "en": "V_IN"
+  },
+  "definition": "range of input voltage that can be applied in a series regulator while enabling stable output",
+  "definition_ml": {
+    "en": "range of input voltage that can be applied in a series regulator while enabling stable output"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00050",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD128",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "recommended input voltage",
+    "MDC_P005.en": "V_IN",
+    "MDC_P006.en": "range of input voltage that can be applied in a series regulator while enabling stable output",
+    "MDC_P025_1": "V_IN",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA020",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-10-02",
+    "MDC_P003_2": "2015-12-21",
+    "MDC_P003_3": "2015-12-21",
+    "C002": "C00050"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2015-10-02 14:09:29",
+      "user": "BATCH 00000920",
+      "unid": "CF8C5BF62394F16BC1257ED20042C96B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "f386245096748e5fc1257ea4004b259b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "99e2ed49217edf63c1257e8a0043e9be",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-12-21",
+    "current_revision": "2015-12-21"
+  },
+  "symbol_in_text": "V_IN",
+  "definition_class_irdi": "0112/2///61360_4#AFA020",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2015-10-02 14:09:29",
+    "user": "BATCH 00000920",
+    "change_request_id": null,
+    "unid": "CF8C5BF62394F16BC1257ED20042C96B"
+  }
+}

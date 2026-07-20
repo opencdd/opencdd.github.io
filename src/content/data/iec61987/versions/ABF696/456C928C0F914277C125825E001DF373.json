@@ -1,0 +1,81 @@
+{
+  "irdi": "0112/2///61987#ABF696",
+  "code": "ABF696",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "reference to Structural design of a window",
+  "preferred_name_ml": {
+    "en": "reference to Structural design of a window"
+  },
+  "definition": "reference to block ABF017",
+  "definition_ml": {
+    "en": "reference to block ABF017"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF696",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Structural design of a window",
+    "MDC_P006.en": "reference to block ABF017",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABF017)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:08",
+      "user": "BATCH 00000762",
+      "unid": "456C928C0F914277C125825E001DF373",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:43",
+      "user": "BATCH 00000732",
+      "unid": "bc012305a271cc8cc12580d6004c256d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABF017)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABF017)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:08",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "456C928C0F914277C125825E001DF373"
+  }
+}

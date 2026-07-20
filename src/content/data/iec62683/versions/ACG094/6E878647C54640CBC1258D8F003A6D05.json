@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///62683#ACG094",
+  "code": "ACG094",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Busbar trunking system entry",
+  "preferred_name_ml": {
+    "en": "Busbar trunking system entry",
+    "fr": "Entrée de canalisation électriques préfabriquées"
+  },
+  "definition": "part with openings which permit the passage of busbar trunking system into the assembly",
+  "definition_ml": {
+    "en": "part with openings which permit the passage of busbar trunking system into the assembly",
+    "fr": "pièce comportant des ouvertures qui permettent le passage de canalisation électriques préfabriquées dans l'ensemble"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG094",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Busbar trunking system entry",
+    "MDC_P006.en": "part with openings which permit the passage of busbar trunking system into the assembly",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2024-05-16",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC068}",
+    "MDC_P090": "{0112/2///62683#ACE887,0112/2///62683#ACE888,0112/2///62683#ACF095,0112/2///62683#ACE894,0112/2///62683#ACE895,0112/2///62683#ACE896,0112/2///62683#ACE897,0112/2///62683#ACE898}",
+    "MDC_P004.fr": "Entrée de canalisation électriques préfabriquées",
+    "MDC_P006.fr": "pièce comportant des ouvertures qui permettent le passage de canalisation électriques préfabriquées dans l'ensemble",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "5/16/2024",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "6E878647C54640CBC1258D8F003A6D05",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "7fb22e702246206ac1258b9d00731738",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "fbf99134b9158322c1258034002e35ae",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "0efb6a9beccefa3bc125803000450284",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-05-16",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC068"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE887",
+    "0112/2///62683#ACE888",
+    "0112/2///62683#ACF095",
+    "0112/2///62683#ACE894",
+    "0112/2///62683#ACE895",
+    "0112/2///62683#ACE896",
+    "0112/2///62683#ACE897",
+    "0112/2///62683#ACE898"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "6E878647C54640CBC1258D8F003A6D05"
+  }
+}

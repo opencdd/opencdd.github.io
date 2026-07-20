@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61360_4#AFD063",
+  "code": "AFD063",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "gate-emitter leakage current",
+  "preferred_name_ml": {
+    "en": "gate-emitter leakage current"
+  },
+  "short_name": "I_GES",
+  "short_name_ml": {
+    "en": "I_GES"
+  },
+  "definition": "leakage current into the gate terminal at a specified gate-emitter voltage with the collector terminal short-circuited to the emitter terminal",
+  "definition_ml": {
+    "en": "leakage current into the gate terminal at a specified gate-emitter voltage with the collector terminal short-circuited to the emitter terminal"
+  },
+  "source_document": "IEC 60747-9 2007",
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD063",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "gate-emitter leakage current",
+    "MDC_P005.en": "I_GES",
+    "MDC_P006.en": "leakage current into the gate terminal at a specified gate-emitter voltage with the collector terminal short-circuited to the emitter terminal",
+    "MDC_P025_1": "I_GES",
+    "MDC_P023": "A",
+    "MDC_P022": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60747-9 2007",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA015",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-04-24",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "02BCFCE1C3D429ADC1257EA4004B255D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "6a761e4f4aff1ec8c1257e8b00323b65",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "2afc698cc3745357c1257e8a0043e980",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-18 14:54:43",
+      "user": "BATCH 00000812",
+      "unid": "ca16fa3f8c8ddf73c1257af7004c6bae",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-04-24",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "I_GES",
+  "definition_class_irdi": "0112/2///61360_4#AFA015",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "02BCFCE1C3D429ADC1257EA4004B255D"
+  }
+}

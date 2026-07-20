@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC429",
+  "code": "ABC429",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:34:39",
+    "user": "BATCH 00000701",
+    "change_request_id": null,
+    "unid": "f24675825d219a1ac1257cfb003f9921"
+  }
+}

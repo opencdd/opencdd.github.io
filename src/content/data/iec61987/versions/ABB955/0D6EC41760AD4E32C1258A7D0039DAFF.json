@@ -1,0 +1,165 @@
+{
+  "irdi": "0112/2///61987#ABB955",
+  "code": "ABB955",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "details of CNG approval",
+  "preferred_name_ml": {
+    "en": "details of CNG approval",
+    "fr": "détails de l'agrément de GNC",
+    "de": "Details der Erdgaszulassung"
+  },
+  "definition": "if appropriate, details of a compressed natural gas approval",
+  "definition_ml": {
+    "en": "if appropriate, details of a compressed natural gas approval",
+    "fr": "le cas échéant, les détails d'un agrément de gaz naturel comprimé",
+    "de": "falls zutreffend, Details einer Erdgaszulassung"
+  },
+  "synonyms": [],
+  "note": "e.g. approval number or code etc.",
+  "note_ml": {
+    "en": "e.g. approval number or code etc.",
+    "de": "z.B. Zulassungsnummer oder -code etc."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB955",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "details of CNG approval",
+    "MDC_P006.en": "if appropriate, details of a compressed natural gas approval",
+    "MDC_P008.en": "e.g. approval number or code etc.",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "détails de l'agrément de GNC",
+    "MDC_P006.fr": "le cas échéant, les détails d'un agrément de gaz naturel comprimé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-08-12",
+    "MDC_P004.de": "Details der Erdgaszulassung",
+    "MDC_P006.de": "falls zutreffend, Details einer Erdgaszulassung",
+    "MDC_P008.de": "z.B. Zulassungsnummer oder -code etc.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:56",
+      "user": "BATCH 00000818",
+      "unid": "0D6EC41760AD4E32C1258A7D0039DAFF",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "8a66eabbfa80265cc125825e001deb94",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "c18686a8f3be6d85c1258256003e9549",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "7275c950042721f6c125825600407a64",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:29",
+      "user": "BATCH 00000732",
+      "unid": "329263bf62cb6c16c12580d6004c2042",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "853dc630f77ee97fc1257f7e0030f224",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "db6154668bf080f7c1257fa7003a3d4f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:42",
+      "user": "BATCH 00000702",
+      "unid": "5305f24f417a065dc1257cfb00403e1c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "1ef88e9077923353c1257cb40054bfd9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:56",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "0D6EC41760AD4E32C1258A7D0039DAFF"
+  }
+}

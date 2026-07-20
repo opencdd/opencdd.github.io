@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61360_4#AAE063",
+  "code": "AAE063",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "insulation resistance",
+  "preferred_name_ml": {
+    "en": "insulation resistance"
+  },
+  "short_name": "R_ins",
+  "short_name_ml": {
+    "en": "R_ins"
+  },
+  "definition": "minimum insulation resistance between terminals of a fixed capacitor, determined according to IEC 60384-1(4.5) (1984) at reference conditions",
+  "definition_ml": {
+    "en": "minimum insulation resistance between terminals of a fixed capacitor, determined according to IEC 60384-1(4.5) (1984) at reference conditions"
+  },
+  "source_document": "IEC/TC40(Sec)2250(02.87) (1986)",
+  "synonyms": [],
+  "remark": "1. The insulation resistance is measured after a voltage has been applied for 1 min +/- 5 s. The relationship between this voltage and the rated voltage (dc) is prescribed in IEC 60384-1 (Amd2)(4.5.2) (1987).|, voltage rating of capacitor................measuring voltage| U_R} or U_C} < 10 V.................................U_R} or U_C} +/-10%|10 V <= U_R} or U_C} < 100 V ..............10 +/- 1 V|100 V <= U_R} or U_C} < 500 V.............100 +/-15 V| 500 V <= U_R} or U_C}............................500 +/-50 V|| 2. AAE063-005 is prescribed by IEC for specific capacitor types. See also AAE069-005",
+  "remark_ml": {
+    "en": "1. The insulation resistance is measured after a voltage has been applied for 1 min +/- 5 s. The relationship between this voltage and the rated voltage (dc) is prescribed in IEC 60384-1 (Amd2)(4.5.2) (1987).|, voltage rating of capacitor................measuring voltage| U_R} or U_C} < 10 V.................................U_R} or U_C} +/-10%|10 V <= U_R} or U_C} < 100 V ..............10 +/- 1 V|100 V <= U_R} or U_C} < 500 V.............100 +/-15 V| 500 V <= U_R} or U_C}............................500 +/-50 V|| 2. AAE063-005 is prescribed by IEC for specific capacitor types. See also AAE069-005"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE063",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "insulation resistance",
+    "MDC_P005.en": "R_ins",
+    "MDC_P006.en": "minimum insulation resistance between terminals of a fixed capacitor, determined according to IEC 60384-1(4.5) (1984) at reference conditions",
+    "MDC_P009.en": "1. The insulation resistance is measured after a voltage has been applied for 1 min +/- 5 s. The relationship between this voltage and the rated voltage (dc) is prescribed in IEC 60384-1 (Amd2)(4.5.2) (1987).|, voltage rating of capacitor................measuring voltage| U_R} or U_C} < 10 V.................................U_R} or U_C} +/-10%|10 V <= U_R} or U_C} < 100 V ..............10 +/- 1 V|100 V <= U_R} or U_C} < 500 V.............100 +/-15 V| 500 V <= U_R} or U_C}............................500 +/-50 V|| 2. AAE063-005 is prescribed by IEC for specific capacitor types. See also AAE069-005",
+    "MDC_P025_1": "R_ins}",
+    "MDC_P023": "Ω",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC/TC40(Sec)2250(02.87) (1986)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E33",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA017",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE995}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "D29F522739714E81C1257EA4004B1EB4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "1597e3d3ae7cce43c1257e8b00323503",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "86bf276029619b5ac1257e8a0043e2d7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "a3f86e1fb9f16a55c1257a0e0047bb28",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:49",
+      "user": "BATCH 00000787",
+      "unid": "a64a8b4c3e992c6ec1257a0e0046d8a8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "R_ins}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA017",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE995}",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:30",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D29F522739714E81C1257EA4004B1EB4"
+  }
+}

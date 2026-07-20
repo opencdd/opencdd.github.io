@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE394",
+  "code": "ABE394",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-05-02 12:36:08",
+    "user": "BATCH 00000716",
+    "change_request_id": null,
+    "unid": "ea9b7189ace779b8c1257fa7003a3d71"
+  }
+}

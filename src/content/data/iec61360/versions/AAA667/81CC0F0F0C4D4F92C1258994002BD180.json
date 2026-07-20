@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61360_4#AAA667",
+  "code": "AAA667",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "cartesian point",
+  "preferred_name_ml": {
+    "en": "cartesian point"
+  },
+  "definition": "point defined by its coordinates in a rectangular Cartesian coordinate system",
+  "definition_ml": {
+    "en": "point defined by its coordinates in a rectangular Cartesian coordinate system"
+  },
+  "source_document": "ISO 10303-42:2003, 4.4.4",
+  "synonyms": [],
+  "note": "For the purpose of defining solid geometry three-dimensional points are used.",
+  "note_ml": {
+    "en": "For the purpose of defining solid geometry three-dimensional points are used."
+  },
+  "simplified_drawing": "DAAA667",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "ISO 10303-42",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA667",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "cartesian point",
+    "MDC_P006.en": "point defined by its coordinates in a rectangular Cartesian coordinate system",
+    "MDC_P008.en": "For the purpose of defining solid geometry three-dimensional points are used.",
+    "MDC_P006_1": "ISO 10303-42:2003, 4.4.4",
+    "MDC_P008_1": "DAAA667",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "ISO 10303-42",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2015-02-19",
+    "MDC_P003_2": "2015-10-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA668",
+    "MDC_P014": "{0112/2///61360_4#AAF406,0112/2///61360_4#AAF407,0112/2///61360_4#AAF408}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "81CC0F0F0C4D4F92C1258994002BD180",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:16",
+      "user": "BATCH 00000902",
+      "unid": "e34a2f48e7caf55fc1257e89004bd4d0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-19",
+    "current_version": "2015-10-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF406",
+    "0112/2///61360_4#AAF407",
+    "0112/2///61360_4#AAF408"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA668",
+  "superclass_type_property": "0112/2///61360_4#AAA668",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "81CC0F0F0C4D4F92C1258994002BD180"
+  }
+}

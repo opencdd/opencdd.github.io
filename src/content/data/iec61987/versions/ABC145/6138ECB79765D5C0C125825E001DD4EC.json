@@ -1,0 +1,165 @@
+{
+  "irdi": "0112/2///61987#ABC145",
+  "code": "ABC145",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Binary output IEC 60947-5-6 (NAMUR)",
+  "preferred_name_ml": {
+    "en": "Binary output IEC 60947-5-6 (NAMUR)",
+    "fr": "Sortie binaire CEI 60947-5-6 (NAMUR)",
+    "de": "Binärausgang IEC 60947-5-6 (NAMUR)"
+  },
+  "definition": "properties characterizing a binary output defined in IEC 60947-5-6",
+  "definition_ml": {
+    "en": "properties characterizing a binary output defined in IEC 60947-5-6",
+    "fr": "propriétés caractérisant une sortie binaire définie dans la CEI 60947-5-6",
+    "de": "Merkmale, die einen in IEC 60947-5-6 definierten Binärausgang kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "8 ABC145.8",
+  "remark_ml": {
+    "en": "8 ABC145.8"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC145",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Binary output IEC 60947-5-6 (NAMUR)",
+    "MDC_P006.en": "properties characterizing a binary output defined in IEC 60947-5-6",
+    "MDC_P009.en": "8 ABC145.8",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA412,0112/2///61987#ABD220,0112/2///61987#ABA453,0112/2///61987#ABA980,0112/2///61987#ABB153,0112/2///61987#ABA611,0112/2///61987#ABA612,0112/2///61987#ABA629,0112/2///61987#ABA415,0112/2///61987#ABH369,0112/2///61987#ABA457,0112/2///61987#ABA387,0112/2///61987#ABC891,0112/2///61987#ABA390,0112/2///61987#ABC865,0112/2///61987#ABI463,0112/2///61987#ABB103,0112/2///61987#ABC850,0112/2///61987#ABA401,0112/2///61987#ABC778}",
+    "MDC_P004.fr": "Sortie binaire CEI 60947-5-6 (NAMUR)",
+    "MDC_P006.fr": "propriétés caractérisant une sortie binaire définie dans la CEI 60947-5-6",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2016-05-13",
+    "MDC_P004.de": "Binärausgang IEC 60947-5-6 (NAMUR)",
+    "MDC_P006.de": "Merkmale, die einen in IEC 60947-5-6 definierten Binärausgang kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-05-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "6138ECB79765D5C0C125825E001DD4EC",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:06",
+      "user": "BATCH 00000755",
+      "unid": "864beccd2390d379c1258256003e72eb",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:59",
+      "user": "BATCH 00000732",
+      "unid": "edfe3c60b074fd1ac12580d6004bfce5",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "e32d922971803253c1257f7e0033a7b1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:35:49",
+      "user": "BATCH 00000716",
+      "unid": "c11929f42c46f1e3c1257fa7003a363e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:36",
+      "user": "BATCH 00000701",
+      "unid": "079162e74f63bb3dc1257cfb003f980c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "f7567f79f0cd0e03c1257cb400549b58",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA412",
+    "0112/2///61987#ABD220",
+    "0112/2///61987#ABA453",
+    "0112/2///61987#ABA980",
+    "0112/2///61987#ABB153",
+    "0112/2///61987#ABA611",
+    "0112/2///61987#ABA612",
+    "0112/2///61987#ABA629",
+    "0112/2///61987#ABA415",
+    "0112/2///61987#ABH369",
+    "0112/2///61987#ABA457",
+    "0112/2///61987#ABA387",
+    "0112/2///61987#ABC891",
+    "0112/2///61987#ABA390",
+    "0112/2///61987#ABC865",
+    "0112/2///61987#ABI463",
+    "0112/2///61987#ABB103",
+    "0112/2///61987#ABC850",
+    "0112/2///61987#ABA401",
+    "0112/2///61987#ABC778"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:50",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "6138ECB79765D5C0C125825E001DD4EC"
+  }
+}

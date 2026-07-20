@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF406",
+  "code": "AAF406",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-22 14:21:39",
+    "user": "BATCH 00000904",
+    "change_request_id": null,
+    "unid": "33dc64fe5190d4f0c1257e8a0043e678"
+  }
+}

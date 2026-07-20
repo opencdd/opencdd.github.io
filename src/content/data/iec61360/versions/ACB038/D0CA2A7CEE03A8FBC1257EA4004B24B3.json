@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61360_4#ACB038",
+  "code": "ACB038",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "relative mass value (percent)",
+  "preferred_name_ml": {
+    "en": "relative mass value (percent)"
+  },
+  "definition": "percentage of the mass for a product, product part, material class, material, substance group or substance",
+  "definition_ml": {
+    "en": "percentage of the mass for a product, product part, material class, material, substance group or substance"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "note": "As defined in section 4 of IEC 62474:2012.",
+  "note_ml": {
+    "en": "As defined in section 4 of IEC 62474:2012."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "TC111",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB038",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "relative mass value (percent)",
+    "MDC_P006.en": "percentage of the mass for a product, product part, material class, material, substance group or substance",
+    "MDC_P008.en": "As defined in section 4 of IEC 62474:2012.",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "R54",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC111"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "D0CA2A7CEE03A8FBC1257EA4004B24B3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "9bbf1bb19b952308c1257e8b00323adf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "304cb32091e026c8c1257e8a0043e8d6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "ea7fb6cbb861900bc1257e65003ff599",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D0CA2A7CEE03A8FBC1257EA4004B24B3"
+  }
+}

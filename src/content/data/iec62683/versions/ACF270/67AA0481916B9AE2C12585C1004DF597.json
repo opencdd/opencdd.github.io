@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF270",
+  "code": "ACF270",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Control and auxiliary circuits for Time relay",
+  "preferred_name_ml": {
+    "en": "Control and auxiliary circuits for Time relay",
+    "fr": "Circuits de commande et auxiliaire pour 0",
+    "de": "Steuer- und Hilfsstromkreise des Zeitrelais",
+    "zh": "定时继电器的控制和辅助电路"
+  },
+  "definition": "all the conductive parts of the time relay which are intended to be included in a circuit other than the main circuit",
+  "definition_ml": {
+    "en": "all the conductive parts of the time relay which are intended to be included in a circuit other than the main circuit",
+    "fr": "ensemble des pièces conductrices du relais temporisé destinées à être insérées dans un circuit autre que le circuit principal",
+    "de": "alle leitfähigen Teile eines Zeitrelais, die zu anderen Stromkreisen als dem Hauptstromkreis des Geräts gehören",
+    "zh": "在主电路之外的电路中使用的定时继电器的所有导电部件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00089",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF270",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Control and auxiliary circuits for Time relay",
+    "MDC_P006.en": "all the conductive parts of the time relay which are intended to be included in a circuit other than the main circuit",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG270)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-08-11",
+    "MDC_P003_1": "2016-02-01",
+    "MDC_P003_2": "2020-08-24",
+    "MDC_P003_3": "2020-08-24",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Circuits de commande et auxiliaire pour 0",
+    "MDC_P006.fr": "ensemble des pièces conductrices du relais temporisé destinées à être insérées dans un circuit autre que le circuit principal",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Steuer- und Hilfsstromkreise des Zeitrelais",
+    "MDC_P006.de": "alle leitfähigen Teile eines Zeitrelais, die zu anderen Stromkreisen als dem Hauptstromkreis des Geräts gehören",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2018-01-18",
+    "MDC_P004.zh": "定时继电器的控制和辅助电路",
+    "MDC_P006.zh": "在主电路之外的电路中使用的定时继电器的所有导电部件",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2018-05-30",
+    "C002": "C00089"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-08-11 16:11:31",
+      "user": "BATCH 00000755",
+      "unid": "67AA0481916B9AE2C12585C1004DF597",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:08:18",
+      "user": "BATCH 00000746",
+      "unid": "2a9a86f59c857953c12584ec00741df7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2016-02-01",
+    "current_version": "2020-08-24",
+    "current_revision": "2020-08-24"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG270)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG270)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-08-11 16:11:31",
+    "user": "BATCH 00000755",
+    "change_request_id": null,
+    "unid": "67AA0481916B9AE2C12585C1004DF597"
+  }
+}

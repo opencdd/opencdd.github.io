@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC522",
+  "code": "ABC522",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:22:07",
+    "user": "BATCH 00000755",
+    "change_request_id": null,
+    "unid": "744e7b711c404e2bc1258256003e7328"
+  }
+}

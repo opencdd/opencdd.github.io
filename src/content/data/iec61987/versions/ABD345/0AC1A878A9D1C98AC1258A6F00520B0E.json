@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61987#ABD345",
+  "code": "ABD345",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Gate valve",
+  "preferred_name_ml": {
+    "en": "Gate valve",
+    "de": "Schieber"
+  },
+  "definition": "valve with linear motion whose closure member is a flat gate that moves in a direction parallel to the plane of the seat",
+  "definition_ml": {
+    "en": "valve with linear motion whose closure member is a flat gate that moves in a direction parallel to the plane of the seat",
+    "de": "Ventil mit Linearbewegung, dessen Drosselkörper eine flache Platte ist welche sich in einer Richtung parallel zur Sitzebene bewegt"
+  },
+  "source_document": "IEC 60534-1",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD345",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Gate valve",
+    "MDC_P006.en": "valve with linear motion whose closure member is a flat gate that moves in a direction parallel to the plane of the seat",
+    "MDC_P006_1": "IEC 60534-1",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2016-05-02",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABD343",
+    "MDC_P014": "{0112/2///61987#ABU521}",
+    "MDC_P004.de": "Schieber",
+    "MDC_P006.de": "Ventil mit Linearbewegung, dessen Drosselkörper eine flache Platte ist welche sich in einer Richtung parallel zur Sitzebene bewegt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "0AC1A878A9D1C98AC1258A6F00520B0E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:59",
+      "user": "BATCH 00000762",
+      "unid": "699ec0c0903855c2c125825e001dd85a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2016-05-02",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABU521"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABD343",
+  "superclass_type_property": "0112/2///61987#ABD343",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "0AC1A878A9D1C98AC1258A6F00520B0E"
+  }
+}

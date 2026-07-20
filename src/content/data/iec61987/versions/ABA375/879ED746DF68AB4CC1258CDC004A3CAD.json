@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61987#ABA375",
+  "code": "ABA375",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "configurability of signal on alarm",
+  "preferred_name_ml": {
+    "en": "configurability of signal on alarm",
+    "fr": "capacité de configuration de signal en cas d'alarme",
+    "de": "Konfigurierbarkeit des Alarmsignals"
+  },
+  "definition": "signal levels to which an input or output of a device can be forced on detection of an alarm condition",
+  "definition_ml": {
+    "en": "signal levels to which an input or output of a device can be forced on detection of an alarm condition",
+    "fr": "niveaux de signal auxquels l'entrée ou la sortie d'un appareil peut être forcée lors de la détection d'une condition d'alarme",
+    "de": "Signalpegel, auf die ein Geräteeingang oder -ausgang bei Erkennung eines Alarmzustandes gezwungen werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA375",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "configurability of signal on alarm",
+    "MDC_P006.en": "signal levels to which an input or output of a device can be forced on detection of an alarm condition",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ805)",
+    "MDC_P068": "0112/2///61987#ABJ805",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "capacité de configuration de signal en cas d'alarme",
+    "MDC_P006.fr": "niveaux de signal auxquels l'entrée ou la sortie d'un appareil peut être forcée lors de la détection d'une condition d'alarme",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Konfigurierbarkeit des Alarmsignals",
+    "MDC_P006.de": "Signalpegel, auf die ein Geräteeingang oder -ausgang bei Erkennung eines Alarmzustandes gezwungen werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "879ED746DF68AB4CC1258CDC004A3CAD",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:21",
+      "user": "BATCH 00000803",
+      "unid": "896b42726c99fd88c125891300304823",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "574ed2094416b0a4c1258518003c4846",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "78af8de49d0ae3e5c125825e001de661",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "5db5e051551c4a68c1257cb40054babb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "constraint": "0112/2///61987#ABJ805",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ805)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ805)",
+  "value_list": "0112/2///61987#ABJ805",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "879ED746DF68AB4CC1258CDC004A3CAD"
+  }
+}

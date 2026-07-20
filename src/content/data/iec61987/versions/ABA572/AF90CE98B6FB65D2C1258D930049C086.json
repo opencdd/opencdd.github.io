@@ -1,0 +1,174 @@
+{
+  "irdi": "0112/2///61987#ABA572",
+  "code": "ABA572",
+  "version": "8",
+  "revision": "2",
+  "preferred_name": "vibration resistance",
+  "preferred_name_ml": {
+    "en": "vibration resistance",
+    "fr": "résistance aux vibrations",
+    "de": "Schwingungsfestigkeit"
+  },
+  "definition": "range of sinusoidal vibrations of a given severity the equipment is or shall be designed to withstand without permanent impairment of operating characteristics",
+  "definition_ml": {
+    "en": "range of sinusoidal vibrations of a given severity the equipment is or shall be designed to withstand without permanent impairment of operating characteristics",
+    "fr": "étendue de vibrations sinusoïdales d'une gravité donnée que l'équipement de mesure peut ou doit supporter sans altération permanente des caractéristiques de fonctionnement",
+    "de": "Bereich der sinusförmigen Schwingungen einer gegebenen Stärke, für die das Gerät ohne dauerhafte Einschränkung des Betriebsverhaltens ausgelegt ist oder sein muss"
+  },
+  "synonyms": [],
+  "note": "The severity is determined by four parameters: frequency, range, amplitude of vibration and duration of loading.",
+  "note_ml": {
+    "en": "The severity is determined by four parameters: frequency, range, amplitude of vibration and duration of loading.",
+    "de": "Die Schwere wird anhand von vier Parametern bestimmt: Frequenz, Bereich, Schwingungsamplitude und Dauer der Belastung."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA572",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "vibration resistance",
+    "MDC_P006.en": "range of sinusoidal vibrations of a given severity the equipment is or shall be designed to withstand without permanent impairment of operating characteristics",
+    "MDC_P008.en": "The severity is determined by four parameters: frequency, range, amplitude of vibration and duration of loading.",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "résistance aux vibrations",
+    "MDC_P006.fr": "étendue de vibrations sinusoïdales d'une gravité donnée que l'équipement de mesure peut ou doit supporter sans altération permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Schwingungsfestigkeit",
+    "MDC_P006.de": "Bereich der sinusförmigen Schwingungen einer gegebenen Stärke, für die das Gerät ohne dauerhafte Einschränkung des Betriebsverhaltens ausgelegt ist oder sein muss",
+    "MDC_P008.de": "Die Schwere wird anhand von vier Parametern bestimmt: Frequenz, Bereich, Schwingungsamplitude und Dauer der Belastung.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-10-13",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:25:34",
+      "user": "BATCH 00000857",
+      "unid": "AF90CE98B6FB65D2C1258D930049C086",
+      "is_current": true
+    },
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "4b910fc823f87569c1258a7d0039da35",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "d379d45f4c62faddc125825e001de732",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "f756cd7e9d273faac1258256003e9413",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "4ab68384e8ff3161c125825600407ada",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "96e9767e41f5c575c12580d6004c1bde",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "62297609692a11c4c1257f7e0030f1be",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "fc259ec9a16e27d1c1257fa7003a3cf7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "f98b5c592d007505c1257cfb004039b8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "372c44dc2f6b1d16c1257cb40054bb75",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2026-02-03"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:25:34",
+    "user": "BATCH 00000857",
+    "change_request_id": null,
+    "unid": "AF90CE98B6FB65D2C1258D930049C086"
+  }
+}

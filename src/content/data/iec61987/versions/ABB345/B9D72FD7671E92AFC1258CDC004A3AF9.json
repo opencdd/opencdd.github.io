@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABB345",
+  "code": "ABB345",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "nozzle elevation",
+  "preferred_name_ml": {
+    "en": "nozzle elevation",
+    "fr": "elévation de la tuyère",
+    "de": "Höhenlage des Stutzens"
+  },
+  "definition": "elevation of the nozzle referenced to the pipe or the equipment to which it is attached",
+  "definition_ml": {
+    "en": "elevation of the nozzle referenced to the pipe or the equipment to which it is attached",
+    "fr": "élévation de la tuyère référencée pour la canalisation ou l'équipement auquel elle est fixée",
+    "de": "Höhenlage des Stutzens bezogen auf das Rohr oder Gerät, an dem er befestigt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB345",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "nozzle elevation",
+    "MDC_P006.en": "elevation of the nozzle referenced to the pipe or the equipment to which it is attached",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL269)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "elévation de la tuyère",
+    "MDC_P006.fr": "élévation de la tuyère référencée pour la canalisation ou l'équipement auquel elle est fixée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Höhenlage des Stutzens",
+    "MDC_P006.de": "Höhenlage des Stutzens bezogen auf das Rohr oder Gerät, an dem er befestigt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "B9D72FD7671E92AFC1258CDC004A3AF9",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "370d04804f5bbf17c1258518003c48ee",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "965d6ff525bf572dc125825e001de93a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "cb8342012b00d67dc125825600407b2c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "49461a304636d3b7c12580d6004c1de8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "96bda0d9d4033889c1257cfb00403bc2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "45506c2d959c6425c1257cb40054bd7f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL269)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL269)",
+  "value_list": "0112/2///61987#ABL269",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "B9D72FD7671E92AFC1258CDC004A3AF9"
+  }
+}

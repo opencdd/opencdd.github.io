@@ -1,0 +1,94 @@
+{
+  "irdi": "0112/2///61987#ABD597",
+  "code": "ABD597",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "inherent rangeability",
+  "preferred_name_ml": {
+    "en": "inherent rangeability",
+    "de": "inhärentes Stellverhältnis"
+  },
+  "definition": "highest ratio that theoretically can be achieved between the maximum and minimum flow rate let past by a valve",
+  "definition_ml": {
+    "en": "highest ratio that theoretically can be achieved between the maximum and minimum flow rate let past by a valve",
+    "de": "größtes Verhältnis, das theoretisch zwischen der maximalen und minimalen von einem Ventil freigegebenen Durchflussrate erreicht werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD597",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "inherent rangeability",
+    "MDC_P006.en": "highest ratio that theoretically can be achieved between the maximum and minimum flow rate let past by a valve",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2016-05-02",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P004.de": "inhärentes Stellverhältnis",
+    "MDC_P006.de": "größtes Verhältnis, das theoretisch zwischen der maximalen und minimalen von einem Ventil freigegebenen Durchflussrate erreicht werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:56",
+      "user": "BATCH 00000762",
+      "unid": "45CDCF6FD5FF65D9C125825E001DEE93",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:49",
+      "user": "BATCH 00000702",
+      "unid": "6bd40bb9a817495fc1257cfb00404119",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:49",
+      "user": "BATCH 00000699",
+      "unid": "88988964db67d261c1257cb40054c2d6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2016-05-02",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:56",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "45CDCF6FD5FF65D9C125825E001DEE93"
+  }
+}

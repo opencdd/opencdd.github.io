@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA893",
+  "code": "ABA893",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "style of sealing surface",
+  "preferred_name_ml": {
+    "en": "style of sealing surface",
+    "fr": "style de surface d'étanchéité",
+    "de": "Ausführung der Dichtfläche"
+  },
+  "definition": "classification of the sealing surface of a flange according to its design code or characteristics",
+  "definition_ml": {
+    "en": "classification of the sealing surface of a flange according to its design code or characteristics",
+    "fr": "classification de la surface d'étanchéité d'une bride en fonction de son code de conception ou de ses caractéristiques",
+    "de": "Charakterisierung der Dichtfläche eines Flansches bezüglich Herstellungsnorm oder Eigenschaften"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA893",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of sealing surface",
+    "MDC_P006.en": "classification of the sealing surface of a flange according to its design code or characteristics",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ733)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "style de surface d'étanchéité",
+    "MDC_P006.fr": "classification de la surface d'étanchéité d'une bride en fonction de son code de conception ou de ses caractéristiques",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Ausführung der Dichtfläche",
+    "MDC_P006.de": "Charakterisierung der Dichtfläche eines Flansches bezüglich Herstellungsnorm oder Eigenschaften",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "AE214CFC991750FCC1258CDC004A3A9C",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "b37770fbbcfaed17c1258518003c487f",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "2fbc990ac6fd3e33c125825e001de77a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "0e2fddd2b3dcffccc125825600407b3e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "00b8265b10686ae3c12580d6004c1c27",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "5a27f75667c4d3dbc1257cfb00403a01",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "6ee08597b756b1acc1257cb40054bbbe",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ733)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ733)",
+  "value_list": "0112/2///61987#ABJ733",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "AE214CFC991750FCC1258CDC004A3A9C"
+  }
+}

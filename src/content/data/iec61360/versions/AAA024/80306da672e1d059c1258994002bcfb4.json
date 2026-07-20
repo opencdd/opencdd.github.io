@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAA024",
+  "code": "AAA024",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "fixed class 1 ceramic capacitor",
+  "preferred_name_ml": {
+    "en": "fixed class 1 ceramic capacitor"
+  },
+  "definition": "ceramic capacitor specially designed and suited for resonant circuit application where low losses and high stability of capacitance are essential or where a precisely defined temperature coefficient is required",
+  "definition_ml": {
+    "en": "ceramic capacitor specially designed and suited for resonant circuit application where low losses and high stability of capacitance are essential or where a precisely defined temperature coefficient is required"
+  },
+  "source_document": "IEC 60384-8",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "class 1 ceramic"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "class 1 ceramic"
+  },
+  "remark": "The ceramic dielectric is defined by its rated temperature coefficient (alpha).",
+  "remark_ml": {
+    "en": "The ceramic dielectric is defined by its rated temperature coefficient (alpha)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA024",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "fixed class 1 ceramic capacitor",
+    "MDC_P007.en": "class 1 ceramic",
+    "MDC_P006.en": "ceramic capacitor specially designed and suited for resonant circuit application where low losses and high stability of capacitance are essential or where a precisely defined temperature coefficient is required",
+    "MDC_P009.en": "The ceramic dielectric is defined by its rated temperature coefficient (alpha).",
+    "MDC_P006_1": "IEC 60384-8",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA023",
+    "MDC_P014": "{0112/2///61360_4#AAE035,0112/2///61360_4#AAE266}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "80306da672e1d059c1258994002bcfb4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "5cf6d1eb8bb61e78c1257dd300515f1d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "45449e2669e10f56c1257d7300506943",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "4bc07e5417c6430dc1257a0e0047b203",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE035",
+    "0112/2///61360_4#AAE266"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA023",
+  "superclass_type_property": "0112/2///61360_4#AAA023",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "80306da672e1d059c1258994002bcfb4"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61360_4#AFA007",
+  "code": "AFA007",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "quartz crystal oscillator",
+  "preferred_name_ml": {
+    "en": "quartz crystal oscillator"
+  },
+  "definition": "electrical device containing quartz crystal unit(s) and drive circuit(s) for frequency output",
+  "definition_ml": {
+    "en": "electrical device containing quartz crystal unit(s) and drive circuit(s) for frequency output"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "XO"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "XO"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA007",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "quartz crystal oscillator",
+    "MDC_P007.en": "XO",
+    "MDC_P006.en": "electrical device containing quartz crystal unit(s) and drive circuit(s) for frequency output",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AFA003",
+    "MDC_P014": "{0112/2///61360_4#AFD018,0112/2///61360_4#AFD026,0112/2///61360_4#AFD030,0112/2///61360_4#AFD031,0112/2///61360_4#AFD032,0112/2///61360_4#AFD048,0112/2///61360_4#AFD049}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "827C7E8266506344C1258994002BD1C7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "632f319ee46e1a34c1257dd300516036",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "d66685d6c9297563c1257d7300506a5d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:03",
+      "user": "BATCH 00000817",
+      "unid": "6d40640c5a6dcacbc1257b0200429085",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD018",
+    "0112/2///61360_4#AFD026",
+    "0112/2///61360_4#AFD030",
+    "0112/2///61360_4#AFD031",
+    "0112/2///61360_4#AFD032",
+    "0112/2///61360_4#AFD048",
+    "0112/2///61360_4#AFD049"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AFA003",
+  "superclass_type_property": "0112/2///61360_4#AFA003",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "827C7E8266506344C1258994002BD1C7"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB302",
+  "code": "ABB302",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "heat capacity",
+  "preferred_name_ml": {
+    "en": "heat capacity",
+    "fr": "capacité calorifique",
+    "de": "Wärmekapazität"
+  },
+  "definition": "quantity of heat required at a given temperature to heat a substance of one mass unit by one temperature unit",
+  "definition_ml": {
+    "en": "quantity of heat required at a given temperature to heat a substance of one mass unit by one temperature unit",
+    "fr": "quantité de chaleur requise à une température donnée pour chauffer d'une unité de température une substance d'une unité de masse",
+    "de": "Wärmemenge, die bei einer vorgegebenen Temperatur notwendig ist, um eine Substanz von einer Masseeinheit um eine Temperatureinheit zu erwärmen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB302",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "heat capacity",
+    "MDC_P006.en": "quantity of heat required at a given temperature to heat a substance of one mass unit by one temperature unit",
+    "MDC_P023": "\"(kJ/K)/kg\"",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA571",
+    "C0104": "0112/2///61987#ABT558",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "capacité calorifique",
+    "MDC_P006.fr": "quantité de chaleur requise à une température donnée pour chauffer d'une unité de température une substance d'une unité de masse",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Wärmekapazität",
+    "MDC_P006.de": "Wärmemenge, die bei einer vorgegebenen Temperatur notwendig ist, um eine Substanz von einer Masseeinheit um eine Temperatureinheit zu erwärmen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "A6AA1A871D33BDDCC125825E001DE90F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "0d90344df97e8409c1257fa700405a1f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "44001f28ce03299ac1257cfb00403b97",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "8dd8da661f1c6b2fc1257cb40054bd54",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA571",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:42",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A6AA1A871D33BDDCC125825E001DE90F"
+  }
+}

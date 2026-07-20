@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61360_4#AAJ033",
+  "code": "AAJ033",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "terminal array type",
+  "preferred_name_ml": {
+    "en": "terminal array type"
+  },
+  "short_name": "terminal array",
+  "short_name_ml": {
+    "en": "terminal array"
+  },
+  "definition": "code of the type of terminal array",
+  "definition_ml": {
+    "en": "code of the type of terminal array"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "JEITA",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "JEITA",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAJ033",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "terminal array type",
+    "MDC_P005.en": "terminal array",
+    "MDC_P006.en": "code of the type of terminal array",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA288)",
+    "MDC_P024": "M..8",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A57",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "JEITA",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "JEITA"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:44",
+      "user": "BATCH 00000917",
+      "unid": "5158551DE04827DBC1257EA4004B241A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:37",
+      "user": "BATCH 00000907",
+      "unid": "6d3811196b4b06dfc1257e8b00323a49",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:43",
+      "user": "BATCH 00000904",
+      "unid": "303e5e07f72077c7c1257e8a0043e83d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:02",
+      "user": "BATCH 00000704",
+      "unid": "fdfe2f3345966b87c125787f0042a753",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA288)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA288)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:44",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "5158551DE04827DBC1257EA4004B241A"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "irdi": "0112/2///61987#ABP656",
+  "code": "ABP656",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "ref. Non-dispersive infrared gas analyser-specific cond. monitoring variables",
+  "preferred_name_ml": {
+    "en": "ref. Non-dispersive infrared gas analyser-specific cond. monitoring variables"
+  },
+  "definition": "reference to block ABP485",
+  "definition_ml": {
+    "en": "reference to block ABP485"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP656",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "ref. Non-dispersive infrared gas analyser-specific cond. monitoring variables",
+    "MDC_P006.en": "reference to block ABP485",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABP485)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2023-03-06",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:26",
+      "user": "BATCH 00000863",
+      "unid": "B5245A0CB4C66084C1258DED00455889",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:04",
+      "user": "BATCH 00000835",
+      "unid": "dab535ae89b3f583c1258c3b004b5ad8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-03-06",
+    "current_version": "2025-02-24",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABP485)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABP485)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:26",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "B5245A0CB4C66084C1258DED00455889"
+  }
+}

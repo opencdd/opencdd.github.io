@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61987#ABA198",
+  "code": "ABA198",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "material of movement",
+  "preferred_name_ml": {
+    "en": "material of movement",
+    "fr": "matériau du mouvement",
+    "de": "Werkstoff des Zeigerwerks"
+  },
+  "definition": "material of which a dial or digital indicator movement is made",
+  "definition_ml": {
+    "en": "material of which a dial or digital indicator movement is made",
+    "fr": "matériau dans lequel un mouvement de cadran ou d'indicateur numérique est fabriqué",
+    "de": "Werkstoff, aus dem ein Zeigerwerk eines Zeigerinstruments oder Digitalanzeigers hergestellt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA198",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "material of movement",
+    "MDC_P006.en": "material of which a dial or digital indicator movement is made",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "matériau du mouvement",
+    "MDC_P006.fr": "matériau dans lequel un mouvement de cadran ou d'indicateur numérique est fabriqué",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Werkstoff des Zeigerwerks",
+    "MDC_P006.de": "Werkstoff, aus dem ein Zeigerwerk eines Zeigerinstruments oder Digitalanzeigers hergestellt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:52",
+      "user": "BATCH 00000818",
+      "unid": "704AE9CB4E3AAC5DC1258A7D0039D9C0",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "116e04086c680097c125825e001de5c7",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:43",
+      "user": "BATCH 00000755",
+      "unid": "e9296aff59916714c1258256003e98ce",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "fbf14e170fcf9af1c12580d6004c1a9e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "7bb998970464ebe7c1257cfb00403878",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "43841ee5d0970137c1257cb40054ba35",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:52",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "704AE9CB4E3AAC5DC1258A7D0039D9C0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE415",
+  "code": "ABE415",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:24:15",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "ae199585e81fb91bc1257cb400549e4f"
+  }
+}

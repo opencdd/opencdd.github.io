@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///61987#ABB179",
+  "code": "ABB179",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "construction of body",
+  "preferred_name_ml": {
+    "en": "construction of body",
+    "fr": "réalisation du corps",
+    "de": "Konstruktion des Grundkörpers"
+  },
+  "definition": "classification of a device body according to its mechanical design",
+  "definition_ml": {
+    "en": "classification of a device body according to its mechanical design",
+    "fr": "classification d'un corps de l’appareil selon sa conception mécanique",
+    "de": "Charakterisierung eines Gerätekörpers bezüglich seiner mechanischen Ausführung"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB179",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "construction of body",
+    "MDC_P006.en": "classification of a device body according to its mechanical design",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL469)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "réalisation du corps",
+    "MDC_P006.fr": "classification d'un corps de l’appareil selon sa conception mécanique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Konstruktion des Grundkörpers",
+    "MDC_P006.de": "Charakterisierung eines Gerätekörpers bezüglich seiner mechanischen Ausführung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "2A8DB77EF4B812B0C1258CDC004A3AE3",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "0845d01c708bdc25c1258518003c48d1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:40",
+      "user": "BATCH 00000762",
+      "unid": "7096ff887b40ae71c125825e001de894",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:22",
+      "user": "BATCH 00000732",
+      "unid": "45e788eb91a2c37ac12580d6004c1d43",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "631d65e21dd49a20c1257cb40054bcda",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL469)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL469)",
+  "value_list": "0112/2///61987#ABL469",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "2A8DB77EF4B812B0C1258CDC004A3AE3"
+  }
+}

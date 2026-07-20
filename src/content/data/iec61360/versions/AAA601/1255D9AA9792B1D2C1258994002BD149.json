@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61360_4#AAA601",
+  "code": "AAA601",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "fixed inductor",
+  "preferred_name_ml": {
+    "en": "fixed inductor"
+  },
+  "short_name": "FIX",
+  "short_name_ml": {
+    "en": "FIX"
+  },
+  "definition": "inductor designed so that its main properties cannot be varied",
+  "definition_ml": {
+    "en": "inductor designed so that its main properties cannot be varied"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "fixed"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "fixed"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA601",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "FIX",
+    "MDC_P004.en": "fixed inductor",
+    "MDC_P007.en": "fixed",
+    "MDC_P006.en": "inductor designed so that its main properties cannot be varied",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2019-12-20",
+    "MDC_P003_2": "2019-12-20",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA074",
+    "C021": "0112/2///61360_4#AAF390",
+    "MDC_P014": "{0112/2///61360_4#AAF390}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "1255D9AA9792B1D2C1258994002BD149",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-12-20 13:41:57",
+      "user": "BATCH 00001162",
+      "unid": "14b83cf141b681c9c12584d60045c26e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-12-20",
+    "current_version": "2019-12-20",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF390"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA074",
+  "superclass_type_property": "0112/2///61360_4#AAA074",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "1255D9AA9792B1D2C1258994002BD149"
+  }
+}

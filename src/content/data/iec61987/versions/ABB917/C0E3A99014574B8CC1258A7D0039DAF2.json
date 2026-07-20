@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABB917",
+  "code": "ABB917",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "zero module",
+  "preferred_name_ml": {
+    "en": "zero module",
+    "fr": "module de réglage de zéro",
+    "de": "Nullabgleichsmodul"
+  },
+  "definition": "classification of a module to generate zero differential pressure at a differential pressure instrument inlet according to its fabrication",
+  "definition_ml": {
+    "en": "classification of a module to generate zero differential pressure at a differential pressure instrument inlet according to its fabrication",
+    "fr": "classification d'un module pour générer une pression différentielle égale à zéro à une entrée d'instrument de mesure de pression différentielle en fonction de sa fabrication",
+    "de": "Charakterisierung eines Moduls zur Erzeugung eines Differenzdrucks von Null am Eingang eines Differenzdruckmessgeräts bezüglich seiner Herstellung"
+  },
+  "synonyms": [],
+  "note": "a zero module is used to adjust the zero point of a differential pressure instrument",
+  "note_ml": {
+    "en": "a zero module is used to adjust the zero point of a differential pressure instrument",
+    "de": "ein Nullabgleichsmodul dient zur Einstellung des Nullpunkts eines Differenzdruckmessgeräts"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB917",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "zero module",
+    "MDC_P006.en": "classification of a module to generate zero differential pressure at a differential pressure instrument inlet according to its fabrication",
+    "MDC_P008.en": "a zero module is used to adjust the zero point of a differential pressure instrument",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "module de réglage de zéro",
+    "MDC_P006.fr": "classification d'un module pour générer une pression différentielle égale à zéro à une entrée d'instrument de mesure de pression différentielle en fonction de sa fabrication",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Nullabgleichsmodul",
+    "MDC_P006.de": "Charakterisierung eines Moduls zur Erzeugung eines Differenzdrucks von Null am Eingang eines Differenzdruckmessgeräts bezüglich seiner Herstellung",
+    "MDC_P008.de": "ein Nullabgleichsmodul dient zur Einstellung des Nullpunkts eines Differenzdruckmessgeräts",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:56",
+      "user": "BATCH 00000818",
+      "unid": "C0E3A99014574B8CC1258A7D0039DAF2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "1f81212b015f0c3ac125825e001deb6e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:40",
+      "user": "BATCH 00000699",
+      "unid": "33a24a9dc2e7b495c1257cb40054bfb3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:56",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "C0E3A99014574B8CC1258A7D0039DAF2"
+  }
+}

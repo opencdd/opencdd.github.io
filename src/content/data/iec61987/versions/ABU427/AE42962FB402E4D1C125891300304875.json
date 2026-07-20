@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABU427",
+  "code": "ABU427",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "performance variable type [6]",
+  "preferred_name_ml": {
+    "en": "performance variable type [6]",
+    "fr": "type de variable de performance [6]",
+    "de": "Leistungsgrößentyp [6]"
+  },
+  "definition": "polymorphism property specifying the process variable to which the performance applies",
+  "definition_ml": {
+    "en": "polymorphism property specifying the process variable to which the performance applies",
+    "fr": "propriété de contrôle polymorphe spécifiant la variable de processus à laquelle la performance s'applique",
+    "de": "Polymorphismus-Merkmal für Leistungsgrößentyp"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property; Id specified in IEC61987-12/-13: ABB758",
+  "remark_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-12/-13: ABB758"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU427",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "performance variable type [6]",
+    "MDC_P006.en": "polymorphism property specifying the process variable to which the performance applies",
+    "MDC_P009.en": "polymorphic control property; Id specified in IEC61987-12/-13: ABB758",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU122(Percentage performance for pressure,Absolute performance for pressure))",
+    "MDC_P068": "0112/2///61987#ABU122",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "type de variable de performance [6]",
+    "MDC_P006.fr": "propriété de contrôle polymorphe spécifiant la variable de processus à laquelle la performance s'applique",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Leistungsgrößentyp [6]",
+    "MDC_P006.de": "Polymorphismus-Merkmal für Leistungsgrößentyp",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "AE42962FB402E4D1C125891300304875",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:20",
+      "user": "BATCH 00000762",
+      "unid": "2baf117915a0aae7c125825e001df80e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:56",
+      "user": "BATCH 00000699",
+      "unid": "d9700ec880e4a806c1257cb40054c5a6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-12-09"
+  },
+  "constraint": "0112/2///61987#ABU122",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU122(Percentage performance for pressure,Absolute performance for pressure))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU122(Percentage performance for pressure,Absolute performance for pressure))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "AE42962FB402E4D1C125891300304875"
+  }
+}

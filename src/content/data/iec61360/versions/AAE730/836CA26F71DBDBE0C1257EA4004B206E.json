@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61360_4#AAE730",
+  "code": "AAE730",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "non-rep peak on-state current",
+  "preferred_name_ml": {
+    "en": "non-rep peak on-state current"
+  },
+  "short_name": "I_TSM",
+  "short_name_ml": {
+    "en": "I_TSM"
+  },
+  "definition": "maximum limiting non-repetitive peak on-state current in a thyristor or triac, at specified duration and mounting-base temperature",
+  "definition_ml": {
+    "en": "maximum limiting non-repetitive peak on-state current in a thyristor or triac, at specified duration and mounting-base temperature"
+  },
+  "source_document": "IEC 60747-6 (II.3.2.12) (1983)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE730",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "non-rep peak on-state current",
+    "MDC_P005.en": "I_TSM",
+    "MDC_P006.en": "maximum limiting non-repetitive peak on-state current in a thyristor or triac, at specified duration and mounting-base temperature",
+    "MDC_P025_1": "I_TSM}",
+    "MDC_P023": "A",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P006_1": "IEC 60747-6 (II.3.2.12) (1983)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE028,0112/2///61360_4#AAE272}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:35",
+      "user": "BATCH 00000917",
+      "unid": "836CA26F71DBDBE0C1257EA4004B206E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "a39ee6b5d8385eb2c1257e8b003236bd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "4ca5bd20d34dc603c1257e8a0043e491",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "e2a77fc949f48136c1257a0e0047bcd2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "0383146c46de6fcdc1257a0e0046da52",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "I_TSM}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE028,0112/2///61360_4#AAE272}",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:35",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "836CA26F71DBDBE0C1257EA4004B206E"
+  }
+}

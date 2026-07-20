@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61360_4#AAE897",
+  "code": "AAE897",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "additional quiescent current",
+  "preferred_name_ml": {
+    "en": "additional quiescent current"
+  },
+  "short_name": "$DI_CC",
+  "short_name_ml": {
+    "en": "$DI_CC"
+  },
+  "definition": "maximum guaranteed additional quiescent dc supply current per input, of an HCMOS IC, at specified supply voltage, zero output current and a temperature range between specified temperatures (T_1} and T_2})",
+  "definition_ml": {
+    "en": "maximum guaranteed additional quiescent dc supply current per input, of an HCMOS IC, at specified supply voltage, zero output current and a temperature range between specified temperatures (T_1} and T_2})"
+  },
+  "synonyms": [],
+  "remark": "Applies to a sub-category of HCMOS circuits with TTL compatible inputs. |Except for the relevant input, to which a voltage of V_CC} - 2.1 V (V_OH} for TTL) must be applied, all other inputs must be either be at zero (GND/V_SS}) or at supply voltage level (V_CC}).",
+  "remark_ml": {
+    "en": "Applies to a sub-category of HCMOS circuits with TTL compatible inputs. |Except for the relevant input, to which a voltage of V_CC} - 2.1 V (V_OH} for TTL) must be applied, all other inputs must be either be at zero (GND/V_SS}) or at supply voltage level (V_CC})."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE897",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "additional quiescent current",
+    "MDC_P005.en": "$DI_CC",
+    "MDC_P006.en": "maximum guaranteed additional quiescent dc supply current per input, of an HCMOS IC, at specified supply voltage, zero output current and a temperature range between specified temperatures (T_1} and T_2})",
+    "MDC_P009.en": "Applies to a sub-category of HCMOS circuits with TTL compatible inputs. |Except for the relevant input, to which a voltage of V_CC} - 2.1 V (V_OH} for TTL) must be applied, all other inputs must be either be at zero (GND/V_SS}) or at supply voltage level (V_CC}).",
+    "MDC_P025_1": "ΔI_CC}",
+    "MDC_P025_3": "AQSC",
+    "MDC_P023": "A",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE958,0112/2///61360_4#AAE959}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "26436126C8920647C1257EA4004B20DB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "cfca5f9d114b0674c1257e8b00323729",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "403df7a36ad93c5ec1257e8a0043e4fe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "78c176fee25240f7c1257a0e0047bd37",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "1c7eb60d478c6f8cc1257a0e0046dab7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "ΔI_CC}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE958,0112/2///61360_4#AAE959}",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:36",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "26436126C8920647C1257EA4004B20DB"
+  }
+}

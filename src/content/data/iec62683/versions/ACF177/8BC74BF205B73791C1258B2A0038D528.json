@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF177",
+  "code": "ACF177",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "physical representation of sensor input",
+  "preferred_name_ml": {
+    "en": "physical representation of sensor input",
+    "fr": "representation physique de l'entrée du capteur",
+    "de": "physikalische Abbildung des Sensoreingangs",
+    "zh": "传感器输入的物理表示"
+  },
+  "definition": "description of the physical quantity measured by the sensor that is represented by the output signal value",
+  "definition_ml": {
+    "en": "description of the physical quantity measured by the sensor that is represented by the output signal value",
+    "fr": "description de la grandeur physique mesurée par le capteur qui est représentée par la valeur du signal de sortie",
+    "de": "Beschreibung der vom Sensor gemessenen physikalischen Größe, die durch den Wert des Ausgangssignals dargestellt wird",
+    "zh": "由输出信号值表示的传感器测量的物理量描述"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC TC 121",
+  "change_request_id": "C00125",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF177",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "physical representation of sensor input",
+    "MDC_P006.en": "description of the physical quantity measured by the sensor that is represented by the output signal value",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG177)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACG170",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-05-27",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2024-07-18",
+    "MDC_P003_3": "2024-07-18",
+    "MDC_P012": "IEC TC 121",
+    "MDC_P004.fr": "representation physique de l'entrée du capteur",
+    "MDC_P006.fr": "description de la grandeur physique mesurée par le capteur qui est représentée par la valeur du signal de sortie",
+    "C019.fr": "TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2023-10-11",
+    "MDC_P004.de": "physikalische Abbildung des Sensoreingangs",
+    "MDC_P006.de": "Beschreibung der vom Sensor gemessenen physikalischen Größe, die durch den Wert des Ausgangssignals dargestellt wird",
+    "C019.de": "DKE, Volker Schaber",
+    "C017.de": "1",
+    "C018.de": "2024-05-16",
+    "MDC_P004.zh": "传感器输入的物理表示",
+    "MDC_P006.zh": "由输出信号值表示的传感器测量的物理量描述",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2024-05-14",
+    "C002": "C00125"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-05-27 12:20:45",
+      "user": "BATCH 00000807",
+      "unid": "8BC74BF205B73791C1258B2A0038D528",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "9a7d8354fe45737fc1258030004571d8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2024-07-18",
+    "current_revision": "2024-07-18"
+  },
+  "definition_class_irdi": "0112/2///62683#ACG170",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG177)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG177)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-05-27 12:20:45",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "8BC74BF205B73791C1258B2A0038D528"
+  }
+}

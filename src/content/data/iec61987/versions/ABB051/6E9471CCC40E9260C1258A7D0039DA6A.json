@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB051",
+  "code": "ABB051",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "self-emptying design",
+  "preferred_name_ml": {
+    "en": "self-emptying design",
+    "fr": "conception autovideuse",
+    "de": "selbstentleerendes Design"
+  },
+  "definition": "for a Coriolis flowmeter, provision made to drain out process material from the device with no assistance under suitable pressure conditions",
+  "definition_ml": {
+    "en": "for a Coriolis flowmeter, provision made to drain out process material from the device with no assistance under suitable pressure conditions",
+    "fr": "pour un débitmètre de Coriolis, disposition réalisée pour vidanger le matériau de processus depuis l’appareil sans assistance dans des conditions de pression adaptées",
+    "de": "Vorrichtung zur Entleerung des Prozessmediums aus dem Gerät ohne Hilfsmittel und unter geeigneten Druckbedingungen für einen Coriolis-Durchflussmesser"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB051",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "self-emptying design",
+    "MDC_P006.en": "for a Coriolis flowmeter, provision made to drain out process material from the device with no assistance under suitable pressure conditions",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "conception autovideuse",
+    "MDC_P006.fr": "pour un débitmètre de Coriolis, disposition réalisée pour vidanger le matériau de processus depuis l’appareil sans assistance dans des conditions de pression adaptées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "selbstentleerendes Design",
+    "MDC_P006.de": "Vorrichtung zur Entleerung des Prozessmediums aus dem Gerät ohne Hilfsmittel und unter geeigneten Druckbedingungen für einen Coriolis-Durchflussmesser",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "6E9471CCC40E9260C1258A7D0039DA6A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "0911aa348c6f91eac125825e001de816",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:21",
+      "user": "BATCH 00000732",
+      "unid": "e1003d00925e66fcc12580d6004c1cc5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:32",
+      "user": "BATCH 00000699",
+      "unid": "dafbf9d3b22998dcc1257cb40054bc5c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:54",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "6E9471CCC40E9260C1258A7D0039DA6A"
+  }
+}

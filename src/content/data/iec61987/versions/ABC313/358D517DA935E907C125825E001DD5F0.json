@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61987#ABC313",
+  "code": "ABC313",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "LED indicator",
+  "preferred_name_ml": {
+    "en": "LED indicator",
+    "fr": "Indicateur LED",
+    "de": "LED-Anzeiger"
+  },
+  "definition": "properties characterizing the LED indicators provided by a device",
+  "definition_ml": {
+    "en": "properties characterizing the LED indicators provided by a device",
+    "fr": "propriétés caractérisant les indicateurs LED fournis par un appareil",
+    "de": "Merkmale, die die von einem Gerät bereitgestellten LED-Anzeiger kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC313",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "LED indicator",
+    "MDC_P006.en": "properties characterizing the LED indicators provided by a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA544,0112/2///61987#ABA545,0112/2///61987#ABA546,0112/2///61987#ABA547,0112/2///61987#ABA548,0112/2///61987#ABC901}",
+    "MDC_P004.fr": "Indicateur LED",
+    "MDC_P006.fr": "propriétés caractérisant les indicateurs LED fournis par un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "LED-Anzeiger",
+    "MDC_P006.de": "Merkmale, die die von einem Gerät bereitgestellten LED-Anzeiger kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:53",
+      "user": "BATCH 00000762",
+      "unid": "358D517DA935E907C125825E001DD5F0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:09",
+      "user": "BATCH 00000699",
+      "unid": "86785151dd367b77c1257cb400549bfc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA544",
+    "0112/2///61987#ABA545",
+    "0112/2///61987#ABA546",
+    "0112/2///61987#ABA547",
+    "0112/2///61987#ABA548",
+    "0112/2///61987#ABC901"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:53",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "358D517DA935E907C125825E001DD5F0"
+  }
+}

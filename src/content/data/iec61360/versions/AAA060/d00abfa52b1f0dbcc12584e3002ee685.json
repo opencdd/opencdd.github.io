@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA060",
+  "code": "AAA060",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-02 09:32:16",
+    "user": "BATCH 00001164",
+    "change_request_id": null,
+    "unid": "d00abfa52b1f0dbcc12584e3002ee685"
+  }
+}

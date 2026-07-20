@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AAA297",
+  "code": "AAA297",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "die with attached lead frame",
+  "preferred_name_ml": {
+    "en": "die with attached lead frame"
+  },
+  "short_name": "LEAD",
+  "short_name_ml": {
+    "en": "LEAD"
+  },
+  "definition": "unpackaged die that has had added lead frames or similar terminations connected to the pads on the die to allow interconnection and/or mechanical attachment",
+  "definition_ml": {
+    "en": "unpackaged die that has had added lead frames or similar terminations connected to the pads on the die to allow interconnection and/or mechanical attachment"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA297",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "LEAD",
+    "MDC_P004.en": "die with attached lead frame",
+    "MDC_P006.en": "unpackaged die that has had added lead frames or similar terminations connected to the pads on the die to allow interconnection and/or mechanical attachment",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA302",
+    "MDC_P014": "{0112/2///61360_4#AAD125,0112/2///61360_4#AAD126}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "5A07F71A1D5621E9C1258994002BD065",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "7faa61018cb61573c1257dd300515fc4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "5ac39e875cdc00acc1257d73005069eb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "b5724d1133c2265dc1257a0e0047b2ab",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAD125",
+    "0112/2///61360_4#AAD126"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA302",
+  "superclass_type_property": "0112/2///61360_4#AAA302",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "5A07F71A1D5621E9C1258994002BD065"
+  }
+}

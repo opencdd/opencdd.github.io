@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABA737",
+  "code": "ABA737",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Temperature switch",
+  "preferred_name_ml": {
+    "en": "Temperature switch",
+    "fr": "Commutateur de température",
+    "de": "Temperaturschalter"
+  },
+  "definition": "switch that outputs a discrete signal representative of a temperature regime",
+  "definition_ml": {
+    "en": "switch that outputs a discrete signal representative of a temperature regime",
+    "fr": "commutateur délivrant en sortie un signal discret représentatif d'un régime de température",
+    "de": "Schalter, der ein diskretes Signal abgibt, welches für einen Temperaturzustand repräsentativ ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA737",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Temperature switch",
+    "MDC_P006.en": "switch that outputs a discrete signal representative of a temperature regime",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA697",
+    "MDC_P004.fr": "Commutateur de température",
+    "MDC_P006.fr": "commutateur délivrant en sortie un signal discret représentatif d'un régime de température",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Temperaturschalter",
+    "MDC_P006.de": "Schalter, der ein diskretes Signal abgibt, welches für einen Temperaturzustand repräsentativ ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "332F45068069DF12C125825E001DD39E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "22e4d07bf3699eb4c1257cfb003f67a2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "b6afcfe1e55017dfc1257cb3002a0c87",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA697",
+  "superclass_type_property": "0112/2///61987#ABA697",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "332F45068069DF12C125825E001DD39E"
+  }
+}

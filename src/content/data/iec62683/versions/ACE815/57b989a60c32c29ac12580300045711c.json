@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACE815",
+  "code": "ACE815",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "closing plate required",
+  "preferred_name_ml": {
+    "en": "closing plate required",
+    "fr": "cloison terminale nécessaire",
+    "de": "Abschlussplatte erforderlich",
+    "zh": "要求的封闭板"
+  },
+  "definition": "mounting of an additional side cover necessary for completing the assembly",
+  "definition_ml": {
+    "en": "mounting of an additional side cover necessary for completing the assembly",
+    "fr": "montage d'une cloison supplémentaire sur le côté nécessaire pour terminer l'assemblage",
+    "de": "Anbau einer zusätzlichen Seitenabdeckung ist notwendig, um den Zusammenbau abzuschließen",
+    "zh": "安装完成组件所需的附加侧盖"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE815",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "closing plate required",
+    "MDC_P006.en": "mounting of an additional side cover necessary for completing the assembly",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC066",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-01-24",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "cloison terminale nécessaire",
+    "MDC_P006.fr": "montage d'une cloison supplémentaire sur le côté nécessaire pour terminer l'assemblage",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2017-03-21",
+    "MDC_P004.de": "Abschlussplatte erforderlich",
+    "MDC_P006.de": "Anbau einer zusätzlichen Seitenabdeckung ist notwendig, um den Zusammenbau abzuschließen",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "要求的封闭板",
+    "MDC_P006.zh": "安装完成组件所需的附加侧盖",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "57b989a60c32c29ac12580300045711c",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:49",
+      "user": "BATCH 00000741",
+      "unid": "D8872EB07FD37DC3C12584EC006DC18B",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-01-24",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC066",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:29",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "57b989a60c32c29ac12580300045711c"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAA296",
+  "code": "AAA296",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "bumped die",
+  "preferred_name_ml": {
+    "en": "bumped die"
+  },
+  "short_name": "BUMP",
+  "short_name_ml": {
+    "en": "BUMP"
+  },
+  "definition": "unpackaged die or wafer that has had added bumps for interconnection and/or mechanical attachment",
+  "definition_ml": {
+    "en": "unpackaged die or wafer that has had added bumps for interconnection and/or mechanical attachment"
+  },
+  "synonyms": [],
+  "note": "Typically these can be die that have had solder or other metallic bumps added to the metallised pads on the die (also known as flip-chip).",
+  "note_ml": {
+    "en": "Typically these can be die that have had solder or other metallic bumps added to the metallised pads on the die (also known as flip-chip)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA296",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "BUMP",
+    "MDC_P004.en": "bumped die",
+    "MDC_P006.en": "unpackaged die or wafer that has had added bumps for interconnection and/or mechanical attachment",
+    "MDC_P008.en": "Typically these can be die that have had solder or other metallic bumps added to the metallised pads on the die (also known as flip-chip).",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA302",
+    "MDC_P014": "{0112/2///61360_4#AAD122,0112/2///61360_4#AAD123,0112/2///61360_4#AAD124,0112/2///61360_4#AAD126,0112/2///61360_4#AAD146,0112/2///61360_4#AAD147}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "79B2CB2BF9E8E91FC1258994002BD064",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "f1fd0df074ee87d4c1257dd300515fc3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "9f74d06c2321e722c1257d73005069ea",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "8ff4742c476fd9a7c1257a0e0047b2aa",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAD122",
+    "0112/2///61360_4#AAD123",
+    "0112/2///61360_4#AAD124",
+    "0112/2///61360_4#AAD126",
+    "0112/2///61360_4#AAD146",
+    "0112/2///61360_4#AAD147"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA302",
+  "superclass_type_property": "0112/2///61360_4#AAA302",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "79B2CB2BF9E8E91FC1258994002BD064"
+  }
+}

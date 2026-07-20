@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA951",
+  "code": "ABA951",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:23:28",
+    "user": "BATCH 00000755",
+    "change_request_id": null,
+    "unid": "7587ae8eadf7c662c1258256003e9303"
+  }
+}

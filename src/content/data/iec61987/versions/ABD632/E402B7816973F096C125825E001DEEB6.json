@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABD632",
+  "code": "ABD632",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "maximum leakage rate",
+  "preferred_name_ml": {
+    "en": "maximum leakage rate",
+    "de": "maximale Leckrate"
+  },
+  "definition": "greatest amount of fluid leaking through a final control element in the close position from inlet to outlet under operating conditions, expressed as normal volume flow rate",
+  "definition_ml": {
+    "en": "greatest amount of fluid leaking through a final control element in the close position from inlet to outlet under operating conditions, expressed as normal volume flow rate",
+    "de": "größte Menge von Leckflüssigkeit aus einem geschlossenen Stellgerät vom Einlass zum Auslass unter Arbeitsbedingungen, angegeben als Normvolumendurchflussrate"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD632",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum leakage rate",
+    "MDC_P006.en": "greatest amount of fluid leaking through a final control element in the close position from inlet to outlet under operating conditions, expressed as normal volume flow rate",
+    "MDC_P023": "m³/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA763",
+    "C0104": "0112/2///61987#ABT504",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P004.de": "maximale Leckrate",
+    "MDC_P006.de": "größte Menge von Leckflüssigkeit aus einem geschlossenen Stellgerät vom Einlass zum Auslass unter Arbeitsbedingungen, angegeben als Normvolumendurchflussrate",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:56",
+      "user": "BATCH 00000762",
+      "unid": "E402B7816973F096C125825E001DEEB6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:37",
+      "user": "BATCH 00000732",
+      "unid": "393e0b389e6eab36c12580d6004c2366",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:58",
+      "user": "BATCH 00000717",
+      "unid": "85e451d42d53b0efc1257fa700405bf6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:50",
+      "user": "BATCH 00000702",
+      "unid": "64193eb4276b8ac8c1257cfb0040413c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:49",
+      "user": "BATCH 00000699",
+      "unid": "f3925e0ae8ef73c5c1257cb40054c2f9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA763",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:56",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "E402B7816973F096C125825E001DEEB6"
+  }
+}

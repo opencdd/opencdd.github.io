@@ -1,0 +1,117 @@
+{
+  "irdi": "0112/2///61987#ABA000",
+  "code": "ABA000",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "Equipment for industrial-process automation",
+  "preferred_name_ml": {
+    "en": "Equipment for industrial-process automation",
+    "fr": "Équipement d'automatisation des procès industriels",
+    "de": "Einrichtung für die Automatisierung industrieller Prozesse"
+  },
+  "definition": "equipment that supports partial or fully automated operation of industrial processes",
+  "definition_ml": {
+    "en": "equipment that supports partial or fully automated operation of industrial processes",
+    "fr": "équipement prenant en charge un fonctionnement partiellement ou totalement automatisé des procès industriels",
+    "de": "Einrichtung, die einen teilweise oder vollständig automatisierten Betrieb industrieller Prozesse unterstützt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA000",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "Equipment for industrial-process automation",
+    "MDC_P006.en": "equipment that supports partial or fully automated operation of industrial processes",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-10-11",
+    "MDC_P003_2": "2013-10-11",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "Équipement d'automatisation des procès industriels",
+    "MDC_P006.fr": "équipement prenant en charge un fonctionnement partiellement ou totalement automatisé des procès industriels",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-10-11",
+    "MDC_P004.de": "Einrichtung für die Automatisierung industrieller Prozesse",
+    "MDC_P006.de": "Einrichtung, die einen teilweise oder vollständig automatisierten Betrieb industrieller Prozesse unterstützt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:45",
+      "user": "BATCH 00000762",
+      "unid": "89E9CC34FA55FB2BC125825E001DD2DD",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:35",
+      "user": "BATCH 00000701",
+      "unid": "e1961a69e2f9f8d7c1257cfb003f9750",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "dd730851adf6479fc1257cfb003f6740",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:05",
+      "user": "BATCH 00000699",
+      "unid": "117ae791de9f58fdc1257cb400549a54",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "e2e112d14615671cc1257cb3002a0c26",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-11",
+    "current_version": "2013-10-11",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:45",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "89E9CC34FA55FB2BC125825E001DD2DD"
+  }
+}

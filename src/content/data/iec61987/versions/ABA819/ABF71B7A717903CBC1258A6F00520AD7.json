@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABA819",
+  "code": "ABA819",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Nuclear level transmitter",
+  "preferred_name_ml": {
+    "en": "Nuclear level transmitter",
+    "fr": "Transmetteur de niveau nucléaire",
+    "de": "Radiometrischer Füllstandmessumformer"
+  },
+  "definition": "level transmitter that uses the absorption of gamma radiation by process material to measure level",
+  "definition_ml": {
+    "en": "level transmitter that uses the absorption of gamma radiation by process material to measure level",
+    "fr": "transmetteur de niveau utilisant l'absorption d'un rayonnement gamma par un matériau du processus pour mesurer un niveau",
+    "de": "Füllstandmessumformer, der die Aufnahme von Gammastrahlung durch den Prozessstoff nutzt, um einen Füllstand zu messen"
+  },
+  "synonyms": [],
+  "note": "A nuclear level transmitter is also known as a radiometric or radiation level transmitter.",
+  "note_ml": {
+    "en": "A nuclear level transmitter is also known as a radiometric or radiation level transmitter."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA819",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Nuclear level transmitter",
+    "MDC_P006.en": "level transmitter that uses the absorption of gamma radiation by process material to measure level",
+    "MDC_P008.en": "A nuclear level transmitter is also known as a radiometric or radiation level transmitter.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA803",
+    "MDC_P014": "{0112/2///61987#ABF884}",
+    "MDC_P004.fr": "Transmetteur de niveau nucléaire",
+    "MDC_P006.fr": "transmetteur de niveau utilisant l'absorption d'un rayonnement gamma par un matériau du processus pour mesurer un niveau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-27",
+    "MDC_P004.de": "Radiometrischer Füllstandmessumformer",
+    "MDC_P006.de": "Füllstandmessumformer, der die Aufnahme von Gammastrahlung durch den Prozessstoff nutzt, um einen Füllstand zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "ABF71B7A717903CBC1258A6F00520AD7",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "eecf960855bebbecc125825e001dd401",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:57",
+      "user": "BATCH 00000732",
+      "unid": "f30df144c430f9f9c12580d6004bfc36",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "7cf72b371e31f9f9c1257cb3002a0cd9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF884"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA803",
+  "superclass_type_property": "0112/2///61987#ABA803",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "ABF71B7A717903CBC1258A6F00520AD7"
+  }
+}

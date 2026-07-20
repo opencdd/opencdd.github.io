@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///62683#ACG035",
+  "code": "ACG035",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Communication interface of the assembly",
+  "preferred_name_ml": {
+    "en": "Communication interface of the assembly",
+    "fr": "Interface de communication de l'ensemble"
+  },
+  "definition": "communication functions for the transfer of information between the assembly and the system",
+  "definition_ml": {
+    "en": "communication functions for the transfer of information between the assembly and the system",
+    "fr": "fonctions de communication pour le transfert d’informations entre l'ensemble et le système"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG035",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Communication interface of the assembly",
+    "MDC_P006.en": "communication functions for the transfer of information between the assembly and the system",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2022-10-10",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC050}",
+    "MDC_P090": "{0112/2///62683#ACE360,0112/2///62683#ACE361,0112/2///62683#ACE362}",
+    "MDC_P004.fr": "Interface de communication de l'ensemble",
+    "MDC_P006.fr": "fonctions de communication pour le transfert d’informations entre l'ensemble et le système",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "10/10/2022",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "1571CC0F3A286D77C1258D8F003A6CFE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "2411eef269b87ba2c1258b9d00731723",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "6902ee02a2e28669c12580300045024e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2022-10-10",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC050"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE360",
+    "0112/2///62683#ACE361",
+    "0112/2///62683#ACE362"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "1571CC0F3A286D77C1258D8F003A6CFE"
+  }
+}

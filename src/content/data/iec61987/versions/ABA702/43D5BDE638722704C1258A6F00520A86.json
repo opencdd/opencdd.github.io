@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA702",
+  "code": "ABA702",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Variable area flow switch",
+  "preferred_name_ml": {
+    "en": "Variable area flow switch",
+    "fr": "Commutateur de débit à surface variable",
+    "de": "Schwebekörper-Durchflussschalter"
+  },
+  "definition": "flow switch that uses a float confined within a vertical, tapered flow tube to detect a flow regime",
+  "definition_ml": {
+    "en": "flow switch that uses a float confined within a vertical, tapered flow tube to detect a flow regime",
+    "fr": "commutateur de débit utilisant un flotteur confiné dans un tube de débit conique vertical pour détecter un débit",
+    "de": "Durchflussschalter, der einen in einem vertikalen, zugespitzten Glasdurchflussrohr eingeschlossenen Schwebekörper nutzt, um einen Durchflusszustand zu ermitteln"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA702",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Variable area flow switch",
+    "MDC_P006.en": "flow switch that uses a float confined within a vertical, tapered flow tube to detect a flow regime",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA698",
+    "MDC_P004.fr": "Commutateur de débit à surface variable",
+    "MDC_P006.fr": "commutateur de débit utilisant un flotteur confiné dans un tube de débit conique vertical pour détecter un débit",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Schwebekörper-Durchflussschalter",
+    "MDC_P006.de": "Durchflussschalter, der einen in einem vertikalen, zugespitzten Glasdurchflussrohr eingeschlossenen Schwebekörper nutzt, um einen Durchflusszustand zu ermitteln",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "43D5BDE638722704C1258A6F00520A86",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:46",
+      "user": "BATCH 00000762",
+      "unid": "54d662d820c4c83cc125825e001dd36e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "88b92ac52fe735adc1257cfb003f677f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "8aa32d2b7f87b146c1257cb3002a0c64",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA698",
+  "superclass_type_property": "0112/2///61987#ABA698",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "43D5BDE638722704C1258A6F00520A86"
+  }
+}

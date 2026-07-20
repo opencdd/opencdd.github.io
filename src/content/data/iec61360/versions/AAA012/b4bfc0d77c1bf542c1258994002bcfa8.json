@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61360_4#AAA012",
+  "code": "AAA012",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "wideband amplifier",
+  "preferred_name_ml": {
+    "en": "wideband amplifier"
+  },
+  "short_name": "WB",
+  "short_name_ml": {
+    "en": "WB"
+  },
+  "definition": "amplifier designed for uniform operation within a broad range of frequencies",
+  "definition_ml": {
+    "en": "amplifier designed for uniform operation within a broad range of frequencies"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "wideband"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "wideband"
+  },
+  "note": "The range of frequencies usually accommodates several signal channels.",
+  "note_ml": {
+    "en": "The range of frequencies usually accommodates several signal channels."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA012",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "WB",
+    "MDC_P004.en": "wideband amplifier",
+    "MDC_P007.en": "wideband",
+    "MDC_P006.en": "amplifier designed for uniform operation within a broad range of frequencies",
+    "MDC_P008.en": "The range of frequencies usually accommodates several signal channels.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA003",
+    "MDC_P014": "{0112/2///61360_4#AAE424,0112/2///61360_4#AAE698,0112/2///61360_4#AAE699,0112/2///61360_4#AAE700,0112/2///61360_4#AAE701,0112/2///61360_4#AAE702,0112/2///61360_4#AAE703,0112/2///61360_4#AAE705,0112/2///61360_4#AAE706}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "b4bfc0d77c1bf542c1258994002bcfa8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "1e2b35f5bf9abad5c1257dd300515f11",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "983aedf43294006ac1257d7300506937",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "7a5c5c2ef97077dcc1257a0e0047b1f7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE424",
+    "0112/2///61360_4#AAE698",
+    "0112/2///61360_4#AAE699",
+    "0112/2///61360_4#AAE700",
+    "0112/2///61360_4#AAE701",
+    "0112/2///61360_4#AAE702",
+    "0112/2///61360_4#AAE703",
+    "0112/2///61360_4#AAE705",
+    "0112/2///61360_4#AAE706"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA003",
+  "superclass_type_property": "0112/2///61360_4#AAA003",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "b4bfc0d77c1bf542c1258994002bcfa8"
+  }
+}

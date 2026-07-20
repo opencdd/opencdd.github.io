@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABH817",
+  "code": "ABH817",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "hazard class code",
+  "preferred_name_ml": {
+    "en": "hazard class code",
+    "de": "Gefahrklasse"
+  },
+  "definition": "codes used for designating hazard statements with respect to physical, health and environmental hazards emanating from the substance according to the type of risk involved",
+  "definition_ml": {
+    "en": "codes used for designating hazard statements with respect to physical, health and environmental hazards emanating from the substance according to the type of risk involved",
+    "de": "Codes, die für Angaben benutzt werden zum Art des Risikos bezüglich physikalischer Gefahren und Gefahren betreffend Gesundheit und Umwelt benutzt werden, die von Substanzen ausgehen"
+  },
+  "source_document": "UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3",
+  "synonyms": [],
+  "note": "1 The hazard class of a substance cannot be derived from its UN number and needs to be looked up in UNECE Regulations on the transport of dangerous goods.  , 2 Hazard class codes are associated with pictograms for marking package of goods during transport and storage.",
+  "note_ml": {
+    "en": "1 The hazard class of a substance cannot be derived from its UN number and needs to be looked up in UNECE Regulations on the transport of dangerous goods.  , 2 Hazard class codes are associated with pictograms for marking package of goods during transport and storage.",
+    "de": "1. Die Gefahrklasse einer Substanz kann nicht von ihrer UN-Nummer abgeleitet werden und muss in den UNECE-Regularien zu Transport von gefährlichen Güter nachgeschlagen werden. , 2. Gefahrenklassencodes besitzen Piktogramme, um die Verpackung von Gütern während Transport und Lagerung zu kennzeichnen."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH817",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "hazard class code",
+    "MDC_P006.en": "codes used for designating hazard statements with respect to physical, health and environmental hazards emanating from the substance according to the type of risk involved",
+    "MDC_P008.en": "1 The hazard class of a substance cannot be derived from its UN number and needs to be looked up in UNECE Regulations on the transport of dangerous goods.  , 2 Hazard class codes are associated with pictograms for marking package of goods during transport and storage.",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Gefahrklasse",
+    "MDC_P006.de": "Codes, die für Angaben benutzt werden zum Art des Risikos bezüglich physikalischer Gefahren und Gefahren betreffend Gesundheit und Umwelt benutzt werden, die von Substanzen ausgehen",
+    "MDC_P008.de": "1. Die Gefahrklasse einer Substanz kann nicht von ihrer UN-Nummer abgeleitet werden und muss in den UNECE-Regularien zu Transport von gefährlichen Güter nachgeschlagen werden. , 2. Gefahrenklassencodes besitzen Piktogramme, um die Verpackung von Gütern während Transport und Lagerung zu kennzeichnen.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-20",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "93F3513CE32C73C8C1258A7D0039DC35",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:30",
+      "user": "BATCH 00000766",
+      "unid": "b22e62c7bf4bfa0bc12583b7005027e9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:59",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "93F3513CE32C73C8C1258A7D0039DC35"
+  }
+}

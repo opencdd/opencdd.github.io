@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61360_4#AAE747",
+  "code": "AAE747",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "commutated turn-off time",
+  "preferred_name_ml": {
+    "en": "commutated turn-off time"
+  },
+  "short_name": "t_q",
+  "short_name_ml": {
+    "en": "t_q"
+  },
+  "definition": "maximum time interval between the instant when the on-state current has decreased to zero after external switching of the anode-cathode voltage and the instant when the specified on-state voltage which the thyristor is capable of supporting without turning on, passes through zero with a specified rate of rise of on-state voltage",
+  "definition_ml": {
+    "en": "maximum time interval between the instant when the on-state current has decreased to zero after external switching of the anode-cathode voltage and the instant when the specified on-state voltage which the thyristor is capable of supporting without turning on, passes through zero with a specified rate of rise of on-state voltage"
+  },
+  "source_document": "IEC 60747-6 (II.3.5.7) (1983)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE747",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "commutated turn-off time",
+    "MDC_P005.en": "t_q",
+    "MDC_P006.en": "maximum time interval between the instant when the on-state current has decreased to zero after external switching of the anode-cathode voltage and the instant when the specified on-state voltage which the thyristor is capable of supporting without turning on, passes through zero with a specified rate of rise of on-state voltage",
+    "MDC_P025_1": "t_q}",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P006_1": "IEC 60747-6 (II.3.5.7) (1983)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE683,0112/2///61360_4#AAE684,0112/2///61360_4#AAE685,0112/2///61360_4#AAE727,0112/2///61360_4#AAE733,0112/2///61360_4#AAE737}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:35",
+      "user": "BATCH 00000917",
+      "unid": "AB4AADDF07B2E900C1257EA4004B207F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "480615adb850bbe0c1257e8b003236ce",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "e6ca5b1a6ff4e7dbc1257e8a0043e4a2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "608708cd8ec10ebfc1257a0e0047bcdf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "afe2733d0e46b4a5c1257a0e0046da5f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_q}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE683,0112/2///61360_4#AAE684,0112/2///61360_4#AAE685,0112/2///61360_4#AAE727,0112/2///61360_4#AAE733,0112/2///61360_4#AAE737}",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:35",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "AB4AADDF07B2E900C1257EA4004B207F"
+  }
+}

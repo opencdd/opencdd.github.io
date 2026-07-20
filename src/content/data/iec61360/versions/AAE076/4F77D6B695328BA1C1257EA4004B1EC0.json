@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE076",
+  "code": "AAE076",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "dielectric sub-class 2",
+  "preferred_name_ml": {
+    "en": "dielectric sub-class 2"
+  },
+  "short_name": "diel sub class2",
+  "short_name_ml": {
+    "en": "diel sub class2"
+  },
+  "definition": "IEC standard code of the sub-class of a fixed class2 ceramic capacitor, as determined by the temperature characteristic of capacitance",
+  "definition_ml": {
+    "en": "IEC standard code of the sub-class of a fixed class2 ceramic capacitor, as determined by the temperature characteristic of capacitance"
+  },
+  "source_document": "IEC 60384-9 (1.5.2) (1988)",
+  "synonyms": [],
+  "remark": "First (numeric) character is always 2 (see AAE038-005). Second (alphabetic) character indicates maximum capacitance change in per cent with respect to C_R} at 20 deg C:| U_dc} = 0..........U_dc} = U_R(dc)}| B: +/-10..........+10/-15;| C: +/-20..........+20/-30;| D: +20/-30......+20/-40;| E: +20/-56......+20/-70;| F: +30/-80......+30/-90;| R: +/-15..........+15/-40;| X: +/-15..........+15/-25.|| Third (numeric) character indicates temperature range:| 1: -55/ +125 deg C;| 2: -55/ +85 deg C;| 3: -40/ +85 deg C;| 4: -25/ +85 deg C;| 6: +10/ +85 deg C.",
+  "remark_ml": {
+    "en": "First (numeric) character is always 2 (see AAE038-005). Second (alphabetic) character indicates maximum capacitance change in per cent with respect to C_R} at 20 deg C:| U_dc} = 0..........U_dc} = U_R(dc)}| B: +/-10..........+10/-15;| C: +/-20..........+20/-30;| D: +20/-30......+20/-40;| E: +20/-56......+20/-70;| F: +30/-80......+30/-90;| R: +/-15..........+15/-40;| X: +/-15..........+15/-25.|| Third (numeric) character indicates temperature range:| 1: -55/ +125 deg C;| 2: -55/ +85 deg C;| 3: -40/ +85 deg C;| 4: -25/ +85 deg C;| 6: +10/ +85 deg C."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE076",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "dielectric sub-class 2",
+    "MDC_P005.en": "diel sub class2",
+    "MDC_P006.en": "IEC standard code of the sub-class of a fixed class2 ceramic capacitor, as determined by the temperature characteristic of capacitance",
+    "MDC_P009.en": "First (numeric) character is always 2 (see AAE038-005). Second (alphabetic) character indicates maximum capacitance change in per cent with respect to C_R} at 20 deg C:| U_dc} = 0..........U_dc} = U_R(dc)}| B: +/-10..........+10/-15;| C: +/-20..........+20/-30;| D: +20/-30......+20/-40;| E: +20/-56......+20/-70;| F: +30/-80......+30/-90;| R: +/-15..........+15/-40;| X: +/-15..........+15/-25.|| Third (numeric) character indicates temperature range:| 1: -55/ +125 deg C;| 2: -55/ +85 deg C;| 3: -40/ +85 deg C;| 4: -25/ +85 deg C;| 6: +10/ +85 deg C.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..3",
+    "MDC_P006_1": "IEC 60384-9 (1.5.2) (1988)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A57",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "4F77D6B695328BA1C1257EA4004B1EC0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "2fabff3a176e6810c1257e8b0032350f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "269f2c08bfe59079c1257e8a0043e2e3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "3dadc5143fa220f0c1257a0e0047bb34",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:49",
+      "user": "BATCH 00000787",
+      "unid": "52378e0a8a656118c1257a0e0046d8b4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:30",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "4F77D6B695328BA1C1257EA4004B1EC0"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61360_4#AAA633",
+  "code": "AAA633",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "corrosion",
+  "preferred_name_ml": {
+    "en": "corrosion"
+  },
+  "definition": "chemical erosion by motionless or moving agents",
+  "definition_ml": {
+    "en": "chemical erosion by motionless or moving agents"
+  },
+  "source_document": "IEC 60721-1:1990",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA633",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "corrosion",
+    "MDC_P006.en": "chemical erosion by motionless or moving agents",
+    "MDC_P006_1": "IEC 60721-1:1990",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA650",
+    "MDC_P014": "{0112/2///61360_4#AAF924,0112/2///61360_4#AAF925,0112/2///61360_4#AAF983,0112/2///61360_4#AAF970}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "118116425B82269DC1258994002BD160",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "b4ca067b3866d5e8c1257dd30051600f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "4c7e0305b98d21c5c1257d7300506a36",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:16",
+      "user": "BATCH 00000825",
+      "unid": "cfd5a0558a271546c1257b9e0044df6d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF924",
+    "0112/2///61360_4#AAF925",
+    "0112/2///61360_4#AAF983",
+    "0112/2///61360_4#AAF970"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA650",
+  "superclass_type_property": "0112/2///61360_4#AAA650",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "118116425B82269DC1258994002BD160"
+  }
+}

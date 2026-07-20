@@ -1,0 +1,153 @@
+{
+  "irdi": "0112/2///61987#ABC449",
+  "code": "ABC449",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "Normal environmental conditions",
+  "preferred_name_ml": {
+    "en": "Normal environmental conditions",
+    "fr": "Conditions environnementales normales",
+    "de": "Umgebungsbedingungen (Normalbedingungen)"
+  },
+  "definition": "properties characterizing the values which an influence quantity can assume to which the device is or must be designed",
+  "definition_ml": {
+    "en": "properties characterizing the values which an influence quantity can assume to which the device is or must be designed",
+    "fr": "propriétés caractérisant les valeurs qu’une grandeur d’influence peut prendre pour lesquelles l’appareil est ou doit être conçu",
+    "de": "Merkmale, die die möglichen Werte einer Einflussgröße kennzeichnen, für die das Gerät ausgelegt oder auszulegen ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC449",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Normal environmental conditions",
+    "MDC_P006.en": "properties characterizing the values which an influence quantity can assume to which the device is or must be designed",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-01-23",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA617,0112/2///61987#ABC712,0112/2///61987#ABA964,0112/2///61987#ABB282,0112/2///61987#ABB162,0112/2///61987#ABA571,0112/2///61987#ABA410,0112/2///61987#ABP134,0112/2///61987#ABA089,0112/2///61987#ABA091,0112/2///61987#ABC852,0112/2///61987#ABD396,0112/2///61987#ABD398,0112/2///61987#ABA572,0112/2///61987#ABA108,0112/2///61987#ABA963,0112/2///61987#ABA109}",
+    "MDC_P004.fr": "Conditions environnementales normales",
+    "MDC_P006.fr": "propriétés caractérisant les valeurs qu’une grandeur d’influence peut prendre pour lesquelles l’appareil est ou doit être conçu",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-12-03",
+    "MDC_P004.de": "Umgebungsbedingungen (Normalbedingungen)",
+    "MDC_P006.de": "Merkmale, die die möglichen Werte einer Einflussgröße kennzeichnen, für die das Gerät ausgelegt oder auszulegen ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "437BAC58EE235F97C1258940004C5063",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:55",
+      "user": "BATCH 00000762",
+      "unid": "e988d451d7f06120c125825e001dd6b1",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:02",
+      "user": "BATCH 00000732",
+      "unid": "3b4531250f285af9c12580d6004bfe0e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:13",
+      "user": "BATCH 00000714",
+      "unid": "693b110affe67a0ac1257f7e0033a830",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:39",
+      "user": "BATCH 00000701",
+      "unid": "e468d1be1a2514c8c1257cfb003f9935",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:10",
+      "user": "BATCH 00000699",
+      "unid": "3899c4303dee9081c1257cb400549c81",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-01-23",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA617",
+    "0112/2///61987#ABC712",
+    "0112/2///61987#ABA964",
+    "0112/2///61987#ABB282",
+    "0112/2///61987#ABB162",
+    "0112/2///61987#ABA571",
+    "0112/2///61987#ABA410",
+    "0112/2///61987#ABP134",
+    "0112/2///61987#ABA089",
+    "0112/2///61987#ABA091",
+    "0112/2///61987#ABC852",
+    "0112/2///61987#ABD396",
+    "0112/2///61987#ABD398",
+    "0112/2///61987#ABA572",
+    "0112/2///61987#ABA108",
+    "0112/2///61987#ABA963",
+    "0112/2///61987#ABA109"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:33",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "437BAC58EE235F97C1258940004C5063"
+  }
+}

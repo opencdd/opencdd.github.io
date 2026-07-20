@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61987#ABB562",
+  "code": "ABB562",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "set span for mass flow",
+  "preferred_name_ml": {
+    "en": "set span for mass flow",
+    "fr": "intervalle de mesure de réglage pour le débit massique",
+    "de": "eingestellte Spanne für Massedurchfluss"
+  },
+  "definition": "difference between the upper and lower range value of mass flow to which a mass flow measurement instrument is adjusted",
+  "definition_ml": {
+    "en": "difference between the upper and lower range value of mass flow to which a mass flow measurement instrument is adjusted",
+    "fr": "différence entre les valeurs supérieure et inférieure d'étendue de débit massique auxquelles un instrument de mesure de débit massique est réglé",
+    "de": "Differenz zwischen dem Bereichsendwert und Bereichsanfangswert einer Messung für Massedurchfluss, für die ein Messgerät für Massedurchfluss eingestellt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB562",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "set span for mass flow",
+    "MDC_P006.en": "difference between the upper and lower range value of mass flow to which a mass flow measurement instrument is adjusted",
+    "MDC_P023": "kg/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA607",
+    "C0104": "0112/2///61987#ABT545",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.fr": "intervalle de mesure de réglage pour le débit massique",
+    "MDC_P006.fr": "différence entre les valeurs supérieure et inférieure d'étendue de débit massique auxquelles un instrument de mesure de débit massique est réglé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "eingestellte Spanne für Massedurchfluss",
+    "MDC_P006.de": "Differenz zwischen dem Bereichsendwert und Bereichsanfangswert einer Messung für Massedurchfluss, für die ein Messgerät für Massedurchfluss eingestellt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2019-07-08",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "E1A8AF3C45A7A77EC125886F003C999D",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "b9e0e0a1599d3a0bc1258518003c4934",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "0ad38d34f9aa8351c125825e001dea0e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:54",
+      "user": "BATCH 00000717",
+      "unid": "ebeffd793a226bafc1257fa700405a7e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "884dda849ac1ee43c1257cfb00403c96",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "83956f4da1584c0bc1257cb40054be53",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA607",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:54",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "E1A8AF3C45A7A77EC125886F003C999D"
+  }
+}

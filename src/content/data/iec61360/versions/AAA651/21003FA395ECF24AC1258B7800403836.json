@@ -1,0 +1,149 @@
+{
+  "irdi": "0112/2///61360_4#AAA651",
+  "code": "AAA651",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "identification number",
+  "preferred_name_ml": {
+    "en": "identification number"
+  },
+  "definition": "information set specifying alternative identification numbers for an entity",
+  "definition_ml": {
+    "en": "information set specifying alternative identification numbers for an entity"
+  },
+  "synonyms": [],
+  "note": "The listed identification numbers may belong to one or several domains or sub-domains.",
+  "note_ml": {
+    "en": "The listed identification numbers may belong to one or several domains or sub-domains."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA651",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "identification number",
+    "MDC_P006.en": "information set specifying alternative identification numbers for an entity",
+    "MDC_P008.en": "The listed identification numbers may belong to one or several domains or sub-domains.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-08-13",
+    "MDC_P003_2": "2012-05-30",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#ADA001,0112/2///61360_4#ADA002,0112/2///61360_4#ADA003,0112/2///61360_4#ADA004,0112/2///61360_4#ADA005,0112/2///61360_4#ADA006,0112/2///61360_4#ADA008,0112/2///61360_4#ADA009,0112/2///61360_4#ADA010,0112/2///61360_4#ADA011,0112/2///61360_4#ADA012,0112/2///61360_4#ADA013,0112/2///61360_4#ADA014,0112/2///61360_4#ADA015,0112/2///61360_4#ADA016,0112/2///61360_4#ADA017,0112/2///61360_4#ADA018,0112/2///61360_4#ADA019,0112/2///61360_4#ADA020,0112/2///61360_4#ADA021,0112/2///61360_4#ADA022,0112/2///61360_4#ADA023,0112/2///61360_4#ADA024,0112/2///61360_4#ADA025,0112/2///61360_4#ADA026,0112/2///61360_4#ADA027,0112/2///61360_4#ADA028,0112/2///61360_4#ADA029,0112/2///61360_4#ADA030,0112/2///61360_4#ADA031,0112/2///61360_4#ADA032,0112/2///61360_4#ADA033,0112/2///61360_4#ADA034}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2024-08-13 13:41:26",
+      "user": "BATCH 00001320",
+      "unid": "21003FA395ECF24AC1258B7800403836",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2017-01-11 10:40:53",
+      "user": "BATCH 00000890",
+      "unid": "109741e08e95406ac12580a500352ebf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "9a9b3d8edfb5d2e7c1257dd300516020",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "66e22357ca5db9f3c1257d7300506a47",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "986a6c8c3fb329eec1257a0e0047b33c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2012-05-30",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA001",
+    "0112/2///61360_4#ADA002",
+    "0112/2///61360_4#ADA003",
+    "0112/2///61360_4#ADA004",
+    "0112/2///61360_4#ADA005",
+    "0112/2///61360_4#ADA006",
+    "0112/2///61360_4#ADA008",
+    "0112/2///61360_4#ADA009",
+    "0112/2///61360_4#ADA010",
+    "0112/2///61360_4#ADA011",
+    "0112/2///61360_4#ADA012",
+    "0112/2///61360_4#ADA013",
+    "0112/2///61360_4#ADA014",
+    "0112/2///61360_4#ADA015",
+    "0112/2///61360_4#ADA016",
+    "0112/2///61360_4#ADA017",
+    "0112/2///61360_4#ADA018",
+    "0112/2///61360_4#ADA019",
+    "0112/2///61360_4#ADA020",
+    "0112/2///61360_4#ADA021",
+    "0112/2///61360_4#ADA022",
+    "0112/2///61360_4#ADA023",
+    "0112/2///61360_4#ADA024",
+    "0112/2///61360_4#ADA025",
+    "0112/2///61360_4#ADA026",
+    "0112/2///61360_4#ADA027",
+    "0112/2///61360_4#ADA028",
+    "0112/2///61360_4#ADA029",
+    "0112/2///61360_4#ADA030",
+    "0112/2///61360_4#ADA031",
+    "0112/2///61360_4#ADA032",
+    "0112/2///61360_4#ADA033",
+    "0112/2///61360_4#ADA034"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2024-08-13 13:41:26",
+    "user": "BATCH 00001320",
+    "change_request_id": null,
+    "unid": "21003FA395ECF24AC1258B7800403836"
+  }
+}

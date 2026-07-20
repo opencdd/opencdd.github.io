@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF096",
+  "code": "ABF096",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:05",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2cfa271d9ff5700ac125825e001ddab6"
+  }
+}

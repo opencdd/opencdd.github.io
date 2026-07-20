@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61987#ABB943",
+  "code": "ABB943",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "total performance (diff. press., 69 bar static pr., 28°C, overpr., zero & span)",
+  "preferred_name_ml": {
+    "en": "total performance (diff. press., 69 bar static pr., 28°C, overpr., zero & span)",
+    "fr": "perf tot (press diff, pr stat 69 bar, 28°C, surpr assign, zéro & étendue de mes)",
+    "de": "Grundgenauigk. (Diff-Druck, 69 bar stat, 28°C, max Betriebsdr, Nullpkt & Spanne)"
+  },
+  "definition": "for differential pressure measuring devices, square root of: nonlinearity^2 + (maximum ambient temperature error per 28 °C change)^2 + (maximum static zero point error per 69 bar change)^2+(maximum static span error per 69 bar change)^2 +(the static overpressure effect on one side of a differential pressure)^2, expressed as percentage of span",
+  "definition_ml": {
+    "en": "for differential pressure measuring devices, square root of: nonlinearity^2 + (maximum ambient temperature error per 28 °C change)^2 + (maximum static zero point error per 69 bar change)^2+(maximum static span error per 69 bar change)^2 +(the static overpressure effect on one side of a differential pressure)^2, expressed as percentage of span",
+    "fr": "pour des appareils de mesure de pression différentielle, racine carrée de: non-linéarité^2 + (erreur maximale de température ambiante par changement de 28 °C)^2 + (erreur maximale de point zéro statique par changement de 69 bars)^2+(erreur maximale d'intervalle de mesure statique par changement de 69 bars)^2 +(l'effet de surpression statique sur un coté d'une pression différentielle)^2, exprimée en pourcentage d'intervalle de mesure",
+    "de": "bei Differenzdruckmessgeräten, Quadratwurzel aus: Nichtlinearität^2 + (maximaler Umgebungstemperaturfehler pro Änderung um 28 °C)^2 + (maximaler Fehler des statischen Nullpunkts pro Änderung um 69 bar)^2 + (maximaler Fehler der statischen Spanne pro Änderung um 69 bar)^2 + (Effekt des statischen Überdrucks auf einer Seite eines Differenzdrucks)^2, in relativen Einheiten der Spanne"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB943",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "total performance (diff. press., 69 bar static pr., 28°C, overpr., zero & span)",
+    "MDC_P006.en": "for differential pressure measuring devices, square root of: nonlinearity^2 + (maximum ambient temperature error per 28 °C change)^2 + (maximum static zero point error per 69 bar change)^2+(maximum static span error per 69 bar change)^2 +(the static overpressure effect on one side of a differential pressure)^2, expressed as percentage of span",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "perf tot (press diff, pr stat 69 bar, 28°C, surpr assign, zéro & étendue de mes)",
+    "MDC_P006.fr": "pour des appareils de mesure de pression différentielle, racine carrée de: non-linéarité^2 + (erreur maximale de température ambiante par changement de 28 °C)^2 + (erreur maximale de point zéro statique par changement de 69 bars)^2+(erreur maximale d'intervalle de mesure statique par changement de 69 bars)^2 +(l'effet de surpression statique sur un coté d'une pression différentielle)^2, exprimée en pourcentage d'intervalle de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "Grundgenauigk. (Diff-Druck, 69 bar stat, 28°C, max Betriebsdr, Nullpkt & Spanne)",
+    "MDC_P006.de": "bei Differenzdruckmessgeräten, Quadratwurzel aus: Nichtlinearität^2 + (maximaler Umgebungstemperaturfehler pro Änderung um 28 °C)^2 + (maximaler Fehler des statischen Nullpunkts pro Änderung um 69 bar)^2 + (maximaler Fehler der statischen Spanne pro Änderung um 69 bar)^2 + (Effekt des statischen Überdrucks auf einer Seite eines Differenzdrucks)^2, in relativen Einheiten der Spanne",
+    "MDC_P008.de": "Eine Temperaturänderung von 28 °C wird von einer Temperaturänderung von 50°F abgeleitet und eine Druckänderung von 69 bar wird von einer Druckänderung von 1000 psi abgeleitet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "CF839D942A9BF7CDC1258DED00455848",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "725017a03b2b844cc125825e001deb88",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:56",
+      "user": "BATCH 00000717",
+      "unid": "67d0630e525170a8c1257fa700405b61",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:41",
+      "user": "BATCH 00000702",
+      "unid": "2882a1b19298768dc1257cfb00403e10",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "5cdc3d68eb94ee9cc1257cb40054bfcd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "CF839D942A9BF7CDC1258DED00455848"
+  }
+}

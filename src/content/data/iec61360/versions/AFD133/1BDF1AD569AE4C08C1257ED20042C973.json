@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61360_4#AFD133",
+  "code": "AFD133",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "dropout voltage",
+  "preferred_name_ml": {
+    "en": "dropout voltage"
+  },
+  "short_name": "V_D",
+  "short_name_ml": {
+    "en": "V_D"
+  },
+  "definition": "difference between the input voltage and output voltage in a series regulator in order to satisfy the specified electrical characteristics",
+  "definition_ml": {
+    "en": "difference between the input voltage and output voltage in a series regulator in order to satisfy the specified electrical characteristics"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00050",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD133",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "dropout voltage",
+    "MDC_P005.en": "V_D",
+    "MDC_P006.en": "difference between the input voltage and output voltage in a series regulator in order to satisfy the specified electrical characteristics",
+    "MDC_P025_1": "V_D",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA020",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-10-02",
+    "MDC_P003_2": "2015-12-21",
+    "MDC_P003_3": "2015-12-21",
+    "C002": "C00050"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2015-10-02 14:09:29",
+      "user": "BATCH 00000920",
+      "unid": "1BDF1AD569AE4C08C1257ED20042C973",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "86def2a9dca345f5c1257ea4004b25a0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "957b04c93207282fc1257e8a0043e9c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-12-21",
+    "current_revision": "2015-12-21"
+  },
+  "symbol_in_text": "V_D",
+  "definition_class_irdi": "0112/2///61360_4#AFA020",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2015-10-02 14:09:29",
+    "user": "BATCH 00000920",
+    "change_request_id": null,
+    "unid": "1BDF1AD569AE4C08C1257ED20042C973"
+  }
+}

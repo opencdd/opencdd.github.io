@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABH371",
+  "code": "ABH371",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "type of lead termination",
+  "preferred_name_ml": {
+    "en": "type of lead termination",
+    "de": "Art des Leitungsendes"
+  },
+  "definition": "classification of a lead termination according to its constructional design",
+  "definition_ml": {
+    "en": "classification of a lead termination according to its constructional design",
+    "de": "Charakterisierung eines Leitungsendes bezüglich seiner Ausführung"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH371",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of lead termination",
+    "MDC_P006.en": "classification of a lead termination according to its constructional design",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL481)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art des Leitungsendes",
+    "MDC_P006.de": "Charakterisierung eines Leitungsendes bezüglich seiner Ausführung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-30",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "FEE6D6D72CF6E1C0C1258CDC004A3C63",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "cca5d9d3e70ee4aec1258518003c4a86",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:15",
+      "user": "BATCH 00000762",
+      "unid": "46409e68dde1b515c125825e001df5fd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL481)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL481)",
+  "value_list": "0112/2///61987#ABL481",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "FEE6D6D72CF6E1C0C1258CDC004A3C63"
+  }
+}

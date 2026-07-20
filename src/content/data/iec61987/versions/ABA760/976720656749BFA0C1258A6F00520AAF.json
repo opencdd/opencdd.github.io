@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA760",
+  "code": "ABA760",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Ultrasonic density transmitter",
+  "preferred_name_ml": {
+    "en": "Ultrasonic density transmitter",
+    "fr": "Transmetteur de densité à ultrasons",
+    "de": "Ultraschall-Dichtemessgerät"
+  },
+  "definition": "density transmitter that measures the velocity of ultrasonic waves in a medium and outputs a signal representative of density",
+  "definition_ml": {
+    "en": "density transmitter that measures the velocity of ultrasonic waves in a medium and outputs a signal representative of density",
+    "fr": "transmetteur de densité qui mesure la vitesse des ondes ultrasoniques dans un milieu et délivre en sortie un signal représentatif de la densité",
+    "de": "Dichtemessgerät, das die Geschwindigkeit von Ultraschallwellen in einem Medium misst und ein Signal abgibt, welches für die Dichte repräsentativ ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA760",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Ultrasonic density transmitter",
+    "MDC_P006.en": "density transmitter that measures the velocity of ultrasonic waves in a medium and outputs a signal representative of density",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA754",
+    "MDC_P014": "{0112/2///61987#ABF916}",
+    "MDC_P004.fr": "Transmetteur de densité à ultrasons",
+    "MDC_P006.fr": "transmetteur de densité qui mesure la vitesse des ondes ultrasoniques dans un milieu et délivre en sortie un signal représentatif de la densité",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-22",
+    "MDC_P004.de": "Ultraschall-Dichtemessgerät",
+    "MDC_P006.de": "Dichtemessgerät, das die Geschwindigkeit von Ultraschallwellen in einem Medium misst und ein Signal abgibt, welches für die Dichte repräsentativ ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-22",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "976720656749BFA0C1258A6F00520AAF",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:47",
+      "user": "BATCH 00000762",
+      "unid": "ccc71cfc62ce7929c125825e001dd3b5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:57",
+      "user": "BATCH 00000732",
+      "unid": "2d8fe5db0e6e0185c12580d6004bfbfb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "ae6095e647f51989c1257cb3002a0c9e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF916"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA754",
+  "superclass_type_property": "0112/2///61987#ABA754",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "976720656749BFA0C1258A6F00520AAF"
+  }
+}

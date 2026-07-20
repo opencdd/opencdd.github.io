@@ -1,0 +1,154 @@
+{
+  "irdi": "0112/2///61987#ABC201",
+  "code": "ABC201",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Digital communication interface",
+  "preferred_name_ml": {
+    "en": "Digital communication interface",
+    "fr": "Interface de communication numérique",
+    "de": "Digitale Kommunikationsschnittstelle"
+  },
+  "definition": "properties characterizing a digital communication interface",
+  "definition_ml": {
+    "en": "properties characterizing a digital communication interface",
+    "fr": "propriétés caractérisant une interface de communication numérique",
+    "de": "Merkmale, die eine digitale Kommunikationsschnittstelle kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC201",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Digital communication interface",
+    "MDC_P006.en": "properties characterizing a digital communication interface",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-06-28",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB279,0112/2///61987#ABA085,0112/2///61987#ABA041,0112/2///61987#ABC792,0112/2///61987#ABA047,0112/2///61987#ABC793,0112/2///61987#ABD141,0112/2///61987#ABB241,0112/2///61987#ABC821,0112/2///61987#ABC872}",
+    "MDC_P004.fr": "Interface de communication numérique",
+    "MDC_P006.fr": "propriétés caractérisant une interface de communication numérique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Digitale Kommunikationsschnittstelle",
+    "MDC_P006.de": "Merkmale, die eine digitale Kommunikationsschnittstelle kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:22",
+      "user": "BATCH 00000794",
+      "unid": "82185EAE2C620369C125886F003C8D12",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "c1d384a952a1973ac125825e001dd52e",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:06",
+      "user": "BATCH 00000755",
+      "unid": "e54c616a24bb4e79c1258256003e72f2",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:59",
+      "user": "BATCH 00000732",
+      "unid": "3903fa2387ecfd4ac12580d6004bfd1c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "99480f2cf9fdd445c1257f7e0033a7d0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:37",
+      "user": "BATCH 00000701",
+      "unid": "2debc0fe7ef60a52c1257cfb003f9843",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "732b9347e5651647c1257cb400549b8f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-06-28",
+    "current_revision": "2022-06-28"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB279",
+    "0112/2///61987#ABA085",
+    "0112/2///61987#ABA041",
+    "0112/2///61987#ABC792",
+    "0112/2///61987#ABA047",
+    "0112/2///61987#ABC793",
+    "0112/2///61987#ABD141",
+    "0112/2///61987#ABB241",
+    "0112/2///61987#ABC821",
+    "0112/2///61987#ABC872"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:22",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "82185EAE2C620369C125886F003C8D12"
+  }
+}

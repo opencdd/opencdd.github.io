@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAF950",
+  "code": "AAF950",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "speed of ambient water",
+  "preferred_name_ml": {
+    "en": "speed of ambient water"
+  },
+  "short_name": "v_water}",
+  "short_name_ml": {
+    "en": "v_water}"
+  },
+  "definition": "ratio of the distance covered by a body of water surrounding the object in question and moving in a specified direction, to the time taken to cover that distance",
+  "definition_ml": {
+    "en": "ratio of the distance covered by a body of water surrounding the object in question and moving in a specified direction, to the time taken to cover that distance"
+  },
+  "source_document": "ISO 722:2011, 1.43 MOD",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF950",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "speed of ambient water",
+    "MDC_P005.en": "v_water}",
+    "MDC_P006.en": "ratio of the distance covered by a body of water surrounding the object in question and moving in a specified direction, to the time taken to cover that distance",
+    "MDC_P025_1": "v_water}",
+    "MDC_P023": "m/s",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "ISO 722:2011, 1.43 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T10",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA733",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 14:02:47",
+      "user": "BATCH 00001305",
+      "unid": "9DFE0D2B48D22E5DC1258B5600422C5D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "cfc26bd0c5c2cddac1257ea4004b22f7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "feeaccb183e32889c1257e8b00323926",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "2e379b971082b375c1257e8a0043e71a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "a7cd4d1910dcc831c1257b9e0044e86c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "v_water}",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA733",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 14:02:47",
+    "user": "BATCH 00001305",
+    "change_request_id": null,
+    "unid": "9DFE0D2B48D22E5DC1258B5600422C5D"
+  }
+}

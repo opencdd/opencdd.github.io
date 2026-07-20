@@ -1,0 +1,117 @@
+{
+  "irdi": "0112/2///61987#ABH489",
+  "code": "ABH489",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "reference to Fire proof design approval",
+  "preferred_name_ml": {
+    "en": "reference to Fire proof design approval"
+  },
+  "definition": "reference to block ABH471",
+  "definition_ml": {
+    "en": "reference to block ABH471"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH489",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Fire proof design approval",
+    "MDC_P006.en": "reference to block ABH471",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABH471)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2015-07-17",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:16",
+      "user": "BATCH 00000762",
+      "unid": "C96DACC9517BA247C125825E001DF664",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "1f7bbf2497d047c8c1258256003e952b",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "5534caabcee2f5a5c125825600407a4a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:45",
+      "user": "BATCH 00000732",
+      "unid": "551301d5ba0ab998c12580d6004c2627",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "7d5c35a51681f332c1257f7e0030f261",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "e7c3344e02027d6dc1257fa7003a3d9f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-07-17",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABH471)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABH471)",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:16",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "C96DACC9517BA247C125825E001DF664"
+  }
+}

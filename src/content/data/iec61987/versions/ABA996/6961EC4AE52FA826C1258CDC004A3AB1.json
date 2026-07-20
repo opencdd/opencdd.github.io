@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61987#ABA996",
+  "code": "ABA996",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "set signal on alarm",
+  "preferred_name_ml": {
+    "en": "set signal on alarm",
+    "fr": "signal en alarme de réglage",
+    "de": "eingestelltes Alarmsignal"
+  },
+  "definition": "setting of signal on alarm",
+  "definition_ml": {
+    "en": "setting of signal on alarm",
+    "fr": "réglage d'usine pour le signal en alarme",
+    "de": "Einstellung eines Alarmsignals"
+  },
+  "synonyms": [],
+  "note": "usual values are upper alarm signal, lower alarm signal, MIN, MAX, HOLD, user value, ignore",
+  "note_ml": {
+    "en": "usual values are upper alarm signal, lower alarm signal, MIN, MAX, HOLD, user value, ignore",
+    "fr": "Les valeurs habituelles sont signal d'alarme haut, signal d'alarme bas, min, max, maintien, valeur client, ignore.",
+    "de": "Normale Werte sind oberes Alarmsignal, unteres Alarmsignal, MIN, MAX, HOLD, benutzerdefinierter Wert, ignorieren."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA996",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "set signal on alarm",
+    "MDC_P006.en": "setting of signal on alarm",
+    "MDC_P008.en": "usual values are upper alarm signal, lower alarm signal, MIN, MAX, HOLD, user value, ignore",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ805)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "signal en alarme de réglage",
+    "MDC_P006.fr": "réglage d'usine pour le signal en alarme",
+    "MDC_P008.fr": "Les valeurs habituelles sont signal d'alarme haut, signal d'alarme bas, min, max, maintien, valeur client, ignore.",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "eingestelltes Alarmsignal",
+    "MDC_P006.de": "Einstellung eines Alarmsignals",
+    "MDC_P008.de": "Normale Werte sind oberes Alarmsignal, unteres Alarmsignal, MIN, MAX, HOLD, benutzerdefinierter Wert, ignorieren.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "6961EC4AE52FA826C1258CDC004A3AB1",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "cb50b0c3c8ba5fa2c125886f003c996b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "9f73b997eae6b15dc1258518003c4898",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "005d703f58f6377ec125825e001de7df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "94166f9f87c93746c1257cb40054bc25",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ805)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ805)",
+  "value_list": "0112/2///61987#ABJ805",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "6961EC4AE52FA826C1258CDC004A3AB1"
+  }
+}
