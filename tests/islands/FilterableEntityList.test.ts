@@ -42,8 +42,8 @@ describe("FilterableEntityList", () => {
     const wrapper = mount(FilterableEntityList, { props: { items } });
 
     expect(wrapper.findAll("a")).toHaveLength(1);
-    expect(wrapper.findAll("span.border-dashed")).toHaveLength(1);
-    expect(wrapper.text()).toContain("record not scraped");
+    expect(wrapper.findAll("span.border-rose-300")).toHaveLength(1);
+    expect(wrapper.text()).toContain("Not in data");
   });
 
   it("hides search input when items ≤ 6", () => {
