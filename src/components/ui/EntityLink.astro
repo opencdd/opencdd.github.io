@@ -33,6 +33,7 @@ const hasHref = ref.href !== null;
 const tooltip = ref.definition
   ? `${ref.code} — ${displayLabel}: ${ref.definition}`
   : `${ref.code} — ${displayLabel}`;
+const brokenTitle = `⚠ Not in browser data — ${irdi}. The entity is referenced but its full record wasn't scraped.`;
 ---
 
 {hasHref ? (
@@ -48,10 +49,17 @@ const tooltip = ref.definition
     {displayLabel}
   </a>
 ) : (
-  <span class="text-ink-700" title={irdi}>
+  <span
+    class="inline-flex items-center gap-1 text-rose-600"
+    title={brokenTitle}
+  >
     {!hideCode && (
-      <span class="mr-1 font-mono text-[10px] text-ink-400">{identifier}</span>
-    )}
-    {displayLabel}
+      <span class="font-mono text-[10px] text-rose-400 line-through decoration-rose-300">{identifier}</span>
+    )}{" "}
+    <span class="underline decoration-dotted decoration-rose-400 underline-offset-2">{displayLabel}</span>
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="h-3 w-3 shrink-0 text-rose-500" aria-hidden="true">
+      <path d="M6 3L3 3a1 1 0 0 0-1 1v3M10 3h3a1 1 0 0 1 1 1v3M6 13H3a1 1 0 0 1-1-1V9M10 13h3a1 1 0 0 0 1-1V9" stroke-linecap="round"/>
+      <line x1="2" y1="2" x2="14" y2="14" stroke-linecap="round"/>
+    </svg>
   </span>
 )}

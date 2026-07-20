@@ -273,7 +273,7 @@ function truncate(text: string, max: number): string {
                   v-if="hoveredNode?.irdi === pn.node.irdi"
                   :r="pn.r + 6"
                   fill="none"
-                  :stroke="TYPE_FILL[pn.node.type] ?? 'var(--color-ink-500)'"
+                  :stroke="!pn.node.resolved ? 'var(--color-rose-400)' : (TYPE_FILL[pn.node.type] ?? 'var(--color-ink-500)')"
                   stroke-width="1"
                   opacity="0.4"
                 />
@@ -281,7 +281,7 @@ function truncate(text: string, max: number): string {
                 <!-- Main circle -->
                 <circle
                   :r="pn.r"
-                  :fill="TYPE_FILL[pn.node.type] ?? 'var(--color-ink-500)'"
+                  :fill="!pn.node.resolved ? 'var(--color-rose-400)' : (TYPE_FILL[pn.node.type] ?? 'var(--color-ink-500)')"
                   :stroke="pn.node.degree === 0 ? 'var(--color-paper-50)' : 'none'"
                   :stroke-width="pn.node.degree === 0 ? 3 : 0"
                 />

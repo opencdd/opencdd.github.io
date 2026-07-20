@@ -62,15 +62,20 @@ const showSearch = computed(() => props.items.length > 6);
           </a>
           <span
             v-else
-            class="flex items-center gap-2.5 rounded-lg border border-dashed border-amber-200 bg-amber-50/50 px-3 py-2"
+            class="flex items-center gap-2.5 rounded-lg border border-rose-300 bg-rose-50/60 px-3 py-2"
+            title="Entity not in browser data — referenced but not scraped"
           >
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" class="h-3.5 w-3.5 shrink-0 text-rose-500" aria-hidden="true">
+              <path d="M6 3L3 3a1 1 0 0 0-1 1v3M10 3h3a1 1 0 0 1 1 1v3M6 13H3a1 1 0 0 1-1-1V9M10 13h3a1 1 0 0 0 1-1V9" stroke-linecap="round"/>
+              <line x1="2" y1="2" x2="14" y2="14" stroke-linecap="round"/>
+            </svg>
             <code
-              class="shrink-0 rounded bg-amber-100 px-1.5 py-0.5 font-mono text-[10px] tracking-wide text-amber-700"
+              class="shrink-0 rounded bg-rose-100 px-1.5 py-0.5 font-mono text-[10px] tracking-wide text-rose-700 line-through decoration-rose-300"
             >
               {{ item.code }}
             </code>
-            <span class="min-w-0 flex-1 truncate text-sm italic text-ink-500">
-              record not scraped
+            <span class="min-w-0 flex-1 truncate text-sm font-medium text-rose-600">
+              Not in data
             </span>
           </span>
         </li>
