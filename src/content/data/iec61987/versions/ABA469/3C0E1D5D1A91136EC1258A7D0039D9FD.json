@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61987#ABA469",
+  "code": "ABA469",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "identification number of notified body",
+  "preferred_name_ml": {
+    "en": "identification number of notified body",
+    "fr": "numéro d'identification de l'organisme notifié",
+    "de": "Kennnummer der benannten Stelle"
+  },
+  "definition": "identification number of an agency approved by a national authority to test and approve devices for usage in hazardous areas",
+  "definition_ml": {
+    "en": "identification number of an agency approved by a national authority to test and approve devices for usage in hazardous areas",
+    "fr": "numéro d'identification d'une agence agréée par une autorité nationale pour soumettre à essai et approuver les appareils destinés à une utilisation dans des zones dangereuses",
+    "de": "Kennnummer einer von einer nationalen Behörde zugelassenen Stelle zur Prüfung und Zulassung von Geräten für die Benutzung in gefährlichen Bereichen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA469",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "identification number of notified body",
+    "MDC_P006.en": "identification number of an agency approved by a national authority to test and approve devices for usage in hazardous areas",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "numéro d'identification de l'organisme notifié",
+    "MDC_P006.fr": "numéro d'identification d'une agence agréée par une autorité nationale pour soumettre à essai et approuver les appareils destinés à une utilisation dans des zones dangereuses",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Kennnummer der benannten Stelle",
+    "MDC_P006.de": "Kennnummer einer von einer nationalen Behörde zugelassenen Stelle zur Prüfung und Zulassung von Geräten für die Benutzung in gefährlichen Bereichen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:53",
+      "user": "BATCH 00000818",
+      "unid": "3C0E1D5D1A91136EC1258A7D0039D9FD",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:36",
+      "user": "BATCH 00000762",
+      "unid": "825f449dd50e6ed9c125825e001de6cb",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:32",
+      "user": "BATCH 00000755",
+      "unid": "85184044622fec74c1258256003e9474",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "073cd0831c141ffcc12580d6004c1b77",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "53b04c53512aa7f0c1257cfb00403951",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:29",
+      "user": "BATCH 00000699",
+      "unid": "cdc811ce951cf872c1257cb40054bb0e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:53",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "3C0E1D5D1A91136EC1258A7D0039D9FD"
+  }
+}

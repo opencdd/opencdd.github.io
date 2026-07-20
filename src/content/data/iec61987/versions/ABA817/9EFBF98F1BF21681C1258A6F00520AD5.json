@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA817",
+  "code": "ABA817",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Plumb bob level transmitter",
+  "preferred_name_ml": {
+    "en": "Plumb bob level transmitter",
+    "fr": "Transmetteur de niveau à fil à plomb",
+    "de": "Lotsystem"
+  },
+  "definition": "level transmitter that uses a wire or tape with a body as sensing element to measure level",
+  "definition_ml": {
+    "en": "level transmitter that uses a wire or tape with a body as sensing element to measure level",
+    "fr": "transmetteur de niveau utilisant un fil ou un ruban avec un corps comme élément de détection pour mesurer un niveau",
+    "de": "mechanischer Füllstandmessumformer, der einen Draht oder ein Band mit einem Körper als Messgrößenaufnehmer nutzt, um einen Füllstand zu messen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA817",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Plumb bob level transmitter",
+    "MDC_P006.en": "level transmitter that uses a wire or tape with a body as sensing element to measure level",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA816",
+    "MDC_P014": "{0112/2///61987#ABF885}",
+    "MDC_P004.fr": "Transmetteur de niveau à fil à plomb",
+    "MDC_P006.fr": "transmetteur de niveau utilisant un fil ou un ruban avec un corps comme élément de détection pour mesurer un niveau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-11-13",
+    "MDC_P004.de": "Lotsystem",
+    "MDC_P006.de": "mechanischer Füllstandmessumformer, der einen Draht oder ein Band mit einem Körper als Messgrößenaufnehmer nutzt, um einen Füllstand zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-13",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "9EFBF98F1BF21681C1258A6F00520AD5",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "734c11a646ea5ce3c125825e001dd3fd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:57",
+      "user": "BATCH 00000732",
+      "unid": "d08d94dac61ec9bac12580d6004bfc34",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:17",
+      "user": "BATCH 00000696",
+      "unid": "332ffb9d63f2e30fc1257cb3002a0cd7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF885"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA816",
+  "superclass_type_property": "0112/2///61987#ABA816",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "9EFBF98F1BF21681C1258A6F00520AD5"
+  }
+}

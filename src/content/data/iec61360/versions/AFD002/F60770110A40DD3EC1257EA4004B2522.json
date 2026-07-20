@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AFD002",
+  "code": "AFD002",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "absolute pull range",
+  "preferred_name_ml": {
+    "en": "absolute pull range"
+  },
+  "short_name": "abs pull range",
+  "short_name_ml": {
+    "en": "abs pull range"
+  },
+  "definition": "minimum guaranteed range of output frequency changes from the nominal frequency by an external control voltage under a specified condition or a combination of conditions",
+  "definition_ml": {
+    "en": "minimum guaranteed range of output frequency changes from the nominal frequency by an external control voltage under a specified condition or a combination of conditions"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD002",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "absolute pull range",
+    "MDC_P005.en": "abs pull range",
+    "MDC_P006.en": "minimum guaranteed range of output frequency changes from the nominal frequency by an external control voltage under a specified condition or a combination of conditions",
+    "MDC_P025_1": "APR",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E46",
+    "MDC_P021": "0112/2///61360_4#AFA010",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "F60770110A40DD3EC1257EA4004B2522",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "628e19edd7c321c4c1257e8b00323b2a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "a3f785317b789fb6c1257e8a0043e945",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "44add087bd50c9e5c1257b0200429602",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "APR",
+  "definition_class_irdi": "0112/2///61360_4#AFA010",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "F60770110A40DD3EC1257EA4004B2522"
+  }
+}

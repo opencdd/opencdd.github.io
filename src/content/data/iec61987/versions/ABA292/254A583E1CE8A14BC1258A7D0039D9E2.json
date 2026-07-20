@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61987#ABA292",
+  "code": "ABA292",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "name of component manufacturer",
+  "preferred_name_ml": {
+    "en": "name of component manufacturer",
+    "fr": "nom du fabricant du composant",
+    "de": "Komponentenhersteller"
+  },
+  "definition": "name of the manufacturer of a component",
+  "definition_ml": {
+    "en": "name of the manufacturer of a component",
+    "fr": "nom du fabricant d'un composant",
+    "de": "Name des Herstellers einer Komponente"
+  },
+  "source_document": "from IEC 61987-1, 5.1.5",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA292",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "name of component manufacturer",
+    "MDC_P006.en": "name of the manufacturer of a component",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "from IEC 61987-1, 5.1.5",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "nom du fabricant du composant",
+    "MDC_P006.fr": "nom du fabricant d'un composant",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Komponentenhersteller",
+    "MDC_P006.de": "Name des Herstellers einer Komponente",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:53",
+      "user": "BATCH 00000818",
+      "unid": "254A583E1CE8A14BC1258A7D0039D9E2",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:34",
+      "user": "BATCH 00000762",
+      "unid": "0987848515ffff00c125825e001de625",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "f894b09ed8fb62fec1258256003e9582",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "14c3604c525a7c40c125825600407a90",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:16",
+      "user": "BATCH 00000732",
+      "unid": "15fcf47999c1390bc12580d6004c1ae8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:28",
+      "user": "BATCH 00000702",
+      "unid": "5ddb846e135a5d4cc1257cfb004038c2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:27",
+      "user": "BATCH 00000699",
+      "unid": "51814a2476e517f6c1257cb40054ba7f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:53",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "254A583E1CE8A14BC1258A7D0039D9E2"
+  }
+}

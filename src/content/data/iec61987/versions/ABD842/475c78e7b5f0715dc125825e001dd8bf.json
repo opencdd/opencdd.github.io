@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD842",
+  "code": "ABD842",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:00",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "475c78e7b5f0715dc125825e001dd8bf"
+  }
+}

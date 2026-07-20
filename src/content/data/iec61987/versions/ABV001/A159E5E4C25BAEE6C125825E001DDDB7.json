@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61987#ABV001",
+  "code": "ABV001",
+  "version": "3",
+  "revision": "4",
+  "preferred_name": "Libraries",
+  "preferred_name_ml": {
+    "en": "Libraries",
+    "fr": "Bibliothèques",
+    "de": "Bibliothek"
+  },
+  "definition": "predefined group of one or more classes",
+  "definition_ml": {
+    "en": "predefined group of one or more classes",
+    "fr": "groupe prédéfini d'une ou plusieurs classes",
+    "de": "Vordefinierte Gruppe von einer oder mehreren Klassen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00009",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABV001",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "Libraries",
+    "MDC_P006.en": "predefined group of one or more classes",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-09-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA000",
+    "MDC_P004.fr": "Bibliothèques",
+    "MDC_P006.fr": "groupe prédéfini d'une ou plusieurs classes",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-12-01",
+    "MDC_P004.de": "Bibliothek",
+    "MDC_P006.de": "Vordefinierte Gruppe von einer oder mehreren Klassen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00009"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:13",
+      "user": "BATCH 00000762",
+      "unid": "A159E5E4C25BAEE6C125825E001DDDB7",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:35",
+      "user": "BATCH 00000701",
+      "unid": "fba7b12ec806a973c1257cfb003f9754",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:34",
+      "user": "BATCH 00000701",
+      "unid": "a12fe16dd3793392c1257cfb003f683e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:05",
+      "user": "BATCH 00000699",
+      "unid": "eb30af34e5caac38c1257cb400549a6d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-09 11:24:36",
+      "user": "BATCH 00000700",
+      "unid": "96ab9ab3abe1c8dbc1257cb50033b117",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "6fcf322ad9bcf7b2c1257cb3002a0d23",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-09-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA000",
+  "superclass_type_property": "0112/2///61987#ABA000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:13",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A159E5E4C25BAEE6C125825E001DDDB7"
+  }
+}

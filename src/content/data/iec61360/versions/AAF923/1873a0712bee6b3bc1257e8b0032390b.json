@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF923",
+  "code": "AAF923",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:34",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "1873a0712bee6b3bc1257e8b0032390b"
+  }
+}

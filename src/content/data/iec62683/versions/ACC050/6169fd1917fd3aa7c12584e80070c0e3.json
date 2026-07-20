@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACC050",
+  "code": "ACC050",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "6169fd1917fd3aa7c12584e80070c0e3"
+  }
+}

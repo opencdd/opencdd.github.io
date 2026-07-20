@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AFD027",
+  "code": "AFD027",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "frequency versus temperature characteristics",
+  "preferred_name_ml": {
+    "en": "frequency versus temperature characteristics"
+  },
+  "short_name": "freq vs temp",
+  "short_name_ml": {
+    "en": "freq vs temp"
+  },
+  "definition": "deviation from the frequency at the reference temperature, over the operating temperature range, while other conditions are kept constant",
+  "definition_ml": {
+    "en": "deviation from the frequency at the reference temperature, over the operating temperature range, while other conditions are kept constant"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD027",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "frequency versus temperature characteristics",
+    "MDC_P005.en": "freq vs temp",
+    "MDC_P006.en": "deviation from the frequency at the reference temperature, over the operating temperature range, while other conditions are kept constant",
+    "MDC_P025_1": "f_tem",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA003",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P028": "{0112/2///61360_4#AFD029}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "ABC4D63EEF4CC5A7C1257EA4004B253A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "99290c5aa6f3c87ec1257e8b00323b42",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "1cd17889fec1f6a6c1257e8a0043e95d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 12:41:55",
+      "user": "BATCH 00000817",
+      "unid": "e5afd929837d6a7cc1257e8a003ac54d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "f6e4a94a7320d9b3c1257b02004295e8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "f_tem",
+  "definition_class_irdi": "0112/2///61360_4#AFA003",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AFD029}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "ABC4D63EEF4CC5A7C1257EA4004B253A"
+  }
+}

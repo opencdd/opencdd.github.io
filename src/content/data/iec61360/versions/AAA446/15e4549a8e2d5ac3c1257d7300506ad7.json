@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA446",
+  "code": "AAA446",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2014-10-16 16:38:22",
+    "user": "BATCH 00000879",
+    "change_request_id": null,
+    "unid": "15e4549a8e2d5ac3c1257d7300506ad7"
+  }
+}

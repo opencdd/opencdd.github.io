@@ -1,0 +1,137 @@
+{
+  "irdi": "0112/2///61360_4#AAA301",
+  "code": "AAA301",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "geometry",
+  "preferred_name_ml": {
+    "en": "geometry"
+  },
+  "short_name": "GEO",
+  "short_name_ml": {
+    "en": "GEO"
+  },
+  "definition": "autonomous and stand-alone abstraction of an object of the parts/component library application domain concerning shape, configuration, or arrangement",
+  "definition_ml": {
+    "en": "autonomous and stand-alone abstraction of an object of the parts/component library application domain concerning shape, configuration, or arrangement"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "outlines"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "outlines"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00134",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA301",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "GEO",
+    "MDC_P004.en": "geometry",
+    "MDC_P007.en": "outlines",
+    "MDC_P006.en": "autonomous and stand-alone abstraction of an object of the parts/component library application domain concerning shape, configuration, or arrangement",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-11",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-11",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA000",
+    "C021": "0112/2///61360_4#AAG000",
+    "MDC_P014": "{0112/2///61360_4#AAG000}",
+    "C002": "C00134"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-11 08:52:32",
+      "user": "BATCH 00001242",
+      "unid": "F3285A4E5DD6E26EC125898E0025C4C7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:18",
+      "user": "BATCH 00000998",
+      "unid": "b95bc7f70934e35bc12580880052e242",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:02",
+      "user": "BATCH 00000997",
+      "unid": "4db97ddc16a4642ac12580880051d9f0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "a56962cd3a7641d4c1257dd30051604f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "13553c0823996507c1257d7300506a76",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "7b0a7b11acb7dcd9c1257a0e0047b2ae",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG000"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA000",
+  "superclass_type_property": "0112/2///61360_4#AAA000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-11 08:52:32",
+    "user": "BATCH 00001242",
+    "change_request_id": null,
+    "unid": "F3285A4E5DD6E26EC125898E0025C4C7"
+  }
+}

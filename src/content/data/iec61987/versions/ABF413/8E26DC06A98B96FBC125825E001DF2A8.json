@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABF413",
+  "code": "ABF413",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "number of connected cables",
+  "preferred_name_ml": {
+    "en": "number of connected cables",
+    "de": "Anzahl der angeschlossenen Kabel"
+  },
+  "definition": "@number of connected cables",
+  "definition_ml": {
+    "en": "@number of connected cables",
+    "de": "Kardinalitätsmerkmal für angeschlossenes Kabel"
+  },
+  "synonyms": [],
+  "remark": "Cardinality property",
+  "remark_ml": {
+    "en": "Cardinality property"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF413",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of connected cables",
+    "MDC_P006.en": "@number of connected cables",
+    "MDC_P009.en": "Cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "Anzahl der angeschlossenen Kabel",
+    "MDC_P006.de": "Kardinalitätsmerkmal für angeschlossenes Kabel",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:06",
+      "user": "BATCH 00000762",
+      "unid": "8E26DC06A98B96FBC125825E001DF2A8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:42",
+      "user": "BATCH 00000732",
+      "unid": "ded96d62c3d5baaec12580d6004c2554",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:06",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "8E26DC06A98B96FBC125825E001DF2A8"
+  }
+}

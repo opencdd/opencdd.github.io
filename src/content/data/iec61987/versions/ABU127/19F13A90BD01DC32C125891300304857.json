@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABU127",
+  "code": "ABU127",
+  "version": "3",
+  "revision": "2",
+  "preferred_name": "phase type",
+  "preferred_name_ml": {
+    "en": "phase type",
+    "fr": "type de phase",
+    "de": "Phasentyp"
+  },
+  "definition": "polymorphic property determining the fluid phase to be described",
+  "definition_ml": {
+    "en": "polymorphic property determining the fluid phase to be described",
+    "fr": "propriété de contrôle de polymorphisme déterminant la phase liquide à décrire",
+    "de": "Polymorphismus-Merkmal für Phasentyp"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property; Id specified in IEC61987-12/-13: ABA575",
+  "remark_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-12/-13: ABA575"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU127",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "phase type",
+    "MDC_P006.en": "polymorphic property determining the fluid phase to be described",
+    "MDC_P009.en": "polymorphic control property; Id specified in IEC61987-12/-13: ABA575",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU088(Aqueous phase,Non-aqueous liquid phase,Gas/vapor phase [flow],Solid/particle phase [flow]))",
+    "MDC_P068": "0112/2///61987#ABU088",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "type de phase",
+    "MDC_P006.fr": "propriété de contrôle de polymorphisme déterminant la phase liquide à décrire",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-17",
+    "MDC_P004.de": "Phasentyp",
+    "MDC_P006.de": "Polymorphismus-Merkmal für Phasentyp",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-12-17",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "19F13A90BD01DC32C125891300304857",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:17",
+      "user": "BATCH 00000762",
+      "unid": "a1938b059d039986c125825e001df6e2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:45",
+      "user": "BATCH 00000732",
+      "unid": "25f537472a70324fc12580d6004c262f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:53",
+      "user": "BATCH 00000702",
+      "unid": "ba29a5221d6b07acc1257cfb004042bd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:53",
+      "user": "BATCH 00000699",
+      "unid": "efbd5a2350bbe9b2c1257cb40054c47a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-12-09"
+  },
+  "constraint": "0112/2///61987#ABU088",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU088(Aqueous phase,Non-aqueous liquid phase,Gas/vapor phase [flow],Solid/particle phase [flow]))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU088(Aqueous phase,Non-aqueous liquid phase,Gas/vapor phase [flow],Solid/particle phase [flow]))",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "19F13A90BD01DC32C125891300304857"
+  }
+}

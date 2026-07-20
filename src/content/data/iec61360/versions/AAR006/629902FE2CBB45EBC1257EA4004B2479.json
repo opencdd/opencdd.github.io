@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAR006",
+  "code": "AAR006",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "electrical endurance",
+  "preferred_name_ml": {
+    "en": "electrical endurance"
+  },
+  "short_name": "N_elec",
+  "short_name_ml": {
+    "en": "N_elec"
+  },
+  "definition": "minimum number of cycles of a relay until failure at specified contact voltage, contact current and ambient temperature",
+  "definition_ml": {
+    "en": "minimum number of cycles of a relay until failure at specified contact voltage, contact current and ambient temperature"
+  },
+  "source_document": "IEC 60255-23 (2.23) (1994)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "SC3D",
+  "published_in": "3D/90/CD",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAR006",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "electrical endurance",
+    "MDC_P005.en": "N_elec",
+    "MDC_P006.en": "minimum number of cycles of a relay until failure at specified contact voltage, contact current and ambient temperature",
+    "MDC_P025_1": "N_elec}",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60255-23 (2.23) (1994)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "Q56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "3D/90/CD",
+    "C011": "SC3D",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-05-28",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAR036,0112/2///61360_4#AAR037}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "629902FE2CBB45EBC1257EA4004B2479",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "d1ae446806b86c76c1257e8b00323aa8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:44",
+      "user": "BATCH 00000904",
+      "unid": "e1998f6d68a918b9c1257e8a0043e89c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:03",
+      "user": "BATCH 00000704",
+      "unid": "243a31e92c36badec125787f0042a7b5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-05-28",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "N_elec}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAR036,0112/2///61360_4#AAR037}",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "629902FE2CBB45EBC1257EA4004B2479"
+  }
+}

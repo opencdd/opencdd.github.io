@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF149",
+  "code": "ACF149",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "Head of the control circuit device for Rotary button",
+  "preferred_name_ml": {
+    "en": "Head of the control circuit device for Rotary button",
+    "fr": "Tête de l'appareil pour circuit de commande pour Bouton rotatif",
+    "de": "Kopf des Steuergeräts für Drehknopfschalter",
+    "zh": "旋钮控制电路电器的端头"
+  },
+  "definition": "part which contains and support the actuator or contains the lens of an indicator light, fixed on an enclosure or on the body of the rotary button",
+  "definition_ml": {
+    "en": "part which contains and support the actuator or contains the lens of an indicator light, fixed on an enclosure or on the body of the rotary button",
+    "fr": "partie qui contient et supporte l'actionneur ou contient le cabochon du voyant, montée sur un boîtier ou le corps du bouton rotatif",
+    "de": "Teil, der das Bedienteil enthält und unterstützt oder die Linse einer Kontrollleuchte enthält, angebracht auf der Kapselung oder dem Gehäuse des Drehknopfschalters",
+    "zh": "固定在旋钮外壳或本体上的包含并支撑操动器或包含指示灯镜片的部件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF149",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Head of the control circuit device for Rotary button",
+    "MDC_P006.en": "part which contains and support the actuator or contains the lens of an indicator light, fixed on an enclosure or on the body of the rotary button",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG149)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Tête de l'appareil pour circuit de commande pour Bouton rotatif",
+    "MDC_P006.fr": "partie qui contient et supporte l'actionneur ou contient le cabochon du voyant, montée sur un boîtier ou le corps du bouton rotatif",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Kopf des Steuergeräts für Drehknopfschalter",
+    "MDC_P006.de": "Teil, der das Bedienteil enthält und unterstützt oder die Linse einer Kontrollleuchte enthält, angebracht auf der Kapselung oder dem Gehäuse des Drehknopfschalters",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2018-01-18",
+    "MDC_P004.zh": "旋钮控制电路电器的端头",
+    "MDC_P006.zh": "固定在旋钮外壳或本体上的包含并支撑操动器或包含指示灯镜片的部件",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:31",
+      "user": "BATCH 00000704",
+      "unid": "63f506bcef5b51b9c1258030004571c0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:50",
+      "user": "BATCH 00000741",
+      "unid": "33D9321815CB4215C12584EC006DC1EB",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG149)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG149)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:31",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "63f506bcef5b51b9c1258030004571c0"
+  }
+}

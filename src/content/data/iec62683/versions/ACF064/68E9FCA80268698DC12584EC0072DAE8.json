@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF064",
+  "code": "ACF064",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Control and auxiliary circuits for motor-starter and contactor",
+  "preferred_name_ml": {
+    "en": "Control and auxiliary circuits for motor-starter and contactor",
+    "fr": "Circuits de commande et auxiliaire pour démarreur moteur ou contacteur",
+    "de": "Steuer- und Hilfsstromkreise der Motorstarterkombination",
+    "zh": "电动机起动器和接触器的控制和辅助电路"
+  },
+  "definition": "all the conductive parts of motor-starter or contactor which are intended to be included in a circuit other than the main circuit",
+  "definition_ml": {
+    "en": "all the conductive parts of motor-starter or contactor which are intended to be included in a circuit other than the main circuit",
+    "fr": "ensemble des pièces conductrices du démarreur moteur ou contacteur destinées à être insérées dans un circuit autre que le circuit principal",
+    "de": "alle leitfähigen Teile des Motorstarters oder Schützes, die zu anderen Stromkreisen als dem Hauptstromkreis des Geräts gehören",
+    "zh": "在主电路之外的电路中使用的电动机起动器或接触器的所有导电部件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00073",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF064",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Control and auxiliary circuits for motor-starter and contactor",
+    "MDC_P006.en": "all the conductive parts of motor-starter or contactor which are intended to be included in a circuit other than the main circuit",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG064)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Circuits de commande et auxiliaire pour démarreur moteur ou contacteur",
+    "MDC_P006.fr": "ensemble des pièces conductrices du démarreur moteur ou contacteur destinées à être insérées dans un circuit autre que le circuit principal",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2017-05-12",
+    "MDC_P004.de": "Steuer- und Hilfsstromkreise der Motorstarterkombination",
+    "MDC_P006.de": "alle leitfähigen Teile des Motorstarters oder Schützes, die zu anderen Stromkreisen als dem Hauptstromkreis des Geräts gehören",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2018-01-16",
+    "MDC_P004.zh": "电动机起动器和接触器的控制和辅助电路",
+    "MDC_P006.zh": "在主电路之外的电路中使用的电动机起动器或接触器的所有导电部件",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "2",
+    "C018.zh": "2018-05-30",
+    "C002": "C00073"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "68E9FCA80268698DC12584EC0072DAE8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:30",
+      "user": "BATCH 00000704",
+      "unid": "0739a155cd911b4fc12580300045716f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG064)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG064)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:31",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "68E9FCA80268698DC12584EC0072DAE8"
+  }
+}

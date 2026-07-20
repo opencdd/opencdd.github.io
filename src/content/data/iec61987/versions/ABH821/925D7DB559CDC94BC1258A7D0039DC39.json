@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABH821",
+  "code": "ABH821",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "ERI card number",
+  "preferred_name_ml": {
+    "en": "ERI card number",
+    "de": "ERI Card-Nummer"
+  },
+  "definition": "identification number of a card providing structured information about the first activity steps to be done, and which specific equipment is required after an accident with dangerous goods when no substance specific information is at hand by the manufacturer",
+  "definition_ml": {
+    "en": "identification number of a card providing structured information about the first activity steps to be done, and which specific equipment is required after an accident with dangerous goods when no substance specific information is at hand by the manufacturer",
+    "de": "Identifizierungsnummer einer Karte, die strukturierte Informationen über die ersten Schritte, die nach einem Unfall mit gefährlichen Gütern ausgeführt werden müssen, sowie welche spezielle Ausrüstung benötigt wird, wenn keine Substanz-spezifischen Informationen vom Hersteller zur Verfügung stehen"
+  },
+  "source_document": "CEFIC - Conseil Européen de l’Industrie Chimique, Brussels",
+  "synonyms": [],
+  "note": "The ERI card is directed to fire brigades or other authorities or organizations with safety functions and is based on the UN Recommendations on the Transport of Dangerous Goods and UNECE -European Agreement concerning the International Carriage of Dangerous Goods by Road (ADR), 2015",
+  "note_ml": {
+    "en": "The ERI card is directed to fire brigades or other authorities or organizations with safety functions and is based on the UN Recommendations on the Transport of Dangerous Goods and UNECE -European Agreement concerning the International Carriage of Dangerous Goods by Road (ADR), 2015",
+    "de": "Die ERI Card richtet sich an Feuerwehren oder andere Behörden oder Organisationen mit Sicherheitsfunktion und basiert auf den UN-Empfehlungen zu Transport of Dangerous Goods und dem UNECE-European Agreement zu International Carriage of Dangerous Goods by Road (ADR), 2015."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH821",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "ERI card number",
+    "MDC_P006.en": "identification number of a card providing structured information about the first activity steps to be done, and which specific equipment is required after an accident with dangerous goods when no substance specific information is at hand by the manufacturer",
+    "MDC_P008.en": "The ERI card is directed to fire brigades or other authorities or organizations with safety functions and is based on the UN Recommendations on the Transport of Dangerous Goods and UNECE -European Agreement concerning the International Carriage of Dangerous Goods by Road (ADR), 2015",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "CEFIC - Conseil Européen de l’Industrie Chimique, Brussels",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "ERI Card-Nummer",
+    "MDC_P006.de": "Identifizierungsnummer einer Karte, die strukturierte Informationen über die ersten Schritte, die nach einem Unfall mit gefährlichen Gütern ausgeführt werden müssen, sowie welche spezielle Ausrüstung benötigt wird, wenn keine Substanz-spezifischen Informationen vom Hersteller zur Verfügung stehen",
+    "MDC_P008.de": "Die ERI Card richtet sich an Feuerwehren oder andere Behörden oder Organisationen mit Sicherheitsfunktion und basiert auf den UN-Empfehlungen zu Transport of Dangerous Goods und dem UNECE-European Agreement zu International Carriage of Dangerous Goods by Road (ADR), 2015.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-20",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "925D7DB559CDC94BC1258A7D0039DC39",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "18b3d5aaaf37b8fbc12583b7005027ed",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:59",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "925D7DB559CDC94BC1258A7D0039DC39"
+  }
+}

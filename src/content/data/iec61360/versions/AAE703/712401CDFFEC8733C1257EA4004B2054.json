@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61360_4#AAE703",
+  "code": "AAE703",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "cross modulation",
+  "preferred_name_ml": {
+    "en": "cross modulation"
+  },
+  "short_name": "Xmod",
+  "short_name_ml": {
+    "en": "Xmod"
+  },
+  "definition": "value as specified by level (minTypmax) of the cross modulation measured at the output of a wideband amplifier when a specified number of carrier frequencies, with each an equal output voltage, is applied to the input of the module at specified supply voltage, temperature of a temperature type",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the cross modulation measured at the output of a wideband amplifier when a specified number of carrier frequencies, with each an equal output voltage, is applied to the input of the module at specified supply voltage, temperature of a temperature type"
+  },
+  "synonyms": [],
+  "note": "1 All carrier frequencies are switched on/off with a duty cycle of 50% and a repetition frequency of: |15.750 kHz for 60 Hz mains frequencies and |15.625 kHz for 50 Hz mains frequencies. |2 100% is specified as 0 dB| 1% is specified as -40 dB",
+  "note_ml": {
+    "en": "1 All carrier frequencies are switched on/off with a duty cycle of 50% and a repetition frequency of: |15.750 kHz for 60 Hz mains frequencies and |15.625 kHz for 50 Hz mains frequencies. |2 100% is specified as 0 dB| 1% is specified as -40 dB"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE703",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "cross modulation",
+    "MDC_P005.en": "Xmod",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the cross modulation measured at the output of a wideband amplifier when a specified number of carrier frequencies, with each an equal output voltage, is applied to the input of the module at specified supply voltage, temperature of a temperature type",
+    "MDC_P008.en": "1 All carrier frequencies are switched on/off with a duty cycle of 50% and a repetition frequency of: |15.750 kHz for 60 Hz mains frequencies and |15.625 kHz for 50 Hz mains frequencies. |2 100% is specified as 0 dB| 1% is specified as -40 dB",
+    "MDC_P025_1": "Xmod",
+    "MDC_P023": "dB",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF INT_MEASURE_TYPE",
+    "MDC_P024": "NR1 S..4",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "712401CDFFEC8733C1257EA4004B2054",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "5d06c12940fe3407c1257e8b003236a3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "4962d0c9ef55ef0bc1257e8a0043e477",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "4b5031f2d2890978c1257a0e0047bcb9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "fb2889318f86dd4ac1257a0e0046da39",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "Xmod",
+  "value_format": "NR1 S..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF INT_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 S..4",
+  "condition_raw": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF INT_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "712401CDFFEC8733C1257EA4004B2054"
+  }
+}

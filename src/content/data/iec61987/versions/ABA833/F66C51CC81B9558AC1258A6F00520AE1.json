@@ -1,0 +1,137 @@
+{
+  "irdi": "0112/2///61987#ABA833",
+  "code": "ABA833",
+  "version": "3",
+  "revision": "2",
+  "preferred_name": "Differential pressure transmitter",
+  "preferred_name_ml": {
+    "en": "Differential pressure transmitter",
+    "fr": "Transmetteur de pression différentielle",
+    "de": "Differenzdruckmessumformer"
+  },
+  "definition": "pressure transmitter that measures the difference in pressure applied to two sides of a sensing element",
+  "definition_ml": {
+    "en": "pressure transmitter that measures the difference in pressure applied to two sides of a sensing element",
+    "fr": "transmetteur de pression qui mesure la différence de pression appliquée aux deux faces d'un élément de détection",
+    "de": "Druckmessumformer, der die Differenz der Drücke auf beiden Seiten eines Messgrößenaufnehmers misst"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA833",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Differential pressure transmitter",
+    "MDC_P006.en": "pressure transmitter that measures the difference in pressure applied to two sides of a sensing element",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA831",
+    "MDC_P014": "{0112/2///61987#ABU387}",
+    "MDC_P004.fr": "Transmetteur de pression différentielle",
+    "MDC_P006.fr": "transmetteur de pression qui mesure la différence de pression appliquée aux deux faces d'un élément de détection",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-05-21",
+    "MDC_P004.de": "Differenzdruckmessumformer",
+    "MDC_P006.de": "Druckmessumformer, der die Differenz der Drücke auf beiden Seiten eines Messgrößenaufnehmers misst",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "F66C51CC81B9558AC1258A6F00520AE1",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "87ac972e695165cfc125825e001dd415",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:35:36",
+      "user": "BATCH 00000701",
+      "unid": "88491b54656cf290c1257cfb003faf2f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "f7e6097d058b6ef6c1257cfb003f6802",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-09 11:24:37",
+      "user": "BATCH 00000700",
+      "unid": "237248a04b1ed4efc1257cb50033b139",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "947b31eae8eca60ac1257cb3002a0ce7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABU387"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA831",
+  "superclass_type_property": "0112/2///61987#ABA831",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "F66C51CC81B9558AC1258A6F00520AE1"
+  }
+}

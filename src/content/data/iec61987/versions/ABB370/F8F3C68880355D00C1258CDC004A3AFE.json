@@ -1,0 +1,150 @@
+{
+  "irdi": "0112/2///61987#ABB370",
+  "code": "ABB370",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "dust group",
+  "preferred_name_ml": {
+    "en": "dust group",
+    "fr": "groupe de poussières",
+    "de": "Staubgruppe"
+  },
+  "definition": "classification of dangerous dust or fibers based on their ability to cause an explosion",
+  "definition_ml": {
+    "en": "classification of dangerous dust or fibers based on their ability to cause an explosion",
+    "fr": "classification des poussières ou fibres dangereuses en fonction de leur risque de causer une explosion",
+    "de": "Charakterisierung von gefährlichem Staub oder gefährlichen Fasern basierend auf dessen/deren Fähigkeit, eine Explosion auszulösen"
+  },
+  "synonyms": [],
+  "note": "A device approved for a particular dust group and be installed in the corresponding hazardous area",
+  "note_ml": {
+    "en": "A device approved for a particular dust group and be installed in the corresponding hazardous area",
+    "de": "Ein Gerät, das für eine bestimmte Staubgruppe zugelassen ist, kann in der entsprechenden Gefahrenzone aufgestellt werden"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB370",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "dust group",
+    "MDC_P006.en": "classification of dangerous dust or fibers based on their ability to cause an explosion",
+    "MDC_P008.en": "A device approved for a particular dust group and be installed in the corresponding hazardous area",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ749)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "groupe de poussières",
+    "MDC_P006.fr": "classification des poussières ou fibres dangereuses en fonction de leur risque de causer une explosion",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Staubgruppe",
+    "MDC_P006.de": "Charakterisierung von gefährlichem Staub oder gefährlichen Fasern basierend auf dessen/deren Fähigkeit, eine Explosion auszulösen",
+    "MDC_P008.de": "Ein Gerät, das für eine bestimmte Staubgruppe zugelassen ist, kann in der entsprechenden Gefahrenzone aufgestellt werden",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "F8F3C68880355D00C1258CDC004A3AFE",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "3fd237d59164107ac1258518003c48f4",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "7ed42e921911fc75c125825e001de953",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "80895e0eea68cb23c1258256003e95bc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "453c59a2c60b3405c12580d6004c1e01",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "dc3c87d2f9dd5e41c1257cfb00403bdb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "9df9007bf9577cafc1257cb40054bd98",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ749)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ749)",
+  "value_list": "0112/2///61987#ABJ749",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "F8F3C68880355D00C1258CDC004A3AFE"
+  }
+}

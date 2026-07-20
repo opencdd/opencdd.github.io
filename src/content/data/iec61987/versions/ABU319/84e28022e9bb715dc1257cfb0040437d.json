@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABU319",
+  "code": "ABU319",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:41:55",
+    "user": "BATCH 00000702",
+    "change_request_id": null,
+    "unid": "84e28022e9bb715dc1257cfb0040437d"
+  }
+}

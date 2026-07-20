@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABB586",
+  "code": "ABB586",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "resolution of display",
+  "preferred_name_ml": {
+    "en": "resolution of display",
+    "fr": "résolution d’affichage",
+    "de": "Displayauflösung"
+  },
+  "definition": "smallest change of scale reading to which a numerical value can be assigned without further interpolation",
+  "definition_ml": {
+    "en": "smallest change of scale reading to which a numerical value can be assigned without further interpolation",
+    "fr": "plus petit changement d'échelle de lecture auquel une valeur numérique peut être affectée sans interpolation supplémentaire",
+    "de": "kleinste Änderung des Skalenwerts, dem ein Zahlenwert ohne weitere Interpolation zugewiesen werden kann"
+  },
+  "source_document": "IEC 60788, ed. 2.0 (2004-02), 3.325",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB586",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "resolution of display",
+    "MDC_P006.en": "smallest change of scale reading to which a numerical value can be assigned without further interpolation",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "IEC 60788, ed. 2.0 (2004-02), 3.325",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "résolution d’affichage",
+    "MDC_P006.fr": "plus petit changement d'échelle de lecture auquel une valeur numérique peut être affectée sans interpolation supplémentaire",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Displayauflösung",
+    "MDC_P006.de": "kleinste Änderung des Skalenwerts, dem ein Zahlenwert ohne weitere Interpolation zugewiesen werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:55",
+      "user": "BATCH 00000818",
+      "unid": "E105B2B94F1795F6C1258A7D0039DAD4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "c92e580e2564d8a1c125825e001dea26",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "690cf37e74150e94c1257cb40054be6b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:55",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "E105B2B94F1795F6C1258A7D0039DAD4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD722",
+  "code": "ABD722",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:30",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "73d17781c6a9be4fc1258518003c49b6"
+  }
+}

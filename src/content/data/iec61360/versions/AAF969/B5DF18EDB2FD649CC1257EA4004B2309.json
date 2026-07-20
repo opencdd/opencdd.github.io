@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AAF969",
+  "code": "AAF969",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "enhanced Fujita scale",
+  "preferred_name_ml": {
+    "en": "enhanced Fujita scale"
+  },
+  "definition": "coded classification of the strength of a tornado based on the caused damage",
+  "definition_ml": {
+    "en": "coded classification of the strength of a tornado based on the caused damage"
+  },
+  "synonyms": [],
+  "remark": "Mostly used in North- and Central-America",
+  "remark_ml": {
+    "en": "Mostly used in North- and Central-America"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF969",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "enhanced Fujita scale",
+    "MDC_P006.en": "coded classification of the strength of a tornado based on the caused damage",
+    "MDC_P009.en": "Mostly used in North- and Central-America",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_4#AAF879(EF0,EF1,EF2,EF3,EF4,EF5))",
+    "MDC_P024": "M..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "X99",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "B5DF18EDB2FD649CC1257EA4004B2309",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "edddaeeed806a5abc1257e8b00323938",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "220dac44f702bd3bc1257e8a0043e72c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "9228cce9e0297118c1257b9e0044e87e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_4#AAF879(EF0,EF1,EF2,EF3,EF4,EF5))",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_4#AAF879(EF0,EF1,EF2,EF3,EF4,EF5))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "B5DF18EDB2FD649CC1257EA4004B2309"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61360_4#AAF960",
+  "code": "AAF960",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "seismic qualification standard",
+  "preferred_name_ml": {
+    "en": "seismic qualification standard"
+  },
+  "short_name": "seismic qual std",
+  "short_name_ml": {
+    "en": "seismic qual std"
+  },
+  "definition": "reference to the international standard used for the earthquake engineering of components",
+  "definition_ml": {
+    "en": "reference to the international standard used for the earthquake engineering of components"
+  },
+  "synonyms": [],
+  "note": "for example IEEE 693, IEC 61463, IEC 62271-207",
+  "note_ml": {
+    "en": "for example IEEE 693, IEC 61463, IEC 62271-207"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF960",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "seismic qualification standard",
+    "MDC_P005.en": "seismic qual std",
+    "MDC_P006.en": "reference to the international standard used for the earthquake engineering of components",
+    "MDC_P008.en": "for example IEEE 693, IEC 61463, IEC 62271-207",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "F393F90EAB66E5B9C1257EA4004B2301",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "ba0bd7672f078cb3c1257e8b00323930",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "b77878d4f9eec631c1257e8a0043e724",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "deabfc78dca887f7c1257b9e0044e876",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "F393F90EAB66E5B9C1257EA4004B2301"
+  }
+}

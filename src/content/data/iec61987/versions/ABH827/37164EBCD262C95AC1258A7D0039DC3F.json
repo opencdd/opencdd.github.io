@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABH827",
+  "code": "ABH827",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "packing group",
+  "preferred_name_ml": {
+    "en": "packing group",
+    "de": "Verpackungsgruppe"
+  },
+  "definition": "indication of the required package type used",
+  "definition_ml": {
+    "en": "indication of the required package type used",
+    "de": "Angabe des benötigten Verpackungstyp, der benutzt wird"
+  },
+  "source_document": "UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3",
+  "synonyms": [],
+  "note": "For package types of dangerous goods see UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3 and Part 4\r\n\r\nFor non hazardous goods see ISO/IEC Guide 41:2003, Packaging -- Recommendations for addressing consumer needs",
+  "note_ml": {
+    "en": "For package types of dangerous goods see UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3 and Part 4\r\n\r\nFor non hazardous goods see ISO/IEC Guide 41:2003, Packaging -- Recommendations for addressing consumer needs",
+    "de": "1. Zu Verpackungstypen von gefährlichen Gütern, siehe UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3 and Part 4. \r\n2. Für ungefährliche Güter, siehe ISO/IEC Guide 41:2003, Packaging -- Recommendations for addressing consumer needs."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH827",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "packing group",
+    "MDC_P006.en": "indication of the required package type used",
+    "MDC_P008.en": "For package types of dangerous goods see UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3 and Part 4\r\n\r\nFor non hazardous goods see ISO/IEC Guide 41:2003, Packaging -- Recommendations for addressing consumer needs",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Verpackungsgruppe",
+    "MDC_P006.de": "Angabe des benötigten Verpackungstyp, der benutzt wird",
+    "MDC_P008.de": "1. Zu Verpackungstypen von gefährlichen Gütern, siehe UNECE Regulations on the transport of dangerous goods, 18th Ed. 2013, Part 3 and Part 4. \r\n2. Für ungefährliche Güter, siehe ISO/IEC Guide 41:2003, Packaging -- Recommendations for addressing consumer needs.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-20",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "37164EBCD262C95AC1258A7D0039DC3F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "2cd09b4edf6cf59cc12583b7005027f3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:59",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "37164EBCD262C95AC1258A7D0039DC3F"
+  }
+}

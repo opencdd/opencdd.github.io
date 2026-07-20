@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABE642",
+  "code": "ABE642",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Panel-mounted level transmitter/switching unit",
+  "preferred_name_ml": {
+    "en": "Panel-mounted level transmitter/switching unit",
+    "de": "Schalttafel-Füllstandmessumformer/Schalteinheit"
+  },
+  "definition": "separate level transmitter or switching unit designed for mounting in a control panel",
+  "definition_ml": {
+    "en": "separate level transmitter or switching unit designed for mounting in a control panel",
+    "de": "separater Füllstandmessumformer oder Schalteinheit, ausgelegt für die Montage in einer Schalttafel"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE642",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Panel-mounted level transmitter/switching unit",
+    "MDC_P006.en": "separate level transmitter or switching unit designed for mounting in a control panel",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2014-07-18",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABE639",
+    "MDC_P004.de": "Schalttafel-Füllstandmessumformer/Schalteinheit",
+    "MDC_P006.de": "separater Füllstandmessumformer oder Schalteinheit, ausgelegt für die Montage in einer Schalttafel",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-13",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:08",
+      "user": "BATCH 00000816",
+      "unid": "FFAC93AD086C3E69C1258A6F00520B5A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:03",
+      "user": "BATCH 00000762",
+      "unid": "b50f7972d28116ddc125825e001dda15",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-02 16:49:58",
+      "user": "BATCH 00000733",
+      "unid": "32806edd48eeff63c12580d70056f8fd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-07-18",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABE639",
+  "superclass_type_property": "0112/2///61987#ABE639",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:08",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "FFAC93AD086C3E69C1258A6F00520B5A"
+  }
+}

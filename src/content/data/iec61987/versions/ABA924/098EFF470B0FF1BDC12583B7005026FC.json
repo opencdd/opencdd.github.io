@@ -1,0 +1,160 @@
+{
+  "irdi": "0112/2///61987#ABA924",
+  "code": "ABA924",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "minimum limiting value of storage temperature",
+  "preferred_name_ml": {
+    "en": "minimum limiting value of storage temperature",
+    "fr": "valeur limite minimale de température de stockage",
+    "de": "minimale Lagerungstemperaturgrenze"
+  },
+  "definition": "lowest temperature to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+  "definition_ml": {
+    "en": "lowest temperature to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+    "fr": "température la plus basse à laquelle un appareil peut être soumis entre le moment de la construction et le moment de l'exploitation sans dégradation permanente des caractéristiques de fonctionnement",
+    "de": "niedrigste Temperatur, der ein Gerät zwischen dem Zeitpunkt der Konstruktion und dem Zeitpunkt des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann"
+  },
+  "source_document": "IEC 61987-1, 3.10",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C0004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA924",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "minimum limiting value of storage temperature",
+    "MDC_P006.en": "lowest temperature to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61987-1, 3.10",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-03-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2019-03-08",
+    "MDC_P003_3": "2019-03-08",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "valeur limite minimale de température de stockage",
+    "MDC_P006.fr": "température la plus basse à laquelle un appareil peut être soumis entre le moment de la construction et le moment de l'exploitation sans dégradation permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "minimale Lagerungstemperaturgrenze",
+    "MDC_P006.de": "niedrigste Temperatur, der ein Gerät zwischen dem Zeitpunkt der Konstruktion und dem Zeitpunkt des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C0004"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "098EFF470B0FF1BDC12583B7005026FC",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 13:20:18",
+      "user": "BATCH 00000758",
+      "unid": "cf47c501eb1c0208c12582560043c6c8",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "d83253aa94a71658c1258256003e941b",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "1bbde07671e59251c125825600407ae2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "4c9a57ae203277fcc12580d6004c1c46",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "ad8e10f35de7cc4cc1257f7f004d0031",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "64e9788a27d08d27c1257fa700405972",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "1f3056a660a61b30c1257cfb00403a20",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "7deaf19abf3211ecc1257cb40054bbdd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2019-03-08",
+    "current_revision": "2019-03-08"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-03-08 15:35:28",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "098EFF470B0FF1BDC12583B7005026FC"
+  }
+}

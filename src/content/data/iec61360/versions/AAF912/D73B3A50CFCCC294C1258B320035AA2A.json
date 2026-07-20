@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAF912",
+  "code": "AAF912",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "ionizing radiation intensity",
+  "preferred_name_ml": {
+    "en": "ionizing radiation intensity"
+  },
+  "short_name": "$f_ionizing rad}",
+  "short_name_ml": {
+    "en": "$f_ionizing rad}"
+  },
+  "definition": "ratio of the radiation consisting of directly and/or indirectly ionizing particles of the atmosphere to a specified unit area",
+  "definition_ml": {
+    "en": "ratio of the radiation consisting of directly and/or indirectly ionizing particles of the atmosphere to a specified unit area"
+  },
+  "source_document": "IEC 60050-393:2003, 393-12-03",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF912",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "ionizing radiation intensity",
+    "MDC_P005.en": "$f_ionizing rad}",
+    "MDC_P006.en": "ratio of the radiation consisting of directly and/or indirectly ionizing particles of the atmosphere to a specified unit area",
+    "MDC_P025_1": "$f_ionizing rad}",
+    "MDC_P023": "W/m²",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 60050-393:2003, 393-12-03",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "H08",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA310",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-06-04",
+    "MDC_P003_2": "2024-06-04",
+    "MDC_P003_3": "2024-06-04",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-06-04 11:46:09",
+      "user": "BATCH 00001295",
+      "unid": "D73B3A50CFCCC294C1258B320035AA2A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "6ac643b0b41a5ac9c1257ea4004b22d2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "41206c8105652c3fc1257e8b00323901",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "79b615c184908ff9c1257e8a0043e6f5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "5ea866e56eb6889ac1257b9e0044e846",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-06-04",
+    "current_revision": "2024-06-04"
+  },
+  "symbol_in_text": "$f_ionizing rad}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA310",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-06-04 11:46:09",
+    "user": "BATCH 00001295",
+    "change_request_id": null,
+    "unid": "D73B3A50CFCCC294C1258B320035AA2A"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA482",
+  "code": "ABA482",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:25:29",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "8f02c0c9dd9774c0c1257cb40054bb1b"
+  }
+}

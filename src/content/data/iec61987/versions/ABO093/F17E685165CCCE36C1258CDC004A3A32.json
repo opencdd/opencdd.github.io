@@ -1,0 +1,91 @@
+{
+  "irdi": "0112/2///61987#ABO093",
+  "code": "ABO093",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "consortium/user organization",
+  "preferred_name_ml": {
+    "en": "consortium/user organization",
+    "de": "Konsortium/Nutzerorganisation"
+  },
+  "definition": "non-governmental organization or association whose primary function is to develop, issue, maintain and promote technical specifications",
+  "definition_ml": {
+    "en": "non-governmental organization or association whose primary function is to develop, issue, maintain and promote technical specifications",
+    "de": "nicht-staatliche Organisation oder Vereinigung, deren Hauptaufgabe die Entwicklung, Herausgabe, Aufrechterhaltung und Förderung technischer Spezifikationen ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABO093",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "consortium/user organization",
+    "MDC_P006.en": "non-governmental organization or association whose primary function is to develop, issue, maintain and promote technical specifications",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABO128)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2021-04-30",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Konsortium/Nutzerorganisation",
+    "MDC_P006.de": "nicht-staatliche Organisation oder Vereinigung, deren Hauptaufgabe die Entwicklung, Herausgabe, Aufrechterhaltung und Förderung technischer Spezifikationen ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-05-17",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "F17E685165CCCE36C1258CDC004A3A32",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:02:00",
+      "user": "BATCH 00000794",
+      "unid": "6985e935b277d537c125886f003c9ba8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-04-30",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO128)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO128)",
+  "value_list": "0112/2///61987#ABO128",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "F17E685165CCCE36C1258CDC004A3A32"
+  }
+}

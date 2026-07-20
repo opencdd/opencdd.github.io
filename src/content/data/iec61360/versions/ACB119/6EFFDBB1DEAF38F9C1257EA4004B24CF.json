@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61360_4#ACB119",
+  "code": "ACB119",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "substance group identifier",
+  "preferred_name_ml": {
+    "en": "substance group identifier"
+  },
+  "definition": "unique identifier of the substance group",
+  "definition_ml": {
+    "en": "unique identifier of the substance group"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "note": "Unique ID which includes an identity name and the authorizing body for the identity name.",
+  "note_ml": {
+    "en": "Unique ID which includes an identity name and the authorizing body for the identity name."
+  },
+  "remark": "An example for the unique ID of a substance group is the ID number that is specified with the declarable substance group entry in the IEC 62474 database. This is only applicable to declarable substance groups that are listed in IEC 62474 database.",
+  "remark_ml": {
+    "en": "An example for the unique ID of a substance group is the ID number that is specified with the declarable substance group entry in the IEC 62474 database. This is only applicable to declarable substance groups that are listed in IEC 62474 database."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "TC111",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB119",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "substance group identifier",
+    "MDC_P006.en": "unique identifier of the substance group",
+    "MDC_P008.en": "Unique ID which includes an identity name and the authorizing body for the identity name.",
+    "MDC_P009.en": "An example for the unique ID of a substance group is the ID number that is specified with the declarable substance group entry in the IEC 62474 database. This is only applicable to declarable substance groups that are listed in IEC 62474 database.",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61360_4#ACA020)",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A62",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC111"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "6EFFDBB1DEAF38F9C1257EA4004B24CF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "6df5fed5d81234e2c1257e8b00323afa",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "1011ecb8a07b71c7c1257e8a0043e8f2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "74614e9d9e257447c1257e65003ff5b5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#ACA020)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#ACA020)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:46",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "6EFFDBB1DEAF38F9C1257EA4004B24CF"
+  }
+}

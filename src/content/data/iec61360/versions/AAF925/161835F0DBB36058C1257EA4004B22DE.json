@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61360_4#AAF925",
+  "code": "AAF925",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "corrosivity category of water and soil",
+  "preferred_name_ml": {
+    "en": "corrosivity category of water and soil"
+  },
+  "definition": "corrosivity categories for environments in water or soil in accordance with ISO 12944-2",
+  "definition_ml": {
+    "en": "corrosivity categories for environments in water or soil in accordance with ISO 12944-2"
+  },
+  "source_document": "ISO 12944-2:1998",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF925",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "corrosivity category of water and soil",
+    "MDC_P006.en": "corrosivity categories for environments in water or soil in accordance with ISO 12944-2",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#AAF872(Im1,Im2,Im3))",
+    "MDC_P024": "A..3",
+    "MDC_P006_1": "ISO 12944-2:1998",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "161835F0DBB36058C1257EA4004B22DE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "786f5f88b9f9aab3c1257e8b0032390d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "ffd59d8583239cc3c1257e8a0043e701",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "c1dcf11782a79001c1257b9e0044e853",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "A..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#AAF872(Im1,Im2,Im3))",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#AAF872(Im1,Im2,Im3))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "161835F0DBB36058C1257EA4004B22DE"
+  }
+}

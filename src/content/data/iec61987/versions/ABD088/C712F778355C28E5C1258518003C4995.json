@@ -1,0 +1,95 @@
+{
+  "irdi": "0112/2///61987#ABD088",
+  "code": "ABD088",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference to Operability",
+  "preferred_name_ml": {
+    "en": "reference to Operability"
+  },
+  "definition": "reference to block ABC458",
+  "definition_ml": {
+    "en": "reference to block ABC458"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD088",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Operability",
+    "MDC_P006.en": "reference to block ABC458",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC458)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "C712F778355C28E5C1258518003C4995",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:34",
+      "user": "BATCH 00000732",
+      "unid": "8a4b73e7b6b3017fc12580d6004c21d8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:46",
+      "user": "BATCH 00000702",
+      "unid": "f45a6927712a513fc1257cfb00403faf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:45",
+      "user": "BATCH 00000699",
+      "unid": "16e5d58a4554476ec1257cb40054c16c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC458)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC458)",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:29",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "C712F778355C28E5C1258518003C4995"
+  }
+}

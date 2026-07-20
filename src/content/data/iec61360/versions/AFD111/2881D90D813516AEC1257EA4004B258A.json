@@ -1,0 +1,109 @@
+{
+  "irdi": "0112/2///61360_4#AFD111",
+  "code": "AFD111",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "low-level quiescent supply current",
+  "preferred_name_ml": {
+    "en": "low-level quiescent supply current"
+  },
+  "short_name": "I_CCL",
+  "short_name_ml": {
+    "en": "I_CCL"
+  },
+  "definition": "current flowing from power supply pins into the device when the output voltage is held at low-level without changing any input conditions",
+  "definition_ml": {
+    "en": "current flowing from power supply pins into the device when the output voltage is held at low-level without changing any input conditions"
+  },
+  "synonyms": [],
+  "remark": "The maximum current is applicable for all possible IC output states.",
+  "remark_ml": {
+    "en": "The maximum current is applicable for all possible IC output states."
+  },
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD111",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "low-level quiescent supply current",
+    "MDC_P005.en": "I_CCL",
+    "MDC_P006.en": "current flowing from power supply pins into the device when the output voltage is held at low-level without changing any input conditions",
+    "MDC_P009.en": "The maximum current is applicable for all possible IC output states.",
+    "MDC_P025_1": "I_CCL}",
+    "MDC_P023": "A",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2014-06-11",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "2881D90D813516AEC1257EA4004B258A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "ef4db8387798d5d3c1257e8b00323b92",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "210dcb022f308fc9c1257e8a0043e9ad",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "4f93e564cdc7d2ccc1257db30042e193",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-06-11",
+    "current_version": "2015-03-13",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "I_CCL}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:48",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "2881D90D813516AEC1257EA4004B258A"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB186",
+  "code": "ABB186",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:25:33",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "d1757bfce2d5abdac1257cb40054bce1"
+  }
+}

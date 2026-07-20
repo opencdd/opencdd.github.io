@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61360_4#AAF944",
+  "code": "AAF944",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "airborne particulates",
+  "preferred_name_ml": {
+    "en": "airborne particulates"
+  },
+  "definition": "solid particles suspended in the air",
+  "definition_ml": {
+    "en": "solid particles suspended in the air"
+  },
+  "source_document": "Todd S. Glickman, Glossary of Meteorology, 2nd Ed, American Meteorological Society.",
+  "synonyms": [],
+  "note": "In addition to the mass per volume unit, the distribution of particle sizes is of importance.",
+  "note_ml": {
+    "en": "In addition to the mass per volume unit, the distribution of particle sizes is of importance."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF944",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "airborne particulates",
+    "MDC_P006.en": "solid particles suspended in the air",
+    "MDC_P008.en": "In addition to the mass per volume unit, the distribution of particle sizes is of importance.",
+    "MDC_P023": "kg/m³",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "Todd S. Glickman, Glossary of Meteorology, 2nd Ed, American Meteorological Society.",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "K02",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA619",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "02EDED57813EEEA5C1257EA4004B22F1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "696120025864fd73c1257e8b00323920",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "7776410724907338c1257e8a0043e714",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "66637ee5a9b2e37ec1257b9e0044e866",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA619",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "02EDED57813EEEA5C1257EA4004B22F1"
+  }
+}

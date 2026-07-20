@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC193",
+  "code": "ABC193",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2022-09-08 10:23:20",
+    "user": "BATCH 00000799",
+    "change_request_id": null,
+    "unid": "f4a816c9348b7118c12588b7002e14fe"
+  }
+}

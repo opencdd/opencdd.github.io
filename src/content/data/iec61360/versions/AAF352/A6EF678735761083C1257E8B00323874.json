@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61360_4#AAF352",
+  "code": "AAF352",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "basic aspect",
+  "preferred_name_ml": {
+    "en": "basic aspect"
+  },
+  "short_name": "basic aspect",
+  "short_name_ml": {
+    "en": "basic aspect"
+  },
+  "definition": "code of the basic aspect of the shape of an electric/electronic or electromechanical component",
+  "definition_ml": {
+    "en": "code of the basic aspect of the shape of an electric/electronic or electromechanical component"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00035",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF352",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "basic aspect",
+    "MDC_P005.en": "basic aspect",
+    "MDC_P006.en": "code of the basic aspect of the shape of an electric/electronic or electromechanical component",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA220)",
+    "MDC_P024": "M..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A52",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-07-23",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-07-23",
+    "MDC_P012": "SC3D",
+    "C002": "C00035"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-07-23 11:08:32",
+      "user": "BATCH 00000907",
+      "unid": "A6EF678735761083C1257E8B00323874",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:38",
+      "user": "BATCH 00000904",
+      "unid": "5f0cb349d376769ac1257e8a0043e64e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "e37a178f01e80895c1257a0e0047be82",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "93832d2ff75be1c1c1257a0e0046dc02",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-07-23"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA220)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA220)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-07-23 11:08:32",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "A6EF678735761083C1257E8B00323874"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABC645",
+  "code": "ABC645",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Structural design of primary element of diff. pressure flow transmitter",
+  "preferred_name_ml": {
+    "en": "Structural design of primary element of diff. pressure flow transmitter",
+    "fr": "Conception structurelle de l’élément prim. d’un trans. de débit à press. diff.",
+    "de": "Konstruktiver Aufbau des Primärelements eines Wirkdruckmessumformers"
+  },
+  "definition": "properties characterizing the constructional details of a pressure-type flow transmitter that measures the differential pressure across a primary element in order to measure flow",
+  "definition_ml": {
+    "en": "properties characterizing the constructional details of a pressure-type flow transmitter that measures the differential pressure across a primary element in order to measure flow",
+    "fr": "propriétés caractérisant les détails de construction d’un transmetteur de débit de type à pression qui mesure la pression différentielle de part et d’autre un élément primaire afin de mesurer le débit",
+    "de": "Merkmale, die die konstruktiven Details einer Durchflussmessung basierend auf Differenzdruckmessung über einem Primärelement enthält"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC645",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Structural design of primary element of diff. pressure flow transmitter",
+    "MDC_P006.en": "properties characterizing the constructional details of a pressure-type flow transmitter that measures the differential pressure across a primary element in order to measure flow",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB133,0112/2///61987#ABE331,0112/2///61987#ABH431,0112/2///61987#ABD093,0112/2///61987#ABC874,0112/2///61987#ABD075,0112/2///61987#ABB917,0112/2///61987#ABC900}",
+    "MDC_P004.fr": "Conception structurelle de l’élément prim. d’un trans. de débit à press. diff.",
+    "MDC_P006.fr": "propriétés caractérisant les détails de construction d’un transmetteur de débit de type à pression qui mesure la pression différentielle de part et d’autre un élément primaire afin de mesurer le débit",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-03-16",
+    "MDC_P004.de": "Konstruktiver Aufbau des Primärelements eines Wirkdruckmessumformers",
+    "MDC_P006.de": "Merkmale, die die konstruktiven Details einer Durchflussmessung basierend auf Differenzdruckmessung über einem Primärelement enthält",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:34:43",
+      "user": "BATCH 00000863",
+      "unid": "3796CEF0E6E93FFBC1258DED00451907",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:58",
+      "user": "BATCH 00000762",
+      "unid": "05801399dbc02210c125825e001dd829",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:41",
+      "user": "BATCH 00000701",
+      "unid": "d6acfb6a41b1ca2fc1257cfb003f99f0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:12",
+      "user": "BATCH 00000699",
+      "unid": "8a49cdcb15fa8d7dc1257cb400549d3c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB133",
+    "0112/2///61987#ABE331",
+    "0112/2///61987#ABH431",
+    "0112/2///61987#ABD093",
+    "0112/2///61987#ABC874",
+    "0112/2///61987#ABD075",
+    "0112/2///61987#ABB917",
+    "0112/2///61987#ABC900"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:34:43",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "3796CEF0E6E93FFBC1258DED00451907"
+  }
+}

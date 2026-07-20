@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61987#ABC554",
+  "code": "ABC554",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Pulse signal on alarm",
+  "preferred_name_ml": {
+    "en": "Pulse signal on alarm",
+    "fr": "Signal d'impulsion en alarme",
+    "de": "Alarmwert des Pulsratensignals"
+  },
+  "definition": "properties characterizing the value(s) or status assumed by the pulse signal when there is a fault in the device",
+  "definition_ml": {
+    "en": "properties characterizing the value(s) or status assumed by the pulse signal when there is a fault in the device",
+    "fr": "propriétés caractérisant la/les valeur(s) ou état que prend le signal d’impulsion en cas de défaut dans l’équipement de mesure de processus",
+    "de": "Merkmale, die den/die Wert(e) oder den Status des Impulssignals bei einem Fehler im Gerät kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC554",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Pulse signal on alarm",
+    "MDC_P006.en": "properties characterizing the value(s) or status assumed by the pulse signal when there is a fault in the device",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-01-23",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB878,0112/2///61987#ABB879,0112/2///61987#ABA375,0112/2///61987#ABA996,0112/2///61987#ABP198}",
+    "MDC_P004.fr": "Signal d'impulsion en alarme",
+    "MDC_P006.fr": "propriétés caractérisant la/les valeur(s) ou état que prend le signal d’impulsion en cas de défaut dans l’équipement de mesure de processus",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Alarmwert des Pulsratensignals",
+    "MDC_P006.de": "Merkmale, die den/die Wert(e) oder den Status des Impulssignals bei einem Fehler im Gerät kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "9D251C52C9714EB4C1258940004C5066",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:08",
+      "user": "BATCH 00000803",
+      "unid": "f39dcfcf535d1cfbc1258913003042cc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "334036f89f65ef98c125825e001dd7d2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "56ea5fdedf0732fac1257cb400549ce8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-01-23",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB878",
+    "0112/2///61987#ABB879",
+    "0112/2///61987#ABA375",
+    "0112/2///61987#ABA996",
+    "0112/2///61987#ABP198"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:33",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "9D251C52C9714EB4C1258940004C5066"
+  }
+}

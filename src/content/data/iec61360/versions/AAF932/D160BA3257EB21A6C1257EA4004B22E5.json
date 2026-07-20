@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61360_4#AAF932",
+  "code": "AAF932",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "level of housekeeping",
+  "preferred_name_ml": {
+    "en": "level of housekeeping"
+  },
+  "definition": "classification of frequency and effectivity of cleaning from dust  reducing risks of fire and explosions in accordance with IEC 60079-10-2, Annex C",
+  "definition_ml": {
+    "en": "classification of frequency and effectivity of cleaning from dust  reducing risks of fire and explosions in accordance with IEC 60079-10-2, Annex C"
+  },
+  "source_document": "IEC 60079-10-2:2009",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF932",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "level of housekeeping",
+    "MDC_P006.en": "classification of frequency and effectivity of cleaning from dust  reducing risks of fire and explosions in accordance with IEC 60079-10-2, Annex C",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#AAF874(good,fair,poor))",
+    "MDC_P024": "A..8",
+    "MDC_P006_1": "IEC 60079-10-2:2009",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A83",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "D160BA3257EB21A6C1257EA4004B22E5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "72da35391c3b63bcc1257e8b00323914",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "0f881cdd8e7f96fdc1257e8a0043e708",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "9b1749df768383eec1257b9e0044e85a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "A..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#AAF874(good,fair,poor))",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#AAF874(good,fair,poor))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D160BA3257EB21A6C1257EA4004B22E5"
+  }
+}

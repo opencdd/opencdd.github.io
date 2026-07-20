@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61987#ABC154",
+  "code": "ABC154",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Capsule/probe remote seal",
+  "preferred_name_ml": {
+    "en": "Capsule/probe remote seal",
+    "fr": "Séparateur capsule/sonde",
+    "de": "Zungendruckmittler"
+  },
+  "definition": "properties characterizing the constructional details of an capsule/probe remote seal",
+  "definition_ml": {
+    "en": "properties characterizing the constructional details of an capsule/probe remote seal",
+    "fr": "propriétés caractérisant les détails de construction d'un séparateur capsule/sonde",
+    "de": "Merkmale, die konstruktiven Details eines Zungendruckmittlers kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC154",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Capsule/probe remote seal",
+    "MDC_P006.en": "properties characterizing the constructional details of an capsule/probe remote seal",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-09-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB046,0112/2///61987#ABB047,0112/2///61987#ABC983}",
+    "MDC_P004.fr": "Séparateur capsule/sonde",
+    "MDC_P006.fr": "propriétés caractérisant les détails de construction d'un séparateur capsule/sonde",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Zungendruckmittler",
+    "MDC_P006.de": "Merkmale, die konstruktiven Details eines Zungendruckmittlers kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "2ACA9943863B11F9C125825E001DD4F5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "2b432363a84cadc0c1257cb400549b60",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-09-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB046",
+    "0112/2///61987#ABB047",
+    "0112/2///61987#ABC983"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:50",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2ACA9943863B11F9C125825E001DD4F5"
+  }
+}

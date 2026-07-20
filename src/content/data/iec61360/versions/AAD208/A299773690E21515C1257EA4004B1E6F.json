@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAD208",
+  "code": "AAD208",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "additional test requirements",
+  "preferred_name_ml": {
+    "en": "additional test requirements"
+  },
+  "short_name": "additional test requirements",
+  "short_name_ml": {
+    "en": "additional test requirements"
+  },
+  "definition": "product-specific information which is relevant to electrical testing by the user",
+  "definition_ml": {
+    "en": "product-specific information which is relevant to electrical testing by the user"
+  },
+  "synonyms": [],
+  "note": "Examples of such information include special test strategies or voltage stress to achieve quality goals",
+  "note_ml": {
+    "en": "Examples of such information include special test strategies or voltage stress to achieve quality goals"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD208",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "additional test requirements",
+    "MDC_P005.en": "additional test requirements",
+    "MDC_P006.en": "product-specific information which is relevant to electrical testing by the user",
+    "MDC_P008.en": "Examples of such information include special test strategies or voltage stress to achieve quality goals",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2007-03-02",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "A299773690E21515C1257EA4004B1E6F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "f298cd6649033371c1257e8b003234c1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "1550b856cf2e51aac1257e8a0043e292",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "e5519874e16368ffc125787f0042a27e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2007-03-02",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "A299773690E21515C1257EA4004B1E6F"
+  }
+}

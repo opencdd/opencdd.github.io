@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61987#ABN638",
+  "code": "ABN638",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "relative humidity",
+  "preferred_name_ml": {
+    "en": "relative humidity",
+    "de": "relative Luftfeuchte"
+  },
+  "definition": "ratio of the partial pressure p of water vapour in moist air to its partial pressure psat at saturation, at the same temperature",
+  "definition_ml": {
+    "en": "ratio of the partial pressure p of water vapour in moist air to its partial pressure psat at saturation, at the same temperature",
+    "de": "Verhältnis des Partialdrucks p von Wasserdampf in feuchter Luft zu seinem Sättigungspartialdruck psat bei derselben Temperatur"
+  },
+  "source_document": "IEV 113-04-65",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN638",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "relative humidity",
+    "MDC_P006.en": "ratio of the partial pressure p of water vapour in moist air to its partial pressure psat at saturation, at the same temperature",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEV 113-04-65",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "relative Luftfeuchte",
+    "MDC_P006.de": "Verhältnis des Partialdrucks p von Wasserdampf in feuchter Luft zu seinem Sättigungspartialdruck psat bei derselben Temperatur",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "F4269FEEEB16700BC125886F003C9B5F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "4615467ae9a76620c1258518003fd7e3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:59",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "F4269FEEEB16700BC125886F003C9B5F"
+  }
+}

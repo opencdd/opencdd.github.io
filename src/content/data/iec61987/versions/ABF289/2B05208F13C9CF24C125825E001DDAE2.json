@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61987#ABF289",
+  "code": "ABF289",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "RTD/thermocouple probe output",
+  "preferred_name_ml": {
+    "en": "RTD/thermocouple probe output",
+    "de": "WTH-/Thermoelement-Ausgang"
+  },
+  "definition": "properties characterizing a RTD/thermocouple probe output",
+  "definition_ml": {
+    "en": "properties characterizing a RTD/thermocouple probe output",
+    "de": "Merkmale, die einen WTH-/Thermoelement-Ausgang kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "Polymorphic element: ABF289, Id: 2",
+  "remark_ml": {
+    "en": "Polymorphic element: ABF289, Id: 2"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABF289",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "RTD/thermocouple probe output",
+    "MDC_P006.en": "properties characterizing a RTD/thermocouple probe output",
+    "MDC_P009.en": "Polymorphic element: ABF289, Id: 2",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABF290,0112/2///61987#ABF291,0112/2///61987#ABF292,0112/2///61987#ABB513,0112/2///61987#ABA387,0112/2///61987#ABC891,0112/2///61987#ABA390,0112/2///61987#ABC865,0112/2///61987#ABI463,0112/2///61987#ABB103,0112/2///61987#ABC850,0112/2///61987#ABF293,0112/2///61987#ABF770,0112/2///61987#ABA401,0112/2///61987#ABC778,0112/2///61987#ABF413,0112/2///61987#ABF779}",
+    "MDC_P004.de": "WTH-/Thermoelement-Ausgang",
+    "MDC_P006.de": "Merkmale, die einen WTH-/Thermoelement-Ausgang kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:05",
+      "user": "BATCH 00000762",
+      "unid": "2B05208F13C9CF24C125825E001DDAE2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:08",
+      "user": "BATCH 00000732",
+      "unid": "b8474c047dbf888fc12580d6004c0067",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF290",
+    "0112/2///61987#ABF291",
+    "0112/2///61987#ABF292",
+    "0112/2///61987#ABB513",
+    "0112/2///61987#ABA387",
+    "0112/2///61987#ABC891",
+    "0112/2///61987#ABA390",
+    "0112/2///61987#ABC865",
+    "0112/2///61987#ABI463",
+    "0112/2///61987#ABB103",
+    "0112/2///61987#ABC850",
+    "0112/2///61987#ABF293",
+    "0112/2///61987#ABF770",
+    "0112/2///61987#ABA401",
+    "0112/2///61987#ABC778",
+    "0112/2///61987#ABF413",
+    "0112/2///61987#ABF779"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:05",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2B05208F13C9CF24C125825E001DDAE2"
+  }
+}

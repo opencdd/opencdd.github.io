@@ -1,0 +1,161 @@
+{
+  "irdi": "0112/2///61987#ABA906",
+  "code": "ABA906",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "manufacturing module",
+  "preferred_name_ml": {
+    "en": "manufacturing module",
+    "fr": "module de fabrication",
+    "de": "Fertigungsmodul"
+  },
+  "definition": "conformity assessment procedure for the category under which the device falls to which the manufacturer should subject the device",
+  "definition_ml": {
+    "en": "conformity assessment procedure for the category under which the device falls to which the manufacturer should subject the device",
+    "fr": "procédure d'évaluation de conformité pour la catégorie dans laquelle l’appareil est compris, à laquelle le fabricant doit soumettre l’appareil",
+    "de": "Konformitätsbewertungsverfahren für die Kategorie des Geräts, dem das Gerät von Seiten des Herstellers unterliegen soll"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA906",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "manufacturing module",
+    "MDC_P006.en": "conformity assessment procedure for the category under which the device falls to which the manufacturer should subject the device",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL526)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "module de fabrication",
+    "MDC_P006.fr": "procédure d'évaluation de conformité pour la catégorie dans laquelle l’appareil est compris, à laquelle le fabricant doit soumettre l’appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Fertigungsmodul",
+    "MDC_P006.de": "Konformitätsbewertungsverfahren für die Kategorie des Geräts, dem das Gerät von Seiten des Herstellers unterliegen soll",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "C14A13213B437F2DC1258CDC004A3AA3",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "cc6ae621a73f7539c1258518003c4886",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "9de5397787f8b583c125825e001de787",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "010c3e3901918f60c125825600407a38",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "074d3fb2cd26e582c12580d6004c1c34",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "1be2f6fd2c54fc41c1257f7e0030f1ce",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "30351bf688fc8364c1257fa7003a3d07",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "ba7267b24fd404b5c1257cfb00403a0e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "880ecde15444bcd0c1257cb40054bbcb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL526)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL526)",
+  "value_list": "0112/2///61987#ABL526",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "C14A13213B437F2DC1258CDC004A3AA3"
+  }
+}

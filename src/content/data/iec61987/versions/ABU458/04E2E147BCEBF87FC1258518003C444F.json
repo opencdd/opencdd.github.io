@@ -1,0 +1,156 @@
+{
+  "irdi": "0112/2///61987#ABU458",
+  "code": "ABU458",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "Process connection",
+  "preferred_name_ml": {
+    "en": "Process connection",
+    "de": "Prozessanschluss"
+  },
+  "definition": "properties characterizing a process connection of a device",
+  "definition_ml": {
+    "en": "properties characterizing a process connection of a device",
+    "de": "Merkmale, die den Prozessanschluss eines Gerätes kennzeichnen"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "end connection"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "end connection"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABU458",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Process connection",
+    "MDC_P007.en": "end connection",
+    "MDC_P006.en": "properties characterizing a process connection of a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB963,0112/2///61987#ABC039,0112/2///61987#ABA592,0112/2///61987#ABI456,0112/2///61987#ABI458,0112/2///61987#ABA591,0112/2///61987#ABA576,0112/2///61987#ABA893,0112/2///61987#ABA150,0112/2///61987#ABA145,0112/2///61987#ABH417,0112/2///61987#ABC983,0112/2///61987#ABI464,0112/2///61987#ABI466,0112/2///61987#ABA151,0112/2///61987#ABA154,0112/2///61987#ABB136,0112/2///61987#ABI459,0112/2///61987#ABC979}",
+    "MDC_P004.de": "Prozessanschluss",
+    "MDC_P006.de": "Merkmale, die den Prozessanschluss eines Gerätes kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-05-17",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:16",
+      "user": "BATCH 00000774",
+      "unid": "04E2E147BCEBF87FC1258518003C444F",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:12",
+      "user": "BATCH 00000762",
+      "unid": "9cfb8fa65a0e17c9c125825e001dddac",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:09",
+      "user": "BATCH 00000732",
+      "unid": "f38d8608a3c58498c12580d6004c00e5",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:16",
+      "user": "BATCH 00000714",
+      "unid": "ec1d9b523b0b5557c1257f7e0033a92c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:44",
+      "user": "BATCH 00000701",
+      "unid": "b68dad02bd4d08b0c1257cfb003f9b0c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:15",
+      "user": "BATCH 00000699",
+      "unid": "0371ea2474b01eb2c1257cb400549e58",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB963",
+    "0112/2///61987#ABC039",
+    "0112/2///61987#ABA592",
+    "0112/2///61987#ABI456",
+    "0112/2///61987#ABI458",
+    "0112/2///61987#ABA591",
+    "0112/2///61987#ABA576",
+    "0112/2///61987#ABA893",
+    "0112/2///61987#ABA150",
+    "0112/2///61987#ABA145",
+    "0112/2///61987#ABH417",
+    "0112/2///61987#ABC983",
+    "0112/2///61987#ABI464",
+    "0112/2///61987#ABI466",
+    "0112/2///61987#ABA151",
+    "0112/2///61987#ABA154",
+    "0112/2///61987#ABB136",
+    "0112/2///61987#ABI459",
+    "0112/2///61987#ABC979"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:16",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "04E2E147BCEBF87FC1258518003C444F"
+  }
+}

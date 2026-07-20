@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///62683#ACG098",
+  "code": "ACG098",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Current ratings of the assembly",
+  "preferred_name_ml": {
+    "en": "Current ratings of the assembly",
+    "fr": "Caractéristiques assignées en courant de l'ensemble"
+  },
+  "definition": "current values, declared in the assembly documentation, that can be withstood under specified conditions",
+  "definition_ml": {
+    "en": "current values, declared in the assembly documentation, that can be withstood under specified conditions",
+    "fr": "valeurs de courant, déclarées dans la documentation de l'ensemble, pouvant être supportées dans des conditions spécifiées"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-2-2:2025",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00184",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG098",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Current ratings of the assembly",
+    "MDC_P006.en": "current values, declared in the assembly documentation, that can be withstood under specified conditions",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683-2-2:2025",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-30",
+    "MDC_P003_1": "2023-05-29",
+    "MDC_P003_2": "2026-01-30",
+    "MDC_P003_3": "2026-01-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P014": "{0112/2///62683#ACE441}",
+    "MDC_P013": "{0112/2///62683#ACC016,0112/2///62683#ACC040}",
+    "MDC_P090": "{0112/2///62683#ACE601,0112/2///62683#ACE532,0112/2///62683#ACE710,0112/2///62683#ACE712,0112/2///62683#ACE711}",
+    "MDC_P004.fr": "Caractéristiques assignées en courant de l'ensemble",
+    "MDC_P006.fr": "valeurs de courant, déclarées dans la documentation de l'ensemble, pouvant être supportées dans des conditions spécifiées",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "5/16/2024",
+    "C002": "C00184"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-30 11:38:09",
+      "user": "BATCH 00000852",
+      "unid": "54D2E6E714CD96EEC1258D8F003A6CFC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "214e741778c7cedfc1258b9d0073173a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "07dff3d1c82b1561c1258034002e35b2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "5cbcb54266422435c125803000450288",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-05-29",
+    "current_version": "2026-01-30",
+    "current_revision": "2026-01-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC016",
+    "0112/2///62683#ACC040"
+  ],
+  "applicable_properties": [
+    "0112/2///62683#ACE441"
+  ],
+  "imported_properties": [
+    "0112/2///62683#ACE601",
+    "0112/2///62683#ACE532",
+    "0112/2///62683#ACE710",
+    "0112/2///62683#ACE712",
+    "0112/2///62683#ACE711"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-30 11:38:09",
+    "user": "BATCH 00000852",
+    "change_request_id": null,
+    "unid": "54D2E6E714CD96EEC1258D8F003A6CFC"
+  }
+}

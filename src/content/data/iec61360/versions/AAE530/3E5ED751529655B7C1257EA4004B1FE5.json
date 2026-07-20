@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE530",
+  "code": "AAE530",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "nominal capacity",
+  "preferred_name_ml": {
+    "en": "nominal capacity"
+  },
+  "short_name": "Ah",
+  "short_name_ml": {
+    "en": "Ah"
+  },
+  "definition": "nominal capacity of a battery",
+  "definition_ml": {
+    "en": "nominal capacity of a battery"
+  },
+  "source_document": "IEC/TC35(Sec)699(481.05.12) (198",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE530",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "nominal capacity",
+    "MDC_P005.en": "Ah",
+    "MDC_P006.en": "nominal capacity of a battery",
+    "MDC_P025_1": "Ah",
+    "MDC_P023": "Ah",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "IEC/TC35(Sec)699(481.05.12) (198",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E02",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA102",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "3E5ED751529655B7C1257EA4004B1FE5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "47154cef98d1fabac1257e8b00323634",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:32",
+      "user": "BATCH 00000904",
+      "unid": "42fbba924f009945c1257e8a0043e408",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "1dc4e8d956d7c461c1257a0e0047bc4f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:52",
+      "user": "BATCH 00000787",
+      "unid": "19dd988873962e4ec1257a0e0046d9cf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "Ah",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA102",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "3E5ED751529655B7C1257EA4004B1FE5"
+  }
+}

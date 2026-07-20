@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#ACB058",
+  "code": "ACB058",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "reportable application",
+  "preferred_name_ml": {
+    "en": "reportable application"
+  },
+  "definition": "intended use of a substance which determines its relevence to a given scope and threshold for disclosure",
+  "definition_ml": {
+    "en": "intended use of a substance which determines its relevence to a given scope and threshold for disclosure"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "note": "This use is defined in the scope of the underlying law or industry standard. Examples are batteries, textiles and wood.",
+  "note_ml": {
+    "en": "This use is defined in the scope of the underlying law or industry standard. Examples are batteries, textiles and wood."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "TC111",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB058",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "reportable application",
+    "MDC_P006.en": "intended use of a substance which determines its relevence to a given scope and threshold for disclosure",
+    "MDC_P008.en": "This use is defined in the scope of the underlying law or industry standard. Examples are batteries, textiles and wood.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-21",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2023-11-21",
+    "MDC_P012": "TC111"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-11-21 14:09:08",
+      "user": "BATCH 00001271",
+      "unid": "70259DBD0E2D8D78C1258A6E00483F94",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "636f9c610bb4a9fec1257ea4004b24bd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "1253e852c1be96afc1257e8b00323ae9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "9eb7e56a1d26eb2dc1257e8a0043e8e0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "a941a16d65258c5fc1257e65003ff5a3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2023-11-21"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-11-21 14:09:08",
+    "user": "BATCH 00001271",
+    "change_request_id": null,
+    "unid": "70259DBD0E2D8D78C1258A6E00483F94"
+  }
+}

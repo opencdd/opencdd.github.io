@@ -1,0 +1,89 @@
+{
+  "irdi": "0112/2///61987#ABU548",
+  "code": "ABU548",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "reference to Function and system design [5]",
+  "preferred_name_ml": {
+    "en": "reference to Function and system design [5]"
+  },
+  "definition": "reference to block ABU556",
+  "definition_ml": {
+    "en": "reference to block ABU556"
+  },
+  "synonyms": [],
+  "remark": "Id specified in IEC61987-22: ABE120",
+  "remark_ml": {
+    "en": "Id specified in IEC61987-22: ABE120"
+  },
+  "status_level": "Standard",
+  "change_request_id": "C0013",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU548",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Function and system design [5]",
+    "MDC_P006.en": "reference to block ABU556",
+    "MDC_P009.en": "Id specified in IEC61987-22: ABE120",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABU556)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2016-05-02",
+    "MDC_P003_3": "2016-05-02",
+    "C002": "C0013"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:21",
+      "user": "BATCH 00000762",
+      "unid": "5F6949FBC50CD231C125825E001DF856",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:57",
+      "user": "BATCH 00000702",
+      "unid": "e7d9d38e7af5f40fc1257cfb00404431",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:56",
+      "user": "BATCH 00000699",
+      "unid": "21a8b1623b2746acc1257cb40054c5ee",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2016-05-02",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABU556)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABU556)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:21",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "5F6949FBC50CD231C125825E001DF856"
+  }
+}

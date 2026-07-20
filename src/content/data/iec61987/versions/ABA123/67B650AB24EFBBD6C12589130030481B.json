@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABA123",
+  "code": "ABA123",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "upper limiting value of actual volume flow",
+  "preferred_name_ml": {
+    "en": "upper limiting value of actual volume flow",
+    "fr": "valeur de limite supérieure du débit volumique réel",
+    "de": "obere Betriebsvolumendurchflussgrenze"
+  },
+  "definition": "highest actual volume flow rate to which the device may be subjected during operation without permanent impairment of its operating characteristics",
+  "definition_ml": {
+    "en": "highest actual volume flow rate to which the device may be subjected during operation without permanent impairment of its operating characteristics",
+    "fr": "débit volumique réel le plus élevé auquel l'équipement de mesure peut être soumis, pendant le fonctionnement sans dégradation permanente des caractéristiques de fonctionnement",
+    "de": "höchste Betriebsvolumendurchflussrate, dem das Gerät während des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA123",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "upper limiting value of actual volume flow",
+    "MDC_P006.en": "highest actual volume flow rate to which the device may be subjected during operation without permanent impairment of its operating characteristics",
+    "MDC_P023": "m³/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA763",
+    "C0104": "0112/2///61987#ABT504",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur de limite supérieure du débit volumique réel",
+    "MDC_P006.fr": "débit volumique réel le plus élevé auquel l'équipement de mesure peut être soumis, pendant le fonctionnement sans dégradation permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "obere Betriebsvolumendurchflussgrenze",
+    "MDC_P006.de": "höchste Betriebsvolumendurchflussrate, dem das Gerät während des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:21",
+      "user": "BATCH 00000803",
+      "unid": "67B650AB24EFBBD6C12589130030481B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "dcca78aceeb535e1c125825e001de58e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:50",
+      "user": "BATCH 00000717",
+      "unid": "8f26e70dba60f23dc1257fa7004058d6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "a4ad59e815da4c91c1257cfb0040383f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "09617608c7db4717c1257cb40054b9fc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA763",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:21",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "67B650AB24EFBBD6C12589130030481B"
+  }
+}

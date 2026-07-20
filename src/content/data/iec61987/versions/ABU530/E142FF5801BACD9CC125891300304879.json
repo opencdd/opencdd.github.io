@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABU530",
+  "code": "ABU530",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "control input type",
+  "preferred_name_ml": {
+    "en": "control input type",
+    "de": "Sollwerteingangstyp"
+  },
+  "definition": "polymorphic control property",
+  "definition_ml": {
+    "en": "polymorphic control property",
+    "de": "Polymorphismus-Merkmal für Sollwerteingangstyp"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property; Id specified in IEC61987-22: ABE327",
+  "remark_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-22: ABE327"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU530",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "control input type",
+    "MDC_P006.en": "polymorphic control property",
+    "MDC_P009.en": "polymorphic control property; Id specified in IEC61987-22: ABE327",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU512(Analog current input [3],Analog voltage input [3],Manufacturer-specific input [3]))",
+    "MDC_P068": "0112/2///61987#ABU512",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Sollwerteingangstyp",
+    "MDC_P006.de": "Polymorphismus-Merkmal für Sollwerteingangstyp",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "E142FF5801BACD9CC125891300304879",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:21",
+      "user": "BATCH 00000762",
+      "unid": "a66e31e23bd955cec125825e001df844",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:57",
+      "user": "BATCH 00000702",
+      "unid": "26dc2c23ad6c3e57c1257cfb0040441f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:56",
+      "user": "BATCH 00000699",
+      "unid": "09def3d4fe263ffac1257cb40054c5dc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-12-09"
+  },
+  "constraint": "0112/2///61987#ABU512",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU512(Analog current input [3],Analog voltage input [3],Manufacturer-specific input [3]))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU512(Analog current input [3],Analog voltage input [3],Manufacturer-specific input [3]))",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "E142FF5801BACD9CC125891300304879"
+  }
+}

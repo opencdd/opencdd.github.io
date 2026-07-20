@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACG152",
+  "code": "ACG152",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Installation, mounting and dimensions",
+  "preferred_name_ml": {
+    "en": "Installation, mounting and dimensions",
+    "fr": "Installation, montage et dimensions",
+    "de": "Installation, Einbau und Abmessung",
+    "zh": "装配、安装和尺寸"
+  },
+  "definition": "physical information of the safety switch for hinge door installation",
+  "definition_ml": {
+    "en": "physical information of the safety switch for hinge door installation",
+    "fr": "informations physiques de l'interrupteur de position de sécurité pour l’installation sur charnière"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00100",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG152",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Installation, mounting and dimensions",
+    "MDC_P006.en": "physical information of the safety switch for hinge door installation",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-07-31",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2020-07-31",
+    "MDC_P003_3": "2020-07-31",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC066}",
+    "MDC_P090": "{0112/2///62683#ACE802,0112/2///62683#ACE801,0112/2///62683#ACE803,0112/2///62683#ACE822,0112/2///62683#ACE812}",
+    "MDC_P004.fr": "Installation, montage et dimensions",
+    "MDC_P006.fr": "informations physiques de l'interrupteur de position de sécurité pour l’installation sur charnière",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-04-01",
+    "MDC_P004.de": "Installation, Einbau und Abmessung",
+    "MDC_P004.zh": "装配、安装和尺寸",
+    "C002": "C00100"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-07-31 11:02:22",
+      "user": "BATCH 00000754",
+      "unid": "50C841E493E85F3EC12585B60031A7EC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "e98101701c49e0cdc1258034002e35e5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "1585848c0c5213c6c1258030004502bb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2020-07-31",
+    "current_revision": "2020-07-31"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC066"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE802",
+    "0112/2///62683#ACE801",
+    "0112/2///62683#ACE803",
+    "0112/2///62683#ACE822",
+    "0112/2///62683#ACE812"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-07-31 11:02:22",
+    "user": "BATCH 00000754",
+    "change_request_id": null,
+    "unid": "50C841E493E85F3EC12585B60031A7EC"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61987#ABE313",
+  "code": "ABE313",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Device LOP for diaphragm/pinch valve",
+  "preferred_name_ml": {
+    "en": "Device LOP for diaphragm/pinch valve",
+    "de": "Geräte-Merkmalleiste für Membran-/Quetschventil"
+  },
+  "definition": "list of properties characterizing a diaphragm or pinch valve",
+  "definition_ml": {
+    "en": "list of properties characterizing a diaphragm or pinch valve",
+    "de": "Merkmalleiste, die ein Membran-/Quetschventil kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00121",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE313",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Device LOP for diaphragm/pinch valve",
+    "MDC_P006.en": "list of properties characterizing a diaphragm or pinch valve",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-09-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-09-08",
+    "MDC_P003_3": "2022-09-08",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV504",
+    "MDC_P014": "{0112/2///61987#ABC899,0112/2///61987#ABC730,0112/2///61987#ABE222,0112/2///61987#ABU551,0112/2///61987#ABE229,0112/2///61987#ABE256,0112/2///61987#ABE192,0112/2///61987#ABE073,0112/2///61987#ABC795,0112/2///61987#ABA293,0112/2///61987#ABC710}",
+    "MDC_P004.de": "Geräte-Merkmalleiste für Membran-/Quetschventil",
+    "MDC_P006.de": "Merkmalleiste, die ein Membran-/Quetschventil kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-01-14",
+    "C002": "C00121"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-09-08 10:23:20",
+      "user": "BATCH 00000799",
+      "unid": "FDCF7C1ABBE3E3E0C12588B7002E1503",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "f702f2efaedf5da7c125825e001dd956",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:44",
+      "user": "BATCH 00000701",
+      "unid": "e78253072abd7184c1257cfb003f9ae8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:15",
+      "user": "BATCH 00000699",
+      "unid": "a1b8d184bc2f9bfbc1257cb400549e34",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-09-08",
+    "current_revision": "2022-09-08"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABC899",
+    "0112/2///61987#ABC730",
+    "0112/2///61987#ABE222",
+    "0112/2///61987#ABU551",
+    "0112/2///61987#ABE229",
+    "0112/2///61987#ABE256",
+    "0112/2///61987#ABE192",
+    "0112/2///61987#ABE073",
+    "0112/2///61987#ABC795",
+    "0112/2///61987#ABA293",
+    "0112/2///61987#ABC710"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV504",
+  "superclass_type_property": "0112/2///61987#ABV504",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-09-08 10:23:20",
+    "user": "BATCH 00000799",
+    "change_request_id": null,
+    "unid": "FDCF7C1ABBE3E3E0C12588B7002E1503"
+  }
+}

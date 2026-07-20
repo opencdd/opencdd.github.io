@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAA656",
+  "code": "AAA656",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "electronic address",
+  "preferred_name_ml": {
+    "en": "electronic address"
+  },
+  "definition": "designation of a location in an electronic network",
+  "definition_ml": {
+    "en": "designation of a location in an electronic network"
+  },
+  "source_document": "IEC 62507-1:2010",
+  "synonyms": [],
+  "note": "The electronic address provides a means to connect to people, organizations and systems via electronic communication media.",
+  "note_ml": {
+    "en": "The electronic address provides a means to connect to people, organizations and systems via electronic communication media."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA656",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "electronic address",
+    "MDC_P006.en": "designation of a location in an electronic network",
+    "MDC_P008.en": "The electronic address provides a means to connect to people, organizations and systems via electronic communication media.",
+    "MDC_P006_1": "IEC 62507-1:2010",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2011-12-14",
+    "MDC_P003_2": "2011-12-14",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA750",
+    "MDC_P014": "{0112/2///61360_4#ADA008,0112/2///61360_4#ADA009,0112/2///61360_4#ADA010,0112/2///61360_4#ADA011,0112/2///61360_4#ADA012,0112/2///61360_4#ADA013}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "597FDCACF02AC1BDC1258994002BD176",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "0f3d0cbc7f016955c1257dd300516025",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "41105fceb405a940c1257d7300506a4c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "dc5754feacf2c7cdc1257a0e0047b341",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-12-14",
+    "current_version": "2011-12-14",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA008",
+    "0112/2///61360_4#ADA009",
+    "0112/2///61360_4#ADA010",
+    "0112/2///61360_4#ADA011",
+    "0112/2///61360_4#ADA012",
+    "0112/2///61360_4#ADA013"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA750",
+  "superclass_type_property": "0112/2///61360_4#AAA750",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "597FDCACF02AC1BDC1258994002BD176"
+  }
+}

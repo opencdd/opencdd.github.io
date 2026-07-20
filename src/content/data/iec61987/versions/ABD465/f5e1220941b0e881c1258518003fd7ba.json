@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD465",
+  "code": "ABD465",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 12:37:19",
+    "user": "BATCH 00000778",
+    "change_request_id": null,
+    "unid": "f5e1220941b0e881c1258518003fd7ba"
+  }
+}

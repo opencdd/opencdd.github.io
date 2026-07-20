@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABB375",
+  "code": "ABB375",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "reference standard for area classification",
+  "preferred_name_ml": {
+    "en": "reference standard for area classification",
+    "fr": "norme de référence pour classification de zone",
+    "de": "Referenznorm für Explosionsschutzbereich"
+  },
+  "definition": "code or standard on which the explosion protection measures are to be based",
+  "definition_ml": {
+    "en": "code or standard on which the explosion protection measures are to be based",
+    "fr": "code ou norme sur lequel les mesures de protection contre les explosions doivent être basées",
+    "de": "Richtlinie oder Norm, auf der die Explosionsschutzmaßnahmen beruhen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB375",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference standard for area classification",
+    "MDC_P006.en": "code or standard on which the explosion protection measures are to be based",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ753)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "norme de référence pour classification de zone",
+    "MDC_P006.fr": "code ou norme sur lequel les mesures de protection contre les explosions doivent être basées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Referenznorm für Explosionsschutzbereich",
+    "MDC_P006.de": "Richtlinie oder Norm, auf der die Explosionsschutzmaßnahmen beruhen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "681F93F2153DCFD6C1258CDC004A3B01",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "62b8315490ced267c1258518003c48f7",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "51dbae3adcc7f42cc125825e001de958",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "7bf0adbd4edf0b2ec1258256003e95c1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "507d0f7b0b52a0b7c12580d6004c1e06",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "330e2651ba599d12c1257cfb00403be0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "81a6970ce0868670c1257cb40054bd9d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ753)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ753)",
+  "value_list": "0112/2///61987#ABJ753",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "681F93F2153DCFD6C1258CDC004A3B01"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABP000",
+  "code": "ABP000",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "year of manufacture",
+  "preferred_name_ml": {
+    "en": "year of manufacture",
+    "de": "Herstellungsjahr"
+  },
+  "definition": "year when an item was manufactured",
+  "definition_ml": {
+    "en": "year when an item was manufactured",
+    "de": "Jahr, in dem ein Objekt hergestellt wurde"
+  },
+  "synonyms": [],
+  "note": "The property and the format for year is in accordance with EU Machine Directive 2006/42/EC; i.e. \"YYYY\".",
+  "note_ml": {
+    "en": "The property and the format for year is in accordance with EU Machine Directive 2006/42/EC; i.e. \"YYYY\".",
+    "de": "Das Merkmal und das Format für das Jahr entsprechen der EU-Maschinenrichtlinie 2006/42/EG, d. h. \" YYYY\"."
+  },
+  "remark": "legacy property, updated by 0112/2///61360_7#CBA052 - year of manufacture",
+  "remark_ml": {
+    "en": "legacy property, updated by 0112/2///61360_7#CBA052 - year of manufacture"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP000",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "year of manufacture",
+    "MDC_P006.en": "year when an item was manufactured",
+    "MDC_P008.en": "The property and the format for year is in accordance with EU Machine Directive 2006/42/EC; i.e. \"YYYY\".",
+    "MDC_P009.en": "legacy property, updated by 0112/2///61360_7#CBA052 - year of manufacture",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P024": "N..4",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_1": "2021-08-12",
+    "MDC_P003_2": "2021-08-12",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Herstellungsjahr",
+    "MDC_P006.de": "Jahr, in dem ein Objekt hergestellt wurde",
+    "MDC_P008.de": "Das Merkmal und das Format für das Jahr entsprechen der EU-Maschinenrichtlinie 2006/42/EG, d. h. \" YYYY\".",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-08-12",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "C697C8A51F1A6427C1258D3E003CD65C",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:32:00",
+      "user": "BATCH 00000818",
+      "unid": "8a99ac6a39878408c1258a7d0039dca2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2023-09-04 12:52:30",
+      "user": "BATCH 00000812",
+      "unid": "ed88cc84c5821e10c1258a20003bbd46",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "286ac0d2407c4c6ec12589130030487c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-08-12",
+    "current_version": "2021-08-12",
+    "current_revision": "2025-11-10"
+  },
+  "value_format": "N..4",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "C697C8A51F1A6427C1258D3E003CD65C"
+  }
+}

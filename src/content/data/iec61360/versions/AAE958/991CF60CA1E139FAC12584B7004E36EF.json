@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61360_4#AAE958",
+  "code": "AAE958",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "temperature T_1",
+  "preferred_name_ml": {
+    "en": "temperature T_1"
+  },
+  "short_name": "@T_1",
+  "short_name_ml": {
+    "en": "@T_1"
+  },
+  "definition": "lower temperature T_1} of the temperature range applied to a component, as a variable",
+  "definition_ml": {
+    "en": "lower temperature T_1} of the temperature range applied to a component, as a variable"
+  },
+  "synonyms": [],
+  "remark": "See AAE959-005 for upper temperature T_2}. If T_2} is left blank the upper limit of the range is determined by the maximum operating temperature. Equal values of T_1} and T_2} may be used to indicate a single specific temperature.",
+  "remark_ml": {
+    "en": "See AAE959-005 for upper temperature T_2}. If T_2} is left blank the upper limit of the range is determined by the maximum operating temperature. Equal values of T_1} and T_2} may be used to indicate a single specific temperature."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE958",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "temperature T_1",
+    "MDC_P005.en": "@T_1",
+    "MDC_P006.en": "lower temperature T_1} of the temperature range applied to a component, as a variable",
+    "MDC_P009.en": "See AAE959-005 for upper temperature T_2}. If T_2} is left blank the upper limit of the range is determined by the maximum operating temperature. Equal values of T_1} and T_2} may be used to indicate a single specific temperature.",
+    "MDC_P025_1": "@T_1}",
+    "MDC_P023": "°C",
+    "MDC_P022": "INT_MEASURE_TYPE",
+    "MDC_P024": "NR1 S..4",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P040": "H02",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2019-11-19",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2019-11-19",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2019-11-19 15:14:18",
+      "user": "BATCH 00001135",
+      "unid": "991CF60CA1E139FAC12584B7004E36EF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:36",
+      "user": "BATCH 00000917",
+      "unid": "214932c5ff737e7cc1257ea4004b210a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "74bc629a98013cdbc1257e8b00323758",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "8c55a730fa8d442bc1257e8a0043e52d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "f7b538040a0a3098c1257a0e0047bd66",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "e8c904c448b85dd5c1257a0e0046dae6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2019-11-19"
+  },
+  "symbol_in_text": "@T_1}",
+  "value_format": "NR1 S..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INTEGER_MEASURE_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "parsed_value_format": "NR1 S..4",
+  "type": "property",
+  "data_type": "INTEGER_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2019-11-19 15:14:18",
+    "user": "BATCH 00001135",
+    "change_request_id": null,
+    "unid": "991CF60CA1E139FAC12584B7004E36EF"
+  }
+}

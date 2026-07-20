@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABC490",
+  "code": "ABC490",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Percentage performance for pressure",
+  "preferred_name_ml": {
+    "en": "Percentage performance for pressure",
+    "fr": "Performance en pourcentage pour la pression",
+    "de": "Leistungsdaten in relativen Einheiten für Druck"
+  },
+  "definition": "properties characterizing the performance characteristics of an output of an pressure measuring device expressed as a percentage of range or span",
+  "definition_ml": {
+    "en": "properties characterizing the performance characteristics of an output of an pressure measuring device expressed as a percentage of range or span",
+    "fr": "propriétés caractérisant les caractéristiques de performance d’une sortie d'un appareil de mesure de pression exprimée en pourcentage de l’étendue ou intervalle de mesure",
+    "de": "Merkmale, die die Leistungseigenschaften eines Druckmessausgangs in relativen Einheiten eines Bereichs oder einer Spanne kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "15 ABC490.15",
+  "remark_ml": {
+    "en": "15 ABC490.15"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC490",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Percentage performance for pressure",
+    "MDC_P006.en": "properties characterizing the performance characteristics of an output of an pressure measuring device expressed as a percentage of range or span",
+    "MDC_P009.en": "15 ABC490.15",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB087,0112/2///61987#ABC697,0112/2///61987#ABC840,0112/2///61987#ABC954}",
+    "MDC_P004.fr": "Performance en pourcentage pour la pression",
+    "MDC_P006.fr": "propriétés caractérisant les caractéristiques de performance d’une sortie d'un appareil de mesure de pression exprimée en pourcentage de l’étendue ou intervalle de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Leistungsdaten in relativen Einheiten für Druck",
+    "MDC_P006.de": "Merkmale, die die Leistungseigenschaften eines Druckmessausgangs in relativen Einheiten eines Bereichs oder einer Spanne kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "D1542B8D5B87B48EC125825E001DD783",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "85bd551d94b0f011c1257cb400549ca8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB087",
+    "0112/2///61987#ABC697",
+    "0112/2///61987#ABC840",
+    "0112/2///61987#ABC954"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D1542B8D5B87B48EC125825E001DD783"
+  }
+}

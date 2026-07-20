@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAD190",
+  "code": "AAD190",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "superseded",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "26de7a724591f33fc1257ea4004b1e5f"
+  }
+}

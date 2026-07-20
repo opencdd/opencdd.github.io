@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61987#ABD338",
+  "code": "ABD338",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Helix flow gauge",
+  "preferred_name_ml": {
+    "en": "Helix flow gauge",
+    "fr": "jauge de débit à hélice",
+    "de": "Schraubenzähler"
+  },
+  "definition": "positive displacement flow gauge that uses helical rotors to divide and meter the flow",
+  "definition_ml": {
+    "en": "positive displacement flow gauge that uses helical rotors to divide and meter the flow",
+    "fr": "jauge de débit à déplacement positif qui utilise des rotors hélicoïdaux pour diviser et mesurer le débit",
+    "de": "Durchflussanzeiger nach dem Verdrängungsprinzip, der schraubenartige Rotoren benutzt, um den Strom aufzuteilen und den Durchfluss zu messen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD338",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Helix flow gauge",
+    "MDC_P006.en": "positive displacement flow gauge that uses helical rotors to divide and meter the flow",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA645",
+    "MDC_P004.fr": "jauge de débit à hélice",
+    "MDC_P006.fr": "jauge de débit à déplacement positif qui utilise des rotors hélicoïdaux pour diviser et mesurer le débit",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Schraubenzähler",
+    "MDC_P006.de": "Durchflussanzeiger nach dem Verdrängungsprinzip, der schraubenartige Rotoren benutzt, um den Strom aufzuteilen und den Durchfluss zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "318C32DA74EBA797C1258A6F00520B0B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:59",
+      "user": "BATCH 00000762",
+      "unid": "2f84acfc839826bdc125825e001dd853",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA645",
+  "superclass_type_property": "0112/2///61987#ABA645",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "318C32DA74EBA797C1258A6F00520B0B"
+  }
+}

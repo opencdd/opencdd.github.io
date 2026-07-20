@@ -1,0 +1,165 @@
+{
+  "irdi": "0112/2///61987#ABB504",
+  "code": "ABB504",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "hardware integrator",
+  "preferred_name_ml": {
+    "en": "hardware integrator",
+    "fr": "installateur de composant supplémentaire",
+    "de": "Installateur der Komponente"
+  },
+  "definition": "company or manufacturer that installed an additional component on the device of another manufacturer",
+  "definition_ml": {
+    "en": "company or manufacturer that installed an additional component on the device of another manufacturer",
+    "fr": "société ou fabricant qui a installé un composant supplémentaire sur l’appareil d'un autre fabricant",
+    "de": "Firma oder Hersteller, die eine Zusatzkomponente am Gerät eines anderen Herstellers installiert hat"
+  },
+  "synonyms": [],
+  "note": "The assembler is responsible for any changes of properties of the upper components due to the assembling of the additional component",
+  "note_ml": {
+    "en": "The assembler is responsible for any changes of properties of the upper components due to the assembling of the additional component",
+    "de": "Der Monteur ist für alle Änderungen von Eigenschaften der oberen Komponenten verantwortlich, die aufgrund der Installation der Zusatzkomponente auftreten"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB504",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "hardware integrator",
+    "MDC_P006.en": "company or manufacturer that installed an additional component on the device of another manufacturer",
+    "MDC_P008.en": "The assembler is responsible for any changes of properties of the upper components due to the assembling of the additional component",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "installateur de composant supplémentaire",
+    "MDC_P006.fr": "société ou fabricant qui a installé un composant supplémentaire sur l’appareil d'un autre fabricant",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Installateur der Komponente",
+    "MDC_P006.de": "Firma oder Hersteller, die eine Zusatzkomponente am Gerät eines anderen Herstellers installiert hat",
+    "MDC_P008.de": "Der Monteur ist für alle Änderungen von Eigenschaften der oberen Komponenten verantwortlich, die aufgrund der Installation der Zusatzkomponente auftreten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:55",
+      "user": "BATCH 00000818",
+      "unid": "F3EFEA34E568D0DEC1258A7D0039DACA",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "046a6b33ddb92918c125825e001de9d7",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "5eb3d2627fa75cb0c1258256003e9585",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "6c696ef187b1e6d5c125825600407a94",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:25",
+      "user": "BATCH 00000732",
+      "unid": "defd346c1eeb3fd1c12580d6004c1e85",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "9d3e950be0701401c1257f7e0030f218",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "049f1c9cee4c4b86c1257fa7003a3d43",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:37",
+      "user": "BATCH 00000702",
+      "unid": "7bca2c7e2d4fa064c1257cfb00403c5f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:36",
+      "user": "BATCH 00000699",
+      "unid": "f38cb1e124e196d5c1257cb40054be1c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:55",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "F3EFEA34E568D0DEC1258A7D0039DACA"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///62683#ACG197",
+  "code": "ACG197",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Connection facilities",
+  "preferred_name_ml": {
+    "en": "Connection facilities",
+    "fr": "Eléments de raccordement",
+    "de": "Anschlussmöglichkeiten",
+    "zh": "连接件"
+  },
+  "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the protective conductor terminal block",
+  "definition_ml": {
+    "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the protective conductor terminal block",
+    "fr": "bornes, vis et autres pièces, utilisées pour le raccordement électrique aux conducteurs des circuits externes du bloc de jonction pour conducteur de protection",
+    "de": "Anschlüsse, Schrauben oder andere Teile, die für die elektrische Verbindung der Leitungen von externen Stromkreisen der Schutzleiter-Reihenklemme verwendet werden",
+    "zh": "用于与保护导体接线端子排外部电路导体进行电气连接的连接端子、螺钉或其他部件，"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00122",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG197",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Connection facilities",
+    "MDC_P006.en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the protective conductor terminal block",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-05-31",
+    "MDC_P003_1": "2014-01-15",
+    "MDC_P003_2": "2023-05-31",
+    "MDC_P003_3": "2023-05-31",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC068}",
+    "MDC_P090": "{0112/2///62683#ACE862,0112/2///62683#ACE861,0112/2///62683#ACE865,0112/2///62683#ACE863,0112/2///62683#ACE864,0112/2///62683#ACE867,0112/2///62683#ACE866,0112/2///62683#ACE886,0112/2///62683#ACE850,0112/2///62683#ACE851,0112/2///62683#ACE869,0112/2///62683#ACE872}",
+    "MDC_P004.fr": "Eléments de raccordement",
+    "MDC_P006.fr": "bornes, vis et autres pièces, utilisées pour le raccordement électrique aux conducteurs des circuits externes du bloc de jonction pour conducteur de protection",
+    "C019.fr": "IEC/TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2022-04-10",
+    "MDC_P004.de": "Anschlussmöglichkeiten",
+    "MDC_P006.de": "Anschlüsse, Schrauben oder andere Teile, die für die elektrische Verbindung der Leitungen von externen Stromkreisen der Schutzleiter-Reihenklemme verwendet werden",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-11-29",
+    "MDC_P004.zh": "连接件",
+    "MDC_P006.zh": "用于与保护导体接线端子排外部电路导体进行电气连接的连接端子、螺钉或其他部件，",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00122"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-05-31 11:02:56",
+      "user": "BATCH 00000801",
+      "unid": "AA0AEAFEE54BE84FC12589C00031B50F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:35",
+      "user": "BATCH 00000739",
+      "unid": "c048e21d89268b72c12584e80070c163",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "48d7a0f8a5deafaec1258034002e360d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:47",
+      "user": "BATCH 00000703",
+      "unid": "c4fb23faf8997831c1258030004502e3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-01-15",
+    "current_version": "2023-05-31",
+    "current_revision": "2023-05-31"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC068"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE862",
+    "0112/2///62683#ACE861",
+    "0112/2///62683#ACE865",
+    "0112/2///62683#ACE863",
+    "0112/2///62683#ACE864",
+    "0112/2///62683#ACE867",
+    "0112/2///62683#ACE866",
+    "0112/2///62683#ACE886",
+    "0112/2///62683#ACE850",
+    "0112/2///62683#ACE851",
+    "0112/2///62683#ACE869",
+    "0112/2///62683#ACE872"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-05-31 11:02:56",
+    "user": "BATCH 00000801",
+    "change_request_id": null,
+    "unid": "AA0AEAFEE54BE84FC12589C00031B50F"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#ADA036",
+  "code": "ADA036",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "product discontinuation",
+  "preferred_name_ml": {
+    "en": "product discontinuation"
+  },
+  "definition": "concept describing the situation when a (serial) product, process or service is no longer in the focus of marketing, no longer available in stock or is no longer manufactured",
+  "definition_ml": {
+    "en": "concept describing the situation when a (serial) product, process or service is no longer in the focus of marketing, no longer available in stock or is no longer manufactured"
+  },
+  "synonyms": [
+    {
+      "lang": "phase-out of product",
+      "name": "en"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "{(phase-out of product,en)}"
+  },
+  "note": "a phase-out process is planned and announced in time to allow customers to prepare for the succeeding product or product version or other modifications",
+  "note_ml": {
+    "en": "a phase-out process is planned and announced in time to allow customers to prepare for the succeeding product or product version or other modifications"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA036",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "product discontinuation",
+    "MDC_P007.en": "{(phase-out of product,en)}",
+    "MDC_P006.en": "concept describing the situation when a (serial) product, process or service is no longer in the focus of marketing, no longer available in stock or is no longer manufactured",
+    "MDC_P008.en": "a phase-out process is planned and announced in time to allow customers to prepare for the succeeding product or product version or other modifications",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#ADA037,0112/2///61360_4#ADA038,0112/2///61360_4#ADA039,0112/2///61360_4#ADA041,0112/2///61360_4#ADA042,0112/2///61360_4#ADA043,0112/2///61360_4#ADA044,0112/2///61360_4#ADA045,0112/2///61360_4#ADA076,0112/2///61360_4#ADA297}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "80039FC03C2E80D7C1258994002BD19E",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-04-17 06:47:55",
+      "user": "BATCH 00001187",
+      "unid": "3673ddb146f10388c125854d001a5c0d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-01-25 12:09:17",
+      "user": "BATCH 00001001",
+      "unid": "0287ea09cd71f3b3c12580b3003d467c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA037",
+    "0112/2///61360_4#ADA038",
+    "0112/2///61360_4#ADA039",
+    "0112/2///61360_4#ADA041",
+    "0112/2///61360_4#ADA042",
+    "0112/2///61360_4#ADA043",
+    "0112/2///61360_4#ADA044",
+    "0112/2///61360_4#ADA045",
+    "0112/2///61360_4#ADA076",
+    "0112/2///61360_4#ADA297"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "80039FC03C2E80D7C1258994002BD19E"
+  }
+}

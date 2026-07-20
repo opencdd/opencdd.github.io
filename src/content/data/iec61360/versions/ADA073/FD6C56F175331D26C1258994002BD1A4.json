@@ -1,0 +1,94 @@
+{
+  "irdi": "0112/2///61360_4#ADA073",
+  "code": "ADA073",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "installation conditions",
+  "preferred_name_ml": {
+    "en": "installation conditions"
+  },
+  "definition": "conditions under which a given object shall be physically installed for its operation according to the manufacturer's specification",
+  "definition_ml": {
+    "en": "conditions under which a given object shall be physically installed for its operation according to the manufacturer's specification"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA073",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "installation conditions",
+    "MDC_P006.en": "conditions under which a given object shall be physically installed for its operation according to the manufacturer's specification",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#AAE006,0112/2///61360_4#AAE027,0112/2///61360_4#AAF397,0112/2///61360_4#AAF398,0112/2///61360_4#AAF399,0112/2///61360_4#AAF400,0112/2///61360_4#AAF401,0112/2///61360_4#AAF402,0112/2///61360_4#AAF403,0112/2///61360_4#AAF404,0112/2///61360_4#AAF405,0112/2///61360_4#AAF433,0112/2///61360_4#ADA074}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "FD6C56F175331D26C1258994002BD1A4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-02-09 12:26:00",
+      "user": "BATCH 00001006",
+      "unid": "573611aa649f6cdac12580c2003ece3d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE006",
+    "0112/2///61360_4#AAE027",
+    "0112/2///61360_4#AAF397",
+    "0112/2///61360_4#AAF398",
+    "0112/2///61360_4#AAF399",
+    "0112/2///61360_4#AAF400",
+    "0112/2///61360_4#AAF401",
+    "0112/2///61360_4#AAF402",
+    "0112/2///61360_4#AAF403",
+    "0112/2///61360_4#AAF404",
+    "0112/2///61360_4#AAF405",
+    "0112/2///61360_4#AAF433",
+    "0112/2///61360_4#ADA074"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "FD6C56F175331D26C1258994002BD1A4"
+  }
+}

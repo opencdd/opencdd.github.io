@@ -1,0 +1,85 @@
+{
+  "irdi": "0112/2///61360_4#ADA168",
+  "code": "ADA168",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "period of warrenty for consumer goods",
+  "preferred_name_ml": {
+    "en": "period of warrenty for consumer goods"
+  },
+  "definition": "period of time for which a manufacturer or its representative is contractually committed to fulfill his warranty premises for consumer goods at intended use",
+  "definition_ml": {
+    "en": "period of time for which a manufacturer or its representative is contractually committed to fulfill his warranty premises for consumer goods at intended use"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA168",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "period of warrenty for consumer goods",
+    "MDC_P006.en": "period of time for which a manufacturer or its representative is contractually committed to fulfill his warranty premises for consumer goods at intended use",
+    "MDC_P023": "year",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A31",
+    "MDC_P021": "0112/2///61360_4#ADA112",
+    "MDC_P041": "0112/2///62720#UAB026",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-06-26",
+    "MDC_P003_3": "2019-06-26"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2019-06-26 10:04:50",
+      "user": "BATCH 00001070",
+      "unid": "0A6B36724A451199C1258425002C6351",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:12",
+      "user": "BATCH 00001062",
+      "unid": "82a4a392550590e7c1258407003de899",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-07 10:21:16",
+      "user": "BATCH 00001052",
+      "unid": "c423a2fc3232f47bc12582e2002de4b1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2019-06-26"
+  },
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#ADA112",
+  "unit_irdi": "0112/2///62720#UAB026",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2019-06-26 10:04:50",
+    "user": "BATCH 00001070",
+    "change_request_id": null,
+    "unid": "0A6B36724A451199C1258425002C6351"
+  }
+}

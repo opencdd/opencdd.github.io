@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACF016",
+  "code": "ACF016",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "General technical data for accessory for circuit-breaker",
+  "preferred_name_ml": {
+    "en": "General technical data for accessory for circuit-breaker",
+    "fr": "Données techniques générales pour un accessoire pour disjoncteur",
+    "de": "Allgemeine technische Daten für Zubehör zum Leistungsschalter",
+    "zh": "断路器附件的一般技术数据"
+  },
+  "definition": "general technical aspects of the accessory for circuit-breaker",
+  "definition_ml": {
+    "en": "general technical aspects of the accessory for circuit-breaker",
+    "fr": "aspects techniques généraux de l'accessoire pour disjoncteur",
+    "de": "Allgemeine technische Gesichtspunkte für Zubehör zum Leistungsschalter",
+    "zh": "断路器附件技术方面的一般数据"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00073",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF016",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "General technical data for accessory for circuit-breaker",
+    "MDC_P006.en": "general technical aspects of the accessory for circuit-breaker",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG016)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC100",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "Données techniques générales pour un accessoire pour disjoncteur",
+    "MDC_P006.fr": "aspects techniques généraux de l'accessoire pour disjoncteur",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Allgemeine technische Daten für Zubehör zum Leistungsschalter",
+    "MDC_P006.de": "Allgemeine technische Gesichtspunkte für Zubehör zum Leistungsschalter",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2018-01-16",
+    "MDC_P004.zh": "断路器附件的一般技术数据",
+    "MDC_P006.zh": "断路器附件技术方面的一般数据",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "2",
+    "C018.zh": "2018-05-30",
+    "C002": "C00073"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "FC6E41F913CF359EC12584EC0072DAE0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "f35a8606063e6a70c125803000457143",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC100",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG016)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG016)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:31",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "FC6E41F913CF359EC12584EC0072DAE0"
+  }
+}

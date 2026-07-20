@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABH527",
+  "code": "ABH527",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "output signal behavior",
+  "preferred_name_ml": {
+    "en": "output signal behavior",
+    "de": "Verhalten des Ausgangsignals"
+  },
+  "definition": "options that can be set for the signal behaviour of a configurable binary or analogue output",
+  "definition_ml": {
+    "en": "options that can be set for the signal behaviour of a configurable binary or analogue output",
+    "de": "Optionen, die für das Signalverhalten eines konfigurierbaren binären oder analogen Ausgangs eingestellt werden können"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH527",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "output signal behavior",
+    "MDC_P006.en": "options that can be set for the signal behaviour of a configurable binary or analogue output",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL490)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Verhalten des Ausgangsignals",
+    "MDC_P006.de": "Optionen, die für das Signalverhalten eines konfigurierbaren binären oder analogen Ausgangs eingestellt werden können",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-09-28",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "3A4C4338A7D4FD6BC1258CDC004A3C77",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "cb83fb745cc6408fc1258518003c4a9b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "e950e21089a4ab73c12583b700502720",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL490)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL490)",
+  "value_list": "0112/2///61987#ABL490",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "3A4C4338A7D4FD6BC1258CDC004A3C77"
+  }
+}

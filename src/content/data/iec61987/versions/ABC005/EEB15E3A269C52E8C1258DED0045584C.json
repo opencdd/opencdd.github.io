@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61987#ABC005",
+  "code": "ABC005",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "vertical distance of lower process connection to lower-range limit height",
+  "preferred_name_ml": {
+    "en": "vertical distance of lower process connection to lower-range limit height",
+    "fr": "dist. vertic. de raccordement d'extrémités inf. à hauteur limite d'étendue inf.",
+    "de": "Vertikalabstand des unteren Prozessanschlusses zum Messbereichsanfangswert"
+  },
+  "definition": "distance between a liquid level at lower range limit and the lower process connection of a pressure transmitter or pressure gauge",
+  "definition_ml": {
+    "en": "distance between a liquid level at lower range limit and the lower process connection of a pressure transmitter or pressure gauge",
+    "fr": "distance entre un niveau de liquide à la limite d'étendue inférieure et le raccordement d'extrémités inférieur d'un transmetteur de pression ou d'une jauge de pression",
+    "de": "Abstand zwischen dem Flüssigkeitsstand am Anfangswert des Messbereichs und dem unteren Prozessanschluss eines Drucktransmitters oder Druckmessgeräts"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABC005",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "vertical distance of lower process connection to lower-range limit height",
+    "MDC_P006.en": "distance between a liquid level at lower range limit and the lower process connection of a pressure transmitter or pressure gauge",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "dist. vertic. de raccordement d'extrémités inf. à hauteur limite d'étendue inf.",
+    "MDC_P006.fr": "distance entre un niveau de liquide à la limite d'étendue inférieure et le raccordement d'extrémités inférieur d'un transmetteur de pression ou d'une jauge de pression",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "Vertikalabstand des unteren Prozessanschlusses zum Messbereichsanfangswert",
+    "MDC_P006.de": "Abstand zwischen dem Flüssigkeitsstand am Anfangswert des Messbereichs und dem unteren Prozessanschluss eines Drucktransmitters oder Druckmessgeräts",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "EEB15E3A269C52E8C1258DED0045584C",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:49",
+      "user": "BATCH 00000762",
+      "unid": "d4bf107aa05f3020c125825e001debc6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:30",
+      "user": "BATCH 00000732",
+      "unid": "ade21540601f2f9fc12580d6004c2077",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "3185df19507a0faac1257fa700405b79",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:42",
+      "user": "BATCH 00000702",
+      "unid": "c68eb3c30e00d6c3c1257cfb00403e4e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "067518185951dd6bc1257cb40054c00b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "EEB15E3A269C52E8C1258DED0045584C"
+  }
+}

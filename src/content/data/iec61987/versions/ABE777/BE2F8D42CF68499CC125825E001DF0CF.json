@@ -1,0 +1,79 @@
+{
+  "irdi": "0112/2///61987#ABE777",
+  "code": "ABE777",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "reference to Pressure measurement",
+  "preferred_name_ml": {
+    "en": "reference to Pressure measurement"
+  },
+  "definition": "reference to block ABE776",
+  "definition_ml": {
+    "en": "reference to block ABE776"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00014",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE777",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Pressure measurement",
+    "MDC_P006.en": "reference to block ABE776",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE776)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-09-19",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-08-31",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P028": "{0112/2///61987#ABU389}",
+    "C002": "C00014"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:01",
+      "user": "BATCH 00000762",
+      "unid": "BE2F8D42CF68499CC125825E001DF0CF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "a2c7e1b2cb36b784c1257f7e0030f249",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-09-19",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-08-31"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE776)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU389}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE776)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "BE2F8D42CF68499CC125825E001DF0CF"
+  }
+}

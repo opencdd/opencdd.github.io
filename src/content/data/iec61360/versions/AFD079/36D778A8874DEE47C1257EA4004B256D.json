@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#AFD079",
+  "code": "AFD079",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "input offset voltage",
+  "preferred_name_ml": {
+    "en": "input offset voltage"
+  },
+  "short_name": "V_IO",
+  "short_name_ml": {
+    "en": "V_IO"
+  },
+  "definition": "voltage required to be applied between the input terminals of the device to cause zero output voltage at reference conditions",
+  "definition_ml": {
+    "en": "voltage required to be applied between the input terminals of the device to cause zero output voltage at reference conditions"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD079",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "input offset voltage",
+    "MDC_P005.en": "V_IO",
+    "MDC_P006.en": "voltage required to be applied between the input terminals of the device to cause zero output voltage at reference conditions",
+    "MDC_P025_1": "V_IO",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA016",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-04-24",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "36D778A8874DEE47C1257EA4004B256D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "37f7c1c398e692aec1257e8b00323b75",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "6dfc745a7d625075c1257e8a0043e990",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-18 14:54:43",
+      "user": "BATCH 00000812",
+      "unid": "33e842b6a7ffb866c1257af7004c6bbe",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-04-24",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "V_IO",
+  "definition_class_irdi": "0112/2///61360_4#AFA016",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(TYP,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "36D778A8874DEE47C1257EA4004B256D"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACE903",
+  "code": "ACE903",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "environmental declaration",
+  "preferred_name_ml": {
+    "en": "environmental declaration",
+    "fr": "déclaration environnementale",
+    "de": "Umwelterklärung",
+    "zh": "环境声明"
+  },
+  "definition": "availability of data providing quantified environmental data using predetermined parameters and, where relevant, additional environmental information",
+  "definition_ml": {
+    "en": "availability of data providing quantified environmental data using predetermined parameters and, where relevant, additional environmental information",
+    "fr": "disponibilité de données environnementales quantifiées à partir de paramètres prédéterminés et, le cas échéant, d'informations environnementales supplémentaires",
+    "de": "Verfügbarkeit von Daten, die quantifizierte Umweltdaten unter Benutzung von vorher festgelegten Parametern und, wo relevant, von zusätzlichen Umweltinformationen bereitstellen",
+    "zh": "通过预定参数和相关的附加环境信息来量化环境数据的数据适用性"
+  },
+  "synonyms": [],
+  "note": "See ISO 14025.",
+  "note_ml": {
+    "en": "See ISO 14025.",
+    "fr": "Voir l'ISO 14025.",
+    "de": "ANMERKUNG:  Siehe ISO 14025.",
+    "zh": "见ISO14025"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE903",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "environmental declaration",
+    "MDC_P006.en": "availability of data providing quantified environmental data using predetermined parameters and, where relevant, additional environmental information",
+    "MDC_P008.en": "See ISO 14025.",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC070",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "déclaration environnementale",
+    "MDC_P006.fr": "disponibilité de données environnementales quantifiées à partir de paramètres prédéterminés et, le cas échéant, d'informations environnementales supplémentaires",
+    "MDC_P008.fr": "Voir l'ISO 14025.",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2017-05-09",
+    "MDC_P004.de": "Umwelterklärung",
+    "MDC_P006.de": "Verfügbarkeit von Daten, die quantifizierte Umweltdaten unter Benutzung von vorher festgelegten Parametern und, wo relevant, von zusätzlichen Umweltinformationen bereitstellen",
+    "MDC_P008.de": "ANMERKUNG:  Siehe ISO 14025.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "环境声明",
+    "MDC_P006.zh": "通过预定参数和相关的附加环境信息来量化环境数据的数据适用性",
+    "MDC_P008.zh": "见ISO14025",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "59d388a65f692953c125803000457133",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:49",
+      "user": "BATCH 00000741",
+      "unid": "6D3631A10084CCB4C12584EC006DC19A",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC070",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:29",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "59d388a65f692953c125803000457133"
+  }
+}

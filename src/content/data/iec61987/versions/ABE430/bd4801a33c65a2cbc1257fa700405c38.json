@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE430",
+  "code": "ABE430",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-05-02 13:42:59",
+    "user": "BATCH 00000717",
+    "change_request_id": null,
+    "unid": "bd4801a33c65a2cbc1257fa700405c38"
+  }
+}

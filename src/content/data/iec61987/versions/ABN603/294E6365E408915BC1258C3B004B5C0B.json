@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABN603",
+  "code": "ABN603",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "revision counter value of the parameter setting",
+  "preferred_name_ml": {
+    "en": "revision counter value of the parameter setting",
+    "de": "Revisionszählerwert des Parametersatzes"
+  },
+  "short_name": "Rev. Counter",
+  "short_name_ml": {
+    "en": "Rev. Counter",
+    "de": "Revisionszähler"
+  },
+  "definition": "value of the counter totalizing the storing of the parameter set of a device",
+  "definition_ml": {
+    "en": "value of the counter totalizing the storing of the parameter set of a device",
+    "de": "Wert des Zählers, der die Speichervorgänge des Parametersatzes eines Geräts aufsummiert"
+  },
+  "synonyms": [],
+  "note": "Any reset of the device parameters will also increment the counter.",
+  "note_ml": {
+    "en": "Any reset of the device parameters will also increment the counter.",
+    "de": "Jeder Reset der Geräteparameter erhöht ebenfalls den Zähler."
+  },
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN603",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "revision counter value of the parameter setting",
+    "MDC_P005.en": "Rev. Counter",
+    "MDC_P006.en": "value of the counter totalizing the storing of the parameter set of a device",
+    "MDC_P008.en": "Any reset of the device parameters will also increment the counter.",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Revisionszählerwert des Parametersatzes",
+    "MDC_P005.de": "Revisionszähler",
+    "MDC_P006.de": "Wert des Zählers, der die Speichervorgänge des Parametersatzes eines Geräts aufsummiert",
+    "MDC_P008.de": "Jeder Reset der Geräteparameter erhöht ebenfalls den Zähler.",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "294E6365E408915BC1258C3B004B5C0B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "574827ce4ce4482bc125886f003c997b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "a895485728559c35c1258518003fd7c5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "294E6365E408915BC1258C3B004B5C0B"
+  }
+}

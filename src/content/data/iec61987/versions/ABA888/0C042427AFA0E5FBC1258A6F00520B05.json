@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA888",
+  "code": "ABA888",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Pitot tube",
+  "preferred_name_ml": {
+    "en": "Pitot tube",
+    "fr": "Tube Pitot",
+    "de": "Pitot-Rohr"
+  },
+  "definition": "primary element that measures the stagnation pressure of the flow at a point in a pipe",
+  "definition_ml": {
+    "en": "primary element that measures the stagnation pressure of the flow at a point in a pipe",
+    "fr": "élément primaire mesurant la pression de stagnation du débit en un point dans un tuyau",
+    "de": "Primärelement, dass den Staudruck des Durchflusses an einem Punkt in der Rohrleitung misst"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA888",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Pitot tube",
+    "MDC_P006.en": "primary element that measures the stagnation pressure of the flow at a point in a pipe",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA884",
+    "MDC_P004.fr": "Tube Pitot",
+    "MDC_P006.fr": "élément primaire mesurant la pression de stagnation du débit en un point dans un tuyau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Pitot-Rohr",
+    "MDC_P006.de": "Primärelement, dass den Staudruck des Durchflusses an einem Punkt in der Rohrleitung misst",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "0C042427AFA0E5FBC1258A6F00520B05",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:49",
+      "user": "BATCH 00000762",
+      "unid": "85c379b7b36fc7dec125825e001dd47b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:34",
+      "user": "BATCH 00000701",
+      "unid": "e83f00cf8a9cfe42c1257cfb003f6838",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "07bc64d7368c09fcc1257cb3002a0d1d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA884",
+  "superclass_type_property": "0112/2///61987#ABA884",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "0C042427AFA0E5FBC1258A6F00520B05"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AFD110",
+  "code": "AFD110",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-12-19 13:10:31",
+    "user": "BATCH 00000881",
+    "change_request_id": null,
+    "unid": "6c10f02a91d5ce5ac1257db30042e192"
+  }
+}

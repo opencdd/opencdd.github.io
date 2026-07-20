@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA124",
+  "code": "ABA124",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:33",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "32bac194d9434d42c125825e001de58f"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "irdi": "0112/2///61360_4#AAA001",
+  "code": "AAA001",
+  "version": "4",
+  "revision": "4",
+  "preferred_name": "component",
+  "preferred_name_ml": {
+    "en": "component"
+  },
+  "short_name": "CO",
+  "short_name_ml": {
+    "en": "CO"
+  },
+  "definition": "industrial product which serves a specific function or functions, which in a given context is considered not decomposable or physically divisible and which is intended for use in a higher- order assembled product",
+  "definition_ml": {
+    "en": "industrial product which serves a specific function or functions, which in a given context is considered not decomposable or physically divisible and which is intended for use in a higher- order assembled product"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00134",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA001",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "CO",
+    "MDC_P004.en": "component",
+    "MDC_P006.en": "industrial product which serves a specific function or functions, which in a given context is considered not decomposable or physically divisible and which is intended for use in a higher- order assembled product",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-11",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA000",
+    "C021": "0112/2///61360_4#AAE001",
+    "MDC_P014": "{0112/2///61360_4#AAE001,0112/2///61360_4#AAE022,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE687,0112/2///61360_4#AAE753,0112/2///61360_4#AAF276,0112/2///61360_4#AAF277,0112/2///61360_4#AAF278,0112/2///61360_4#AAF279,0112/2///61360_4#AAF318,0112/2///61360_4#AAF344,0112/2///61360_4#AAF356,0112/2///61360_4#AAF357,0112/2///61360_4#AAF358,0112/2///61360_4#AAF359,0112/2///61360_4#AAF362,0112/2///61360_4#AAF363,0112/2///61360_4#AAF369,0112/2///61360_4#AAF372,0112/2///61360_4#AAF376,0112/2///61360_4#AAF388,0112/2///61360_4#AAF391,0112/2///61360_4#AAF392,0112/2///61360_4#AAF393,0112/2///61360_4#AAF394,0112/2///61360_4#AAF395,0112/2///61360_4#AAF396,0112/2///61360_4#AAF411,0112/2///61360_4#AAF412,0112/2///61360_4#AAF413,0112/2///61360_4#AAF419,0112/2///61360_4#AAF420,0112/2///61360_4#AAF429,0112/2///61360_4#AAF430,0112/2///61360_4#AAF431,0112/2///61360_4#AAF435,0112/2///61360_4#AAF437,0112/2///61360_4#AAF472,0112/2///61360_4#AAH548,0112/2///61360_4#AAH549}",
+    "C002": "C00134"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2020-01-17 14:23:30",
+      "user": "BATCH 00001172",
+      "unid": "12927f894c309c69c12584f200499024",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2019-12-20 13:50:34",
+      "user": "BATCH 00000890",
+      "unid": "0cf9614f56d04212c12584d600468c4f",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-02-09 16:38:23",
+      "user": "BATCH 00000890",
+      "unid": "da30ba7fe9677437c12580c20055e97e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "06",
+      "status": "superseded",
+      "timestamp": "2017-02-09 16:11:56",
+      "user": "BATCH 00000890",
+      "unid": "98ab65c69c1b8952c12580c200537d97",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2017-02-09 12:54:17",
+      "user": "BATCH 00000890",
+      "unid": "0805abf4b1a74a5fc12580c200416512",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-07 14:06:31",
+      "user": "BATCH 00000890",
+      "unid": "5d4391b13ad00cf6c125808200480241",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-07 13:44:20",
+      "user": "BATCH 00000890",
+      "unid": "060271470a573ff7c12580820045fa4a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-12-06 15:25:56",
+      "user": "BATCH 00000890",
+      "unid": "cc5cca36d47d6801c1258081004f4785",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-28 16:56:07",
+      "user": "BATCH 00000890",
+      "unid": "73b0db6b48bbe956c125803c00520aca",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-10-30 10:34:35",
+      "user": "BATCH 00000890",
+      "unid": "62b4834dd26a32bfc1257eee00349aed",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "2a2d47d1f7adedcfc1257dd300515f06",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:17",
+      "user": "BATCH 00000879",
+      "unid": "78eda3acf6535506c1257d7300506927",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "04a56fe892828a45c1257a0e0047b1ec",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE001",
+    "0112/2///61360_4#AAE022",
+    "0112/2///61360_4#AAE683",
+    "0112/2///61360_4#AAE685",
+    "0112/2///61360_4#AAE687",
+    "0112/2///61360_4#AAE753",
+    "0112/2///61360_4#AAF276",
+    "0112/2///61360_4#AAF277",
+    "0112/2///61360_4#AAF278",
+    "0112/2///61360_4#AAF279",
+    "0112/2///61360_4#AAF318",
+    "0112/2///61360_4#AAF344",
+    "0112/2///61360_4#AAF356",
+    "0112/2///61360_4#AAF357",
+    "0112/2///61360_4#AAF358",
+    "0112/2///61360_4#AAF359",
+    "0112/2///61360_4#AAF362",
+    "0112/2///61360_4#AAF363",
+    "0112/2///61360_4#AAF369",
+    "0112/2///61360_4#AAF372",
+    "0112/2///61360_4#AAF376",
+    "0112/2///61360_4#AAF388",
+    "0112/2///61360_4#AAF391",
+    "0112/2///61360_4#AAF392",
+    "0112/2///61360_4#AAF393",
+    "0112/2///61360_4#AAF394",
+    "0112/2///61360_4#AAF395",
+    "0112/2///61360_4#AAF396",
+    "0112/2///61360_4#AAF411",
+    "0112/2///61360_4#AAF412",
+    "0112/2///61360_4#AAF413",
+    "0112/2///61360_4#AAF419",
+    "0112/2///61360_4#AAF420",
+    "0112/2///61360_4#AAF429",
+    "0112/2///61360_4#AAF430",
+    "0112/2///61360_4#AAF431",
+    "0112/2///61360_4#AAF435",
+    "0112/2///61360_4#AAF437",
+    "0112/2///61360_4#AAF472",
+    "0112/2///61360_4#AAH548",
+    "0112/2///61360_4#AAH549"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA000",
+  "superclass_type_property": "0112/2///61360_4#AAA000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2020-01-17 14:23:30",
+    "user": "BATCH 00001172",
+    "change_request_id": null,
+    "unid": "12927f894c309c69c12584f200499024"
+  }
+}

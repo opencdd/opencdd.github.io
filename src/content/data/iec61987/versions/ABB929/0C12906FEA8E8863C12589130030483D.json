@@ -1,0 +1,153 @@
+{
+  "irdi": "0112/2///61987#ABB929",
+  "code": "ABB929",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "maximum fluid supply",
+  "preferred_name_ml": {
+    "en": "maximum fluid supply",
+    "fr": "quantité maximale de fluide fournie",
+    "de": "maximale Versorgung mit pneumatischer oder hydraulischer Energie"
+  },
+  "definition": "highest flow of fluid provided by a pneumatic/hydraulic power supply or pneumatic/hydraulic output",
+  "definition_ml": {
+    "en": "highest flow of fluid provided by a pneumatic/hydraulic power supply or pneumatic/hydraulic output",
+    "fr": "flux de fluide le plus élevé fourni par une alimentation de puissance pneumatique/hydraulique auxiliaire ou une sortie pneumatique/hydraulique",
+    "de": "höchste Durchflussmenge, die von einer pneumatischen oder hydraulischen Energieversorgung oder einem pneumatischen oder hydraulischen Ausgang bereitgestellt wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB929",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum fluid supply",
+    "MDC_P006.en": "highest flow of fluid provided by a pneumatic/hydraulic power supply or pneumatic/hydraulic output",
+    "MDC_P023": "kg/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA607",
+    "C0104": "0112/2///61987#ABT545",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "quantité maximale de fluide fournie",
+    "MDC_P006.fr": "flux de fluide le plus élevé fourni par une alimentation de puissance pneumatique/hydraulique auxiliaire ou une sortie pneumatique/hydraulique",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "maximale Versorgung mit pneumatischer oder hydraulischer Energie",
+    "MDC_P006.de": "höchste Durchflussmenge, die von einer pneumatischen oder hydraulischen Energieversorgung oder einem pneumatischen oder hydraulischen Ausgang bereitgestellt wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "0C12906FEA8E8863C12589130030483D",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "6d8f03cfe5ac9325c125825e001deb7a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "2a9bbd746674c6dcc1258256003e95a9",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:29",
+      "user": "BATCH 00000732",
+      "unid": "f5a476a6eb8a95a0c12580d6004c2028",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:08",
+      "user": "BATCH 00000715",
+      "unid": "4512928d62d61cb0c1257f7f004d0265",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:56",
+      "user": "BATCH 00000717",
+      "unid": "8b0f90afa1a7af28c1257fa700405b5d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:41",
+      "user": "BATCH 00000702",
+      "unid": "a0e31b68111c4608c1257cfb00403e02",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "2692295829297abec1257cb40054bfbf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA607",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "0C12906FEA8E8863C12589130030483D"
+  }
+}

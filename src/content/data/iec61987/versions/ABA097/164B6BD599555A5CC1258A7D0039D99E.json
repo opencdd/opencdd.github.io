@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABA097",
+  "code": "ABA097",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "interference immunity",
+  "preferred_name_ml": {
+    "en": "interference immunity",
+    "fr": "immunité vis-à-vis des interférences",
+    "de": "Störungssicherheit"
+  },
+  "definition": "electromagnetic environment in which the device is or should be designed to operate within the specified accuracy limits",
+  "definition_ml": {
+    "en": "electromagnetic environment in which the device is or should be designed to operate within the specified accuracy limits",
+    "fr": "environnement électromagnétique dans lequel l’appareil est ou doit être conçu pour fonctionner dans les limites de précision spécifiées",
+    "de": "elektromagnetische Umgebung, für die das Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb der angegebenen Genauigkeitsgrenzen betrieben wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA097",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "interference immunity",
+    "MDC_P006.en": "electromagnetic environment in which the device is or should be designed to operate within the specified accuracy limits",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "immunité vis-à-vis des interférences",
+    "MDC_P006.fr": "environnement électromagnétique dans lequel l’appareil est ou doit être conçu pour fonctionner dans les limites de précision spécifiées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Störungssicherheit",
+    "MDC_P006.de": "elektromagnetische Umgebung, für die das Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb der angegebenen Genauigkeitsgrenzen betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:52",
+      "user": "BATCH 00000818",
+      "unid": "164B6BD599555A5CC1258A7D0039D99E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "915093770fe121b4c125825e001de57d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "ca6256f94e4a2176c1257cb40054b9e8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:52",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "164B6BD599555A5CC1258A7D0039D99E"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "irdi": "0112/2///61987#ABA565",
+  "code": "ABA565",
+  "version": "9",
+  "revision": "3",
+  "preferred_name": "name of manufacturer",
+  "preferred_name_ml": {
+    "en": "name of manufacturer",
+    "fr": "fabricant",
+    "de": "Name des Herstellers"
+  },
+  "short_name": "Manufacturer",
+  "short_name_ml": {
+    "en": "Manufacturer",
+    "de": "Hersteller"
+  },
+  "definition": "designation of the producer or manufacturer of a product",
+  "definition_ml": {
+    "en": "designation of the producer or manufacturer of a product",
+    "fr": "nom du fabricant d'un appareil",
+    "de": "Bezeichnung des Erzeugers oder Herstellers eines Produkts"
+  },
+  "source_document": "IEC 61987-1, 5.1.5",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "DEVICE_VENDOR"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "DEVICE_VENDOR",
+    "fr": "DEVICE_VENDOR",
+    "de": "DEVICE_VENDOR"
+  },
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA031 - name of manufacturer",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA031 - name of manufacturer",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA565",
+    "MDC_P002_1": "9",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "name of manufacturer",
+    "MDC_P007.en": "DEVICE_VENDOR",
+    "MDC_P005.en": "Manufacturer",
+    "MDC_P006.en": "designation of the producer or manufacturer of a product",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA031 - name of manufacturer",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "IEC 61987-1, 5.1.5",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-09-04",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "fabricant",
+    "MDC_P007.fr": "DEVICE_VENDOR",
+    "MDC_P006.fr": "nom du fabricant d'un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Name des Herstellers",
+    "MDC_P007.de": "DEVICE_VENDOR",
+    "MDC_P005.de": "Hersteller",
+    "MDC_P006.de": "Bezeichnung des Erzeugers oder Herstellers eines Produkts",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "009",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "10C822675D61085BC1258D3E003CD64E",
+      "is_current": true
+    },
+    {
+      "version": "009",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "58c18e41eb10b81dc1258c3b004b5be8",
+      "is_current": false
+    },
+    {
+      "version": "009",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "7b6f5cbf17412579c1258a7d0039da33",
+      "is_current": false
+    },
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-09-04 12:52:30",
+      "user": "BATCH 00000812",
+      "unid": "3ecb8c68e66b3958c1258a20003bbd34",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "77a7f10f2de6ac98c125886f003c998c",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "e6672c0fb2ccae34c1258518003c4868",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "9248b6fe6853fbc8c12583b7005026f2",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "4dddbceb4a29606ac125825e001de72b",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:28",
+      "user": "BATCH 00000755",
+      "unid": "3cfb397c9ca7c4ccc1258256003e92f6",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:14",
+      "user": "BATCH 00000756",
+      "unid": "88e9c805e8563c31c1258256004079c4",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "e7cbe743dce4894bc12580d6004c1bd7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "d9082e6f03721054c1257cfb004039b1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "5384eb1e703af3b1c1257cb40054bb6e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-09-04",
+    "current_revision": "2025-11-10"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "009",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "10C822675D61085BC1258D3E003CD64E"
+  }
+}

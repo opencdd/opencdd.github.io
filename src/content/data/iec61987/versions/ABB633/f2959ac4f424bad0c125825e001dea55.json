@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB633",
+  "code": "ABB633",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:45",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "f2959ac4f424bad0c125825e001dea55"
+  }
+}

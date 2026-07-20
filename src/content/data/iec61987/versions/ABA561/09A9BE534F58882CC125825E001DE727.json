@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61987#ABA561",
+  "code": "ABA561",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "freezing point",
+  "preferred_name_ml": {
+    "en": "freezing point",
+    "fr": "point de congélation",
+    "de": "Gefrierpunkt"
+  },
+  "definition": "temperature at which a liquid or vapour changes to the solid state at a given operating pressure",
+  "definition_ml": {
+    "en": "temperature at which a liquid or vapour changes to the solid state at a given operating pressure",
+    "fr": "température à laquelle un liquide ou la vapeur passe à l'état solide à la pression de fonctionnement donnée",
+    "de": "Temperatur, bei der eine Flüssigkeit oder ein Gas bei gegebenem Betriebsdruck in den Festzustand übergeht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA561",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "freezing point",
+    "MDC_P006.en": "temperature at which a liquid or vapour changes to the solid state at a given operating pressure",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "point de congélation",
+    "MDC_P006.fr": "température à laquelle un liquide ou la vapeur passe à l'état solide à la pression de fonctionnement donnée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Gefrierpunkt",
+    "MDC_P006.de": "Temperatur, bei der eine Flüssigkeit oder ein Gas bei gegebenem Betriebsdruck in den Festzustand übergeht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "09A9BE534F58882CC125825E001DE727",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "cfb737260bbc4afec12580d6004c1bd3",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:07",
+      "user": "BATCH 00000715",
+      "unid": "4d2cab34453c78d3c1257f7f004d01df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "b5cfe18b6b8ae22bc1257fa70040594f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "49f7c0a51464d468c1257cfb004039ad",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "25f8feaaa6f4fa08c1257cb40054bb6a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:37",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "09A9BE534F58882CC125825E001DE727"
+  }
+}

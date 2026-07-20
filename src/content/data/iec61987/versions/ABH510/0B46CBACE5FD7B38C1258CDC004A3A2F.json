@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABH510",
+  "code": "ABH510",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "delivery form of document",
+  "preferred_name_ml": {
+    "en": "delivery form of document",
+    "de": "Lieferform des Dokuments"
+  },
+  "definition": "physical or digital format in which a document is or is to be supplied to the user",
+  "definition_ml": {
+    "en": "physical or digital format in which a document is or is to be supplied to the user",
+    "de": "physisches oder digitales Format, in dem ein Dokument an den Anwender geliefert wird oder werden soll"
+  },
+  "synonyms": [],
+  "note": "form in which device documentation is to be supplied to the user",
+  "note_ml": {
+    "en": "form in which device documentation is to be supplied to the user"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH510",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "delivery form of document",
+    "MDC_P006.en": "physical or digital format in which a document is or is to be supplied to the user",
+    "MDC_P008.en": "form in which device documentation is to be supplied to the user",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABO104)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Lieferform des Dokuments",
+    "MDC_P006.de": "physisches oder digitales Format, in dem ein Dokument an den Anwender geliefert wird oder werden soll",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-05-03",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "0B46CBACE5FD7B38C1258CDC004A3A2F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:58",
+      "user": "BATCH 00000794",
+      "unid": "df233200e209f9fac125886f003c9ae2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "e4f115e31ccc6cd5c12583b700502719",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO104)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABO104)",
+  "value_list": "0112/2///61987#ABO104",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "0B46CBACE5FD7B38C1258CDC004A3A2F"
+  }
+}

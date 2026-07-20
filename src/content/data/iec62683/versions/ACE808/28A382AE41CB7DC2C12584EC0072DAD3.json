@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///62683#ACE808",
+  "code": "ACE808",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "product mass",
+  "preferred_name_ml": {
+    "en": "product mass",
+    "fr": "masse du produit",
+    "de": "Produkt-gewicht",
+    "zh": "产品重量"
+  },
+  "definition": "value of the mass of the product with all fixed parts",
+  "definition_ml": {
+    "en": "value of the mass of the product with all fixed parts",
+    "fr": "valeur de la masse du produit avec tous les éléments fixés",
+    "de": "Gewichts des Produkts mit allen festen Teilen.",
+    "zh": "产品及其所有固定部件的质量值"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "net weight"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "net weight",
+    "fr": "Poids net"
+  },
+  "note": "Without packaging and accessories.",
+  "note_ml": {
+    "en": "Without packaging and accessories.",
+    "fr": "Sans emballage ni accessoires.",
+    "de": "ANMERKUNG:  Ohne Verpackung und Zubehör.",
+    "zh": "不包括包装和附件。"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00073",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE808",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "product mass",
+    "MDC_P007.en": "net weight",
+    "MDC_P006.en": "value of the mass of the product with all fixed parts",
+    "MDC_P008.en": "Without packaging and accessories.",
+    "MDC_P023": "g",
+    "MDC_P111": "{kilogram,ounce,pound}",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC066",
+    "MDC_P041": "0112/2///62720#UAA465",
+    "MDC_P042": "{0112/2///62720#UAA594,0112/2///62720#UAA917,0112/2///62720#UAA668}",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-01-18",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "masse du produit",
+    "MDC_P007.fr": "Poids net",
+    "MDC_P006.fr": "valeur de la masse du produit avec tous les éléments fixés",
+    "MDC_P008.fr": "Sans emballage ni accessoires.",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-11-26",
+    "MDC_P004.de": "Produkt-gewicht",
+    "MDC_P006.de": "Gewichts des Produkts mit allen festen Teilen.",
+    "MDC_P008.de": "ANMERKUNG:  Ohne Verpackung und Zubehör.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "产品重量",
+    "MDC_P006.zh": "产品及其所有固定部件的质量值",
+    "MDC_P008.zh": "不包括包装和附件。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00073"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "28A382AE41CB7DC2C12584EC0072DAD3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "3ad790bb0acbd5f2c125803000457116",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-01-18",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "value_format": "NR2..3.2",
+  "definition_class_irdi": "0112/2///62683#ACC066",
+  "unit_irdi": "0112/2///62720#UAA465",
+  "alternative_unit_irdis": [
+    "0112/2///62720#UAA594",
+    "0112/2///62720#UAA917",
+    "0112/2///62720#UAA668"
+  ],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.2",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:31",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "28A382AE41CB7DC2C12584EC0072DAD3"
+  }
+}

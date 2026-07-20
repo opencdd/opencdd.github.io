@@ -1,0 +1,141 @@
+{
+  "irdi": "0112/2///61987#ABA250",
+  "code": "ABA250",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "number of LPG approvals",
+  "preferred_name_ml": {
+    "en": "number of LPG approvals",
+    "fr": "nombre d'agréments de GPL",
+    "de": "Anzahl der Flüssiggaszulassungen"
+  },
+  "definition": "@number of LPG approvals",
+  "definition_ml": {
+    "en": "@number of LPG approvals",
+    "fr": "propriété de cardinalité pour les agréments de GPL",
+    "de": "Kardinalitätsmerkmal für Flüssiggaszulassung"
+  },
+  "synonyms": [],
+  "remark": "cardinality property",
+  "remark_ml": {
+    "en": "cardinality property"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA250",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of LPG approvals",
+    "MDC_P006.en": "@number of LPG approvals",
+    "MDC_P009.en": "cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "nombre d'agréments de GPL",
+    "MDC_P006.fr": "propriété de cardinalité pour les agréments de GPL",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Anzahl der Flüssiggaszulassungen",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Flüssiggaszulassung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:34",
+      "user": "BATCH 00000762",
+      "unid": "745EEF7466418FBEC125825E001DE603",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "b98767248fbc4083c1258256003e9543",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "f96a9e3a744d5c2ec125825600407a5e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "331d2367d443cce5c12580d6004c1ac8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:11",
+      "user": "BATCH 00000717",
+      "unid": "7f2632ea7fdd61e4c1257fa7004049be",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:28",
+      "user": "BATCH 00000702",
+      "unid": "6df0fd713c8c205bc1257cfb004038a2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:27",
+      "user": "BATCH 00000699",
+      "unid": "5fd01a356eaa72eac1257cb40054ba5f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:34",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "745EEF7466418FBEC125825E001DE603"
+  }
+}

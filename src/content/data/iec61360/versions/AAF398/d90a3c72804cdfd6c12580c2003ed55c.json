@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF398",
+  "code": "AAF398",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2017-02-09 12:26:18",
+    "user": "BATCH 00001006",
+    "change_request_id": null,
+    "unid": "d90a3c72804cdfd6c12580c2003ed55c"
+  }
+}

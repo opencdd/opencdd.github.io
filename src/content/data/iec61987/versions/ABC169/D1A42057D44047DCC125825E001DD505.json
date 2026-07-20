@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///61987#ABC169",
+  "code": "ABC169",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Conformance test",
+  "preferred_name_ml": {
+    "en": "Conformance test",
+    "fr": "Essai de conformité",
+    "de": "Konformitätsprüfung"
+  },
+  "definition": "properties characterizing tests designed to check a particular mechanical or physical property of the device which is important to its use in a particular application",
+  "definition_ml": {
+    "en": "properties characterizing tests designed to check a particular mechanical or physical property of the device which is important to its use in a particular application",
+    "fr": "propriétés caractérisant les essais conçus pour vérifier une propriété mécanique ou physique particulière de l’appareil qui est importante pour son utilisation dans une application particulière",
+    "de": "Merkmale, die Prüfungen auf eine bestimmte mechanische oder physische Eigenschaft des Geräts kennzeichnen, die für den Einsatz in einer bestimmten Anwendung relevant ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC169",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Conformance test",
+    "MDC_P006.en": "properties characterizing tests designed to check a particular mechanical or physical property of the device which is important to its use in a particular application",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA279,0112/2///61987#ABA280}",
+    "MDC_P004.fr": "Essai de conformité",
+    "MDC_P006.fr": "propriétés caractérisant les essais conçus pour vérifier une propriété mécanique ou physique particulière de l’appareil qui est importante pour son utilisation dans une application particulière",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Konformitätsprüfung",
+    "MDC_P006.de": "Merkmale, die Prüfungen auf eine bestimmte mechanische oder physische Eigenschaft des Geräts kennzeichnen, die für den Einsatz in einer bestimmten Anwendung relevant ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "D1A42057D44047DCC125825E001DD505",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:07",
+      "user": "BATCH 00000755",
+      "unid": "f86a86bf7285aa63c1258256003e7345",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:43:56",
+      "user": "BATCH 00000756",
+      "unid": "bbc797071ae070cdc125825600407280",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:59",
+      "user": "BATCH 00000732",
+      "unid": "a538958460bcd474c12580d6004bfcfc",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:12",
+      "user": "BATCH 00000714",
+      "unid": "590dce1c1fb07c1dc1257f7e0033a7be",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:37",
+      "user": "BATCH 00000701",
+      "unid": "2cb07241a252e16ac1257cfb003f9823",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "76532809d416005bc1257cb400549b6f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA279",
+    "0112/2///61987#ABA280"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:50",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D1A42057D44047DCC125825E001DD505"
+  }
+}

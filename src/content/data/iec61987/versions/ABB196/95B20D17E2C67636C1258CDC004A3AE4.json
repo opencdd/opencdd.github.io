@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///61987#ABB196",
+  "code": "ABB196",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "type of pressure measurement variable",
+  "preferred_name_ml": {
+    "en": "type of pressure measurement variable",
+    "fr": "type de variable de mesure de pression",
+    "de": "Art der Druckmessgröße"
+  },
+  "definition": "classification of a pressure measurement according to the quantity being measured",
+  "definition_ml": {
+    "en": "classification of a pressure measurement according to the quantity being measured",
+    "fr": "classification d'une mesure de pression en fonction de la quantité mesurée",
+    "de": "Charakterisierung einer Druckmessung  bezüglich der Ausgangsgröße"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB196",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of pressure measurement variable",
+    "MDC_P006.en": "classification of a pressure measurement according to the quantity being measured",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL271)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type de variable de mesure de pression",
+    "MDC_P006.fr": "classification d'une mesure de pression en fonction de la quantité mesurée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art der Druckmessgröße",
+    "MDC_P006.de": "Charakterisierung einer Druckmessung  bezüglich der Ausgangsgröße",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "95B20D17E2C67636C1258CDC004A3AE4",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "e928f0a060ca14e2c1258518003c48d5",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "50215744e5373deac12583b700502704",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "e413dc32ae5eebefc125825e001de8a5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "2af424ed9d611b51c1257cb40054bceb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL271)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL271)",
+  "value_list": "0112/2///61987#ABL271",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "95B20D17E2C67636C1258CDC004A3AE4"
+  }
+}

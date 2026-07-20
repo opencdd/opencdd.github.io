@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAE769",
+  "code": "AAE769",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2012-05-30 14:53:54",
+    "user": "BATCH 00000787",
+    "change_request_id": null,
+    "unid": "6a9a0f6e65059292c1257a0e0046da70"
+  }
+}

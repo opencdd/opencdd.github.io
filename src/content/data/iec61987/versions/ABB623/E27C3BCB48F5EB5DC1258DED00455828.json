@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61987#ABB623",
+  "code": "ABB623",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "upper limit-value of prop. range of manufacturer-spec. pulse/frequency signal",
+  "preferred_name_ml": {
+    "en": "upper limit-value of prop. range of manufacturer-spec. pulse/frequency signal",
+    "fr": "valeur limite sup. d'étendue proport. signal imp./fréq. spéc. au fabricant",
+    "de": "oberer Grenzwert Proportionalbereich eines herstellerspez. Puls/Frequenzsignals"
+  },
+  "definition": "highest value that an analog pulse/frequency signal can assume and still exhibit linear behaviour",
+  "definition_ml": {
+    "en": "highest value that an analog pulse/frequency signal can assume and still exhibit linear behaviour",
+    "fr": "valeur la plus élevée qu'un signal d'impulsion/fréquence analogique peut prendre en étant encore proportionnel au signal de mesure",
+    "de": "höchster Wert, den ein analoges Puls-/Frequenzsignal annehmen kann, ohne dass das Signal nichtlinear wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB623",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "upper limit-value of prop. range of manufacturer-spec. pulse/frequency signal",
+    "MDC_P006.en": "highest value that an analog pulse/frequency signal can assume and still exhibit linear behaviour",
+    "MDC_P023": "Hz",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA170",
+    "C0104": "0112/2///61987#ABT561",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-06",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur limite sup. d'étendue proport. signal imp./fréq. spéc. au fabricant",
+    "MDC_P006.fr": "valeur la plus élevée qu'un signal d'impulsion/fréquence analogique peut prendre en étant encore proportionnel au signal de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "oberer Grenzwert Proportionalbereich eines herstellerspez. Puls/Frequenzsignals",
+    "MDC_P006.de": "höchster Wert, den ein analoges Puls-/Frequenzsignal annehmen kann, ohne dass das Signal nichtlinear wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "E27C3BCB48F5EB5DC1258DED00455828",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "271f8eed02e03403c12589130030483a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "dead555f26f3380dc125825e001dea4b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:55",
+      "user": "BATCH 00000717",
+      "unid": "3c1d6540995b5f22c1257fa700405a9f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "786502174dc56e62c1257cfb00403cd3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "329294da8906a964c1257cb40054be90",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-06",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA170",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "E27C3BCB48F5EB5DC1258DED00455828"
+  }
+}

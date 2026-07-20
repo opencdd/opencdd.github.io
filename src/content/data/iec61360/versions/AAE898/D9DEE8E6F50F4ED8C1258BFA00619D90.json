@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61360_4#AAE898",
+  "code": "AAE898",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "input capacitance",
+  "preferred_name_ml": {
+    "en": "input capacitance"
+  },
+  "short_name": "C_IN",
+  "short_name_ml": {
+    "en": "C_IN"
+  },
+  "definition": "capacitance between the input terminal and the reference ground terminal of an integrated circuit, at specified conditions",
+  "definition_ml": {
+    "en": "capacitance between the input terminal and the reference ground terminal of an integrated circuit, at specified conditions"
+  },
+  "synonyms": [],
+  "note": "The value is given at input voltage, supply voltage and ambient temperature.",
+  "note_ml": {
+    "en": "The value is given at input voltage, supply voltage and ambient temperature."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE898",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "input capacitance",
+    "MDC_P005.en": "C_IN",
+    "MDC_P006.en": "capacitance between the input terminal and the reference ground terminal of an integrated circuit, at specified conditions",
+    "MDC_P008.en": "The value is given at input voltage, supply voltage and ambient temperature.",
+    "MDC_P025_1": "C_IN}",
+    "MDC_P025_3": "C_I}, C_in}",
+    "MDC_P023": "F",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E09",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA144",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE224,0112/2///61360_4#AAE102,0112/2///61360_4#AAE014}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:13",
+      "user": "BATCH 00001336",
+      "unid": "D9DEE8E6F50F4ED8C1258BFA00619D90",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:29",
+      "user": "BATCH 00000907",
+      "unid": "1f1530b324ff9600c1257e8b0032372a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:35",
+      "user": "BATCH 00000904",
+      "unid": "7a9d8d3678b8c2d6c1257e8a0043e4ff",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "09cfa25c5ce53c87c1257db30042e18a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "9bb22c3e89714f64c1257a0e0047bd38",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:55",
+      "user": "BATCH 00000787",
+      "unid": "9421137b5de80dccc1257a0e0046dab8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2015-03-13",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "C_IN}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA144",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE224,0112/2///61360_4#AAE102,0112/2///61360_4#AAE014}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:13",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "D9DEE8E6F50F4ED8C1258BFA00619D90"
+  }
+}

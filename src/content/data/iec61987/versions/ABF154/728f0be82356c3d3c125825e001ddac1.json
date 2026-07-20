@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF154",
+  "code": "ABF154",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:05",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "728f0be82356c3d3c125825e001ddac1"
+  }
+}

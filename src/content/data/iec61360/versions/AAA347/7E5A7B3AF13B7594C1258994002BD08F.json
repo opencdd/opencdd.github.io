@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61360_4#AAA347",
+  "code": "AAA347",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "axial lead",
+  "preferred_name_ml": {
+    "en": "axial lead"
+  },
+  "short_name": "A",
+  "short_name_ml": {
+    "en": "A"
+  },
+  "definition": "leads extending outwards from the package along one of its axes in opposite directions away from the centre of the package",
+  "definition_ml": {
+    "en": "leads extending outwards from the package along one of its axes in opposite directions away from the centre of the package"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA347",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "A",
+    "MDC_P004.en": "axial lead",
+    "MDC_P006.en": "leads extending outwards from the package along one of its axes in opposite directions away from the centre of the package",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA319",
+    "C021": "0112/2///61360_4#AAG058",
+    "MDC_P014": "{0112/2///61360_4#AAG058}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:34",
+      "user": "BATCH 00001245",
+      "unid": "7E5A7B3AF13B7594C1258994002BD08F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:18",
+      "user": "BATCH 00000998",
+      "unid": "99bc85bd662decd1c12580880052e245",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:02",
+      "user": "BATCH 00000997",
+      "unid": "e27cda52aa1c4797c12580880051d9f3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "37cd3ad32d543d22c1257dd300516052",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "bdd78d0eb4869a44c1257d7300506a79",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:08",
+      "user": "BATCH 00000788",
+      "unid": "eaae58b9553dcf03c1257a0e0047b2d6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG058"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA319",
+  "superclass_type_property": "0112/2///61360_4#AAA319",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:34",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "7E5A7B3AF13B7594C1258994002BD08F"
+  }
+}

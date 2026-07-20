@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61360_4#ADA214",
+  "code": "ADA214",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "measures for reliability related concepts",
+  "preferred_name_ml": {
+    "en": "measures for reliability related concepts",
+    "de": "Messgrößen für Funktionsfähigkeitskonzepte"
+  },
+  "definition": "concept of measures for describing the reliability of an item",
+  "definition_ml": {
+    "en": "concept of measures for describing the reliability of an item"
+  },
+  "source_document": "IEV 192-05:2015",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA214",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "measures for reliability related concepts",
+    "MDC_P006.en": "concept of measures for describing the reliability of an item",
+    "MDC_P006_1": "IEV 192-05:2015",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#ADA137",
+    "MDC_P014": "{0112/2///61360_4#ADA191,0112/2///61360_4#ADA192,0112/2///61360_4#ADA193,0112/2///61360_4#ADA194,0112/2///61360_4#ADA195,0112/2///61360_4#ADA196,0112/2///61360_4#ADA197,0112/2///61360_4#ADA198,0112/2///61360_4#ADA199,0112/2///61360_4#ADA200,0112/2///61360_4#ADA201,0112/2///61360_4#ADA202,0112/2///61360_4#ADA203}",
+    "MDC_P004.de": "Messgrößen für Funktionsfähigkeitskonzepte",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "3B7CFBF796B49EA7C1258994002BD1B8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:02",
+      "user": "BATCH 00001062",
+      "unid": "6463c3445873d988c1258407003de4b7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA191",
+    "0112/2///61360_4#ADA192",
+    "0112/2///61360_4#ADA193",
+    "0112/2///61360_4#ADA194",
+    "0112/2///61360_4#ADA195",
+    "0112/2///61360_4#ADA196",
+    "0112/2///61360_4#ADA197",
+    "0112/2///61360_4#ADA198",
+    "0112/2///61360_4#ADA199",
+    "0112/2///61360_4#ADA200",
+    "0112/2///61360_4#ADA201",
+    "0112/2///61360_4#ADA202",
+    "0112/2///61360_4#ADA203"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ADA137",
+  "superclass_type_property": "0112/2///61360_4#ADA137",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "3B7CFBF796B49EA7C1258994002BD1B8"
+  }
+}

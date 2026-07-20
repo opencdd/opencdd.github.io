@@ -1,0 +1,149 @@
+{
+  "irdi": "0112/2///61987#ABA611",
+  "code": "ABA611",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "short-circuit current",
+  "preferred_name_ml": {
+    "en": "short-circuit current",
+    "fr": "courant de court-circuit",
+    "de": "Kurzschlussstrom"
+  },
+  "definition": "overcurrent resulting from a short-circuit due to a fault or an incorrect connection in an electric circuit",
+  "definition_ml": {
+    "en": "overcurrent resulting from a short-circuit due to a fault or an incorrect connection in an electric circuit",
+    "fr": "surintensité résultant d’un court-circuit dû à un défaut ou à un branchement incorrect dans un circuit électrique",
+    "de": "Überstrom aufgrund eines Kurzschlusses durch einen Ausfall oder einen falschen Anschluss in einem Stromkreis"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA611",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "short-circuit current",
+    "MDC_P006.en": "overcurrent resulting from a short-circuit due to a fault or an incorrect connection in an electric circuit",
+    "MDC_P023": "A",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C0104": "0112/2///61987#ABT567",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "courant de court-circuit",
+    "MDC_P006.fr": "surintensité résultant d’un court-circuit dû à un défaut ou à un branchement incorrect dans un circuit électrique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Kurzschlussstrom",
+    "MDC_P006.de": "Überstrom aufgrund eines Kurzschlusses durch einen Ausfall oder einen falschen Anschluss in einem Stromkreis",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "29437685015829A5C125825E001DE758",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:29",
+      "user": "BATCH 00000755",
+      "unid": "01f8ad65a41d8901c1258256003e9366",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "09fac61f0d768673c12580d6004c1c04",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:01",
+      "user": "BATCH 00000715",
+      "unid": "8abdbc2200399085c1257f7f004cff7a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "4e6d59a5942eda14c1257f7e0030f1c6",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "95df49272fad68c8c1257fa7003a3cfe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "2c27b5c068958dfcc1257cfb004039de",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "b6ccbca57558b7ffc1257cb40054bb9b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:37",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "29437685015829A5C125825E001DE758"
+  }
+}

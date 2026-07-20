@@ -1,0 +1,154 @@
+{
+  "irdi": "0112/2///61987#ABB136",
+  "code": "ABB136",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "material of gasket",
+  "preferred_name_ml": {
+    "en": "material of gasket",
+    "fr": "matériau du joint",
+    "de": "Werkstoff der Dichtung"
+  },
+  "definition": "material of which a mechanical gasket or seal is made",
+  "definition_ml": {
+    "en": "material of which a mechanical gasket or seal is made",
+    "fr": "matériau dans lequel un joint mécanique ou un joint est fabriqué",
+    "de": "Werkstoff, aus dem eine mechanische Dichtung oder Abdichtung hergestellt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB136",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "material of gasket",
+    "MDC_P006.en": "material of which a mechanical gasket or seal is made",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ739)",
+    "MDC_P068": "0112/2///61987#ABJ739",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "matériau du joint",
+    "MDC_P006.fr": "matériau dans lequel un joint mécanique ou un joint est fabriqué",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Werkstoff der Dichtung",
+    "MDC_P006.de": "Werkstoff, aus dem eine mechanische Dichtung oder Abdichtung hergestellt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "6EE6F94C72C14136C1258CDC004A3CB0",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "b4cf575cda105071c125891300304832",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "fa4dcba4126b9ea8c1258518003c48cb",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:40",
+      "user": "BATCH 00000762",
+      "unid": "31b21ea8c6b863afc125825e001de86a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "6ba66d6a95e3dd7bc125825600407b45",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:21",
+      "user": "BATCH 00000732",
+      "unid": "f132cbccb47b1fe7c12580d6004c1d19",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:33",
+      "user": "BATCH 00000702",
+      "unid": "5a755da704d1b005c1257cfb00403af3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "0e3de3384d935528c1257cb40054bcb0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "constraint": "0112/2///61987#ABJ739",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ739)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ739)",
+  "value_list": "0112/2///61987#ABJ739",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "6EE6F94C72C14136C1258CDC004A3CB0"
+  }
+}

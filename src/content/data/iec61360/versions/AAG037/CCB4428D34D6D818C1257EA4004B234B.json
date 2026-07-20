@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAG037",
+  "code": "AAG037",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "quantity of terminal positions",
+  "preferred_name_ml": {
+    "en": "quantity of terminal positions"
+  },
+  "short_name": "n",
+  "short_name_ml": {
+    "en": "n"
+  },
+  "definition": "total quantity of potential terminal positions in accordance with the specified terminal designation system",
+  "definition_ml": {
+    "en": "total quantity of potential terminal positions in accordance with the specified terminal designation system"
+  },
+  "source_document": "BS3934 issue 1 : 1975",
+  "synonyms": [],
+  "remark": "The actual quantity of terminals present may be less than n",
+  "remark_ml": {
+    "en": "The actual quantity of terminals present may be less than n"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG037",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "quantity of terminal positions",
+    "MDC_P005.en": "n",
+    "MDC_P006.en": "total quantity of potential terminal positions in accordance with the specified terminal designation system",
+    "MDC_P009.en": "The actual quantity of terminals present may be less than n",
+    "MDC_P025_1": "n",
+    "MDC_P023": "1",
+    "MDC_P022": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P006_1": "BS3934 issue 1 : 1975",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P008_2": "DAE004",
+    "MDC_P040": "Q56",
+    "MDC_P021": "0112/2///61360_4#AAA303",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:42",
+      "user": "BATCH 00000917",
+      "unid": "CCB4428D34D6D818C1257EA4004B234B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:35",
+      "user": "BATCH 00000907",
+      "unid": "832afd80174fafb3c1257e8b0032397a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:41",
+      "user": "BATCH 00000904",
+      "unid": "0bd1f944efec9221c1257e8a0043e76e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:00",
+      "user": "BATCH 00000704",
+      "unid": "78793bd1ac11742ec125787f0042a6a0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "n",
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA303",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:42",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "CCB4428D34D6D818C1257EA4004B234B"
+  }
+}

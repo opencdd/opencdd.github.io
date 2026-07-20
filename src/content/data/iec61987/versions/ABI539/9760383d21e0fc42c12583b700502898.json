@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABI539",
+  "code": "ABI539",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2019-03-08 15:35:32",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "9760383d21e0fc42c12583b700502898"
+  }
+}

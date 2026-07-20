@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAE045",
+  "code": "AAE045",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "rated voltage (ac)",
+  "preferred_name_ml": {
+    "en": "rated voltage (ac)"
+  },
+  "short_name": "U_Rac",
+  "short_name_ml": {
+    "en": "U_Rac"
+  },
+  "definition": "maximum rms alternating voltage of mains frequency (50-60 Hz), which may be applied continuously to a film capacitor at any operating ambient temperature below the rated temperature",
+  "definition_ml": {
+    "en": "maximum rms alternating voltage of mains frequency (50-60 Hz), which may be applied continuously to a film capacitor at any operating ambient temperature below the rated temperature"
+  },
+  "source_document": "IEC/TC40(Sec)2250(02.90) (1986)",
+  "synonyms": [],
+  "note": "IEC has changed its definition from rms into peak value in IEC/TC40(Sec)2250(02.90) (1986).",
+  "note_ml": {
+    "en": "IEC has changed its definition from rms into peak value in IEC/TC40(Sec)2250(02.90) (1986)."
+  },
+  "remark": "For ac capacitors: rated voltage (ac). |For dc capacitors: max. ac voltage.",
+  "remark_ml": {
+    "en": "For ac capacitors: rated voltage (ac). |For dc capacitors: max. ac voltage."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE045",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "rated voltage (ac)",
+    "MDC_P005.en": "U_Rac",
+    "MDC_P006.en": "maximum rms alternating voltage of mains frequency (50-60 Hz), which may be applied continuously to a film capacitor at any operating ambient temperature below the rated temperature",
+    "MDC_P008.en": "IEC has changed its definition from rms into peak value in IEC/TC40(Sec)2250(02.90) (1986).",
+    "MDC_P009.en": "For ac capacitors: rated voltage (ac). |For dc capacitors: max. ac voltage.",
+    "MDC_P025_1": "U_Rac}",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC/TC40(Sec)2250(02.90) (1986)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "141D1AF8D390C3E5C1257EA4004B1EA7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "354f57d835ae549cc1257e8b003234f6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "17280da16a07a356c1257e8a0043e2ca",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "2ff43123ed50c14ec1257a0e0047bb1b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:49",
+      "user": "BATCH 00000787",
+      "unid": "2212f6585b21dbcfc1257a0e0046d89b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "U_Rac}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:30",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "141D1AF8D390C3E5C1257EA4004B1EA7"
+  }
+}

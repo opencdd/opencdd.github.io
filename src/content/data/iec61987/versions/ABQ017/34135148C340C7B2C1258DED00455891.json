@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABQ017",
+  "code": "ABQ017",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "days remaining until next calibration (based on dynamic maintenance interval)",
+  "preferred_name_ml": {
+    "en": "days remaining until next calibration (based on dynamic maintenance interval)",
+    "de": "verbleibende Tage bis nächste Kalibrierung (dynamisches Wartungsintervall)"
+  },
+  "short_name": "Dyn Days to Calib",
+  "short_name_ml": {
+    "en": "Dyn Days to Calib",
+    "de": "dyn Kal.-Tage"
+  },
+  "definition": "time expressed in days that can elapse until the next calibration, estimated from operational or historical information",
+  "definition_ml": {
+    "en": "time expressed in days that can elapse until the next calibration, estimated from operational or historical information",
+    "de": "Zeit ausgedrückt in Tagen, die bis zur nächsten Kalibrierung verstreichen kann, geschätzt aus Betriebs- und historischen Informationen"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABQ017",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "days remaining until next calibration (based on dynamic maintenance interval)",
+    "MDC_P005.en": "Dyn Days to Calib",
+    "MDC_P006.en": "time expressed in days that can elapse until the next calibration, estimated from operational or historical information",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P023": "day",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA407",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2024-06-14",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "verbleibende Tage bis nächste Kalibrierung (dynamisches Wartungsintervall)",
+    "MDC_P005.de": "dyn Kal.-Tage",
+    "MDC_P006.de": "Zeit ausgedrückt in Tagen, die bis zur nächsten Kalibrierung verstreichen kann, geschätzt aus Betriebs- und historischen Informationen",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:26",
+      "user": "BATCH 00000863",
+      "unid": "34135148C340C7B2C1258DED00455891",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:06",
+      "user": "BATCH 00000835",
+      "unid": "c545e5ed20544f10c1258c3b004b5bba",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-06-14",
+    "current_version": "2025-02-24",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA407",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:26",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "34135148C340C7B2C1258DED00455891"
+  }
+}

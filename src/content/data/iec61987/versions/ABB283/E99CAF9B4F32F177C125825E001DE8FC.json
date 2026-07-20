@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABB283",
+  "code": "ABB283",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "number of accuracies for a subrange of other variable",
+  "preferred_name_ml": {
+    "en": "number of accuracies for a subrange of other variable",
+    "fr": "nombre d'exactitudes pour une sous-plage d'une autre variable",
+    "de": "Anzahl der Genauigkeiten für einen Teilbereich von weiterer Messgröße"
+  },
+  "definition": "@number of accuracies for a subrange of other variable",
+  "definition_ml": {
+    "en": "@number of accuracies for a subrange of other variable",
+    "fr": "propriété de cardinalité pour une exactitude pour une sous-plage d'une autre variable",
+    "de": "Kardinalitätsmerkmal für Genauigkeit für einen Teilbereich einer weiteren Messgröße"
+  },
+  "synonyms": [],
+  "remark": "cardinality property",
+  "remark_ml": {
+    "en": "cardinality property"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB283",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "number of accuracies for a subrange of other variable",
+    "MDC_P006.en": "@number of accuracies for a subrange of other variable",
+    "MDC_P009.en": "cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "nombre d'exactitudes pour une sous-plage d'une autre variable",
+    "MDC_P006.fr": "propriété de cardinalité pour une exactitude pour une sous-plage d'une autre variable",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Anzahl der Genauigkeiten für einen Teilbereich von weiterer Messgröße",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Genauigkeit für einen Teilbereich einer weiteren Messgröße",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "E99CAF9B4F32F177C125825E001DE8FC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "aa94a9e0299b516ac1257cfb00403b84",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "c90948b4e91d20edc1257cb40054bd41",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "E99CAF9B4F32F177C125825E001DE8FC"
+  }
+}

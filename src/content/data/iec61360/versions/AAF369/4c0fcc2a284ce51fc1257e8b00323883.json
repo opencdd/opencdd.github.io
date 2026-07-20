@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF369",
+  "code": "AAF369",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:32",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "4c0fcc2a284ce51fc1257e8b00323883"
+  }
+}

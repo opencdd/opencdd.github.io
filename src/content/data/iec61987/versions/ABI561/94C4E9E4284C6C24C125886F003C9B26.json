@@ -1,0 +1,83 @@
+{
+  "irdi": "0112/2///61987#ABI561",
+  "code": "ABI561",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "reference to Regular inspection",
+  "preferred_name_ml": {
+    "en": "reference to Regular inspection"
+  },
+  "definition": "reference to block ABI482",
+  "definition_ml": {
+    "en": "reference to block ABI482"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABI561",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Regular inspection",
+    "MDC_P006.en": "reference to block ABI482",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABI482)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P028": "{0112/2///61987#ABI500}",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:58",
+      "user": "BATCH 00000794",
+      "unid": "94C4E9E4284C6C24C125886F003C9B26",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:32",
+      "user": "BATCH 00000766",
+      "unid": "4aff5cb43fc846e2c12583b7005028a8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABI482)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI500}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABI482)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:58",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "94C4E9E4284C6C24C125886F003C9B26"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61987#ABA048",
+  "code": "ABA048",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "designation of digital communication channel",
+  "preferred_name_ml": {
+    "en": "designation of digital communication channel",
+    "fr": "désignation de la voie de communication numérique",
+    "de": "Bezeichnung des digitalen Kommunikationskanals"
+  },
+  "definition": "alphanumeric character sequence identifying a digital communication channel",
+  "definition_ml": {
+    "en": "alphanumeric character sequence identifying a digital communication channel",
+    "fr": "séquence de caractères alphanumériques identifiant une voie de communication numérique",
+    "de": "alphanumerische Zeichenfolge, die einen digitalen Kommunikationskanal identifiziert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA048",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "designation of digital communication channel",
+    "MDC_P006.en": "alphanumeric character sequence identifying a digital communication channel",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "désignation de la voie de communication numérique",
+    "MDC_P006.fr": "séquence de caractères alphanumériques identifiant une voie de communication numérique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Bezeichnung des digitalen Kommunikationskanals",
+    "MDC_P006.de": "alphanumerische Zeichenfolge, die einen digitalen Kommunikationskanal identifiziert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:52",
+      "user": "BATCH 00000818",
+      "unid": "B86FB7975BDEDAC6C1258A7D0039D983",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "6f7b2cc5cc4b8b0bc125825e001de55c",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "e3f62fdfe89b40f3c1258256003e93ab",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "6af768dcbae74096c12580d6004c1a2f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "c47d92abbeb899fbc1257cfb00403809",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:25",
+      "user": "BATCH 00000699",
+      "unid": "a8a09b6ba70d8bafc1257cb40054b9c6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:52",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "B86FB7975BDEDAC6C1258A7D0039D983"
+  }
+}

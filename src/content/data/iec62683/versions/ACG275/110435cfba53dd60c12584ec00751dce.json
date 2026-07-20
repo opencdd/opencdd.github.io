@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG275",
+  "code": "ACG275",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:19:13",
+    "user": "BATCH 00000747",
+    "change_request_id": null,
+    "unid": "110435cfba53dd60c12584ec00751dce"
+  }
+}

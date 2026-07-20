@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61360_4#ADA096",
+  "code": "ADA096",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "conformity attestation",
+  "preferred_name_ml": {
+    "en": "conformity attestation"
+  },
+  "definition": "collection of properties providing information about the attestation of a conformity assessment that fulfilment of specified requirements has been demonstrated",
+  "definition_ml": {
+    "en": "collection of properties providing information about the attestation of a conformity assessment that fulfilment of specified requirements has been demonstrated"
+  },
+  "source_document": "ISO/IEC 17000:2004, 5.2",
+  "synonyms": [],
+  "note": "The resulting statement conveys the assurance that the specified requirements have been fulfilled. Such an assurance does not, of itself, afford contractual or other legal guarantees.",
+  "note_ml": {
+    "en": "The resulting statement conveys the assurance that the specified requirements have been fulfilled. Such an assurance does not, of itself, afford contractual or other legal guarantees."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA096",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "conformity attestation",
+    "MDC_P006.en": "collection of properties providing information about the attestation of a conformity assessment that fulfilment of specified requirements has been demonstrated",
+    "MDC_P008.en": "The resulting statement conveys the assurance that the specified requirements have been fulfilled. Such an assurance does not, of itself, afford contractual or other legal guarantees.",
+    "MDC_P006_1": "ISO/IEC 17000:2004, 5.2",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#ADA092",
+    "MDC_P014": "{0112/2///61360_4#ADA097,0112/2///61360_4#ADA098,0112/2///61360_4#ADA099,0112/2///61360_4#ADA121,0112/2///61360_4#ADA120}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "A9BB2476A5951D95C1258994002BD1AC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-06 16:22:00",
+      "user": "BATCH 00001051",
+      "unid": "587b87874e84488fc12582e1004eeb69",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA097",
+    "0112/2///61360_4#ADA098",
+    "0112/2///61360_4#ADA099",
+    "0112/2///61360_4#ADA121",
+    "0112/2///61360_4#ADA120"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ADA092",
+  "superclass_type_property": "0112/2///61360_4#ADA092",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "A9BB2476A5951D95C1258994002BD1AC"
+  }
+}

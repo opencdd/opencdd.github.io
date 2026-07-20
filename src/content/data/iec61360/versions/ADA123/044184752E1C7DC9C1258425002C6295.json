@@ -1,0 +1,76 @@
+{
+  "irdi": "0112/2///61360_4#ADA123",
+  "code": "ADA123",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "period of warranty for wearable goods",
+  "preferred_name_ml": {
+    "en": "period of warranty for wearable goods"
+  },
+  "definition": "period of time for which a manufacturer or its representative is contractually committed to fulfill his warrenty premises for wearable goods",
+  "definition_ml": {
+    "en": "period of time for which a manufacturer or its representative is contractually committed to fulfill his warrenty premises for wearable goods"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA123",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "period of warranty for wearable goods",
+    "MDC_P006.en": "period of time for which a manufacturer or its representative is contractually committed to fulfill his warrenty premises for wearable goods",
+    "MDC_P023": "year",
+    "MDC_P022": "INT_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A31",
+    "MDC_P021": "0112/2///61360_4#ADA112",
+    "MDC_P041": "0112/2///62720#UAB026",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-06-26",
+    "MDC_P003_3": "2019-06-26"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2019-06-26 10:04:48",
+      "user": "BATCH 00001070",
+      "unid": "044184752E1C7DC9C1258425002C6295",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-07 10:21:16",
+      "user": "BATCH 00001052",
+      "unid": "505cd7553e6f8f71c12582e2002de4b0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2019-06-26"
+  },
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#ADA112",
+  "unit_irdi": "0112/2///62720#UAB026",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INTEGER_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "type": "property",
+  "data_type": "INTEGER_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2019-06-26 10:04:48",
+    "user": "BATCH 00001070",
+    "change_request_id": null,
+    "unid": "044184752E1C7DC9C1258425002C6295"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "irdi": "0112/2///61987#ABA051",
+  "code": "ABA051",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "type of communication variable",
+  "preferred_name_ml": {
+    "en": "type of communication variable",
+    "fr": "type de variable de communication",
+    "de": "Art der Kommunikationsgrößen"
+  },
+  "definition": "classification of a communication variable according to its associated I/O block",
+  "definition_ml": {
+    "en": "classification of a communication variable according to its associated I/O block",
+    "fr": "classification d'une variable de communication en fonction de son bloc E/S associé",
+    "de": "Charakterisierung einer Kommunikationsgröße bezüglich ihres zugeordneten I/O-Blocks"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA051",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of communication variable",
+    "MDC_P006.en": "classification of a communication variable according to its associated I/O block",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL289)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type de variable de communication",
+    "MDC_P006.fr": "classification d'une variable de communication en fonction de son bloc E/S associé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art der Kommunikationsgrößen",
+    "MDC_P006.de": "Charakterisierung einer Kommunikationsgröße bezüglich ihres zugeordneten I/O-Blocks",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "4F9BB2E9C9090D8CC1258CDC004A3CB7",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2023-01-23 14:53:50",
+      "user": "BATCH 00000807",
+      "unid": "6133f7894fb1e5a2c1258940004c575a",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:25",
+      "user": "BATCH 00000774",
+      "unid": "fce091a03a57429bc1258518003c4802",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "d2729b30210a0c97c125825e001de55e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "98ba8590ec4ea6fcc1258256003e93ad",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "1ddb526a2bb1806dc12580d6004c1a31",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "3139d77a6d75d431c1257cfb0040380b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:25",
+      "user": "BATCH 00000699",
+      "unid": "38c077d8b17c7d08c1257cb40054b9c8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL289)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL289)",
+  "value_list": "0112/2///61987#ABL289",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "4F9BB2E9C9090D8CC1258CDC004A3CB7"
+  }
+}

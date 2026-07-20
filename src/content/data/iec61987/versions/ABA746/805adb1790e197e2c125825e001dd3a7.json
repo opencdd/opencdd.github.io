@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA746",
+  "code": "ABA746",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:25:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "805adb1790e197e2c125825e001dd3a7"
+  }
+}

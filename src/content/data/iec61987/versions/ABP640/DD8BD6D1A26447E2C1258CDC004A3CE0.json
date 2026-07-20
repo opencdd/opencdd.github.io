@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABP640",
+  "code": "ABP640",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "style of pH sensing element",
+  "preferred_name_ml": {
+    "en": "style of pH sensing element",
+    "de": "Art des pH-Sensorelements"
+  },
+  "short_name": "pH Elem.",
+  "short_name_ml": {
+    "en": "pH Elem.",
+    "de": "pH-Sensor"
+  },
+  "definition": "physical measuring method of a pH sensor",
+  "definition_ml": {
+    "en": "physical measuring method of a pH sensor",
+    "de": "physikalisches Messverfahren eines pH-Sensors"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP640",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of pH sensing element",
+    "MDC_P005.en": "pH Elem.",
+    "MDC_P006.en": "physical measuring method of a pH sensor",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABP712)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2023-03-06",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art des pH-Sensorelements",
+    "MDC_P005.de": "pH-Sensor",
+    "MDC_P006.de": "physikalisches Messverfahren eines pH-Sensors",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-03-06",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "DD8BD6D1A26447E2C1258CDC004A3CE0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:04",
+      "user": "BATCH 00000835",
+      "unid": "86f32c5ddcd4f2fcc1258c3b004b5ac9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-03-06",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP712)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP712)",
+  "value_list": "0112/2///61987#ABP712",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "DD8BD6D1A26447E2C1258CDC004A3CE0"
+  }
+}

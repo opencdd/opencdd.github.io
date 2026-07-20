@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAE424",
+  "code": "AAE424",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "power gain",
+  "preferred_name_ml": {
+    "en": "power gain"
+  },
+  "short_name": "G_p",
+  "short_name_ml": {
+    "en": "G_p"
+  },
+  "definition": "value as specified by level (minTypmax) of the ratio of the output power to the input power of a bipolar transistor or wideband amplifier at specified supply voltage, frequency, output power and temperature of a temperature type",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the ratio of the output power to the input power of a bipolar transistor or wideband amplifier at specified supply voltage, frequency, output power and temperature of a temperature type"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE424",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "power gain",
+    "MDC_P005.en": "G_p",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the ratio of the output power to the input power of a bipolar transistor or wideband amplifier at specified supply voltage, frequency, output power and temperature of a temperature type",
+    "MDC_P023": "dB",
+    "MDC_P022": "LEVEL(MIN,TYP,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E49",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-13",
+    "MDC_P003_1": "2025-08-13",
+    "MDC_P003_2": "2025-08-13",
+    "MDC_P003_3": "2025-08-13",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE955}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "deleted (2025-02-26 19:19:38)",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "29947421d66e68b3c1257ea4004b1fba",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "deleted (2025-02-26 19:21:13)",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "04ca530be3e21474c1257e8b00323609",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "deleted (2025-02-26 19:21:39)",
+      "timestamp": "2015-07-22 14:21:32",
+      "user": "BATCH 00000904",
+      "unid": "4441f135eeb8a81cc1257e8a0043e3dd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "deleted (2025-02-26 19:21:40)",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "ec470e7b7581198ac1257a0e0047bc24",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "deleted (2025-02-26 19:21:40)",
+      "timestamp": "2012-05-30 14:53:52",
+      "user": "BATCH 00000787",
+      "unid": "3eceeb1028115c2cc1257a0e0046d9a4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-13 09:53:59",
+      "user": "BATCH 00001404",
+      "unid": "35B6010964AEED8FC1258CE5002B653A",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2025-08-13",
+    "current_version": "2025-08-13",
+    "current_revision": "2025-08-13"
+  },
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,TYP,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE955}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,TYP,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "deleted (2025-02-26 19:19:38)",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "29947421d66e68b3c1257ea4004b1fba"
+  }
+}

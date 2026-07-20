@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC261",
+  "code": "ABC261",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:34:38",
+    "user": "BATCH 00000701",
+    "change_request_id": null,
+    "unid": "d38e8713e7e47c2bc1257cfb003f987c"
+  }
+}

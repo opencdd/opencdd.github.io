@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAF043",
+  "code": "AAF043",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "national standard",
+  "preferred_name_ml": {
+    "en": "national standard"
+  },
+  "short_name": "nat standard",
+  "short_name_ml": {
+    "en": "nat standard"
+  },
+  "definition": "reference to a regional or national standard describing a component",
+  "definition_ml": {
+    "en": "reference to a regional or national standard describing a component"
+  },
+  "synonyms": [],
+  "remark": "AFNOR = Association Francaise de Normalisation |ANSI = American National Standards Institute |ASTM = American Society for Testing and Materials |BEC = Belgisch Elektrotechnisch Comite |BIN = Belgisch Instituut voor Normalisatie |BSI = British Standards Institution |CSA = Canadian Standards Association |DIN = Deutsches Institut fur Normung |MIL = Military specification |NNI = Nederlands Normalisatie Instituut |UL = Underwriters Laboratories |UNE = Instituto Nacional de Racionalizacion y Normalizacion (IRANOR) |UNI = Ente Nazionale Italiona di Unificiazione",
+  "remark_ml": {
+    "en": "AFNOR = Association Francaise de Normalisation |ANSI = American National Standards Institute |ASTM = American Society for Testing and Materials |BEC = Belgisch Elektrotechnisch Comite |BIN = Belgisch Instituut voor Normalisatie |BSI = British Standards Institution |CSA = Canadian Standards Association |DIN = Deutsches Institut fur Normung |MIL = Military specification |NNI = Nederlands Normalisatie Instituut |UL = Underwriters Laboratories |UNE = Instituto Nacional de Racionalizacion y Normalizacion (IRANOR) |UNI = Ente Nazionale Italiona di Unificiazione"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF043",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "national standard",
+    "MDC_P005.en": "nat standard",
+    "MDC_P006.en": "reference to a regional or national standard describing a component",
+    "MDC_P009.en": "AFNOR = Association Francaise de Normalisation |ANSI = American National Standards Institute |ASTM = American Society for Testing and Materials |BEC = Belgisch Elektrotechnisch Comite |BIN = Belgisch Instituut voor Normalisatie |BSI = British Standards Institution |CSA = Canadian Standards Association |DIN = Deutsches Institut fur Normung |MIL = Military specification |NNI = Nederlands Normalisatie Instituut |UL = Underwriters Laboratories |UNE = Instituto Nacional de Racionalizacion y Normalizacion (IRANOR) |UNI = Ente Nazionale Italiona di Unificiazione",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A61",
+    "MDC_P021": "0112/2///61360_4#ADA080",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-10",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2025-07-10",
+    "MDC_P003_3": "2025-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-10 07:43:38",
+      "user": "BATCH 00001389",
+      "unid": "98ECEB6819AC1824C1258CC3001F75EF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:37",
+      "user": "BATCH 00000917",
+      "unid": "57c6595b7273778fc1257ea4004b213a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:30",
+      "user": "BATCH 00000907",
+      "unid": "4b0e8a2376aced36c1257e8b00323783",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:36",
+      "user": "BATCH 00000904",
+      "unid": "a46a0e956668fa28c1257e8a0043e55d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "b500174a9d3f2e01c1257a0e0047bd97",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:56",
+      "user": "BATCH 00000787",
+      "unid": "df3cb81eda991180c1257a0e0046db17",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2025-07-10",
+    "current_revision": "2025-07-10"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#ADA080",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-10 07:43:38",
+    "user": "BATCH 00001389",
+    "change_request_id": null,
+    "unid": "98ECEB6819AC1824C1258CC3001F75EF"
+  }
+}

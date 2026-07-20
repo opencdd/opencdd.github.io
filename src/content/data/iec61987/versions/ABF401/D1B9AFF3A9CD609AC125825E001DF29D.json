@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABF401",
+  "code": "ABF401",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "number of RTD/resistance measurements",
+  "preferred_name_ml": {
+    "en": "number of RTD/resistance measurements",
+    "de": "Anzahl der WTH-/Widerstandsmessungen"
+  },
+  "definition": "@number of RTD/resistance measurements",
+  "definition_ml": {
+    "en": "@number of RTD/resistance measurements",
+    "de": "Kardinalitätsmerkmal für WTH-/Widerstandsmessung"
+  },
+  "synonyms": [],
+  "remark": "Cardinality property",
+  "remark_ml": {
+    "en": "Cardinality property"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF401",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "number of RTD/resistance measurements",
+    "MDC_P006.en": "@number of RTD/resistance measurements",
+    "MDC_P009.en": "Cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "Anzahl der WTH-/Widerstandsmessungen",
+    "MDC_P006.de": "Kardinalitätsmerkmal für WTH-/Widerstandsmessung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:06",
+      "user": "BATCH 00000762",
+      "unid": "D1B9AFF3A9CD609AC125825E001DF29D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:42",
+      "user": "BATCH 00000732",
+      "unid": "af641b23da9b76cec12580d6004c254a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:06",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D1B9AFF3A9CD609AC125825E001DF29D"
+  }
+}

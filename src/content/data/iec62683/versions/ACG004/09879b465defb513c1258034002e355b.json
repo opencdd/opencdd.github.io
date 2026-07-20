@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG004",
+  "code": "ACG004",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2016-09-20 10:24:43",
+    "user": "BATCH 00000705",
+    "change_request_id": null,
+    "unid": "09879b465defb513c1258034002e355b"
+  }
+}

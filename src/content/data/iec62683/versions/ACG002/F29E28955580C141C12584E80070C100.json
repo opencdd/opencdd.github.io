@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///62683#ACG002",
+  "code": "ACG002",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "General technical data",
+  "preferred_name_ml": {
+    "en": "General technical data",
+    "fr": "Données techniques générales",
+    "de": "Allgemeine technische Daten",
+    "zh": "一般技术数据"
+  },
+  "definition": "general technical aspects of the circuit-breaker",
+  "definition_ml": {
+    "en": "general technical aspects of the circuit-breaker",
+    "fr": "aspects techniques généraux du disjoncteur",
+    "de": "Allgemeine technische Gesichtspunkte eines Leistungsschalters",
+    "zh": "断路器技术方面的一般数据。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG002",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "General technical data",
+    "MDC_P006.en": "general technical aspects of the circuit-breaker",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2013-07-29",
+    "MDC_P003_3": "2016-09-20",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC012}",
+    "MDC_P090": "{0112/2///62683#ACE214,0112/2///62683#ACE247,0112/2///62683#ACE248,0112/2///62683#ACE204,0112/2///62683#ACE243,0112/2///62683#ACE239}",
+    "MDC_P004.fr": "Données techniques générales",
+    "MDC_P006.fr": "aspects techniques généraux du disjoncteur",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Allgemeine technische Daten",
+    "MDC_P006.de": "Allgemeine technische Gesichtspunkte eines Leistungsschalters",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-11-06",
+    "MDC_P004.zh": "一般技术数据",
+    "MDC_P006.zh": "断路器技术方面的一般数据。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "F29E28955580C141C12584E80070C100",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "bc3db852f7e205f9c1258034002e3558",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "02ff62050aaf942fc12580300045022f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2013-07-29",
+    "current_revision": "2016-09-20"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC012"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE214",
+    "0112/2///62683#ACE247",
+    "0112/2///62683#ACE248",
+    "0112/2///62683#ACE204",
+    "0112/2///62683#ACE243",
+    "0112/2///62683#ACE239"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "F29E28955580C141C12584E80070C100"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61987#ABN621",
+  "code": "ABN621",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "volume concentration (per volume)",
+  "preferred_name_ml": {
+    "en": "volume concentration (per volume)",
+    "de": "Volumenkonzentration (volumenbezogen)"
+  },
+  "definition": "quotient from the constituent volume of a mixture and the total volume of that mixture",
+  "definition_ml": {
+    "en": "quotient from the constituent volume of a mixture and the total volume of that mixture",
+    "de": "Quotient aus dem Volumen des Bestandteils eines Gemischs und dem gesamten Volumen des Gemischs"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN621",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "volume concentration (per volume)",
+    "MDC_P006.en": "quotient from the constituent volume of a mixture and the total volume of that mixture",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABP480",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Volumenkonzentration (volumenbezogen)",
+    "MDC_P006.de": "Quotient aus dem Volumen des Bestandteils eines Gemischs und dem gesamten Volumen des Gemischs",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:03",
+      "user": "BATCH 00000835",
+      "unid": "C996BD066153AC03C1258C3B004B5A5C",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "6a317905b8c4418bc125886f003c9b50",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "27dc5b65d2baf08ac1258518003fd7d3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:33",
+      "user": "BATCH 00000774",
+      "unid": "51a5222b694b464ac1258518003c4ac6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:03",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "C996BD066153AC03C1258C3B004B5A5C"
+  }
+}

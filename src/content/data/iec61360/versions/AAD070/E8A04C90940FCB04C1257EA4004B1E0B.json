@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61360_4#AAD070",
+  "code": "AAD070",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "die step dimension x",
+  "preferred_name_ml": {
+    "en": "die step dimension x"
+  },
+  "short_name": "D",
+  "short_name_ml": {
+    "en": "D"
+  },
+  "definition": "nominal value of the step interval of die patterns on a wafer measured in the direction of the x axis of the coordinate system established for the wafer",
+  "definition_ml": {
+    "en": "nominal value of the step interval of die patterns on a wafer measured in the direction of the x axis of the coordinate system established for the wafer"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "remark": "The length of the die will normally be closely related to the step interval but the precise value depends on width of saw cuts, tolerances etc.",
+  "remark_ml": {
+    "en": "The length of the die will normally be closely related to the step interval but the precise value depends on width of saw cuts, tolerances etc."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD070",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "die step dimension x",
+    "MDC_P005.en": "D",
+    "MDC_P006.en": "nominal value of the step interval of die patterns on a wafer measured in the direction of the x axis of the coordinate system established for the wafer",
+    "MDC_P009.en": "The length of the die will normally be closely related to the step interval but the precise value depends on width of saw cuts, tolerances etc.",
+    "MDC_P025_1": "D",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P008_2": "DAE002",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:28",
+      "user": "BATCH 00000917",
+      "unid": "E8A04C90940FCB04C1257EA4004B1E0B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "160a7678e77e6a20c1257e8b0032345d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "03ca3d0e8c7620d7c1257e8a0043e22e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:48",
+      "user": "BATCH 00000704",
+      "unid": "668937b7df3d9d56c125787f0042a21d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "D",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:28",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E8A04C90940FCB04C1257EA4004B1E0B"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61360_4#AAA149",
+  "code": "AAA149",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "fuse",
+  "preferred_name_ml": {
+    "en": "fuse"
+  },
+  "short_name": "FUS",
+  "short_name_ml": {
+    "en": "FUS"
+  },
+  "definition": "device that, by the fusing of one or more of their specially-designed and proportioned components, opens the circuit in which they is inserted by breaking the current when this exceeds a given value for a sufficient time",
+  "definition_ml": {
+    "en": "device that, by the fusing of one or more of their specially-designed and proportioned components, opens the circuit in which they is inserted by breaking the current when this exceeds a given value for a sufficient time"
+  },
+  "source_document": "IEV 441-18-01:1984",
+  "synonyms": [],
+  "note": "The fuse comprises all the parts that form the complete device.",
+  "note_ml": {
+    "en": "The fuse comprises all the parts that form the complete device."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA149",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "FUS",
+    "MDC_P004.en": "fuse",
+    "MDC_P006.en": "device that, by the fusing of one or more of their specially-designed and proportioned components, opens the circuit in which they is inserted by breaking the current when this exceeds a given value for a sufficient time",
+    "MDC_P008.en": "The fuse comprises all the parts that form the complete device.",
+    "MDC_P006_1": "IEV 441-18-01:1984",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA147",
+    "C021": "0112/2///61360_4#AAJ012",
+    "MDC_P014": "{0112/2///61360_4#AAE519,0112/2///61360_4#AAE523,0112/2///61360_4#AAE524,0112/2///61360_4#AAE525,0112/2///61360_4#AAF122,0112/2///61360_4#AAF123,0112/2///61360_4#AAJ012,0112/2///61360_4#AAJ034}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "13940980B7A05881C1258994002BD031",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "717cb0686ab7bd77c1257dd300515f94",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "228e721ff22b8e85c1257d73005069bb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "e0186d6d11153a05c1257a0e0047b280",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-08-31",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE519",
+    "0112/2///61360_4#AAE523",
+    "0112/2///61360_4#AAE524",
+    "0112/2///61360_4#AAE525",
+    "0112/2///61360_4#AAF122",
+    "0112/2///61360_4#AAF123",
+    "0112/2///61360_4#AAJ012",
+    "0112/2///61360_4#AAJ034"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA147",
+  "superclass_type_property": "0112/2///61360_4#AAA147",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "13940980B7A05881C1258994002BD031"
+  }
+}

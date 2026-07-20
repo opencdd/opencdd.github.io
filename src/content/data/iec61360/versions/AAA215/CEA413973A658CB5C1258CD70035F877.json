@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAA215",
+  "code": "AAA215",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "magnetic part",
+  "preferred_name_ml": {
+    "en": "magnetic part"
+  },
+  "short_name": "MP",
+  "short_name_ml": {
+    "en": "MP"
+  },
+  "definition": "product consisting entirely of the same magnetic material except for possible coating or finishing of the surface",
+  "definition_ml": {
+    "en": "product consisting entirely of the same magnetic material except for possible coating or finishing of the surface"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "magnetic part"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "magnetic part"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA215",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P005.en": "MP",
+    "MDC_P004.en": "magnetic part",
+    "MDC_P007.en": "magnetic part",
+    "MDC_P006.en": "product consisting entirely of the same magnetic material except for possible coating or finishing of the surface",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-30",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2025-07-30",
+    "MDC_P003_3": "2025-07-30",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA001",
+    "C021": "0112/2///61360_4#AAE759",
+    "MDC_P013": "{0112/2///61360_4#AAA220}",
+    "MDC_P090": "{0112/2///61360_4#AAE759}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-30 11:49:30",
+      "user": "BATCH 00001402",
+      "unid": "CEA413973A658CB5C1258CD70035F877",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "16a37c995fc81aafc1258994002bd04c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "81215967b49b6ebec1257dd300515faf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "e1c97d3f2cbed266c1257d73005069d6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "14dd109c933eb9bec1257a0e0047b29b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2025-07-30",
+    "current_revision": "2025-07-30"
+  },
+  "is_case_of": [
+    "0112/2///61360_4#AAA220"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///61360_4#AAE759"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA001",
+  "superclass_type_property": "0112/2///61360_4#AAA001",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-30 11:49:30",
+    "user": "BATCH 00001402",
+    "change_request_id": null,
+    "unid": "CEA413973A658CB5C1258CD70035F877"
+  }
+}

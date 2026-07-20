@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE259",
+  "code": "AAE259",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "shape/size code BSI",
+  "preferred_name_ml": {
+    "en": "shape/size code BSI"
+  },
+  "short_name": "shape/size",
+  "short_name_ml": {
+    "en": "shape/size"
+  },
+  "definition": "BSI code of the shape/size of an electric-electronic or electromechanical component for placement on printed circuits",
+  "definition_ml": {
+    "en": "BSI code of the shape/size of an electric-electronic or electromechanical component for placement on printed circuits"
+  },
+  "source_document": "BS 6943 (1988)",
+  "synonyms": [],
+  "remark": "The complete code consists of three parts:| a) a two-letter drawing code, followed by| b) a numeric code giving a salient property, which may be either a major dimension or the number of leads, followed by| c) a hyphen and a serial number to distinguish components with the same drawing and numeric codes.| For reference drawings see source document.",
+  "remark_ml": {
+    "en": "The complete code consists of three parts:| a) a two-letter drawing code, followed by| b) a numeric code giving a salient property, which may be either a major dimension or the number of leads, followed by| c) a hyphen and a serial number to distinguish components with the same drawing and numeric codes.| For reference drawings see source document."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE259",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "shape/size code BSI",
+    "MDC_P005.en": "shape/size",
+    "MDC_P006.en": "BSI code of the shape/size of an electric-electronic or electromechanical component for placement on printed circuits",
+    "MDC_P009.en": "The complete code consists of three parts:| a) a two-letter drawing code, followed by| b) a numeric code giving a salient property, which may be either a major dimension or the number of leads, followed by| c) a hyphen and a serial number to distinguish components with the same drawing and numeric codes.| For reference drawings see source document.",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA070)",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "BS 6943 (1988)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:31",
+      "user": "BATCH 00000917",
+      "unid": "9F8CC7A7CE8E3907C1257EA4004B1F33",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:24",
+      "user": "BATCH 00000907",
+      "unid": "f57f0a532d1236d5c1257e8b00323582",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "8054e3caf6d22ab5c1257e8a0043e356",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:30",
+      "user": "BATCH 00000788",
+      "unid": "6dd181db772d941bc1257a0e0047bba7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:51",
+      "user": "BATCH 00000787",
+      "unid": "8fc1f7c1045ce4abc1257a0e0046d927",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA070)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA070)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:31",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "9F8CC7A7CE8E3907C1257EA4004B1F33"
+  }
+}

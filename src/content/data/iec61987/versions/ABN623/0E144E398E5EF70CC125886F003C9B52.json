@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61987#ABN623",
+  "code": "ABN623",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "molar concentration (per mass)",
+  "preferred_name_ml": {
+    "en": "molar concentration (per mass)",
+    "de": "Molkonzentration (massebezogen)"
+  },
+  "definition": "quotient from the constituent number of moles of the particles of a mixture and the total mass of that mixture",
+  "definition_ml": {
+    "en": "quotient from the constituent number of moles of the particles of a mixture and the total mass of that mixture",
+    "de": "Quotient aus der Molzahl des Bestandteils eines Gemischs und der gesamten Masse des Gemischs"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN623",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "molar concentration (per mass)",
+    "MDC_P006.en": "quotient from the constituent number of moles of the particles of a mixture and the total mass of that mixture",
+    "MDC_P023": "mol/kg",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA885",
+    "C0104": "0112/2///61987#ABN975",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2019-08-16",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "Molkonzentration (massebezogen)",
+    "MDC_P006.de": "Quotient aus der Molzahl des Bestandteils eines Gemischs und der gesamten Masse des Gemischs",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "0E144E398E5EF70CC125886F003C9B52",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "de650764547b825dc1258518003fd7d5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-08-16",
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA885",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:59",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "0E144E398E5EF70CC125886F003C9B52"
+  }
+}

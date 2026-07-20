@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61360_4#AAF527",
+  "code": "AAF527",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "basic signal name",
+  "preferred_name_ml": {
+    "en": "basic signal name"
+  },
+  "definition": "short description of the active signal defining the special function of the signal, normally using standardized abbreviations or codes",
+  "definition_ml": {
+    "en": "short description of the active signal defining the special function of the signal, normally using standardized abbreviations or codes"
+  },
+  "source_document": "IEC 61175-1:2014",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61175-1",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00049",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF527",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "basic signal name",
+    "MDC_P006.en": "short description of the active signal defining the special function of the signal, normally using standardized abbreviations or codes",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "IEC 61175-1:2014",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAF525",
+    "C016": "Standard",
+    "C012": "IEC 61175-1",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-07-23",
+    "MDC_P003_1": "2011-11-09",
+    "MDC_P003_2": "2011-11-09",
+    "MDC_P003_3": "2015-07-23",
+    "MDC_P012": "SC3D",
+    "C002": "C00049"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "B67AD9DBFAD58619C1257E8B003238DF",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "bcd30d7300bcbd11c1257e8a0043e6ce",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-06-26 13:08:45",
+      "user": "BATCH 00000892",
+      "unid": "6195765d4a20e1b6c1257e70003d3a19",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-02-18 17:01:55",
+      "user": "BATCH 00000892",
+      "unid": "f08c2949a6a8e249c1257df0005810f6",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-02-18 16:48:04",
+      "user": "BATCH 00000891",
+      "unid": "1699735bc6b31e46c1257df00056cc74",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-01-14 10:12:34",
+      "user": "BATCH 00000886",
+      "unid": "9adaebb2287bee83c1257dcd0032970a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-06-14 18:10:26",
+      "user": "BATCH 00000794",
+      "unid": "689935f1dd308b7ac1257a1d0058d8d1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-11-09",
+    "current_version": "2011-11-09",
+    "current_revision": "2015-07-23"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAF525",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-07-23 11:08:33",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "B67AD9DBFAD58619C1257E8B003238DF"
+  }
+}

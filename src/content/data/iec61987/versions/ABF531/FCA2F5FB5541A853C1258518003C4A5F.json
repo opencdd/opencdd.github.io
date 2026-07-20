@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABF531",
+  "code": "ABF531",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "minimum operating relative permittivity (stilling well)",
+  "preferred_name_ml": {
+    "en": "minimum operating relative permittivity (stilling well)",
+    "de": "minimale Permittivitätszahl (Schwallrohr)"
+  },
+  "definition": "lowest relative permittivity for which a device is or must be designed to operate within its specified limits if used in a stilling well",
+  "definition_ml": {
+    "en": "lowest relative permittivity for which a device is or must be designed to operate within its specified limits if used in a stilling well",
+    "de": "niedrigste Permittivitätszahl, für die ein Gerät ausgelegt oder auszulegen ist, damit es innerhalb seiner Spezifikationen in einem Schwallrohr betrieben wird"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "minimum operating dielectric constant (stilling well"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "minimum operating dielectric constant (stilling well)",
+    "de": "minimale Dielektrizitäskonstante (Schwallrohr)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF531",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "minimum operating relative permittivity (stilling well)",
+    "MDC_P007.en": "minimum operating dielectric constant (stilling well)",
+    "MDC_P006.en": "lowest relative permittivity for which a device is or must be designed to operate within its specified limits if used in a stilling well",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "minimale Permittivitätszahl (Schwallrohr)",
+    "MDC_P007.de": "minimale Dielektrizitäskonstante (Schwallrohr)",
+    "MDC_P006.de": "niedrigste Permittivitätszahl, für die ein Gerät ausgelegt oder auszulegen ist, damit es innerhalb seiner Spezifikationen in einem Schwallrohr betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-07-12",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:31",
+      "user": "BATCH 00000774",
+      "unid": "FCA2F5FB5541A853C1258518003C4A5F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:07",
+      "user": "BATCH 00000762",
+      "unid": "b89ef2ff31cd25b7c125825e001df303",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:31",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "FCA2F5FB5541A853C1258518003C4A5F"
+  }
+}

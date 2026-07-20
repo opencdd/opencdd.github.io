@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABE891",
+  "code": "ABE891",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "base relative permittivity",
+  "preferred_name_ml": {
+    "en": "base relative permittivity",
+    "de": "Bezugspermittivitätszahl"
+  },
+  "definition": "relative permittivity used to calculate variables to reference conditions or to state variables under reference conditions",
+  "definition_ml": {
+    "en": "relative permittivity used to calculate variables to reference conditions or to state variables under reference conditions",
+    "de": "Permittivitätszahl, die benutzt wird, um Prozessgrößen auf Referenzbedingungen umzurechnen oder unter Referenzbedingungen anzugeben"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "base dielectric constant"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "base dielectric constant",
+    "de": "Bezugsdielektrizitätskonstante"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE891",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "base relative permittivity",
+    "MDC_P007.en": "base dielectric constant",
+    "MDC_P006.en": "relative permittivity used to calculate variables to reference conditions or to state variables under reference conditions",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "Bezugspermittivitätszahl",
+    "MDC_P007.de": "Bezugsdielektrizitätskonstante",
+    "MDC_P006.de": "Permittivitätszahl, die benutzt wird, um Prozessgrößen auf Referenzbedingungen umzurechnen oder unter Referenzbedingungen anzugeben",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-07-12",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "41A6DCD583E805EDC1258518003C49F2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:02",
+      "user": "BATCH 00000762",
+      "unid": "b4a47fdf30974d90c125825e001df122",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:30",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "41A6DCD583E805EDC1258518003C49F2"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61987#ABD992",
+  "code": "ABD992",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Process design ratings [5]",
+  "preferred_name_ml": {
+    "en": "Process design ratings [5]",
+    "fr": "Caractéristiques de conception affectées de processus [5]",
+    "de": "Zulässige Prozessbedingungen [5]"
+  },
+  "definition": "properties characterizing the process conditions for which the device is designed",
+  "definition_ml": {
+    "en": "properties characterizing the process conditions for which the device is designed",
+    "fr": "propriétés caractérisant les conditions de processus pour lesquelles un appareil est conçu",
+    "de": "Merkmale, die die Prozessbedingungen kennzeichnen, für die das Gerät ausgelegt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD992",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Process design ratings [5]",
+    "MDC_P006.en": "properties characterizing the process conditions for which the device is designed",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-09-02",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE203,0112/2///61987#ABE147,0112/2///61987#ABC938}",
+    "MDC_P004.fr": "Caractéristiques de conception affectées de processus [5]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions de processus pour lesquelles un appareil est conçu",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Zulässige Prozessbedingungen [5]",
+    "MDC_P006.de": "Merkmale, die die Prozessbedingungen kennzeichnen, für die das Gerät ausgelegt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "CE79231DA18F278DC125825E001DD926",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "b90bd993099e4dbdc1257cb400549e04",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-09-02",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE203",
+    "0112/2///61987#ABE147",
+    "0112/2///61987#ABC938"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "CE79231DA18F278DC125825E001DD926"
+  }
+}

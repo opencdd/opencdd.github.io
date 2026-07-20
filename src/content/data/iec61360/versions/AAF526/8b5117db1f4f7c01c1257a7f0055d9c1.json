@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF526",
+  "code": "AAF526",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2012-09-20 17:37:43",
+    "user": "BATCH 00000801",
+    "change_request_id": null,
+    "unid": "8b5117db1f4f7c01c1257a7f0055d9c1"
+  }
+}

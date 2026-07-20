@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61360_4#ADA137",
+  "code": "ADA137",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "dependability of an item",
+  "preferred_name_ml": {
+    "en": "dependability of an item",
+    "de": "Zuverlässigkeit, einer Einheit"
+  },
+  "definition": "concept describing the ability of an item to perform as and when required",
+  "definition_ml": {
+    "en": "concept describing the ability of an item to perform as and when required"
+  },
+  "source_document": "IEV 192-01-22:2015",
+  "synonyms": [],
+  "note": "Note 1 Dependability includes availability, reliability, recoverability, maintainability, and maintenance support performance, and, in some cases, other characteristics such as durability, safety and security. \r\nNote 2 Dependability is used as a collective term for the time-related quality characteristics of an item.",
+  "note_ml": {
+    "en": "Note 1 Dependability includes availability, reliability, recoverability, maintainability, and maintenance support performance, and, in some cases, other characteristics such as durability, safety and security. \r\nNote 2 Dependability is used as a collective term for the time-related quality characteristics of an item."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA137",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "dependability of an item",
+    "MDC_P006.en": "concept describing the ability of an item to perform as and when required",
+    "MDC_P008.en": "Note 1 Dependability includes availability, reliability, recoverability, maintainability, and maintenance support performance, and, in some cases, other characteristics such as durability, safety and security. \r\nNote 2 Dependability is used as a collective term for the time-related quality characteristics of an item.",
+    "MDC_P006_1": "IEV 192-01-22:2015",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P004.de": "Zuverlässigkeit, einer Einheit",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "8C78A2BC9F71FD19C1258994002BD1B6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:02",
+      "user": "BATCH 00001062",
+      "unid": "c31c58c94e83393ac1258407003de494",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "8C78A2BC9F71FD19C1258994002BD1B6"
+  }
+}

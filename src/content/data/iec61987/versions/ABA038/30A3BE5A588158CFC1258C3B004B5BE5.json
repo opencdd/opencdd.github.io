@@ -1,0 +1,138 @@
+{
+  "irdi": "0112/2///61987#ABA038",
+  "code": "ABA038",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "identification code of device",
+  "preferred_name_ml": {
+    "en": "identification code of device",
+    "de": "Gerätekennzeichnung"
+  },
+  "short_name": "Asset ID",
+  "short_name_ml": {
+    "en": "Asset ID",
+    "de": "Asset ID"
+  },
+  "definition": "customer defined alphanumeric character sequence uniquely identifying a device",
+  "definition_ml": {
+    "en": "customer defined alphanumeric character sequence uniquely identifying a device",
+    "de": "vom Kunden festgelegte alphanumerische Zeichenfolge, die ein Gerät eindeutig identifiziert"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA038",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "identification code of device",
+    "MDC_P005.en": "Asset ID",
+    "MDC_P006.en": "customer defined alphanumeric character sequence uniquely identifying a device",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Gerätekennzeichnung",
+    "MDC_P005.de": "Asset ID",
+    "MDC_P006.de": "vom Kunden festgelegte alphanumerische Zeichenfolge, die ein Gerät eindeutig identifiziert",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-07-23",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "30A3BE5A588158CFC1258C3B004B5BE5",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:52",
+      "user": "BATCH 00000818",
+      "unid": "01fce7b733833e3cc1258a7d0039d97f",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "42d2db38489c67a9c125886f003c997e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:25",
+      "user": "BATCH 00000774",
+      "unid": "edab0c07e5b2d908c1258518003c47fd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:27",
+      "user": "BATCH 00000766",
+      "unid": "b180af2838a531b0c12583b700502692",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "b22fe086596e30c2c125825e001de553",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "30A3BE5A588158CFC1258C3B004B5BE5"
+  }
+}

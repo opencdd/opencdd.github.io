@@ -1,0 +1,144 @@
+{
+  "irdi": "0112/2///61987#ABA179",
+  "code": "ABA179",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "enclosure protection type no/class",
+  "preferred_name_ml": {
+    "en": "enclosure protection type no/class",
+    "de": "Geräteklasse"
+  },
+  "definition": "degree of ingress protection offered by a housing or enclosure",
+  "definition_ml": {
+    "en": "degree of ingress protection offered by a housing or enclosure",
+    "de": "Schutzart eines Gehäuses"
+  },
+  "synonyms": [],
+  "note": "frequently expressed as a NEMA rating",
+  "note_ml": {
+    "en": "frequently expressed as a NEMA rating",
+    "de": "häufig als NEMA- oder UL 50-Einstufung bezeichnet"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA179",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "enclosure protection type no/class",
+    "MDC_P006.en": "degree of ingress protection offered by a housing or enclosure",
+    "MDC_P008.en": "frequently expressed as a NEMA rating",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ757)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "C017.fr": "0",
+    "MDC_P004.de": "Geräteklasse",
+    "MDC_P006.de": "Schutzart eines Gehäuses",
+    "MDC_P008.de": "häufig als NEMA- oder UL 50-Einstufung bezeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "2FFFA9B9CEF12105C1258CDC004A3A51",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "371cfb6c01da3cf9c1258518003c481b",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "952786deef7a4c01c125825e001de5b7",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "3d7a667ef15cdd54c1258256003e9441",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "bd464e6ea73ec64cc12580d6004c1a8e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "9afe81321db9ec66c1257cfb00403868",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "78400c1c87decaecc1257cb40054ba25",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ757)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ757)",
+  "value_list": "0112/2///61987#ABJ757",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "2FFFA9B9CEF12105C1258CDC004A3A51"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABD973",
+  "code": "ABD973",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Performance [10]",
+  "preferred_name_ml": {
+    "en": "Performance [10]",
+    "fr": "Performance [10]",
+    "de": "Leistungsdaten [10]"
+  },
+  "definition": "properties characterizing the performance of the device with regard to measurement accuracy and dynamic behaviour",
+  "definition_ml": {
+    "en": "properties characterizing the performance of the device with regard to measurement accuracy and dynamic behaviour",
+    "fr": "propriétés caractérisant les performances de l’appareil en ce qui concerne l’exactitude de mesure et le comportement dynamique",
+    "de": "Merkmale, die die Leistung des Geräts in Bezug auf Messgenauigkeit und dynamisches Verhalten kennzeichnen"
+  },
+  "source_document": "from IEC 61987-1, 5.6",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD973",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Performance [10]",
+    "MDC_P006.en": "properties characterizing the performance of the device with regard to measurement accuracy and dynamic behaviour",
+    "MDC_P006_1": "from IEC 61987-1, 5.6",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-09-02",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABD594,0112/2///61987#ABD593,0112/2///61987#ABB000,0112/2///61987#ABB661,0112/2///61987#ABD560,0112/2///61987#ABD714,0112/2///61987#ABB079,0112/2///61987#ABD684,0112/2///61987#ABD560}",
+    "MDC_P004.fr": "Performance [10]",
+    "MDC_P006.fr": "propriétés caractérisant les performances de l’appareil en ce qui concerne l’exactitude de mesure et le comportement dynamique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Leistungsdaten [10]",
+    "MDC_P006.de": "Merkmale, die die Leistung des Geräts in Bezug auf Messgenauigkeit und dynamisches Verhalten kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "A670D1D93C5904CCC125825E001DD916",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "b5341c12a524766ec1257cb400549df4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-09-02",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABD594",
+    "0112/2///61987#ABD593",
+    "0112/2///61987#ABB000",
+    "0112/2///61987#ABB661",
+    "0112/2///61987#ABD560",
+    "0112/2///61987#ABD714",
+    "0112/2///61987#ABB079",
+    "0112/2///61987#ABD684",
+    "0112/2///61987#ABD560"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A670D1D93C5904CCC125825E001DD916"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61987#ABD866",
+  "code": "ABD866",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Environmental design conditions [2]",
+  "preferred_name_ml": {
+    "en": "Environmental design conditions [2]",
+    "fr": "Conditions de conception environnementale [2]",
+    "de": "Umgebungsauslegungsbedingungen [2]"
+  },
+  "definition": "properties characterizing environmental conditions under which a device will be operated",
+  "definition_ml": {
+    "en": "properties characterizing environmental conditions under which a device will be operated",
+    "fr": "propriétés caractérisant les conditions environnementales dans lesquelles l’appareil est utilisé",
+    "de": "Merkmale, die die Umgebungsbedingungen kennzeichnen, unter denen ein Gerät betrieben wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD866",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Environmental design conditions [2]",
+    "MDC_P006.en": "properties characterizing environmental conditions under which a device will be operated",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE202,0112/2///61987#ABC946,0112/2///61987#ABC816}",
+    "MDC_P004.fr": "Conditions de conception environnementale [2]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions environnementales dans lesquelles l’appareil est utilisé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Umgebungsauslegungsbedingungen [2]",
+    "MDC_P006.de": "Merkmale, die die Umgebungsbedingungen kennzeichnen, unter denen ein Gerät betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:00",
+      "user": "BATCH 00000762",
+      "unid": "5C44C84F6E3A5D56C125825E001DD8C8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:05",
+      "user": "BATCH 00000732",
+      "unid": "8ea9dcf538f26f83c12580d6004bff64",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:13",
+      "user": "BATCH 00000699",
+      "unid": "732fa59930916d14c1257cb400549da6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE202",
+    "0112/2///61987#ABC946",
+    "0112/2///61987#ABC816"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:00",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "5C44C84F6E3A5D56C125825E001DD8C8"
+  }
+}

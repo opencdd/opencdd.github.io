@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#AAR017",
+  "code": "AAR017",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "pollution degree",
+  "preferred_name_ml": {
+    "en": "pollution degree"
+  },
+  "short_name": "PD",
+  "short_name_ml": {
+    "en": "PD"
+  },
+  "definition": "code for a numeric level characterizing the specified maximum pollution of the micro-environment of a relay",
+  "definition_ml": {
+    "en": "code for a numeric level characterizing the specified maximum pollution of the micro-environment of a relay"
+  },
+  "source_document": "IEC 60664-1 (1.3.13) (1992)",
+  "synonyms": [],
+  "remark": "Pollution degrees 1, 2, 3 and 4 are used.",
+  "remark_ml": {
+    "en": "Pollution degrees 1, 2, 3 and 4 are used."
+  },
+  "status_level": "Standard",
+  "publisher": "SC3D",
+  "published_in": "3D/90/CD",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAR017",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "pollution degree",
+    "MDC_P005.en": "PD",
+    "MDC_P006.en": "code for a numeric level characterizing the specified maximum pollution of the micro-environment of a relay",
+    "MDC_P009.en": "Pollution degrees 1, 2, 3 and 4 are used.",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA315)",
+    "MDC_P024": "X 3",
+    "MDC_P006_1": "IEC 60664-1 (1.3.13) (1992)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "3D/90/CD",
+    "C011": "SC3D",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-05-28",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "B53E851556154286C1257EA4004B2484",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "f57ffe49c5935969c1257e8b00323ab3",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:44",
+      "user": "BATCH 00000904",
+      "unid": "7f23718a38bf1eebc1257e8a0043e8a7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:03",
+      "user": "BATCH 00000704",
+      "unid": "7d5f3b93eea071a5c125787f0042a7c0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-05-28",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "X 3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA315)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA315)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "B53E851556154286C1257EA4004B2484"
+  }
+}

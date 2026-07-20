@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61360_4#AAA139",
+  "code": "AAA139",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "display tube",
+  "preferred_name_ml": {
+    "en": "display tube"
+  },
+  "short_name": "CRT",
+  "short_name_ml": {
+    "en": "CRT"
+  },
+  "definition": "signal-to-image converter tube in which a well defined and controllable beam of electrons is produced and directed on to a surface to give a visible or otherwise detectable display or effect",
+  "definition_ml": {
+    "en": "signal-to-image converter tube in which a well defined and controllable beam of electrons is produced and directed on to a surface to give a visible or otherwise detectable display or effect"
+  },
+  "source_document": "IEV 531-33-02:1974",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "display tube (CRT"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "display tube (CRT)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA139",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "CRT",
+    "MDC_P004.en": "display tube",
+    "MDC_P007.en": "display tube (CRT)",
+    "MDC_P006.en": "signal-to-image converter tube in which a well defined and controllable beam of electrons is produced and directed on to a surface to give a visible or otherwise detectable display or effect",
+    "MDC_P006_1": "IEV 531-33-02:1974",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA138",
+    "C021": "0112/2///61360_4#AAF202",
+    "MDC_P014": "{0112/2///61360_4#AAE581,0112/2///61360_4#AAE588,0112/2///61360_4#AAE589,0112/2///61360_4#AAE590,0112/2///61360_4#AAE592,0112/2///61360_4#AAE593,0112/2///61360_4#AAE594,0112/2///61360_4#AAE595,0112/2///61360_4#AAE596,0112/2///61360_4#AAE598,0112/2///61360_4#AAE605,0112/2///61360_4#AAE606,0112/2///61360_4#AAE804,0112/2///61360_4#AAF202,0112/2///61360_4#AAF203,0112/2///61360_4#AAF204,0112/2///61360_4#AAF205,0112/2///61360_4#AAF271,0112/2///61360_4#AAF272,0112/2///61360_4#AAF315}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "0388DC0DCABF54D9C1258994002BD027",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "86b23380ae64c6c1c1257dd300515f8a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "42de9ec82ef3d8c3c1257d73005069b1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "ce00e041e0936511c1257a0e0047b276",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE581",
+    "0112/2///61360_4#AAE588",
+    "0112/2///61360_4#AAE589",
+    "0112/2///61360_4#AAE590",
+    "0112/2///61360_4#AAE592",
+    "0112/2///61360_4#AAE593",
+    "0112/2///61360_4#AAE594",
+    "0112/2///61360_4#AAE595",
+    "0112/2///61360_4#AAE596",
+    "0112/2///61360_4#AAE598",
+    "0112/2///61360_4#AAE605",
+    "0112/2///61360_4#AAE606",
+    "0112/2///61360_4#AAE804",
+    "0112/2///61360_4#AAF202",
+    "0112/2///61360_4#AAF203",
+    "0112/2///61360_4#AAF204",
+    "0112/2///61360_4#AAF205",
+    "0112/2///61360_4#AAF271",
+    "0112/2///61360_4#AAF272",
+    "0112/2///61360_4#AAF315"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA138",
+  "superclass_type_property": "0112/2///61360_4#AAA138",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "0388DC0DCABF54D9C1258994002BD027"
+  }
+}

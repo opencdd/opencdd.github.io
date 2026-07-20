@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAA071",
+  "code": "AAA071",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "register",
+  "preferred_name_ml": {
+    "en": "register"
+  },
+  "short_name": "REGI",
+  "short_name_ml": {
+    "en": "REGI"
+  },
+  "definition": "one-dimensional arrangement of bistable circuits by means of which information may be accepted, stored, and retrieved",
+  "definition_ml": {
+    "en": "one-dimensional arrangement of bistable circuits by means of which information may be accepted, stored, and retrieved"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA071",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "REGI",
+    "MDC_P004.en": "register",
+    "MDC_P006.en": "one-dimensional arrangement of bistable circuits by means of which information may be accepted, stored, and retrieved",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA064",
+    "MDC_P014": "{0112/2///61360_4#AAF211,0112/2///61360_4#AAF234}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "c229c6803e3ba5d4c1258994002bcfe3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "a1b1f56760fdcb9cc1257dd300515f4a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "ede5e876ed32c0a2c1257d7300506971",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "8c4b8daf54ed9c78c1257a0e0047b232",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF211",
+    "0112/2///61360_4#AAF234"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA064",
+  "superclass_type_property": "0112/2///61360_4#AAA064",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "c229c6803e3ba5d4c1258994002bcfe3"
+  }
+}

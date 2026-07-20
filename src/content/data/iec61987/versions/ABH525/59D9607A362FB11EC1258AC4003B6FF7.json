@@ -1,0 +1,109 @@
+{
+  "irdi": "0112/2///61987#ABH525",
+  "code": "ABH525",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "General Aspect LOP",
+  "preferred_name_ml": {
+    "en": "General Aspect LOP",
+    "de": "Merkmalleiste für allgemeine Aspekte"
+  },
+  "definition": "predefined group of one or more classes for usage for all LOPs",
+  "definition_ml": {
+    "en": "predefined group of one or more classes for usage for all LOPs",
+    "de": "vordefinierte Gruppe von einer oder mehreren Klassen zur Benutzung für alle Merkmalleisten"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00144",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH525",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "General Aspect LOP",
+    "MDC_P006.en": "predefined group of one or more classes for usage for all LOPs",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-02-15",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2024-02-15",
+    "MDC_P003_3": "2024-02-15",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV500",
+    "MDC_P014": "{0112/2///61987#ABA294,0112/2///61987#ABA104,0112/2///61987#ABH499,0112/2///61987#ABC823,0112/2///61987#ABH498,0112/2///61987#ABH518,0112/2///61987#ABH710,0112/2///61987#ABI318,0112/2///61987#ABH831,0112/2///61987#ABI444,0112/2///61987#ABI546,0112/2///61987#ABI547,0112/2///61987#ABI550,0112/2///61987#ABH716,0112/2///61987#ABI549,0112/2///61987#ABI548,0112/2///61987#ABI570}",
+    "MDC_P004.de": "Merkmalleiste für allgemeine Aspekte",
+    "MDC_P006.de": "vordefinierte Gruppe von einer oder mehreren Klassen zur Benutzung für alle Merkmalleisten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2023-09-25",
+    "C002": "C00144"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-02-15 11:49:12",
+      "user": "BATCH 00000823",
+      "unid": "59D9607A362FB11EC1258AC4003B6FF7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:12",
+      "user": "BATCH 00000766",
+      "unid": "2f7d874b92065062c12583b700502082",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2024-02-15",
+    "current_revision": "2024-02-15"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA294",
+    "0112/2///61987#ABA104",
+    "0112/2///61987#ABH499",
+    "0112/2///61987#ABC823",
+    "0112/2///61987#ABH498",
+    "0112/2///61987#ABH518",
+    "0112/2///61987#ABH710",
+    "0112/2///61987#ABI318",
+    "0112/2///61987#ABH831",
+    "0112/2///61987#ABI444",
+    "0112/2///61987#ABI546",
+    "0112/2///61987#ABI547",
+    "0112/2///61987#ABI550",
+    "0112/2///61987#ABH716",
+    "0112/2///61987#ABI549",
+    "0112/2///61987#ABI548",
+    "0112/2///61987#ABI570"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV500",
+  "superclass_type_property": "0112/2///61987#ABV500",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-02-15 11:49:12",
+    "user": "BATCH 00000823",
+    "change_request_id": null,
+    "unid": "59D9607A362FB11EC1258AC4003B6FF7"
+  }
+}

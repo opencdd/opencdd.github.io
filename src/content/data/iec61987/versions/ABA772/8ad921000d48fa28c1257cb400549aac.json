@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA772",
+  "code": "ABA772",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:24:06",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "8ad921000d48fa28c1257cb400549aac"
+  }
+}

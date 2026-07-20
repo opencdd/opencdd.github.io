@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61987#ABC500",
+  "code": "ABC500",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Performance of differential pressure transmitter",
+  "preferred_name_ml": {
+    "en": "Performance of differential pressure transmitter",
+    "fr": "Performances de transmetteur de pression différentielle",
+    "de": "Leistungsdaten des Differenzdruckmessumformers"
+  },
+  "definition": "properties characterizing the accuracy of a differential pressure transmitter",
+  "definition_ml": {
+    "en": "properties characterizing the accuracy of a differential pressure transmitter",
+    "fr": "propriétés caractérisant la précision d'un transmetteur de pression différentielle",
+    "de": "Merkmale, die die Genauigkeit eines Differenzdruckmessumformers kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC500",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Performance of differential pressure transmitter",
+    "MDC_P006.en": "properties characterizing the accuracy of a differential pressure transmitter",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB902,0112/2///61987#ABB903,0112/2///61987#ABB987,0112/2///61987#ABB988,0112/2///61987#ABB904,0112/2///61987#ABB905,0112/2///61987#ABB906,0112/2///61987#ABB907}",
+    "MDC_P004.fr": "Performances de transmetteur de pression différentielle",
+    "MDC_P006.fr": "propriétés caractérisant la précision d'un transmetteur de pression différentielle",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Leistungsdaten des Differenzdruckmessumformers",
+    "MDC_P006.de": "Merkmale, die die Genauigkeit eines Differenzdruckmessumformers kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "A58C6498B251AE43C125825E001DD78E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:40",
+      "user": "BATCH 00000701",
+      "unid": "b16af4ff4e83e97cc1257cfb003f9966",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "07dcf909f5093bcac1257cb400549cb2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB902",
+    "0112/2///61987#ABB903",
+    "0112/2///61987#ABB987",
+    "0112/2///61987#ABB988",
+    "0112/2///61987#ABB904",
+    "0112/2///61987#ABB905",
+    "0112/2///61987#ABB906",
+    "0112/2///61987#ABB907"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A58C6498B251AE43C125825E001DD78E"
+  }
+}

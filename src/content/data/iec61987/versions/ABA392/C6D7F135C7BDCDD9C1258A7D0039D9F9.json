@@ -1,0 +1,149 @@
+{
+  "irdi": "0112/2///61987#ABA392",
+  "code": "ABA392",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "material of electrical terminal",
+  "preferred_name_ml": {
+    "en": "material of electrical terminal",
+    "fr": "matériau de la borne électrique",
+    "de": "Werkstoff des elektrischen Anschlusses"
+  },
+  "definition": "material of which an electrical terminal is made",
+  "definition_ml": {
+    "en": "material of which an electrical terminal is made",
+    "fr": "matériau dans lequel une borne électrique est fabriquée",
+    "de": "Werkstoff, aus dem ein elektrische Anschluss hergestellt ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA392",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "material of electrical terminal",
+    "MDC_P006.en": "material of which an electrical terminal is made",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "matériau de la borne électrique",
+    "MDC_P006.fr": "matériau dans lequel une borne électrique est fabriquée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Werkstoff des elektrischen Anschlusses",
+    "MDC_P006.de": "Werkstoff, aus dem ein elektrische Anschluss hergestellt ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:53",
+      "user": "BATCH 00000818",
+      "unid": "C6D7F135C7BDCDD9C1258A7D0039D9F9",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "b15bfcf4b74dc639c125825e001de671",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:33",
+      "user": "BATCH 00000755",
+      "unid": "7fa801691aa30087c1258256003e9505",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "388912d8b0469288c12580d6004c1b34",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "0f9728139e30e365c1257f7e0030f1b9",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "007059c9903cc394c1257fa7003a3cf1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "04b35dd039afeb1fc1257cfb0040390e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "9e7dc6d4d6e632e7c1257cb40054bacb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:53",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "C6D7F135C7BDCDD9C1258A7D0039D9F9"
+  }
+}

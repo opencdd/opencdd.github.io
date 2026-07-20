@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA747",
+  "code": "ABA747",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:25:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "f2751b69207f56fbc125825e001dd3a8"
+  }
+}

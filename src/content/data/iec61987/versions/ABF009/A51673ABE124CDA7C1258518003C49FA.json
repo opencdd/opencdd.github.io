@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABF009",
+  "code": "ABF009",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "maximum influence of relative permittivity on point level",
+  "preferred_name_ml": {
+    "en": "maximum influence of relative permittivity on point level",
+    "de": "maximaler Permittivitätszahleinfluss auf Grenzstandmessung"
+  },
+  "definition": "change in output of a point level measuring device caused by a change in the process relative permittivity with respect to reference conditions, expressed as the maximum error across the specified process relative permittivity range",
+  "definition_ml": {
+    "en": "change in output of a point level measuring device caused by a change in the process relative permittivity with respect to reference conditions, expressed as the maximum error across the specified process relative permittivity range",
+    "de": "Änderung des Ausgangssignals eines Grenzstandmessinstruments, verursacht durch eine Änderung der Permittivitätszahl gegenüber den Referenzbedingungen, als Maximalwert des Fehlers über den spezifizierten Prozesspermittivitätszahlbereich"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "maximum influence of dielectric constant on point level"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "maximum influence of dielectric constant on point level",
+    "de": "maximaler Dielektrizitätskonstanteneinfluss auf Grenzstandmessung"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF009",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum influence of relative permittivity on point level",
+    "MDC_P007.en": "maximum influence of dielectric constant on point level",
+    "MDC_P006.en": "change in output of a point level measuring device caused by a change in the process relative permittivity with respect to reference conditions, expressed as the maximum error across the specified process relative permittivity range",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E",
+    "MDC_P004.de": "maximaler Permittivitätszahleinfluss auf Grenzstandmessung",
+    "MDC_P007.de": "maximaler Dielektrizitätskonstanteneinfluss auf Grenzstandmessung",
+    "MDC_P006.de": "Änderung des Ausgangssignals eines Grenzstandmessinstruments, verursacht durch eine Änderung der Permittivitätszahl gegenüber den Referenzbedingungen, als Maximalwert des Fehlers über den spezifizierten Prozesspermittivitätszahlbereich",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-07-12",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "A51673ABE124CDA7C1258518003C49FA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:03",
+      "user": "BATCH 00000762",
+      "unid": "e9ebd7614aa8b797c125825e001df183",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:30",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "A51673ABE124CDA7C1258518003C49FA"
+  }
+}

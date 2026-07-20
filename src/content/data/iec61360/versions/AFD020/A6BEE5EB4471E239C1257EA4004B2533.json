@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AFD020",
+  "code": "AFD020",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "storage temperature range",
+  "preferred_name_ml": {
+    "en": "storage temperature range"
+  },
+  "short_name": "storage temp",
+  "short_name_ml": {
+    "en": "storage temp"
+  },
+  "definition": "range of temperature variance as measured on the enclosure surface, specified by the minimum and maximum values, within which the quartz crystal device can be kept in storage without deterioration or damage to its performance",
+  "definition_ml": {
+    "en": "range of temperature variance as measured on the enclosure surface, specified by the minimum and maximum values, within which the quartz crystal device can be kept in storage without deterioration or damage to its performance"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD020",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "storage temperature range",
+    "MDC_P005.en": "storage temp",
+    "MDC_P006.en": "range of temperature variance as measured on the enclosure surface, specified by the minimum and maximum values, within which the quartz crystal device can be kept in storage without deterioration or damage to its performance",
+    "MDC_P025_1": "T_stg",
+    "MDC_P023": "°C",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "H02",
+    "MDC_P021": "0112/2///61360_4#AFA003",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "A6BEE5EB4471E239C1257EA4004B2533",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "3b39073a5fa5f5d6c1257e8b00323b3b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "92b060b751b40a20c1257e8a0043e956",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:17",
+      "user": "BATCH 00000817",
+      "unid": "50620f43f3bf5f6bc1257b02004295db",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "T_stg",
+  "definition_class_irdi": "0112/2///61360_4#AFA003",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:47",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "A6BEE5EB4471E239C1257EA4004B2533"
+  }
+}

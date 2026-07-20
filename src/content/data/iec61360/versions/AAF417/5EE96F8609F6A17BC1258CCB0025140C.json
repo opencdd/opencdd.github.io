@@ -1,0 +1,155 @@
+{
+  "irdi": "0112/2///61360_4#AAF417",
+  "code": "AAF417",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "sphere radius",
+  "preferred_name_ml": {
+    "en": "sphere radius"
+  },
+  "short_name": "r-sphere",
+  "short_name_ml": {
+    "en": "r-sphere"
+  },
+  "definition": "value of the length of the radius of a sphere",
+  "definition_ml": {
+    "en": "value of the length of the radius of a sphere"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF417",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "sphere radius",
+    "MDC_P005.en": "r-sphere",
+    "MDC_P006.en": "value of the length of the radius of a sphere",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-18",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2025-07-18",
+    "MDC_P003_3": "2025-07-18",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-18 08:44:59",
+      "user": "BATCH 00001397",
+      "unid": "5EE96F8609F6A17BC1258CCB0025140C",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "b979a70dcd8e186ec1257ea4004b2269",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:41",
+      "user": "BATCH 00000902",
+      "unid": "1947b7e52162f1d1c1257e89004bde78",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "0859807af90accd1c1257e8b003238a8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "fd5e7c12eeb27399c1257e8a0043e68b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "93552370b18c7d0cc1257ea4004b2268",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "28b97a4926940180c1257a0e0047beb6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "d576b93756edf636c1257e8a0043e68c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "8c4d8fb20a546b76c1257a0e0046dc36",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2025-07-18",
+    "current_revision": "2025-07-18"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-18 08:44:59",
+    "user": "BATCH 00001397",
+    "change_request_id": null,
+    "unid": "5EE96F8609F6A17BC1258CCB0025140C"
+  }
+}

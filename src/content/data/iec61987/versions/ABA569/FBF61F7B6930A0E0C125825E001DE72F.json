@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABA569",
+  "code": "ABA569",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "start-up drift",
+  "preferred_name_ml": {
+    "en": "start-up drift",
+    "fr": "dérive au démarrage",
+    "de": "Einschaltdrift"
+  },
+  "definition": "time duration for the output to reach and remain within the manufacturer's specified limits with a 90% input signal applied to the device",
+  "definition_ml": {
+    "en": "time duration for the output to reach and remain within the manufacturer's specified limits with a 90% input signal applied to the device",
+    "fr": "temps nécessaire pour que la sortie atteigne et reste dans les limites spécifiées par le fabricant avec un signal d'entrée de 90 % appliqué à l’appareil",
+    "de": "zeitliche Dauer, die der Ausgang benötigt, um bei einem auf das Gerät angewandten Eingangssignal von 90 % die herstellerspezifischen Grenzwerte zu erreichen und innerhalb dieser zu bleiben"
+  },
+  "source_document": "IEC 61298-2",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA569",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "start-up drift",
+    "MDC_P006.en": "time duration for the output to reach and remain within the manufacturer's specified limits with a 90% input signal applied to the device",
+    "MDC_P023": "s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61298-2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C0104": "0112/2///61987#ABT510",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "dérive au démarrage",
+    "MDC_P006.fr": "temps nécessaire pour que la sortie atteigne et reste dans les limites spécifiées par le fabricant avec un signal d'entrée de 90 % appliqué à l’appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Einschaltdrift",
+    "MDC_P006.de": "zeitliche Dauer, die der Ausgang benötigt, um bei einem auf das Gerät angewandten Eingangssignal von 90 % die herstellerspezifischen Grenzwerte zu erreichen und innerhalb dieser zu bleiben",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "FBF61F7B6930A0E0C125825E001DE72F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "e985e80c30b8fdc3c1257fa700405954",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "ad8accc8743ecc6fc1257cfb004039b5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "defc869505f41338c1257cb40054bb72",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:37",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "FBF61F7B6930A0E0C125825E001DE72F"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC701",
+  "code": "ABC701",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-08-31 20:14:59",
+    "user": "BATCH 00000725",
+    "change_request_id": null,
+    "unid": "c81aaad66d971478c125802000643ffe"
+  }
+}

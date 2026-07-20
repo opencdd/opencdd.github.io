@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61987#ABD731",
+  "code": "ABD731",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "style of trim",
+  "preferred_name_ml": {
+    "en": "style of trim",
+    "de": "Ausführung der Garnitur"
+  },
+  "definition": "classification of the trim (internal elements) of a valve according to whether it is pressure balanced or unbalanced",
+  "definition_ml": {
+    "en": "classification of the trim (internal elements) of a valve according to whether it is pressure balanced or unbalanced",
+    "de": "Charakterisierung der Garnitur (internes Element) eines Stellgeräts bezüglich des Druckausgleichs"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD731",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of trim",
+    "MDC_P006.en": "classification of the trim (internal elements) of a valve according to whether it is pressure balanced or unbalanced",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL578)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Ausführung der Garnitur",
+    "MDC_P006.de": "Charakterisierung der Garnitur (internes Element) eines Stellgeräts bezüglich des Druckausgleichs",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:49",
+      "user": "BATCH 00000849",
+      "unid": "A3724F4134E13E2BC1258CDC004A3BB2",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "0edca8b0098fcf9dc1258518003c49bd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "306a41c181059087c125825e001def19",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:38",
+      "user": "BATCH 00000732",
+      "unid": "5a8a0d4ecefbb29fc12580d6004c23c9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "07f8ef0e30f3f0cac1257cb40054c35c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL578)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL578)",
+  "value_list": "0112/2///61987#ABL578",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:49",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "A3724F4134E13E2BC1258CDC004A3BB2"
+  }
+}

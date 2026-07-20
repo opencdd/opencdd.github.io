@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///62683#ACE537",
+  "code": "ACE537",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "OFF-state current",
+  "preferred_name_ml": {
+    "en": "OFF-state current",
+    "fr": "courant résiduel",
+    "de": "Reststrom",
+    "zh": "截止状态电流"
+  },
+  "definition": "the current which flows through the load circuit of the proximity switch in the OFF-state",
+  "definition_ml": {
+    "en": "the current which flows through the load circuit of the proximity switch in the OFF-state",
+    "fr": "courant qui circule dans le circuit de charge du détecteur de proximité à l'état non passant",
+    "de": "Strom, der im gesperrten Zustand im Lastkreis des Näherungsschalters fließt.",
+    "zh": "通过处于截止状态的接近开关的负载电路的电流"
+  },
+  "source_document": "2.4.5.1 of IEC 60947-5-2:2007",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "leakage current"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "leakage current",
+    "fr": "courant de fuite, courant à l'état non passant"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00074",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE537",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "OFF-state current",
+    "MDC_P007.en": "leakage current",
+    "MDC_P006.en": "the current which flows through the load circuit of the proximity switch in the OFF-state",
+    "MDC_P025_1": "Ir",
+    "MDC_P023": "mA",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..2.2",
+    "MDC_P006_1": "2.4.5.1 of IEC 60947-5-2:2007",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC016",
+    "MDC_P041": "0112/2///62720#UAA775",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-04-05",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "courant résiduel",
+    "MDC_P007.fr": "courant de fuite, courant à l'état non passant",
+    "MDC_P006.fr": "courant qui circule dans le circuit de charge du détecteur de proximité à l'état non passant",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-07-12",
+    "MDC_P004.de": "Reststrom",
+    "MDC_P006.de": "Strom, der im gesperrten Zustand im Lastkreis des Näherungsschalters fließt.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "截止状态电流",
+    "MDC_P006.zh": "通过处于截止状态的接近开关的负载电路的电流",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00074"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "DAC13F811782B9FDC12584EC0072DABC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:28",
+      "user": "BATCH 00000704",
+      "unid": "f9502ff5ed5d8580c1258030004570ba",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-04-05",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "symbol_in_text": "Ir",
+  "value_format": "NR2..2.2",
+  "definition_class_irdi": "0112/2///62683#ACC016",
+  "unit_irdi": "0112/2///62720#UAA775",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..2.2",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:31",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "DAC13F811782B9FDC12584EC0072DABC"
+  }
+}

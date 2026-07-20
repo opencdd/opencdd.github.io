@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACE641",
+  "code": "ACE641",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-01-11 20:58:49",
+    "user": "BATCH 00000741",
+    "change_request_id": null,
+    "unid": "D2E9C9C929C34170C12584EC006DC158"
+  }
+}

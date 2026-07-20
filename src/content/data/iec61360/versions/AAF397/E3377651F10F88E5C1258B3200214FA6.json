@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///61360_4#AAF397",
+  "code": "AAF397",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "net area",
+  "preferred_name_ml": {
+    "en": "net area"
+  },
+  "definition": "area occupied in the seating plane of the geometrical object defined by its effective physical contour",
+  "definition_ml": {
+    "en": "area occupied in the seating plane of the geometrical object defined by its effective physical contour"
+  },
+  "synonyms": [],
+  "remark": "- The net area is defined as a plane normally not possible to be occupied by other geometrical objects |\r\n - The net area lies in the seating plane defined by the x/y- axes of the object and can be mathematically derived from the net space |\r\n - Seating plane is that plane on which the geometrical object is fixed.",
+  "remark_ml": {
+    "en": "- The net area is defined as a plane normally not possible to be occupied by other geometrical objects |\r\n - The net area lies in the seating plane defined by the x/y- axes of the object and can be mathematically derived from the net space |\r\n - Seating plane is that plane on which the geometrical object is fixed."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 3",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF397",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "net area",
+    "MDC_P006.en": "area occupied in the seating plane of the geometrical object defined by its effective physical contour",
+    "MDC_P009.en": "- The net area is defined as a plane normally not possible to be occupied by other geometrical objects |\r\n - The net area lies in the seating plane defined by the x/y- axes of the object and can be mathematically derived from the net space |\r\n - Seating plane is that plane on which the geometrical object is fixed.",
+    "MDC_P023": "m**2}",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T05",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA744",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-06-04",
+    "MDC_P003_2": "2024-06-04",
+    "MDC_P003_3": "2024-06-04",
+    "MDC_P012": "IEC/TC 3",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-06-04 08:03:50",
+      "user": "BATCH 00001291",
+      "unid": "E3377651F10F88E5C1258B3200214FA6",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-02-09 12:26:18",
+      "user": "BATCH 00001006",
+      "unid": "712598aa1c203a30c12580c2003ed55b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:39",
+      "user": "BATCH 00000917",
+      "unid": "0515ba7a27c245acc1257ea4004b224c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:32",
+      "user": "BATCH 00000907",
+      "unid": "8d58b2a342ec0842c1257e8b00323894",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "156f159f6776beedc1257e8a0043e66f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "9416549d6c6781bdc1257a0e0047bea2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "ed28e8a8b3a293dbc1257a0e0046dc22",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-06-04",
+    "current_revision": "2024-06-04"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA744",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-06-04 08:03:50",
+    "user": "BATCH 00001291",
+    "change_request_id": null,
+    "unid": "E3377651F10F88E5C1258B3200214FA6"
+  }
+}

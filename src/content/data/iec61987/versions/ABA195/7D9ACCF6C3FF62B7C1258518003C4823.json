@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABA195",
+  "code": "ABA195",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "depth",
+  "preferred_name_ml": {
+    "en": "depth",
+    "de": "Tiefe"
+  },
+  "definition": "horizontal distance between the front and back of an object when standing in its normal position of use or the distance from a surface down to a specific point below the surface of an object",
+  "definition_ml": {
+    "en": "horizontal distance between the front and back of an object when standing in its normal position of use or the distance from a surface down to a specific point below the surface of an object",
+    "de": "Horizontalabstand zwischen der Vorder- und Rückseite eines Objekts in seiner normalen Benutzungsstellung oder der Abstand von einer Oberfläche nach unten zu einem speziellen Punkt unter der Oberfläche eines Objekts"
+  },
+  "synonyms": [],
+  "note": "Depth is used together with width/breadth and height and is orthogonal to width/breadth and height.",
+  "note_ml": {
+    "en": "Depth is used together with width/breadth and height and is orthogonal to width/breadth and height.",
+    "de": "Tiefe wird zusammen mit Breite und Höhe benutzt und ist orthogonal zu Breite und Höhe."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA195",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "depth",
+    "MDC_P006.en": "horizontal distance between the front and back of an object when standing in its normal position of use or the distance from a surface down to a specific point below the surface of an object",
+    "MDC_P008.en": "Depth is used together with width/breadth and height and is orthogonal to width/breadth and height.",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Tiefe",
+    "MDC_P006.de": "Horizontalabstand zwischen der Vorder- und Rückseite eines Objekts in seiner normalen Benutzungsstellung oder der Abstand von einer Oberfläche nach unten zu einem speziellen Punkt unter der Oberfläche eines Objekts",
+    "MDC_P008.de": "Tiefe wird zusammen mit Breite und Höhe benutzt und ist orthogonal zu Breite und Höhe.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-18",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "7D9ACCF6C3FF62B7C1258518003C4823",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "c7824f139f4cb4b7c125825e001de5c5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:50",
+      "user": "BATCH 00000717",
+      "unid": "8676b0b1b2b255c5c1257fa7004058e3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "6c7c582fde37b068c1257cfb00403876",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "c69dabffc0100769c1257cb40054ba33",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:26",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "7D9ACCF6C3FF62B7C1258518003C4823"
+  }
+}

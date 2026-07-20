@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABD789",
+  "code": "ABD789",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "set upper range end-value of travel for rotary motion",
+  "preferred_name_ml": {
+    "en": "set upper range end-value of travel for rotary motion",
+    "de": "eingestellter Endwert des Linearbereichs des Drehwinkelhubs"
+  },
+  "definition": "value defining the end of the linear range of a rotary travel",
+  "definition_ml": {
+    "en": "value defining the end of the linear range of a rotary travel",
+    "de": "Wert, der den Endwert des linearen Bereich eines Drehwinkelhubs definiert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD789",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "set upper range end-value of travel for rotary motion",
+    "MDC_P006.en": "value defining the end of the linear range of a rotary travel",
+    "MDC_P023": "°",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA024",
+    "C0104": "0112/2///61987#ABT580",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "eingestellter Endwert des Linearbereichs des Drehwinkelhubs",
+    "MDC_P006.de": "Wert, der den Endwert des linearen Bereich eines Drehwinkelhubs definiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "904F19CBC2C1418CC1258940004C579F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:58",
+      "user": "BATCH 00000762",
+      "unid": "9390362b86a762ebc125825e001def53",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:59",
+      "user": "BATCH 00000717",
+      "unid": "fbcc170c4dcdd660c1257fa700405c2c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:51",
+      "user": "BATCH 00000702",
+      "unid": "ca3720066514a133c1257cfb004041d9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "c4002e4530347ae7c1257cb40054c396",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA024",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "904F19CBC2C1418CC1258940004C579F"
+  }
+}

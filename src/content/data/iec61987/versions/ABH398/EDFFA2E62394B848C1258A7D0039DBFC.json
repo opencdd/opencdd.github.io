@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABH398",
+  "code": "ABH398",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "transient protection",
+  "preferred_name_ml": {
+    "en": "transient protection",
+    "de": "Überspannungsschutz"
+  },
+  "definition": "classification of a means of overvoltage protection according to its  electrical and mechanical construction",
+  "definition_ml": {
+    "en": "classification of a means of overvoltage protection according to its  electrical and mechanical construction",
+    "de": "Charakterisierung einer Vorrichtung zum Überspannungsschutz bezüglich  ihrer elektrischen und mechanischen Konstruktion"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH398",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "transient protection",
+    "MDC_P006.en": "classification of a means of overvoltage protection according to its  electrical and mechanical construction",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2015-02-05",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Überspannungsschutz",
+    "MDC_P006.de": "Charakterisierung einer Vorrichtung zum Überspannungsschutz bezüglich  ihrer elektrischen und mechanischen Konstruktion",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-02-05",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:58",
+      "user": "BATCH 00000818",
+      "unid": "EDFFA2E62394B848C1258A7D0039DBFC",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:15",
+      "user": "BATCH 00000762",
+      "unid": "4a9c03bc09286edfc125825e001df617",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "b6d8d57a5996faa4c1258256003e944b",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:44",
+      "user": "BATCH 00000732",
+      "unid": "9544e8e424b74514c12580d6004c2613",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "0c816ca8e049af55c1257f7e0030f250",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "aa4df28a7167c233c1257fa7003a3d97",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-05",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:58",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "EDFFA2E62394B848C1258A7D0039DBFC"
+  }
+}

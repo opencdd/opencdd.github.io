@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61360_4#AAE573",
+  "code": "AAE573",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "spectral response lower limit",
+  "preferred_name_ml": {
+    "en": "spectral response lower limit"
+  },
+  "short_name": "$l_min",
+  "short_name_ml": {
+    "en": "$l_min"
+  },
+  "definition": "typical lower limit of the wavelength above which an infrared radiation photosensor gives a response of at least 90% of the maximum output, at a specified supply voltage and ambient temperature",
+  "definition_ml": {
+    "en": "typical lower limit of the wavelength above which an infrared radiation photosensor gives a response of at least 90% of the maximum output, at a specified supply voltage and ambient temperature"
+  },
+  "synonyms": [],
+  "remark": "For the lower spectral response, i.e. for the total range, see also AAE574-005.",
+  "remark_ml": {
+    "en": "For the lower spectral response, i.e. for the total range, see also AAE574-005."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE573",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "spectral response lower limit",
+    "MDC_P005.en": "$l_min",
+    "MDC_P006.en": "typical lower limit of the wavelength above which an infrared radiation photosensor gives a response of at least 90% of the maximum output, at a specified supply voltage and ambient temperature",
+    "MDC_P009.en": "For the lower spectral response, i.e. for the total range, see also AAE574-005.",
+    "MDC_P025_1": "λ_min}",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "L03",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE547}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "286CD3335D5E5768C1257EA4004B2008",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "5f6a48e4e755ceeec1257e8b00323657",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "d3149f92ce426487c1257e8a0043e42b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "81be1eea53e51ed5c1257a0e0047bc6e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "7706e5f09b1cbac1c1257a0e0046d9ee",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "λ_min}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE547}",
+  "type": "property",
+  "data_type": "LEVEL(TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "286CD3335D5E5768C1257EA4004B2008"
+  }
+}

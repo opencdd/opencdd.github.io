@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABB597",
+  "code": "ABB597",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "type of device diagnostic",
+  "preferred_name_ml": {
+    "en": "type of device diagnostic",
+    "fr": "type de diagnostic d’appareil",
+    "de": "Art der Gerätediagnosefunktion"
+  },
+  "definition": "classification of a device diagnostic according to the source of failure",
+  "definition_ml": {
+    "en": "classification of a device diagnostic according to the source of failure",
+    "fr": "classification d'un diagnostic d’appareil en fonction de la source de défaillance",
+    "de": "Charakterisierung einer Diagnosefunktion bezüglich der Quelle des Fehlverhaltens"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB597",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of device diagnostic",
+    "MDC_P006.en": "classification of a device diagnostic according to the source of failure",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL621)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type de diagnostic d’appareil",
+    "MDC_P006.fr": "classification d'un diagnostic d’appareil en fonction de la source de défaillance",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art der Gerätediagnosefunktion",
+    "MDC_P006.de": "Charakterisierung einer Diagnosefunktion bezüglich der Quelle des Fehlverhaltens",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "89E66A44A91549B6C1258CDC004A3B46",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "2e99568128520264c1258518003c4945",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "ce77060fb5824993c125825e001dea31",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:32",
+      "user": "BATCH 00000755",
+      "unid": "dc7bcb23f113bb93c1258256003e94b2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:26",
+      "user": "BATCH 00000732",
+      "unid": "e2e45c13858b5aa9c12580d6004c1edf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "ff1e6c02c7bf6e93c1257cfb00403cb9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "3562ae0ca8d6fa6ac1257cb40054be76",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL621)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL621)",
+  "value_list": "0112/2///61987#ABL621",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:48",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "89E66A44A91549B6C1258CDC004A3B46"
+  }
+}

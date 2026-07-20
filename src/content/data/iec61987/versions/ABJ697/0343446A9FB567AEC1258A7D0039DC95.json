@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABJ697",
+  "code": "ABJ697",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "description of other measurement technology block",
+  "preferred_name_ml": {
+    "en": "description of other measurement technology block",
+    "de": "Beschreibung des weiteren Measurement Technology Blocks"
+  },
+  "definition": "explanation of the other measurement technology block",
+  "definition_ml": {
+    "en": "explanation of the other measurement technology block",
+    "de": "Erklärung der weiteren Measurement Technology Blocks"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABJ697",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "description of other measurement technology block",
+    "MDC_P006.en": "explanation of the other measurement technology block",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Beschreibung des weiteren Measurement Technology Blocks",
+    "MDC_P006.de": "Erklärung der weiteren Measurement Technology Blocks",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2017-11-20",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:32:00",
+      "user": "BATCH 00000818",
+      "unid": "0343446A9FB567AEC1258A7D0039DC95",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:34",
+      "user": "BATCH 00000766",
+      "unid": "69450afefd8c7c51c12583b700502951",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:32:00",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "0343446A9FB567AEC1258A7D0039DC95"
+  }
+}

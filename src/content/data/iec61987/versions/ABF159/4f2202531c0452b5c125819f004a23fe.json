@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF159",
+  "code": "ABF159",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2017-09-18 15:29:48",
+    "user": "BATCH 00000740",
+    "change_request_id": null,
+    "unid": "4f2202531c0452b5c125819f004a23fe"
+  }
+}

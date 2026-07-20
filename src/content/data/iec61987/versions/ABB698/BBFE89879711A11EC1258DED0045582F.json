@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABB698",
+  "code": "ABB698",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "maximum influence of mounting position on zero or lower range-limit",
+  "preferred_name_ml": {
+    "en": "maximum influence of mounting position on zero or lower range-limit",
+    "fr": "influence maximale de position de montage sur zéro ou limite de plage inférieure",
+    "de": "maximaler Einfluss Montageposition auf Nullpunkt oder Messbereichsanfangswert"
+  },
+  "definition": "change in zero or lower range value caused by a change in the device orientation, expressed as the maximum error at a specified mounting angle",
+  "definition_ml": {
+    "en": "change in zero or lower range value caused by a change in the device orientation, expressed as the maximum error at a specified mounting angle",
+    "fr": "modification de zéro ou de la limite de plage inférieure causée par une modification de l'orientation de l’appareil, exprimée par l'erreur maximale à un angle de montage spécifié",
+    "de": "Änderung des Nullpunkts oder des unteren Bereichsendwerts, verursacht durch eine Änderung der Geräteposition gegenüber den Referenzbedingungen, als maximaler Fehler über den spezifizierten Winkelbereich"
+  },
+  "source_document": "IEC 61298-3, chapter 9",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB698",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "maximum influence of mounting position on zero or lower range-limit",
+    "MDC_P006.en": "change in zero or lower range value caused by a change in the device orientation, expressed as the maximum error at a specified mounting angle",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61298-3, chapter 9",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "influence maximale de position de montage sur zéro ou limite de plage inférieure",
+    "MDC_P006.fr": "modification de zéro ou de la limite de plage inférieure causée par une modification de l'orientation de l’appareil, exprimée par l'erreur maximale à un angle de montage spécifié",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "maximaler Einfluss Montageposition auf Nullpunkt oder Messbereichsanfangswert",
+    "MDC_P006.de": "Änderung des Nullpunkts oder des unteren Bereichsendwerts, verursacht durch eine Änderung der Geräteposition gegenüber den Referenzbedingungen, als maximaler Fehler über den spezifizierten Winkelbereich",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "BBFE89879711A11EC1258DED0045582F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "88993e280009f9fcc125825e001dea96",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:55",
+      "user": "BATCH 00000717",
+      "unid": "da245bd2f0ce5829c1257fa700405ac3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:39",
+      "user": "BATCH 00000702",
+      "unid": "76dd89c995fb4cd2c1257cfb00403d1e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "8d7086f338c1801bc1257cb40054bedb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "BBFE89879711A11EC1258DED0045582F"
+  }
+}

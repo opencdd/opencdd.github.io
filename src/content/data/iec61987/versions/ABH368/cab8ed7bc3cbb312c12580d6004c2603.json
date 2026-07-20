@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABH368",
+  "code": "ABH368",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:44",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "cab8ed7bc3cbb312c12580d6004c2603"
+  }
+}

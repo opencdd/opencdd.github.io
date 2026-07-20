@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABP160",
+  "code": "ABP160",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2023-01-23 14:53:52",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "9697d6139d9ee83ec1258940004c580a"
+  }
+}

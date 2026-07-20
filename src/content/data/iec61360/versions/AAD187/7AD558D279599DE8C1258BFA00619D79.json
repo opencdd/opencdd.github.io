@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAD187",
+  "code": "AAD187",
+  "version": "2",
+  "revision": "7",
+  "preferred_name": "wafer map",
+  "preferred_name_ml": {
+    "en": "wafer map"
+  },
+  "short_name": "wafer map",
+  "short_name_ml": {
+    "en": "wafer map"
+  },
+  "definition": "reference to a document or file that contains either a map of a wafer containing die devices, indicating the quality or performance levels of each, or a key to the corresponding marks used on the die on the wafer itself",
+  "definition_ml": {
+    "en": "reference to a document or file that contains either a map of a wafer containing die devices, indicating the quality or performance levels of each, or a key to the corresponding marks used on the die on the wafer itself"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/TC 47",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD187",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "7",
+    "MDC_P004.en": "wafer map",
+    "MDC_P005.en": "wafer map",
+    "MDC_P006.en": "reference to a document or file that contains either a map of a wafer containing die devices, indicating the quality or performance levels of each, or a key to the corresponding marks used on the die on the wafer itself",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A61",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "2006-11-10",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2024-12-21",
+    "MDC_P012": "IEC/TC 47",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "07",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:13",
+      "user": "BATCH 00001336",
+      "unid": "7AD558D279599DE8C1258BFA00619D79",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "0c596632275a4139c1257ea4004b1e5c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "3652887cb1d5588dc1257e8b003234ae",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "f1b2b664a38716dbc1257e8a0043e27f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:27",
+      "user": "BATCH 00000783",
+      "unid": "61a122c3568582f2c12579d6003b46cb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2006-11-10",
+    "current_version": "2011-02-15",
+    "current_revision": "2024-12-21"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "07",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:13",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "7AD558D279599DE8C1258BFA00619D79"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACC012",
+  "code": "ACC012",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2022-09-08 13:54:51",
+    "user": "BATCH 00000798",
+    "change_request_id": null,
+    "unid": "db9aa44fff4d8ac2c12588b700417295"
+  }
+}

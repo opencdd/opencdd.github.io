@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61987#ABH609",
+  "code": "ABH609",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "type of calibration",
+  "preferred_name_ml": {
+    "en": "type of calibration",
+    "de": "Art der Kalibrierung"
+  },
+  "short_name": "Calibration Type",
+  "short_name_ml": {
+    "en": "Calibration Type",
+    "de": "Kalibrierung"
+  },
+  "definition": "classification of a calibration according to its intended use",
+  "definition_ml": {
+    "en": "classification of a calibration according to its intended use",
+    "de": "Charakterisierung einer Kalibrierung bezüglich des Verwendungszwecks"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH609",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of calibration",
+    "MDC_P005.en": "Calibration Type",
+    "MDC_P006.en": "classification of a calibration according to its intended use",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABP715)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art der Kalibrierung",
+    "MDC_P005.de": "Kalibrierung",
+    "MDC_P006.de": "Charakterisierung einer Kalibrierung bezüglich des Verwendungszwecks",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2023-03-01",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "D9DD231E45B8CE51C1258CDC004A3CD6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:03",
+      "user": "BATCH 00000835",
+      "unid": "754b71f12ab34969c1258c3b004b5a5a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:29",
+      "user": "BATCH 00000766",
+      "unid": "b629ea5ed01dd320c12583b70050276d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP715)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP715)",
+  "value_list": "0112/2///61987#ABP715",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "D9DD231E45B8CE51C1258CDC004A3CD6"
+  }
+}

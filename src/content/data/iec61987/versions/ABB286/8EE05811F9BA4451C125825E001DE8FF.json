@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61987#ABB286",
+  "code": "ABB286",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "base vapor/gas compressibility",
+  "preferred_name_ml": {
+    "en": "base vapor/gas compressibility",
+    "fr": "compressibilité de vapeur/gaz de base",
+    "de": "Bezugskompressibilität"
+  },
+  "definition": "vapour or gas compressibility used to calculate variables to reference conditions",
+  "definition_ml": {
+    "en": "vapour or gas compressibility used to calculate variables to reference conditions",
+    "fr": "compressibilité de vapeur/gaz utilisée pour calculer les variables en fonction des conditions de référence",
+    "de": "Dampf- oder Gaskompressibilität, die benutzt wird, um Prozessgrößen auf Referenzgrößen umzurechnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB286",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "base vapor/gas compressibility",
+    "MDC_P006.en": "vapour or gas compressibility used to calculate variables to reference conditions",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "compressibilité de vapeur/gaz de base",
+    "MDC_P006.fr": "compressibilité de vapeur/gaz utilisée pour calculer les variables en fonction des conditions de référence",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Bezugskompressibilität",
+    "MDC_P006.de": "Dampf- oder Gaskompressibilität, die benutzt wird, um Prozessgrößen auf Referenzgrößen umzurechnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "8EE05811F9BA4451C125825E001DE8FF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "51e51d15cf5399f6c12580d6004c1dad",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "198377a8398bbac3c1257fa700405a13",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "31e9b94b1a521e60c1257cfb00403b87",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "80773151d40f7028c1257cb40054bd44",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "8EE05811F9BA4451C125825E001DE8FF"
+  }
+}

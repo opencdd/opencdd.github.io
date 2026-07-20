@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABP432",
+  "code": "ABP432",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "FTNIR or FTIR spectrometer",
+  "preferred_name_ml": {
+    "en": "FTNIR or FTIR spectrometer",
+    "de": "FTNIR oder FTIR Spektrometer"
+  },
+  "short_name": "FTIR spectrom.",
+  "short_name_ml": {
+    "en": "FTIR spectrom.",
+    "de": "FTIR-Spektrom."
+  },
+  "definition": "optical spectrometer operating in the near infrared or infrared spectral region that uses an interferometer and Fourier Transformation to measure the concentration of specific components",
+  "definition_ml": {
+    "en": "optical spectrometer operating in the near infrared or infrared spectral region that uses an interferometer and Fourier Transformation to measure the concentration of specific components",
+    "de": "Optisches Spektrometer, das im nahen Infrarot- oder Infrarotspektralbereich arbeitet und mit Hilfe eines Interferometers und einer Fourier-Transformation die Konzentration bestimmter Komponenten misst"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987-41",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP432",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P005.en": "FTIR spectrom.",
+    "MDC_P004.en": "FTNIR or FTIR spectrometer",
+    "MDC_P006.en": "optical spectrometer operating in the near infrared or infrared spectral region that uses an interferometer and Fourier Transformation to measure the concentration of specific components",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987-41",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_2": "2025-04-07",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABP431",
+    "MDC_P014": "{0112/2///61987#ABQ129}",
+    "MDC_P005.de": "FTIR-Spektrom.",
+    "MDC_P004.de": "FTNIR oder FTIR Spektrometer",
+    "MDC_P006.de": "Optisches Spektrometer, das im nahen Infrarot- oder Infrarotspektralbereich arbeitet und mit Hilfe eines Interferometers und einer Fourier-Transformation die Konzentration bestimmter Komponenten misst",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-12-20",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "62FD6C81F113EDF6C1258D930049DE80",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-06-12 21:00:39",
+      "user": "BATCH 00000845",
+      "unid": "e81594a1def01786c1258ca700686e5f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2024-09-16 16:44:32",
+      "user": "BATCH 00000833",
+      "unid": "836eccb50eee592dc1258b9a0050fb88",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-04-07",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABQ129"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABP431",
+  "superclass_type_property": "0112/2///61987#ABP431",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "62FD6C81F113EDF6C1258D930049DE80"
+  }
+}

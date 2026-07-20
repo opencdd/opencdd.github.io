@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACE805",
+  "code": "ACE805",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-11 20:58:49",
+    "user": "BATCH 00000741",
+    "change_request_id": null,
+    "unid": "497c3023dece9b43c12584ec006dc184"
+  }
+}

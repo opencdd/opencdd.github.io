@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABA823",
+  "code": "ABA823",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Wave level transmitter",
+  "preferred_name_ml": {
+    "en": "Wave level transmitter",
+    "fr": "Transmetteur de niveau à ondes",
+    "de": "Füllstandmessumformer basierend auf Wellen"
+  },
+  "definition": "level transmitter that measures the level by detecting either a propagation time or a damping of a propagation phenomenon of waves",
+  "definition_ml": {
+    "en": "level transmitter that measures the level by detecting either a propagation time or a damping of a propagation phenomenon of waves",
+    "fr": "transmetteur de niveau mesurant le niveau en détectant soit le temps de propagation, soit l'amortissement d'un phénomène de propagation d'ondes",
+    "de": "Füllstandmessumformer, der den Füllstand entweder durch die Ermittlung einer Ausbreitungszeit oder einer Dämpfung sich ausbreitender Wellen misst"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA823",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Wave level transmitter",
+    "MDC_P006.en": "level transmitter that measures the level by detecting either a propagation time or a damping of a propagation phenomenon of waves",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA803",
+    "MDC_P004.fr": "Transmetteur de niveau à ondes",
+    "MDC_P006.fr": "transmetteur de niveau mesurant le niveau en détectant soit le temps de propagation, soit l'amortissement d'un phénomène de propagation d'ondes",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Füllstandmessumformer basierend auf Wellen",
+    "MDC_P006.de": "Füllstandmessumformer, der den Füllstand entweder durch die Ermittlung einer Ausbreitungszeit oder einer Dämpfung sich ausbreitender Wellen misst",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "52370987CFACBC49C125825E001DD405",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "99f8d1c4076db1eec1257cfb003f67f8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "c1e0099471b91d44c1257cb3002a0cdd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA803",
+  "superclass_type_property": "0112/2///61987#ABA803",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:48",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "52370987CFACBC49C125825E001DD405"
+  }
+}

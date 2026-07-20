@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABC550",
+  "code": "ABC550",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Pulse generator",
+  "preferred_name_ml": {
+    "en": "Pulse generator",
+    "fr": "Générateur d’impulsion",
+    "de": "Impulsgeber"
+  },
+  "definition": "properties characterizing a device or a device component to generate electrical pulses",
+  "definition_ml": {
+    "en": "properties characterizing a device or a device component to generate electrical pulses",
+    "fr": "propriétés caractérisant un appareil ou un composant d’appareil pour générer des impulsions électriques",
+    "de": "Merkmale, die ein Gerät oder eine Gerätekomponente zur Erzeugung elektrischer Impulse kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC550",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Pulse generator",
+    "MDC_P006.en": "properties characterizing a device or a device component to generate electrical pulses",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB124,0112/2///61987#ABB125}",
+    "MDC_P004.fr": "Générateur d’impulsion",
+    "MDC_P006.fr": "propriétés caractérisant un appareil ou un composant d’appareil pour générer des impulsions électriques",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Impulsgeber",
+    "MDC_P006.de": "Merkmale, die ein Gerät oder eine Gerätekomponente zur Erzeugung elektrischer Impulse kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "2F642D8904F0E29DC125825E001DD7CE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "aa8d6391ddf248d0c1257cb400549ce4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB124",
+    "0112/2///61987#ABB125"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2F642D8904F0E29DC125825E001DD7CE"
+  }
+}

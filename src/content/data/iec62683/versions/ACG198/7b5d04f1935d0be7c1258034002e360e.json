@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG198",
+  "code": "ACG198",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2016-09-20 10:24:44",
+    "user": "BATCH 00000705",
+    "change_request_id": null,
+    "unid": "7b5d04f1935d0be7c1258034002e360e"
+  }
+}

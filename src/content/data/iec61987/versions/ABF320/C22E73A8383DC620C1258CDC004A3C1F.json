@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABF320",
+  "code": "ABF320",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "standardized type of thermowell",
+  "preferred_name_ml": {
+    "en": "standardized type of thermowell",
+    "de": "Norm-Typ des Thermometer-Schutzrohrs"
+  },
+  "definition": "classification of a thermowell according to its mechanical design as defined in a reference standard",
+  "definition_ml": {
+    "en": "classification of a thermowell according to its mechanical design as defined in a reference standard",
+    "de": "Charakterisierung eines Thermometer-Schutzrohrs bezüglich seiner mechanischen Ausführung gemäß einer Norm"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF320",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "standardized type of thermowell",
+    "MDC_P006.en": "classification of a thermowell according to its mechanical design as defined in a reference standard",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL420)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Norm-Typ des Thermometer-Schutzrohrs",
+    "MDC_P006.de": "Charakterisierung eines Thermometer-Schutzrohrs bezüglich seiner mechanischen Ausführung gemäß einer Norm",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:50",
+      "user": "BATCH 00000849",
+      "unid": "C22E73A8383DC620C1258CDC004A3C1F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:31",
+      "user": "BATCH 00000774",
+      "unid": "4d2ef21dd1f46570c1258518003c4a3b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:06",
+      "user": "BATCH 00000762",
+      "unid": "e0360029c65cf372c125825e001df268",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL420)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL420)",
+  "value_list": "0112/2///61987#ABL420",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:50",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "C22E73A8383DC620C1258CDC004A3C1F"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///62683#ACG170",
+  "code": "ACG170",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Output signal",
+  "preferred_name_ml": {
+    "en": "Output signal",
+    "fr": "Signal de sortie",
+    "de": "Ausgangssignal",
+    "zh": "输出信号"
+  },
+  "definition": "analog or digital representation of the physical quantity value produced by a transducer",
+  "definition_ml": {
+    "en": "analog or digital representation of the physical quantity value produced by a transducer",
+    "fr": "représentation analogique ou numérique de la valeur d'une grandeur physique fournie par un transducteur",
+    "de": "analoge oder digitale Darstellung des Wertes einer physikalischen Größe, die von einem Messwertaufnehmer erzeugt wird",
+    "zh": "转换器产生的物理量值的模拟或数字表示"
+  },
+  "source_document": "IEC 60050-314:2001, 314-04-06, modified",
+  "synonyms": [],
+  "remark": "measurand replaced by physical quantity value",
+  "remark_ml": {
+    "en": "measurand replaced by physical quantity value",
+    "fr": "mesurande remplacé par une valeur de grandeur physique",
+    "de": "Messgröße ersetzt durch Wert der physikalischen Größe",
+    "zh": "将被测量值替换为物理量值"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00125",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG170",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Output signal",
+    "MDC_P006.en": "analog or digital representation of the physical quantity value produced by a transducer",
+    "MDC_P009.en": "measurand replaced by physical quantity value",
+    "MDC_P006_1": "IEC 60050-314:2001, 314-04-06, modified",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "MDC_P003_0": "2024-05-27",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2024-07-18",
+    "MDC_P003_3": "2024-07-18",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P014": "{0112/2///62683#ACE066,0112/2///62683#ACE067,0112/2///62683#ACE068,0112/2///62683#ACF171,0112/2///62683#ACF173,0112/2///62683#ACF174,0112/2///62683#ACF177}",
+    "MDC_P004.fr": "Signal de sortie",
+    "MDC_P006.fr": "représentation analogique ou numérique de la valeur d'une grandeur physique fournie par un transducteur",
+    "MDC_P009.fr": "mesurande remplacé par une valeur de grandeur physique",
+    "C019.fr": "TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2023-10-11",
+    "MDC_P004.de": "Ausgangssignal",
+    "MDC_P006.de": "analoge oder digitale Darstellung des Wertes einer physikalischen Größe, die von einem Messwertaufnehmer erzeugt wird",
+    "MDC_P009.de": "Messgröße ersetzt durch Wert der physikalischen Größe",
+    "C019.de": "DKE, Volker Schaber",
+    "C017.de": "1",
+    "C018.de": "2024-05-14",
+    "MDC_P004.zh": "输出信号",
+    "MDC_P006.zh": "转换器产生的物理量值的模拟或数字表示",
+    "MDC_P009.zh": "将被测量值替换为物理量值",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2024-05-14",
+    "C002": "C00125"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-05-27 12:20:20",
+      "user": "BATCH 00000807",
+      "unid": "EF2E2CACD5B3C767C1258B2A0038CB60",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "c5874d8a8101858cc1258034002e35f4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "7bacf2d82e609ac2c1258030004502ca",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2024-07-18",
+    "current_revision": "2024-07-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACE066",
+    "0112/2///62683#ACE067",
+    "0112/2///62683#ACE068",
+    "0112/2///62683#ACF171",
+    "0112/2///62683#ACF173",
+    "0112/2///62683#ACF174",
+    "0112/2///62683#ACF177"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-05-27 12:20:20",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "EF2E2CACD5B3C767C1258B2A0038CB60"
+  }
+}

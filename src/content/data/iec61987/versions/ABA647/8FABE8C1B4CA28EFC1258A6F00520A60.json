@@ -1,0 +1,137 @@
+{
+  "irdi": "0112/2///61987#ABA647",
+  "code": "ABA647",
+  "version": "3",
+  "revision": "2",
+  "preferred_name": "Turbine flow gauge",
+  "preferred_name_ml": {
+    "en": "Turbine flow gauge",
+    "fr": "Jauge de débit à turbine",
+    "de": "Turbinenradzähler"
+  },
+  "definition": "flow gauge that uses a rotor that spins as the media passes through its blades to measure a flow rate or flow volume",
+  "definition_ml": {
+    "en": "flow gauge that uses a rotor that spins as the media passes through its blades to measure a flow rate or flow volume",
+    "fr": "jauge de débit utilisant un rotor actionné par la matière qui traverse ses lames pour mesurer un débit",
+    "de": "Durchflussanzeiger, der einen Rotor benutzt, der sich dreht, wenn die Medien durch seine Flügelblätter strömen, um eine Durchflussrate zu messen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA647",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Turbine flow gauge",
+    "MDC_P006.en": "flow gauge that uses a rotor that spins as the media passes through its blades to measure a flow rate or flow volume",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA644",
+    "MDC_P014": "{0112/2///61987#ABU244}",
+    "MDC_P004.fr": "Jauge de débit à turbine",
+    "MDC_P006.fr": "jauge de débit utilisant un rotor actionné par la matière qui traverse ses lames pour mesurer un débit",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Turbinenradzähler",
+    "MDC_P006.de": "Durchflussanzeiger, der einen Rotor benutzt, der sich dreht, wenn die Medien durch seine Flügelblätter strömen, um eine Durchflussrate zu messen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "8FABE8C1B4CA28EFC1258A6F00520A60",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:45",
+      "user": "BATCH 00000762",
+      "unid": "e2852b69f53fa2c2c125825e001dd31d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:35",
+      "user": "BATCH 00000701",
+      "unid": "5d076da07a11fd6bc1257cfb003f975c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "e16ed46f7b7d7972c1257cfb003f6748",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:05",
+      "user": "BATCH 00000699",
+      "unid": "536d22cc64832a42c1257cb400549a8e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "6575fe6498a5e95ac1257cb3002a0c2d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABU244"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA644",
+  "superclass_type_property": "0112/2///61987#ABA644",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "8FABE8C1B4CA28EFC1258A6F00520A60"
+  }
+}

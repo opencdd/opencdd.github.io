@@ -1,0 +1,87 @@
+{
+  "irdi": "0112/2///61360_4#ADA082",
+  "code": "ADA082",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "specifying organization",
+  "preferred_name_ml": {
+    "en": "specifying organization"
+  },
+  "short_name": "spec org",
+  "short_name_ml": {
+    "en": "spec org"
+  },
+  "definition": "name or abreviation of the authority or organization being in charge of the referred specification document",
+  "definition_ml": {
+    "en": "name or abreviation of the authority or organization being in charge of the referred specification document"
+  },
+  "synonyms": [],
+  "note": "Property to be used in conjunction with ADA081",
+  "note_ml": {
+    "en": "Property to be used in conjunction with ADA081"
+  },
+  "status_level": "Standard",
+  "change_request_id": "C00063",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA082",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "specifying organization",
+    "MDC_P005.en": "spec org",
+    "MDC_P006.en": "name or abreviation of the authority or organization being in charge of the referred specification document",
+    "MDC_P008.en": "Property to be used in conjunction with ADA081",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A21",
+    "MDC_P021": "0112/2///61360_4#ADA080",
+    "C016": "Standard",
+    "MDC_P003_0": "2016-02-26",
+    "MDC_P003_2": "2016-04-29",
+    "MDC_P003_3": "2016-04-29",
+    "C002": "C00063"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2016-12-07 10:34:43",
+      "user": "BATCH 00000951",
+      "unid": "6A4AC992BE082E1FC125808200349DFD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-02-26 13:45:18",
+      "user": "BATCH 00000951",
+      "unid": "c00d07602ab52150c1257f6500461107",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-04-29",
+    "current_revision": "2016-04-29"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#ADA080",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2016-12-07 10:34:43",
+    "user": "BATCH 00000951",
+    "change_request_id": null,
+    "unid": "6A4AC992BE082E1FC125808200349DFD"
+  }
+}

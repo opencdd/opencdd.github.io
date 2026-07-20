@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAF207",
+  "code": "AAF207",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "output short-circuit current",
+  "preferred_name_ml": {
+    "en": "output short-circuit current"
+  },
+  "short_name": "I_OS",
+  "short_name_ml": {
+    "en": "I_OS"
+  },
+  "definition": "value as specified by level (minmax) of the output current of a digital TTL IC, when an output is short-circuited, at maximum supply voltage, and in a temperature range between specified temperatures (T_1} and T_2})",
+  "definition_ml": {
+    "en": "value as specified by level (minmax) of the output current of a digital TTL IC, when an output is short-circuited, at maximum supply voltage, and in a temperature range between specified temperatures (T_1} and T_2})"
+  },
+  "synonyms": [],
+  "note": "1 Not more than one output should be shorted at a time. |2 The duration of the short-circuit should not exceed one second.",
+  "note_ml": {
+    "en": "1 Not more than one output should be shorted at a time. |2 The duration of the short-circuit should not exceed one second."
+  },
+  "remark": "The output short-circuit current was intended originally to reassure the TTL user that the device would withstand accidental grounding e.g. during in-circuit testing. |This parameter has become a measure of the ability of the circuit to charge the line capacitance and is used to calculate propagation delays. |In CMOS devices there is no need to specify this parameter because the purely capacitive loads allow extrapolation of the ac parameters to calculate the increase in propagation delay.",
+  "remark_ml": {
+    "en": "The output short-circuit current was intended originally to reassure the TTL user that the device would withstand accidental grounding e.g. during in-circuit testing. |This parameter has become a measure of the ability of the circuit to charge the line capacitance and is used to calculate propagation delays. |In CMOS devices there is no need to specify this parameter because the purely capacitive loads allow extrapolation of the ac parameters to calculate the increase in propagation delay."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF207",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "output short-circuit current",
+    "MDC_P005.en": "I_OS",
+    "MDC_P006.en": "value as specified by level (minmax) of the output current of a digital TTL IC, when an output is short-circuited, at maximum supply voltage, and in a temperature range between specified temperatures (T_1} and T_2})",
+    "MDC_P008.en": "1 Not more than one output should be shorted at a time. |2 The duration of the short-circuit should not exceed one second.",
+    "MDC_P009.en": "The output short-circuit current was intended originally to reassure the TTL user that the device would withstand accidental grounding e.g. during in-circuit testing. |This parameter has become a measure of the ability of the circuit to charge the line capacitance and is used to calculate propagation delays. |In CMOS devices there is no need to specify this parameter because the purely capacitive loads allow extrapolation of the ac parameters to calculate the increase in propagation delay.",
+    "MDC_P025_1": "I_OS}",
+    "MDC_P023": "A",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE958,0112/2///61360_4#AAE959}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:38",
+      "user": "BATCH 00000917",
+      "unid": "42DCEC968D48F950C1257EA4004B219F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:31",
+      "user": "BATCH 00000907",
+      "unid": "976a6b8cbac44360c1257e8b003237e8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:37",
+      "user": "BATCH 00000904",
+      "unid": "1a706af5de760df6c1257e8a0043e5c2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:36",
+      "user": "BATCH 00000788",
+      "unid": "0e2d15841ba712c5c1257a0e0047bdfc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:57",
+      "user": "BATCH 00000787",
+      "unid": "66c3e40e4b262843c1257a0e0046db7c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "I_OS}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE958,0112/2///61360_4#AAE959}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:38",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "42DCEC968D48F950C1257EA4004B219F"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG222",
+  "code": "ACG222",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2021-01-19 10:59:05",
+    "user": "BATCH 00000779",
+    "change_request_id": null,
+    "unid": "00141f5d538edd94c12586620036d944"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAE209",
+  "code": "AAE209",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "superseded",
+    "timestamp": "2019-11-19 15:14:17",
+    "user": "BATCH 00001135",
+    "change_request_id": null,
+    "unid": "41e33a2af6edbcb0c12584b7004e36a1"
+  }
+}

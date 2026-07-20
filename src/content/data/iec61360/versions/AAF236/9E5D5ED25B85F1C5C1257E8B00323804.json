@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#AAF236",
+  "code": "AAF236",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "ROM programmability",
+  "preferred_name_ml": {
+    "en": "ROM programmability"
+  },
+  "short_name": "ROM prog",
+  "short_name_ml": {
+    "en": "ROM prog"
+  },
+  "definition": "code identifying the programmability of a ROM",
+  "definition_ml": {
+    "en": "code identifying the programmability of a ROM"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00035",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF236",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "ROM programmability",
+    "MDC_P005.en": "ROM prog",
+    "MDC_P006.en": "code identifying the programmability of a ROM",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA185)",
+    "MDC_P024": "M..8",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-07-23",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-07-23",
+    "MDC_P012": "SC3D",
+    "C002": "C00035"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-07-23 11:08:31",
+      "user": "BATCH 00000907",
+      "unid": "9E5D5ED25B85F1C5C1257E8B00323804",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:37",
+      "user": "BATCH 00000904",
+      "unid": "140202069c71496bc1257e8a0043e5de",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:57",
+      "user": "BATCH 00000787",
+      "unid": "0b895b6cfe2235b2c1257a0e0046db98",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-07-23"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA185)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA185)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-07-23 11:08:31",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "9E5D5ED25B85F1C5C1257E8B00323804"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABA699",
+  "code": "ABA699",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Mechanical flow switch",
+  "preferred_name_ml": {
+    "en": "Mechanical flow switch",
+    "fr": "Commutateur de débit mécanique",
+    "de": "Mechanischer Durchflussschalter"
+  },
+  "definition": "flow switch that uses a mechanical means to detect a flow regime",
+  "definition_ml": {
+    "en": "flow switch that uses a mechanical means to detect a flow regime",
+    "fr": "commutateur de débit utilisant un moyen mécanique pour détecter un débit",
+    "de": "Durchflussschalter, der eine mechanische Vorrichtung nutzt, um einen Durchflusszustand zu ermitteln"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA699",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Mechanical flow switch",
+    "MDC_P006.en": "flow switch that uses a mechanical means to detect a flow regime",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA698",
+    "MDC_P004.fr": "Commutateur de débit mécanique",
+    "MDC_P006.fr": "commutateur de débit utilisant un moyen mécanique pour détecter un débit",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Mechanischer Durchflussschalter",
+    "MDC_P006.de": "Durchflussschalter, der eine mechanische Vorrichtung nutzt, um einen Durchflusszustand zu ermitteln",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:46",
+      "user": "BATCH 00000762",
+      "unid": "46C46BE89D5A9E96C125825E001DD36B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "512534f8a3e33026c1257cfb003f677c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "376f3a42e5ca243ac1257cb3002a0c61",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA698",
+  "superclass_type_property": "0112/2///61987#ABA698",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:46",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "46C46BE89D5A9E96C125825E001DD36B"
+  }
+}

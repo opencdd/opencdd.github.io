@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///62683#ACG162",
+  "code": "ACG162",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Installation, mounting and dimensions",
+  "preferred_name_ml": {
+    "en": "Installation, mounting and dimensions",
+    "fr": "Installation, montage et dimensions",
+    "de": "Installation, Einbau und Abmessung",
+    "zh": "装配、安装和尺寸"
+  },
+  "definition": "physical information for installation of the actuator of the coded magnetic switch",
+  "definition_ml": {
+    "en": "physical information for installation of the actuator of the coded magnetic switch",
+    "fr": "informations physiques pour l’installation de l'organe de commande de l'interrupteur codé magnétique",
+    "de": "physikalische Information für den Einbau des Betätigers für kodierten Magnetschalter",
+    "zh": "编码磁性开关操动器的安装物理信息"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00107",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG162",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Installation, mounting and dimensions",
+    "MDC_P006.en": "physical information for installation of the actuator of the coded magnetic switch",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-09-08",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2022-09-08",
+    "MDC_P003_3": "2022-09-08",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC066}",
+    "MDC_P090": "{0112/2///62683#ACE802,0112/2///62683#ACE801,0112/2///62683#ACE803,0112/2///62683#ACE810,0112/2///62683#ACE813}",
+    "MDC_P004.fr": "Installation, montage et dimensions",
+    "MDC_P006.fr": "informations physiques pour l’installation de l'organe de commande de l'interrupteur codé magnétique",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "11/24/20",
+    "MDC_P004.de": "Installation, Einbau und Abmessung",
+    "MDC_P006.de": "physikalische Information für den Einbau des Betätigers für kodierten Magnetschalter",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2022-08-16",
+    "MDC_P004.zh": "装配、安装和尺寸",
+    "MDC_P006.zh": "编码磁性开关操动器的安装物理信息",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2022-07-31",
+    "C002": "C00107"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-09-08 13:54:51",
+      "user": "BATCH 00000798",
+      "unid": "0D3E7D782834B0EBC12588B70041729B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "d923f4d779d26173c1258034002e35ed",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "f2fb3e40d45e6dd2c1258030004502c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2022-09-08",
+    "current_revision": "2022-09-08"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC066"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE802",
+    "0112/2///62683#ACE801",
+    "0112/2///62683#ACE803",
+    "0112/2///62683#ACE810",
+    "0112/2///62683#ACE813"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-09-08 13:54:51",
+    "user": "BATCH 00000798",
+    "change_request_id": null,
+    "unid": "0D3E7D782834B0EBC12588B70041729B"
+  }
+}

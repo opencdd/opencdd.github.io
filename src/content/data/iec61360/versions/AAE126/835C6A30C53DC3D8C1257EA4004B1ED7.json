@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAE126",
+  "code": "AAE126",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "thermistor type",
+  "preferred_name_ml": {
+    "en": "thermistor type"
+  },
+  "short_name": "TDR type",
+  "short_name_ml": {
+    "en": "TDR type"
+  },
+  "definition": "code of the sign of the temperature coefficient belonging to a thermistor",
+  "definition_ml": {
+    "en": "code of the sign of the temperature coefficient belonging to a thermistor"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE126",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "thermistor type",
+    "MDC_P005.en": "TDR type",
+    "MDC_P006.en": "code of the sign of the temperature coefficient belonging to a thermistor",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA052)",
+    "MDC_P024": "X..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "835C6A30C53DC3D8C1257EA4004B1ED7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:24",
+      "user": "BATCH 00000907",
+      "unid": "7b2a24c22a4eca3ac1257e8b00323526",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:30",
+      "user": "BATCH 00000904",
+      "unid": "fa16209bdf2f1fc5c1257e8a0043e2fa",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:30",
+      "user": "BATCH 00000788",
+      "unid": "8e61d70db2a26083c1257a0e0047bb4b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:50",
+      "user": "BATCH 00000787",
+      "unid": "7c9993bf1c9374eac1257a0e0046d8cb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "X..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA052)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA052)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:30",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "835C6A30C53DC3D8C1257EA4004B1ED7"
+  }
+}

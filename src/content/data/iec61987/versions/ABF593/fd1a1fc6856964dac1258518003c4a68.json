@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF593",
+  "code": "ABF593",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:32",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "fd1a1fc6856964dac1258518003c4a68"
+  }
+}

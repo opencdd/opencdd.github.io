@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAF990",
+  "code": "AAF990",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "still water level",
+  "preferred_name_ml": {
+    "en": "still water level",
+    "de": "Wasserstand"
+  },
+  "definition": "average level of the sea surface over a relatively short period (usually in the range of 10-30 minutes), being  used to distinguish water level variations (surges, tides) from shorter-period sea surface waves",
+  "definition_ml": {
+    "en": "average level of the sea surface over a relatively short period (usually in the range of 10-30 minutes), being  used to distinguish water level variations (surges, tides) from shorter-period sea surface waves"
+  },
+  "source_document": "Federal Maritime and Hydrographical Agency, Germany",
+  "synonyms": [],
+  "note": "As with the water current, one can distinguish between tidal and non-tidal “surge” components of still water level.",
+  "note_ml": {
+    "en": "As with the water current, one can distinguish between tidal and non-tidal “surge” components of still water level."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF990",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "still water level",
+    "MDC_P006.en": "average level of the sea surface over a relatively short period (usually in the range of 10-30 minutes), being  used to distinguish water level variations (surges, tides) from shorter-period sea surface waves",
+    "MDC_P008.en": "As with the water current, one can distinguish between tidal and non-tidal “surge” components of still water level.",
+    "MDC_P023": "m",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "Federal Maritime and Hydrographical Agency, Germany",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D",
+    "MDC_P004.de": "Wasserstand"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "0D72A6211EE8BA49C1257EA4004B231C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "cfe5ebf6b6ec523fc1257e8b0032394b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:41",
+      "user": "BATCH 00000904",
+      "unid": "77ab511d55043746c1257e8a0043e73f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "7bab4d4ec363a985c1257b9e0044e891",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "0D72A6211EE8BA49C1257EA4004B231C"
+  }
+}

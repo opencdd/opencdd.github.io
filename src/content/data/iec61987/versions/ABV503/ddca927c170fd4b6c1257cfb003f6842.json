@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABV503",
+  "code": "ABV503",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:32:34",
+    "user": "BATCH 00000701",
+    "change_request_id": null,
+    "unid": "ddca927c170fd4b6c1257cfb003f6842"
+  }
+}

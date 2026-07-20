@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABC107",
+  "code": "ABC107",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Assigned density range",
+  "preferred_name_ml": {
+    "en": "Assigned density range",
+    "fr": "Étendue de masse volumique affectée",
+    "de": "Eingestellter Bereich für Dichte"
+  },
+  "definition": "properties characterizing a range configured for density",
+  "definition_ml": {
+    "en": "properties characterizing a range configured for density",
+    "fr": "propriétés caractérisant une étendue configurée pour le débit volumétrique réel",
+    "de": "Merkmale, die den für Dichte konfigurierten Bereich kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "13 ABC107.13",
+  "remark_ml": {
+    "en": "13 ABC107.13"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC107",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Assigned density range",
+    "MDC_P006.en": "properties characterizing a range configured for density",
+    "MDC_P009.en": "13 ABC107.13",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE768,0112/2///61987#ABA353,0112/2///61987#ABA354,0112/2///61987#ABB568,0112/2///61987#ABB569}",
+    "MDC_P004.fr": "Étendue de masse volumique affectée",
+    "MDC_P006.fr": "propriétés caractérisant une étendue configurée pour le débit volumétrique réel",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Eingestellter Bereich für Dichte",
+    "MDC_P006.de": "Merkmale, die den für Dichte konfigurierten Bereich kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "249ED0CA49993B94C125825E001DD4C5",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "bb202c9d1b1f698ec1257cb400549b32",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE768",
+    "0112/2///61987#ABA353",
+    "0112/2///61987#ABA354",
+    "0112/2///61987#ABB568",
+    "0112/2///61987#ABB569"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:50",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "249ED0CA49993B94C125825E001DD4C5"
+  }
+}

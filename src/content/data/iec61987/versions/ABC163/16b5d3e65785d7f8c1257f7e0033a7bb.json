@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC163",
+  "code": "ABC163",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-03-22 10:24:12",
+    "user": "BATCH 00000714",
+    "change_request_id": null,
+    "unid": "16b5d3e65785d7f8c1257f7e0033a7bb"
+  }
+}

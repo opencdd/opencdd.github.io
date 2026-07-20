@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///62683#ACG181",
+  "code": "ACG181",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Installation, mounting and dimensions",
+  "preferred_name_ml": {
+    "en": "Installation, mounting and dimensions",
+    "fr": "Installation, montage et dimensions",
+    "de": "Installation, Einbau und Abmessung",
+    "zh": "装配、安装和尺寸"
+  },
+  "definition": "physical information of the transfer switching equipment for installation",
+  "definition_ml": {
+    "en": "physical information of the transfer switching equipment for installation",
+    "fr": "informations physiques pour l’installation du matériel de connexion de transfert",
+    "de": "Physikalische Informationen des Netzumschalters für die Installation",
+    "zh": "转换开关电器的安装物理信息"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG181",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Installation, mounting and dimensions",
+    "MDC_P006.en": "physical information of the transfer switching equipment for installation",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC066}",
+    "MDC_P090": "{0112/2///62683#ACE801,0112/2///62683#ACE802,0112/2///62683#ACE803,0112/2///62683#ACE804,0112/2///62683#ACE808}",
+    "MDC_P004.fr": "Installation, montage et dimensions",
+    "MDC_P006.fr": "informations physiques pour l’installation du matériel de connexion de transfert",
+    "C019.fr": "IEC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2024-01-10",
+    "MDC_P004.de": "Installation, Einbau und Abmessung",
+    "MDC_P006.de": "Physikalische Informationen des Netzumschalters für die Installation",
+    "C019.de": "DKE, A Huhn",
+    "C017.de": "1",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "装配、安装和尺寸",
+    "MDC_P006.zh": "转换开关电器的安装物理信息",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:04",
+      "user": "BATCH 00000844",
+      "unid": "C53EA55F7674FD10C1258D2A006B7D77",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:06",
+      "user": "BATCH 00000811",
+      "unid": "b7e6e48b3d7dff67c1258b9d00731748",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "bd087062f8781da3c1258034002e35fe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:47",
+      "user": "BATCH 00000703",
+      "unid": "c61b28bcd725a723c1258030004502d4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC066"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE801",
+    "0112/2///62683#ACE802",
+    "0112/2///62683#ACE803",
+    "0112/2///62683#ACE804",
+    "0112/2///62683#ACE808"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:04",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "C53EA55F7674FD10C1258D2A006B7D77"
+  }
+}

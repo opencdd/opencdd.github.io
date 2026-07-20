@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABC486",
+  "code": "ABC486",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Parameters of a manufacturer-specific analog pulse/frequency signal",
+  "preferred_name_ml": {
+    "en": "Parameters of a manufacturer-specific analog pulse/frequency signal",
+    "fr": "Paramètres d’un signal d’impulsion/fréquence analogique spécifique au fabricant",
+    "de": "Parameter eines herstellerspezifischen Puls/Frequenz-Analogsignals"
+  },
+  "definition": "properties characterizing the configuration of a manufacturer-specific analog pulse/frequency input or output",
+  "definition_ml": {
+    "en": "properties characterizing the configuration of a manufacturer-specific analog pulse/frequency input or output",
+    "fr": "propriétés caractérisant la configuration d’une entrée d’impulsion/fréquence analogique spécifique au fabricant",
+    "de": "Merkmale, die die Konfiguration eines herstellerspezifischen analogen Impuls-/Frequenzeingangs oder -ausgangs kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC486",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Parameters of a manufacturer-specific analog pulse/frequency signal",
+    "MDC_P006.en": "properties characterizing the configuration of a manufacturer-specific analog pulse/frequency input or output",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB620,0112/2///61987#ABB621,0112/2///61987#ABB622,0112/2///61987#ABB623,0112/2///61987#ABD221}",
+    "MDC_P004.fr": "Paramètres d’un signal d’impulsion/fréquence analogique spécifique au fabricant",
+    "MDC_P006.fr": "propriétés caractérisant la configuration d’une entrée d’impulsion/fréquence analogique spécifique au fabricant",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-28",
+    "MDC_P004.de": "Parameter eines herstellerspezifischen Puls/Frequenz-Analogsignals",
+    "MDC_P006.de": "Merkmale, die die Konfiguration eines herstellerspezifischen analogen Impuls-/Frequenzeingangs oder -ausgangs kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:56",
+      "user": "BATCH 00000762",
+      "unid": "16DABE7ED77ACBB6C125825E001DD76F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "d3bc5e0a4fe9176dc1257cb400549ca4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB620",
+    "0112/2///61987#ABB621",
+    "0112/2///61987#ABB622",
+    "0112/2///61987#ABB623",
+    "0112/2///61987#ABD221"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:56",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "16DABE7ED77ACBB6C125825E001DD76F"
+  }
+}

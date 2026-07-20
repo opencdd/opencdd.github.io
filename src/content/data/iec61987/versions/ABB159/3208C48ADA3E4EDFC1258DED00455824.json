@@ -1,0 +1,153 @@
+{
+  "irdi": "0112/2///61987#ABB159",
+  "code": "ABB159",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "maximum surface temperature for dust hazardous area",
+  "preferred_name_ml": {
+    "en": "maximum surface temperature for dust hazardous area",
+    "fr": "température de surface maximale en zone d'explosions en atmosphère poussiéreuse",
+    "de": "maximale Oberflächentemperatur für staubexplosionsgefährdete Bereiche"
+  },
+  "definition": "maximum permissible surface temperature of a device used in an explosion hazardous area with combustible dust",
+  "definition_ml": {
+    "en": "maximum permissible surface temperature of a device used in an explosion hazardous area with combustible dust",
+    "fr": "température de surface admissible maximale d'un appareil utilisé dans une zone de danger d'explosion contenant de la poussière combustible",
+    "de": "maximal zulässige Oberflächentemperatur eines Geräts, das in einem explosionsgefährdeten Bereich mit brennbarem Staub betrieben wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB159",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "maximum surface temperature for dust hazardous area",
+    "MDC_P006.en": "maximum permissible surface temperature of a device used in an explosion hazardous area with combustible dust",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "température de surface maximale en zone d'explosions en atmosphère poussiéreuse",
+    "MDC_P006.fr": "température de surface admissible maximale d'un appareil utilisé dans une zone de danger d'explosion contenant de la poussière combustible",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "maximale Oberflächentemperatur für staubexplosionsgefährdete Bereiche",
+    "MDC_P006.de": "maximal zulässige Oberflächentemperatur eines Geräts, das in einem explosionsgefährdeten Bereich mit brennbarem Staub betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-08-19",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "3208C48ADA3E4EDFC1258DED00455824",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:40",
+      "user": "BATCH 00000762",
+      "unid": "de523af617107247c125825e001de881",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:32",
+      "user": "BATCH 00000755",
+      "unid": "44b5a5c7e3132545c1258256003e9464",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:22",
+      "user": "BATCH 00000732",
+      "unid": "c6617ac2bdb336acc12580d6004c1d30",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:04",
+      "user": "BATCH 00000715",
+      "unid": "d5e25dd8ac1aab70c1257f7f004d00a3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "1ce148cea47176c9c1257fa7004059d1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:34",
+      "user": "BATCH 00000702",
+      "unid": "54f9a27343d62f4ac1257cfb00403b0a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:33",
+      "user": "BATCH 00000699",
+      "unid": "72a908d8984d07d4c1257cb40054bcc7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "3208C48ADA3E4EDFC1258DED00455824"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61987#ABD059",
+  "code": "ABD059",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "ref. Mechanical and electrical construction [piston flow transmitter/gauge]",
+  "preferred_name_ml": {
+    "en": "ref. Mechanical and electrical construction [piston flow transmitter/gauge]"
+  },
+  "definition": "reference to block ABC429",
+  "definition_ml": {
+    "en": "reference to block ABC429"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD059",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "ref. Mechanical and electrical construction [piston flow transmitter/gauge]",
+    "MDC_P006.en": "reference to block ABC429",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC429)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "659F0E7DC5A31D59C1258DED00455854",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:52",
+      "user": "BATCH 00000762",
+      "unid": "e9df847a4f062a29c125825e001ded0e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:45",
+      "user": "BATCH 00000699",
+      "unid": "b20c56da626b5330c1257cb40054c152",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC429)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC429)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "659F0E7DC5A31D59C1258DED00455854"
+  }
+}

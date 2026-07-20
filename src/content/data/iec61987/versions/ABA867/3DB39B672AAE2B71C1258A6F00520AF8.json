@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA867",
+  "code": "ABA867",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Electrical relay",
+  "preferred_name_ml": {
+    "en": "Electrical relay",
+    "fr": "Relais électrique",
+    "de": "Elektrisches Relais"
+  },
+  "definition": "relay that is intended to be operated electrically and to make or break another electrical circuit",
+  "definition_ml": {
+    "en": "relay that is intended to be operated electrically and to make or break another electrical circuit",
+    "fr": "relais destiné à être actionné électriquement et à réaliser ou à rompre un autre circuit électrique",
+    "de": "Relais, das dazu bestimmt ist, elektrisch betrieben zu werden, um dadurch einen anderen elektrischen Kreislauf zu erzeugen oder zu unterbrechen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA867",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Electrical relay",
+    "MDC_P006.en": "relay that is intended to be operated electrically and to make or break another electrical circuit",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA866",
+    "MDC_P004.fr": "Relais électrique",
+    "MDC_P006.fr": "relais destiné à être actionné électriquement et à réaliser ou à rompre un autre circuit électrique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-01-14",
+    "MDC_P004.de": "Elektrisches Relais",
+    "MDC_P006.de": "Relais, das dazu bestimmt ist, elektrisch betrieben zu werden, um dadurch einen anderen elektrischen Kreislauf zu erzeugen oder zu unterbrechen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-01-14",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "3DB39B672AAE2B71C1258A6F00520AF8",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:49",
+      "user": "BATCH 00000762",
+      "unid": "e3f8528f010aacf3c125825e001dd456",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:34",
+      "user": "BATCH 00000701",
+      "unid": "e4a6b6e102333788c1257cfb003f6823",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "7fb056a87bff4ee2c1257cb3002a0d08",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA866",
+  "superclass_type_property": "0112/2///61987#ABA866",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "3DB39B672AAE2B71C1258A6F00520AF8"
+  }
+}

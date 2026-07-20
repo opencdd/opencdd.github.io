@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61987#ABB335",
+  "code": "ABB335",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "number of lines or nozzles",
+  "preferred_name_ml": {
+    "en": "number of lines or nozzles",
+    "fr": "nombre de lignes ou tuyères",
+    "de": "Anzahl der Rohrleitungen/Stutzen"
+  },
+  "definition": "@number of lines or nozzles",
+  "definition_ml": {
+    "en": "@number of lines or nozzles",
+    "fr": "propriété de cardinalité pour une ligne/tuyère",
+    "de": "Kardinalitätsmerkmal für Rohrleitung/Stutzen"
+  },
+  "synonyms": [],
+  "remark": "cardinality property",
+  "remark_ml": {
+    "en": "cardinality property"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB335",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of lines or nozzles",
+    "MDC_P006.en": "@number of lines or nozzles",
+    "MDC_P009.en": "cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "nombre de lignes ou tuyères",
+    "MDC_P006.fr": "propriété de cardinalité pour une ligne/tuyère",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Anzahl der Rohrleitungen/Stutzen",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Rohrleitung/Stutzen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "9614412C2BD68357C125825E001DE930",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "7d684ee7fac13c45c125825600407b1e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "ccb684cd302c5650c12580d6004c1dde",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:12",
+      "user": "BATCH 00000717",
+      "unid": "2a970bf365779d4ac1257fa7004049f9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "fd18f72f72f1951dc1257cfb00403bb8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "b6848b8e7f6e6ccec1257cb40054bd75",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:42",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "9614412C2BD68357C125825E001DE930"
+  }
+}

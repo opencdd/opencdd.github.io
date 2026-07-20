@@ -1,0 +1,185 @@
+{
+  "irdi": "0112/2///61987#ABB290",
+  "code": "ABB290",
+  "version": "5",
+  "revision": "3",
+  "preferred_name": "mass flow rate",
+  "preferred_name_ml": {
+    "en": "mass flow rate",
+    "fr": "débit massique",
+    "de": "Massedurchfluss"
+  },
+  "short_name": "Mass Flow Rate",
+  "short_name_ml": {
+    "en": "Mass Flow Rate",
+    "de": "Massedurchfluss"
+  },
+  "definition": "mass of material flowing per unit time",
+  "definition_ml": {
+    "en": "mass of material flowing per unit time",
+    "fr": "masse de matériau s'écoulant par unité de temps",
+    "de": "Masse des fließenden Mediums pro Zeiteinheit"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB290",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "mass flow rate",
+    "MDC_P005.en": "Mass Flow Rate",
+    "MDC_P006.en": "mass of material flowing per unit time",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P023": "kg/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA607",
+    "C0104": "0112/2///61987#ABT545",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "débit massique",
+    "MDC_P006.fr": "masse de matériau s'écoulant par unité de temps",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Massedurchfluss",
+    "MDC_P005.de": "Massedurchfluss",
+    "MDC_P006.de": "Masse des fließenden Mediums pro Zeiteinheit",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "E13DD1D59145810FC1258C3B004B5BF9",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "d73bf4aadad0f671c125886f003c999a",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "35f2c5c2d218e2f2c1258518003c48e3",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "f168a5e4e5f25733c125825e001de903",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "2e73b9956593b1bcc1258256004079ea",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "385a837f75d278f3c12580d6004c1db1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:07",
+      "user": "BATCH 00000715",
+      "unid": "1518926109fd186ac1257f7f004d01d4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:53",
+      "user": "BATCH 00000717",
+      "unid": "c5b9987cffaae450c1257fa700405a15",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "ba41c14f8c65bab6c1257cfb00403b8b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "62680521974a1c20c1257cb40054bd48",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA607",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "E13DD1D59145810FC1258C3B004B5BF9"
+  }
+}

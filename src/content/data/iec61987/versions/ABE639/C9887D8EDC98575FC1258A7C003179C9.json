@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61987#ABE639",
+  "code": "ABE639",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Separate level transmitter/switching unit",
+  "preferred_name_ml": {
+    "en": "Separate level transmitter/switching unit",
+    "fr": "Transmetteur séparé",
+    "de": "Separater Füllstandmessumformer/Schalteinheit"
+  },
+  "definition": "separate transmitter or switching unit designed for level measurement",
+  "definition_ml": {
+    "en": "separate transmitter or switching unit designed for level measurement",
+    "fr": "transmetteur monté à un emplacement distant (localement ou à distance) d'un assemblage contenant l'élément de détection, mais relié à celui-ci par une ligne de signal",
+    "de": "separater Messumformer oder Schalteinheit, ausgelegt für Füllstandmessungen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE639",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Separate level transmitter/switching unit",
+    "MDC_P006.en": "separate transmitter or switching unit designed for level measurement",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-05",
+    "MDC_P003_1": "2014-07-18",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-12-05",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA638",
+    "MDC_P014": "{0112/2///61987#ABF906}",
+    "MDC_P004.fr": "Transmetteur séparé",
+    "MDC_P006.fr": "transmetteur monté à un emplacement distant (localement ou à distance) d'un assemblage contenant l'élément de détection, mais relié à celui-ci par une ligne de signal",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-27",
+    "MDC_P004.de": "Separater Füllstandmessumformer/Schalteinheit",
+    "MDC_P006.de": "separater Messumformer oder Schalteinheit, ausgelegt für Füllstandmessungen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-12-05 10:00:24",
+      "user": "BATCH 00000817",
+      "unid": "C9887D8EDC98575FC1258A7C003179C9",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:03",
+      "user": "BATCH 00000762",
+      "unid": "abaee902469c3604c125825e001dda12",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-02 16:49:58",
+      "user": "BATCH 00000733",
+      "unid": "cc1f9b054090cffbc12580d70056f8f7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-07-18",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-12-05"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF906"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA638",
+  "superclass_type_property": "0112/2///61987#ABA638",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-12-05 10:00:24",
+    "user": "BATCH 00000817",
+    "change_request_id": null,
+    "unid": "C9887D8EDC98575FC1258A7C003179C9"
+  }
+}

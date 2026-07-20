@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#AAE648",
+  "code": "AAE648",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "spot noise figure",
+  "preferred_name_ml": {
+    "en": "spot noise figure"
+  },
+  "short_name": "F",
+  "short_name_ml": {
+    "en": "F"
+  },
+  "definition": "value as specified by level (minTypmax) of the spot noise figure of a bipolar transistor at specified collector current, collector-emitter voltage, source impedance and frequency",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the spot noise figure of a bipolar transistor at specified collector current, collector-emitter voltage, source impedance and frequency"
+  },
+  "source_document": "IEC 60747-1 (IV.5.4.4) (1983)",
+  "synonyms": [],
+  "remark": "Spot noise figure: |Ratio of 1) the total output noise power per unit bandwidth (spectral density) at a single output frequency when the noise temperature of all input terminations is at the reference noise temperature T_no} at all frequencies that contribute to the output noise, to 2) that part of Item 1) caused by the noise of the signal-input termination at the signal-input frequency.",
+  "remark_ml": {
+    "en": "Spot noise figure: |Ratio of 1) the total output noise power per unit bandwidth (spectral density) at a single output frequency when the noise temperature of all input terminations is at the reference noise temperature T_no} at all frequencies that contribute to the output noise, to 2) that part of Item 1) caused by the noise of the signal-input termination at the signal-input frequency."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE648",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "spot noise figure",
+    "MDC_P005.en": "F",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the spot noise figure of a bipolar transistor at specified collector current, collector-emitter voltage, source impedance and frequency",
+    "MDC_P009.en": "Spot noise figure: |Ratio of 1) the total output noise power per unit bandwidth (spectral density) at a single output frequency when the noise temperature of all input terminations is at the reference noise temperature T_no} at all frequencies that contribute to the output noise, to 2) that part of Item 1) caused by the noise of the signal-input termination at the signal-input frequency.",
+    "MDC_P025_1": "F",
+    "MDC_P023": "dB",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "IEC 60747-1 (IV.5.4.4) (1983)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E49",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE406,0112/2///61360_4#AAE412,0112/2///61360_4#AAE936}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "DADAD3882F294F5EC1257EA4004B203D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "e28d10ba90bf86b3c1257e8b0032368c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "3ab6190de0b85140c1257e8a0043e460",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "4119db80e4bf1c23c1257a0e0047bca2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "2a174b583d398b3cc1257a0e0046da22",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "F",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE029,0112/2///61360_4#AAE406,0112/2///61360_4#AAE412,0112/2///61360_4#AAE936}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "DADAD3882F294F5EC1257EA4004B203D"
+  }
+}

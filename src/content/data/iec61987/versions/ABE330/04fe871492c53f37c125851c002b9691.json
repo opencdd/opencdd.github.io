@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE330",
+  "code": "ABE330",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-28 08:56:05",
+    "user": "BATCH 00000784",
+    "change_request_id": null,
+    "unid": "04fe871492c53f37c125851c002b9691"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAD024",
+  "code": "AAD024",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "pad shape",
+  "preferred_name_ml": {
+    "en": "pad shape"
+  },
+  "short_name": "pad shape",
+  "short_name_ml": {
+    "en": "pad shape"
+  },
+  "definition": "code of the shape of a bonding pad on a die",
+  "definition_ml": {
+    "en": "code of the shape of a bonding pad on a die"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD024",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "pad shape",
+    "MDC_P005.en": "pad shape",
+    "MDC_P006.en": "code of the shape of a bonding pad on a die",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA004)",
+    "MDC_P024": "A..4",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:28",
+      "user": "BATCH 00000917",
+      "unid": "77E40816BF4DD098C1257EA4004B1DFC",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:21",
+      "user": "BATCH 00000907",
+      "unid": "077253c88e2d7d8bc1257e8b0032344e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:27",
+      "user": "BATCH 00000904",
+      "unid": "11ff4fbf0a4fb40ac1257e8a0043e21f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2011-08-31 17:08:44",
+      "user": "BATCH 00000744",
+      "unid": "ecabcb02c7188f55c12578fd005332a7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "A..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA004)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA004)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:28",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "77E40816BF4DD098C1257EA4004B1DFC"
+  }
+}

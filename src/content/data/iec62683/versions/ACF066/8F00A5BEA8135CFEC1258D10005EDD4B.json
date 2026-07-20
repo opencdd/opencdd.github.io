@@ -1,0 +1,139 @@
+{
+  "irdi": "0112/2///62683#ACF066",
+  "code": "ACF066",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "electronic element",
+  "preferred_name_ml": {
+    "en": "electronic element",
+    "fr": "élément électronique",
+    "de": "Elektronisches Element",
+    "zh": "电子组件"
+  },
+  "definition": "element of electronic technology non evaluated according to a functional safety standard, provided with reliability data and which needs to be integrated specifically into a subsystem",
+  "definition_ml": {
+    "en": "element of electronic technology non evaluated according to a functional safety standard, provided with reliability data and which needs to be integrated specifically into a subsystem",
+    "fr": "élément de technologie électronique non évalué selon une norme de sécurité fonctionnelle, pourvu de données de fiabilité et qui doit être intégré spécifiquement dans un sous-système",
+    "de": "Element basierend auf Elektronik, das nicht gemäß einer funktionalen Sicherheitsnorm bewertet wurde, mit Funktionsfähigkeitskeitsdaten versehen ist und speziell in ein Teilsystem integriert werden muss",
+    "zh": "未根据功能安全标准进行评估的电子技术组件，提供可靠性数据，需要专门集成到子系统中"
+  },
+  "source_document": "derived from ISO 13849:2023, O.1.3",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "device type 2"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "device type 2",
+    "fr": "dispositif de type 2",
+    "de": "Gerätetyp 2",
+    "zh": "设备类型2"
+  },
+  "remark": "morphisme corresponding to the value code ELECTROEL",
+  "remark_ml": {
+    "en": "morphisme corresponding to the value code ELECTROEL",
+    "fr": "morphisme correspondant au code valeur ELECTROEL",
+    "de": "Morphismus, der dem Wertcode ELECTROEL entspricht",
+    "zh": "与值代码ELECTROEL对应的态射"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00094",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACF066",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "electronic element",
+    "MDC_P007.en": "device type 2",
+    "MDC_P006.en": "element of electronic technology non evaluated according to a functional safety standard, provided with reliability data and which needs to be integrated specifically into a subsystem",
+    "MDC_P009.en": "morphisme corresponding to the value code ELECTROEL",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG066)",
+    "MDC_P006_1": "derived from ISO 13849:2023, O.1.3",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACG070",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-09-25",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2025-09-26",
+    "MDC_P003_3": "2025-09-26",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P028": "{0112/2///62683#ACE071}",
+    "MDC_P004.fr": "élément électronique",
+    "MDC_P007.fr": "dispositif de type 2",
+    "MDC_P006.fr": "élément de technologie électronique non évalué selon une norme de sécurité fonctionnelle, pourvu de données de fiabilité et qui doit être intégré spécifiquement dans un sous-système",
+    "MDC_P009.fr": "morphisme correspondant au code valeur ELECTROEL",
+    "C019.fr": "IEC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2023-05-30",
+    "MDC_P004.de": "Elektronisches Element",
+    "MDC_P007.de": "Gerätetyp 2",
+    "MDC_P006.de": "Element basierend auf Elektronik, das nicht gemäß einer funktionalen Sicherheitsnorm bewertet wurde, mit Funktionsfähigkeitskeitsdaten versehen ist und speziell in ein Teilsystem integriert werden muss",
+    "MDC_P009.de": "Morphismus, der dem Wertcode ELECTROEL entspricht",
+    "C019.de": "DKE, Silvio Foertsch",
+    "C017.de": "1",
+    "C018.de": "2025-09-01",
+    "MDC_P004.zh": "电子组件",
+    "MDC_P007.zh": "设备类型2",
+    "MDC_P006.zh": "未根据功能安全标准进行评估的电子技术组件，提供可靠性数据，需要专门集成到子系统中",
+    "MDC_P009.zh": "与值代码ELECTROEL对应的态射",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-05",
+    "C002": "C00094"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-09-25 19:16:10",
+      "user": "BATCH 00000840",
+      "unid": "8F00A5BEA8135CFEC1258D10005EDD4B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:18",
+      "user": "BATCH 00000811",
+      "unid": "67d57190f3e786abc1258b9d00731c1e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:30",
+      "user": "BATCH 00000704",
+      "unid": "bb3a5cdfe2c9c5f2c125803000457171",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2025-09-26",
+    "current_revision": "2025-09-26"
+  },
+  "definition_class_irdi": "0112/2///62683#ACG070",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG066)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///62683#ACE071}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///62683#ACG066)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-09-25 19:16:10",
+    "user": "BATCH 00000840",
+    "change_request_id": null,
+    "unid": "8F00A5BEA8135CFEC1258D10005EDD4B"
+  }
+}

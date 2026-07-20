@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61360_4#AAE342",
+  "code": "AAE342",
+  "version": "1",
+  "revision": "6",
+  "preferred_name": "mounting of loudspeaker",
+  "preferred_name_ml": {
+    "en": "mounting of loudspeaker"
+  },
+  "short_name": "@lsp mounting",
+  "short_name_ml": {
+    "en": "@lsp mounting"
+  },
+  "definition": "code of the mounting arrangement of a loudspeaker",
+  "definition_ml": {
+    "en": "code of the mounting arrangement of a loudspeaker"
+  },
+  "source_document": "IEC/TC84(Sec)38(10.1) (1986)",
+  "synonyms": [],
+  "remark": "The performance of a loudspeaker system is determined by the properties of the loudspeaker unit itself and its acoustic loading. The acoustic loading depends upon the mounting arrangements as there are: |a) a standard baffle or specified enclosure |b) in free air without a baffle or enclosure |c) in half space free-field, flush with the reflecting plane.",
+  "remark_ml": {
+    "en": "The performance of a loudspeaker system is determined by the properties of the loudspeaker unit itself and its acoustic loading. The acoustic loading depends upon the mounting arrangements as there are: |a) a standard baffle or specified enclosure |b) in free air without a baffle or enclosure |c) in half space free-field, flush with the reflecting plane."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE342",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "mounting of loudspeaker",
+    "MDC_P005.en": "@lsp mounting",
+    "MDC_P006.en": "code of the mounting arrangement of a loudspeaker",
+    "MDC_P009.en": "The performance of a loudspeaker system is determined by the properties of the loudspeaker unit itself and its acoustic loading. The acoustic loading depends upon the mounting arrangements as there are: |a) a standard baffle or specified enclosure |b) in free air without a baffle or enclosure |c) in half space free-field, flush with the reflecting plane.",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA076)",
+    "MDC_P024": "M..3",
+    "MDC_P006_1": "IEC/TC84(Sec)38(10.1) (1986)",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P040": "A51",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2019-11-19",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2019-11-19",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2019-11-19 15:14:18",
+      "user": "BATCH 00001135",
+      "unid": "CC899BAA83C60017C12584B7004E36B4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:32",
+      "user": "BATCH 00000917",
+      "unid": "a348593f9e19708dc1257ea4004b1f77",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:25",
+      "user": "BATCH 00000907",
+      "unid": "431e0efb3d3960dcc1257e8b003235c6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "b7f6af5cd66c0addc1257e8a0043e39a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:31",
+      "user": "BATCH 00000788",
+      "unid": "56f8a6997514b597c1257a0e0047bbe4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:51",
+      "user": "BATCH 00000787",
+      "unid": "a3f02ce1ec4fdc06c1257a0e0046d964",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2019-11-19"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA076)",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA076)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2019-11-19 15:14:18",
+    "user": "BATCH 00001135",
+    "change_request_id": null,
+    "unid": "CC899BAA83C60017C12584B7004E36B4"
+  }
+}

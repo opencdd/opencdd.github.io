@@ -1,0 +1,130 @@
+{
+  "irdi": "0112/2///61360_4#AAF399",
+  "code": "AAF399",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "net space",
+  "preferred_name_ml": {
+    "en": "net space"
+  },
+  "definition": "volume of a three-dimensional space defining the effective physical contours of a geometrical object",
+  "definition_ml": {
+    "en": "volume of a three-dimensional space defining the effective physical contours of a geometrical object"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 3",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF399",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "net space",
+    "MDC_P006.en": "volume of a three-dimensional space defining the effective physical contours of a geometrical object",
+    "MDC_P025_1": "net space",
+    "MDC_P023": "m**3}",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA757",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-06-04",
+    "MDC_P003_2": "2024-06-04",
+    "MDC_P003_3": "2024-06-04",
+    "MDC_P012": "IEC/TC 3",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-06-04 08:03:50",
+      "user": "BATCH 00001291",
+      "unid": "7AABD637E5AF228CC1258B3200214FA8",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-02-09 12:26:18",
+      "user": "BATCH 00001006",
+      "unid": "1e7ebc3a8e32c099c12580c2003ed550",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:39",
+      "user": "BATCH 00000917",
+      "unid": "196bd99fef0aaf61c1257ea4004b224e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:32",
+      "user": "BATCH 00000907",
+      "unid": "7ae258bcf87fdd03c1257e8b00323896",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "1196e6046b746e2fc1257e8a0043e671",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "fd25e53a478207bcc1257a0e0047bea4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "e5f214854b05b820c1257a0e0046dc24",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-06-04",
+    "current_revision": "2024-06-04"
+  },
+  "symbol_in_text": "net space",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA757",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-06-04 08:03:50",
+    "user": "BATCH 00001291",
+    "change_request_id": null,
+    "unid": "7AABD637E5AF228CC1258B3200214FA8"
+  }
+}

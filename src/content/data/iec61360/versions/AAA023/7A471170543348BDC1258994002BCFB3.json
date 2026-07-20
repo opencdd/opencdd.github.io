@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAA023",
+  "code": "AAA023",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "fixed ceramic capacitor",
+  "preferred_name_ml": {
+    "en": "fixed ceramic capacitor"
+  },
+  "definition": "fixed capacitor with a dielectric consisting of a ceramic material",
+  "definition_ml": {
+    "en": "fixed capacitor with a dielectric consisting of a ceramic material"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "ceramic"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "ceramic"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA023",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "fixed ceramic capacitor",
+    "MDC_P007.en": "ceramic",
+    "MDC_P006.en": "fixed capacitor with a dielectric consisting of a ceramic material",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA021",
+    "C021": "0112/2///61360_4#AAE038",
+    "MDC_P014": "{0112/2///61360_4#AAE038}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "7A471170543348BDC1258994002BCFB3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "d1bc39f99fe72fc9c1257dd300515f1c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "fa43b5635a96fcd6c1257d7300506942",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "99bfe48978d9a5aec1257a0e0047b202",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE038"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA021",
+  "superclass_type_property": "0112/2///61360_4#AAA021",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "7A471170543348BDC1258994002BCFB3"
+  }
+}

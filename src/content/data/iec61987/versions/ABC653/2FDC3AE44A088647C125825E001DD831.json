@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61987#ABC653",
+  "code": "ABC653",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Total fluid [pressure]",
+  "preferred_name_ml": {
+    "en": "Total fluid [pressure]",
+    "fr": "Fluide total [pression]",
+    "de": "Gesamtmedium [Druck]"
+  },
+  "definition": "properties characterizing the set of common process variables for a stream consisting of one or more phases",
+  "definition_ml": {
+    "en": "properties characterizing the set of common process variables for a stream consisting of one or more phases",
+    "fr": "propriétés caractérisant l'ensemble de variables de processus communes pour un flux constitué d'une ou plusieurs phases",
+    "de": "Merkmale, die die gemeinsamen Prozessgrößen für einen aus einer oder mehreren Phasen bestehenden Mediumsstrom kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC653",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Total fluid [pressure]",
+    "MDC_P006.en": "properties characterizing the set of common process variables for a stream consisting of one or more phases",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-09-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB289,0112/2///61987#ABB181,0112/2///61987#ABB182,0112/2///61987#ABA927,0112/2///61987#ABA946,0112/2///61987#ABA557}",
+    "MDC_P004.fr": "Fluide total [pression]",
+    "MDC_P006.fr": "propriétés caractérisant l'ensemble de variables de processus communes pour un flux constitué d'une ou plusieurs phases",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Gesamtmedium [Druck]",
+    "MDC_P006.de": "Merkmale, die die gemeinsamen Prozessgrößen für einen aus einer oder mehreren Phasen bestehenden Mediumsstrom kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:58",
+      "user": "BATCH 00000762",
+      "unid": "2FDC3AE44A088647C125825E001DD831",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:12",
+      "user": "BATCH 00000699",
+      "unid": "f3ff81e64845c0eec1257cb400549d44",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-09-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB289",
+    "0112/2///61987#ABB181",
+    "0112/2///61987#ABB182",
+    "0112/2///61987#ABA927",
+    "0112/2///61987#ABA946",
+    "0112/2///61987#ABA557"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:58",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "2FDC3AE44A088647C125825E001DD831"
+  }
+}

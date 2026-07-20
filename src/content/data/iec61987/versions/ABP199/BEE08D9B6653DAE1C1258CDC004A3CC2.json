@@ -1,0 +1,91 @@
+{
+  "irdi": "0112/2///61987#ABP199",
+  "code": "ABP199",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "setting of frequency alarm function",
+  "preferred_name_ml": {
+    "en": "setting of frequency alarm function",
+    "de": "Einstellung der Frequenz-Alarmfunktion"
+  },
+  "definition": "meaning of an alarm function resulting from a frequency for a given value of frequency",
+  "definition_ml": {
+    "en": "meaning of an alarm function resulting from a frequency for a given value of frequency",
+    "de": "Bedeutung einer Alarmfunktion, die sich aus einer Frequenz für einen bestimmten Wert der Frequenz ergibt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP199",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "setting of frequency alarm function",
+    "MDC_P006.en": "meaning of an alarm function resulting from a frequency for a given value of frequency",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABP314)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2021-11-23",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Einstellung der Frequenz-Alarmfunktion",
+    "MDC_P006.de": "Bedeutung einer Alarmfunktion, die sich aus einer Frequenz für einen bestimmten Wert der Frequenz ergibt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-11-23",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "BEE08D9B6653DAE1C1258CDC004A3CC2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-01-23 14:53:53",
+      "user": "BATCH 00000807",
+      "unid": "c206224575dd3133c1258940004c5831",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2021-11-23",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP314)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP314)",
+  "value_list": "0112/2///61987#ABP314",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "BEE08D9B6653DAE1C1258CDC004A3CC2"
+  }
+}

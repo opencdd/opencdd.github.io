@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///61987#ABN591",
+  "code": "ABN591",
+  "version": "2",
+  "revision": "3",
+  "preferred_name": "URI of manufacturer",
+  "preferred_name_ml": {
+    "en": "URI of manufacturer",
+    "de": "URI des Herstellers"
+  },
+  "short_name": "Manufacturer URI",
+  "short_name_ml": {
+    "en": "Manufacturer URI",
+    "de": "Hersteller-URI"
+  },
+  "definition": "fully qualified domain name of the manufacturer of a product using a universal resource identifier (URI)",
+  "definition_ml": {
+    "en": "fully qualified domain name of the manufacturer of a product using a universal resource identifier (URI)",
+    "de": "qualifizierter Domain-Name des Herstellers eines Produkts durch die Verwendung eines Universal Resource Identifiers (URI)"
+  },
+  "synonyms": [],
+  "note": "The URI comprises the URL and the URN.",
+  "note_ml": {
+    "en": "The URI comprises the URL and the URN.",
+    "de": "Der URI umfasst den URL und den URN."
+  },
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA032 - URI of manufacturer",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA032 - URI of manufacturer",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN591",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "URI of manufacturer",
+    "MDC_P005.en": "Manufacturer URI",
+    "MDC_P006.en": "fully qualified domain name of the manufacturer of a product using a universal resource identifier (URI)",
+    "MDC_P008.en": "The URI comprises the URL and the URN.",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA032 - URI of manufacturer",
+    "MDC_P022": "URI_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_2": "2021-01-18",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "URI des Herstellers",
+    "MDC_P005.de": "Hersteller-URI",
+    "MDC_P006.de": "qualifizierter Domain-Name des Herstellers eines Produkts durch die Verwendung eines Universal Resource Identifiers (URI)",
+    "MDC_P008.de": "Der URI umfasst den URL und den URN.",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-01",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "16A0DBE8FAD12A44C1258D3E003CD65B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "7c50b646ae16c324c1258c3b004b5c08",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "fd46794d801d9f95c125886f003c9979",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "ccfaceef7e2ba8fac1258518003c4abe",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2021-01-18",
+    "current_revision": "2025-11-10"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "URI_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "URI_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "16A0DBE8FAD12A44C1258D3E003CD65B"
+  }
+}

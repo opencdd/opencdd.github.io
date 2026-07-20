@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#ACB068",
+  "code": "ACB068",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "substance above threshold level",
+  "preferred_name_ml": {
+    "en": "substance above threshold level"
+  },
+  "definition": "value stating substance contained in product is above or below stated threshold",
+  "definition_ml": {
+    "en": "value stating substance contained in product is above or below stated threshold"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ACB068",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "substance above threshold level",
+    "MDC_P006.en": "value stating substance contained in product is above or below stated threshold",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_4#ACB204)",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "R71",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-04-12",
+    "MDC_P003_2": "2024-04-12",
+    "MDC_P003_3": "2024-04-12",
+    "MDC_P012": "IEC/TC 111",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-04-12 11:15:04",
+      "user": "BATCH 00001282",
+      "unid": "2FA9D061ED561ECBC1258AFD0032D179",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "07e6117d3c76628cc1257ea4004b24c4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "4f0e81adefed937bc1257e8b00323af0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "73da4fdf54b315acc1257e8a0043e8e7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "49301c5e7b824624c1257e65003ff5aa",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-04-12",
+    "current_revision": "2024-04-12"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_4#ACB204)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_4#ACB204)",
+  "value_list": "0112/2///61360_4#ACB204",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-04-12 11:15:04",
+    "user": "BATCH 00001282",
+    "change_request_id": null,
+    "unid": "2FA9D061ED561ECBC1258AFD0032D179"
+  }
+}

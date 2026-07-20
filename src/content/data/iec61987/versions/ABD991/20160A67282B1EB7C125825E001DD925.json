@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61987#ABD991",
+  "code": "ABD991",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Process design conditions [valves]",
+  "preferred_name_ml": {
+    "en": "Process design conditions [valves]",
+    "de": "Prozessauslegungsbedingungen"
+  },
+  "definition": "properties characterizing the process conditions for which a device shall be designed",
+  "definition_ml": {
+    "en": "properties characterizing the process conditions for which a device shall be designed",
+    "de": "Merkmale, die die Prozessbedingungen kennzeichnen, für die ein Gerät auszulegen ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD991",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Process design conditions [valves]",
+    "MDC_P006.en": "properties characterizing the process conditions for which a device shall be designed",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE204,0112/2///61987#ABC817}",
+    "MDC_P004.de": "Prozessauslegungsbedingungen",
+    "MDC_P006.de": "Merkmale, die die Prozessbedingungen kennzeichnen, für die ein Gerät auszulegen ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-01-14",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "20160A67282B1EB7C125825E001DD925",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:06",
+      "user": "BATCH 00000732",
+      "unid": "26af52b5fc348293c12580d6004bffc1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:43",
+      "user": "BATCH 00000701",
+      "unid": "94ba8da6c80e970bc1257cfb003f9ab7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "1180b0c9bb033d12c1257cb400549e03",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE204",
+    "0112/2///61987#ABC817"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "20160A67282B1EB7C125825E001DD925"
+  }
+}

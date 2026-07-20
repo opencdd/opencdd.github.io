@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///61360_4#AAA112",
+  "code": "AAA112",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "power transformer",
+  "preferred_name_ml": {
+    "en": "power transformer"
+  },
+  "short_name": "POW",
+  "short_name_ml": {
+    "en": "POW"
+  },
+  "definition": "transformer designed for transmitting electrical power",
+  "definition_ml": {
+    "en": "transformer designed for transmitting electrical power"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "power"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "power"
+  },
+  "note": "In most cases power transformers are designed for one or more well defined frequencies, such as 50 Hz or 60 Hz.",
+  "note_ml": {
+    "en": "In most cases power transformers are designed for one or more well defined frequencies, such as 50 Hz or 60 Hz."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA112",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "POW",
+    "MDC_P004.en": "power transformer",
+    "MDC_P007.en": "power",
+    "MDC_P006.en": "transformer designed for transmitting electrical power",
+    "MDC_P008.en": "In most cases power transformers are designed for one or more well defined frequencies, such as 50 Hz or 60 Hz.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-02-09",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA111",
+    "C021": "0112/2///61360_4#AAE003",
+    "MDC_P014": "{0112/2///61360_4#AAE003,0112/2///61360_4#AAE158,0112/2///61360_4#AAE159,0112/2///61360_4#AAE160,0112/2///61360_4#AAE163,0112/2///61360_4#AAE165,0112/2///61360_4#AAE166,0112/2///61360_4#AAF048,0112/2///61360_4#AAF098,0112/2///61360_4#AAF099}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "3DBED30B0C8C8BA4C1258994002BD00C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "3138f98f28a39ac4c1257dd300515f71",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "99010b186f89db14c1257d7300506998",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "6343977c502b856cc1257a0e0047b25b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-02-09",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE003",
+    "0112/2///61360_4#AAE158",
+    "0112/2///61360_4#AAE159",
+    "0112/2///61360_4#AAE160",
+    "0112/2///61360_4#AAE163",
+    "0112/2///61360_4#AAE165",
+    "0112/2///61360_4#AAE166",
+    "0112/2///61360_4#AAF048",
+    "0112/2///61360_4#AAF098",
+    "0112/2///61360_4#AAF099"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA111",
+  "superclass_type_property": "0112/2///61360_4#AAA111",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "3DBED30B0C8C8BA4C1258994002BD00C"
+  }
+}

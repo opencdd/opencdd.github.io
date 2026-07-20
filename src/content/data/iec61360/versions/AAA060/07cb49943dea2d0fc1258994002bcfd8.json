@@ -1,0 +1,163 @@
+{
+  "irdi": "0112/2///61360_4#AAA060",
+  "code": "AAA060",
+  "version": "2",
+  "revision": "3",
+  "preferred_name": "combinational/sequential interface",
+  "preferred_name_ml": {
+    "en": "combinational/sequential interface"
+  },
+  "short_name": "CSI",
+  "short_name_ml": {
+    "en": "CSI"
+  },
+  "definition": "combinatorial/sequential interface function ICs",
+  "definition_ml": {
+    "en": "combinatorial/sequential interface function ICs"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "CSI logic"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "CSI logic"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA060",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "3",
+    "MDC_P005.en": "CSI",
+    "MDC_P004.en": "combinational/sequential interface",
+    "MDC_P007.en": "CSI logic",
+    "MDC_P006.en": "combinatorial/sequential interface function ICs",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2020-01-02",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA059",
+    "MDC_P014": "{0112/2///61360_4#AAE231,0112/2///61360_4#AAE233,0112/2///61360_4#AAE237,0112/2///61360_4#AAE692,0112/2///61360_4#AAE693,0112/2///61360_4#AAE790,0112/2///61360_4#AAF208,0112/2///61360_4#AAF209,0112/2///61360_4#AAF210,0112/2///61360_4#AAF211,0112/2///61360_4#AAF212,0112/2///61360_4#AAF213,0112/2///61360_4#AAF214,0112/2///61360_4#AAF215,0112/2///61360_4#AAF216,0112/2///61360_4#AAF217,0112/2///61360_4#AAF218,0112/2///61360_4#AAF219}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "07cb49943dea2d0fc1258994002bcfd8",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-02 09:32:16",
+      "user": "BATCH 00001164",
+      "unid": "d00abfa52b1f0dbcc12584e3002ee685",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:18",
+      "user": "BATCH 00000998",
+      "unid": "c73fcc5937fbbe18c12580880052e236",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:01",
+      "user": "BATCH 00000997",
+      "unid": "78d75d7598f0606ac12580880051d9df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "3db649a409da191bc1257dd300516043",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "a3ece66ce594b77dc1257d7300506a6a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "0bf5799b0ec8a0c5c1257a0e0047b227",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2020-01-02",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE231",
+    "0112/2///61360_4#AAE233",
+    "0112/2///61360_4#AAE237",
+    "0112/2///61360_4#AAE692",
+    "0112/2///61360_4#AAE693",
+    "0112/2///61360_4#AAE790",
+    "0112/2///61360_4#AAF208",
+    "0112/2///61360_4#AAF209",
+    "0112/2///61360_4#AAF210",
+    "0112/2///61360_4#AAF211",
+    "0112/2///61360_4#AAF212",
+    "0112/2///61360_4#AAF213",
+    "0112/2///61360_4#AAF214",
+    "0112/2///61360_4#AAF215",
+    "0112/2///61360_4#AAF216",
+    "0112/2///61360_4#AAF217",
+    "0112/2///61360_4#AAF218",
+    "0112/2///61360_4#AAF219"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA059",
+  "superclass_type_property": "0112/2///61360_4#AAA059",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "07cb49943dea2d0fc1258994002bcfd8"
+  }
+}

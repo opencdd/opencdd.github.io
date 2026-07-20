@@ -1,0 +1,117 @@
+{
+  "irdi": "0112/2///61360_4#AAJ104",
+  "code": "AAJ104",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "output hold time",
+  "preferred_name_ml": {
+    "en": "output hold time"
+  },
+  "short_name": "t_OH",
+  "short_name_ml": {
+    "en": "t_OH"
+  },
+  "definition": "minimum time interval during which a signal is retained at an output terminal after the subsequent active transition of the corresponding timing signal of a memory device at specified supply voltage and in a temperature range between specified temperatures (T_1} and T_2})",
+  "definition_ml": {
+    "en": "minimum time interval during which a signal is retained at an output terminal after the subsequent active transition of the corresponding timing signal of a memory device at specified supply voltage and in a temperature range between specified temperatures (T_1} and T_2})"
+  },
+  "synonyms": [],
+  "remark": "For further information, refer to AAF213",
+  "remark_ml": {
+    "en": "For further information, refer to AAF213"
+  },
+  "status_level": "Standard",
+  "publisher": "SC3D",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAJ104",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "output hold time",
+    "MDC_P005.en": "t_OH",
+    "MDC_P006.en": "minimum time interval during which a signal is retained at an output terminal after the subsequent active transition of the corresponding timing signal of a memory device at specified supply voltage and in a temperature range between specified temperatures (T_1} and T_2})",
+    "MDC_P009.en": "For further information, refer to AAF213",
+    "MDC_P025_1": "t_OH}",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3 S..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "SC3D",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE958,0112/2///61360_4#AAE959}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "24843DCCF1297F2BC1257EA4004B245F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:37",
+      "user": "BATCH 00000907",
+      "unid": "538d79487cb3cb2dc1257e8b00323a8e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:44",
+      "user": "BATCH 00000904",
+      "unid": "587c091ff0aa2246c1257e8a0043e882",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:02",
+      "user": "BATCH 00000704",
+      "unid": "84f65ae43b7d1d21c125787f0042a797",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_OH}",
+  "value_format": "NR3 S..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE958,0112/2///61360_4#AAE959}",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "24843DCCF1297F2BC1257EA4004B245F"
+  }
+}

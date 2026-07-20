@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABC460",
+  "code": "ABC460",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Operating conditions for device design [pressure]",
+  "preferred_name_ml": {
+    "en": "Operating conditions for device design [pressure]",
+    "fr": "Conditions opératoires pour la conception d'appareil [pression]",
+    "de": "Betriebsbedingungen für die Geräteauslegung [Druck]"
+  },
+  "definition": "properties characterizing the nominal conditions for the design of pressure devices at a measuring point",
+  "definition_ml": {
+    "en": "properties characterizing the nominal conditions for the design of pressure devices at a measuring point",
+    "fr": "propriétés caractérisant les conditions nominales pour la conception d'appareils de pression en un point de mesure",
+    "de": "Merkmale, die die Nennbedingungen für die Auslegung von Druckgeräten an einem Messpunkt kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC460",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Operating conditions for device design [pressure]",
+    "MDC_P006.en": "properties characterizing the nominal conditions for the design of pressure devices at a measuring point",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB087,0112/2///61987#ABD395,0112/2///61987#ABD393,0112/2///61987#ABD394,0112/2///61987#ABC897,0112/2///61987#ABC956,0112/2///61987#ABD101}",
+    "MDC_P004.fr": "Conditions opératoires pour la conception d'appareil [pression]",
+    "MDC_P006.fr": "propriétés caractérisant les conditions nominales pour la conception d'appareils de pression en un point de mesure",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Betriebsbedingungen für die Geräteauslegung [Druck]",
+    "MDC_P006.de": "Merkmale, die die Nennbedingungen für die Auslegung von Druckgeräten an einem Messpunkt kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:55",
+      "user": "BATCH 00000762",
+      "unid": "1ECA4AA834B71C79C125825E001DD70C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:39",
+      "user": "BATCH 00000701",
+      "unid": "e39d027e87bdc108c1257cfb003f993f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:10",
+      "user": "BATCH 00000699",
+      "unid": "4c877c7eba588becc1257cb400549c8b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB087",
+    "0112/2///61987#ABD395",
+    "0112/2///61987#ABD393",
+    "0112/2///61987#ABD394",
+    "0112/2///61987#ABC897",
+    "0112/2///61987#ABC956",
+    "0112/2///61987#ABD101"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:55",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "1ECA4AA834B71C79C125825E001DD70C"
+  }
+}

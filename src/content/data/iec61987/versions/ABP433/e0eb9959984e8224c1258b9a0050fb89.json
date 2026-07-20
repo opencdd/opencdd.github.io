@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABP433",
+  "code": "ABP433",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2024-09-16 16:44:32",
+    "user": "BATCH 00000833",
+    "change_request_id": null,
+    "unid": "e0eb9959984e8224c1258b9a0050fb89"
+  }
+}

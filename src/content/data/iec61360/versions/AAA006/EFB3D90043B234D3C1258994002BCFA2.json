@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61360_4#AAA006",
+  "code": "AAA006",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "voltage amplifier",
+  "preferred_name_ml": {
+    "en": "voltage amplifier"
+  },
+  "short_name": "VTA",
+  "short_name_ml": {
+    "en": "VTA"
+  },
+  "definition": "amplifier designed primarily to amplify the signal voltage, without supplying appreciable power",
+  "definition_ml": {
+    "en": "amplifier designed primarily to amplify the signal voltage, without supplying appreciable power"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "voltage"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "voltage"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA006",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "VTA",
+    "MDC_P004.en": "voltage amplifier",
+    "MDC_P007.en": "voltage",
+    "MDC_P006.en": "amplifier designed primarily to amplify the signal voltage, without supplying appreciable power",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA004",
+    "C021": "0112/2///61360_4#AAF191",
+    "MDC_P014": "{0112/2///61360_4#AAF158,0112/2///61360_4#AAF159,0112/2///61360_4#AAF162,0112/2///61360_4#AAF165,0112/2///61360_4#AAF166,0112/2///61360_4#AAF167,0112/2///61360_4#AAF168,0112/2///61360_4#AAF191}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "EFB3D90043B234D3C1258994002BCFA2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "aea5a98e4bacad22c1257dd300515f0b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "e117858e3cc45d7ac1257d7300506931",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "a1c57094b9e40ea6c1257a0e0047b1f1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF158",
+    "0112/2///61360_4#AAF159",
+    "0112/2///61360_4#AAF162",
+    "0112/2///61360_4#AAF165",
+    "0112/2///61360_4#AAF166",
+    "0112/2///61360_4#AAF167",
+    "0112/2///61360_4#AAF168",
+    "0112/2///61360_4#AAF191"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA004",
+  "superclass_type_property": "0112/2///61360_4#AAA004",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "EFB3D90043B234D3C1258994002BCFA2"
+  }
+}

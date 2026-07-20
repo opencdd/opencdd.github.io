@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///62683#ACC206",
+  "code": "ACC206",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "Motor-operator for circuit-breaker",
+  "preferred_name_ml": {
+    "en": "Motor-operator for circuit-breaker",
+    "fr": "Commande motorisée pour disjoncteur",
+    "de": "Motorantrieb für Leistungsschalter",
+    "zh": "断路器电操装置"
+  },
+  "definition": "dependent power operator capable of closing and opening the circuit-breaker",
+  "definition_ml": {
+    "en": "dependent power operator capable of closing and opening the circuit-breaker",
+    "fr": "organe de manœuvre dépendante d'une source d'énergie capable d’ouvrir et de fermer le disjoncteur",
+    "de": "abhängiger strombetriebener Antrieb, der in der Lage ist, den Leistungsschalter ein- und auszuschalten",
+    "zh": "能够闭合和断开断路器的动力操动器件。"
+  },
+  "synonyms": [],
+  "synonyms_ml": {
+    "fr": "Commande électrique"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC206",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "Motor-operator for circuit-breaker",
+    "MDC_P006.en": "dependent power operator capable of closing and opening the circuit-breaker",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC200",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF016,0112/2///62683#ACF021,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Commande motorisée pour disjoncteur",
+    "MDC_P007.fr": "Commande électrique",
+    "MDC_P006.fr": "organe de manœuvre dépendante d'une source d'énergie capable d’ouvrir et de fermer le disjoncteur",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Motorantrieb für Leistungsschalter",
+    "MDC_P006.de": "abhängiger strombetriebener Antrieb, der in der Lage ist, den Leistungsschalter ein- und auszuschalten",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "断路器电操装置",
+    "MDC_P006.zh": "能够闭合和断开断路器的动力操动器件。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:34",
+      "user": "BATCH 00000749",
+      "unid": "421eda886214c4fac12584ec0078a0b7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "65a2616428ee5aeac1258030004501f5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF016",
+    "0112/2///62683#ACF021",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC200",
+  "superclass_type_property": "0112/2///62683#ACC200",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:34",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "421eda886214c4fac12584ec0078a0b7"
+  }
+}

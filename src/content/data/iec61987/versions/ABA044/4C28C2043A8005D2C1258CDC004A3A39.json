@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA044",
+  "code": "ABA044",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "assigned LAS functionality",
+  "preferred_name_ml": {
+    "en": "assigned LAS functionality",
+    "fr": "fonctionnalité LAS assignée",
+    "de": "eingestellte LAS-Funktionalität"
+  },
+  "definition": "status of LAS functionality assigned at the factory",
+  "definition_ml": {
+    "en": "status of LAS functionality assigned at the factory",
+    "fr": "statut de la fonctionnalité LAS assignée en usine",
+    "de": "Status der LAS-Funktionalität, die bei der Herstellung eingestellt wurde"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA044",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "assigned LAS functionality",
+    "MDC_P006.en": "status of LAS functionality assigned at the factory",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "fonctionnalité LAS assignée",
+    "MDC_P006.fr": "statut de la fonctionnalité LAS assignée en usine",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "eingestellte LAS-Funktionalität",
+    "MDC_P006.de": "Status der LAS-Funktionalität, die bei der Herstellung eingestellt wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "4C28C2043A8005D2C1258CDC004A3A39",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:25",
+      "user": "BATCH 00000774",
+      "unid": "d81498c522ea4140c1258518003c4801",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "e6eb2b8992a91858c125825e001de559",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "2dc3fb6f6d9ffc60c1258256003e93a7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "5001021b58ad46b1c12580d6004c1a2c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "b2b8f2aeaa0d3dcdc1257cfb00403806",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:25",
+      "user": "BATCH 00000699",
+      "unid": "82fc38646394da27c1257cb40054b9c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "value_list": "0112/2///61987#ABJ765",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "4C28C2043A8005D2C1258CDC004A3A39"
+  }
+}

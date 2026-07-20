@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#AAG511",
+  "code": "AAG511",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "vertical resolution",
+  "preferred_name_ml": {
+    "en": "vertical resolution"
+  },
+  "short_name": "resol V",
+  "short_name_ml": {
+    "en": "resol V"
+  },
+  "definition": "minimum number of displayable pixels on the screen of a display device in the vertical direction",
+  "definition_ml": {
+    "en": "minimum number of displayable pixels on the screen of a display device in the vertical direction"
+  },
+  "source_document": "AAE806",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG511",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "vertical resolution",
+    "MDC_P005.en": "resol V",
+    "MDC_P006.en": "minimum number of displayable pixels on the screen of a display device in the vertical direction",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P006_1": "AAE806",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AAB010",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2014-10-02",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "5CBC440CDABEA0C7C1257EA4004B23BC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "0a2239092b7c1906c1257e8b003239eb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "f557a22aa7127bcdc1257e8a0043e7df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-10-02 16:33:33",
+      "user": "BATCH 00000878",
+      "unid": "2dfab29f48f5b513c1257d65004ff9fb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2014-10-02",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAB010",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "5CBC440CDABEA0C7C1257EA4004B23BC"
+  }
+}

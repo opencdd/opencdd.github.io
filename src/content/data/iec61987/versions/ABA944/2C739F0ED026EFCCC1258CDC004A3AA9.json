@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA944",
+  "code": "ABA944",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "process material hazard classification",
+  "preferred_name_ml": {
+    "en": "process material hazard classification",
+    "fr": "classification des dangers des matériaux de processus",
+    "de": "Einstufung des Gefahrenpotentials des Stoffs"
+  },
+  "definition": "property of a process material that may have an adverse effect on device behavior or specification",
+  "definition_ml": {
+    "en": "property of a process material that may have an adverse effect on device behavior or specification",
+    "fr": "propriété d'un matériau de processus qui peut dégrader le comportement de l’appareil ou sa spécification",
+    "de": "Merkmal eines Prozessmediums, das sich negativ auf Verhalten oder Spezifikation des Geräts auswirken kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA944",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "process material hazard classification",
+    "MDC_P006.en": "property of a process material that may have an adverse effect on device behavior or specification",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL270)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "classification des dangers des matériaux de processus",
+    "MDC_P006.fr": "propriété d'un matériau de processus qui peut dégrader le comportement de l’appareil ou sa spécification",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Einstufung des Gefahrenpotentials des Stoffs",
+    "MDC_P006.de": "Merkmal eines Prozessmediums, das sich negativ auf Verhalten oder Spezifikation des Geräts auswirken kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "2C739F0ED026EFCCC1258CDC004A3AA9",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "e90f6806f6ed6a93c1258518003c488e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "d728d7cbd57b01b9c125825e001de7ab",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "d61d679417ba32bac1257cb40054bbf1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL270)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL270)",
+  "value_list": "0112/2///61987#ABL270",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "2C739F0ED026EFCCC1258CDC004A3AA9"
+  }
+}

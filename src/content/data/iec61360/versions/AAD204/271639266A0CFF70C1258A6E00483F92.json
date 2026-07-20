@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAD204",
+  "code": "AAD204",
+  "version": "2",
+  "revision": "7",
+  "preferred_name": "standards compliance",
+  "preferred_name_ml": {
+    "en": "standards compliance"
+  },
+  "short_name": "standards compliance",
+  "short_name_ml": {
+    "en": "standards compliance"
+  },
+  "definition": "list of all the quality assurance standards for which compliance is claimed, together with the compliance level for each",
+  "definition_ml": {
+    "en": "list of all the quality assurance standards for which compliance is claimed, together with the compliance level for each"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD204",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "7",
+    "MDC_P004.en": "standards compliance",
+    "MDC_P005.en": "standards compliance",
+    "MDC_P006.en": "list of all the quality assurance standards for which compliance is claimed, together with the compliance level for each",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "N..70",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2023-11-21",
+    "MDC_P003_1": "2007-03-02",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2023-11-21",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "07",
+      "status": "standard",
+      "timestamp": "2023-11-21 14:09:08",
+      "user": "BATCH 00001271",
+      "unid": "271639266A0CFF70C1258A6E00483F92",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "e334c3bc0af542f9c1257ea4004b1e6b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "8fceb5da6ee47b89c1257e8b003234bd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "087d93b2edd5d729c1257e8a0043e28e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:27",
+      "user": "BATCH 00000783",
+      "unid": "bf161ac7f1f57084c12579d6003b46cd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2007-03-02",
+    "current_version": "2011-02-15",
+    "current_revision": "2023-11-21"
+  },
+  "value_format": "N..70",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "07",
+    "status": "standard",
+    "timestamp": "2023-11-21 14:09:08",
+    "user": "BATCH 00001271",
+    "change_request_id": null,
+    "unid": "271639266A0CFF70C1258A6E00483F92"
+  }
+}

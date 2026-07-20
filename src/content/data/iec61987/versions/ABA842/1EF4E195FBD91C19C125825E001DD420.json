@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABA842",
+  "code": "ABA842",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Weight transmitter",
+  "preferred_name_ml": {
+    "en": "Weight transmitter",
+    "fr": "Transmetteur de poids",
+    "de": "Gewichtsmessumformer"
+  },
+  "definition": "transmitter that outputs a signal representative of an weight",
+  "definition_ml": {
+    "en": "transmitter that outputs a signal representative of an weight",
+    "fr": "transmetteur qui délivre en sortie un signal représentatif d'un poids",
+    "de": "Messumformer, der ein Signal abgibt, welches für ein Gewicht repräsentativ ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA842",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Weight transmitter",
+    "MDC_P006.en": "transmitter that outputs a signal representative of an weight",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA751",
+    "MDC_P004.fr": "Transmetteur de poids",
+    "MDC_P006.fr": "transmetteur qui délivre en sortie un signal représentatif d'un poids",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Gewichtsmessumformer",
+    "MDC_P006.de": "Messumformer, der ein Signal abgibt, welches für ein Gewicht repräsentativ ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "1EF4E195FBD91C19C125825E001DD420",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:34",
+      "user": "BATCH 00000701",
+      "unid": "29cf998c22c3dcffc1257cfb003f680a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "40941cf57a60f2dbc1257cb3002a0cef",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA751",
+  "superclass_type_property": "0112/2///61987#ABA751",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:48",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "1EF4E195FBD91C19C125825E001DD420"
+  }
+}

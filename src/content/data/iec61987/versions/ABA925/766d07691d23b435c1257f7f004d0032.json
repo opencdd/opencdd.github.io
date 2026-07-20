@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA925",
+  "code": "ABA925",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-03-23 15:01:03",
+    "user": "BATCH 00000715",
+    "change_request_id": null,
+    "unid": "766d07691d23b435c1257f7f004d0032"
+  }
+}

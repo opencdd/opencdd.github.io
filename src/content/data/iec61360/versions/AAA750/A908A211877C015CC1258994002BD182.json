@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61360_4#AAA750",
+  "code": "AAA750",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "person and organization address data",
+  "preferred_name_ml": {
+    "en": "person and organization address data"
+  },
+  "definition": "information useable to unambigiously contact an individual or an organization using phone or mail or other means to communicate",
+  "definition_ml": {
+    "en": "information useable to unambigiously contact an individual or an organization using phone or mail or other means to communicate"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA750",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "person and organization address data",
+    "MDC_P006.en": "information useable to unambigiously contact an individual or an organization using phone or mail or other means to communicate",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2011-10-19",
+    "MDC_P003_2": "2011-10-19",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "A908A211877C015CC1258994002BD182",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "f6c2b2d14581fc75c1257dd300516028",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "ebd625bc99087985c1257d7300506a4f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "9d0542e18b9338b4c1257a0e0047b344",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-10-19",
+    "current_version": "2011-10-19",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "A908A211877C015CC1258994002BD182"
+  }
+}

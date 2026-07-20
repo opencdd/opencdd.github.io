@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABE601",
+  "code": "ABE601",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Structural design of a limit switch",
+  "preferred_name_ml": {
+    "en": "Structural design of a limit switch",
+    "de": "Konstruktiver Aufbau eines Endlagenschalters"
+  },
+  "definition": "properties characterizing the constructional details of a limit switch of an actuator",
+  "definition_ml": {
+    "en": "properties characterizing the constructional details of a limit switch of an actuator",
+    "de": "Merkmale, die die konstruktiven Details eines Endlagenschalters eines Stellantriebs kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00016",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE601",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Structural design of a limit switch",
+    "MDC_P006.en": "properties characterizing the constructional details of a limit switch of an actuator",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2014-07-25",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABE521,0112/2///61987#ABE522,0112/2///61987#ABE517,0112/2///61987#ABB015,0112/2///61987#ABE523,0112/2///61987#ABE524,0112/2///61987#ABE525,0112/2///61987#ABE526,0112/2///61987#ABE527,0112/2///61987#ABD479,0112/2///61987#ABC976,0112/2///61987#ABB952,0112/2///61987#ABB886,0112/2///61987#ABE531}",
+    "MDC_P004.de": "Konstruktiver Aufbau eines Endlagenschalters",
+    "MDC_P006.de": "Merkmale, die die konstruktiven Details eines Endlagenschalters eines Stellantriebs kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00016"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:03",
+      "user": "BATCH 00000762",
+      "unid": "4D724BE2398EF505C125825E001DD9FA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:08",
+      "user": "BATCH 00000732",
+      "unid": "0290de115ac91c22c12580d6004c0048",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-07-25",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABE521",
+    "0112/2///61987#ABE522",
+    "0112/2///61987#ABE517",
+    "0112/2///61987#ABB015",
+    "0112/2///61987#ABE523",
+    "0112/2///61987#ABE524",
+    "0112/2///61987#ABE525",
+    "0112/2///61987#ABE526",
+    "0112/2///61987#ABE527",
+    "0112/2///61987#ABD479",
+    "0112/2///61987#ABC976",
+    "0112/2///61987#ABB952",
+    "0112/2///61987#ABB886",
+    "0112/2///61987#ABE531"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:03",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "4D724BE2398EF505C125825E001DD9FA"
+  }
+}

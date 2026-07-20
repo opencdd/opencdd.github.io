@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABC041",
+  "code": "ABC041",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Touch screen",
+  "preferred_name_ml": {
+    "en": "Touch screen",
+    "fr": "Écran tactile",
+    "de": "Touch-Screen"
+  },
+  "definition": "properties characterizing a touch screen provided by a device",
+  "definition_ml": {
+    "en": "properties characterizing a touch screen provided by a device",
+    "fr": "propriétés caractérisant un écran tactile fourni par un appareil",
+    "de": "Merkmale, die einen von einem Gerät bereitgestellten Touch-Screen kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC041",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Touch screen",
+    "MDC_P006.en": "properties characterizing a touch screen provided by a device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA537,0112/2///61987#ABA538}",
+    "MDC_P004.fr": "Écran tactile",
+    "MDC_P006.fr": "propriétés caractérisant un écran tactile fourni par un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Touch-Screen",
+    "MDC_P006.de": "Merkmale, die einen von einem Gerät bereitgestellten Touch-Screen kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:49",
+      "user": "BATCH 00000762",
+      "unid": "7CDC32C4B7344BB2C125825E001DD47E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:06",
+      "user": "BATCH 00000699",
+      "unid": "54d6911b2a30be2cc1257cb400549af0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA537",
+    "0112/2///61987#ABA538"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:49",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "7CDC32C4B7344BB2C125825E001DD47E"
+  }
+}

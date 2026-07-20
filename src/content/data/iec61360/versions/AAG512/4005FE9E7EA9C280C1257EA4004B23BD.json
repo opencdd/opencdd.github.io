@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61360_4#AAG512",
+  "code": "AAG512",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "screen size",
+  "preferred_name_ml": {
+    "en": "screen size"
+  },
+  "short_name": "scrn size",
+  "short_name_ml": {
+    "en": "scrn size"
+  },
+  "definition": "nominal projected length of the useful screen diagonal of a display device, used as product identification",
+  "definition_ml": {
+    "en": "nominal projected length of the useful screen diagonal of a display device, used as product identification"
+  },
+  "source_document": "AAE592",
+  "synonyms": [],
+  "note": "Usually metre [m] is used for the unit of measure.",
+  "note_ml": {
+    "en": "Usually metre [m] is used for the unit of measure."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG512",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "screen size",
+    "MDC_P005.en": "scrn size",
+    "MDC_P006.en": "nominal projected length of the useful screen diagonal of a display device, used as product identification",
+    "MDC_P008.en": "Usually metre [m] is used for the unit of measure.",
+    "MDC_P023": "m",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "AAE592",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AAB010",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2014-10-02",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "4005FE9E7EA9C280C1257EA4004B23BD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "a623839125a7c897c1257e8b003239ec",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "54fb04b17417c431c1257e8a0043e7e0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-10-02 16:33:33",
+      "user": "BATCH 00000878",
+      "unid": "e3e32df657a466ebc1257d65004ff9fc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2014-10-02",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAB010",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "4005FE9E7EA9C280C1257EA4004B23BD"
+  }
+}

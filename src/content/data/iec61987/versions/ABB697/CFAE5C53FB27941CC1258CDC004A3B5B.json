@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABB697",
+  "code": "ABB697",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference base for maximum influence of shock on span",
+  "preferred_name_ml": {
+    "en": "reference base for maximum influence of shock on span",
+    "fr": "base de référence pour l'influence maximale des chocs sur l'intervalle de mesure",
+    "de": "Bezug der Angabe des maximalen Schockeinflusses auf die Spanne"
+  },
+  "definition": "basis for stating a maximum influence of shock",
+  "definition_ml": {
+    "en": "basis for stating a maximum influence of shock",
+    "fr": "base pour énoncer l'influence maximale des chocs",
+    "de": "Bezug, auf dem die Angabe des Werts des maximalen Schockeinflusses auf die Spanne beruht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB697",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference base for maximum influence of shock on span",
+    "MDC_P006.en": "basis for stating a maximum influence of shock",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "base de référence pour l'influence maximale des chocs sur l'intervalle de mesure",
+    "MDC_P006.fr": "base pour énoncer l'influence maximale des chocs",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Bezug der Angabe des maximalen Schockeinflusses auf die Spanne",
+    "MDC_P006.de": "Bezug, auf dem die Angabe des Werts des maximalen Schockeinflusses auf die Spanne beruht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "CFAE5C53FB27941CC1258CDC004A3B5B",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "f095fc9678b6dbecc1258518003c495c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "29f7a50530500fbbc125825e001dea95",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "8b71322f2984aee8c1257cb40054beda",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "value_list": "0112/2///61987#ABJ764",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:48",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "CFAE5C53FB27941CC1258CDC004A3B5B"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC680",
+  "code": "ABC680",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:24:13",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "ef7df07d5fd24a8ac1257cb400549d5e"
+  }
+}

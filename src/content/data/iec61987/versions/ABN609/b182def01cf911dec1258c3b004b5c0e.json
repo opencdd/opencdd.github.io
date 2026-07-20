@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABN609",
+  "code": "ABN609",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "b182def01cf911dec1258c3b004b5c0e"
+  }
+}

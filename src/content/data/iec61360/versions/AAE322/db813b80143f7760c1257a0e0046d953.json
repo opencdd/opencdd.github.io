@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAE322",
+  "code": "AAE322",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2012-05-30 14:53:51",
+    "user": "BATCH 00000787",
+    "change_request_id": null,
+    "unid": "db813b80143f7760c1257a0e0046d953"
+  }
+}

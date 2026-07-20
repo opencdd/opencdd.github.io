@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA468",
+  "code": "ABA468",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:36",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "f797cce39fd57c43c125825e001de6ca"
+  }
+}

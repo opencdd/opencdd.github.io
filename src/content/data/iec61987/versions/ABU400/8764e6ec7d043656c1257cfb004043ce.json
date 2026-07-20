@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABU400",
+  "code": "ABU400",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:41:56",
+    "user": "BATCH 00000702",
+    "change_request_id": null,
+    "unid": "8764e6ec7d043656c1257cfb004043ce"
+  }
+}

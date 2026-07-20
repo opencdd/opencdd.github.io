@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61360_4#ADA035",
+  "code": "ADA035",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "country subdivision",
+  "preferred_name_ml": {
+    "en": "country subdivision"
+  },
+  "definition": "geografical area within a country",
+  "definition_ml": {
+    "en": "geografical area within a country"
+  },
+  "source_document": "IEC 62507-1:2010",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "TC3",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA035",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "country subdivision",
+    "MDC_P006.en": "geografical area within a country",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "IEC 62507-1:2010",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2015-07-22",
+    "MDC_P003_2": "2015-07-22",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "2722b389e2f880abc1257e8b00323b28",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:46",
+      "user": "BATCH 00000904",
+      "unid": "c95fc38deb6f0b61c1257e8a0043e942",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:27",
+      "user": "BATCH 00000783",
+      "unid": "706646d33553cd15c12579d6003b46d4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "18341C1C25ABC4EAC1257EA4004B2520",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:47",
+      "user": "BATCH 00000917",
+      "unid": "81bf71e0211c0a3ec1257ea4004b251f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:39",
+      "user": "BATCH 00000788",
+      "unid": "26e7df3304c9094ac1257a0e0047bf02",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:59",
+      "user": "BATCH 00000787",
+      "unid": "4b31df5cc988f494c1257a0e0046dc82",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-07-22",
+    "current_version": "2015-07-22",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:39",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "2722b389e2f880abc1257e8b00323b28"
+  }
+}

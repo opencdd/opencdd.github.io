@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AFA015",
+  "code": "AFA015",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-01-20 15:48:50",
+    "user": "BATCH 00000890",
+    "change_request_id": null,
+    "unid": "da39d51d8a56d3dac1257dd30051603e"
+  }
+}

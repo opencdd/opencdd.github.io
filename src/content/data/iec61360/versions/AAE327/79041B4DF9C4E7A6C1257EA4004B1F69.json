@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61360_4#AAE327",
+  "code": "AAE327",
+  "version": "7",
+  "revision": "4",
+  "preferred_name": "non-rep peak reverse power diss",
+  "preferred_name_ml": {
+    "en": "non-rep peak reverse power diss"
+  },
+  "short_name": "P_ZSM",
+  "short_name_ml": {
+    "en": "P_ZSM"
+  },
+  "definition": "value of the power dissipated in a stabilising diode, operating in the reverse breakdown (working) region, when a single rectangular pulse is applied, at specified conditions",
+  "definition_ml": {
+    "en": "value of the power dissipated in a stabilising diode, operating in the reverse breakdown (working) region, when a single rectangular pulse is applied, at specified conditions"
+  },
+  "synonyms": [],
+  "note": "The specified junction temperature is measured prior to the application of the pulse.",
+  "note_ml": {
+    "en": "The specified junction temperature is measured prior to the application of the pulse."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE327",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "non-rep peak reverse power diss",
+    "MDC_P005.en": "P_ZSM",
+    "MDC_P006.en": "value of the power dissipated in a stabilising diode, operating in the reverse breakdown (working) region, when a single rectangular pulse is applied, at specified conditions",
+    "MDC_P008.en": "The specified junction temperature is measured prior to the application of the pulse.",
+    "MDC_P025_1": "P_ZSM}",
+    "MDC_P023": "W",
+    "MDC_P022": "LEVEL(MAX) OF INT_MEASURE_TYPE",
+    "MDC_P024": "NR1..4",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "H07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2008-02-25",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE028,0112/2///61360_4#AAE271}"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:32",
+      "user": "BATCH 00000917",
+      "unid": "79041B4DF9C4E7A6C1257EA4004B1F69",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:25",
+      "user": "BATCH 00000907",
+      "unid": "a9358dfae35928d8c1257e8b003235b8",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:31",
+      "user": "BATCH 00000904",
+      "unid": "d9667cfced1f0ca7c1257e8a0043e38c",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-31 14:10:09",
+      "user": "BATCH 00000733",
+      "unid": "4ec5c443a3b6fbafc12578fd0042d942",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2008-02-25",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "P_ZSM}",
+  "value_format": "NR1..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF INT_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR1 ..4",
+  "condition_raw": "{0112/2///61360_4#AAE028,0112/2///61360_4#AAE271}",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF INT_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:32",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "79041B4DF9C4E7A6C1257EA4004B1F69"
+  }
+}

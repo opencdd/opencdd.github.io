@@ -1,0 +1,91 @@
+{
+  "irdi": "0112/2///61360_4#ADA216",
+  "code": "ADA216",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "availability of an item",
+  "preferred_name_ml": {
+    "en": "availability of an item",
+    "de": "Verfügbarkeit einer Einheit"
+  },
+  "definition": "ability to be in a state to perform as required",
+  "definition_ml": {
+    "en": "ability to be in a state to perform as required"
+  },
+  "source_document": "IEV 192-01-23:2015",
+  "synonyms": [],
+  "note": "Note 1 Availability depends upon the combined characteristics of the reliability (IEV 192-01-24), recoverability (IEV 192-01-25), and maintainability (IEV192-01-27) of the item, and the maintenance support performance (IEV192-01-29). \r\n\r\nNote 2 Availability may be quantified using measures defined in Section IEV 192-08, Availability related measures.",
+  "note_ml": {
+    "en": "Note 1 Availability depends upon the combined characteristics of the reliability (IEV 192-01-24), recoverability (IEV 192-01-25), and maintainability (IEV192-01-27) of the item, and the maintenance support performance (IEV192-01-29). \r\n\r\nNote 2 Availability may be quantified using measures defined in Section IEV 192-08, Availability related measures."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA216",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "availability of an item",
+    "MDC_P006.en": "ability to be in a state to perform as required",
+    "MDC_P008.en": "Note 1 Availability depends upon the combined characteristics of the reliability (IEV 192-01-24), recoverability (IEV 192-01-25), and maintainability (IEV192-01-27) of the item, and the maintenance support performance (IEV192-01-29). \r\n\r\nNote 2 Availability may be quantified using measures defined in Section IEV 192-08, Availability related measures.",
+    "MDC_P006_1": "IEV 192-01-23:2015",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#ADA137",
+    "MDC_P014": "{0112/2///61360_4#ADA228}",
+    "MDC_P004.de": "Verfügbarkeit einer Einheit",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "9F2182583189864CC1258994002BD1BA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-05-27 13:16:02",
+      "user": "BATCH 00001062",
+      "unid": "549a236db36f3587c1258407003de4ad",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA228"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ADA137",
+  "superclass_type_property": "0112/2///61360_4#ADA137",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "9F2182583189864CC1258994002BD1BA"
+  }
+}

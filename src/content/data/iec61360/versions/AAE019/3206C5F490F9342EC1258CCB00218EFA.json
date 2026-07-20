@@ -1,0 +1,157 @@
+{
+  "irdi": "0112/2///61360_4#AAE019",
+  "code": "AAE019",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "body length",
+  "preferred_name_ml": {
+    "en": "body length"
+  },
+  "short_name": "l_body",
+  "short_name_ml": {
+    "en": "l_body"
+  },
+  "definition": "value as specified by level (miNomax) of the length of the body of a component in the x-direction",
+  "definition_ml": {
+    "en": "value as specified by level (miNomax) of the length of the body of a component in the x-direction"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE019",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "body length",
+    "MDC_P005.en": "l_body",
+    "MDC_P006.en": "value as specified by level (miNomax) of the length of the body of a component in the x-direction",
+    "MDC_P025_1": "l_body}",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-18",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2025-07-18",
+    "MDC_P003_3": "2025-07-18",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-18 08:06:32",
+      "user": "BATCH 00001392",
+      "unid": "3206C5F490F9342EC1258CCB00218EFA",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "098b256ded7ccac5c1257ea4004b1e8e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:41",
+      "user": "BATCH 00000902",
+      "unid": "4b71c23be32608f3c1257e89004bde6b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "ec652b9c83b547f6c1257e8b003234df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "70ec6f21e096b901c1257e8a0043e2b0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "2b9f3dd69a7f0530c1257ea4004b1e8d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "94b2fd341edcb2bbc1257a0e0047bb04",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "f0390a5cc7e77845c1257e8a0043e2b1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:49",
+      "user": "BATCH 00000787",
+      "unid": "a6e6ae94090b822ac1257a0e0046d884",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2025-07-18",
+    "current_revision": "2025-07-18"
+  },
+  "symbol_in_text": "l_body}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-18 08:06:32",
+    "user": "BATCH 00001392",
+    "change_request_id": null,
+    "unid": "3206C5F490F9342EC1258CCB00218EFA"
+  }
+}

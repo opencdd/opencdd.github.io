@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA335",
+  "code": "AAA335",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:34",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "2E990F260CCF7E6FC1258994002BD083"
+  }
+}

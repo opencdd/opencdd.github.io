@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///62683#ACC404",
+  "code": "ACC404",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Motor management device, operator panel",
+  "preferred_name_ml": {
+    "en": "Motor management device, operator panel",
+    "fr": "Système de gestion de moteur, panneau opérateur",
+    "de": "Bedienbaustein für Motormanagement-Gerät",
+    "zh": "电动机管理电器操作面板"
+  },
+  "definition": "human machine interface dedicated to a motor management device",
+  "definition_ml": {
+    "en": "human machine interface dedicated to a motor management device",
+    "fr": "interface homme-machine dédiée à un système de gestion de moteur",
+    "de": "Mensch-Maschine-Schnittstelle für ein Motormanagement-Gerät",
+    "zh": "专用于电动机管理电器的人机界面。"
+  },
+  "source_document": "derived from 3.4.31 of IEC 60947-4-1:2009/AMD1:2012",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC404",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Motor management device, operator panel",
+    "MDC_P006.en": "human machine interface dedicated to a motor management device",
+    "MDC_P006_1": "derived from 3.4.31 of IEC 60947-4-1:2009/AMD1:2012",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC400",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF059,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Système de gestion de moteur, panneau opérateur",
+    "MDC_P006.fr": "interface homme-machine dédiée à un système de gestion de moteur",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-09-27",
+    "MDC_P004.de": "Bedienbaustein für Motormanagement-Gerät",
+    "MDC_P006.de": "Mensch-Maschine-Schnittstelle für ein Motormanagement-Gerät",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "电动机管理电器操作面板",
+    "MDC_P006.zh": "专用于电动机管理电器的人机界面。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "aa093bfee151bf1cc12584e80070c0f4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "7bdc8c85013e0017c1258030004501fe",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF059",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC400",
+  "superclass_type_property": "0112/2///62683#ACC400",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-01-07 21:31:34",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "aa093bfee151bf1cc12584e80070c0f4"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AAA544",
+  "code": "AAA544",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "shielded pin jack",
+  "preferred_name_ml": {
+    "en": "shielded pin jack"
+  },
+  "short_name": "SHLD",
+  "short_name_ml": {
+    "en": "SHLD"
+  },
+  "definition": "receptacle for pin plugs designed to prevent the radiation of electromagnetic interference to and from the internal conductor(s)",
+  "definition_ml": {
+    "en": "receptacle for pin plugs designed to prevent the radiation of electromagnetic interference to and from the internal conductor(s)"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA544",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "SHLD",
+    "MDC_P004.en": "shielded pin jack",
+    "MDC_P006.en": "receptacle for pin plugs designed to prevent the radiation of electromagnetic interference to and from the internal conductor(s)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA540",
+    "MDC_P014": "{0112/2///61360_4#AAJ045}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "dd903203db361b8bc1258994002bd11e",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:19",
+      "user": "BATCH 00000998",
+      "unid": "1e0ef8a94b4efa95c12580880052e2be",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:03",
+      "user": "BATCH 00000997",
+      "unid": "48cf79f82e99bf7ec12580880051da6f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:22",
+      "user": "BATCH 00000879",
+      "unid": "04a1862f93cd9adbc1257d7300506af3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAJ045"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA540",
+  "superclass_type_property": "0112/2///61360_4#AAA540",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "dd903203db361b8bc1258994002bd11e"
+  }
+}

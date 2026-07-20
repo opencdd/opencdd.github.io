@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#AAA453",
+  "code": "AAA453",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "stud mount package",
+  "preferred_name_ml": {
+    "en": "stud mount package"
+  },
+  "short_name": "B006",
+  "short_name_ml": {
+    "en": "B006"
+  },
+  "definition": "cylindrical stud-mount package outline style with upper screw connections in standard form",
+  "definition_ml": {
+    "en": "cylindrical stud-mount package outline style with upper screw connections in standard form"
+  },
+  "synonyms": [],
+  "simplified_drawing": "DAA048",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA453",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "B006",
+    "MDC_P004.en": "stud mount package",
+    "MDC_P006.en": "cylindrical stud-mount package outline style with upper screw connections in standard form",
+    "MDC_P008_1": "DAA048",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA406",
+    "MDC_P014": "{0112/2///61360_4#AAG001,0112/2///61360_4#AAG014,0112/2///61360_4#AAG017,0112/2///61360_4#AAG092,0112/2///61360_4#AAG093,0112/2///61360_4#AAG094,0112/2///61360_4#AAG095,0112/2///61360_4#AAG096,0112/2///61360_4#AAG097,0112/2///61360_4#AAG133}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "241F45ADD1B97BF3C1258994002BD0FA",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:19",
+      "user": "BATCH 00000998",
+      "unid": "f9057ddcf5ca2ebdc12580880052e2aa",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:03",
+      "user": "BATCH 00000997",
+      "unid": "1590432a59f272ffc12580880051da5b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:22",
+      "user": "BATCH 00000879",
+      "unid": "f924547f78f2b5c3c1257d7300506ade",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-31 16:00:09",
+      "user": "BATCH 00000737",
+      "unid": "82bb560c1a3fd235c12578fd004ceb2d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-08-31",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG001",
+    "0112/2///61360_4#AAG014",
+    "0112/2///61360_4#AAG017",
+    "0112/2///61360_4#AAG092",
+    "0112/2///61360_4#AAG093",
+    "0112/2///61360_4#AAG094",
+    "0112/2///61360_4#AAG095",
+    "0112/2///61360_4#AAG096",
+    "0112/2///61360_4#AAG097",
+    "0112/2///61360_4#AAG133"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA406",
+  "superclass_type_property": "0112/2///61360_4#AAA406",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "241F45ADD1B97BF3C1258994002BD0FA"
+  }
+}

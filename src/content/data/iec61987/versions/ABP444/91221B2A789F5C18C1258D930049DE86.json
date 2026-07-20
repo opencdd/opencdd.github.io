@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABP444",
+  "code": "ABP444",
+  "version": "2",
+  "revision": "3",
+  "preferred_name": "TOC analyser",
+  "preferred_name_ml": {
+    "en": "TOC analyser",
+    "de": "TOC-Analysator"
+  },
+  "short_name": "TOC analys.",
+  "short_name_ml": {
+    "en": "TOC analys.",
+    "de": "TOC-Analys."
+  },
+  "definition": "sum parameter analyser for the determination of total organic carbon in water by oxidation",
+  "definition_ml": {
+    "en": "sum parameter analyser for the determination of total organic carbon in water by oxidation",
+    "de": "Summenparameteranalysator zur Bestimmung des gesamten organischen Kohlenstoffs in Wasser durch Oxidation"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP444",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "3",
+    "MDC_P005.en": "TOC analys.",
+    "MDC_P004.en": "TOC analyser",
+    "MDC_P006.en": "sum parameter analyser for the determination of total organic carbon in water by oxidation",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2022-12-21",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABP443",
+    "MDC_P014": "{0112/2///61987#ABP995}",
+    "MDC_P005.de": "TOC-Analys.",
+    "MDC_P004.de": "TOC-Analysator",
+    "MDC_P006.de": "Summenparameteranalysator zur Bestimmung des gesamten organischen Kohlenstoffs in Wasser durch Oxidation",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-12-20",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "91221B2A789F5C18C1258D930049DE86",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-03-18 11:43:15",
+      "user": "BATCH 00000836",
+      "unid": "58a8e768146a4fe4c1258c51003ae455",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:45:21",
+      "user": "BATCH 00000835",
+      "unid": "b1150ddb177ce6d8c1258c3b004b9055",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2024-09-16 16:44:32",
+      "user": "BATCH 00000833",
+      "unid": "13ad6d8014b8e4dec1258b9a0050fb94",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2022-12-21",
+    "current_version": "2025-02-24",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABP995"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABP443",
+  "superclass_type_property": "0112/2///61987#ABP443",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "91221B2A789F5C18C1258D930049DE86"
+  }
+}

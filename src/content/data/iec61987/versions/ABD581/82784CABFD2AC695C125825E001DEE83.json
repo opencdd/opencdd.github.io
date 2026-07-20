@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABD581",
+  "code": "ABD581",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "factor of oversizing for close position",
+  "preferred_name_ml": {
+    "en": "factor of oversizing for close position",
+    "de": "Überdimensionierungsfaktor für Geschlossenstellung"
+  },
+  "definition": "factor by which the actuator of a final control element is oversized in the close position",
+  "definition_ml": {
+    "en": "factor by which the actuator of a final control element is oversized in the close position",
+    "de": "Faktor, um den der Antrieb eines Stellgeräts in Geschlossenstellung überdimensioniert wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD581",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "factor of oversizing for close position",
+    "MDC_P006.en": "factor by which the actuator of a final control element is oversized in the close position",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P004.de": "Überdimensionierungsfaktor für Geschlossenstellung",
+    "MDC_P006.de": "Faktor, um den der Antrieb eines Stellgeräts in Geschlossenstellung überdimensioniert wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:56",
+      "user": "BATCH 00000762",
+      "unid": "82784CABFD2AC695C125825E001DEE83",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:37",
+      "user": "BATCH 00000732",
+      "unid": "3dc28e23668eeb4ac12580d6004c2333",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:49",
+      "user": "BATCH 00000702",
+      "unid": "33228520db2abf75c1257cfb00404109",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:48",
+      "user": "BATCH 00000699",
+      "unid": "8c0be73c7ef8bd80c1257cb40054c2c6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:56",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "82784CABFD2AC695C125825E001DEE83"
+  }
+}

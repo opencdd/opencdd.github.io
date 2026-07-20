@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61360_4#ADA112",
+  "code": "ADA112",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "warranty",
+  "preferred_name_ml": {
+    "en": "warranty"
+  },
+  "definition": "concept describing the promises about a product made by, either the manufacturer or its representant, including the applying conditions for product faults or defects, which is a part of the sales contract",
+  "definition_ml": {
+    "en": "concept describing the promises about a product made by, either the manufacturer or its representant, including the applying conditions for product faults or defects, which is a part of the sales contract"
+  },
+  "synonyms": [],
+  "note": "1 implied legal warrenty is imposed by local or regional law in a sale.\r\n2 contractual warrenty applies independently of the implied legal warrenty.\r\n3 consumer or industrial goods are considered to be of the non-wearable type. Both good types may contain wearable goods with their own periods of warranty.",
+  "note_ml": {
+    "en": "1 implied legal warrenty is imposed by local or regional law in a sale.\r\n2 contractual warrenty applies independently of the implied legal warrenty.\r\n3 consumer or industrial goods are considered to be of the non-wearable type. Both good types may contain wearable goods with their own periods of warranty."
+  },
+  "remark": "manufacturer commits himself for a defined period of time to correct defects, or exchange defective products, irrespective of whether the defect has been existent or not at the time of delivery of the object of purchase.",
+  "remark_ml": {
+    "en": "manufacturer commits himself for a defined period of time to correct defects, or exchange defective products, irrespective of whether the defect has been existent or not at the time of delivery of the object of purchase."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ADA112",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "warranty",
+    "MDC_P006.en": "concept describing the promises about a product made by, either the manufacturer or its representant, including the applying conditions for product faults or defects, which is a part of the sales contract",
+    "MDC_P008.en": "1 implied legal warrenty is imposed by local or regional law in a sale.\r\n2 contractual warrenty applies independently of the implied legal warrenty.\r\n3 consumer or industrial goods are considered to be of the non-wearable type. Both good types may contain wearable goods with their own periods of warranty.",
+    "MDC_P009.en": "manufacturer commits himself for a defined period of time to correct defects, or exchange defective products, irrespective of whether the defect has been existent or not at the time of delivery of the object of purchase.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2023-04-17",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA233",
+    "MDC_P014": "{0112/2///61360_4#ADA113,0112/2///61360_4#ADA123,0112/2///61360_4#ADA147,0112/2///61360_4#ADA161,0112/2///61360_4#ADA162,0112/2///61360_4#ADA163,0112/2///61360_4#ADA164,0112/2///61360_4#ADA165,0112/2///61360_4#ADA166,0112/2///61360_4#ADA167,0112/2///61360_4#ADA168,0112/2///61360_4#ADA169}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "A0CCAD1DA404074CC1258994002BD1B4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-08-07 10:21:06",
+      "user": "BATCH 00001052",
+      "unid": "310510a18e5a9f51c12582e2002de08c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2023-04-17",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ADA113",
+    "0112/2///61360_4#ADA123",
+    "0112/2///61360_4#ADA147",
+    "0112/2///61360_4#ADA161",
+    "0112/2///61360_4#ADA162",
+    "0112/2///61360_4#ADA163",
+    "0112/2///61360_4#ADA164",
+    "0112/2///61360_4#ADA165",
+    "0112/2///61360_4#ADA166",
+    "0112/2///61360_4#ADA167",
+    "0112/2///61360_4#ADA168",
+    "0112/2///61360_4#ADA169"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA233",
+  "superclass_type_property": "0112/2///61360_4#AAA233",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "A0CCAD1DA404074CC1258994002BD1B4"
+  }
+}

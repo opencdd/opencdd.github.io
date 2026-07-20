@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABB865",
+  "code": "ABB865",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "maximum assignable quantity of pulses per value of other variable",
+  "preferred_name_ml": {
+    "en": "maximum assignable quantity of pulses per value of other variable",
+    "fr": "quantité assignable maximale d'impulsions par valeur d'une autre variable",
+    "de": "maximaler Wert der Zahl der Pulse je Pulswert der weiteren Messgröße"
+  },
+  "definition": "highest other variable value assignable to pulse value of other variable",
+  "definition_ml": {
+    "en": "highest other variable value assignable to pulse value of other variable",
+    "fr": "valeur d'autre variable la plus haute assignable à la valeur d'impulsions d'une autre variable",
+    "de": "höchster Wert einer weiteren Messgröße, der dem Pulswert einer weiteren Messgröße zugeordnet werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB865",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "maximum assignable quantity of pulses per value of other variable",
+    "MDC_P006.en": "highest other variable value assignable to pulse value of other variable",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2014-03-13",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "quantité assignable maximale d'impulsions par valeur d'une autre variable",
+    "MDC_P006.fr": "valeur d'autre variable la plus haute assignable à la valeur d'impulsions d'une autre variable",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximaler Wert der Zahl der Pulse je Pulswert der weiteren Messgröße",
+    "MDC_P006.de": "höchster Wert einer weiteren Messgröße, der dem Pulswert einer weiteren Messgröße zugeordnet werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:47",
+      "user": "BATCH 00000762",
+      "unid": "9E86530BE276B543C125825E001DEB3A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:41",
+      "user": "BATCH 00000702",
+      "unid": "38e37426869ebde0c1257cfb00403dc2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:40",
+      "user": "BATCH 00000699",
+      "unid": "3623f05c733d4a4bc1257cb40054bf7f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2014-03-13",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "9E86530BE276B543C125825E001DEB3A"
+  }
+}

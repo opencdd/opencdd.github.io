@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABB371",
+  "code": "ABB371",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "hazardous mixture",
+  "preferred_name_ml": {
+    "en": "hazardous mixture",
+    "fr": "mélange dangereux",
+    "de": "explosionsgefährliche Stoffmischung"
+  },
+  "definition": "indication of the presence of an hazardous atmosphere where no zone definition exists",
+  "definition_ml": {
+    "en": "indication of the presence of an hazardous atmosphere where no zone definition exists",
+    "fr": "indication de la présence d'une atmosphère dangereuse dans laquelle il n'existe pas de définition de zone",
+    "de": "Angabe über das Vorhandensein einer explosionsgefährdeten Atmosphäre, wenn keine Zonendefinition existiert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB371",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "hazardous mixture",
+    "MDC_P006.en": "indication of the presence of an hazardous atmosphere where no zone definition exists",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL456)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "mélange dangereux",
+    "MDC_P006.fr": "indication de la présence d'une atmosphère dangereuse dans laquelle il n'existe pas de définition de zone",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "explosionsgefährliche Stoffmischung",
+    "MDC_P006.de": "Angabe über das Vorhandensein einer explosionsgefährdeten Atmosphäre, wenn keine Zonendefinition existiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:47",
+      "user": "BATCH 00000849",
+      "unid": "3778CC97A012FDBFC1258CDC004A3AFF",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:28",
+      "user": "BATCH 00000774",
+      "unid": "44b75f0d8b7a24acc1258518003c48f5",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "342c0d9b18796a35c125825e001de954",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:35",
+      "user": "BATCH 00000755",
+      "unid": "9b9645bfa829365fc1258256003e95bd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "be06b8c65388d33ec12580d6004c1e02",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:36",
+      "user": "BATCH 00000702",
+      "unid": "586dd18c7ac865e3c1257cfb00403bdc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "582b44ed252719b0c1257cb40054bd99",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL456)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL456)",
+  "value_list": "0112/2///61987#ABL456",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:47",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "3778CC97A012FDBFC1258CDC004A3AFF"
+  }
+}

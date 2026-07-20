@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61360_4#AAD175",
+  "code": "AAD175",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "function",
+  "preferred_name_ml": {
+    "en": "function"
+  },
+  "short_name": "function",
+  "short_name_ml": {
+    "en": "function"
+  },
+  "definition": "description of the intended operations performed by a die device or integrated circuit when operated under the conditions as recommended by the manufacturer",
+  "definition_ml": {
+    "en": "description of the intended operations performed by a die device or integrated circuit when operated under the conditions as recommended by the manufacturer"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "remark": "\"For details of the recommended operating conditions#002C reference should be made to the manufacturer's data sheet and any other relevant documentation\"",
+  "remark_ml": {
+    "en": "\"For details of the recommended operating conditions#002C reference should be made to the manufacturer's data sheet and any other relevant documentation\""
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/TC 47",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD175",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "function",
+    "MDC_P005.en": "function",
+    "MDC_P006.en": "description of the intended operations performed by a die device or integrated circuit when operated under the conditions as recommended by the manufacturer",
+    "MDC_P009.en": "\"For details of the recommended operating conditions#002C reference should be made to the manufacturer's data sheet and any other relevant documentation\"",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "2006-11-10",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2024-12-21",
+    "MDC_P012": "IEC/TC 47",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:12",
+      "user": "BATCH 00001336",
+      "unid": "B52EB829EAF08F1CC1258BFA00619D70",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "9344c2dde2c11f17c1257ea4004b1e50",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "490e71deb6b08b6ec1257e8b003234a2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "06113efb311a95f7c1257e8a0043e273",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "a3a16957fdd168f3c125787f0042a262",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2006-11-10",
+    "current_version": "2011-02-15",
+    "current_revision": "2024-12-21"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:12",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "B52EB829EAF08F1CC1258BFA00619D70"
+  }
+}

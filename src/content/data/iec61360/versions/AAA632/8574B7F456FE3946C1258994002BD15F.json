@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61360_4#AAA632",
+  "code": "AAA632",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "pollution",
+  "preferred_name_ml": {
+    "en": "pollution"
+  },
+  "definition": "ambient contamination produced by nature or by industrial labour",
+  "definition_ml": {
+    "en": "ambient contamination produced by nature or by industrial labour"
+  },
+  "source_document": "IEC 60721-1:1990",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA632",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "pollution",
+    "MDC_P006.en": "ambient contamination produced by nature or by industrial labour",
+    "MDC_P006_1": "IEC 60721-1:1990",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA650",
+    "MDC_P014": "{0112/2///61360_4#AAF967,0112/2///61360_4#AAF926,0112/2///61360_4#AAF946,0112/2///61360_4#AAF923}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "8574B7F456FE3946C1258994002BD15F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "936047e7729aba12c1257dd30051600e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "49ee10171f01a1eac1257d7300506a35",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:16",
+      "user": "BATCH 00000825",
+      "unid": "4409ca7140b0d6dbc1257b9e0044df6c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAF967",
+    "0112/2///61360_4#AAF926",
+    "0112/2///61360_4#AAF946",
+    "0112/2///61360_4#AAF923"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA650",
+  "superclass_type_property": "0112/2///61360_4#AAA650",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "8574B7F456FE3946C1258994002BD15F"
+  }
+}

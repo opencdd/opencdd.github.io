@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB677",
+  "code": "ABB677",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "process temperature test point",
+  "preferred_name_ml": {
+    "en": "process temperature test point",
+    "fr": "point d'essai de température de processus",
+    "de": "Messpunkt der Prozesstemperatur"
+  },
+  "definition": "process temperature to which a statement of its influence applies",
+  "definition_ml": {
+    "en": "process temperature to which a statement of its influence applies",
+    "fr": "température de processus à laquelle s'applique une constatation concernant son influence",
+    "de": "Prozesstemperatur, auf die die Angabe ihres Einflusses angewendet wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB677",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "process temperature test point",
+    "MDC_P006.en": "process temperature to which a statement of its influence applies",
+    "MDC_P023": "°C",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA033",
+    "C0104": "0112/2///61987#ABT514",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "point d'essai de température de processus",
+    "MDC_P006.fr": "température de processus à laquelle s'applique une constatation concernant son influence",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Messpunkt der Prozesstemperatur",
+    "MDC_P006.de": "Prozesstemperatur, auf die die Angabe ihres Einflusses angewendet wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "7249506F6C3F59F6C125825E001DEA81",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:55",
+      "user": "BATCH 00000717",
+      "unid": "6339ba937c3f1d37c1257fa700405ab8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:39",
+      "user": "BATCH 00000702",
+      "unid": "cf5dc6885dc60bcfc1257cfb00403d09",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "f4786ad400535ca2c1257cb40054bec6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA033",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:45",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "7249506F6C3F59F6C125825E001DEA81"
+  }
+}

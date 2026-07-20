@@ -1,0 +1,158 @@
+{
+  "irdi": "0112/2///61987#ABA101",
+  "code": "ABA101",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "maximum limiting rate of ambient temperature change",
+  "preferred_name_ml": {
+    "en": "maximum limiting rate of ambient temperature change",
+    "fr": "taux limite maximal de la modification de température ambiante",
+    "de": "maximale Grenzänderungsgeschwindigkeit der Umgebungstemperatur"
+  },
+  "definition": "highest rate of change of ambient temperature a device can or should withstand without permanent impairment of operating characteristics",
+  "definition_ml": {
+    "en": "highest rate of change of ambient temperature a device can or should withstand without permanent impairment of operating characteristics",
+    "fr": "taux le plus haut de modification de température ambiante qu'un appareil peut ou doit supporter sans dégradation permanente des caractéristiques de fonctionnement",
+    "de": "höchste Änderungsrate der Umgebungstemperatur, der ein Gerät ohne dauerhafte Einschränkung des Betriebsverhaltens standhalten kann oder soll"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA101",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum limiting rate of ambient temperature change",
+    "MDC_P006.en": "highest rate of change of ambient temperature a device can or should withstand without permanent impairment of operating characteristics",
+    "MDC_P023": "K/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA189",
+    "C0104": "0112/2///61987#ABT521",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "taux limite maximal de la modification de température ambiante",
+    "MDC_P006.fr": "taux le plus haut de modification de température ambiante qu'un appareil peut ou doit supporter sans dégradation permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximale Grenzänderungsgeschwindigkeit der Umgebungstemperatur",
+    "MDC_P006.de": "höchste Änderungsrate der Umgebungstemperatur, der ein Gerät ohne dauerhafte Einschränkung des Betriebsverhaltens standhalten kann oder soll",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:32",
+      "user": "BATCH 00000762",
+      "unid": "73E6BDEEC934AD0BC125825E001DE580",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "f63885c676a0e1b8c1258256003e941a",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "5696ab3ac2e10364c125825600407ae1",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "29d68e885bcf6139c12580d6004c1a54",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "532eab07cb491926c1257f7f004d0030",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:35",
+      "user": "BATCH 00000714",
+      "unid": "c93986eb0bf3c5c2c1257f7e0030f195",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "8d7e29ccd1591364c1257fa7003a3ccb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "ebe68231a1fef65bc1257cfb0040382e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "32f2a2858a489b8cc1257cb40054b9eb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA189",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:32",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "73E6BDEEC934AD0BC125825E001DE580"
+  }
+}

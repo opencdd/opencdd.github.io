@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACF171",
+  "code": "ACF171",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:31",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "e90be7a4e4e3beafc1258030004571d2"
+  }
+}

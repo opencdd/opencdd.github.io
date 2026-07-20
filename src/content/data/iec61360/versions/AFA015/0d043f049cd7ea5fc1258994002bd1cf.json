@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61360_4#AFA015",
+  "code": "AFA015",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "insulated-gate bipolar transistor",
+  "preferred_name_ml": {
+    "en": "insulated-gate bipolar transistor"
+  },
+  "definition": "transistor having a conduction channel and a PN junction, of which the currents flowing through the channel and the junction are controlled by an electric field resulting from a voltage applied between the gate and emitter terminals",
+  "definition_ml": {
+    "en": "transistor having a conduction channel and a PN junction, of which the currents flowing through the channel and the junction are controlled by an electric field resulting from a voltage applied between the gate and emitter terminals"
+  },
+  "source_document": "IEC 60747-9:2007",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA015",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "insulated-gate bipolar transistor",
+    "MDC_P006.en": "transistor having a conduction channel and a PN junction, of which the currents flowing through the channel and the junction are controlled by an electric field resulting from a voltage applied between the gate and emitter terminals",
+    "MDC_P006_1": "IEC 60747-9:2007",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-04-24",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA118",
+    "MDC_P014": "{0112/2///61360_4#AFD055,0112/2///61360_4#AFD056,0112/2///61360_4#AFD057,0112/2///61360_4#AFD058,0112/2///61360_4#AFD059,0112/2///61360_4#AFD060,0112/2///61360_4#AFD061,0112/2///61360_4#AFD062,0112/2///61360_4#AFD063,0112/2///61360_4#AFD064,0112/2///61360_4#AFD065,0112/2///61360_4#AFD066,0112/2///61360_4#AFD067,0112/2///61360_4#AFD068,0112/2///61360_4#AFD069,0112/2///61360_4#AFD070,0112/2///61360_4#AFD071,0112/2///61360_4#AFD072,0112/2///61360_4#AFD073,0112/2///61360_4#AFD074,0112/2///61360_4#AFD075}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "0d043f049cd7ea5fc1258994002bd1cf",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "da39d51d8a56d3dac1257dd30051603e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "3bf5baa285031066c1257d7300506a65",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-18 14:54:26",
+      "user": "BATCH 00000812",
+      "unid": "cdfa13875855b5b6c1257af7004c6563",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-04-24",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD055",
+    "0112/2///61360_4#AFD056",
+    "0112/2///61360_4#AFD057",
+    "0112/2///61360_4#AFD058",
+    "0112/2///61360_4#AFD059",
+    "0112/2///61360_4#AFD060",
+    "0112/2///61360_4#AFD061",
+    "0112/2///61360_4#AFD062",
+    "0112/2///61360_4#AFD063",
+    "0112/2///61360_4#AFD064",
+    "0112/2///61360_4#AFD065",
+    "0112/2///61360_4#AFD066",
+    "0112/2///61360_4#AFD067",
+    "0112/2///61360_4#AFD068",
+    "0112/2///61360_4#AFD069",
+    "0112/2///61360_4#AFD070",
+    "0112/2///61360_4#AFD071",
+    "0112/2///61360_4#AFD072",
+    "0112/2///61360_4#AFD073",
+    "0112/2///61360_4#AFD074",
+    "0112/2///61360_4#AFD075"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA118",
+  "superclass_type_property": "0112/2///61360_4#AAA118",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "0d043f049cd7ea5fc1258994002bd1cf"
+  }
+}

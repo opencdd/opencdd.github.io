@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABU411",
+  "code": "ABU411",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "reference to Absolute performance for pressure",
+  "preferred_name_ml": {
+    "en": "reference to Absolute performance for pressure"
+  },
+  "definition": "reference to block ABC064",
+  "definition_ml": {
+    "en": "reference to block ABC064"
+  },
+  "synonyms": [],
+  "remark": "Id specified in IEC61987-12/-13: ABC694",
+  "remark_ml": {
+    "en": "Id specified in IEC61987-12/-13: ABC694"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU411",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "reference to Absolute performance for pressure",
+    "MDC_P006.en": "reference to block ABC064",
+    "MDC_P009.en": "Id specified in IEC61987-12/-13: ABC694",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC064)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-08-31",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P028": "{0112/2///61987#ABU391}",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:20",
+      "user": "BATCH 00000762",
+      "unid": "3F68755753FD746AC125825E001DF7FE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:56",
+      "user": "BATCH 00000702",
+      "unid": "f85e0bb1cfdb86afc1257cfb004043d9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:56",
+      "user": "BATCH 00000699",
+      "unid": "ecc169560c5440d4c1257cb40054c596",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-08-31"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC064)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU391}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC064)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:20",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "3F68755753FD746AC125825E001DF7FE"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "irdi": "0112/2///63508#KDA001",
+  "code": "KDA001",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Domain - Circuit-breakers and similar equipment for household",
+  "preferred_name_ml": {
+    "en": "Domain - Circuit-breakers and similar equipment for household"
+  },
+  "definition": "domain covering protection devices for household with rated currents not exceeding 125 A and rated voltages not exceeding 440 V",
+  "definition_ml": {
+    "en": "domain covering protection devices for household with rated currents not exceeding 125 A and rated voltages not exceeding 440 V"
+  },
+  "synonyms": [],
+  "note": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices.",
+  "note_ml": {
+    "en": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 63508",
+  "responsible_committee": "IEC/SC 23E",
+  "change_request_id": "C00138",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///63508#KDA001",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Domain - Circuit-breakers and similar equipment for household",
+    "MDC_P006.en": "domain covering protection devices for household with rated currents not exceeding 125 A and rated voltages not exceeding 440 V",
+    "MDC_P008.en": "The domain covers the following device types:, - circuit-breakers and residual current devices of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for protection against overcurrent and/or against electric shock in domestic and similar installations, , - residual current monitors (RCM) for household and similar applications, , - circuit-breakers for equipment of rated currents not exceeding 125 A and rated voltages not exceeding 440 V designed to protect equipment for use in domestic and similar installations, , - control and protection devices for electric vehicle supplies, , - arc fault detection devices (AFDD) of rated currents not exceeding 125 A and rated voltages not exceeding 440 V for household and similar uses,, - automatic reclosing devices, , - power frequency overvoltage protection devices.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 63508",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-15",
+    "MDC_P003_1": "2024-03-08",
+    "MDC_P003_2": "2025-10-15",
+    "MDC_P003_3": "2025-10-15",
+    "MDC_P012": "IEC/SC 23E",
+    "C002": "C00138"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-15 22:36:23",
+      "user": "BATCH 00000943",
+      "unid": "15D3679869FB923CC1258D24007131CB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-01-22 13:28:37",
+      "user": "BATCH 00000940",
+      "unid": "e0e7c80658933571c1258c1a00448a10",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2024-03-08",
+    "current_version": "2025-10-15",
+    "current_revision": "2025-10-15"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-15 22:36:23",
+    "user": "BATCH 00000943",
+    "change_request_id": null,
+    "unid": "15D3679869FB923CC1258D24007131CB"
+  }
+}

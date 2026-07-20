@@ -1,0 +1,109 @@
+{
+  "irdi": "0112/2///61987#ABB791",
+  "code": "ABB791",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "accuracy of other variable measuring instrument",
+  "preferred_name_ml": {
+    "en": "accuracy of other variable measuring instrument",
+    "fr": "précision d'une autre variable",
+    "de": "Genauigkeit des weitere Messgrößemessgeräts"
+  },
+  "definition": "quality which characterizes the ability of another variable measuring instrument to provide an indicated value close to a true value of the measurand under reference conditions",
+  "definition_ml": {
+    "en": "quality which characterizes the ability of another variable measuring instrument to provide an indicated value close to a true value of the measurand under reference conditions",
+    "fr": "étroitesse de l'accord entre le résultat d'une mesure d'une autre variable et la valeur conventionnellement vraie du mesurande dans des conditions de référence",
+    "de": "Eigenschaft, welche die Fähigkeit eines weiteren Messgrößemessgeräts unter Referenzbedingungen kennzeichnet, einen angezeigten Wert zu liefern, der in der Nähe eines wahren Werts der Messgröße liegt"
+  },
+  "source_document": "IEV 311-06-08 (modified)",
+  "synonyms": [],
+  "note": "the accuracy is based on a statistical sample of test devices",
+  "note_ml": {
+    "en": "the accuracy is based on a statistical sample of test devices",
+    "de": "die Genauigkeit beruht auf einer statistischen Stichprobe von Messgeräten"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB791",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "accuracy of other variable measuring instrument",
+    "MDC_P006.en": "quality which characterizes the ability of another variable measuring instrument to provide an indicated value close to a true value of the measurand under reference conditions",
+    "MDC_P008.en": "the accuracy is based on a statistical sample of test devices",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P006_1": "IEV 311-06-08 (modified)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2014-03-13",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "précision d'une autre variable",
+    "MDC_P006.fr": "étroitesse de l'accord entre le résultat d'une mesure d'une autre variable et la valeur conventionnellement vraie du mesurande dans des conditions de référence",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Genauigkeit des weitere Messgrößemessgeräts",
+    "MDC_P006.de": "Eigenschaft, welche die Fähigkeit eines weiteren Messgrößemessgeräts unter Referenzbedingungen kennzeichnet, einen angezeigten Wert zu liefern, der in der Nähe eines wahren Werts der Messgröße liegt",
+    "MDC_P008.de": "die Genauigkeit beruht auf einer statistischen Stichprobe von Messgeräten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:46",
+      "user": "BATCH 00000762",
+      "unid": "3432B65852AED21CC125825E001DEAF0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:40",
+      "user": "BATCH 00000702",
+      "unid": "e9adc2fef21f16f4c1257cfb00403d78",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:39",
+      "user": "BATCH 00000699",
+      "unid": "dc2e7f21ddb53adcc1257cb40054bf35",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2014-03-13",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:46",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "3432B65852AED21CC125825E001DEAF0"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61360_4#AAD181",
+  "code": "AAD181",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "simulator name",
+  "preferred_name_ml": {
+    "en": "simulator name"
+  },
+  "short_name": "simulator name",
+  "short_name_ml": {
+    "en": "simulator name"
+  },
+  "definition": "name of a simulator software package with which a simulator model is intended to be used",
+  "definition_ml": {
+    "en": "name of a simulator software package with which a simulator model is intended to be used"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/TC 47",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD181",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "simulator name",
+    "MDC_P005.en": "simulator name",
+    "MDC_P006.en": "name of a simulator software package with which a simulator model is intended to be used",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "2007-02-14",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2024-12-21",
+    "MDC_P012": "IEC/TC 47",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:12",
+      "user": "BATCH 00001336",
+      "unid": "B2DC0AAD2166ABBFC1258BFA00619D73",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "14092d67d0490d8cc1257ea4004b1e56",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "bfbd003029434f5ec1257e8b003234a8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "164fd8b73b333b9ec1257e8a0043e279",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:49",
+      "user": "BATCH 00000704",
+      "unid": "75c553d0f849331ac125787f0042a267",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2007-02-14",
+    "current_version": "2011-02-15",
+    "current_revision": "2024-12-21"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:12",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "B2DC0AAD2166ABBFC1258BFA00619D73"
+  }
+}

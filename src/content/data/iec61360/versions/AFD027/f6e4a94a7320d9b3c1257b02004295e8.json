@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AFD027",
+  "code": "AFD027",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2013-01-29 13:07:17",
+    "user": "BATCH 00000817",
+    "change_request_id": null,
+    "unid": "f6e4a94a7320d9b3c1257b02004295e8"
+  }
+}

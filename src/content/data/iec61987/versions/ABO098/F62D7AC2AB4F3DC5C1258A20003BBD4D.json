@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABO098",
+  "code": "ABO098",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "start of validity",
+  "preferred_name_ml": {
+    "en": "start of validity",
+    "de": "Beginn der Gültigkeit"
+  },
+  "definition": "date when a document becomes valid",
+  "definition_ml": {
+    "en": "date when a document becomes valid",
+    "de": "Datum, ab dem ein Dokument gültig wird"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "valid from"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "valid from"
+  },
+  "note": "The format for date is the lexical representation allowed by ISO 8601, i. e. \"YYYY-MM-DD\" with optional time zone.",
+  "note_ml": {
+    "en": "The format for date is the lexical representation allowed by ISO 8601, i. e. \"YYYY-MM-DD\" with optional time zone.",
+    "de": "Das Format ist in ISO 8601 festgelegt: \"YYYY-MM-DD\" mit optionaler Angabe der Zeitzone."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00133",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABO098",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "start of validity",
+    "MDC_P007.en": "valid from",
+    "MDC_P006.en": "date when a document becomes valid",
+    "MDC_P008.en": "The format for date is the lexical representation allowed by ISO 8601, i. e. \"YYYY-MM-DD\" with optional time zone.",
+    "MDC_P022": "DATE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-09-04",
+    "MDC_P003_3": "2023-09-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Beginn der Gültigkeit",
+    "MDC_P006.de": "Datum, ab dem ein Dokument gültig wird",
+    "MDC_P008.de": "Das Format ist in ISO 8601 festgelegt: \"YYYY-MM-DD\" mit optionaler Angabe der Zeitzone.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2021-04-30",
+    "C002": "C00133"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-09-04 12:52:30",
+      "user": "BATCH 00000812",
+      "unid": "F62D7AC2AB4F3DC5C1258A20003BBD4D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:02:00",
+      "user": "BATCH 00000794",
+      "unid": "5987dd5672b0a601c125886f003c9bb8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2023-09-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "DATE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "DATE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-09-04 12:52:30",
+    "user": "BATCH 00000812",
+    "change_request_id": null,
+    "unid": "F62D7AC2AB4F3DC5C1258A20003BBD4D"
+  }
+}

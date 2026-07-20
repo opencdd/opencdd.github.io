@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///61987#ABC143",
+  "code": "ABC143",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Binary input IEC 60947-5-6 (NAMUR)",
+  "preferred_name_ml": {
+    "en": "Binary input IEC 60947-5-6 (NAMUR)",
+    "de": "Binäreingang IEC 60947-5-6 (NAMUR)"
+  },
+  "definition": "properties characterizing an auxiliary or I/O module binary input according to IEC 60947-5-6",
+  "definition_ml": {
+    "en": "properties characterizing an auxiliary or I/O module binary input according to IEC 60947-5-6",
+    "de": "Merkmale, die einen binären Hilfs- oder I/O-Modul Eingang gemäß IEC 60947-5-6 kennzeichnen"
+  },
+  "synonyms": [],
+  "note": "The Binary input IEC 60947-5-6 is sometimes called NAMUR-input.",
+  "note_ml": {
+    "en": "The Binary input IEC 60947-5-6 is sometimes called NAMUR-input.",
+    "de": "Der Binäreingang IEC 60947-5-6 wird manchmal als NAMUR-Eingang bezeichnet."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC143",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Binary input IEC 60947-5-6 (NAMUR)",
+    "MDC_P006.en": "properties characterizing an auxiliary or I/O module binary input according to IEC 60947-5-6",
+    "MDC_P008.en": "The Binary input IEC 60947-5-6 is sometimes called NAMUR-input.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABA412,0112/2///61987#ABD220,0112/2///61987#ABA611,0112/2///61987#ABA612,0112/2///61987#ABA629,0112/2///61987#ABA415,0112/2///61987#ABA387,0112/2///61987#ABC891,0112/2///61987#ABA390,0112/2///61987#ABC865,0112/2///61987#ABI463,0112/2///61987#ABB103,0112/2///61987#ABC850,0112/2///61987#ABA401,0112/2///61987#ABC778}",
+    "MDC_P004.de": "Binäreingang IEC 60947-5-6 (NAMUR)",
+    "MDC_P006.de": "Merkmale, die einen binären Hilfs- oder I/O-Modul Eingang gemäß IEC 60947-5-6 kennzeichnen",
+    "MDC_P008.de": "Der Binäreingang IEC 60947-5-6 wird manchmal als NAMUR-Eingang bezeichnet.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "0792CD094D9E4A01C1258940004C5055",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:50",
+      "user": "BATCH 00000762",
+      "unid": "f136bc149dda5051c125825e001dd4ea",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:59",
+      "user": "BATCH 00000732",
+      "unid": "5f0ea9d6ebd94526c12580d6004bfce3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "fbf58332c28c71dac1257cb400549b56",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABA412",
+    "0112/2///61987#ABD220",
+    "0112/2///61987#ABA611",
+    "0112/2///61987#ABA612",
+    "0112/2///61987#ABA629",
+    "0112/2///61987#ABA415",
+    "0112/2///61987#ABA387",
+    "0112/2///61987#ABC891",
+    "0112/2///61987#ABA390",
+    "0112/2///61987#ABC865",
+    "0112/2///61987#ABI463",
+    "0112/2///61987#ABB103",
+    "0112/2///61987#ABC850",
+    "0112/2///61987#ABA401",
+    "0112/2///61987#ABC778"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:33",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "0792CD094D9E4A01C1258940004C5055"
+  }
+}

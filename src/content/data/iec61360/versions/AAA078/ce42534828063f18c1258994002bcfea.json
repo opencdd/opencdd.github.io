@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61360_4#AAA078",
+  "code": "AAA078",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "photocoupler",
+  "preferred_name_ml": {
+    "en": "photocoupler"
+  },
+  "short_name": "PHC",
+  "short_name_ml": {
+    "en": "PHC"
+  },
+  "definition": "semiconductor optoelectronic device designed for the transfer of electric signals by utilizing radiant energy to provide coupling with electrical isolation between the input and the output",
+  "definition_ml": {
+    "en": "semiconductor optoelectronic device designed for the transfer of electric signals by utilizing radiant energy to provide coupling with electrical isolation between the input and the output"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "photocoupler"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "photocoupler"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA078",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "PHC",
+    "MDC_P004.en": "photocoupler",
+    "MDC_P007.en": "photocoupler",
+    "MDC_P006.en": "semiconductor optoelectronic device designed for the transfer of electric signals by utilizing radiant energy to provide coupling with electrical isolation between the input and the output",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA077",
+    "MDC_P014": "{0112/2///61360_4#AAE548,0112/2///61360_4#AAE550,0112/2///61360_4#AAE551,0112/2///61360_4#AAE553,0112/2///61360_4#AAE554,0112/2///61360_4#AAF066,0112/2///61360_4#AAF140,0112/2///61360_4#AAF141,0112/2///61360_4#AAF142}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "ce42534828063f18c1258994002bcfea",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "8bfa27f209ae9daac1257dd300515f50",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "3e745091b9cfdd82c1257d7300506977",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "79d0dcf783a75736c1257a0e0047b239",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE548",
+    "0112/2///61360_4#AAE550",
+    "0112/2///61360_4#AAE551",
+    "0112/2///61360_4#AAE553",
+    "0112/2///61360_4#AAE554",
+    "0112/2///61360_4#AAF066",
+    "0112/2///61360_4#AAF140",
+    "0112/2///61360_4#AAF141",
+    "0112/2///61360_4#AAF142"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA077",
+  "superclass_type_property": "0112/2///61360_4#AAA077",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "ce42534828063f18c1258994002bcfea"
+  }
+}

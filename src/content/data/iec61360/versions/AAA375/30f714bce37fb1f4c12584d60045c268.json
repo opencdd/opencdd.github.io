@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA375",
+  "code": "AAA375",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2019-12-20 13:41:57",
+    "user": "BATCH 00001162",
+    "change_request_id": null,
+    "unid": "30f714bce37fb1f4c12584d60045c268"
+  }
+}

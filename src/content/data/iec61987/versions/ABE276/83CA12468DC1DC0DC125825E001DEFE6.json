@@ -1,0 +1,75 @@
+{
+  "irdi": "0112/2///61987#ABE276",
+  "code": "ABE276",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "reference to Structural design [gate valve]",
+  "preferred_name_ml": {
+    "en": "reference to Structural design [gate valve]"
+  },
+  "definition": "reference to block ABE020",
+  "definition_ml": {
+    "en": "reference to block ABE020"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE276",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Structural design [gate valve]",
+    "MDC_P006.en": "reference to block ABE020",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE020)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2014-06-18",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:59",
+      "user": "BATCH 00000762",
+      "unid": "83CA12468DC1DC0DC125825E001DEFE6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:52",
+      "user": "BATCH 00000699",
+      "unid": "0a9f908a9e0f1524c1257cb40054c428",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-10-16",
+    "current_revision": "2014-06-18"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE020)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE020)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:59",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "83CA12468DC1DC0DC125825E001DEFE6"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///62683#ACG169",
+  "code": "ACG169",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Light block of the control circuit device",
+  "preferred_name_ml": {
+    "en": "Light block of the control circuit device",
+    "fr": "bloc lumineux de l'appareil pour circuit de commande",
+    "de": "Lichtblock des Steuergeräts",
+    "zh": "控制电路电器的灯模块"
+  },
+  "definition": "part which contains and support the lamp, fixed on an enclosure or on the body of the indicating tower",
+  "definition_ml": {
+    "en": "part which contains and support the lamp, fixed on an enclosure or on the body of the indicating tower",
+    "fr": "partie qui contient et supporte la lampe, montée sur le boîtier ou le corps de la colonne lumineuse",
+    "de": "Teil, der die Lampe enthält und unterstützt, angebracht auf der Kapselung oder dem Gehäuse der Signalsäule",
+    "zh": "包含和支撑灯的电器的部件，固定在外壳上或指示塔本体上"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG169",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Light block of the control circuit device",
+    "MDC_P006.en": "part which contains and support the lamp, fixed on an enclosure or on the body of the indicating tower",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-07",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2013-07-29",
+    "MDC_P003_3": "2016-09-20",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC018}",
+    "MDC_P090": "{0112/2///62683#ACE633,0112/2///62683#ACE651,0112/2///62683#ACE638,0112/2///62683#ACE531,0112/2///62683#ACE532,0112/2///62683#ACE601}",
+    "MDC_P004.fr": "bloc lumineux de l'appareil pour circuit de commande",
+    "MDC_P006.fr": "partie qui contient et supporte la lampe, montée sur le boîtier ou le corps de la colonne lumineuse",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2016-03-29",
+    "MDC_P004.de": "Lichtblock des Steuergeräts",
+    "MDC_P006.de": "Teil, der die Lampe enthält und unterstützt, angebracht auf der Kapselung oder dem Gehäuse der Signalsäule",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "1",
+    "C018.de": "2017-11-29",
+    "MDC_P004.zh": "控制电路电器的灯模块",
+    "MDC_P006.zh": "包含和支撑灯的电器的部件，固定在外壳上或指示塔本体上",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-07 21:31:35",
+      "user": "BATCH 00000739",
+      "unid": "ACF1F703FADAAA06C12584E80070C157",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "256a3141b4a4805bc1258034002e35f3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "a0c018226333abc7c1258030004502c9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2013-07-29",
+    "current_revision": "2016-09-20"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC018"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE633",
+    "0112/2///62683#ACE651",
+    "0112/2///62683#ACE638",
+    "0112/2///62683#ACE531",
+    "0112/2///62683#ACE532",
+    "0112/2///62683#ACE601"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-07 21:31:35",
+    "user": "BATCH 00000739",
+    "change_request_id": null,
+    "unid": "ACF1F703FADAAA06C12584E80070C157"
+  }
+}

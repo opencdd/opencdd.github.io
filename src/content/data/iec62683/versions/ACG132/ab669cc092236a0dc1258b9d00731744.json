@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG132",
+  "code": "ACG132",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2024-09-19 22:57:05",
+    "user": "BATCH 00000811",
+    "change_request_id": null,
+    "unid": "ab669cc092236a0dc1258b9d00731744"
+  }
+}

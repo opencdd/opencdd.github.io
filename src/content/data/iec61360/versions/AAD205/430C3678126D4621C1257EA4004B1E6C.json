@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61360_4#AAD205",
+  "code": "AAD205",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "additional screening",
+  "preferred_name_ml": {
+    "en": "additional screening"
+  },
+  "short_name": "screening",
+  "short_name_ml": {
+    "en": "screening"
+  },
+  "definition": "description of additional screening, including burn-in, that has been applied to a component before delivery",
+  "definition_ml": {
+    "en": "description of additional screening, including burn-in, that has been applied to a component before delivery"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD205",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "additional screening",
+    "MDC_P005.en": "screening",
+    "MDC_P006.en": "description of additional screening, including burn-in, that has been applied to a component before delivery",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..255",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2007-03-02",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "430C3678126D4621C1257EA4004B1E6C",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "51dd231e7c2cc94fc1257e8b003234be",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "fafdab628aec549ec1257e8a0043e28f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:27",
+      "user": "BATCH 00000783",
+      "unid": "dd96c42cc61aef5fc12579d6003b46ce",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2007-03-02",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..255",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..255",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "430C3678126D4621C1257EA4004B1E6C"
+  }
+}

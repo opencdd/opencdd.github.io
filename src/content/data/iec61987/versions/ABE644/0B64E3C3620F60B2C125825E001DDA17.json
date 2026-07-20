@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61987#ABE644",
+  "code": "ABE644",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Generic operating LOP for system components",
+  "preferred_name_ml": {
+    "en": "Generic operating LOP for system components",
+    "de": "Generische Betriebs-Merkmalleiste für Systemkomponenten"
+  },
+  "definition": "list of properties characterizing the operating conditions of system components",
+  "definition_ml": {
+    "en": "list of properties characterizing the operating conditions of system components",
+    "de": "Merkmalleiste, die die Betriebsbedingungen für Systemkomponenten kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE644",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Generic operating LOP for system components",
+    "MDC_P006.en": "list of properties characterizing the operating conditions of system components",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV503",
+    "MDC_P014": "{0112/2///61987#ABH440,0112/2///61987#ABE205,0112/2///61987#ABB348,0112/2///61987#ABD142}",
+    "MDC_P004.de": "Generische Betriebs-Merkmalleiste für Systemkomponenten",
+    "MDC_P006.de": "Merkmalleiste, die die Betriebsbedingungen für Systemkomponenten kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-03-20",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:03",
+      "user": "BATCH 00000762",
+      "unid": "0B64E3C3620F60B2C125825E001DDA17",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:08",
+      "user": "BATCH 00000732",
+      "unid": "095dd676bc615f9dc12580d6004c0052",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:16",
+      "user": "BATCH 00000714",
+      "unid": "062676ad70db2419c1257f7e0033a91f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH440",
+    "0112/2///61987#ABE205",
+    "0112/2///61987#ABB348",
+    "0112/2///61987#ABD142"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV503",
+  "superclass_type_property": "0112/2///61987#ABV503",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:03",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "0B64E3C3620F60B2C125825E001DDA17"
+  }
+}

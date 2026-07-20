@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABB667",
+  "code": "ABB667",
+  "version": "5",
+  "revision": "2",
+  "preferred_name": "reference base for maximum influence of ambient temperature",
+  "preferred_name_ml": {
+    "en": "reference base for maximum influence of ambient temperature",
+    "fr": "base de référence pour l'influence maximale de la température ambiante",
+    "de": "Bezug Angabe des maximalen Umgebungstemperatureinfluss in relativen Einheiten"
+  },
+  "definition": "basis for stating a maximum percentage influence of ambient temperature",
+  "definition_ml": {
+    "en": "basis for stating a maximum percentage influence of ambient temperature",
+    "fr": "base pour énoncer l'influence maximale en pourcentage de la température ambiante",
+    "de": "Bezug, auf dem die Angabe des Werts des maximalen Umgebungstemperatureinflusses in relativen Einheiten beruht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB667",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference base for maximum influence of ambient temperature",
+    "MDC_P006.en": "basis for stating a maximum percentage influence of ambient temperature",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "base de référence pour l'influence maximale de la température ambiante",
+    "MDC_P006.fr": "base pour énoncer l'influence maximale en pourcentage de la température ambiante",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Bezug Angabe des maximalen Umgebungstemperatureinfluss in relativen Einheiten",
+    "MDC_P006.de": "Bezug, auf dem die Angabe des Werts des maximalen Umgebungstemperatureinflusses in relativen Einheiten beruht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2026-04-27",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "5070182FB01287C8C1258DED0045582C",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "e069179508234275c1258cdc004a3b50",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "e8d48affaa3c2914c1258518003c4951",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "2609fd2534f001bac125825e001dea77",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:27",
+      "user": "BATCH 00000732",
+      "unid": "c35060ed3e332a68c12580d6004c1f25",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:39",
+      "user": "BATCH 00000702",
+      "unid": "95f231b293b9693fc1257cfb00403cff",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "33d499f888973e6fc1257cb40054bebc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "value_list": "0112/2///61987#ABJ764",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "5070182FB01287C8C1258DED0045582C"
+  }
+}

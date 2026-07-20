@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA137",
+  "code": "ABA137",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:44:15",
+    "user": "BATCH 00000756",
+    "change_request_id": null,
+    "unid": "6b73a4974db3078ac125825600407a13"
+  }
+}

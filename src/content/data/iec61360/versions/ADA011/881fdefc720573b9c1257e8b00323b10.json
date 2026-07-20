@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#ADA011",
+  "code": "ADA011",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "facsimile number",
+  "preferred_name_ml": {
+    "en": "facsimile number"
+  },
+  "short_name": "fax no",
+  "short_name_ml": {
+    "en": "fax no"
+  },
+  "definition": "identification number of a facsimile system in a domain at which facsimiles can be received",
+  "definition_ml": {
+    "en": "identification number of a facsimile system in a domain at which facsimiles can be received"
+  },
+  "source_document": "IEC 62507-1:2010",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "TC3",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA011",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "facsimile number",
+    "MDC_P005.en": "fax no",
+    "MDC_P006.en": "identification number of a facsimile system in a domain at which facsimiles can be received",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "IEC 62507-1:2010",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2011-12-14",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "881fdefc720573b9c1257e8b00323b10",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "fa7f53f6163a36f0c1257e8a0043e911",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "2258896EE725268CC1257EA4004B24EF",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "c0d4ae86ce99bd1ac1257ea4004b24ee",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:39",
+      "user": "BATCH 00000788",
+      "unid": "90e5843f32105e52c1257a0e0047bee9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:59",
+      "user": "BATCH 00000787",
+      "unid": "e37f61a543a2bac8c1257a0e0046dc69",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2011-12-14",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:39",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "881fdefc720573b9c1257e8b00323b10"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF268",
+  "code": "AAF268",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "superseded",
+    "timestamp": "2015-08-17 15:40:38",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "22a889622de87fb7c1257ea4004b21da"
+  }
+}

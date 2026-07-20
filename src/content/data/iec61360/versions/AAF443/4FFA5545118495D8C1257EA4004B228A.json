@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAF443",
+  "code": "AAF443",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "symmetric tolerance",
+  "preferred_name_ml": {
+    "en": "symmetric tolerance"
+  },
+  "short_name": "%tol",
+  "short_name_ml": {
+    "en": "%tol"
+  },
+  "definition": "percentage tolerance on the nominal value of a characteristic property where both positive and negative tolerance values are equal",
+  "definition_ml": {
+    "en": "percentage tolerance on the nominal value of a characteristic property where both positive and negative tolerance values are equal"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "i",
+  "published_in": "i",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF443",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "symmetric tolerance",
+    "MDC_P005.en": "%tol",
+    "MDC_P006.en": "percentage tolerance on the nominal value of a characteristic property where both positive and negative tolerance values are equal",
+    "MDC_P025_1": "%tol",
+    "MDC_P023": "%",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2 S..3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "R71",
+    "MDC_P021": "0112/2///61360_4#AAA235",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C016": "Standard",
+    "C012": "i",
+    "C011": "i",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-06-01",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "4FFA5545118495D8C1257EA4004B228A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "076f141853a123ddc1257e8b003238be",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "4b815c3c682464e5c1257e8a0043e6ad",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:59",
+      "user": "BATCH 00000704",
+      "unid": "5d0f8132e5f81683c125787f0042a65e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-06-01",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "%tol",
+  "value_format": "NR2 S..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA235",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 S..3.3",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:40",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "4FFA5545118495D8C1257EA4004B228A"
+  }
+}

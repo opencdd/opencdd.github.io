@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#ADA006",
+  "code": "ADA006",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "country name",
+  "preferred_name_ml": {
+    "en": "country name"
+  },
+  "short_name": "country",
+  "short_name_ml": {
+    "en": "country"
+  },
+  "definition": "designation of a geographical political unit, dependency, or other area of particular geopolitical interest",
+  "definition_ml": {
+    "en": "designation of a geographical political unit, dependency, or other area of particular geopolitical interest"
+  },
+  "source_document": "ISO 3166-1:2006",
+  "synonyms": [],
+  "remark": "For consistent writing it is recommended to apply the English short name of the country as defined in ISO 3166-1.",
+  "remark_ml": {
+    "en": "For consistent writing it is recommended to apply the English short name of the country as defined in ISO 3166-1."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC TC3",
+  "published_in": "ISO 3166-1:2006",
+  "responsible_committee": "TC3",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA006",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "country name",
+    "MDC_P005.en": "country",
+    "MDC_P006.en": "designation of a geographical political unit, dependency, or other area of particular geopolitical interest",
+    "MDC_P009.en": "For consistent writing it is recommended to apply the English short name of the country as defined in ISO 3166-1.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "ISO 3166-1:2006",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A11",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "ISO 3166-1:2006",
+    "C011": "IEC TC3",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:39",
+      "user": "BATCH 00000907",
+      "unid": "0c3edbef41212841c1257e8b00323b0b",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:45",
+      "user": "BATCH 00000904",
+      "unid": "0da1a53ac8102b78c1257e8a0043e908",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "35D32AD1B89969EDC1257EA4004B24E6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:46",
+      "user": "BATCH 00000917",
+      "unid": "9f70c08fcb7b2a63c1257ea4004b24e5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:39",
+      "user": "BATCH 00000788",
+      "unid": "6ab3505e5a274f10c1257a0e0047bee4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:59",
+      "user": "BATCH 00000787",
+      "unid": "61c8ca3cb27e8be2c1257a0e0046dc64",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:39",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "0c3edbef41212841c1257e8b00323b0b"
+  }
+}

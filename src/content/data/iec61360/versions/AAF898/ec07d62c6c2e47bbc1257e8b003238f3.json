@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF898",
+  "code": "AAF898",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:33",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "ec07d62c6c2e47bbc1257e8b003238f3"
+  }
+}

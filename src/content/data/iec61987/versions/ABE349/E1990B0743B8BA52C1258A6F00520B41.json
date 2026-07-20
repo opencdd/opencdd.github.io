@@ -1,0 +1,89 @@
+{
+  "irdi": "0112/2///61987#ABE349",
+  "code": "ABE349",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Ratio radiation thermometer with two independent detectors",
+  "preferred_name_ml": {
+    "en": "Ratio radiation thermometer with two independent detectors",
+    "de": "Verhältnis-Strahlungsthermometer mit zwei unabhängigen Detektoren"
+  },
+  "definition": "ratio radiation thermometer with two detectors, in which the radiation is divided with a beam splitter and two filters into two distinct spectral ranges",
+  "definition_ml": {
+    "en": "ratio radiation thermometer with two detectors, in which the radiation is divided with a beam splitter and two filters into two distinct spectral ranges",
+    "de": "Verhältnis-Strahlungsthermometer mit zwei Detektoren, in dem die Strahlung mit einem Strahlteiler und mit zwei Filtern in zwei getrennten Wellenlängenbereiche aufgeteilt wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE349",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Ratio radiation thermometer with two independent detectors",
+    "MDC_P006.en": "ratio radiation thermometer with two detectors, in which the radiation is divided with a beam splitter and two filters into two distinct spectral ranges",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABE347",
+    "MDC_P004.de": "Verhältnis-Strahlungsthermometer mit zwei unabhängigen Detektoren",
+    "MDC_P006.de": "Verhältnis-Strahlungsthermometer mit zwei Detektoren, in dem die Strahlung mit einem Strahlteiler und mit zwei Filtern in zwei getrennten Wellenlängenbereiche aufgeteilt wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:08",
+      "user": "BATCH 00000816",
+      "unid": "E1990B0743B8BA52C1258A6F00520B41",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:02",
+      "user": "BATCH 00000762",
+      "unid": "f7abb529499554a7c125825e001dd980",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABE347",
+  "superclass_type_property": "0112/2///61987#ABE347",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:08",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "E1990B0743B8BA52C1258A6F00520B41"
+  }
+}

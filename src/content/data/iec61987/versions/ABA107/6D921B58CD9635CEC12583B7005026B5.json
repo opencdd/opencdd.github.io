@@ -1,0 +1,167 @@
+{
+  "irdi": "0112/2///61987#ABA107",
+  "code": "ABA107",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "maximum limit of storage relative humidity",
+  "preferred_name_ml": {
+    "en": "maximum limit of storage relative humidity",
+    "fr": "limite maximale de l'humidité relative de stockage",
+    "de": "maximale relative Feuchtegrenze bei Lagerung"
+  },
+  "definition": "highest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+  "definition_ml": {
+    "en": "highest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+    "fr": "humidité relative la plus haute à laquelle un appareil peut être soumis entre le moment de la construction et le moment de l'exploitation sans dégradation permanente des caractéristiques de fonctionnement",
+    "de": "höchste relative Luftfeuchte, der ein Gerät zwischen dem Zeitpunkt der Konstruktion und dem Zeitpunkt des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C0004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA107",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum limit of storage relative humidity",
+    "MDC_P006.en": "highest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "MDC_P003_0": "2019-03-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2019-03-08",
+    "MDC_P003_3": "2019-03-08",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "limite maximale de l'humidité relative de stockage",
+    "MDC_P006.fr": "humidité relative la plus haute à laquelle un appareil peut être soumis entre le moment de la construction et le moment de l'exploitation sans dégradation permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "maximale relative Feuchtegrenze bei Lagerung",
+    "MDC_P006.de": "höchste relative Luftfeuchte, der ein Gerät zwischen dem Zeitpunkt der Konstruktion und dem Zeitpunkt des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C0004"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2019-03-08 15:35:27",
+      "user": "BATCH 00000766",
+      "unid": "6D921B58CD9635CEC12583B7005026B5",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 13:20:18",
+      "user": "BATCH 00000758",
+      "unid": "6f6a5d8907f6d194c12582560043c6cd",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "73802f01eea734afc1258256003e9420",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:17",
+      "user": "BATCH 00000756",
+      "unid": "80cd863e66ae7a91c125825600407ae7",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "90130ec03b11fcbdc12580d6004c1a57",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "a62a97b8708b5abcc1257f7f004d0036",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:35",
+      "user": "BATCH 00000714",
+      "unid": "99a9c0113a26c5a0c1257f7e0030f196",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "6780ec22bc749aedc1257fa7003a3ccc",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "8cd55d4905cee362c1257cfb00403831",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "d8fa5bc7a1ce7b68c1257cb40054b9ee",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2019-03-08",
+    "current_revision": "2019-03-08"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2019-03-08 15:35:27",
+    "user": "BATCH 00000766",
+    "change_request_id": null,
+    "unid": "6D921B58CD9635CEC12583B7005026B5"
+  }
+}

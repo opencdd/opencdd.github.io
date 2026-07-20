@@ -1,0 +1,84 @@
+{
+  "irdi": "0112/2///61360_4#AFA023",
+  "code": "AFA023",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "integrated circuit for voltage detector",
+  "preferred_name_ml": {
+    "en": "integrated circuit for voltage detector"
+  },
+  "definition": "integrated circuit which monitors the circuit voltage level and sends a reset signal when it detects irregular voltage",
+  "definition_ml": {
+    "en": "integrated circuit which monitors the circuit voltage level and sends a reset signal when it detects irregular voltage"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA023",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "integrated circuit for voltage detector",
+    "MDC_P006.en": "integrated circuit which monitors the circuit voltage level and sends a reset signal when it detects irregular voltage",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2015-12-21",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AFA019",
+    "MDC_P014": "{0112/2///61360_4#AFD146,0112/2///61360_4#AFD147}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "36443df02f1812c4c1258994002bd1d7",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-10-02 14:09:09",
+      "user": "BATCH 00000920",
+      "unid": "a29181e56b8e5daac1257ed20042c1ac",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-12-21",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD146",
+    "0112/2///61360_4#AFD147"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AFA019",
+  "superclass_type_property": "0112/2///61360_4#AFA019",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "36443df02f1812c4c1258994002bd1d7"
+  }
+}

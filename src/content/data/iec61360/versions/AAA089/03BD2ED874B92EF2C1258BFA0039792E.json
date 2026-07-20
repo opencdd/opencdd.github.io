@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61360_4#AAA089",
+  "code": "AAA089",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "resistor",
+  "preferred_name_ml": {
+    "en": "resistor"
+  },
+  "definition": "device characterized essentially by its electric resistance",
+  "definition_ml": {
+    "en": "device characterized essentially by its electric resistance"
+  },
+  "source_document": "IEV 151-13-19:2001 modified",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA089",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "resistor",
+    "MDC_P006.en": "device characterized essentially by its electric resistance",
+    "MDC_P006_1": "IEV 151-13-19:2001 modified",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2019-10-16",
+    "MDC_P003_3": "2024-12-21",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA002",
+    "C021": "0112/2///61360_4#AAE003",
+    "MDC_P014": "{0112/2///61360_4#AAE003,0112/2///61360_4#AAE010,0112/2///61360_4#AAE030,0112/2///61360_4#AAE118,0112/2///61360_4#AAE635,0112/2///61360_4#AAF097,0112/2///61360_4#AAF100,0112/2///61360_4#AAF281}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2024-12-21 11:27:45",
+      "user": "BATCH 00001332",
+      "unid": "03BD2ED874B92EF2C1258BFA0039792E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "53855820c016ed93c1258994002bcff5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2019-10-17 09:41:12",
+      "user": "BATCH 00001123",
+      "unid": "f191849401b7eedac1258496002a397a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2019-10-16 11:18:58",
+      "user": "BATCH 00001122",
+      "unid": "794d08abd73af22dc125849500332d28",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2019-10-16 11:49:31",
+      "user": "BATCH 00000788",
+      "unid": "3391f9fa3169f0f6c12584950035f927",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2019-10-16",
+    "current_revision": "2024-12-21"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE003",
+    "0112/2///61360_4#AAE010",
+    "0112/2///61360_4#AAE030",
+    "0112/2///61360_4#AAE118",
+    "0112/2///61360_4#AAE635",
+    "0112/2///61360_4#AAF097",
+    "0112/2///61360_4#AAF100",
+    "0112/2///61360_4#AAF281"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA002",
+  "superclass_type_property": "0112/2///61360_4#AAA002",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2024-12-21 11:27:45",
+    "user": "BATCH 00001332",
+    "change_request_id": null,
+    "unid": "03BD2ED874B92EF2C1258BFA0039792E"
+  }
+}

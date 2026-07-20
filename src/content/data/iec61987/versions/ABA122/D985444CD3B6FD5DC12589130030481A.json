@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABA122",
+  "code": "ABA122",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "upper limiting value of mass flow",
+  "preferred_name_ml": {
+    "en": "upper limiting value of mass flow",
+    "fr": "valeur de limite supérieure du débit massique",
+    "de": "obere Massedurchflussgrenze"
+  },
+  "definition": "highest mass flow rate to which the device may be subjected during operation without permanent impairment of its operating characteristics",
+  "definition_ml": {
+    "en": "highest mass flow rate to which the device may be subjected during operation without permanent impairment of its operating characteristics",
+    "fr": "débit massique le plus élevé auquel l'équipement de mesure peut être soumis, pendant le fonctionnement, sans dégradation permanente des caractéristiques de fonctionnement",
+    "de": "höchster Massedurchfluss, dem das Gerät während des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA122",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "upper limiting value of mass flow",
+    "MDC_P006.en": "highest mass flow rate to which the device may be subjected during operation without permanent impairment of its operating characteristics",
+    "MDC_P023": "kg/h",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA607",
+    "C0104": "0112/2///61987#ABT545",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "valeur de limite supérieure du débit massique",
+    "MDC_P006.fr": "débit massique le plus élevé auquel l'équipement de mesure peut être soumis, pendant le fonctionnement, sans dégradation permanente des caractéristiques de fonctionnement",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "obere Massedurchflussgrenze",
+    "MDC_P006.de": "höchster Massedurchfluss, dem das Gerät während des Betriebs ohne dauerhafte Einschränkung des Betriebsverhaltens ausgesetzt werden kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:21",
+      "user": "BATCH 00000803",
+      "unid": "D985444CD3B6FD5DC12589130030481A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "d139c8d7dad03b8ac125825e001de58d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:50",
+      "user": "BATCH 00000717",
+      "unid": "0bdd2c927c5929b9c1257fa7004058d5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "bf0822b649610c0ac1257cfb0040383e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "8bd7df98c5620cd2c1257cb40054b9fb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA607",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:21",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "D985444CD3B6FD5DC12589130030481A"
+  }
+}

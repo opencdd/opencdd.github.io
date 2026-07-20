@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABN604",
+  "code": "ABN604",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "time stamp of last parameter setting change",
+  "preferred_name_ml": {
+    "en": "time stamp of last parameter setting change",
+    "de": "Zeitstempel der letzten Parameteränderung"
+  },
+  "short_name": "Last Change Date",
+  "short_name_ml": {
+    "en": "Last Change Date",
+    "de": "Letzte Änderung"
+  },
+  "definition": "parameter indicating the date and time at which one of the device parameters was changed the last time",
+  "definition_ml": {
+    "en": "parameter indicating the date and time at which one of the device parameters was changed the last time",
+    "de": "Parameter, der Datum und Zeit der letzten Geräteparameteränderung angibt"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN604",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "time stamp of last parameter setting change",
+    "MDC_P005.en": "Last Change Date",
+    "MDC_P006.en": "parameter indicating the date and time at which one of the device parameters was changed the last time",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P022": "DATE_TIME_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2019-08-16",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Zeitstempel der letzten Parameteränderung",
+    "MDC_P005.de": "Letzte Änderung",
+    "MDC_P006.de": "Parameter, der Datum und Zeit der letzten Geräteparameteränderung angibt",
+    "MDC_P009.de": "auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "D6E46F956F79A6FDC1258C3B004B5C0C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "d9888818a9ab407ec125886f003c9b45",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "2c6b193240892703c1258518003fd7c6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2019-08-16",
+    "current_version": "2020-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "DATE_TIME_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "DATE_TIME_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "D6E46F956F79A6FDC1258C3B004B5C0C"
+  }
+}

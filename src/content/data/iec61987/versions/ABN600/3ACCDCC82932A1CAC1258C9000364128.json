@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABN600",
+  "code": "ABN600",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "indeterminate status",
+  "preferred_name_ml": {
+    "en": "indeterminate status",
+    "de": "unbestimmter Status"
+  },
+  "definition": "parameter, the value of which indicates that the status of a device can currently not be determined",
+  "definition_ml": {
+    "en": "parameter, the value of which indicates that the status of a device can currently not be determined",
+    "de": "Parameter, dessen Wert anzeigt, dass der Gerätezustand aktuell nicht bestimmt werden kann"
+  },
+  "synonyms": [],
+  "note": "The reason could be a communication failure, for instance.",
+  "note_ml": {
+    "en": "The reason could be a communication failure, for instance.",
+    "de": "Der Grund könnte beispielsweise fehlende Kommunikation sein."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN600",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "indeterminate status",
+    "MDC_P006.en": "parameter, the value of which indicates that the status of a device can currently not be determined",
+    "MDC_P008.en": "The reason could be a communication failure, for instance.",
+    "MDC_P022": "BOOLEAN_TYPE",
+    "MDC_P024": "B 1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-05-20",
+    "MDC_P003_2": "2025-05-20",
+    "MDC_P003_3": "2025-05-20",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "unbestimmter Status",
+    "MDC_P006.de": "Parameter, dessen Wert anzeigt, dass der Gerätezustand aktuell nicht bestimmt werden kann",
+    "MDC_P008.de": "Der Grund könnte beispielsweise fehlende Kommunikation sein.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-05-20 11:52:36",
+      "user": "BATCH 00000843",
+      "unid": "3ACCDCC82932A1CAC1258C9000364128",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "576b2daa95aefd89c125886f003c9b43",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "56632a8a24686529c1258518003fd7c3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-05-20",
+    "current_revision": "2025-05-20"
+  },
+  "value_format": "B 1",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "BOOLEAN_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "BOOLEAN_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-05-20 11:52:36",
+    "user": "BATCH 00000843",
+    "change_request_id": null,
+    "unid": "3ACCDCC82932A1CAC1258C9000364128"
+  }
+}

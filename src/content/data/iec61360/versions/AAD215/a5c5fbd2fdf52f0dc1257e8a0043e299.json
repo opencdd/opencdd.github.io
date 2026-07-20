@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAD215",
+  "code": "AAD215",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-22 14:21:29",
+    "user": "BATCH 00000904",
+    "change_request_id": null,
+    "unid": "a5c5fbd2fdf52f0dc1257e8a0043e299"
+  }
+}

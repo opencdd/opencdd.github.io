@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABB830",
+  "code": "ABB830",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "maximum influence of process pressure on flow velocity",
+  "preferred_name_ml": {
+    "en": "maximum influence of process pressure on flow velocity",
+    "fr": "influence maximale de la pression de processus sur la vitesse d'écoulement",
+    "de": "maximaler Prozessdruckeinfluss auf Fließgeschwindigkeitsmessung"
+  },
+  "definition": "change in output of a velocity measuring device caused by a change in process pressure with respect to reference conditions, expressed as the maximum error across the specified process pressure range",
+  "definition_ml": {
+    "en": "change in output of a velocity measuring device caused by a change in process pressure with respect to reference conditions, expressed as the maximum error across the specified process pressure range",
+    "fr": "modification de la sortie d'un appareil de mesure de vitesse causée par une modification de la pression de processus par rapport aux conditions de référence, exprimée par l'erreur maximale sur l'étendue spécifiée de pressions de processus",
+    "de": "Änderung des Ausgangssignals eines Fließgeschwindigkeitsmessinstruments, verursacht durch eine Änderung des Prozessdrucks gegenüber den Referenzbedingungen, als maximaler Fehler über den spezifizierten Prozessdruckbereich"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB830",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "maximum influence of process pressure on flow velocity",
+    "MDC_P006.en": "change in output of a velocity measuring device caused by a change in process pressure with respect to reference conditions, expressed as the maximum error across the specified process pressure range",
+    "MDC_P023": "\"(m/s)/bar\"",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAB313",
+    "C0104": "0112/2///61987#ABT508",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "influence maximale de la pression de processus sur la vitesse d'écoulement",
+    "MDC_P006.fr": "modification de la sortie d'un appareil de mesure de vitesse causée par une modification de la pression de processus par rapport aux conditions de référence, exprimée par l'erreur maximale sur l'étendue spécifiée de pressions de processus",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "maximaler Prozessdruckeinfluss auf Fließgeschwindigkeitsmessung",
+    "MDC_P006.de": "Änderung des Ausgangssignals eines Fließgeschwindigkeitsmessinstruments, verursacht durch eine Änderung des Prozessdrucks gegenüber den Referenzbedingungen, als maximaler Fehler über den spezifizierten Prozessdruckbereich",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:47",
+      "user": "BATCH 00000762",
+      "unid": "F427FAF434D1EB7EC125825E001DEB17",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:56",
+      "user": "BATCH 00000717",
+      "unid": "d7c38a03d502b669c1257fa700405b26",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:40",
+      "user": "BATCH 00000702",
+      "unid": "fc06c9b4e91df05ac1257cfb00403d9f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:40",
+      "user": "BATCH 00000699",
+      "unid": "f8f7cd55fde37d05c1257cb40054bf5c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAB313",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "F427FAF434D1EB7EC125825E001DEB17"
+  }
+}

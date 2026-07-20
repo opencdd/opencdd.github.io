@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABF504",
+  "code": "ABF504",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "set resistance parameter setting",
+  "preferred_name_ml": {
+    "en": "set resistance parameter setting",
+    "de": "eingestellte Polynomkoeffizienten"
+  },
+  "definition": "setting of the parameters governing the relationship between temperature and the electrical resistance of an RTD sensing element",
+  "definition_ml": {
+    "en": "setting of the parameters governing the relationship between temperature and the electrical resistance of an RTD sensing element",
+    "de": "benutzte Polynomkoeffizienten der Gleichung, die den Zusammenhang zwischen der Temperatur und dem elektrischen Widerstand eines WTH-Messfühlers beschreibt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABF504",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "set resistance parameter setting",
+    "MDC_P006.en": "setting of the parameters governing the relationship between temperature and the electrical resistance of an RTD sensing element",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "eingestellte Polynomkoeffizienten",
+    "MDC_P006.de": "benutzte Polynomkoeffizienten der Gleichung, die den Zusammenhang zwischen der Temperatur und dem elektrischen Widerstand eines WTH-Messfühlers beschreibt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:57",
+      "user": "BATCH 00000818",
+      "unid": "CF86F20EEC047C68C1258A7D0039DBB3",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "49f967db628665efc125886f003c9973",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:07",
+      "user": "BATCH 00000762",
+      "unid": "828ecd7b4327f0d6c125825e001df2f0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:57",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "CF86F20EEC047C68C1258A7D0039DBB3"
+  }
+}

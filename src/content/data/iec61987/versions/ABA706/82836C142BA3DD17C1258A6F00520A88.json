@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA706",
+  "code": "ABA706",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Capacitance level switch",
+  "preferred_name_ml": {
+    "en": "Capacitance level switch",
+    "fr": "Commutateur de niveau capacitif",
+    "de": "Kapazitiver Grenzstandschalter"
+  },
+  "definition": "electrical-based level switch that uses the dielectric properties of a process material to detect a level regime",
+  "definition_ml": {
+    "en": "electrical-based level switch that uses the dielectric properties of a process material to detect a level regime",
+    "fr": "commutateur de niveau électrique utilisant les propriétés diélectriques d'un matériau du processus pour détecter un niveau",
+    "de": "elektrobasierter Grenzstandschalter, der die dielektrischen Eigenschaften eines Prozessstoffs nutzt, um einen Füllstandzustand zu ermitteln"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA706",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Capacitance level switch",
+    "MDC_P006.en": "electrical-based level switch that uses the dielectric properties of a process material to detect a level regime",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA705",
+    "MDC_P014": "{0112/2///61987#ABF875}",
+    "MDC_P004.fr": "Commutateur de niveau capacitif",
+    "MDC_P006.fr": "commutateur de niveau électrique utilisant les propriétés diélectriques d'un matériau du processus pour détecter un niveau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-11-13",
+    "MDC_P004.de": "Kapazitiver Grenzstandschalter",
+    "MDC_P006.de": "elektrobasierter Grenzstandschalter, der die dielektrischen Eigenschaften eines Prozessstoffs nutzt, um einen Füllstandzustand zu ermitteln",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-13",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "82836C142BA3DD17C1258A6F00520A88",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:46",
+      "user": "BATCH 00000762",
+      "unid": "9f90b473b139e033c125825e001dd373",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:56",
+      "user": "BATCH 00000732",
+      "unid": "5dd965e69427fffcc12580d6004bfbc5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "5cca5278847641fec1257cb3002a0c68",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF875"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA705",
+  "superclass_type_property": "0112/2///61987#ABA705",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "82836C142BA3DD17C1258A6F00520A88"
+  }
+}

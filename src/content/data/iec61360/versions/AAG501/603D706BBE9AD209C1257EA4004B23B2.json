@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61360_4#AAG501",
+  "code": "AAG501",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "bright room contrast ratio",
+  "preferred_name_ml": {
+    "en": "bright room contrast ratio"
+  },
+  "short_name": "BRCR",
+  "short_name_ml": {
+    "en": "BRCR"
+  },
+  "definition": "contrast ratio with ambient illumination on the screen",
+  "definition_ml": {
+    "en": "contrast ratio with ambient illumination on the screen"
+  },
+  "source_document": "IEC 61988-1, 3.36",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG501",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "bright room contrast ratio",
+    "MDC_P005.en": "BRCR",
+    "MDC_P006.en": "contrast ratio with ambient illumination on the screen",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61988-1, 3.36",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AAB010",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2014-10-02",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:43",
+      "user": "BATCH 00000917",
+      "unid": "603D706BBE9AD209C1257EA4004B23B2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:36",
+      "user": "BATCH 00000907",
+      "unid": "ff569ea7118b18e5c1257e8b003239e1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:42",
+      "user": "BATCH 00000904",
+      "unid": "d42b298fb39edf16c1257e8a0043e7d5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-10-02 16:33:33",
+      "user": "BATCH 00000878",
+      "unid": "55d70ba499d970a9c1257d65004ff9ed",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2014-10-02",
+    "current_revision": "2015-08-17"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAB010",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:43",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "603D706BBE9AD209C1257EA4004B23B2"
+  }
+}

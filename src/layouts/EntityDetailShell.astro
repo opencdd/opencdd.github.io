@@ -6,8 +6,11 @@ import EntityHero from "~/components/ui/EntityHero.astro";
 import MetadataFields from "~/components/ui/MetadataFields.astro";
 import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
 import JsonLd from "~/components/ui/JsonLd.astro";
+import EntityGraphButton from "~/components/islands/EntityGraphButton.vue";
 import { codeFromIrdi } from "~/lib/irdi";
 import { findCrossDictMatches } from "~/lib/crossDict";
+import { computeEntityGraph } from "~/lib/entityGraph";
+import { loadDictionary } from "~/lib/data";
 import { entityPluralTitleFor } from "~/lib/entityTypeMeta";
 import type { EntityMetadata } from "~/lib/types";
 
@@ -26,6 +29,8 @@ interface Props {
 
 const { dict, node, title, stats = [] } = Astro.props;
 const crossMatches = findCrossDictMatches(node.preferred_name, dict);
+const bundle = loadDictionary(dict);
+const graph = computeEntityGraph(node.irdi, bundle, dict, 2);
 ---
 
 <DictionaryLayout dict={dict} title={title}>
@@ -45,7 +50,16 @@ const crossMatches = findCrossDictMatches(node.preferred_name, dict);
     >
       <slot name="badge" />
       <slot name="extra-badges" />
-      <slot name="actions" />
+      <div class="relative flex flex-wrap items-center gap-2">
+        <EntityGraphButton
+          client:load
+          nodes={graph.nodes}
+          edges={graph.edges}
+          centerIrdi={node.irdi}
+          dict={dict}
+        />
+        <slot name="actions" />
+      </div>
     </EntityHero>
 
     {crossMatches.length > 0 && (

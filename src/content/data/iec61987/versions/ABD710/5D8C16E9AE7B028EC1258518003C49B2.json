@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABD710",
+  "code": "ABD710",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "sound pressure level",
+  "preferred_name_ml": {
+    "en": "sound pressure level",
+    "de": "Schalldruckpegel"
+  },
+  "definition": "logarithmical measure of the pressure of a sound wave relative to a reference level",
+  "definition_ml": {
+    "en": "logarithmical measure of the pressure of a sound wave relative to a reference level",
+    "de": "logarithmisches Maß des Drucks einer Schallwelle bezogen auf einen Referenzpegel"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD710",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "sound pressure level",
+    "MDC_P006.en": "logarithmical measure of the pressure of a sound wave relative to a reference level",
+    "MDC_P023": "dB",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P004.de": "Schalldruckpegel",
+    "MDC_P006.de": "logarithmisches Maß des Drucks einer Schallwelle bezogen auf einen Referenzpegel",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "5D8C16E9AE7B028EC1258518003C49B2",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:38",
+      "user": "BATCH 00000732",
+      "unid": "961bc58be60005dcc12580d6004c23b4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:50",
+      "user": "BATCH 00000702",
+      "unid": "2b8d16a2bc44d5b7c1257cfb0040418a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "3a66544d0319aeeac1257cb40054c347",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:30",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "5D8C16E9AE7B028EC1258518003C49B2"
+  }
+}

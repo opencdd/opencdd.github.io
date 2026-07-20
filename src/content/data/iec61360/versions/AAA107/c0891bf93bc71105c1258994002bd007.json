@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61360_4#AAA107",
+  "code": "AAA107",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "nuclear sensor",
+  "preferred_name_ml": {
+    "en": "nuclear sensor"
+  },
+  "short_name": "NCL",
+  "short_name_ml": {
+    "en": "NCL"
+  },
+  "definition": "sensor operating on radiation released during reactions taking place in atomic nuclei",
+  "definition_ml": {
+    "en": "sensor operating on radiation released during reactions taking place in atomic nuclei"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "nuclear"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "nuclear"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA107",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "NCL",
+    "MDC_P004.en": "nuclear sensor",
+    "MDC_P007.en": "nuclear",
+    "MDC_P006.en": "sensor operating on radiation released during reactions taking place in atomic nuclei",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA103",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "c0891bf93bc71105c1258994002bd007",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "fe3caea9900f7103c1257dd300515f6c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "09b33ec6c82e859ec1257d7300506993",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "601b73a3ddd5e508c1257a0e0047b256",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA103",
+  "superclass_type_property": "0112/2///61360_4#AAA103",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "c0891bf93bc71105c1258994002bd007"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF003",
+  "code": "AAF003",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2012-04-04 12:47:27",
+    "user": "BATCH 00000783",
+    "change_request_id": null,
+    "unid": "58ae4f8db7cc3de6c12579d6003b46dc"
+  }
+}

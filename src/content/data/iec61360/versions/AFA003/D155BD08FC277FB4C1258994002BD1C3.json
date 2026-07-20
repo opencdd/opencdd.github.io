@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61360_4#AFA003",
+  "code": "AFA003",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "quartz crystal device",
+  "preferred_name_ml": {
+    "en": "quartz crystal device"
+  },
+  "definition": "piezoelectric device that uses quartz crystal",
+  "definition_ml": {
+    "en": "piezoelectric device that uses quartz crystal"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AFA003",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "quartz crystal device",
+    "MDC_P006.en": "piezoelectric device that uses quartz crystal",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2013-01-29",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA088",
+    "MDC_P014": "{0112/2///61360_4#AFD019,0112/2///61360_4#AFD020}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "D155BD08FC277FB4C1258994002BD1C3",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:50",
+      "user": "BATCH 00000890",
+      "unid": "fc72f006ccc01ac0c1257dd300516032",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:21",
+      "user": "BATCH 00000879",
+      "unid": "8f362b55e883397ec1257d7300506a59",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-01-29 13:07:03",
+      "user": "BATCH 00000817",
+      "unid": "5ed41dacc9fd0fa6c1257b020042907f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-01-29",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AFD019",
+    "0112/2///61360_4#AFD020"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA088",
+  "superclass_type_property": "0112/2///61360_4#AAA088",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "D155BD08FC277FB4C1258994002BD1C3"
+  }
+}

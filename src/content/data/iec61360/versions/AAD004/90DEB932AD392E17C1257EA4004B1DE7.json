@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61360_4#AAD004",
+  "code": "AAD004",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "die type code",
+  "preferred_name_ml": {
+    "en": "die type code"
+  },
+  "short_name": "die code",
+  "short_name_ml": {
+    "en": "die code"
+  },
+  "definition": "mnemonic code for the physical form in which the die or wafer is supplied",
+  "definition_ml": {
+    "en": "mnemonic code for the physical form in which the die or wafer is supplied"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "remark": "If the die or wafer is in its original form, then the code is BARE or DUAL. Die with codes BUMP or LEAD have been post-processed to add the solder bumps or metal lead frame respectively.",
+  "remark_ml": {
+    "en": "If the die or wafer is in its original form, then the code is BARE or DUAL. Die with codes BUMP or LEAD have been post-processed to add the solder bumps or metal lead frame respectively."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD004",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "die type code",
+    "MDC_P005.en": "die code",
+    "MDC_P006.en": "mnemonic code for the physical form in which the die or wafer is supplied",
+    "MDC_P009.en": "If the die or wafer is in its original form, then the code is BARE or DUAL. Die with codes BUMP or LEAD have been post-processed to add the solder bumps or metal lead frame respectively.",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA000)",
+    "MDC_P024": "M..4",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A52",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:28",
+      "user": "BATCH 00000917",
+      "unid": "90DEB932AD392E17C1257EA4004B1DE7",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:21",
+      "user": "BATCH 00000907",
+      "unid": "7d6f163a2b8b278ac1257e8b0032343a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:27",
+      "user": "BATCH 00000904",
+      "unid": "fd916a01b9d80711c1257e8a0043e20a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:48",
+      "user": "BATCH 00000704",
+      "unid": "249dc8263e0094abc125787f0042a1fa",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..4",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA000)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..4",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA000)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:28",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "90DEB932AD392E17C1257EA4004B1DE7"
+  }
+}

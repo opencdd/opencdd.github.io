@@ -1,0 +1,158 @@
+{
+  "irdi": "0112/2///61987#ABB012",
+  "code": "ABB012",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "calibration record",
+  "preferred_name_ml": {
+    "en": "calibration record",
+    "fr": "enregistrement d'étalonnage",
+    "de": "Kalibrierprotokoll"
+  },
+  "definition": "number/identification of the document of the manufacturer or of a third party giving traceable verification of the accuracy delivered by the device",
+  "definition_ml": {
+    "en": "number/identification of the document of the manufacturer or of a third party giving traceable verification of the accuracy delivered by the device",
+    "fr": "numéro/identification du document du fabricant ou d'un tiers donnant une vérification traçable de la précision fournie par l’appareil de mesure",
+    "de": "Nummer/Kennzeichnung des Dokuments des Herstellers oder eines Dritten, das die durch das Gerät erbrachte Genauigkeit nachweisbar bestätigt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB012",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "calibration record",
+    "MDC_P006.en": "number/identification of the document of the manufacturer or of a third party giving traceable verification of the accuracy delivered by the device",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "enregistrement d'étalonnage",
+    "MDC_P006.fr": "numéro/identification du document du fabricant ou d'un tiers donnant une vérification traçable de la précision fournie par l’appareil de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Kalibrierprotokoll",
+    "MDC_P006.de": "Nummer/Kennzeichnung des Dokuments des Herstellers oder eines Dritten, das die durch das Gerät erbrachte Genauigkeit nachweisbar bestätigt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:54",
+      "user": "BATCH 00000818",
+      "unid": "7EF53248CBA85178C1258A7D0039DA60",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "d50987f57eeee913c125825e001de7ef",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "ff3c75968f6a1b63c1258256003e9571",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "bc955b220dd50381c125825600407a7f",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:20",
+      "user": "BATCH 00000732",
+      "unid": "a478798637f41471c12580d6004c1c9e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "2a08abcfc4e8ea87c1257f7e0030f1e4",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "98b0d0d968b02f30c1257fa7003a3d1f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "bdddca013bebbf46c1257cfb00403a78",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:32",
+      "user": "BATCH 00000699",
+      "unid": "0d717bd929c11d13c1257cb40054bc35",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:54",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "7EF53248CBA85178C1258A7D0039DA60"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61360_4#AAA456",
+  "code": "AAA456",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "cavity down",
+  "preferred_name_ml": {
+    "en": "cavity down"
+  },
+  "short_name": "B008",
+  "short_name_ml": {
+    "en": "B008"
+  },
+  "definition": "pin-grid-array cavity-down package outline style with round pins",
+  "definition_ml": {
+    "en": "pin-grid-array cavity-down package outline style with round pins"
+  },
+  "synonyms": [],
+  "simplified_drawing": "DAA051",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA456",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "B008",
+    "MDC_P004.en": "cavity down",
+    "MDC_P006.en": "pin-grid-array cavity-down package outline style with round pins",
+    "MDC_P008_1": "DAA051",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA420",
+    "MDC_P014": "{0112/2///61360_4#AAG001,0112/2///61360_4#AAG002,0112/2///61360_4#AAG003,0112/2///61360_4#AAG009,0112/2///61360_4#AAG013,0112/2///61360_4#AAG016,0112/2///61360_4#AAG017,0112/2///61360_4#AAG078,0112/2///61360_4#AAG081,0112/2///61360_4#AAG082,0112/2///61360_4#AAG107,0112/2///61360_4#AAG109,0112/2///61360_4#AAG110,0112/2///61360_4#AAG112,0112/2///61360_4#AAG113}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "A785E43144BE4C72C1258994002BD0FD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:19",
+      "user": "BATCH 00000998",
+      "unid": "d2715f1aa08caadfc12580880052e2ad",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:03",
+      "user": "BATCH 00000997",
+      "unid": "09e5374a7646ab1dc12580880051da5e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:51",
+      "user": "BATCH 00000890",
+      "unid": "ef4dc87df0b1f3a3c1257dd3005160ba",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:22",
+      "user": "BATCH 00000879",
+      "unid": "bc524dec510e8f15c1257d7300506ae1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "3ca6e820fda69f56c1257a0e0047b33b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG001",
+    "0112/2///61360_4#AAG002",
+    "0112/2///61360_4#AAG003",
+    "0112/2///61360_4#AAG009",
+    "0112/2///61360_4#AAG013",
+    "0112/2///61360_4#AAG016",
+    "0112/2///61360_4#AAG017",
+    "0112/2///61360_4#AAG078",
+    "0112/2///61360_4#AAG081",
+    "0112/2///61360_4#AAG082",
+    "0112/2///61360_4#AAG107",
+    "0112/2///61360_4#AAG109",
+    "0112/2///61360_4#AAG110",
+    "0112/2///61360_4#AAG112",
+    "0112/2///61360_4#AAG113"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA420",
+  "superclass_type_property": "0112/2///61360_4#AAA420",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "A785E43144BE4C72C1258994002BD0FD"
+  }
+}

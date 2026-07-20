@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61360_4#AAD194",
+  "code": "AAD194",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "device length",
+  "preferred_name_ml": {
+    "en": "device length"
+  },
+  "short_name": "D",
+  "short_name_ml": {
+    "en": "D"
+  },
+  "definition": "maximum overall length of a minimally-packaged die device",
+  "definition_ml": {
+    "en": "maximum overall length of a minimally-packaged die device"
+  },
+  "synonyms": [],
+  "note": "For a device with terminals in a row or a few parallel rows, the length dimension is taken parallel to the terminal rows. For other devices, the length is normally the larger of length and with.",
+  "note_ml": {
+    "en": "For a device with terminals in a row or a few parallel rows, the length dimension is taken parallel to the terminal rows. For other devices, the length is normally the larger of length and with."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC 62258",
+  "published_in": "IEC 61360-4 DB",
+  "responsible_committee": "TC47/PT62258",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD194",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "device length",
+    "MDC_P005.en": "D",
+    "MDC_P006.en": "maximum overall length of a minimally-packaged die device",
+    "MDC_P008.en": "For a device with terminals in a row or a few parallel rows, the length dimension is taken parallel to the terminal rows. For other devices, the length is normally the larger of length and with.",
+    "MDC_P025_1": "D",
+    "MDC_P023": "m",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T03",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "MDC_P041": "0112/2///62720#UAA726",
+    "C016": "Standard",
+    "C012": "IEC 61360-4 DB",
+    "C011": "IEC 62258",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2007-02-14",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC47/PT62258"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:29",
+      "user": "BATCH 00000917",
+      "unid": "0874F2CA7FB1D1D6C1257EA4004B1E63",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "2606db7c0ecde144c1257e8b003234b5",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "e1500d1a5c774d68c1257e8a0043e286",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2012-04-04 12:47:27",
+      "user": "BATCH 00000783",
+      "unid": "bf34175b0af81f4fc12579d6003b46d7",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2007-02-14",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "D",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "unit_irdi": "0112/2///62720#UAA726",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:29",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "0874F2CA7FB1D1D6C1257EA4004B1E63"
+  }
+}

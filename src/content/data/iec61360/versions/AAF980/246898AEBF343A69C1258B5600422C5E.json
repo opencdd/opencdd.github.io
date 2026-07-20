@@ -1,0 +1,114 @@
+{
+  "irdi": "0112/2///61360_4#AAF980",
+  "code": "AAF980",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "wind speed",
+  "preferred_name_ml": {
+    "en": "wind speed"
+  },
+  "definition": "ratio of the horizontal motion of the surrounding air to a specified unit time at a specified height above a horizontal reference plane, either land or sea",
+  "definition_ml": {
+    "en": "ratio of the horizontal motion of the surrounding air to a specified unit time at a specified height above a horizontal reference plane, either land or sea"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF980",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "wind speed",
+    "MDC_P006.en": "ratio of the horizontal motion of the surrounding air to a specified unit time at a specified height above a horizontal reference plane, either land or sea",
+    "MDC_P023": "m/s",
+    "MDC_P022": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "T10",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA733",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAG158}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 14:02:47",
+      "user": "BATCH 00001305",
+      "unid": "246898AEBF343A69C1258B5600422C5E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "6f2909f59c505a29c1257ea4004b2313",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "dae6c3cfe54a04eec1257e8b00323942",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:41",
+      "user": "BATCH 00000904",
+      "unid": "4034c4aaede228abc1257e8a0043e736",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "9cf46d743bcecddec1257b9e0044e888",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA733",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAG158}",
+  "type": "property",
+  "data_type": "LEVEL(MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 14:02:47",
+    "user": "BATCH 00001305",
+    "change_request_id": null,
+    "unid": "246898AEBF343A69C1258B5600422C5E"
+  }
+}

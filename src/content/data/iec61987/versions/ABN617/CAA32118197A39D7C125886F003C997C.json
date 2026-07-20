@@ -1,0 +1,88 @@
+{
+  "irdi": "0112/2///61987#ABN617",
+  "code": "ABN617",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "pH value",
+  "preferred_name_ml": {
+    "en": "pH value",
+    "de": "pH-Wert"
+  },
+  "definition": "number quantifying the acidic or the alkaline character of a solution, equal to the negative of the decimal logarithm of ion activity aH+ of the hydrogen cation H+",
+  "definition_ml": {
+    "en": "number quantifying the acidic or the alkaline character of a solution, equal to the negative of the decimal logarithm of ion activity aH+ of the hydrogen cation H+",
+    "de": "negativer Logarithmus zur Basis 10 der Ionenaktivität des Wasserstoffkations H+, quantifizierend die Säure- oder alkalische Eigenschaft einer Lösung"
+  },
+  "source_document": "IEV 114-01-21",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN617",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "pH value",
+    "MDC_P006.en": "number quantifying the acidic or the alkaline character of a solution, equal to the negative of the decimal logarithm of ion activity aH+ of the hydrogen cation H+",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P006_1": "IEV 114-01-21",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_2": "2022-06-28",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "pH-Wert",
+    "MDC_P006.de": "negativer Logarithmus zur Basis 10 der Ionenaktivität des Wasserstoffkations H+, quantifizierend die Säure- oder alkalische Eigenschaft einer Lösung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "CAA32118197A39D7C125886F003C997C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "19cc9d1323762789c1258518003fd7cf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2022-06-28",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:54",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "CAA32118197A39D7C125886F003C997C"
+  }
+}

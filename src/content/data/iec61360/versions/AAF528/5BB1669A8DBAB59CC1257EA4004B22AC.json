@@ -1,0 +1,148 @@
+{
+  "irdi": "0112/2///61360_4#AAF528",
+  "code": "AAF528",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "short name",
+  "preferred_name_ml": {
+    "en": "short name"
+  },
+  "definition": "short textual mnemonic description of the reporting object respectively the controlled object",
+  "definition_ml": {
+    "en": "short textual mnemonic description of the reporting object respectively the controlled object"
+  },
+  "source_document": "IEC 61175-1:2014",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61175-1",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF528",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "short name",
+    "MDC_P006.en": "short textual mnemonic description of the reporting object respectively the controlled object",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "IEC 61175-1:2014",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAF525",
+    "C016": "Standard",
+    "C012": "IEC 61175-1",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2011-11-09",
+    "MDC_P003_2": "2011-11-09",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "5BB1669A8DBAB59CC1257EA4004B22AC",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "0d88f97499709363c1257e8b003238e0",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "469bbcbb58d65eafc1257e8a0043e6cf",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-06-26 13:10:03",
+      "user": "BATCH 00000892",
+      "unid": "388e677f4d7b11abc1257e70003d5850",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-02-18 17:01:55",
+      "user": "BATCH 00000892",
+      "unid": "97aa25a0743289d5c1257df0005810f7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-02-18 16:48:04",
+      "user": "BATCH 00000891",
+      "unid": "19632264d5126f16c1257df00056cc75",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-01-14 10:12:34",
+      "user": "BATCH 00000886",
+      "unid": "2b7847f30347063cc1257dcd0032970b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-09-20 17:38:05",
+      "user": "BATCH 00000801",
+      "unid": "6086e2c0dae94f81c1257a7f0055e27a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-06-14 18:10:26",
+      "user": "BATCH 00000794",
+      "unid": "05afbc141941f1bac1257a1d0058d8d2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-11-09",
+    "current_version": "2011-11-09",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAF525",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:40",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "5BB1669A8DBAB59CC1257EA4004B22AC"
+  }
+}

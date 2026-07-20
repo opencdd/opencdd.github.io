@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61360_4#AAD055",
+  "code": "AAD055",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "supply packing code",
+  "preferred_name_ml": {
+    "en": "supply packing code"
+  },
+  "short_name": "packing code",
+  "short_name_ml": {
+    "en": "packing code"
+  },
+  "definition": "mnemonic code for the form of packing used for the supply of a die or wafer",
+  "definition_ml": {
+    "en": "mnemonic code for the form of packing used for the supply of a die or wafer"
+  },
+  "source_document": "IEC 62258",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAD055",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "supply packing code",
+    "MDC_P005.en": "packing code",
+    "MDC_P006.en": "mnemonic code for the form of packing used for the supply of a die or wafer",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA006)",
+    "MDC_P024": "M..8",
+    "MDC_P006_1": "IEC 62258",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A53",
+    "MDC_P021": "0112/2///61360_4#AAA302",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:28",
+      "user": "BATCH 00000917",
+      "unid": "E49AAC173C689AECC1257EA4004B1E08",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:22",
+      "user": "BATCH 00000907",
+      "unid": "6b1ea59ae01743a8c1257e8b0032345a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:28",
+      "user": "BATCH 00000904",
+      "unid": "d74d97c9258832dec1257e8a0043e22b",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:48",
+      "user": "BATCH 00000704",
+      "unid": "eac04c7e9b66d141c125787f0042a21a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///61360_4#AAA302",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA006)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA006)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:28",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E49AAC173C689AECC1257EA4004B1E08"
+  }
+}

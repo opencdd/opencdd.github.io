@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61360_4#AAA175",
+  "code": "AAA175",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "thermostatic switch",
+  "preferred_name_ml": {
+    "en": "thermostatic switch"
+  },
+  "short_name": "THE",
+  "short_name_ml": {
+    "en": "THE"
+  },
+  "definition": "switch whose function is controlled by variations of temperature and whose contacts make or break automatically a load circuit when the temperature of the ambient space in which their sensing element is placed or the temperature of the surface on which they are fixed reaches a predetermined value",
+  "definition_ml": {
+    "en": "switch whose function is controlled by variations of temperature and whose contacts make or break automatically a load circuit when the temperature of the ambient space in which their sensing element is placed or the temperature of the surface on which they are fixed reaches a predetermined value"
+  },
+  "source_document": "IEV 581-10-07:1978",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "thermostatic"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "thermostatic"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA175",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "THE",
+    "MDC_P004.en": "thermostatic switch",
+    "MDC_P007.en": "thermostatic",
+    "MDC_P006.en": "switch whose function is controlled by variations of temperature and whose contacts make or break automatically a load circuit when the temperature of the ambient space in which their sensing element is placed or the temperature of the surface on which they are fixed reaches a predetermined value",
+    "MDC_P006_1": "IEV 581-10-07:1978",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA172",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "cc46bdf983b742c5c1258994002bd04b",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "a99e87e765744b26c1257dd300515fae",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "65bb36d9f2bafa3fc1257d73005069d5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "07db82d219b05f94c1257a0e0047b29a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA172",
+  "superclass_type_property": "0112/2///61360_4#AAA172",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "cc46bdf983b742c5c1258994002bd04b"
+  }
+}

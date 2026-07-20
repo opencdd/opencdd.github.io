@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACE546",
+  "code": "ACE546",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "time delay setting range",
+  "preferred_name_ml": {
+    "en": "time delay setting range",
+    "fr": "gamme de réglage de la temporisation",
+    "de": "Einstellbereich der Zeitverzögerung",
+    "zh": "延时整定范围"
+  },
+  "definition": "limits of the setting of the time delaying a control signal",
+  "definition_ml": {
+    "en": "limits of the setting of the time delaying a control signal",
+    "fr": "limites du réglage du temps de retardement d'un signal de commande",
+    "de": "Einstellgrenzen der Zeitverzögerung eines Steuersignals",
+    "zh": "控制信号延时整定值的范围"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00089",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE546",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "time delay setting range",
+    "MDC_P006.en": "limits of the setting of the time delaying a control signal",
+    "MDC_P023": "s",
+    "MDC_P111": "{mn,h}",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC016",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "MDC_P042": "{0112/2///62720#UAA525,0112/2///62720#UAA842}",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-08-11",
+    "MDC_P003_1": "2015-07-16",
+    "MDC_P003_2": "2020-08-24",
+    "MDC_P003_3": "2020-08-24",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "gamme de réglage de la temporisation",
+    "MDC_P006.fr": "limites du réglage du temps de retardement d'un signal de commande",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2015-05-20",
+    "MDC_P004.de": "Einstellbereich der Zeitverzögerung",
+    "MDC_P006.de": "Einstellgrenzen der Zeitverzögerung eines Steuersignals",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "1",
+    "C018.de": "2018-01-09",
+    "MDC_P004.zh": "延时整定范围",
+    "MDC_P006.zh": "控制信号延时整定值的范围",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2018-05-30",
+    "C002": "C00089"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-08-11 16:11:31",
+      "user": "BATCH 00000755",
+      "unid": "FEFCAAC96D35737BC12585C1004DF595",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:08:17",
+      "user": "BATCH 00000746",
+      "unid": "78526e5a61c6922ac12584ec00741dae",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-07-16",
+    "current_version": "2020-08-24",
+    "current_revision": "2020-08-24"
+  },
+  "value_format": "NR2..3.2",
+  "definition_class_irdi": "0112/2///62683#ACC016",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [
+    "0112/2///62720#UAA525",
+    "0112/2///62720#UAA842"
+  ],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.2",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-08-11 16:11:31",
+    "user": "BATCH 00000755",
+    "change_request_id": null,
+    "unid": "FEFCAAC96D35737BC12585C1004DF595"
+  }
+}

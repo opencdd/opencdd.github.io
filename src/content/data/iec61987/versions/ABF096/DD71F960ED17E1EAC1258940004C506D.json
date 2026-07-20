@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABF096",
+  "code": "ABF096",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Influence of external quantities expressed for resistance",
+  "preferred_name_ml": {
+    "en": "Influence of external quantities expressed for resistance",
+    "de": "Einfluss der externen Größen für Temperaturmessung"
+  },
+  "definition": "properties characterizing the influence of external quantities for temperature measurement devices that are not the subject of the measurement but whose change affects the relationship between the indication and the result of the measurement",
+  "definition_ml": {
+    "en": "properties characterizing the influence of external quantities for temperature measurement devices that are not the subject of the measurement but whose change affects the relationship between the indication and the result of the measurement",
+    "de": "Merkmale, die den Einfluss von externen Größen auf die Temperaturmesseinrichtung kennzeichnen, die nicht Gegenstand der Messung sind, aber deren Änderung die Beziehung zwischen Messergebnis und Anzeige beeinflusst"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABF096",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Influence of external quantities expressed for resistance",
+    "MDC_P006.en": "properties characterizing the influence of external quantities for temperature measurement devices that are not the subject of the measurement but whose change affects the relationship between the indication and the result of the measurement",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABF098,0112/2///61987#ABF100,0112/2///61987#ABF102,0112/2///61987#ABF104}",
+    "MDC_P004.de": "Einfluss der externen Größen für Temperaturmessung",
+    "MDC_P006.de": "Merkmale, die den Einfluss von externen Größen auf die Temperaturmesseinrichtung kennzeichnen, die nicht Gegenstand der Messung sind, aber deren Änderung die Beziehung zwischen Messergebnis und Anzeige beeinflusst",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "DD71F960ED17E1EAC1258940004C506D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:05",
+      "user": "BATCH 00000762",
+      "unid": "2cfa271d9ff5700ac125825e001ddab6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF098",
+    "0112/2///61987#ABF100",
+    "0112/2///61987#ABF102",
+    "0112/2///61987#ABF104"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:33",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "DD71F960ED17E1EAC1258940004C506D"
+  }
+}

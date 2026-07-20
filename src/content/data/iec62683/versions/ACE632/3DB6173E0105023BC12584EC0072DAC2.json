@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///62683#ACE632",
+  "code": "ACE632",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "possibility to be illuminated",
+  "preferred_name_ml": {
+    "en": "possibility to be illuminated",
+    "fr": "aptitude à être éclairé",
+    "de": "beleuchtbar",
+    "zh": "安装照明灯的可能性"
+  },
+  "definition": "capability of the device to be equipped with a light",
+  "definition_ml": {
+    "en": "capability of the device to be equipped with a light",
+    "fr": "possibilité du dispositif d'être équipé d'un éclairage",
+    "de": "Möglichkeit, dass das Gerät mit einer Beleuchtungseinrichtung ausgestattet ist",
+    "zh": "设备上装有灯的可能性"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00081",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE632",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "possibility to be illuminated",
+    "MDC_P006.en": "capability of the device to be equipped with a light",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///62683#ACC010",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-01-28",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "aptitude à être éclairé",
+    "MDC_P006.fr": "possibilité du dispositif d'être équipé d'un éclairage",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "beleuchtbar",
+    "MDC_P006.de": "Möglichkeit, dass das Gerät mit einer Beleuchtungseinrichtung ausgestattet ist",
+    "C019.de": "DKE, Silvio Förtsch",
+    "C017.de": "2",
+    "C018.de": "2019-07-31",
+    "MDC_P004.zh": "安装照明灯的可能性",
+    "MDC_P006.zh": "设备上装有灯的可能性",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2019-08-08",
+    "C002": "C00081"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2020-01-11 21:54:31",
+      "user": "BATCH 00000744",
+      "unid": "3DB6173E0105023BC12584EC0072DAC2",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:28",
+      "user": "BATCH 00000704",
+      "unid": "93ca1c93a5a6e39dc1258030004570cf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-01-28",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC010",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2020-01-11 21:54:31",
+    "user": "BATCH 00000744",
+    "change_request_id": null,
+    "unid": "3DB6173E0105023BC12584EC0072DAC2"
+  }
+}

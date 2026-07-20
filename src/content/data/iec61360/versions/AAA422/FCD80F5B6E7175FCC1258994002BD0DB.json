@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61360_4#AAA422",
+  "code": "AAA422",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "rectangular pin",
+  "preferred_name_ml": {
+    "en": "rectangular pin"
+  },
+  "short_name": "T010",
+  "short_name_ml": {
+    "en": "T010"
+  },
+  "definition": "dual-in-line package outline style with rectangular pins",
+  "definition_ml": {
+    "en": "dual-in-line package outline style with rectangular pins"
+  },
+  "synonyms": [],
+  "simplified_drawing": "DAA023",
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA422",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "T010",
+    "MDC_P004.en": "rectangular pin",
+    "MDC_P006.en": "dual-in-line package outline style with rectangular pins",
+    "MDC_P008_1": "DAA023",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA374",
+    "MDC_P014": "{0112/2///61360_4#AAG001,0112/2///61360_4#AAG002,0112/2///61360_4#AAG003,0112/2///61360_4#AAG008,0112/2///61360_4#AAG012,0112/2///61360_4#AAG013,0112/2///61360_4#AAG016,0112/2///61360_4#AAG017,0112/2///61360_4#AAG029,0112/2///61360_4#AAG044,0112/2///61360_4#AAG046,0112/2///61360_4#AAG053}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "FCD80F5B6E7175FCC1258994002BD0DB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:19",
+      "user": "BATCH 00000998",
+      "unid": "48592232d765db86c12580880052e28b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:02",
+      "user": "BATCH 00000997",
+      "unid": "532322007c9c1637c12580880051da3c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:51",
+      "user": "BATCH 00000890",
+      "unid": "50a1a9c55f15cdebc1257dd300516098",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:22",
+      "user": "BATCH 00000879",
+      "unid": "7cf7af2bcb0152e8c1257d7300506abf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:09",
+      "user": "BATCH 00000788",
+      "unid": "22fed9ac407de0ddc1257a0e0047b321",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG001",
+    "0112/2///61360_4#AAG002",
+    "0112/2///61360_4#AAG003",
+    "0112/2///61360_4#AAG008",
+    "0112/2///61360_4#AAG012",
+    "0112/2///61360_4#AAG013",
+    "0112/2///61360_4#AAG016",
+    "0112/2///61360_4#AAG017",
+    "0112/2///61360_4#AAG029",
+    "0112/2///61360_4#AAG044",
+    "0112/2///61360_4#AAG046",
+    "0112/2///61360_4#AAG053"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA374",
+  "superclass_type_property": "0112/2///61360_4#AAA374",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "FCD80F5B6E7175FCC1258994002BD0DB"
+  }
+}

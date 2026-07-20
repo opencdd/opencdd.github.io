@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABD739",
+  "code": "ABD739",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "torque of spring at 100% travel",
+  "preferred_name_ml": {
+    "en": "torque of spring at 100% travel",
+    "de": "Federmoment bei 100% Hub"
+  },
+  "definition": "torque of an actuator spring for full travel",
+  "definition_ml": {
+    "en": "torque of an actuator spring for full travel",
+    "de": "Drehmoment einer Antriebsfeder bei vollem Hub"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD739",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "torque of spring at 100% travel",
+    "MDC_P006.en": "torque of an actuator spring for full travel",
+    "MDC_P023": "kN·m",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA574",
+    "C0104": "0112/2///61987#ABT538",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2016-05-02",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P004.de": "Federmoment bei 100% Hub",
+    "MDC_P006.de": "Drehmoment einer Antriebsfeder bei vollem Hub",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "F325E248C0DD186FC125825E001DEF21",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "994bb695fff5bf90c1257fa7003a3d6b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:51",
+      "user": "BATCH 00000702",
+      "unid": "35109d5b8d6bd098c1257cfb004041a7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "1b5a7536d49a44b9c1257cb40054c364",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2016-05-02",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA574",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "F325E248C0DD186FC125825E001DEF21"
+  }
+}

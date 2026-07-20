@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABH471",
+  "code": "ABH471",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:43:56",
+    "user": "BATCH 00000756",
+    "change_request_id": null,
+    "unid": "b0f836db60f00433c125825600407273"
+  }
+}

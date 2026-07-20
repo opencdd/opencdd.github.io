@@ -1,0 +1,130 @@
+{
+  "irdi": "0112/2///61987#ABA632",
+  "code": "ABA632",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "downstream straight length",
+  "preferred_name_ml": {
+    "en": "downstream straight length",
+    "fr": "longueur droite en aval",
+    "de": "Länge der Auslaufstrecke"
+  },
+  "definition": "length of straight pipe downstream of a flow measuring device or valve that is available or necessary to ensure that it performs within its specified limits, expressed in units of pipe diameter",
+  "definition_ml": {
+    "en": "length of straight pipe downstream of a flow measuring device or valve that is available or necessary to ensure that it performs within its specified limits, expressed in units of pipe diameter",
+    "fr": "longueur de canalisation droite en aval d'un appareil de mesure de débit, qui est disponible ou nécessaire pour assurer que l’appareil fonctionne dans ses limites spécifiées, exprimée en unités de diamètre de tube",
+    "de": "minimale Länge der Auslaufstrecke eines Durchflussmessinstruments oder Ventils, die verfügbar oder notwendig ist um zu gewährleisten, dass das Durchflussmessinstrument oder Ventil innerhalb der angegebenen Grenzen seine Funktion erfüllt, ausgedrückt in Einheiten des Rohrdurchmessers"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Minimum downstream straight length"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Minimum downstream straight length"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA632",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "downstream straight length",
+    "MDC_P007.en": "Minimum downstream straight length",
+    "MDC_P006.en": "length of straight pipe downstream of a flow measuring device or valve that is available or necessary to ensure that it performs within its specified limits, expressed in units of pipe diameter",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "longueur droite en aval",
+    "MDC_P006.fr": "longueur de canalisation droite en aval d'un appareil de mesure de débit, qui est disponible ou nécessaire pour assurer que l’appareil fonctionne dans ses limites spécifiées, exprimée en unités de diamètre de tube",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Länge der Auslaufstrecke",
+    "MDC_P006.de": "minimale Länge der Auslaufstrecke eines Durchflussmessinstruments oder Ventils, die verfügbar oder notwendig ist um zu gewährleisten, dass das Durchflussmessinstrument oder Ventil innerhalb der angegebenen Grenzen seine Funktion erfüllt, ausgedrückt in Einheiten des Rohrdurchmessers",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "7E2A2DD5856AF5F6C125825E001DE76D",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:19",
+      "user": "BATCH 00000732",
+      "unid": "8da97ad3187e0c3cc12580d6004c1c19",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "39c5c0f5e8c765f1c1257fa7003a3d05",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:31",
+      "user": "BATCH 00000702",
+      "unid": "7b491eb3b5f29980c1257cfb004039f3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "da2561efa9bb96b8c1257cb40054bbb0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:37",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "7E2A2DD5856AF5F6C125825E001DE76D"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61360_4#AAF926",
+  "code": "AAF926",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "pollution level",
+  "preferred_name_ml": {
+    "en": "pollution level"
+  },
+  "short_name": "pollution lev",
+  "short_name_ml": {
+    "en": "pollution lev"
+  },
+  "definition": "classification of polluted ambience of a location in accordance with IEC 60071-2, table 1",
+  "definition_ml": {
+    "en": "classification of polluted ambience of a location in accordance with IEC 60071-2, table 1"
+  },
+  "source_document": "IEC 60071-2:1996",
+  "synonyms": [],
+  "note": "based on the given value the use of a minimum nominal specific creepage distance  for bushings is recommended",
+  "note_ml": {
+    "en": "based on the given value the use of a minimum nominal specific creepage distance  for bushings is recommended"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF926",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "pollution level",
+    "MDC_P005.en": "pollution lev",
+    "MDC_P006.en": "classification of polluted ambience of a location in accordance with IEC 60071-2, table 1",
+    "MDC_P008.en": "based on the given value the use of a minimum nominal specific creepage distance  for bushings is recommended",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#AAF877(Pollution degree 1,Pollution degree 2,Pollution degree 3,Pollution degree 4))",
+    "MDC_P024": "M..3",
+    "MDC_P006_1": "IEC 60071-2:1996",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A59",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "68A79A6F581E2501C1257EA4004B22DF",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "52d4c39803c459d7c1257e8b0032390e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "b0fb6bfd5e313bc6c1257e8a0043e702",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#AAF877(Pollution degree 1,Pollution degree 2,Pollution degree 3,Pollution degree 4))",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#AAF877(Pollution degree 1,Pollution degree 2,Pollution degree 3,Pollution degree 4))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "68A79A6F581E2501C1257EA4004B22DF"
+  }
+}

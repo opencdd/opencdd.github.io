@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABD410",
+  "code": "ABD410",
+  "version": "3",
+  "revision": "2",
+  "preferred_name": "number of auxiliary/purge gas supplies",
+  "preferred_name_ml": {
+    "en": "number of auxiliary/purge gas supplies",
+    "de": "Anzahl der Bereitstellungen gasförmiger Hilfsstoffe/Spülgas"
+  },
+  "definition": "cardinality property for auxiliary/purge gas supply",
+  "definition_ml": {
+    "en": "cardinality property for auxiliary/purge gas supply",
+    "de": "Kardinalitätsmerkmal für Bereitstellung gasförmiger Hilfsstoffe/Spülgas"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD410",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "number of auxiliary/purge gas supplies",
+    "MDC_P006.en": "cardinality property for auxiliary/purge gas supply",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Anzahl der Bereitstellungen gasförmiger Hilfsstoffe/Spülgas",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Bereitstellung gasförmiger Hilfsstoffe/Spülgas",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2024-06-18",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:03",
+      "user": "BATCH 00000835",
+      "unid": "CD23D2D17D31B31BC1258C3B004B5A56",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:54",
+      "user": "BATCH 00000762",
+      "unid": "14af8b6440cab2dbc125825e001dedfd",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:36",
+      "user": "BATCH 00000732",
+      "unid": "8b5ca413a819252ac12580d6004c22ad",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:13",
+      "user": "BATCH 00000717",
+      "unid": "d2a2cfe6351a92adc1257fa700404a37",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:48",
+      "user": "BATCH 00000702",
+      "unid": "da316ed3230794e9c1257cfb00404083",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:47",
+      "user": "BATCH 00000699",
+      "unid": "6b648c9864b4b6e3c1257cb40054c240",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:03",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "CD23D2D17D31B31BC1258C3B004B5A56"
+  }
+}

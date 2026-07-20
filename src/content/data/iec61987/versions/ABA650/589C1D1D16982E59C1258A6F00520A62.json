@@ -1,0 +1,119 @@
+{
+  "irdi": "0112/2///61987#ABA650",
+  "code": "ABA650",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Magnetic level gauge",
+  "preferred_name_ml": {
+    "en": "Magnetic level gauge",
+    "fr": "Jauge de niveau magnétique",
+    "de": "Magnetklappenanzeiger"
+  },
+  "definition": "level gauge that uses a bypass tube or measuring chamber and a float with a magnetic core, which interacts with a magnetic flag assembly to give a colour change that indicates level",
+  "definition_ml": {
+    "en": "level gauge that uses a bypass tube or measuring chamber and a float with a magnetic core, which interacts with a magnetic flag assembly to give a colour change that indicates level",
+    "fr": "jauge de niveau utilisant un tube de contournement ou une chambre de mesure et un flotteur avec un noyau magnétique, interagissant avec un assemblage d'indicateurs magnétiques pour fournir un changement de couleur indiquant le niveau",
+    "de": "Füllstandanzeiger, der ein Bypassrohr oder eine Messkammer benutzt sowie einen Schwimmer mit magnetischem Kern, der mit einer magnetischen Klappenanordnung zusammenwirkt, um einen Farbwechsel anzugeben, der den Füllstand anzeigt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA650",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Magnetic level gauge",
+    "MDC_P006.en": "level gauge that uses a bypass tube or measuring chamber and a float with a magnetic core, which interacts with a magnetic flag assembly to give a colour change that indicates level",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA649",
+    "MDC_P014": "{0112/2///61987#ABF878}",
+    "MDC_P004.fr": "Jauge de niveau magnétique",
+    "MDC_P006.fr": "jauge de niveau utilisant un tube de contournement ou une chambre de mesure et un flotteur avec un noyau magnétique, interagissant avec un assemblage d'indicateurs magnétiques pour fournir un changement de couleur indiquant le niveau",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-12-27",
+    "MDC_P004.de": "Magnetklappenanzeiger",
+    "MDC_P006.de": "Füllstandanzeiger, der ein Bypassrohr oder eine Messkammer benutzt sowie einen Schwimmer mit magnetischem Kern, der mit einer magnetischen Klappenanordnung zusammenwirkt, um einen Farbwechsel anzugeben, der den Füllstand anzeigt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-27",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "589C1D1D16982E59C1258A6F00520A62",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:45",
+      "user": "BATCH 00000762",
+      "unid": "0b19980a0543d36cc125825e001dd320",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:49:55",
+      "user": "BATCH 00000732",
+      "unid": "60f0e001ac37bd23c12580d6004bfb8d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "80ce4f9e8877f12ac1257cb3002a0c30",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF878"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA649",
+  "superclass_type_property": "0112/2///61987#ABA649",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "589C1D1D16982E59C1258A6F00520A62"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "irdi": "0112/2///61360_4#AAE617",
+  "code": "AAE617",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "min. LDR recovery rate",
+  "preferred_name_ml": {
+    "en": "min. LDR recovery rate"
+  },
+  "short_name": "min. recovery rate",
+  "short_name_ml": {
+    "en": "min. recovery rate"
+  },
+  "definition": "minimum recovery rate of the resistance of a light dependent resistor from light to dark, after a specified duration, initial illuminance level and colour temperature",
+  "definition_ml": {
+    "en": "minimum recovery rate of the resistance of a light dependent resistor from light to dark, after a specified duration, initial illuminance level and colour temperature"
+  },
+  "synonyms": [],
+  "note": "The recovery rate is typically measured in Ω/s",
+  "note_ml": {
+    "en": "The recovery rate is typically measured in Ω/s"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE617",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "min. LDR recovery rate",
+    "MDC_P005.en": "min. recovery rate",
+    "MDC_P006.en": "minimum recovery rate of the resistance of a light dependent resistor from light to dark, after a specified duration, initial illuminance level and colour temperature",
+    "MDC_P008.en": "The recovery rate is typically measured in Ω/s",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E33",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-11",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2024-07-11",
+    "MDC_P003_3": "2024-07-11",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE028,0112/2///61360_4#AAE623,0112/2///61360_4#AAE624}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-11 08:06:42",
+      "user": "BATCH 00001317",
+      "unid": "E29C08ADD2777E07C1258B57002192BA",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "21a774229a0dc340c1257ea4004b2028",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "04659cd2300b0f49c1257e8b00323677",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "d5d4a7587d81bc52c1257e8a0043e44b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "819991b5a720a952c1257a0e0047bc8e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "98eeec98670ffc9ec1257a0e0046da0e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2024-07-11",
+    "current_revision": "2024-07-11"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE028,0112/2///61360_4#AAE623,0112/2///61360_4#AAE624}",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-11 08:06:42",
+    "user": "BATCH 00001317",
+    "change_request_id": null,
+    "unid": "E29C08ADD2777E07C1258B57002192BA"
+  }
+}

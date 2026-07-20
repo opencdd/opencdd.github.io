@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61987#ABN590",
+  "code": "ABN590",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "URI of product instance",
+  "preferred_name_ml": {
+    "en": "URI of product instance",
+    "de": "URI der Produktinstanz"
+  },
+  "short_name": "Product URI",
+  "short_name_ml": {
+    "en": "Product URI",
+    "de": "Produkt-URI"
+  },
+  "definition": "unique global identification of the product (physical instance) using a universal resource identifier (URI)",
+  "definition_ml": {
+    "en": "unique global identification of the product (physical instance) using a universal resource identifier (URI)",
+    "de": "eindeutige globale Identifikation des Produkts (physikalische Instance) durch die Verwendung eines Universal Resource Identifiers (URI)"
+  },
+  "synonyms": [],
+  "note": "A product is e. g. a device, a material or a service. Refer to RFC 2396 and RFC 3986 regarding the concept of identifying things. The URI comprises the URL and the URN.",
+  "note_ml": {
+    "en": "A product is e. g. a device, a material or a service. Refer to RFC 2396 and RFC 3986 regarding the concept of identifying things. The URI comprises the URL and the URN.",
+    "de": "Ein Produkt ist beispielsweise ein Gerät, ein Stoff oder eine Leistung. Siehe RFC 2396 und RFC 3986 bezüglich des Konzepts, Dinge zu identifizieren. Der URI umfasst den URL und den URN."
+  },
+  "remark": "Example: URI as defined by IEC 61406-1; also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA055 - URI of product instance",
+  "remark_ml": {
+    "en": "Example: URI as defined by IEC 61406-1; also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA055 - URI of product instance",
+    "de": "Beispiel: URI wie sie in IEC 61406-1 definiert wird;  auch verwendet von Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00186",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN590",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "URI of product instance",
+    "MDC_P005.en": "Product URI",
+    "MDC_P006.en": "unique global identification of the product (physical instance) using a universal resource identifier (URI)",
+    "MDC_P008.en": "A product is e. g. a device, a material or a service. Refer to RFC 2396 and RFC 3986 regarding the concept of identifying things. The URI comprises the URL and the URN.",
+    "MDC_P009.en": "Example: URI as defined by IEC 61406-1; also used by Process Automation - Device Information Model (PA-DIM); legacy property, updated by 0112/2///61360_7#CBA055 - URI of product instance",
+    "MDC_P022": "URI_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-11-10",
+    "MDC_P003_2": "2021-01-18",
+    "MDC_P003_3": "2025-11-10",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "URI der Produktinstanz",
+    "MDC_P005.de": "Produkt-URI",
+    "MDC_P006.de": "eindeutige globale Identifikation des Produkts (physikalische Instance) durch die Verwendung eines Universal Resource Identifiers (URI)",
+    "MDC_P008.de": "Ein Produkt ist beispielsweise ein Gerät, ein Stoff oder eine Leistung. Siehe RFC 2396 und RFC 3986 bezüglich des Konzepts, Dinge zu identifizieren. Der URI umfasst den URL und den URN.",
+    "MDC_P009.de": "Beispiel: URI wie sie in IEC 61406-1 definiert wird;  auch verwendet von Process Automation - Device Information Model (PA-DIM)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-01",
+    "C002": "C00186"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2025-11-10 12:04:30",
+      "user": "BATCH 00000855",
+      "unid": "A324F9D0BB5D1004C1258D3E003CD65A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "0c48cf80525ab636c1258c3b004b5c07",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2023-09-04 12:52:30",
+      "user": "BATCH 00000812",
+      "unid": "8189129c1d5260e7c1258a20003bbd43",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "24f4c833ce28450cc125886f003c9978",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "ebc479e989fcaf28c1258518003c4abd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2021-01-18",
+    "current_revision": "2025-11-10"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "URI_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "URI_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2025-11-10 12:04:30",
+    "user": "BATCH 00000855",
+    "change_request_id": null,
+    "unid": "A324F9D0BB5D1004C1258D3E003CD65A"
+  }
+}

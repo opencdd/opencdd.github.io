@@ -1,0 +1,101 @@
+{
+  "irdi": "0112/2///61987#ABD957",
+  "code": "ABD957",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Output [8]",
+  "preferred_name_ml": {
+    "en": "Output [8]",
+    "fr": "Sortie [8]",
+    "de": "Ausgang [8]"
+  },
+  "definition": "properties characterizing the outputs provided by the device, the variables assigned to them and their electrical properties",
+  "definition_ml": {
+    "en": "properties characterizing the outputs provided by the device, the variables assigned to them and their electrical properties",
+    "fr": "propriétés caractérisant les sorties fournies par l’appareil, les variables qui leur sont affectées et leurs propriétés électriques (version de bloc 8)",
+    "de": "Merkmale, die die vom Gerät bereitgestellten Ausgänge, ihre zugewiesenen Größen und ihre elektrischen Eigenschaften kennzeichnen"
+  },
+  "source_document": "from IEC 61987-1, 5.5",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD957",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Output [8]",
+    "MDC_P006.en": "properties characterizing the outputs provided by the device, the variables assigned to them and their electrical properties",
+    "MDC_P006_1": "from IEC 61987-1, 5.5",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-09-02",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB271,0112/2///61987#ABA577,0112/2///61987#ABA342,0112/2///61987#ABU531}",
+    "MDC_P004.fr": "Sortie [8]",
+    "MDC_P006.fr": "propriétés caractérisant les sorties fournies par l’appareil, les variables qui leur sont affectées et leurs propriétés électriques (version de bloc 8)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-09-14",
+    "MDC_P004.de": "Ausgang [8]",
+    "MDC_P006.de": "Merkmale, die die vom Gerät bereitgestellten Ausgänge, ihre zugewiesenen Größen und ihre elektrischen Eigenschaften kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "238D2F7DB2816706C125825E001DD90B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "d2c174d5fbdd1164c1257cb400549de9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-09-02",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB271",
+    "0112/2///61987#ABA577",
+    "0112/2///61987#ABA342",
+    "0112/2///61987#ABU531"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "238D2F7DB2816706C125825E001DD90B"
+  }
+}

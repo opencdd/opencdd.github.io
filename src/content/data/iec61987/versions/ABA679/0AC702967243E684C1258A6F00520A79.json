@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA679",
+  "code": "ABA679",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Positive displacement totalizer",
+  "preferred_name_ml": {
+    "en": "Positive displacement totalizer",
+    "fr": "Totalisateur à déplacement positif",
+    "de": "Summierzähler nach dem Verdrängungsprinzip"
+  },
+  "definition": "volume gauge that divides a fluid into fixed, metered volumes and counts these to measure and indicate the total volume of a fluid that has flowed",
+  "definition_ml": {
+    "en": "volume gauge that divides a fluid into fixed, metered volumes and counts these to measure and indicate the total volume of a fluid that has flowed",
+    "fr": "jauge de volume divisant un fluide en volumes mesurés fixes et qui les compte pour mesurer et indiquer le volume total du fluide qui s'est écoulé",
+    "de": "Volumenanzeiger, der ein Fluid in feste, gemessene Volumina unterteilt und diese zählt, um das Gesamtvolumen eines durchgeflossenen Fluids zu messen und anzuzeigen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA679",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Positive displacement totalizer",
+    "MDC_P006.en": "volume gauge that divides a fluid into fixed, metered volumes and counts these to measure and indicate the total volume of a fluid that has flowed",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA678",
+    "MDC_P004.fr": "Totalisateur à déplacement positif",
+    "MDC_P006.fr": "jauge de volume divisant un fluide en volumes mesurés fixes et qui les compte pour mesurer et indiquer le volume total du fluide qui s'est écoulé",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Summierzähler nach dem Verdrängungsprinzip",
+    "MDC_P006.de": "Volumenanzeiger, der ein Fluid in feste, gemessene Volumina unterteilt und diese zählt, um das Gesamtvolumen eines durchgeflossenen Fluids zu messen und anzuzeigen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "0AC702967243E684C1258A6F00520A79",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:46",
+      "user": "BATCH 00000762",
+      "unid": "b47349d7c719f854c125825e001dd349",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "deeb691fae19f7d7c1257cfb003f6768",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "b84a0442b48e4e49c1257cb3002a0c4d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA678",
+  "superclass_type_property": "0112/2///61987#ABA678",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "0AC702967243E684C1258A6F00520A79"
+  }
+}

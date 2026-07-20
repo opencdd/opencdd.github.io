@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF527",
+  "code": "AAF527",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2015-02-18 17:01:55",
+    "user": "BATCH 00000892",
+    "change_request_id": null,
+    "unid": "f08c2949a6a8e249c1257df0005810f6"
+  }
+}

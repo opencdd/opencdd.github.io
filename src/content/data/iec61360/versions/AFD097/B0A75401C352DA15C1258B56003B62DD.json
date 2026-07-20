@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AFD097",
+  "code": "AFD097",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "read cycle time",
+  "preferred_name_ml": {
+    "en": "read cycle time"
+  },
+  "short_name": "Read cycle time",
+  "short_name_ml": {
+    "en": "Read cycle time"
+  },
+  "definition": "minimum cycle of the read enable signal during a sequential data access",
+  "definition_ml": {
+    "en": "minimum cycle of the read enable signal during a sequential data access"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD097",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "read cycle time",
+    "MDC_P005.en": "Read cycle time",
+    "MDC_P006.en": "minimum cycle of the read enable signal during a sequential data access",
+    "MDC_P025_1": "t_RC",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA017",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 12:48:39",
+      "user": "BATCH 00001300",
+      "unid": "B0A75401C352DA15C1258B56003B62DD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "ab3691128ba46362c1257e8b00323b87",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "0195cbd8d8c41c40c1257e8a0043e9a2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-03-31 11:23:55",
+      "user": "BATCH 00000865",
+      "unid": "3c242e31c8e55cb5c1257cac0033a109",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "t_RC",
+  "definition_class_irdi": "0112/2///61360_4#AFA017",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MIN) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 12:48:39",
+    "user": "BATCH 00001300",
+    "change_request_id": null,
+    "unid": "B0A75401C352DA15C1258B56003B62DD"
+  }
+}

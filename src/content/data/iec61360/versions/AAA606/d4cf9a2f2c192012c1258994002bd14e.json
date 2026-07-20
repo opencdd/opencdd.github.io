@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61360_4#AAA606",
+  "code": "AAA606",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "gas-filled spark gap",
+  "preferred_name_ml": {
+    "en": "gas-filled spark gap"
+  },
+  "short_name": "GAS",
+  "short_name_ml": {
+    "en": "GAS"
+  },
+  "definition": "spark gap where the electrodes are separated by a gas other than air",
+  "definition_ml": {
+    "en": "spark gap where the electrodes are separated by a gas other than air"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA606",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "GAS",
+    "MDC_P004.en": "gas-filled spark gap",
+    "MDC_P006.en": "spark gap where the electrodes are separated by a gas other than air",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA595",
+    "MDC_P014": "{0112/2///61360_4#AAJ085,0112/2///61360_4#AAJ086}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "d4cf9a2f2c192012c1258994002bd14e",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 16:05:20",
+      "user": "BATCH 00000998",
+      "unid": "5db01c43a7562245c12580880052e2ea",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-12-13 15:54:03",
+      "user": "BATCH 00000997",
+      "unid": "2f0a1c456429d957c12580880051da9b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:23",
+      "user": "BATCH 00000879",
+      "unid": "f07c71c719347b98c1257d7300506b23",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAJ085",
+    "0112/2///61360_4#AAJ086"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA595",
+  "superclass_type_property": "0112/2///61360_4#AAA595",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "d4cf9a2f2c192012c1258994002bd14e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA714",
+  "code": "ABA714",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:49:56",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "9c554b25c63db4f7c12580d6004bfbcd"
+  }
+}

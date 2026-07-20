@@ -1,0 +1,153 @@
+{
+  "irdi": "0112/2///61987#ABA385",
+  "code": "ABA385",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "internal capacitance",
+  "preferred_name_ml": {
+    "en": "internal capacitance",
+    "fr": "capacité électrique interne",
+    "de": "innere Kapazität"
+  },
+  "definition": "resulting capacitance at the electrical input or output of a device",
+  "definition_ml": {
+    "en": "resulting capacitance at the electrical input or output of a device",
+    "fr": "capacité électrique produite à l'entrée ou la sortie électrique d'un appareil",
+    "de": "resultierende Kapazität am elektrischen Eingang oder Ausgang eines Geräts"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA385",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "internal capacitance",
+    "MDC_P006.en": "resulting capacitance at the electrical input or output of a device",
+    "MDC_P023": "µF",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA063",
+    "C0104": "0112/2///61987#ABT570",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "capacité électrique interne",
+    "MDC_P006.fr": "capacité électrique produite à l'entrée ou la sortie électrique d'un appareil",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2021-11-22",
+    "MDC_P004.de": "innere Kapazität",
+    "MDC_P006.de": "resultierende Kapazität am elektrischen Eingang oder Ausgang eines Geräts",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "956E3453B80FD6A7C1258940004C5760",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "65bb359b9ad313a0c125825e001de66a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:33",
+      "user": "BATCH 00000755",
+      "unid": "23790f5fd5ccc8f8c1258256003e94fe",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:16",
+      "user": "BATCH 00000732",
+      "unid": "3d97176cea49c89dc12580d6004c1b2d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:05",
+      "user": "BATCH 00000715",
+      "unid": "17265573820425b1c1257f7f004d012e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "3b155b8a2287fc92c1257fa700405918",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "df3263d850ac7ad7c1257cfb00403907",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "e16fb081b759913fc1257cb40054bac4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA063",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "956E3453B80FD6A7C1258940004C5760"
+  }
+}

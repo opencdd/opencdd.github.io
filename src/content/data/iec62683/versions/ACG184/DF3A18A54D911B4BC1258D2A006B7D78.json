@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///62683#ACG184",
+  "code": "ACG184",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Connection facilities",
+  "preferred_name_ml": {
+    "en": "Connection facilities",
+    "fr": "Eléments de raccordement",
+    "de": "Anschlussmöglichkeiten",
+    "zh": "连接件"
+  },
+  "definition": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the transfer switching equipment",
+  "definition_ml": {
+    "en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the transfer switching equipment",
+    "fr": "bornes, vis et autres pièces, utilisées pour le raccordement électrique aux conducteurs des circuits externes du matériel de connexion de transfert",
+    "de": "Anschlussklemmen, Schrauben oder andere Teile, die für den elektrischen Anschluss von Leitern externer Stromkreise des Netzumschalters verwendet werden",
+    "zh": "用于转换开关电器外部电路导体电气连接的端子、螺钉或其他零件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00175",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG184",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Connection facilities",
+    "MDC_P006.en": "terminals, screws or other parts, used for the electrical connection of conductors of external circuits of the transfer switching equipment",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-10-21",
+    "MDC_P003_1": "2013-10-20",
+    "MDC_P003_2": "2025-09-30",
+    "MDC_P003_3": "2025-09-30",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC068}",
+    "MDC_P090": "{0112/2///62683#ACE852,0112/2///62683#ACE854,0112/2///62683#ACE870}",
+    "MDC_P004.fr": "Eléments de raccordement",
+    "MDC_P006.fr": "bornes, vis et autres pièces, utilisées pour le raccordement électrique aux conducteurs des circuits externes du matériel de connexion de transfert",
+    "C019.fr": "IEC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2025-01-02",
+    "MDC_P004.de": "Anschlussmöglichkeiten",
+    "MDC_P006.de": "Anschlussklemmen, Schrauben oder andere Teile, die für den elektrischen Anschluss von Leitern externer Stromkreise des Netzumschalters verwendet werden",
+    "C019.de": "DKE, A Huhn",
+    "C017.de": "1",
+    "C018.de": "2025-10-10",
+    "MDC_P004.zh": "连接件",
+    "MDC_P006.zh": "用于转换开关电器外部电路导体电气连接的端子、螺钉或其他零件",
+    "C019.zh": "SAC, Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-12",
+    "C002": "C00175"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-10-21 21:34:04",
+      "user": "BATCH 00000844",
+      "unid": "DF3A18A54D911B4BC1258D2A006B7D78",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:06",
+      "user": "BATCH 00000811",
+      "unid": "440dc196c9783281c1258b9d00731749",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "32b6b6a2a25f6f44c1258034002e3600",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:47",
+      "user": "BATCH 00000703",
+      "unid": "47e5a2ca82206c66c1258030004502d6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-10-20",
+    "current_version": "2025-09-30",
+    "current_revision": "2025-09-30"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC068"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE852",
+    "0112/2///62683#ACE854",
+    "0112/2///62683#ACE870"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-10-21 21:34:04",
+    "user": "BATCH 00000844",
+    "change_request_id": null,
+    "unid": "DF3A18A54D911B4BC1258D2A006B7D78"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "irdi": "0112/2///61987#ABU542",
+  "code": "ABU542",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "reference to Pneumatic/hydraulic output",
+  "preferred_name_ml": {
+    "en": "reference to Pneumatic/hydraulic output"
+  },
+  "definition": "reference to block ABD979",
+  "definition_ml": {
+    "en": "reference to block ABD979"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "SC65E",
+  "change_request_id": "C00016",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU542",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference to Pneumatic/hydraulic output",
+    "MDC_P006.en": "reference to block ABD979",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD979)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E",
+    "MDC_P028": "{0112/2///61987#ABU574}",
+    "C002": "C00016"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:21",
+      "user": "BATCH 00000762",
+      "unid": "065A2CA3755BB4C8C125825E001DF850",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:48",
+      "user": "BATCH 00000732",
+      "unid": "da0cc9fdabd61d5bc12580d6004c279f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:08",
+      "user": "BATCH 00000716",
+      "unid": "ee51411f6738852ec1257fa7003a3daf",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:57",
+      "user": "BATCH 00000702",
+      "unid": "90b74c4e2d0a035fc1257cfb0040442b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:56",
+      "user": "BATCH 00000699",
+      "unid": "eab43a49daed335dc1257cb40054c5e8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD979)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABU574}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABD979)",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:21",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "065A2CA3755BB4C8C125825E001DF850"
+  }
+}

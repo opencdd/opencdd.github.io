@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ACB025",
+  "code": "ACB025",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:38",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "514fe8cf127636eac1257e8b00323ad6"
+  }
+}

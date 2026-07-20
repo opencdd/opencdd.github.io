@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABD685",
+  "code": "ABD685",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "piping geometry factor Fp",
+  "preferred_name_ml": {
+    "en": "piping geometry factor Fp",
+    "de": "Rohrleitungsgeometriefaktor Fp"
+  },
+  "definition": "ratio of the flow rate through a control valve installed with attached fittings to the flow rate that would result if the control valve was installed without attached fittings and tested under identical conditions which will not produce choked flow in either installation",
+  "definition_ml": {
+    "en": "ratio of the flow rate through a control valve installed with attached fittings to the flow rate that would result if the control valve was installed without attached fittings and tested under identical conditions which will not produce choked flow in either installation",
+    "de": "Verhältnis des Durchflusswertes eines Stellventils mit Anpassungsstücken zu dem Durchflusswert, der sich ergeben würde, wenn das Stellventil ohne Anpassungsstücke unter identischen Bedingungen – bei denen in keiner der beiden Anbauarten Durchflussbegrenzung auftritt – geprüft wurde"
+  },
+  "source_document": "IEC 60534-2-1",
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD685",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "piping geometry factor Fp",
+    "MDC_P006.en": "ratio of the flow rate through a control valve installed with attached fittings to the flow rate that would result if the control valve was installed without attached fittings and tested under identical conditions which will not produce choked flow in either installation",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60534-2-1",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P004.de": "Rohrleitungsgeometriefaktor Fp",
+    "MDC_P006.de": "Verhältnis des Durchflusswertes eines Stellventils mit Anpassungsstücken zu dem Durchflusswert, der sich ergeben würde, wenn das Stellventil ohne Anpassungsstücke unter identischen Bedingungen – bei denen in keiner der beiden Anbauarten Durchflussbegrenzung auftritt – geprüft wurde",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "09E86DE66414FA7EC125825E001DEEEB",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:38",
+      "user": "BATCH 00000732",
+      "unid": "3299528ea5496b79c12580d6004c239b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:50",
+      "user": "BATCH 00000702",
+      "unid": "f1a7dec2dc3602cdc1257cfb00404171",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:49",
+      "user": "BATCH 00000699",
+      "unid": "7634e2727d6e1e41c1257cb40054c32e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "09E86DE66414FA7EC125825E001DEEEB"
+  }
+}

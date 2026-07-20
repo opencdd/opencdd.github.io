@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABU267",
+  "code": "ABU267",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "ultrasonic flowmeter type",
+  "preferred_name_ml": {
+    "en": "ultrasonic flowmeter type",
+    "fr": "type de débitmètre à ultrasons",
+    "de": "Ultraschalldurchflussmessgerättyp"
+  },
+  "definition": "polymorphism property classifying a sensor assembly of an ultrasonic flowmeter according to its method of mounting",
+  "definition_ml": {
+    "en": "polymorphism property classifying a sensor assembly of an ultrasonic flowmeter according to its method of mounting",
+    "fr": "propriété de contrôle polymorphe classant un ensemble de capteurs d'un débitmètre à ultrasons en fonction de sa méthode de montage",
+    "de": "Polymorphismus-Merkmal, das eine Sensoranordnung eines Ultraschalldurchflusstransmitters bezüglich seiner Montagemethode charakterisiert"
+  },
+  "synonyms": [],
+  "remark": "polymorphic control property; Id specified in IEC61987-12/-13: ABB129",
+  "remark_ml": {
+    "en": "polymorphic control property; Id specified in IEC61987-12/-13: ABB129"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABU267",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "ultrasonic flowmeter type",
+    "MDC_P006.en": "polymorphism property classifying a sensor assembly of an ultrasonic flowmeter according to its method of mounting",
+    "MDC_P009.en": "polymorphic control property; Id specified in IEC61987-12/-13: ABB129",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABU102(Inline ultrasonic flowmeter,Insertion ultrasonic flowmeter,Clamp-on ultrasonic flowmeter))",
+    "MDC_P068": "0112/2///61987#ABU102",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "type de débitmètre à ultrasons",
+    "MDC_P006.fr": "propriété de contrôle polymorphe classant un ensemble de capteurs d'un débitmètre à ultrasons en fonction de sa méthode de montage",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Ultraschalldurchflussmessgerättyp",
+    "MDC_P006.de": "Polymorphismus-Merkmal, das eine Sensoranordnung eines Ultraschalldurchflusstransmitters bezüglich seiner Montagemethode charakterisiert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "93596862D7D4623BC125891300304863",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:18",
+      "user": "BATCH 00000762",
+      "unid": "2bbdf99988f79cf0c125825e001df76e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:54",
+      "user": "BATCH 00000699",
+      "unid": "57ef22a5fac3e20cc1257cb40054c506",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-12-09"
+  },
+  "constraint": "0112/2///61987#ABU102",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU102(Inline ultrasonic flowmeter,Insertion ultrasonic flowmeter,Clamp-on ultrasonic flowmeter))",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABU102(Inline ultrasonic flowmeter,Insertion ultrasonic flowmeter,Clamp-on ultrasonic flowmeter))",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "93596862D7D4623BC125891300304863"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABU556",
+  "code": "ABU556",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2014-06-18 13:34:44",
+    "user": "BATCH 00000701",
+    "change_request_id": null,
+    "unid": "b477dfd1f09b76bcc1257cfb003f9b12"
+  }
+}

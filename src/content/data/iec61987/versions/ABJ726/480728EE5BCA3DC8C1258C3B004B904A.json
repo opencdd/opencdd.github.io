@@ -1,0 +1,93 @@
+{
+  "irdi": "0112/2///61987#ABJ726",
+  "code": "ABJ726",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Measurement variables",
+  "preferred_name_ml": {
+    "en": "Measurement variables",
+    "de": "Messgrößen"
+  },
+  "definition": "list of properties for dynamic data characterizing data which are the result of a measurement",
+  "definition_ml": {
+    "en": "list of properties for dynamic data characterizing data which are the result of a measurement",
+    "de": "Merkmalleiste für dynamische Daten, die Daten, die das Ergebnis einer Messung sind, kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABJ726",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Measurement variables",
+    "MDC_P006.en": "list of properties for dynamic data characterizing data which are the result of a measurement",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABN740,0112/2///61987#ABN754}",
+    "MDC_P004.de": "Messgrößen",
+    "MDC_P006.de": "Merkmalleiste für dynamische Daten, die Daten, die das Ergebnis einer Messung sind, kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2023-03-20",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:45:21",
+      "user": "BATCH 00000835",
+      "unid": "480728EE5BCA3DC8C1258C3B004B904A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:11",
+      "user": "BATCH 00000778",
+      "unid": "510523c6f864ddafc1258518003fd496",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABN740",
+    "0112/2///61987#ABN754"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:45:21",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "480728EE5BCA3DC8C1258C3B004B904A"
+  }
+}

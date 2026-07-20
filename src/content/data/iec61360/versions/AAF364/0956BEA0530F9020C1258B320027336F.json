@@ -1,0 +1,136 @@
+{
+  "irdi": "0112/2///61360_4#AAF364",
+  "code": "AAF364",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "probability distribution",
+  "preferred_name_ml": {
+    "en": "probability distribution"
+  },
+  "short_name": "prob distr",
+  "short_name_ml": {
+    "en": "prob distr"
+  },
+  "definition": "function giving the probability that a random variable takes any given value or belongs to a given set of values",
+  "definition_ml": {
+    "en": "function giving the probability that a random variable takes any given value or belongs to a given set of values"
+  },
+  "synonyms": [],
+  "note": "probability on the whole set of values of the random variable equals 1.",
+  "note_ml": {
+    "en": "probability on the whole set of values of the random variable equals 1."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF364",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "probability distribution",
+    "MDC_P005.en": "prob distr",
+    "MDC_P006.en": "function giving the probability that a random variable takes any given value or belongs to a given set of values",
+    "MDC_P008.en": "probability on the whole set of values of the random variable equals 1.",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61360_4#ASA222)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-06-04",
+    "MDC_P003_2": "2024-06-04",
+    "MDC_P003_3": "2024-06-04",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-06-04 09:08:10",
+      "user": "BATCH 00001293",
+      "unid": "0956BEA0530F9020C1258B320027336F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-18 14:50:28",
+      "user": "BATCH 00000956",
+      "unid": "74fd1adabd47d49ac1257f7a004c085b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:39",
+      "user": "BATCH 00000917",
+      "unid": "fcdb747b0e3107d1c1257ea4004b2236",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:32",
+      "user": "BATCH 00000907",
+      "unid": "9e1a24db504f417bc1257e8b0032387e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:38",
+      "user": "BATCH 00000904",
+      "unid": "d9500217668a4b4fc1257e8a0043e659",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "99ce9f81149e3086c1257a0e0047be8d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "6255e326d6d09545c1257a0e0046dc0d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-06-04",
+    "current_revision": "2024-06-04"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61360_4#ASA222)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61360_4#ASA222)",
+  "value_list": "0112/2///61360_4#ASA222",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-06-04 09:08:10",
+    "user": "BATCH 00001293",
+    "change_request_id": null,
+    "unid": "0956BEA0530F9020C1258B320027336F"
+  }
+}

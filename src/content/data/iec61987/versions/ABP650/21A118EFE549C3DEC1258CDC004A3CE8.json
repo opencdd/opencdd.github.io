@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61987#ABP650",
+  "code": "ABP650",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "classification identifier of component/measurand",
+  "preferred_name_ml": {
+    "en": "classification identifier of component/measurand",
+    "de": "Identifikationscode der Komponente/Messgröße"
+  },
+  "short_name": "Class ID",
+  "short_name_ml": {
+    "en": "Class ID",
+    "de": "Komponenten-ID"
+  },
+  "definition": "alphanumeric character sequence uniquely denoting a chemical substance/mixture or measurand within a given classification system",
+  "definition_ml": {
+    "en": "alphanumeric character sequence uniquely denoting a chemical substance/mixture or measurand within a given classification system",
+    "de": "alphanumerische Zeichenfolge zur eindeutigen Bezeichnung eines chemischen Stoffes/Gemisches oder einer Messgröße innerhalb eines vorgegebenen Klassifikationssystems"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABP650",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "classification identifier of component/measurand",
+    "MDC_P005.en": "Class ID",
+    "MDC_P006.en": "alphanumeric character sequence uniquely denoting a chemical substance/mixture or measurand within a given classification system",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABP717)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2023-03-06",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Identifikationscode der Komponente/Messgröße",
+    "MDC_P005.de": "Komponenten-ID",
+    "MDC_P006.de": "alphanumerische Zeichenfolge zur eindeutigen Bezeichnung eines chemischen Stoffes/Gemisches oder einer Messgröße innerhalb eines vorgegebenen Klassifikationssystems",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-03-06",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:52",
+      "user": "BATCH 00000849",
+      "unid": "21A118EFE549C3DEC1258CDC004A3CE8",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:43:04",
+      "user": "BATCH 00000835",
+      "unid": "9c4d0b2e967217ccc1258c3b004b5ad2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-03-06",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP717)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABP717)",
+  "value_list": "0112/2///61987#ABP717",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:52",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "21A118EFE549C3DEC1258CDC004A3CE8"
+  }
+}

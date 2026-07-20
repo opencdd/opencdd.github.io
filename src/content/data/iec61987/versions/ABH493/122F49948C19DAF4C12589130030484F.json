@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61987#ABH493",
+  "code": "ABH493",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "number of measuring or control points",
+  "preferred_name_ml": {
+    "en": "number of measuring or control points",
+    "de": "Anzahl der Mess- oder Stellpunkte"
+  },
+  "definition": "cardinality property for a measuring or control point",
+  "definition_ml": {
+    "en": "cardinality property for a measuring or control point",
+    "de": "Kardinalitätsmerkmal für Mess- oder Stellpunkt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH493",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of measuring or control points",
+    "MDC_P006.en": "cardinality property for a measuring or control point",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Anzahl der Mess- oder Stellpunkte",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Mess- oder Stellpunkt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-07-23",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:22",
+      "user": "BATCH 00000803",
+      "unid": "122F49948C19DAF4C12589130030484F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "a29626bcc3b9d464c12583b70050270e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:16",
+      "user": "BATCH 00000762",
+      "unid": "9bf87b973ff35459c125825e001df668",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:22",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "122F49948C19DAF4C12589130030484F"
+  }
+}

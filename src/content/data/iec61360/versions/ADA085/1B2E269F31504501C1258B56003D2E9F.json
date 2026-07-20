@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#ADA085",
+  "code": "ADA085",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "load loss proportional to I²",
+  "preferred_name_ml": {
+    "en": "load loss proportional to I²",
+    "de": "lastabhängiger Verlust proportional zu I²"
+  },
+  "definition": "power loss of a component with losses proportional to I² during the state under load at maximum possible continuous rms current (=  rated current) and  measured at rated ambient temperature and at rated frequency",
+  "definition_ml": {
+    "en": "power loss of a component with losses proportional to I² during the state under load at maximum possible continuous rms current (=  rated current) and  measured at rated ambient temperature and at rated frequency"
+  },
+  "synonyms": [],
+  "note": "1 The power loss includes the losses of all current carrying paths of the component\r\n2 The power loss curve under variable load can be expressed by the formula P= bI² with b as constant. \r\n3 The total load loss curve  including  no-load loss (constant a) and the variable load loss can be expressed by the formula P=a+bI² .",
+  "note_ml": {
+    "en": "1 The power loss includes the losses of all current carrying paths of the component\r\n2 The power loss curve under variable load can be expressed by the formula P= bI² with b as constant. \r\n3 The total load loss curve  including  no-load loss (constant a) and the variable load loss can be expressed by the formula P=a+bI² ."
+  },
+  "remark": "intermediate power loss at different load currents can be mathematically derived.",
+  "remark_ml": {
+    "en": "intermediate power loss at different load currents can be mathematically derived."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA085",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "load loss proportional to I²",
+    "MDC_P006.en": "power loss of a component with losses proportional to I² during the state under load at maximum possible continuous rms current (=  rated current) and  measured at rated ambient temperature and at rated frequency",
+    "MDC_P008.en": "1 The power loss includes the losses of all current carrying paths of the component\r\n2 The power loss curve under variable load can be expressed by the formula P= bI² with b as constant. \r\n3 The total load loss curve  including  no-load loss (constant a) and the variable load loss can be expressed by the formula P=a+bI² .",
+    "MDC_P009.en": "intermediate power loss at different load currents can be mathematically derived.",
+    "MDC_P023": "W",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P027_1": "P = a + bi²",
+    "MDC_P040": "E49",
+    "MDC_P021": "0112/2///61360_4#ADA083",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE945,0112/2///61360_4#AAE933,0112/2///61360_4#AAE029}",
+    "MDC_P004.de": "lastabhängiger Verlust proportional zu I²",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 13:08:16",
+      "user": "BATCH 00001302",
+      "unid": "1B2E269F31504501C1258B56003D2E9F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-11-28 07:54:30",
+      "user": "BATCH 00001137",
+      "unid": "bdf2c6cf616ab340c12584c00025f32d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-12-21 12:45:19",
+      "user": "BATCH 00001033",
+      "unid": "05908ea9775d1884c12581fd00409316",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#ADA083",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE945,0112/2///61360_4#AAE933,0112/2///61360_4#AAE029}",
+  "formula": "P = a + bi²",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 13:08:16",
+    "user": "BATCH 00001302",
+    "change_request_id": null,
+    "unid": "1B2E269F31504501C1258B56003D2E9F"
+  }
+}

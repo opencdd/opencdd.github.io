@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABB931",
+  "code": "ABB931",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "reference standard for pneumatic/hydraulic output",
+  "preferred_name_ml": {
+    "en": "reference standard for pneumatic/hydraulic output",
+    "fr": "norme de référence pour sortie pneumatique/hydraulique",
+    "de": "Referenznorm für pneumatischen/hydraulischen Ausgang"
+  },
+  "definition": "standard in which the pneumatic or hydraulic signals are rated",
+  "definition_ml": {
+    "en": "standard in which the pneumatic or hydraulic signals are rated",
+    "fr": "norme dans laquelle les signaux pneumatiques ou hydrauliques sont assignés",
+    "de": "Norm, in der pneumatische oder hydraulische Signale standardisiert sind"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB931",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "reference standard for pneumatic/hydraulic output",
+    "MDC_P006.en": "standard in which the pneumatic or hydraulic signals are rated",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "norme de référence pour sortie pneumatique/hydraulique",
+    "MDC_P006.fr": "norme dans laquelle les signaux pneumatiques ou hydrauliques sont assignés",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Referenznorm für pneumatischen/hydraulischen Ausgang",
+    "MDC_P006.de": "Norm, in der pneumatische oder hydraulische Signale standardisiert sind",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:56",
+      "user": "BATCH 00000818",
+      "unid": "B888FC9D0C8E93D7C1258A7D0039DAF6",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "c58fa79bd3ddf806c125825e001deb7c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:41",
+      "user": "BATCH 00000755",
+      "unid": "d7c0791e47223058c1258256003e97d9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:29",
+      "user": "BATCH 00000732",
+      "unid": "2866ed6dbdb726d2c12580d6004c202a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "7ef7bbf4a1de6f55c1257cb40054bfc1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:56",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "B888FC9D0C8E93D7C1258A7D0039DAF6"
+  }
+}

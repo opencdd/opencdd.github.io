@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC156",
+  "code": "ABC156",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-05-02 12:35:49",
+    "user": "BATCH 00000716",
+    "change_request_id": null,
+    "unid": "7051d3807774a877c1257fa7003a363f"
+  }
+}

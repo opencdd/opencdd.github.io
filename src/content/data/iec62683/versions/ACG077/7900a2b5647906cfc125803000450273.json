@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACG077",
+  "code": "ACG077",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:33:46",
+    "user": "BATCH 00000703",
+    "change_request_id": null,
+    "unid": "7900a2b5647906cfc125803000450273"
+  }
+}

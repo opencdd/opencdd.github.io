@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD102",
+  "code": "ABD102",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-20 12:44:17",
+    "user": "BATCH 00000756",
+    "change_request_id": null,
+    "unid": "ae20337f9a7f7b8cc125825600407ac3"
+  }
+}

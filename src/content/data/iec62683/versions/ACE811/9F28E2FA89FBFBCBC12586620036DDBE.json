@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACE811",
+  "code": "ACE811",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "mounting position of the sensor",
+  "preferred_name_ml": {
+    "en": "mounting position of the sensor",
+    "fr": "position de montage du capteur",
+    "de": "Montageposition des Sensors",
+    "zh": "传感器安装位置"
+  },
+  "definition": "condition of mounting position of the sensor related to its sensing side",
+  "definition_ml": {
+    "en": "condition of mounting position of the sensor related to its sensing side",
+    "fr": "condition de montage du capteur par rapport à sa face de détection",
+    "de": "Bedingung der Montageposition des Sensors in Bezug auf die Abtastseite des Sensors.",
+    "zh": "传感器感应面一侧的安装位置条件"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00087",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE811",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "mounting position of the sensor",
+    "MDC_P006.en": "condition of mounting position of the sensor related to its sensing side",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///62683#ACI081)",
+    "MDC_P024": "X..32",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC066",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2021-01-19",
+    "MDC_P003_1": "2013-01-31",
+    "MDC_P003_2": "2021-01-19",
+    "MDC_P003_3": "2021-01-19",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "position de montage du capteur",
+    "MDC_P006.fr": "condition de montage du capteur par rapport à sa face de détection",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2012-09-27",
+    "MDC_P004.de": "Montageposition des Sensors",
+    "MDC_P006.de": "Bedingung der Montageposition des Sensors in Bezug auf die Abtastseite des Sensors.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "传感器安装位置",
+    "MDC_P006.zh": "传感器感应面一侧的安装位置条件",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00087"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2021-01-19 10:59:17",
+      "user": "BATCH 00000779",
+      "unid": "9F28E2FA89FBFBCBC12586620036DDBE",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-11 20:58:49",
+      "user": "BATCH 00000741",
+      "unid": "14e8d10643150909c12584ec006dc187",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:29",
+      "user": "BATCH 00000704",
+      "unid": "1430fd990f89d212c125803000457118",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-01-31",
+    "current_version": "2021-01-19",
+    "current_revision": "2021-01-19"
+  },
+  "value_format": "X..32",
+  "definition_class_irdi": "0112/2///62683#ACC066",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///62683#ACI081)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///62683#ACI081)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2021-01-19 10:59:17",
+    "user": "BATCH 00000779",
+    "change_request_id": null,
+    "unid": "9F28E2FA89FBFBCBC12586620036DDBE"
+  }
+}

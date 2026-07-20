@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABB804",
+  "code": "ABB804",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "non-conformity (terminal-based)",
+  "preferred_name_ml": {
+    "en": "non-conformity (terminal-based)",
+    "fr": "non-conformité (système de bornes)",
+    "de": "Nichtübereinstimmung bei Grenzpunkteinstellung"
+  },
+  "definition": "non-conformity determined by drawing a straight line so that it coincides, with the average calibration curve at the upper range value and at the lower range value",
+  "definition_ml": {
+    "en": "non-conformity determined by drawing a straight line so that it coincides, with the average calibration curve at the upper range value and at the lower range value",
+    "fr": "non-conformité déterminée en traçant une droite coïncidant avec la courbe d'étalonnage moyenne à la valeur supérieure de l'échelle et à la valeur inférieure de l'échelle",
+    "de": "Nichtübereinstimmung, die ermittelt wird, indem eine Gerade so eingezeichnet wird, dass sie die mittlere Kalibrierkurve im Endwert und im Anfangswert schneidet"
+  },
+  "source_document": "IEC 61298-2 MOD",
+  "synonyms": [],
+  "note": "The term non-conformity (terminal based non-conformity, independent non-conformity, and, zero based non-conformity) should be used for devices which have a non-linear input-output, relationship (e.g., logarithmic, square root, etc.). The non-conformity is determined and presented using the same procedures as for nonlinearity.",
+  "note_ml": {
+    "en": "The term non-conformity (terminal based non-conformity, independent non-conformity, and, zero based non-conformity) should be used for devices which have a non-linear input-output, relationship (e.g., logarithmic, square root, etc.). The non-conformity is determined and presented using the same procedures as for nonlinearity.",
+    "de": "Bei Geräten mit nichtlinearer Eingangs-Ausgangs-Beziehung (z. B. mit einer logarithmischen Beziehung, einer Quadratwurzelbeziehung usw.) sollte der Begriff „Nichtübereinstimmung“ (Nichtübereinstimmung bei Grenzpunkteinstellung, Nichtübereinstimmung bei Kleinstwerteinstellung und Nichtübereinstimmung bei Anfangspunkteinstellung) angewendet werden."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB804",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "non-conformity (terminal-based)",
+    "MDC_P006.en": "non-conformity determined by drawing a straight line so that it coincides, with the average calibration curve at the upper range value and at the lower range value",
+    "MDC_P008.en": "The term non-conformity (terminal based non-conformity, independent non-conformity, and, zero based non-conformity) should be used for devices which have a non-linear input-output, relationship (e.g., logarithmic, square root, etc.). The non-conformity is determined and presented using the same procedures as for nonlinearity.",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 61298-2 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "non-conformité (système de bornes)",
+    "MDC_P006.fr": "non-conformité déterminée en traçant une droite coïncidant avec la courbe d'étalonnage moyenne à la valeur supérieure de l'échelle et à la valeur inférieure de l'échelle",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Nichtübereinstimmung bei Grenzpunkteinstellung",
+    "MDC_P006.de": "Nichtübereinstimmung, die ermittelt wird, indem eine Gerade so eingezeichnet wird, dass sie die mittlere Kalibrierkurve im Endwert und im Anfangswert schneidet",
+    "MDC_P008.de": "Bei Geräten mit nichtlinearer Eingangs-Ausgangs-Beziehung (z. B. mit einer logarithmischen Beziehung, einer Quadratwurzelbeziehung usw.) sollte der Begriff „Nichtübereinstimmung“ (Nichtübereinstimmung bei Grenzpunkteinstellung, Nichtübereinstimmung bei Kleinstwerteinstellung und Nichtübereinstimmung bei Anfangspunkteinstellung) angewendet werden.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:47",
+      "user": "BATCH 00000762",
+      "unid": "4965B398A9E40590C125825E001DEAFD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:56",
+      "user": "BATCH 00000717",
+      "unid": "1e6a4b80c59e7e1dc1257fa700405b0c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:40",
+      "user": "BATCH 00000702",
+      "unid": "eb0bebea8d2321f2c1257cfb00403d85",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:39",
+      "user": "BATCH 00000699",
+      "unid": "d04388c889827875c1257cb40054bf42",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:47",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "4965B398A9E40590C125825E001DEAFD"
+  }
+}

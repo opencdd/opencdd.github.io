@@ -1,0 +1,92 @@
+{
+  "irdi": "0112/2///61360_4#AFD127",
+  "code": "AFD127",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "input voltage limit",
+  "preferred_name_ml": {
+    "en": "input voltage limit"
+  },
+  "short_name": "V_IN-lim",
+  "short_name_ml": {
+    "en": "V_IN-lim"
+  },
+  "definition": "permissible DC voltage that may be applied to the input pins of an integrated circuit",
+  "definition_ml": {
+    "en": "permissible DC voltage that may be applied to the input pins of an integrated circuit"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00050",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD127",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "input voltage limit",
+    "MDC_P005.en": "V_IN-lim",
+    "MDC_P006.en": "permissible DC voltage that may be applied to the input pins of an integrated circuit",
+    "MDC_P025_1": "V_IN-lim",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AFA020",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-10-02",
+    "MDC_P003_2": "2015-12-21",
+    "MDC_P003_3": "2015-12-21",
+    "C002": "C00050"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2015-10-02 14:09:29",
+      "user": "BATCH 00000920",
+      "unid": "18FC66EEEC031A43C1257ED20042C96A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "8b573b19d3add1e7c1257ea4004b259a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "51ce038f03271fffc1257e8a0043e9bd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-12-21",
+    "current_revision": "2015-12-21"
+  },
+  "symbol_in_text": "V_IN-lim",
+  "definition_class_irdi": "0112/2///61360_4#AFA020",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2015-10-02 14:09:29",
+    "user": "BATCH 00000920",
+    "change_request_id": null,
+    "unid": "18FC66EEEC031A43C1257ED20042C96A"
+  }
+}

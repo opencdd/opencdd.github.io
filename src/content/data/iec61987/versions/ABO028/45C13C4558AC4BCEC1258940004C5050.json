@@ -1,0 +1,94 @@
+{
+  "irdi": "0112/2///61987#ABO028",
+  "code": "ABO028",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "I/O module",
+  "preferred_name_ml": {
+    "en": "I/O module",
+    "de": "I/O-Modul"
+  },
+  "definition": "infrastructure device that facilitates the connection of signals between a controlling device and the primary elements/final control elements within its domain",
+  "definition_ml": {
+    "en": "infrastructure device that facilitates the connection of signals between a controlling device and the primary elements/final control elements within its domain",
+    "de": "Infrastrukturgerät, das die Verbindung von Signalen zwischen einer Steuerung und den Messaufnehmern (Sensoren)/Aktoren innerhalb seines Bereichs bereitstellt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987-31",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABO028",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "I/O module",
+    "MDC_P006.en": "infrastructure device that facilitates the connection of signals between a controlling device and the primary elements/final control elements within its domain",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987-31",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2022-10-26",
+    "MDC_P003_2": "2023-01-23",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABN977",
+    "MDC_P014": "{0112/2///61987#ABP230}",
+    "MDC_P004.de": "I/O-Modul",
+    "MDC_P006.de": "Infrastrukturgerät, das die Verbindung von Signalen zwischen einer Steuerung und den Messaufnehmern (Sensoren)/Aktoren innerhalb seines Bereichs bereitstellt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2022-07-25",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:32",
+      "user": "BATCH 00000807",
+      "unid": "45C13C4558AC4BCEC1258940004C5050",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-10-26 07:15:16",
+      "user": "BATCH 00000802",
+      "unid": "129e3deb00e4cc4ec12588e7001cdd5e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2022-10-26",
+    "current_version": "2023-01-23",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABP230"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABN977",
+  "superclass_type_property": "0112/2///61987#ABN977",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:32",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "45C13C4558AC4BCEC1258940004C5050"
+  }
+}

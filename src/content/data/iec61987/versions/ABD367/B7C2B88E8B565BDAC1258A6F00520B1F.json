@@ -1,0 +1,96 @@
+{
+  "irdi": "0112/2///61987#ABD367",
+  "code": "ABD367",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Positioner",
+  "preferred_name_ml": {
+    "en": "Positioner",
+    "de": "Stellungsregler"
+  },
+  "definition": "actuator/valve accessory that is mechanically connected to a moving part of a final control element or its actuator and automatically adjusts its output to the actuator in order to maintain a desired position of the closure member in proportion to the input signal",
+  "definition_ml": {
+    "en": "actuator/valve accessory that is mechanically connected to a moving part of a final control element or its actuator and automatically adjusts its output to the actuator in order to maintain a desired position of the closure member in proportion to the input signal",
+    "de": "Zubehör für Ventile/Antriebe, das mechanisch an ein bewegliches Teil eines Stellgeräts oder seines Antriebs befestigt ist und automatisch seinen Ausgang zum Antrieb anpasst, um eine gewünschte Stellung des Drosselkörpers entsprechend zum Eingangsignal zu halten"
+  },
+  "source_document": "ANSI/ISA-75.05.01-2000|3.122",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD367",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Positioner",
+    "MDC_P006.en": "actuator/valve accessory that is mechanically connected to a moving part of a final control element or its actuator and automatically adjusts its output to the actuator in order to maintain a desired position of the closure member in proportion to the input signal",
+    "MDC_P006_1": "ANSI/ISA-75.05.01-2000|3.122",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2016-05-02",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABD366",
+    "MDC_P014": "{0112/2///61987#ABU528}",
+    "MDC_P004.de": "Stellungsregler",
+    "MDC_P006.de": "Zubehör für Ventile/Antriebe, das mechanisch an ein bewegliches Teil eines Stellgeräts oder seines Antriebs befestigt ist und automatisch seinen Ausgang zum Antrieb anpasst, um eine gewünschte Stellung des Drosselkörpers entsprechend zum Eingangsignal zu halten",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "B7C2B88E8B565BDAC1258A6F00520B1F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:59",
+      "user": "BATCH 00000762",
+      "unid": "0a39bd984a6156a8c125825e001dd870",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2016-05-02",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABU528"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABD366",
+  "superclass_type_property": "0112/2///61987#ABD366",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "B7C2B88E8B565BDAC1258A6F00520B1F"
+  }
+}

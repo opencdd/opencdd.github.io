@@ -1,0 +1,131 @@
+{
+  "irdi": "0112/2///61987#ABB452",
+  "code": "ABB452",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "remarks on battery life",
+  "preferred_name_ml": {
+    "en": "remarks on battery life",
+    "fr": "remarques sur la durée de vie de la batterie",
+    "de": "Bemerkungen zur Betriebsdauer der Batterie/des Akkumulators"
+  },
+  "definition": "plain text elaborating the statement on battery life",
+  "definition_ml": {
+    "en": "plain text elaborating the statement on battery life",
+    "fr": "texte en clair élaborant l'énoncé sur la durée de vie de la batterie",
+    "de": "einfacher Text, der die Aussage zur Betriebsdauer der Batterie darlegt"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB452",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "remarks on battery life",
+    "MDC_P006.en": "plain text elaborating the statement on battery life",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "remarques sur la durée de vie de la batterie",
+    "MDC_P006.fr": "texte en clair élaborant l'énoncé sur la durée de vie de la batterie",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Bemerkungen zur Betriebsdauer der Batterie/des Akkumulators",
+    "MDC_P006.de": "einfacher Text, der die Aussage zur Betriebsdauer der Batterie darlegt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:55",
+      "user": "BATCH 00000818",
+      "unid": "C5192A61C94A81B2C1258A7D0039DAC2",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:43",
+      "user": "BATCH 00000762",
+      "unid": "f6d44cdbd05f4a33c125825e001de9a4",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:33",
+      "user": "BATCH 00000755",
+      "unid": "26c9b8b7b2e65df4c1258256003e94e7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:24",
+      "user": "BATCH 00000732",
+      "unid": "c72fef848a90a29dc12580d6004c1e52",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:37",
+      "user": "BATCH 00000702",
+      "unid": "9b3c491b7ab6dbb7c1257cfb00403c2c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:36",
+      "user": "BATCH 00000699",
+      "unid": "7dee5250739fb4f1c1257cb40054bde9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:55",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "C5192A61C94A81B2C1258A7D0039DAC2"
+  }
+}

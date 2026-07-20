@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#AAA056",
+  "code": "AAA056",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "filter",
+  "preferred_name_ml": {
+    "en": "filter"
+  },
+  "short_name": "FIL",
+  "short_name_ml": {
+    "en": "FIL"
+  },
+  "definition": "linear two-port device designed to transmit spectral components of signals according to a specified law, generally in order to pass the components in certain frequency bands and to attenuate those in other bands",
+  "definition_ml": {
+    "en": "linear two-port device designed to transmit spectral components of signals according to a specified law, generally in order to pass the components in certain frequency bands and to attenuate those in other bands"
+  },
+  "source_document": "IEV 702-09-17:1992",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA056",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "FIL",
+    "MDC_P004.en": "filter",
+    "MDC_P006.en": "linear two-port device designed to transmit spectral components of signals according to a specified law, generally in order to pass the components in certain frequency bands and to attenuate those in other bands",
+    "MDC_P006_1": "IEV 702-09-17:1992",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA002",
+    "MDC_P014": "{0112/2///61360_4#AAE527,0112/2///61360_4#AAE533,0112/2///61360_4#AAE534,0112/2///61360_4#AAE543,0112/2///61360_4#AAE888,0112/2///61360_4#AAF044,0112/2///61360_4#AAF119,0112/2///61360_4#AAF120,0112/2///61360_4#AAF121,0112/2///61360_4#AAJ059}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "BC38A19E2E334846C1258994002BCFD4",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "82fb96b76f920903c1257dd300515f3c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "d272f9ea714e7c08c1257d7300506963",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "24c0067c18739757c1257a0e0047b223",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-08-31",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE527",
+    "0112/2///61360_4#AAE533",
+    "0112/2///61360_4#AAE534",
+    "0112/2///61360_4#AAE543",
+    "0112/2///61360_4#AAE888",
+    "0112/2///61360_4#AAF044",
+    "0112/2///61360_4#AAF119",
+    "0112/2///61360_4#AAF120",
+    "0112/2///61360_4#AAF121",
+    "0112/2///61360_4#AAJ059"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA002",
+  "superclass_type_property": "0112/2///61360_4#AAA002",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "BC38A19E2E334846C1258994002BCFD4"
+  }
+}

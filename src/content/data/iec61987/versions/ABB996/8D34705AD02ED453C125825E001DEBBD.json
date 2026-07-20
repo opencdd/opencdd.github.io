@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61987#ABB996",
+  "code": "ABB996",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "zero elevation/suppression",
+  "preferred_name_ml": {
+    "en": "zero elevation/suppression",
+    "fr": "élévation/surpression zéro",
+    "de": "Nullpunktverschiebung/Nullpunktunterdrückung"
+  },
+  "definition": "for an elevated or suppressed-zero range, amount by which the measured variable is above (zero point elevation) or below (zero point suppression) the lower range value",
+  "definition_ml": {
+    "en": "for an elevated or suppressed-zero range, amount by which the measured variable is above (zero point elevation) or below (zero point suppression) the lower range value",
+    "fr": "pour une étendue d'élévation ou surpression zéro, quantité dont la variable mesurée est supérieure (élévation de point zéro) ou inférieure (surpression de point zéro) à la valeur d'étendue inférieure",
+    "de": "Betrag bei verschobenem oder unterdrücktem Nullbereich, um den die Messgröße über (Nullpunktverschiebung) oder unter (Nullpunktunterdrückung) dem Messanfangswert liegt"
+  },
+  "source_document": "ISA dictionary MOD",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB996",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "zero elevation/suppression",
+    "MDC_P006.en": "for an elevated or suppressed-zero range, amount by which the measured variable is above (zero point elevation) or below (zero point suppression) the lower range value",
+    "MDC_P023": "mbar",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "ISA dictionary MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA810",
+    "C0104": "0112/2///61987#ABT524",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "élévation/surpression zéro",
+    "MDC_P006.fr": "pour une étendue d'élévation ou surpression zéro, quantité dont la variable mesurée est supérieure (élévation de point zéro) ou inférieure (surpression de point zéro) à la valeur d'étendue inférieure",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Nullpunktverschiebung/Nullpunktunterdrückung",
+    "MDC_P006.de": "Betrag bei verschobenem oder unterdrücktem Nullbereich, um den die Messgröße über (Nullpunktverschiebung) oder unter (Nullpunktunterdrückung) dem Messanfangswert liegt",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:48",
+      "user": "BATCH 00000762",
+      "unid": "8D34705AD02ED453C125825E001DEBBD",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:30",
+      "user": "BATCH 00000732",
+      "unid": "c99b86bdcc62d576c12580d6004c206e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "355df95be735d1b9c1257fa700405b73",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:42",
+      "user": "BATCH 00000702",
+      "unid": "8b6b4fb685bb178cc1257cfb00403e45",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:41",
+      "user": "BATCH 00000699",
+      "unid": "c19d0b5cba145955c1257cb40054c002",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA810",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:48",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "8D34705AD02ED453C125825E001DEBBD"
+  }
+}

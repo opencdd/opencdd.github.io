@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61360_4#AFD115",
+  "code": "AFD115",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "logical function",
+  "preferred_name_ml": {
+    "en": "logical function"
+  },
+  "short_name": "Logical Func",
+  "short_name_ml": {
+    "en": "Logical Func"
+  },
+  "definition": "name of the logic circuit (function) of the integrated circuit that shows various logical operations based on a set of basic logic gates",
+  "definition_ml": {
+    "en": "name of the logic circuit (function) of the integrated circuit that shows various logical operations based on a set of basic logic gates"
+  },
+  "synonyms": [],
+  "remark": "Examples include AND, NAND, and OR circuits",
+  "remark_ml": {
+    "en": "Examples include AND, NAND, and OR circuits"
+  },
+  "status_level": "Standard",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD115",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "logical function",
+    "MDC_P005.en": "Logical Func",
+    "MDC_P006.en": "name of the logic circuit (function) of the integrated circuit that shows various logical operations based on a set of basic logic gates",
+    "MDC_P009.en": "Examples include AND, NAND, and OR circuits",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..70",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2014-06-11",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2015-08-17"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:48",
+      "user": "BATCH 00000917",
+      "unid": "C637F9EC3BDA25F3C1257EA4004B258E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:40",
+      "user": "BATCH 00000907",
+      "unid": "9a1914248a52ad2ac1257e8b00323b96",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:47",
+      "user": "BATCH 00000904",
+      "unid": "f58e3a32b39154c6c1257e8a0043e9b1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "b9a152b845ee1e94c1257db30042e197",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-06-11",
+    "current_version": "2015-03-13",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..70",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..70",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:48",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "C637F9EC3BDA25F3C1257EA4004B258E"
+  }
+}

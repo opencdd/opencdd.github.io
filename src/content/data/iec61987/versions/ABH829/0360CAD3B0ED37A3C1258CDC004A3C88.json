@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61987#ABH829",
+  "code": "ABH829",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "storage/transport position",
+  "preferred_name_ml": {
+    "en": "storage/transport position",
+    "de": "Lager-/Transportposition"
+  },
+  "definition": "designed geometrical orientation of the packed object by the manufacturer during transportation or storage",
+  "definition_ml": {
+    "en": "designed geometrical orientation of the packed object by the manufacturer during transportation or storage",
+    "de": "vom Hersteller angegebene geometrische Ausrichtung des verpackten Objekts während des Transports oder der Lagerung"
+  },
+  "synonyms": [],
+  "note": "The orientation during transport or storage of an object is normally indicated outside at the package by grafical symbols",
+  "note_ml": {
+    "en": "The orientation during transport or storage of an object is normally indicated outside at the package by grafical symbols",
+    "de": "Die Ausrichtung während des Transports oder der Lagerung eines Objekts ist normalerweise auf der Außenseite der Verpackung durch graphische Symbole angegeben."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH829",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "storage/transport position",
+    "MDC_P006.en": "designed geometrical orientation of the packed object by the manufacturer during transportation or storage",
+    "MDC_P008.en": "The orientation during transport or storage of an object is normally indicated outside at the package by grafical symbols",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL677)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Lager-/Transportposition",
+    "MDC_P006.de": "vom Hersteller angegebene geometrische Ausrichtung des verpackten Objekts während des Transports oder der Lagerung",
+    "MDC_P008.de": "Die Ausrichtung während des Transports oder der Lagerung eines Objekts ist normalerweise auf der Außenseite der Verpackung durch graphische Symbole angegeben.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-20",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "0360CAD3B0ED37A3C1258CDC004A3C88",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "a447db4c974a8802c1258518003c4aac",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "0a69bdd7922fcb56c12583b7005027f5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL677)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL677)",
+  "value_list": "0112/2///61987#ABL677",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "0360CAD3B0ED37A3C1258CDC004A3C88"
+  }
+}

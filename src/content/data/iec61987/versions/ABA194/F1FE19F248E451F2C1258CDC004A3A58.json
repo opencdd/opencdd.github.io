@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA194",
+  "code": "ABA194",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "type of dial indicator",
+  "preferred_name_ml": {
+    "en": "type of dial indicator",
+    "fr": "type d'indicateur à cadran",
+    "de": "Art des Zeigerinstruments"
+  },
+  "definition": "classification of a dial indicator according to the method of indication",
+  "definition_ml": {
+    "en": "classification of a dial indicator according to the method of indication",
+    "fr": "classification d'un indicateur à cadran en fonction de la méthode d'indication",
+    "de": "Charakterisierung eines Zeigerinstruments bezüglich der Anzeigemethode"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA194",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of dial indicator",
+    "MDC_P006.en": "classification of a dial indicator according to the method of indication",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL361)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type d'indicateur à cadran",
+    "MDC_P006.fr": "classification d'un indicateur à cadran en fonction de la méthode d'indication",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art des Zeigerinstruments",
+    "MDC_P006.de": "Charakterisierung eines Zeigerinstruments bezüglich der Anzeigemethode",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "F1FE19F248E451F2C1258CDC004A3A58",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "a20c44ea13717f70c1258518003c4822",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "940c68af8b872115c125825e001de5c4",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:43",
+      "user": "BATCH 00000755",
+      "unid": "e3a34b56a8651b0fc1258256003e98c9",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "7448022c525f02d2c12580d6004c1a9b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "4e6d2e817a5a767fc1257cfb00403875",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "5839ae5d47e370bbc1257cb40054ba32",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL361)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL361)",
+  "value_list": "0112/2///61987#ABL361",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "F1FE19F248E451F2C1258CDC004A3A58"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///62683#ACE253",
+  "code": "ACE253",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:27",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "08abbe1d1663c700c125803000457047"
+  }
+}

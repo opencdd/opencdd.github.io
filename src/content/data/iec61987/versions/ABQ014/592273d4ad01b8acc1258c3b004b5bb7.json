@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABQ014",
+  "code": "ABQ014",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2025-02-24 14:43:06",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "592273d4ad01b8acc1258c3b004b5bb7"
+  }
+}

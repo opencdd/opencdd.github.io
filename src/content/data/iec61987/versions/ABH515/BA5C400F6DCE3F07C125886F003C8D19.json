@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61987#ABH515",
+  "code": "ABH515",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Certificate or approval",
+  "preferred_name_ml": {
+    "en": "Certificate or approval",
+    "de": "Zertifikat oder Zulassung"
+  },
+  "definition": "properties characterizing a certificate or approval supplied or associated with a device or entity",
+  "definition_ml": {
+    "en": "properties characterizing a certificate or approval supplied or associated with a device or entity",
+    "de": "Merkmale, die ein Zertifikat oder eine Zulassung kennzeichnen, die einem Gerät oder einer Entität zugeordnet oder zusammen mit diesem mitgeliefert werden"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH515",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Certificate or approval",
+    "MDC_P006.en": "properties characterizing a certificate or approval supplied or associated with a device or entity",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-06-28",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABO091,0112/2///61987#ABA231,0112/2///61987#ABB989,0112/2///61987#ABP299,0112/2///61987#ABH783,0112/2///61987#ABA121,0112/2///61987#ABO092,0112/2///61987#ABP297,0112/2///61987#ABP300,0112/2///61987#ABO097,0112/2///61987#ABO098,0112/2///61987#ABH830,0112/2///61987#ABH510,0112/2///61987#ABO099,0112/2///61987#ABN598,0112/2///61987#ABO100,0112/2///61987#ABO101,0112/2///61987#ABB146,0112/2///61987#ABO102,0112/2///61987#ABH388,0112/2///61987#ABO103,0112/2///61987#ABA152}",
+    "MDC_P004.de": "Zertifikat oder Zulassung",
+    "MDC_P006.de": "Merkmale, die ein Zertifikat oder eine Zulassung kennzeichnen, die einem Gerät oder einer Entität zugeordnet oder zusammen mit diesem mitgeliefert werden",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-11-04",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:22",
+      "user": "BATCH 00000794",
+      "unid": "BA5C400F6DCE3F07C125886F003C8D19",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:16",
+      "user": "BATCH 00000774",
+      "unid": "6b7656a5ef765840c1258518003c4469",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:12",
+      "user": "BATCH 00000766",
+      "unid": "bca40391729af1dec12583b700502080",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-06-28",
+    "current_revision": "2022-06-28"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABO091",
+    "0112/2///61987#ABA231",
+    "0112/2///61987#ABB989",
+    "0112/2///61987#ABP299",
+    "0112/2///61987#ABH783",
+    "0112/2///61987#ABA121",
+    "0112/2///61987#ABO092",
+    "0112/2///61987#ABP297",
+    "0112/2///61987#ABP300",
+    "0112/2///61987#ABO097",
+    "0112/2///61987#ABO098",
+    "0112/2///61987#ABH830",
+    "0112/2///61987#ABH510",
+    "0112/2///61987#ABO099",
+    "0112/2///61987#ABN598",
+    "0112/2///61987#ABO100",
+    "0112/2///61987#ABO101",
+    "0112/2///61987#ABB146",
+    "0112/2///61987#ABO102",
+    "0112/2///61987#ABH388",
+    "0112/2///61987#ABO103",
+    "0112/2///61987#ABA152"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:22",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "BA5C400F6DCE3F07C125886F003C8D19"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "irdi": "0112/2///61360_4#ADA044",
+  "code": "ADA044",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "replacement product reference (GTIN)",
+  "preferred_name_ml": {
+    "en": "replacement product reference (GTIN)"
+  },
+  "definition": "reference of the product intended to replace the phased-out product as defined by its manufacturer or its distributor using the Global Trade Item Number system (GTIN)",
+  "definition_ml": {
+    "en": "reference of the product intended to replace the phased-out product as defined by its manufacturer or its distributor using the Global Trade Item Number system (GTIN)"
+  },
+  "synonyms": [],
+  "note": "This property shall be applied together with block AAA656 - electronic address",
+  "note_ml": {
+    "en": "This property shall be applied together with block AAA656 - electronic address"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/TC 3",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA044",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "replacement product reference (GTIN)",
+    "MDC_P006.en": "reference of the product intended to replace the phased-out product as defined by its manufacturer or its distributor using the Global Trade Item Number system (GTIN)",
+    "MDC_P008.en": "This property shall be applied together with block AAA656 - electronic address",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-06-30",
+    "MDC_P003_2": "2025-06-30",
+    "MDC_P003_3": "2025-06-30",
+    "MDC_P012": "IEC/TC 3",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-06-30 07:46:25",
+      "user": "BATCH 00001384",
+      "unid": "DFCCD3C63A9046B6C1258CB9001FB74C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-01-25 12:09:40",
+      "user": "BATCH 00001001",
+      "unid": "02331caf84c43e61c12580b3003d4fab",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-06-30",
+    "current_revision": "2025-06-30"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-06-30 07:46:25",
+    "user": "BATCH 00001384",
+    "change_request_id": null,
+    "unid": "DFCCD3C63A9046B6C1258CB9001FB74C"
+  }
+}

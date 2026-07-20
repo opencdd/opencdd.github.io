@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABH835",
+  "code": "ABH835",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "storage and transportation conditions",
+  "preferred_name_ml": {
+    "en": "storage and transportation conditions",
+    "de": "Lager- und Transportbedingungen"
+  },
+  "definition": "specified conditions to which a device may be subject between the time of construction and the time of operation",
+  "definition_ml": {
+    "en": "specified conditions to which a device may be subject between the time of construction and the time of operation",
+    "de": "spezifizierte Bedingungen, denen ein Gerät zwischen dem Zeitpunkt seiner Herstellung und dem Zeitpunkt seines Betriebs unterliegen kann"
+  },
+  "synonyms": [],
+  "note": "During storage and transportation, the device is inoperative and appropriately protected and/or packed to meet the specified condition limits so that the device will not be damaged or suffer a degradation of performance.",
+  "note_ml": {
+    "en": "During storage and transportation, the device is inoperative and appropriately protected and/or packed to meet the specified condition limits so that the device will not be damaged or suffer a degradation of performance.",
+    "de": "Während der Lagerung und des Transports ist das Gerät außer Betrieb und entsprechend geschützt und/oder verpackt, um die festgelegten Bedingungen einzuhalten, damit es nicht beschädigt wird oder seine Leistungsfähigkeit beeinträchtigt wird."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH835",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "storage and transportation conditions",
+    "MDC_P006.en": "specified conditions to which a device may be subject between the time of construction and the time of operation",
+    "MDC_P008.en": "During storage and transportation, the device is inoperative and appropriately protected and/or packed to meet the specified condition limits so that the device will not be damaged or suffer a degradation of performance.",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2026-02-03",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Lager- und Transportbedingungen",
+    "MDC_P006.de": "spezifizierte Bedingungen, denen ein Gerät zwischen dem Zeitpunkt seiner Herstellung und dem Zeitpunkt seines Betriebs unterliegen kann",
+    "MDC_P008.de": "Während der Lagerung und des Transports ist das Gerät außer Betrieb und entsprechend geschützt und/oder verpackt, um die festgelegten Bedingungen einzuhalten, damit es nicht beschädigt wird oder seine Leistungsfähigkeit beeinträchtigt wird.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-10-13",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:25:34",
+      "user": "BATCH 00000857",
+      "unid": "B1E416A360FCF5E6C1258D930049C084",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "50cd7dc49c8e2b0dc1258a7d0039dc42",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:31",
+      "user": "BATCH 00000766",
+      "unid": "7315f7b207635303c12583b7005027f9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2026-02-03",
+    "current_revision": "2026-02-03"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:25:34",
+    "user": "BATCH 00000857",
+    "change_request_id": null,
+    "unid": "B1E416A360FCF5E6C1258D930049C084"
+  }
+}

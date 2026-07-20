@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABC595",
+  "code": "ABC595",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Signal on alarm",
+  "preferred_name_ml": {
+    "en": "Signal on alarm",
+    "fr": "Signal en alarme",
+    "de": "Alarmwert"
+  },
+  "definition": "properties characterizing the value(s) or status assumed by the input signal when there is a fault in the device",
+  "definition_ml": {
+    "en": "properties characterizing the value(s) or status assumed by the input signal when there is a fault in the device",
+    "fr": "propriétés caractérisant la/les valeur(s) ou état que prend le signal d’entrée en cas de défaut dans l’équipement de mesure de processus",
+    "de": "Merkmale, die den/die Wert(e) oder den Status des Eingangssignals bei einem Fehler im Gerät kennzeichnen"
+  },
+  "source_document": "IEC 61987-1",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC595",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Signal on alarm",
+    "MDC_P006.en": "properties characterizing the value(s) or status assumed by the input signal when there is a fault in the device",
+    "MDC_P006_1": "IEC 61987-1",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2023-01-23",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABP190,0112/2///61987#ABP191,0112/2///61987#ABB625,0112/2///61987#ABB624,0112/2///61987#ABA375,0112/2///61987#ABA996}",
+    "MDC_P004.fr": "Signal en alarme",
+    "MDC_P006.fr": "propriétés caractérisant la/les valeur(s) ou état que prend le signal d’entrée en cas de défaut dans l’équipement de mesure de processus",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Alarmwert",
+    "MDC_P006.de": "Merkmale, die den/die Wert(e) oder den Status des Eingangssignals bei einem Fehler im Gerät kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:33",
+      "user": "BATCH 00000807",
+      "unid": "A7FCBDCADBCCB395C1258940004C5068",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-12-09 09:47:08",
+      "user": "BATCH 00000803",
+      "unid": "e7de049da275bb79c1258913003042e6",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:58",
+      "user": "BATCH 00000762",
+      "unid": "a83b62a20abd21a4c125825e001dd7f8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:12",
+      "user": "BATCH 00000699",
+      "unid": "2ba6d1614e8b49d1c1257cb400549d0b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2023-01-23",
+    "current_revision": "2023-01-23"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABP190",
+    "0112/2///61987#ABP191",
+    "0112/2///61987#ABB625",
+    "0112/2///61987#ABB624",
+    "0112/2///61987#ABA375",
+    "0112/2///61987#ABA996"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:33",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "A7FCBDCADBCCB395C1258940004C5068"
+  }
+}

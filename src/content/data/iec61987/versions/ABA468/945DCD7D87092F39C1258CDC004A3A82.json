@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA468",
+  "code": "ABA468",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "marking of explosion protection standard used",
+  "preferred_name_ml": {
+    "en": "marking of explosion protection standard used",
+    "fr": "marquage de la norme de protection contre les explosions utilisée",
+    "de": "Kennzeichnung für den angewandten Explosionsschutzstandard"
+  },
+  "definition": "characters indicating the standard basis of an explosion protection design",
+  "definition_ml": {
+    "en": "characters indicating the standard basis of an explosion protection design",
+    "fr": "caractères indiquant la norme sur laquelle repose une conception de protection contre les explosions",
+    "de": "Zeichen, die die Standardbasis einer Explosionsschutzausführung angeben"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA468",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "marking of explosion protection standard used",
+    "MDC_P006.en": "characters indicating the standard basis of an explosion protection design",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ754)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "marquage de la norme de protection contre les explosions utilisée",
+    "MDC_P006.fr": "caractères indiquant la norme sur laquelle repose une conception de protection contre les explosions",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Kennzeichnung für den angewandten Explosionsschutzstandard",
+    "MDC_P006.de": "Zeichen, die die Standardbasis einer Explosionsschutzausführung angeben",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "945DCD7D87092F39C1258CDC004A3A82",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "eaac51a5f8e5f92ec1258518003c485a",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:36",
+      "user": "BATCH 00000762",
+      "unid": "f797cce39fd57c43c125825e001de6ca",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:32",
+      "user": "BATCH 00000755",
+      "unid": "2885f216424b987ec1258256003e9465",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "48b5842df255992ec12580d6004c1b76",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "81837637379d0f59c1257cfb00403950",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:29",
+      "user": "BATCH 00000699",
+      "unid": "ea5a757c9c9818e8c1257cb40054bb0d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ754)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ754)",
+  "value_list": "0112/2///61987#ABJ754",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "945DCD7D87092F39C1258CDC004A3A82"
+  }
+}

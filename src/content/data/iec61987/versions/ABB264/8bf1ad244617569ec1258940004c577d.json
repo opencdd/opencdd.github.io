@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB264",
+  "code": "ABB264",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "8bf1ad244617569ec1258940004c577d"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AAA338",
+  "code": "AAA338",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "bottom lead",
+  "preferred_name_ml": {
+    "en": "bottom lead"
+  },
+  "short_name": "B",
+  "short_name_ml": {
+    "en": "B"
+  },
+  "definition": "lead which emerges from the face of a package which is on or nearest to its mounting plane",
+  "definition_ml": {
+    "en": "lead which emerges from the face of a package which is on or nearest to its mounting plane"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA338",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P005.en": "B",
+    "MDC_P004.en": "bottom lead",
+    "MDC_P006.en": "lead which emerges from the face of a package which is on or nearest to its mounting plane",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA312",
+    "C021": "0112/2///61360_4#AAG058",
+    "MDC_P014": "{0112/2///61360_4#AAG058}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:34",
+      "user": "BATCH 00001245",
+      "unid": "DF2B921C15D466EDC1258994002BD086",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "eab283f7e43b2a46c1257dd300515fe3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "07406ea4c69cf6f3c1257d7300506a0a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:08",
+      "user": "BATCH 00000788",
+      "unid": "1028506ca316cdc0c1257a0e0047b2cd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAG058"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA312",
+  "superclass_type_property": "0112/2///61360_4#AAA312",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:34",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "DF2B921C15D466EDC1258994002BD086"
+  }
+}

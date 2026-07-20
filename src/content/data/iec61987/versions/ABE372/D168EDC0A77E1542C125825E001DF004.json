@@ -1,0 +1,71 @@
+{
+  "irdi": "0112/2///61987#ABE372",
+  "code": "ABE372",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "reference to Normal environmental conditions [3]",
+  "preferred_name_ml": {
+    "en": "reference to Normal environmental conditions [3]"
+  },
+  "definition": "reference to block ABE371",
+  "definition_ml": {
+    "en": "reference to block ABE371"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABE372",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Normal environmental conditions [3]",
+    "MDC_P006.en": "reference to block ABE371",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE371)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_3": "2014-06-18",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:59",
+      "user": "BATCH 00000762",
+      "unid": "D168EDC0A77E1542C125825E001DF004",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:52",
+      "user": "BATCH 00000699",
+      "unid": "950ca3b19df472c7c1257cb40054c446",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_revision": "2014-06-18"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE371)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABE371)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:59",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D168EDC0A77E1542C125825E001DF004"
+  }
+}

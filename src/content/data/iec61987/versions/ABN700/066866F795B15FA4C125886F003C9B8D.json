@@ -1,0 +1,103 @@
+{
+  "irdi": "0112/2///61987#ABN700",
+  "code": "ABN700",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "density",
+  "preferred_name_ml": {
+    "en": "density",
+    "de": "Dichte"
+  },
+  "definition": "at a given point within a three-dimensional domain of quasi-infinitesimal volume dV, scalar quantity equal to the mass dm within the domain divided by the volume dV, thus ρ = dm/dV",
+  "definition_ml": {
+    "en": "at a given point within a three-dimensional domain of quasi-infinitesimal volume dV, scalar quantity equal to the mass dm within the domain divided by the volume dV, thus ρ = dm/dV",
+    "de": "skalare Größe, die an einem gegebenem Punkt in einem dreidimensionalen Gebiet mit einem quasi-infinitesimalen Volumen dV gleich ist der Masse dm innerhalb des Gebiets dividiert durch das Volumen, also ρ = dm/dV"
+  },
+  "source_document": "IEV 113-03-07 MOD",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "mass density"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "mass density",
+    "de": "volumenbezogene Masse"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN700",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "density",
+    "MDC_P007.en": "mass density",
+    "MDC_P006.en": "at a given point within a three-dimensional domain of quasi-infinitesimal volume dV, scalar quantity equal to the mass dm within the domain divided by the volume dV, thus ρ = dm/dV",
+    "MDC_P023": "kg/m³",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEV 113-03-07 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA619",
+    "C0104": "0112/2///61987#ABT573",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P004.de": "Dichte",
+    "MDC_P007.de": "volumenbezogene Masse",
+    "MDC_P006.de": "skalare Größe, die an einem gegebenem Punkt in einem dreidimensionalen Gebiet mit einem quasi-infinitesimalen Volumen dV gleich ist der Masse dm innerhalb des Gebiets dividiert durch das Volumen, also ρ = dm/dV",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "066866F795B15FA4C125886F003C9B8D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "81df71f39fecbea3c1258518003fd811",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA619",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:59",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "066866F795B15FA4C125886F003C9B8D"
+  }
+}

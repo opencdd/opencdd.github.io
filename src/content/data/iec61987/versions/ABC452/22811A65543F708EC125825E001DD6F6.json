@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABC452",
+  "code": "ABC452",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Normal process conditions [2]",
+  "preferred_name_ml": {
+    "en": "Normal process conditions [2]",
+    "fr": "Conditions de processus normales [2]",
+    "de": "Prozessbedingungen (Normalbedingungen) [2]"
+  },
+  "definition": "properties characterizing the range of process conditions within which a device is designed to operate within specified performance limits",
+  "definition_ml": {
+    "en": "properties characterizing the range of process conditions within which a device is designed to operate within specified performance limits",
+    "fr": "propriétés caractérisant l’étendue de conditions de processus dans lesquelles un appareil est conçu pour fonctionner dans les limites de performance spécifiées (version de bloc 2)",
+    "de": "Merkmale, die den Bereich der Prozessbedingungen kennzeichnen, für die ein Gerät ausgelegt ist, damit es innerhalb der spezifizierten Grenzen arbeitet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC452",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Normal process conditions [2]",
+    "MDC_P006.en": "properties characterizing the range of process conditions within which a device is designed to operate within specified performance limits",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABH446,0112/2///61987#ABA954,0112/2///61987#ABB184,0112/2///61987#ABA955,0112/2///61987#ABB185,0112/2///61987#ABD423,0112/2///61987#ABD513,0112/2///61987#ABB997,0112/2///61987#ABB998,0112/2///61987#ABA918,0112/2///61987#ABA919,0112/2///61987#ABA598,0112/2///61987#ABB435,0112/2///61987#ABH447,0112/2///61987#ABH456,0112/2///61987#ABH449}",
+    "MDC_P004.fr": "Conditions de processus normales [2]",
+    "MDC_P006.fr": "propriétés caractérisant l’étendue de conditions de processus dans lesquelles un appareil est conçu pour fonctionner dans les limites de performance spécifiées (version de bloc 2)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2015-04-17",
+    "MDC_P004.de": "Prozessbedingungen (Normalbedingungen) [2]",
+    "MDC_P006.de": "Merkmale, die den Bereich der Prozessbedingungen kennzeichnen, für die ein Gerät ausgelegt ist, damit es innerhalb der spezifizierten Grenzen arbeitet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-04-17",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:55",
+      "user": "BATCH 00000762",
+      "unid": "22811A65543F708EC125825E001DD6F6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:39",
+      "user": "BATCH 00000701",
+      "unid": "9daad7201b2e3b58c1257cfb003f9938",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:10",
+      "user": "BATCH 00000699",
+      "unid": "f0a5ccee3b54d6f7c1257cb400549c84",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH446",
+    "0112/2///61987#ABA954",
+    "0112/2///61987#ABB184",
+    "0112/2///61987#ABA955",
+    "0112/2///61987#ABB185",
+    "0112/2///61987#ABD423",
+    "0112/2///61987#ABD513",
+    "0112/2///61987#ABB997",
+    "0112/2///61987#ABB998",
+    "0112/2///61987#ABA918",
+    "0112/2///61987#ABA919",
+    "0112/2///61987#ABA598",
+    "0112/2///61987#ABB435",
+    "0112/2///61987#ABH447",
+    "0112/2///61987#ABH456",
+    "0112/2///61987#ABH449"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:55",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "22811A65543F708EC125825E001DD6F6"
+  }
+}

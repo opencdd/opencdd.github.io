@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///62683#ACE225",
+  "code": "ACE225",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "current imbalance detection",
+  "preferred_name_ml": {
+    "en": "current imbalance detection",
+    "fr": "détection de déséquilibre de courant",
+    "de": "Stromasymmetrie-erkennung",
+    "zh": "电流不平衡检测"
+  },
+  "definition": "ability to detect a current magnitude imbalance in accordance with specified requirements",
+  "definition_ml": {
+    "en": "ability to detect a current magnitude imbalance in accordance with specified requirements",
+    "fr": "faculté à détecter un déséquilibre d’amplitude de courant, conformément aux exigences spécifiées",
+    "de": "Fähigkeit zum Ansprechen, wenn die Stromstärken im Ungleichgewicht sind, ent-sprechend den notwendigen Anforderungen",
+    "zh": "根据规定要求检测某一电流强度不平衡的能力"
+  },
+  "synonyms": [],
+  "note": "See T.5.5 of IEC 60947-1:2007/AMD1:2010.",
+  "note_ml": {
+    "en": "See T.5.5 of IEC 60947-1:2007/AMD1:2010.",
+    "fr": "Voir T.5.5 de l'IEC 60947-1:2007/AMD1:2010.",
+    "de": "Siehe IEC 60947‑1/A1:2010, T.5.5",
+    "zh": "见IEC 60947-1:2007/AMD1:2010中T.5.5"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE225",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "current imbalance detection",
+    "MDC_P006.en": "ability to detect a current magnitude imbalance in accordance with specified requirements",
+    "MDC_P008.en": "See T.5.5 of IEC 60947-1:2007/AMD1:2010.",
+    "MDC_P022": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC012",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "détection de déséquilibre de courant",
+    "MDC_P006.fr": "faculté à détecter un déséquilibre d’amplitude de courant, conformément aux exigences spécifiées",
+    "MDC_P008.fr": "Voir T.5.5 de l'IEC 60947-1:2007/AMD1:2010.",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2015-12-22",
+    "MDC_P004.de": "Stromasymmetrie-erkennung",
+    "MDC_P006.de": "Fähigkeit zum Ansprechen, wenn die Stromstärken im Ungleichgewicht sind, ent-sprechend den notwendigen Anforderungen",
+    "MDC_P008.de": "Siehe IEC 60947‑1/A1:2010, T.5.5",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "电流不平衡检测",
+    "MDC_P006.zh": "根据规定要求检测某一电流强度不平衡的能力",
+    "MDC_P008.zh": "见IEC 60947-1:2007/AMD1:2010中T.5.5",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:27",
+      "user": "BATCH 00000704",
+      "unid": "d623b26d45e74662c125803000457036",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:47",
+      "user": "BATCH 00000741",
+      "unid": "B737BD0B4C82C56AC12584EC006DC0D8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "definition_class_irdi": "0112/2///62683#ACC012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_BOOLEAN_TYPE(0112/2///62683#ACI008)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:27",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "d623b26d45e74662c125803000457036"
+  }
+}

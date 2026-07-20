@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///62683#ACC011",
+  "code": "ACC011",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Identification",
+  "preferred_name_ml": {
+    "en": "Identification",
+    "fr": "Identification",
+    "de": "Identifikation",
+    "zh": "标识"
+  },
+  "definition": "information necessary for unambiguous identification of the device",
+  "definition_ml": {
+    "en": "information necessary for unambiguous identification of the device",
+    "fr": "informations nécessaires à une identification sans équivoque de l'appareil",
+    "de": "notwendige Information zur eindeutigen Identifikation eines Geräts",
+    "zh": "为了明确识别电器所需的信息"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683",
+  "responsible_committee": "IEC/TC121",
+  "change_request_id": "C00183",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC011",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Identification",
+    "MDC_P006.en": "information necessary for unambiguous identification of the device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-01-28",
+    "MDC_P003_1": "2011-03-04",
+    "MDC_P003_2": "2026-01-29",
+    "MDC_P003_3": "2026-01-29",
+    "MDC_P012": "IEC/TC121",
+    "MDC_P010": "0112/2///62683#ACC010",
+    "MDC_P013": "{0112/2///61360_7#CAA014}",
+    "MDC_P090": "{0112/2///61360_7#CBA031,0112/2///61360_7#CBA032,0112/2///61360_7#CBA033,0112/2///61360_7#CBA034,0112/2///61360_7#CBA035,0112/2///61360_7#CBA037,0112/2///61360_7#CBA038,0112/2///61360_7#CBA039,0112/2///61360_7#CBA040,0112/2///61360_7#CBA041,0112/2///61360_7#CBA042,0112/2///61360_7#CBA043,0112/2///61360_7#CBA057,0112/2///61360_7#CBA053,0112/2///61360_7#CBA054}",
+    "MDC_P004.fr": "Identification",
+    "MDC_P006.fr": "informations nécessaires à une identification sans équivoque de l'appareil",
+    "C019.fr": "AFNOR",
+    "C017.fr": "2",
+    "C018.fr": "2025-03-14",
+    "MDC_P004.de": "Identifikation",
+    "MDC_P006.de": "notwendige Information zur eindeutigen Identifikation eines Geräts",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "标识",
+    "MDC_P006.zh": "为了明确识别电器所需的信息",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00183"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-01-28 10:10:05",
+      "user": "BATCH 00000850",
+      "unid": "1D9EED1615E19F8AC1258D8D00325CF6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-07 21:31:34",
+      "user": "BATCH 00000739",
+      "unid": "8cbc709965f89dd3c12584e80070c0db",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "5e6592c95e84bc8dc1258030004501df",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-03-04",
+    "current_version": "2026-01-29",
+    "current_revision": "2026-01-29"
+  },
+  "is_case_of": [
+    "0112/2///61360_7#CAA014"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///61360_7#CBA031",
+    "0112/2///61360_7#CBA032",
+    "0112/2///61360_7#CBA033",
+    "0112/2///61360_7#CBA034",
+    "0112/2///61360_7#CBA035",
+    "0112/2///61360_7#CBA037",
+    "0112/2///61360_7#CBA038",
+    "0112/2///61360_7#CBA039",
+    "0112/2///61360_7#CBA040",
+    "0112/2///61360_7#CBA041",
+    "0112/2///61360_7#CBA042",
+    "0112/2///61360_7#CBA043",
+    "0112/2///61360_7#CBA057",
+    "0112/2///61360_7#CBA053",
+    "0112/2///61360_7#CBA054"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC010",
+  "superclass_type_property": "0112/2///62683#ACC010",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-01-28 10:10:05",
+    "user": "BATCH 00000850",
+    "change_request_id": null,
+    "unid": "1D9EED1615E19F8AC1258D8D00325CF6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA651",
+  "code": "AAA651",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "superseded",
+    "timestamp": "2017-01-11 10:40:53",
+    "user": "BATCH 00000890",
+    "change_request_id": null,
+    "unid": "109741e08e95406ac12580a500352ebf"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE408",
+  "code": "ABE408",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:27:00",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "302ab9609d4aaf27c125825e001df01e"
+  }
+}

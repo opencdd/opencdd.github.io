@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABH471",
+  "code": "ABH471",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "Fire proof design approval",
+  "preferred_name_ml": {
+    "en": "Fire proof design approval",
+    "de": "Zulassung für Feuersicherheit"
+  },
+  "definition": "properties characterizing certificates and approvals for design to prevent damage by fire",
+  "definition_ml": {
+    "en": "properties characterizing certificates and approvals for design to prevent damage by fire",
+    "de": "Merkmale, die Zertifikate und Zulassungen für eine Ausführung kennzeichnen, um Schäden durch Feuer zu verhindern"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABH471",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Fire proof design approval",
+    "MDC_P006.en": "properties characterizing certificates and approvals for design to prevent damage by fire",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2015-07-17",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABH472,0112/2///61987#ABH473}",
+    "MDC_P004.de": "Zulassung für Feuersicherheit",
+    "MDC_P006.de": "Merkmale, die Zertifikate und Zulassungen für eine Ausführung kennzeichnen, um Schäden durch Feuer zu verhindern",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2016-10-04",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:12",
+      "user": "BATCH 00000762",
+      "unid": "C68C1016C9F8CD8EC125825E001DDD96",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:22:07",
+      "user": "BATCH 00000755",
+      "unid": "f871d084e91bb1b1c1258256003e7335",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:43:56",
+      "user": "BATCH 00000756",
+      "unid": "b0f836db60f00433c125825600407273",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:09",
+      "user": "BATCH 00000732",
+      "unid": "7451282c1a936ff4c12580d6004c00e1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 10:24:16",
+      "user": "BATCH 00000714",
+      "unid": "8b4e7f975090fa32c1257f7e0033a92b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:35:50",
+      "user": "BATCH 00000716",
+      "unid": "8376038b71719891c1257fa7003a36a8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-07-17",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABH472",
+    "0112/2///61987#ABH473"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:12",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "C68C1016C9F8CD8EC125825E001DDD96"
+  }
+}

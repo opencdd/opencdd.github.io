@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#AAE765",
+  "code": "AAE765",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "core size code",
+  "preferred_name_ml": {
+    "en": "core size code"
+  },
+  "short_name": "core size code",
+  "short_name_ml": {
+    "en": "core size code"
+  },
+  "definition": "code of the shape and size of the core or core halves of a soft magnetic part",
+  "definition_ml": {
+    "en": "code of the shape and size of the core or core halves of a soft magnetic part"
+  },
+  "synonyms": [],
+  "remark": "Code composition:| E-cores :   letter E followed by nominal length/width in mm.| EC-cores :   letters EC followed by nominal length in mm| ETD-cores :   letters ETD followed by nominal length in mm| P-cores :   letter P followed by nominal outer diameter/nominal length in mm| RM-cores :   letters RM followed by nominal sidelength of base square in mm| X-cores :   letter X followed by nominal sidelength of base square in mm| Code extension:| Codes may be extended by adding other nominal e.g. height and width.",
+  "remark_ml": {
+    "en": "Code composition:| E-cores :   letter E followed by nominal length/width in mm.| EC-cores :   letters EC followed by nominal length in mm| ETD-cores :   letters ETD followed by nominal length in mm| P-cores :   letter P followed by nominal outer diameter/nominal length in mm| RM-cores :   letters RM followed by nominal sidelength of base square in mm| X-cores :   letter X followed by nominal sidelength of base square in mm| Code extension:| Codes may be extended by adding other nominal e.g. height and width."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE765",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "core size code",
+    "MDC_P005.en": "core size code",
+    "MDC_P006.en": "code of the shape and size of the core or core halves of a soft magnetic part",
+    "MDC_P009.en": "Code composition:| E-cores :   letter E followed by nominal length/width in mm.| EC-cores :   letters EC followed by nominal length in mm| ETD-cores :   letters ETD followed by nominal length in mm| P-cores :   letter P followed by nominal outer diameter/nominal length in mm| RM-cores :   letters RM followed by nominal sidelength of base square in mm| X-cores :   letter X followed by nominal sidelength of base square in mm| Code extension:| Codes may be extended by adding other nominal e.g. height and width.",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..17",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A58",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:35",
+      "user": "BATCH 00000917",
+      "unid": "602406DD688FF3F9C1257EA4004B2090",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "622d33d9412b3e45c1257e8b003236de",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "13e8b0c375938bffc1257e8a0043e4b3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:34",
+      "user": "BATCH 00000788",
+      "unid": "22627fc9475ecedbc1257a0e0047bcec",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "159b05ea4f998d66c1257a0e0046da6c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..17",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..17",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:35",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "602406DD688FF3F9C1257EA4004B2090"
+  }
+}

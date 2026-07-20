@@ -1,0 +1,179 @@
+{
+  "irdi": "0112/2///61987#ABA231",
+  "code": "ABA231",
+  "version": "10",
+  "revision": "1",
+  "preferred_name": "type of conformity regulation/certification",
+  "preferred_name_ml": {
+    "en": "type of conformity regulation/certification",
+    "fr": "type d'agrément zone dangereuse",
+    "de": "Art der Regulierung/Zertifizierung"
+  },
+  "definition": "classification of a certificate or approval document according to the regulations against which the conformity of an entity is tested",
+  "definition_ml": {
+    "en": "classification of a certificate or approval document according to the regulations against which the conformity of an entity is tested",
+    "fr": "classification d'un agrément pour zone dangereuse selon une norme ou autorité émettrice",
+    "de": "Charakterisierung eines Zertifikats oder Zulassungsdokuments nach den Vorschriften, anhand derer die Konformität einer Entität geprüft wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA231",
+    "MDC_P002_1": "10",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of conformity regulation/certification",
+    "MDC_P006.en": "classification of a certificate or approval document according to the regulations against which the conformity of an entity is tested",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL292)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "type d'agrément zone dangereuse",
+    "MDC_P006.fr": "classification d'un agrément pour zone dangereuse selon une norme ou autorité émettrice",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Art der Regulierung/Zertifizierung",
+    "MDC_P006.de": "Charakterisierung eines Zertifikats oder Zulassungsdokuments nach den Vorschriften, anhand derer die Konformität einer Entität geprüft wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "010",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "0F073BA406F340D0C1258CDC004A3A2A",
+      "is_current": true
+    },
+    {
+      "version": "009",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "6f7b4d0e955618a1c125886f003c9984",
+      "is_current": false
+    },
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "618e7376ad0a104cc1258518003c482c",
+      "is_current": false
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:34",
+      "user": "BATCH 00000762",
+      "unid": "08f50aa97cb265b2c125825e001de5ea",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "f13644c36f41f057c1258256003e9526",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "d02d9b9eb372d942c125825600407a45",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "1b783fa7a11ae2a2c12580d6004c1aba",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:35",
+      "user": "BATCH 00000714",
+      "unid": "dfe94c003d754935c1257f7e0030f1a2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:06",
+      "user": "BATCH 00000716",
+      "unid": "0cdb7a7509ce3ac8c1257fa7003a3cd9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "ccac8fbe6869dffec1257cfb00403894",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:27",
+      "user": "BATCH 00000699",
+      "unid": "37466b946bee3611c1257cb40054ba51",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL292)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL292)",
+  "value_list": "0112/2///61987#ABL292",
+  "is_current": true,
+  "version_meta": {
+    "version": "010",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "0F073BA406F340D0C1258CDC004A3A2A"
+  }
+}

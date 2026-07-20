@@ -1,0 +1,95 @@
+{
+  "irdi": "0112/2///61987#ABD579",
+  "code": "ABD579",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "enthalpy of vapor",
+  "preferred_name_ml": {
+    "en": "enthalpy of vapor",
+    "de": "Enthalpie des Dampfs"
+  },
+  "definition": "specific enthalpy of a saturated vapor in equilibrium with a liquid",
+  "definition_ml": {
+    "en": "specific enthalpy of a saturated vapor in equilibrium with a liquid",
+    "de": "spezifische Enthalpie eines gesättigten Dampfs im Gleichgewicht mit einer Flüssigkeit"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00018",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD579",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "enthalpy of vapor",
+    "MDC_P006.en": "specific enthalpy of a saturated vapor in equilibrium with a liquid",
+    "MDC_P023": "kJ/kg",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA570",
+    "C0104": "0112/2///61987#ABT593",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P004.de": "Enthalpie des Dampfs",
+    "MDC_P006.de": "spezifische Enthalpie eines gesättigten Dampfs im Gleichgewicht mit einer Flüssigkeit",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00018"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:56",
+      "user": "BATCH 00000762",
+      "unid": "8B3AD8300E009AA8C125825E001DEE81",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:49",
+      "user": "BATCH 00000702",
+      "unid": "5a4762a8208e32b5c1257cfb00404107",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:48",
+      "user": "BATCH 00000699",
+      "unid": "0eff17b354863b1fc1257cb40054c2c4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA570",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:56",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "8B3AD8300E009AA8C125825E001DEE81"
+  }
+}

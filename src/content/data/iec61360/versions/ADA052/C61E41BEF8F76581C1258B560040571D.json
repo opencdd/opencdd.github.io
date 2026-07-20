@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61360_4#ADA052",
+  "code": "ADA052",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "A-weighted sound power level",
+  "preferred_name_ml": {
+    "en": "A-weighted sound power level"
+  },
+  "short_name": "L_WA",
+  "short_name_ml": {
+    "en": "L_WA"
+  },
+  "definition": "filter reducing the lowest and highest frequencies of the overall measured sound power level",
+  "definition_ml": {
+    "en": "filter reducing the lowest and highest frequencies of the overall measured sound power level"
+  },
+  "source_document": "adapted from ISO 3740:2000, 3.3",
+  "synonyms": [],
+  "note": "the A-weighted frequency filter is used when assessing the potential for hearing damage, as it is intended to mimic the response of the human ear to sounds of different frequencies",
+  "note_ml": {
+    "en": "the A-weighted frequency filter is used when assessing the potential for hearing damage, as it is intended to mimic the response of the human ear to sounds of different frequencies"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#ADA052",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "A-weighted sound power level",
+    "MDC_P005.en": "L_WA",
+    "MDC_P006.en": "filter reducing the lowest and highest frequencies of the overall measured sound power level",
+    "MDC_P008.en": "the A-weighted frequency filter is used when assessing the potential for hearing damage, as it is intended to mimic the response of the human ear to sounds of different frequencies",
+    "MDC_P025_1": "L_WA",
+    "MDC_P023": "dB(A)",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "adapted from ISO 3740:2000, 3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "G22",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAD893",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 13:42:46",
+      "user": "BATCH 00001303",
+      "unid": "C61E41BEF8F76581C1258B560040571D",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-02-26 10:34:59",
+      "user": "BATCH 00000948",
+      "unid": "cae7202d93287b35c1257f650034a46f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "L_WA",
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAD893",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 13:42:46",
+    "user": "BATCH 00001303",
+    "change_request_id": null,
+    "unid": "C61E41BEF8F76581C1258B560040571D"
+  }
+}

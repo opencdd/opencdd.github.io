@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///62683#ACE248",
+  "code": "ACE248",
+  "version": "1",
+  "revision": "1",
+  "preferred_name": "degree of protection of terminals",
+  "preferred_name_ml": {
+    "en": "degree of protection of terminals",
+    "fr": "degré de protection des bornes",
+    "de": "Schutzart der Anschlüsse",
+    "zh": "接线端子防护等级"
+  },
+  "definition": "numerical classification in accordance with IEC 60529 preceded by the symbol IP, corresponding to the degree of protection provided by the device on main and auxiliary terminals, independently of the enclosure or switchboard",
+  "definition_ml": {
+    "en": "numerical classification in accordance with IEC 60529 preceded by the symbol IP, corresponding to the degree of protection provided by the device on main and auxiliary terminals, independently of the enclosure or switchboard",
+    "fr": "classification numérique selon l'IEC 60529, précédée du symbole IP, correspondant au degré de protection procuré par l'appareil seul, y compris les bornes de raccordement principales et auxiliaires, indépendamment du coffret ou du tableau",
+    "de": "numerische Klassifizierung nach IEC 60529, der das Symbol „IP“ voran steht entsprechend der Schutzart, die durch das Gerät durch Haupt- und Hilfskontaktklemmen unabhängig von Gehäuse oder Schaltschrank erbracht wird.",
+    "zh": "符合IEC 60529:2001的以数字分类的等级，并在数字前加上字符“IP”，对应于由主接线端子和辅助接线端子上的装置所提供的防护等级，该装置独立于外壳或配电盘"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "IP code"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "IP code",
+    "fr": "Code IP"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC 121A/WG 17",
+  "change_request_id": "C00058",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///62683#ACE248",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "degree of protection of terminals",
+    "MDC_P007.en": "IP code",
+    "MDC_P006.en": "numerical classification in accordance with IEC 60529 preceded by the symbol IP, corresponding to the degree of protection provided by the device on main and auxiliary terminals, independently of the enclosure or switchboard",
+    "MDC_P025_1": "IP",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///62683#ACI003)",
+    "MDC_P024": "M..8",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///62683#ACC012",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-01-30",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2016-09-16",
+    "MDC_P012": "IEC 121A/WG 17",
+    "MDC_P004.fr": "degré de protection des bornes",
+    "MDC_P007.fr": "Code IP",
+    "MDC_P006.fr": "classification numérique selon l'IEC 60529, précédée du symbole IP, correspondant au degré de protection procuré par l'appareil seul, y compris les bornes de raccordement principales et auxiliaires, indépendamment du coffret ou du tableau",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2017-05-11",
+    "MDC_P004.de": "Schutzart der Anschlüsse",
+    "MDC_P006.de": "numerische Klassifizierung nach IEC 60529, der das Symbol „IP“ voran steht entsprechend der Schutzart, die durch das Gerät durch Haupt- und Hilfskontaktklemmen unabhängig von Gehäuse oder Schaltschrank erbracht wird.",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "接线端子防护等级",
+    "MDC_P006.zh": "符合IEC 60529:2001的以数字分类的等级，并在数字前加上字符“IP”，对应于由主接线端子和辅助接线端子上的装置所提供的防护等级，该装置独立于外壳或配电盘",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00058"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:38:27",
+      "user": "BATCH 00000704",
+      "unid": "097b6df5e17b5df9c125803000457043",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 20:58:48",
+      "user": "BATCH 00000741",
+      "unid": "243B85B8A1C9BD00C12584EC006DC0E5",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-01-30",
+    "current_version": "2016-09-16",
+    "current_revision": "2016-09-16"
+  },
+  "symbol_in_text": "IP",
+  "value_format": "M..8",
+  "definition_class_irdi": "0112/2///62683#ACC012",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///62683#ACI003)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..8",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///62683#ACI003)",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-09-16 14:38:27",
+    "user": "BATCH 00000704",
+    "change_request_id": null,
+    "unid": "097b6df5e17b5df9c125803000457043"
+  }
+}

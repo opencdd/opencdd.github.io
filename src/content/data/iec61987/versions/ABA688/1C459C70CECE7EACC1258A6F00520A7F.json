@@ -1,0 +1,123 @@
+{
+  "irdi": "0112/2///61987#ABA688",
+  "code": "ABA688",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Multipoint temperature measuring assembly",
+  "preferred_name_ml": {
+    "en": "Multipoint temperature measuring assembly",
+    "fr": "Assemblage de mesure de température multipoint",
+    "de": "Mehrpunkt-Temperaturmessanordnung"
+  },
+  "definition": "temperature measuring assembly intended to provide measurements at more than one dedicated point",
+  "definition_ml": {
+    "en": "temperature measuring assembly intended to provide measurements at more than one dedicated point",
+    "fr": "assemblage de mesure de température qui détecte la température à divers emplacements",
+    "de": "Temperatur-Messanordnung, die Messungen an mehr als einem Punkt zur Verfügung stellt"
+  },
+  "synonyms": [],
+  "note": "The measuring points can be arranged in a single piece of protective equipment (typical for temperature profile measuring) or be spatially distributed in the process chamber (typical for hot spot detection)., The sensing elements normally use one process connection and one electrical connection facility optionally with transmitters.",
+  "note_ml": {
+    "en": "The measuring points can be arranged in a single piece of protective equipment (typical for temperature profile measuring) or be spatially distributed in the process chamber (typical for hot spot detection)., The sensing elements normally use one process connection and one electrical connection facility optionally with transmitters.",
+    "de": "Die Messpunkte können in einem einzelnen Schutzorgan angeordnet sein (typisch für Temperaturprofil-Messungen) oder räumlich in dem Prozessbehälter verteilt sein (typisch für eine Hot-Spot-Überwachung). Die Messgrößenaufnehmer nutzen normalerweise nur einen Prozessanschluss und einen elektrischen Anschluss, optional mit Messumformer."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA688",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Multipoint temperature measuring assembly",
+    "MDC_P006.en": "temperature measuring assembly intended to provide measurements at more than one dedicated point",
+    "MDC_P008.en": "The measuring points can be arranged in a single piece of protective equipment (typical for temperature profile measuring) or be spatially distributed in the process chamber (typical for hot spot detection)., The sensing elements normally use one process connection and one electrical connection facility optionally with transmitters.",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA687",
+    "MDC_P004.fr": "Assemblage de mesure de température multipoint",
+    "MDC_P006.fr": "assemblage de mesure de température qui détecte la température à divers emplacements",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-05-21",
+    "MDC_P004.de": "Mehrpunkt-Temperaturmessanordnung",
+    "MDC_P006.de": "Temperatur-Messanordnung, die Messungen an mehr als einem Punkt zur Verfügung stellt",
+    "MDC_P008.de": "Die Messpunkte können in einem einzelnen Schutzorgan angeordnet sein (typisch für Temperaturprofil-Messungen) oder räumlich in dem Prozessbehälter verteilt sein (typisch für eine Hot-Spot-Überwachung). Die Messgrößenaufnehmer nutzen normalerweise nur einen Prozessanschluss und einen elektrischen Anschluss, optional mit Messumformer.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:06",
+      "user": "BATCH 00000816",
+      "unid": "1C459C70CECE7EACC1258A6F00520A7F",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:46",
+      "user": "BATCH 00000762",
+      "unid": "d9ea2d95a5b4e61bc125825e001dd357",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:32",
+      "user": "BATCH 00000701",
+      "unid": "31cd904eb6b00de1c1257cfb003f6771",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:16",
+      "user": "BATCH 00000696",
+      "unid": "c56d50b98a7386b0c1257cb3002a0c56",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA687",
+  "superclass_type_property": "0112/2///61987#ABA687",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:06",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "1C459C70CECE7EACC1258A6F00520A7F"
+  }
+}

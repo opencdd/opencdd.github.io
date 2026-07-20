@@ -1,0 +1,90 @@
+{
+  "irdi": "0112/2///61360_4#AFD150",
+  "code": "AFD150",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "output current for line regulation",
+  "preferred_name_ml": {
+    "en": "output current for line regulation"
+  },
+  "short_name": "I_OUT",
+  "short_name_ml": {
+    "en": "I_OUT"
+  },
+  "definition": "output current to be kept constant as a prerequisite for the line regulation measurement",
+  "definition_ml": {
+    "en": "output current to be kept constant as a prerequisite for the line regulation measurement"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AFD150",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "output current for line regulation",
+    "MDC_P005.en": "I_OUT",
+    "MDC_P006.en": "output current to be kept constant as a prerequisite for the line regulation measurement",
+    "MDC_P025_1": "I_OUT",
+    "MDC_P023": "A",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AFA019",
+    "MDC_P041": "0112/2///62720#UAA101",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 13:00:58",
+      "user": "BATCH 00001301",
+      "unid": "ED4002EF28FE914AC1258B56003C83B9",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-10-02 14:09:29",
+      "user": "BATCH 00000920",
+      "unid": "012afd6d88dfc469c1257ed20042c980",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "I_OUT",
+  "definition_class_irdi": "0112/2///61360_4#AFA019",
+  "unit_irdi": "0112/2///62720#UAA101",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 13:00:58",
+    "user": "BATCH 00001301",
+    "change_request_id": null,
+    "unid": "ED4002EF28FE914AC1258B56003C83B9"
+  }
+}

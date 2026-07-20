@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AFD132",
+  "code": "AFD132",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2015-07-22 14:21:47",
+    "user": "BATCH 00000904",
+    "change_request_id": null,
+    "unid": "933d86613309f893c1257e8a0043e9c2"
+  }
+}

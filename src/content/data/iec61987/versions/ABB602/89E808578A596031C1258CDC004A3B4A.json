@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61987#ABB602",
+  "code": "ABB602",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "default setting of configurable process diagnostic",
+  "preferred_name_ml": {
+    "en": "default setting of configurable process diagnostic",
+    "fr": "paramètre par défaut d'un diagnostic de processus configurable",
+    "de": "Defaulteinstellung konfigurierbarer Prozessdiagnose"
+  },
+  "definition": "setting of a configurable process diagnostic as delivered from a factory",
+  "definition_ml": {
+    "en": "setting of a configurable process diagnostic as delivered from a factory",
+    "fr": "paramètre d'un diagnostic de processus configurable tel qu'il est fourni en usine",
+    "de": "Einstellung einer konfigurierbaren Prozessdiagnose im Auslieferungszustand"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB602",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "default setting of configurable process diagnostic",
+    "MDC_P006.en": "setting of a configurable process diagnostic as delivered from a factory",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ771)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "paramètre par défaut d'un diagnostic de processus configurable",
+    "MDC_P006.fr": "paramètre d'un diagnostic de processus configurable tel qu'il est fourni en usine",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Defaulteinstellung konfigurierbarer Prozessdiagnose",
+    "MDC_P006.de": "Einstellung einer konfigurierbaren Prozessdiagnose im Auslieferungszustand",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "89E808578A596031C1258CDC004A3B4A",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "409cec5e2e5bded0c1258518003c4949",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "2546ea35dd14aca5c125825e001dea36",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:26",
+      "user": "BATCH 00000732",
+      "unid": "5f882c1ead0fd8a9c12580d6004c1ee4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "978800e36996f9e2c1257cfb00403cbe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "f6ee21c3eb41da2bc1257cb40054be7b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ771)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ771)",
+  "value_list": "0112/2///61987#ABJ771",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:48",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "89E808578A596031C1258CDC004A3B4A"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE433",
+  "code": "ABE433",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:25:53",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "b27e6d6db9f0a237c1257cb40054c46f"
+  }
+}

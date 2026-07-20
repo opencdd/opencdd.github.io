@@ -1,0 +1,110 @@
+{
+  "irdi": "0112/2///61360_4#AAJ121",
+  "code": "AAJ121",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "maximum power handling",
+  "preferred_name_ml": {
+    "en": "maximum power handling"
+  },
+  "short_name": "P_max",
+  "short_name_ml": {
+    "en": "P_max"
+  },
+  "definition": "maximum value of the power which may be handled or transmitted by a microwave component",
+  "definition_ml": {
+    "en": "maximum value of the power which may be handled or transmitted by a microwave component"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "JEITA",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAJ121",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "maximum power handling",
+    "MDC_P005.en": "P_max",
+    "MDC_P006.en": "maximum value of the power which may be handled or transmitted by a microwave component",
+    "MDC_P025_1": "P_max}",
+    "MDC_P023": "W",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E35",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "JEITA",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:45",
+      "user": "BATCH 00000917",
+      "unid": "FF2F20A90D454EF9C1257EA4004B2470",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:38",
+      "user": "BATCH 00000907",
+      "unid": "d8a2a0cbbbee8590c1257e8b00323a9f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:44",
+      "user": "BATCH 00000904",
+      "unid": "13e32bf5ecc211ffc1257e8a0043e893",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:08:02",
+      "user": "BATCH 00000704",
+      "unid": "d71027fc1e1892b1c125787f0042a7a8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "P_max}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:45",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "FF2F20A90D454EF9C1257EA4004B2470"
+  }
+}

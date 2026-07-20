@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61360_4#AAF965",
+  "code": "AAF965",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "water hardness",
+  "preferred_name_ml": {
+    "en": "water hardness"
+  },
+  "definition": "ratio of the amount of calcium and magnesium ions to a unit volume of water",
+  "definition_ml": {
+    "en": "ratio of the amount of calcium and magnesium ions to a unit volume of water"
+  },
+  "source_document": "ISO 2174:1990",
+  "synonyms": [],
+  "note": "water hardness contains more or less lime scale and may affect the product function and application.",
+  "note_ml": {
+    "en": "water hardness contains more or less lime scale and may affect the product function and application."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "TC3, SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF965",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "water hardness",
+    "MDC_P006.en": "ratio of the amount of calcium and magnesium ions to a unit volume of water",
+    "MDC_P008.en": "water hardness contains more or less lime scale and may affect the product function and application.",
+    "MDC_P023": "mmol/l",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "ISO 2174:1990",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAB500",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2013-07-04",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "TC3, SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:41",
+      "user": "BATCH 00000917",
+      "unid": "D8E0BC092A9B6F00C1257EA4004B2306",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:34",
+      "user": "BATCH 00000907",
+      "unid": "3b2ba25b70f2910cc1257e8b00323935",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "810c700ad2d35c48c1257e8a0043e729",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2013-07-04 14:32:39",
+      "user": "BATCH 00000825",
+      "unid": "be185745b2269b12c1257b9e0044e87b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2013-07-04",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAB500",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:41",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "D8E0BC092A9B6F00C1257EA4004B2306"
+  }
+}

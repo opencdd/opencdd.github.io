@@ -1,0 +1,97 @@
+{
+  "irdi": "0112/2///61360_4#ACA005",
+  "code": "ACA005",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "toleranced relative mass",
+  "preferred_name_ml": {
+    "en": "toleranced relative mass"
+  },
+  "definition": "mass of a constituent as a percent (%) of the total mass of all constituents as specified in the declaration requirements expressed as the nominal value of the quantity together with deviations from that nominal value",
+  "definition_ml": {
+    "en": "mass of a constituent as a percent (%) of the total mass of all constituents as specified in the declaration requirements expressed as the nominal value of the quantity together with deviations from that nominal value"
+  },
+  "source_document": "IEC 62474:2012",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "massPercent class"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "massPercent class"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ACA005",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "toleranced relative mass",
+    "MDC_P007.en": "massPercent class",
+    "MDC_P006.en": "mass of a constituent as a percent (%) of the total mass of all constituents as specified in the declaration requirements expressed as the nominal value of the quantity together with deviations from that nominal value",
+    "MDC_P006_1": "IEC 62474:2012",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2020-01-23",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/TC 111",
+    "MDC_P010": "0112/2///61360_4#ACA030",
+    "MDC_P014": "{0112/2///61360_4#ACB038,0112/2///61360_4#ACB036,0112/2///61360_4#ACB037}",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "C9B6B3170F0E54C1C1258994002BD18F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-01-23 16:06:11",
+      "user": "BATCH 00001176",
+      "unid": "4420eebe7aaa2e56c12584f80052f6eb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-01-23",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#ACB038",
+    "0112/2///61360_4#ACB036",
+    "0112/2///61360_4#ACB037"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ACA030",
+  "superclass_type_property": "0112/2///61360_4#ACA030",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "C9B6B3170F0E54C1C1258994002BD18F"
+  }
+}

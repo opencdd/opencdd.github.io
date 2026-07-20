@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABA411",
+  "code": "ABA411",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "style of thermocouple isolation",
+  "preferred_name_ml": {
+    "en": "style of thermocouple isolation",
+    "fr": "style d'isolation de thermocouple",
+    "de": "Ausführung der Thermoelementisolation"
+  },
+  "definition": "style of electrical isolation of the thermocouple to the insert",
+  "definition_ml": {
+    "en": "style of electrical isolation of the thermocouple to the insert",
+    "fr": "style de connexion électrique du thermocouple à l'insert",
+    "de": "Ausführung der Thermoelementisolation"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA411",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "style of thermocouple isolation",
+    "MDC_P006.en": "style of electrical isolation of the thermocouple to the insert",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ783)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "style d'isolation de thermocouple",
+    "MDC_P006.fr": "style de connexion électrique du thermocouple à l'insert",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Ausführung der Thermoelementisolation",
+    "MDC_P006.de": "Ausführung der Thermoelementisolation",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "9ACDB66D3B7203B5C1258CDC004A3A78",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "4b041ae6b8dfeaf6c1258518003c484d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "dc98bfb95e1c6d57c125825e001de67f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "41ba75d201b29660c1257cb40054bad9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ783)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ783)",
+  "value_list": "0112/2///61987#ABJ783",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "9ACDB66D3B7203B5C1258CDC004A3A78"
+  }
+}

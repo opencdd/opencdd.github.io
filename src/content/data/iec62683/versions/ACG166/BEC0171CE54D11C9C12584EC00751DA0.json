@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///62683#ACG166",
+  "code": "ACG166",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Head of the control circuit device",
+  "preferred_name_ml": {
+    "en": "Head of the control circuit device",
+    "fr": "Tête de l'appareil pour circuit de commande",
+    "de": "Kopf des Steuergeräts",
+    "zh": "控制电路电器的端头"
+  },
+  "definition": "part which contains and support the actuator or contains the lens of a panel mounted audible signalling device, fixed on an enclosure or on the body of panel mounted audible signalling device",
+  "definition_ml": {
+    "en": "part which contains and support the actuator or contains the lens of a panel mounted audible signalling device, fixed on an enclosure or on the body of panel mounted audible signalling device",
+    "fr": "partie qui contient et supporte l'actionneur ou contient le cabochon l'organe de signalisation, montée sur un boîtier ou le corps de l'organe de signalisation sonore encastrable",
+    "de": "Teil, der das Bedienteil enthält und unterstützt oder die Linse der akustischen Signaleinrichtung für Schaltschrankeinbau enthält, angebracht auf der Kapselung oder dem Gehäuse der akustischen Signaleinrichtung für Schaltschrankeinbau",
+    "zh": "包含和支撑操动器或包含面板式音频信号装置镜片的电器的部件，固定在外壳上或面板式音频信号装置的本体上。"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683DB",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00081",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG166",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Head of the control circuit device",
+    "MDC_P006.en": "part which contains and support the actuator or contains the lens of a panel mounted audible signalling device, fixed on an enclosure or on the body of panel mounted audible signalling device",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62683DB",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2020-01-11",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC017}",
+    "MDC_P090": "{0112/2///62683#ACE652,0112/2///62683#ACE627,0112/2///62683#ACE626}",
+    "MDC_P004.fr": "Tête de l'appareil pour circuit de commande",
+    "MDC_P006.fr": "partie qui contient et supporte l'actionneur ou contient le cabochon l'organe de signalisation, montée sur un boîtier ou le corps de l'organe de signalisation sonore encastrable",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Kopf des Steuergeräts",
+    "MDC_P006.de": "Teil, der das Bedienteil enthält und unterstützt oder die Linse der akustischen Signaleinrichtung für Schaltschrankeinbau enthält, angebracht auf der Kapselung oder dem Gehäuse der akustischen Signaleinrichtung für Schaltschrankeinbau",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "2",
+    "C018.de": "2019-07-31",
+    "MDC_P004.zh": "控制电路电器的端头",
+    "MDC_P006.zh": "包含和支撑操动器或包含面板式音频信号装置镜片的电器的部件，固定在外壳上或面板式音频信号装置的本体上。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "2",
+    "C018.zh": "2019-08-08",
+    "C002": "C00081"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-01-11 22:19:12",
+      "user": "BATCH 00000747",
+      "unid": "BEC0171CE54D11C9C12584EC00751DA0",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:44",
+      "user": "BATCH 00000705",
+      "unid": "ac79e07f4ffeb46bc1258034002e35f0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "1c34d2b8f423d2dfc1258030004502c6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2020-01-11",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC017"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE652",
+    "0112/2///62683#ACE627",
+    "0112/2///62683#ACE626"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-01-11 22:19:12",
+    "user": "BATCH 00000747",
+    "change_request_id": null,
+    "unid": "BEC0171CE54D11C9C12584EC00751DA0"
+  }
+}

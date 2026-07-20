@@ -1,0 +1,158 @@
+{
+  "irdi": "0112/2///61987#ABB521",
+  "code": "ABB521",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "surface roughness of wetted parts",
+  "preferred_name_ml": {
+    "en": "surface roughness of wetted parts",
+    "fr": "rugosité de surface de parties mouillées",
+    "de": "Rauigkeit benetzter Teile"
+  },
+  "definition": "finishing specification of a surface expressed as roughness, either as a maximum depth or in a standardized roughness dimension",
+  "definition_ml": {
+    "en": "finishing specification of a surface expressed as roughness, either as a maximum depth or in a standardized roughness dimension",
+    "fr": "spécification de finition d’une surface exprimée par la rugosité, sous la forme d’une profondeur maximale ou dans une dimension de rugosité normalisée",
+    "de": "als Rauigkeit ausgedrückte Spezifikation der Bearbeitung einer Oberfläche, entweder als maximale Tiefe oder als genormtes Rauigkeitsmaß"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB521",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "surface roughness of wetted parts",
+    "MDC_P006.en": "finishing specification of a surface expressed as roughness, either as a maximum depth or in a standardized roughness dimension",
+    "MDC_P023": "µm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA090",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "rugosité de surface de parties mouillées",
+    "MDC_P006.fr": "spécification de finition d’une surface exprimée par la rugosité, sous la forme d’une profondeur maximale ou dans une dimension de rugosité normalisée",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Rauigkeit benetzter Teile",
+    "MDC_P006.de": "als Rauigkeit ausgedrückte Spezifikation der Bearbeitung einer Oberfläche, entweder als maximale Tiefe oder als genormtes Rauigkeitsmaß",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "5DBE064A1E9AD876C125825E001DE9E8",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:38",
+      "user": "BATCH 00000755",
+      "unid": "8b03e145e778d181c1258256003e9704",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "74c9904c303b7b0ec125825600407a2f",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:25",
+      "user": "BATCH 00000732",
+      "unid": "fd629c7b4651170ac12580d6004c1e96",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:08",
+      "user": "BATCH 00000715",
+      "unid": "5b2a288c731ab569c1257f7f004d0224",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "d7901e20bd57892ec1257f7e0030f21a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "ca1484b9b208062ac1257fa7003a3d46",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:37",
+      "user": "BATCH 00000702",
+      "unid": "644e469f6f6e1feac1257cfb00403c70",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "b18d00d63a525935c1257cb40054be2d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA090",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:44",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "5DBE064A1E9AD876C125825E001DE9E8"
+  }
+}

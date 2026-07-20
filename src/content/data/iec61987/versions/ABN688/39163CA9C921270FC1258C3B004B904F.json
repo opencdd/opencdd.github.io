@@ -1,0 +1,100 @@
+{
+  "irdi": "0112/2///61987#ABN688",
+  "code": "ABN688",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Concentration measurement variables",
+  "preferred_name_ml": {
+    "en": "Concentration measurement variables",
+    "de": "Konzentrationsmessgrößen"
+  },
+  "definition": "properties characterizing dynamic data which are the result of a concentration measurement",
+  "definition_ml": {
+    "en": "properties characterizing dynamic data which are the result of a concentration measurement",
+    "de": "Merkmale, die dynamische Daten, die das Ergebnis einer Konzentrationsmessung sind, kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABN688",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Concentration measurement variables",
+    "MDC_P006.en": "properties characterizing dynamic data which are the result of a concentration measurement",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABF563,0112/2///61987#ABN628,0112/2///61987#ABN621,0112/2///61987#ABN622,0112/2///61987#ABN701,0112/2///61987#ABN702,0112/2///61987#ABN703,0112/2///61987#ABN704,0112/2///61987#ABN623}",
+    "MDC_P004.de": "Konzentrationsmessgrößen",
+    "MDC_P006.de": "Merkmale, die dynamische Daten, die das Ergebnis einer Konzentrationsmessung sind, kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2024-07-22",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:45:21",
+      "user": "BATCH 00000835",
+      "unid": "39163CA9C921270FC1258C3B004B904F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:11",
+      "user": "BATCH 00000778",
+      "unid": "3ec953fddf8b3f8ec1258518003fd486",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-02-24",
+    "current_revision": "2025-02-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF563",
+    "0112/2///61987#ABN628",
+    "0112/2///61987#ABN621",
+    "0112/2///61987#ABN622",
+    "0112/2///61987#ABN701",
+    "0112/2///61987#ABN702",
+    "0112/2///61987#ABN703",
+    "0112/2///61987#ABN704",
+    "0112/2///61987#ABN623"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:45:21",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "39163CA9C921270FC1258C3B004B904F"
+  }
+}

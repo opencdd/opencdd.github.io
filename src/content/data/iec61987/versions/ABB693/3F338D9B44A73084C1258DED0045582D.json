@@ -1,0 +1,125 @@
+{
+  "irdi": "0112/2///61987#ABB693",
+  "code": "ABB693",
+  "version": "3",
+  "revision": "2",
+  "preferred_name": "reference base for maximum influence of vibration on zero or lower range value",
+  "preferred_name_ml": {
+    "en": "reference base for maximum influence of vibration on zero or lower range value",
+    "fr": "base de réf. d’influence maxi des vibrations sur zéro/val. inf. d'étendue de mes",
+    "de": "Bezug der Angabe des maximalen Vibrationseinflusses"
+  },
+  "definition": "basis for stating a maximum percentage influence of vibration on zero or lower range value",
+  "definition_ml": {
+    "en": "basis for stating a maximum percentage influence of vibration on zero or lower range value",
+    "fr": "base pour énonce l'influence en pourcentage des vibrations sur le zéro ou la valeur inférieure d'étendue",
+    "de": "Bezug, auf dem die Angabe des Werts des maximalen Vibrationseinflusses in relativen Einheiten beruht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00200",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB693",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference base for maximum influence of vibration on zero or lower range value",
+    "MDC_P006.en": "basis for stating a maximum percentage influence of vibration on zero or lower range value",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-05-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2026-05-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "base de réf. d’influence maxi des vibrations sur zéro/val. inf. d'étendue de mes",
+    "MDC_P006.fr": "base pour énonce l'influence en pourcentage des vibrations sur le zéro ou la valeur inférieure d'étendue",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "1",
+    "C018.fr": "2026-04-27",
+    "MDC_P004.de": "Bezug der Angabe des maximalen Vibrationseinflusses",
+    "MDC_P006.de": "Bezug, auf dem die Angabe des Werts des maximalen Vibrationseinflusses in relativen Einheiten beruht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00200"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2026-05-04 14:37:25",
+      "user": "BATCH 00000863",
+      "unid": "3F338D9B44A73084C1258DED0045582D",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-08-04 15:30:48",
+      "user": "BATCH 00000849",
+      "unid": "3c09eb44f1de9bbec1258cdc004a3b59",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:29",
+      "user": "BATCH 00000774",
+      "unid": "06f314dacd7da081c1258518003c495a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "adf05827ad6c918ac125825e001dea91",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "bb78d70cf5d092e5c1257cb40054bed6",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2026-05-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ764)",
+  "value_list": "0112/2///61987#ABJ764",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2026-05-04 14:37:25",
+    "user": "BATCH 00000863",
+    "change_request_id": null,
+    "unid": "3F338D9B44A73084C1258DED0045582D"
+  }
+}

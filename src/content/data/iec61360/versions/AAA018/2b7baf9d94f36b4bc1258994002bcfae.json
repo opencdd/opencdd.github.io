@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61360_4#AAA018",
+  "code": "AAA018",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "primary battery",
+  "preferred_name_ml": {
+    "en": "primary battery"
+  },
+  "short_name": "PRI",
+  "short_name_ml": {
+    "en": "PRI"
+  },
+  "definition": "electrochemical system (battery) designed for delivery of electric energy in one single uninterrupted (continuous) or interrupted (intermittent) discharge",
+  "definition_ml": {
+    "en": "electrochemical system (battery) designed for delivery of electric energy in one single uninterrupted (continuous) or interrupted (intermittent) discharge"
+  },
+  "source_document": "IEC 60086-1 (1.2.1) (1993)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA018",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "PRI",
+    "MDC_P004.en": "primary battery",
+    "MDC_P006.en": "electrochemical system (battery) designed for delivery of electric energy in one single uninterrupted (continuous) or interrupted (intermittent) discharge",
+    "MDC_P006_1": "IEC 60086-1 (1.2.1) (1993)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA017",
+    "MDC_P014": "{0112/2///61360_4#AAE531}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "2b7baf9d94f36b4bc1258994002bcfae",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "6b2173fe728036ebc1257dd300515f17",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "7ca55696bbe1227ac1257d730050693d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "85b33b57ede4163dc1257a0e0047b1fd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE531"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA017",
+  "superclass_type_property": "0112/2///61360_4#AAA017",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "2b7baf9d94f36b4bc1258994002bcfae"
+  }
+}

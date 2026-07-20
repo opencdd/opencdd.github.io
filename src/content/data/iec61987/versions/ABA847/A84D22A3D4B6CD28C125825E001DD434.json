@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABA847",
+  "code": "ABA847",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Connection head",
+  "preferred_name_ml": {
+    "en": "Connection head",
+    "fr": "Tête de connexion",
+    "de": "Anschlusskopf"
+  },
+  "definition": "instrument component comprising an enclosure containing a connection element which is mechanically connected to the sensing element and which enables the installation of another instrument component such as a head-mounted transmitter or terminal block",
+  "definition_ml": {
+    "en": "instrument component comprising an enclosure containing a connection element which is mechanically connected to the sensing element and which enables the installation of another instrument component such as a head-mounted transmitter or terminal block",
+    "fr": "composant d'instrument comprenant une enceinte contenant un élément de connexion connecté mécaniquement à l'élément de détection et permettant l'installation d'un autre composant d'instrument tel qu'un transmetteur monté dans une tête ou un bloc terminal",
+    "de": "Gerätekomponente, bestehend aus einem Gehäuse, das ein Anschlusselement enthält, welches mechanisch mit dem Messgrößenaufnehmer verbunden ist und die Montage einer weiteren Gerätekomponente, z. B. eines Kopfmessumformers oder Anschlussklemmenblocks ermöglicht"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA847",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Connection head",
+    "MDC_P006.en": "instrument component comprising an enclosure containing a connection element which is mechanically connected to the sensing element and which enables the installation of another instrument component such as a head-mounted transmitter or terminal block",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABA845",
+    "MDC_P004.fr": "Tête de connexion",
+    "MDC_P006.fr": "composant d'instrument comprenant une enceinte contenant un élément de connexion connecté mécaniquement à l'élément de détection et permettant l'installation d'un autre composant d'instrument tel qu'un transmetteur monté dans une tête ou un bloc terminal",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2014-05-21",
+    "MDC_P004.de": "Anschlusskopf",
+    "MDC_P006.de": "Gerätekomponente, bestehend aus einem Gehäuse, das ein Anschlusselement enthält, welches mechanisch mit dem Messgrößenaufnehmer verbunden ist und die Montage einer weiteren Gerätekomponente, z. B. eines Kopfmessumformers oder Anschlussklemmenblocks ermöglicht",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "A84D22A3D4B6CD28C125825E001DD434",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:34",
+      "user": "BATCH 00000701",
+      "unid": "e6e35bad456b5acec1257cfb003f680f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "73481208fbdb1ae4c1257cb3002a0cf4",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA845",
+  "superclass_type_property": "0112/2///61987#ABA845",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:48",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A84D22A3D4B6CD28C125825E001DD434"
+  }
+}

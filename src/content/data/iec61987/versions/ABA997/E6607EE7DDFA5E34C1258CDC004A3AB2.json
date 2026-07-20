@@ -1,0 +1,161 @@
+{
+  "irdi": "0112/2///61987#ABA997",
+  "code": "ABA997",
+  "version": "8",
+  "revision": "1",
+  "preferred_name": "superimposed digital communication",
+  "preferred_name_ml": {
+    "en": "superimposed digital communication",
+    "fr": "communication numérique superposée",
+    "de": "überlagerte digitale Kommunikation"
+  },
+  "definition": "digital communication protocol superimposed on the analog input or output",
+  "definition_ml": {
+    "en": "digital communication protocol superimposed on the analog input or output",
+    "fr": "protocole de communication numérique superposé sur l’entrée ou sortie analogique",
+    "de": "digitales Kommunikationsprotokoll, das dem Analogeingang oder -ausgang überlagert ist"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA997",
+    "MDC_P002_1": "8",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "superimposed digital communication",
+    "MDC_P006.en": "digital communication protocol superimposed on the analog input or output",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL436)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "communication numérique superposée",
+    "MDC_P006.fr": "protocole de communication numérique superposé sur l’entrée ou sortie analogique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "überlagerte digitale Kommunikation",
+    "MDC_P006.de": "digitales Kommunikationsprotokoll, das dem Analogeingang oder -ausgang überlagert ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "008",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:46",
+      "user": "BATCH 00000849",
+      "unid": "E6607EE7DDFA5E34C1258CDC004A3AB2",
+      "is_current": true
+    },
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "a4c1bccc465dbea3c1258518003c4899",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "91dd00ad8deb7f90c125825e001de7e0",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:29",
+      "user": "BATCH 00000755",
+      "unid": "5d81553999043e86c1258256003e937c",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:20",
+      "user": "BATCH 00000732",
+      "unid": "451f3016c8305569c12580d6004c1c8f",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "692f3560e4a0f82cc1257f7e0030f1e1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "d8c4f2fd594528bac1257fa7003a3d1c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "7395fc4bb5c27427c1257cfb00403a69",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "51d0bc4d8c69e7d9c1257cb40054bc26",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL436)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL436)",
+  "value_list": "0112/2///61987#ABL436",
+  "is_current": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:46",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "E6607EE7DDFA5E34C1258CDC004A3AB2"
+  }
+}

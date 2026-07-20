@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61987#ABA837",
+  "code": "ABA837",
+  "version": "2",
+  "revision": "2",
+  "preferred_name": "Contact temperature transmitter",
+  "preferred_name_ml": {
+    "en": "Contact temperature transmitter",
+    "de": "Berührender Temperaturmessumformer"
+  },
+  "definition": "temperature transmitter, the sensing element of which is in contact with the media or object being measured",
+  "definition_ml": {
+    "en": "temperature transmitter, the sensing element of which is in contact with the media or object being measured",
+    "de": "Temperaturmessumformer, dessen Messgrößenaufnehmer in Kontakt mit dem Medium oder dem Objekt steht, das gemessen werden soll"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABA837",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Contact temperature transmitter",
+    "MDC_P006.en": "temperature transmitter, the sensing element of which is in contact with the media or object being measured",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-11-22",
+    "MDC_P003_1": "2014-12-17",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2023-11-22",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABA835",
+    "MDC_P014": "{0112/2///61987#ABF897}",
+    "MDC_P004.de": "Berührender Temperaturmessumformer",
+    "MDC_P006.de": "Temperaturmessumformer, dessen Messgrößenaufnehmer in Kontakt mit dem Medium oder dem Objekt steht, das gemessen werden soll",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-17",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-11-22 15:56:07",
+      "user": "BATCH 00000816",
+      "unid": "9160828600A700FBC1258A6F00520AE3",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:25:48",
+      "user": "BATCH 00000762",
+      "unid": "a8070e9d2003e01bc125825e001dd41c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:32:33",
+      "user": "BATCH 00000701",
+      "unid": "71595651c7069136c1257cfb003f6806",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-07 09:39:18",
+      "user": "BATCH 00000696",
+      "unid": "83934d1cdb1badbcc1257cb3002a0ceb",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2014-12-17",
+    "current_version": "2016-05-24",
+    "current_revision": "2023-11-22"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABF897"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABA835",
+  "superclass_type_property": "0112/2///61987#ABA835",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-11-22 15:56:07",
+    "user": "BATCH 00000816",
+    "change_request_id": null,
+    "unid": "9160828600A700FBC1258A6F00520AE3"
+  }
+}

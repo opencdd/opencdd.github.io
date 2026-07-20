@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABH808",
+  "code": "ABH808",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "environmental condition class",
+  "preferred_name_ml": {
+    "en": "environmental condition class",
+    "de": "Klasse der Umgebungsbedingungen"
+  },
+  "definition": "alphanumeric character sequence denoting a set of environmental conditions to which the equipment is or can be subjected to during operation",
+  "definition_ml": {
+    "en": "alphanumeric character sequence denoting a set of environmental conditions to which the equipment is or can be subjected to during operation",
+    "de": "alphanumerische Zeichenfolge, die eine Reihe von Umgebungsbedingungen bezeichnet, denen das Gerät während des Betriebs ausgesetzt ist oder ausgesetzt werden kann"
+  },
+  "synonyms": [],
+  "note": "The IEC 60721 series defines classes for climatic, mechanical and other environmental influences.",
+  "note_ml": {
+    "en": "The IEC 60721 series defines classes for climatic, mechanical and other environmental influences.",
+    "de": "Die Normreihe IEC 60721 definiert Klassen für klimatische, mechanische und andere Umwelteinflüsse."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH808",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "environmental condition class",
+    "MDC_P006.en": "alphanumeric character sequence denoting a set of environmental conditions to which the equipment is or can be subjected to during operation",
+    "MDC_P008.en": "The IEC 60721 series defines classes for climatic, mechanical and other environmental influences.",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2026-02-03",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "Klasse der Umgebungsbedingungen",
+    "MDC_P006.de": "alphanumerische Zeichenfolge, die eine Reihe von Umgebungsbedingungen bezeichnet, denen das Gerät während des Betriebs ausgesetzt ist oder ausgesetzt werden kann",
+    "MDC_P008.de": "Die Normreihe IEC 60721 definiert Klassen für klimatische, mechanische und andere Umwelteinflüsse.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-10-13",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:25:33",
+      "user": "BATCH 00000857",
+      "unid": "D2B9C2F87B998368C1258D930049C062",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:31:59",
+      "user": "BATCH 00000818",
+      "unid": "5ef1c208927ff88bc1258a7d0039dc32",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:30",
+      "user": "BATCH 00000766",
+      "unid": "9ed3af93af8c405ec12583b7005027e1",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2026-02-03",
+    "current_revision": "2026-02-03"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:25:33",
+    "user": "BATCH 00000857",
+    "change_request_id": null,
+    "unid": "D2B9C2F87B998368C1258D930049C062"
+  }
+}

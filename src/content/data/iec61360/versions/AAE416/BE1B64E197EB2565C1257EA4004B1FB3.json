@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#AAE416",
+  "code": "AAE416",
+  "version": "6",
+  "revision": "4",
+  "preferred_name": "collector-emitter sat voltage",
+  "preferred_name_ml": {
+    "en": "collector-emitter sat voltage"
+  },
+  "short_name": "V_CEsat",
+  "short_name_ml": {
+    "en": "V_CEsat"
+  },
+  "definition": "value of the collector-emitter voltage of a bipolar transistor above which there is no significant change in collector current, at specified conditions",
+  "definition_ml": {
+    "en": "value of the collector-emitter voltage of a bipolar transistor above which there is no significant change in collector current, at specified conditions"
+  },
+  "source_document": "IEC 60148 (II.3.1) (1969)",
+  "synonyms": [],
+  "note": "In saturation mode both the base-emitter and base-collector junctions are forward biased.",
+  "note_ml": {
+    "en": "In saturation mode both the base-emitter and base-collector junctions are forward biased."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE416",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "collector-emitter sat voltage",
+    "MDC_P005.en": "V_CEsat",
+    "MDC_P006.en": "value of the collector-emitter voltage of a bipolar transistor above which there is no significant change in collector current, at specified conditions",
+    "MDC_P008.en": "In saturation mode both the base-emitter and base-collector junctions are forward biased.",
+    "MDC_P025_1": "V_CEsat}",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2 S..3.3",
+    "MDC_P006_1": "IEC 60148 (II.3.1) (1969)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2008-02-25",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE271,0112/2///61360_4#AAE406,0112/2///61360_4#AAE409}"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "BE1B64E197EB2565C1257EA4004B1FB3",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:26",
+      "user": "BATCH 00000907",
+      "unid": "901a9a6c11b4aa95c1257e8b00323602",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:32",
+      "user": "BATCH 00000904",
+      "unid": "e043f0975b81d0c3c1257e8a0043e3d6",
+      "is_current": false
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-31 14:10:10",
+      "user": "BATCH 00000733",
+      "unid": "f9fc28f1d4ff34ecc12578fd0042d97c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2008-02-25",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "V_CEsat}",
+  "value_format": "NR2 S..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 S..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE271,0112/2///61360_4#AAE406,0112/2///61360_4#AAE409}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:33",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "BE1B64E197EB2565C1257EA4004B1FB3"
+  }
+}

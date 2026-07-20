@@ -1,0 +1,149 @@
+{
+  "irdi": "0112/2///61987#ABB280",
+  "code": "ABB280",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "type of communication profile",
+  "preferred_name_ml": {
+    "en": "type of communication profile",
+    "fr": "type de profil de communication",
+    "de": "Art des Kommunikationsprofils"
+  },
+  "definition": "classification of a communication profile according to IEC 61784-1",
+  "definition_ml": {
+    "en": "classification of a communication profile according to IEC 61784-1",
+    "fr": "classification d'un profil de communication selon la CEI 61784",
+    "de": "Charakterisierung eines Kommunikationsprofils bezüglich der IEC 61784"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB280",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of communication profile",
+    "MDC_P006.en": "classification of a communication profile according to IEC 61784-1",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "type de profil de communication",
+    "MDC_P006.fr": "classification d'un profil de communication selon la CEI 61784",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Art des Kommunikationsprofils",
+    "MDC_P006.de": "Charakterisierung eines Kommunikationsprofils bezüglich der IEC 61784",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:55",
+      "user": "BATCH 00000818",
+      "unid": "1CADDAC15F5CD94CC1258A7D0039DA9D",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "60ea0bb38059c497c125825e001de8f9",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "f0beb4104ac3237ec1258256003e93a1",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:23",
+      "user": "BATCH 00000732",
+      "unid": "eec8b6454e11f0dbc12580d6004c1da7",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:36",
+      "user": "BATCH 00000714",
+      "unid": "dc878ed1729c5c93c1257f7e0030f202",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-05-02 12:36:07",
+      "user": "BATCH 00000716",
+      "unid": "6298c05d3b4a466cc1257fa7003a3d35",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:35",
+      "user": "BATCH 00000702",
+      "unid": "521c33f33c2e7130c1257cfb00403b81",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "038d9829947322cac1257cb40054bd3e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:55",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "1CADDAC15F5CD94CC1258A7D0039DA9D"
+  }
+}

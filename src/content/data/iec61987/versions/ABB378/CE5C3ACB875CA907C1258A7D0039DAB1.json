@@ -1,0 +1,106 @@
+{
+  "irdi": "0112/2///61987#ABB378",
+  "code": "ABB378",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "identification of process material component",
+  "preferred_name_ml": {
+    "en": "identification of process material component",
+    "fr": "identification du composant de matériau de processus",
+    "de": "Kennung der Stoffkomponente"
+  },
+  "definition": "alphanumeric character sequence uniquely identifying a process material component",
+  "definition_ml": {
+    "en": "alphanumeric character sequence uniquely identifying a process material component",
+    "fr": "séquence de caractères alphanumériques identifiant de manière unique un composant de matériau de processus",
+    "de": "alphanumerische Zeichenfolge, die eine Komponente eines Stoffs eindeutig identifiziert"
+  },
+  "source_document": "IEC 62424 MOD",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB378",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "identification of process material component",
+    "MDC_P006.en": "alphanumeric character sequence uniquely identifying a process material component",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P006_1": "IEC 62424 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "identification du composant de matériau de processus",
+    "MDC_P006.fr": "séquence de caractères alphanumériques identifiant de manière unique un composant de matériau de processus",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Kennung der Stoffkomponente",
+    "MDC_P006.de": "alphanumerische Zeichenfolge, die eine Komponente eines Stoffs eindeutig identifiziert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:55",
+      "user": "BATCH 00000818",
+      "unid": "CE5C3ACB875CA907C1258A7D0039DAB1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:42",
+      "user": "BATCH 00000762",
+      "unid": "3ab04a1ce01da84bc125825e001de95b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:35",
+      "user": "BATCH 00000699",
+      "unid": "a02404e04a1824c8c1257cb40054bda0",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:55",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "CE5C3ACB875CA907C1258A7D0039DAB1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA270",
+  "code": "ABA270",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2022-12-09 09:47:21",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "cebbff39a34bb2a1c12589130030481e"
+  }
+}

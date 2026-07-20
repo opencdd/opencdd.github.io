@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61360_4#AAF413",
+  "code": "AAF413",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "angle axis to z-axis",
+  "preferred_name_ml": {
+    "en": "angle axis to z-axis"
+  },
+  "short_name": "$a_z",
+  "short_name_ml": {
+    "en": "$a_z"
+  },
+  "definition": "value of the angle between the orientation of the axis of a constructive solid geometry primitive and the Z-axis of the placement coordinate system",
+  "definition_ml": {
+    "en": "value of the angle between the orientation of the axis of a constructive solid geometry primitive and the Z-axis of the placement coordinate system"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF413",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "angle axis to z-axis",
+    "MDC_P005.en": "$a_z",
+    "MDC_P006.en": "value of the angle between the orientation of the axis of a constructive solid geometry primitive and the Z-axis of the placement coordinate system",
+    "MDC_P025_1": "α_z}",
+    "MDC_P023": "°",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2 S..3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA024",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "0E5ED23D9F80FA7FC1257EA4004B2261",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "377995c1320f6695c1257e8b003238a4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "4227c9c7e6455ba0c1257e8a0043e684",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "c08d7fc71d7aa846c1257a0e0047beb2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "5ca79571a50019d6c1257a0e0046dc32",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "α_z}",
+  "value_format": "NR2 S..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA024",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 S..3.3",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:40",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "0E5ED23D9F80FA7FC1257EA4004B2261"
+  }
+}

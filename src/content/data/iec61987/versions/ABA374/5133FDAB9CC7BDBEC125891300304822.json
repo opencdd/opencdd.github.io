@@ -1,0 +1,126 @@
+{
+  "irdi": "0112/2///61987#ABA374",
+  "code": "ABA374",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "upper current limit of proportional range",
+  "preferred_name_ml": {
+    "en": "upper current limit of proportional range",
+    "fr": "limite de courant supérieure d'étendue proportionnelle",
+    "de": "oberer Stromgrenzwert des Proportionalbereichs"
+  },
+  "definition": "highest value that a current signal can assume and still exhibit linear behaviour",
+  "definition_ml": {
+    "en": "highest value that a current signal can assume and still exhibit linear behaviour",
+    "fr": "valeur la plus élevée qu'un signal de courant peut prendre en étant encore proportionnel au signal de mesure",
+    "de": "höchster Wert, den ein Stromsignal annehmen kann, ohne dass das Signal nichtlinear wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA374",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "upper current limit of proportional range",
+    "MDC_P006.en": "highest value that a current signal can assume and still exhibit linear behaviour",
+    "MDC_P023": "mA",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA775",
+    "C0104": "0112/2///61987#ABT567",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "limite de courant supérieure d'étendue proportionnelle",
+    "MDC_P006.fr": "valeur la plus élevée qu'un signal de courant peut prendre en étant encore proportionnel au signal de mesure",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "oberer Stromgrenzwert des Proportionalbereichs",
+    "MDC_P006.de": "höchster Wert, den ein Stromsignal annehmen kann, ohne dass das Signal nichtlinear wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:21",
+      "user": "BATCH 00000803",
+      "unid": "5133FDAB9CC7BDBEC125891300304822",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "97f2d8e7a71b7d17c125825e001de660",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "be68dbe7f2f18f25c1257fa70040590f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:28",
+      "user": "BATCH 00000702",
+      "unid": "6ac1d703efed487cc1257cfb004038fd",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "92a34d404b21c872c1257cb40054baba",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA775",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:21",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "5133FDAB9CC7BDBEC125891300304822"
+  }
+}

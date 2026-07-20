@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABD714",
+  "code": "ABD714",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "step response time T86",
+  "preferred_name_ml": {
+    "en": "step response time T86",
+    "de": "Sprungantwortzeit t86"
+  },
+  "definition": "interval of time between initiation of an input signal step change and the moment that the, response of a dynamic reaches 86,5 % of its full steady-state value",
+  "definition_ml": {
+    "en": "interval of time between initiation of an input signal step change and the moment that the, response of a dynamic reaches 86,5 % of its full steady-state value",
+    "de": "zeitlicher Abstand zwischen dem Aufbringen einer Sprungfunktion auf das Eingangsignal bis zu dem Zeitpunkt, wo die Antwortfunktion 86,5% des entsprechenden Wertes im Ruhezustand erreicht"
+  },
+  "source_document": "IEC 60534-9",
+  "synonyms": [],
+  "note": "The step response time includes the dead time before the dynamic response.",
+  "note_ml": {
+    "en": "The step response time includes the dead time before the dynamic response.",
+    "de": "Die Sprungantwortzeit beinhaltet auch die Totzeit bis zum Einsetzen der dynamischen Sprungantwort."
+  },
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD714",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "step response time T86",
+    "MDC_P006.en": "interval of time between initiation of an input signal step change and the moment that the, response of a dynamic reaches 86,5 % of its full steady-state value",
+    "MDC_P008.en": "The step response time includes the dead time before the dynamic response.",
+    "MDC_P023": "s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60534-9",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C0104": "0112/2///61987#ABT510",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P004.de": "Sprungantwortzeit t86",
+    "MDC_P006.de": "zeitlicher Abstand zwischen dem Aufbringen einer Sprungfunktion auf das Eingangsignal bis zu dem Zeitpunkt, wo die Antwortfunktion 86,5% des entsprechenden Wertes im Ruhezustand erreicht",
+    "MDC_P008.de": "Die Sprungantwortzeit beinhaltet auch die Totzeit bis zum Einsetzen der dynamischen Sprungantwort.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "A0809A7F9CD4AE47C125825E001DEF08",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:58",
+      "user": "BATCH 00000717",
+      "unid": "ff4e4906de9235f3c1257fa700405c22",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:50",
+      "user": "BATCH 00000702",
+      "unid": "72373285148024c5c1257cfb0040418e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "2559648b95a33f03c1257cb40054c34b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "A0809A7F9CD4AE47C125825E001DEF08"
+  }
+}

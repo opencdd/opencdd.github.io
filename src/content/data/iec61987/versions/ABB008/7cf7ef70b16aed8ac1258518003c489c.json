@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABB008",
+  "code": "ABB008",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "008",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:27",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "7cf7ef70b16aed8ac1258518003c489c"
+  }
+}

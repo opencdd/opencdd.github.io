@@ -1,0 +1,98 @@
+{
+  "irdi": "0112/2///61360_4#AAA582",
+  "code": "AAA582",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "fibre optic branch",
+  "preferred_name_ml": {
+    "en": "fibre optic branch"
+  },
+  "short_name": "BRA",
+  "short_name_ml": {
+    "en": "BRA"
+  },
+  "definition": "fibre optic branch",
+  "definition_ml": {
+    "en": "fibre optic branch"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA582",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "BRA",
+    "MDC_P004.en": "fibre optic branch",
+    "MDC_P006.en": "fibre optic branch",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2020-08-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA578",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:36",
+      "user": "BATCH 00001245",
+      "unid": "87836ae0b81dd37fc1258994002bd139",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2020-08-11 12:06:12",
+      "user": "BATCH 00001197",
+      "unid": "a5b0d38a2b553a12c12585c100377ff9",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:22",
+      "user": "BATCH 00000879",
+      "unid": "d6ebc254a129f121c1257d7300506b0e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2020-08-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA578",
+  "superclass_type_property": "0112/2///61360_4#AAA578",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:36",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "87836ae0b81dd37fc1258994002bd139"
+  }
+}

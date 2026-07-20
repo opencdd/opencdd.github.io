@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAG055",
+  "code": "AAG055",
+  "version": "2",
+  "revision": "6",
+  "preferred_name": "body variant code",
+  "preferred_name_ml": {
+    "en": "body variant code"
+  },
+  "short_name": "body variant",
+  "short_name_ml": {
+    "en": "body variant"
+  },
+  "definition": "code of the name which identifies a particular variant of the shape of the body on a package",
+  "definition_ml": {
+    "en": "code of the name which identifies a particular variant of the shape of the body on a package"
+  },
+  "source_document": "IEC 60191-4 : 1999",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAG055",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "6",
+    "MDC_P004.en": "body variant code",
+    "MDC_P005.en": "body variant",
+    "MDC_P006.en": "code of the name which identifies a particular variant of the shape of the body on a package",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA246)",
+    "MDC_P024": "M 4",
+    "MDC_P006_1": "IEC 60191-4 : 1999",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A57",
+    "MDC_P021": "0112/2///61360_4#AAA303",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2003-02-21",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "06",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:42",
+      "user": "BATCH 00000917",
+      "unid": "E86B94725B2B57ACC1257EA4004B235D",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:35",
+      "user": "BATCH 00000907",
+      "unid": "293b38245924ad0dc1257e8b0032398c",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:41",
+      "user": "BATCH 00000904",
+      "unid": "6476659830a5e073c1257e8a0043e780",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2011-08-31 17:08:48",
+      "user": "BATCH 00000744",
+      "unid": "85cba22b2598a877c12578fd00533429",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2003-02-21",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M 4",
+  "definition_class_irdi": "0112/2///61360_4#AAA303",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA246)",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA246)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "06",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:42",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "E86B94725B2B57ACC1257EA4004B235D"
+  }
+}

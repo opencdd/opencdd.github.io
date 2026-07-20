@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61360_4#AAA512",
+  "code": "AAA512",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "fixed chip resistor",
+  "preferred_name_ml": {
+    "en": "fixed chip resistor"
+  },
+  "definition": "fixed resistor intended for surface-mount applications",
+  "definition_ml": {
+    "en": "fixed resistor intended for surface-mount applications"
+  },
+  "source_document": "EIAJ",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "chip"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "chip"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA512",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "fixed chip resistor",
+    "MDC_P007.en": "chip",
+    "MDC_P006.en": "fixed resistor intended for surface-mount applications",
+    "MDC_P006_1": "EIAJ",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2011-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA092",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:35",
+      "user": "BATCH 00001245",
+      "unid": "69e5d190f4eaa7dfc1258994002bd106",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:49",
+      "user": "BATCH 00000890",
+      "unid": "cf9f44a694e4019ec1257dd300515ff8",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:20",
+      "user": "BATCH 00000879",
+      "unid": "aa258d18d2faced2c1257d7300506a1f",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2011-08-16 15:50:17",
+      "user": "BATCH 00000717",
+      "unid": "8ff7cbda68066ef5c12578ee004c041d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2011-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA092",
+  "superclass_type_property": "0112/2///61360_4#AAA092",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:35",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "69e5d190f4eaa7dfc1258994002bd106"
+  }
+}

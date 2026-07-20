@@ -1,0 +1,107 @@
+{
+  "irdi": "0112/2///61360_4#AAF463",
+  "code": "AAF463",
+  "version": "2",
+  "revision": "5",
+  "preferred_name": "toleranced resistance",
+  "preferred_name_ml": {
+    "en": "toleranced resistance"
+  },
+  "short_name": "R",
+  "short_name_ml": {
+    "en": "R"
+  },
+  "definition": "value of the resistance of a fixed linear resistor together with its tolerances at specified reference conditions",
+  "definition_ml": {
+    "en": "value of the resistance of a fixed linear resistor together with its tolerances at specified reference conditions"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF463",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "toleranced resistance",
+    "MDC_P005.en": "R",
+    "MDC_P006.en": "value of the resistance of a fixed linear resistor together with its tolerances at specified reference conditions",
+    "MDC_P025_1": "R",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA239)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E33",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "2001-06-01",
+    "MDC_P003_2": "2011-02-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE995}"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "98A16868B5D766D6C1257EA4004B229E",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "fe68d618d74748dec1257e8b003238d2",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "ff9fb6722f6bf056c1257e8a0043e6c1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2011-04-27 14:07:59",
+      "user": "BATCH 00000704",
+      "unid": "7a41a7db30b23e38c125787f0042a671",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2001-06-01",
+    "current_version": "2011-02-15",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "R",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA239)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE995}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61360_4#AAA239)",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:40",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "98A16868B5D766D6C1257EA4004B229E"
+  }
+}

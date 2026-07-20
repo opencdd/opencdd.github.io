@@ -1,0 +1,165 @@
+{
+  "irdi": "0112/2///61987#ABA574",
+  "code": "ABA574",
+  "version": "7",
+  "revision": "1",
+  "preferred_name": "height",
+  "preferred_name_ml": {
+    "en": "height",
+    "de": "Höhe"
+  },
+  "definition": "vertical distance between the top and bottom of an object when standing in its normal position of use",
+  "definition_ml": {
+    "en": "vertical distance between the top and bottom of an object when standing in its normal position of use",
+    "de": "Vertikalabstand zwischen der Ober- und Unterseite eines Objekts in seiner normalen Benutzungsstellung"
+  },
+  "synonyms": [],
+  "note": "Height is orthogonal to length, width and depth.",
+  "note_ml": {
+    "en": "Height is orthogonal to length, width and depth.",
+    "de": "Höhe ist orthogonal zu Länge, Breite und Tiefe."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00091",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA574",
+    "MDC_P002_1": "7",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "height",
+    "MDC_P006.en": "vertical distance between the top and bottom of an object when standing in its normal position of use",
+    "MDC_P008.en": "Height is orthogonal to length, width and depth.",
+    "MDC_P023": "mm",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA862",
+    "C0104": "0112/2///61987#ABT548",
+    "C016": "Standard",
+    "MDC_P003_0": "2020-02-24",
+    "MDC_P003_2": "2020-02-24",
+    "MDC_P003_3": "2020-02-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Höhe",
+    "MDC_P006.de": "Vertikalabstand zwischen der Ober- und Unterseite eines Objekts in seiner normalen Benutzungsstellung",
+    "MDC_P008.de": "Höhe ist orthogonal zu Länge, Breite und Tiefe.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-18",
+    "C002": "C00091"
+  },
+  "version_history": [
+    {
+      "version": "007",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2020-02-24 11:58:27",
+      "user": "BATCH 00000774",
+      "unid": "63751ED1539522D6C1258518003C486D",
+      "is_current": true
+    },
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2019-03-08 15:35:28",
+      "user": "BATCH 00000766",
+      "unid": "5e7d5b257d66fb6bc12583b7005026f5",
+      "is_current": false
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:37",
+      "user": "BATCH 00000762",
+      "unid": "aa1315e995d51b39c125825e001de734",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:31",
+      "user": "BATCH 00000755",
+      "unid": "a4aac226843af801c1258256003e9429",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:15",
+      "user": "BATCH 00000756",
+      "unid": "85e9b30f7b1b829cc125825600407a1e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:18",
+      "user": "BATCH 00000732",
+      "unid": "d88fefcea7c6b9b0c12580d6004c1be0",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:03",
+      "user": "BATCH 00000715",
+      "unid": "da54864926579597c1257f7f004d0068",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "8057a64956e279b3c1257fa700405957",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:30",
+      "user": "BATCH 00000702",
+      "unid": "64cb802d1519a413c1257cfb004039ba",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:30",
+      "user": "BATCH 00000699",
+      "unid": "97fe2f1dd5298357c1257cb40054bb77",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2020-02-24",
+    "current_revision": "2020-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA862",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "007",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2020-02-24 11:58:27",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "63751ED1539522D6C1258518003C486D"
+  }
+}

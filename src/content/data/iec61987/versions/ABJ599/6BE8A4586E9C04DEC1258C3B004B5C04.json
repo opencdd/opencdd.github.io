@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61987#ABJ599",
+  "code": "ABJ599",
+  "version": "4",
+  "revision": "2",
+  "preferred_name": "set password",
+  "preferred_name_ml": {
+    "en": "set password",
+    "de": "gesetztes Kennwort"
+  },
+  "short_name": "Password",
+  "short_name_ml": {
+    "en": "Password",
+    "de": "Kennwort"
+  },
+  "definition": "value of the password or secret key to log into a device or system",
+  "definition_ml": {
+    "en": "value of the password or secret key to log into a device or system",
+    "de": "Wert des Kennworts oder des geheimen Schlüssels zur Anmeldung an einem Gerät oder System"
+  },
+  "synonyms": [],
+  "note": "This is the default password or the individually chosen and stored password.",
+  "note_ml": {
+    "en": "This is the default password or the individually chosen and stored password.",
+    "de": "Dies ist das Default-Passwort oder ein individuell gewähltes und gespeichertes Passwort."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00172",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABJ599",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "set password",
+    "MDC_P005.en": "Password",
+    "MDC_P006.en": "value of the password or secret key to log into a device or system",
+    "MDC_P008.en": "This is the default password or the individually chosen and stored password.",
+    "MDC_P022": "NON_TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-02-24",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-06-28",
+    "MDC_P003_3": "2025-02-24",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "gesetztes Kennwort",
+    "MDC_P005.de": "Kennwort",
+    "MDC_P006.de": "Wert des Kennworts oder des geheimen Schlüssels zur Anmeldung an einem Gerät oder System",
+    "MDC_P008.de": "Dies ist das Default-Passwort oder ein individuell gewähltes und gespeichertes Passwort.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-09-15",
+    "C002": "C00172"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2025-02-24 14:43:07",
+      "user": "BATCH 00000835",
+      "unid": "6BE8A4586E9C04DEC1258C3B004B5C04",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2023-12-06 11:32:00",
+      "user": "BATCH 00000818",
+      "unid": "0f4b74df6cf8e207c1258a7d0039dc8e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:54",
+      "user": "BATCH 00000794",
+      "unid": "3826145f04b6501fc125886f003c9976",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "84425b576dff2e81c1258518003c4ab8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:27:17",
+      "user": "BATCH 00000762",
+      "unid": "6506b9fa2f607dcbc125825e001df6da",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-06-28",
+    "current_revision": "2025-02-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "NON_TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2025-02-24 14:43:07",
+    "user": "BATCH 00000835",
+    "change_request_id": null,
+    "unid": "6BE8A4586E9C04DEC1258C3B004B5C04"
+  }
+}

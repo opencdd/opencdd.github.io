@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABD686",
+  "code": "ABD686",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "position of angular limit stop",
+  "preferred_name_ml": {
+    "en": "position of angular limit stop",
+    "de": "Position der Winkelbegrenzung"
+  },
+  "definition": "position of the angular limit stop measured from the close or zero position",
+  "definition_ml": {
+    "en": "position of the angular limit stop measured from the close or zero position",
+    "de": "Position der Winkelbegrenzung, von der Geschlossen- oder Nullstellung aus gemessen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD686",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "position of angular limit stop",
+    "MDC_P006.en": "position of the angular limit stop measured from the close or zero position",
+    "MDC_P023": "°",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA024",
+    "C0104": "0112/2///61987#ABT580",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P004.de": "Position der Winkelbegrenzung",
+    "MDC_P006.de": "Position der Winkelbegrenzung, von der Geschlossen- oder Nullstellung aus gemessen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "92AAC5C8FA75351CC125825E001DEEEC",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:58",
+      "user": "BATCH 00000717",
+      "unid": "af9be85b53d3daf4c1257fa700405c16",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:50",
+      "user": "BATCH 00000702",
+      "unid": "f1e70ba735feb85fc1257cfb00404172",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:49",
+      "user": "BATCH 00000699",
+      "unid": "502d3e13acfe8f99c1257cb40054c32f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA024",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "92AAC5C8FA75351CC125825E001DEEEC"
+  }
+}

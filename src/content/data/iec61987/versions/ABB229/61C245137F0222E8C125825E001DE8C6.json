@@ -1,0 +1,111 @@
+{
+  "irdi": "0112/2///61987#ABB229",
+  "code": "ABB229",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "lower range-value of other variable",
+  "preferred_name_ml": {
+    "en": "lower range-value of other variable",
+    "fr": "valeur de plage inférieure d'une autre variable",
+    "de": "Bereichsanfangswert für weitere Messgröße"
+  },
+  "definition": "other variable value assigned to the lower range end-value of the input or output signal",
+  "definition_ml": {
+    "en": "other variable value assigned to the lower range end-value of the input or output signal",
+    "fr": "valeur d'autre variable assignée à la valeur inférieure d'extrémité de plage du signal d'entrée ou de sortie",
+    "de": "Wert für weitere Messgröße, der dem Bereichsanfangswert des Eingangs- oder Ausgangssignals zugeordnet ist"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "lower range-value"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "lower range-value",
+    "de": "Bereichsanfangswert"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB229",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "lower range-value of other variable",
+    "MDC_P007.en": "lower range-value",
+    "MDC_P006.en": "other variable value assigned to the lower range end-value of the input or output signal",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2014-03-13",
+    "MDC_P003_3": "2016-05-02",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "valeur de plage inférieure d'une autre variable",
+    "MDC_P006.fr": "valeur d'autre variable assignée à la valeur inférieure d'extrémité de plage du signal d'entrée ou de sortie",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Bereichsanfangswert für weitere Messgröße",
+    "MDC_P007.de": "Bereichsanfangswert",
+    "MDC_P006.de": "Wert für weitere Messgröße, der dem Bereichsanfangswert des Eingangs- oder Ausgangssignals zugeordnet ist",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:41",
+      "user": "BATCH 00000762",
+      "unid": "61C245137F0222E8C125825E001DE8C6",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:34",
+      "user": "BATCH 00000702",
+      "unid": "f9e65e0602f4128cc1257cfb00403b4e",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:34",
+      "user": "BATCH 00000699",
+      "unid": "7bb3aa796e0e12d6c1257cb40054bd0b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2014-03-13",
+    "current_revision": "2016-05-02"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:41",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "61C245137F0222E8C125825E001DE8C6"
+  }
+}

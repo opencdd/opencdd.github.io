@@ -1,0 +1,142 @@
+{
+  "irdi": "0112/2///62683#ACG066",
+  "code": "ACG066",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Electronic element",
+  "preferred_name_ml": {
+    "en": "Electronic element",
+    "fr": "Elément électronique",
+    "de": "Elektronisches Element",
+    "zh": "电子组件"
+  },
+  "definition": "element of electronic technology non evaluated according to a functional safety standard, provided with reliability data and which needs to be integrated specifically into a subsystem",
+  "definition_ml": {
+    "en": "element of electronic technology non evaluated according to a functional safety standard, provided with reliability data and which needs to be integrated specifically into a subsystem",
+    "fr": "élément de technologie électronique non évalué selon une norme de sécurité fonctionnelle, pourvu de données de fiabilité et qui doit être intégré spécifiquement dans un sous-système",
+    "de": "Element basierend auf Elektronik, das nicht gemäß einer funktionalen Sicherheitsnorm bewertet wurde, mit Funktionsfähigkeitskeitsdaten versehen ist und speziell in ein Teilsystem integriert werden muss",
+    "zh": "未根据功能安全标准进行评估的电子技术组件，提供可靠性数据，需要专门集成到子系统中"
+  },
+  "source_document": "Derived from ISO 13849:2022, O.1.3",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "device type 2"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "device type 2",
+    "fr": "dispositif de type 2"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "responsible_committee": "IEC/TC 121",
+  "change_request_id": "C00094",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACG066",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Electronic element",
+    "MDC_P007.en": "device type 2",
+    "MDC_P006.en": "element of electronic technology non evaluated according to a functional safety standard, provided with reliability data and which needs to be integrated specifically into a subsystem",
+    "MDC_P006_1": "Derived from ISO 13849:2022, O.1.3",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-09-25",
+    "MDC_P003_1": "2013-07-29",
+    "MDC_P003_2": "2025-09-26",
+    "MDC_P003_3": "2025-09-26",
+    "MDC_P012": "IEC/TC 121",
+    "MDC_P010": "0112/2///62683#ACG000",
+    "MDC_P013": "{0112/2///62683#ACC077,0112/2///62683#ACC078}",
+    "MDC_P090": "{0112/2///62683#ACE057,0112/2///62683#ACE058}",
+    "MDC_P004.fr": "Elément électronique",
+    "MDC_P007.fr": "dispositif de type 2",
+    "MDC_P006.fr": "élément de technologie électronique non évalué selon une norme de sécurité fonctionnelle, pourvu de données de fiabilité et qui doit être intégré spécifiquement dans un sous-système",
+    "C019.fr": "IEC TC 121/WG 3",
+    "C017.fr": "1",
+    "C018.fr": "2021-10-05",
+    "MDC_P004.de": "Elektronisches Element",
+    "MDC_P006.de": "Element basierend auf Elektronik, das nicht gemäß einer funktionalen Sicherheitsnorm bewertet wurde, mit Funktionsfähigkeitskeitsdaten versehen ist und speziell in ein Teilsystem integriert werden muss",
+    "C019.de": "DKE, Silvio Foertsch",
+    "C017.de": "1",
+    "C018.de": "2025-09-01",
+    "MDC_P004.zh": "电子组件",
+    "MDC_P006.zh": "未根据功能安全标准进行评估的电子技术组件，提供可靠性数据，需要专门集成到子系统中",
+    "C019.zh": "SAC,Jia Feng",
+    "C017.zh": "1",
+    "C018.zh": "2025-08-05",
+    "C002": "C00094"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-09-25 19:16:19",
+      "user": "BATCH 00000840",
+      "unid": "9A7503BEE9FA2CE5C1258D10005EE0F1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2024-09-19 22:57:05",
+      "user": "BATCH 00000811",
+      "unid": "c511cbcda58066abc1258b9d00731728",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-09-20 10:24:43",
+      "user": "BATCH 00000705",
+      "unid": "b94c3bd74699c716c1258034002e3594",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:46",
+      "user": "BATCH 00000703",
+      "unid": "d437760b845c5ee2c12580300045026a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-07-29",
+    "current_version": "2025-09-26",
+    "current_revision": "2025-09-26"
+  },
+  "is_case_of": [
+    "0112/2///62683#ACC077",
+    "0112/2///62683#ACC078"
+  ],
+  "applicable_properties": [],
+  "imported_properties": [
+    "0112/2///62683#ACE057",
+    "0112/2///62683#ACE058"
+  ],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACG000",
+  "superclass_type_property": "0112/2///62683#ACG000",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-09-25 19:16:19",
+    "user": "BATCH 00000840",
+    "change_request_id": null,
+    "unid": "9A7503BEE9FA2CE5C1258D10005EE0F1"
+  }
+}

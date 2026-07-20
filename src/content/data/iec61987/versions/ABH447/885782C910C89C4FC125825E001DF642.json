@@ -1,0 +1,89 @@
+{
+  "irdi": "0112/2///61987#ABH447",
+  "code": "ABH447",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "number of relations of minimum process pressure - operating temperature",
+  "preferred_name_ml": {
+    "en": "number of relations of minimum process pressure - operating temperature",
+    "de": "Anzahl der Beziehungen zwischen minimalem Prozessdruck und Betriebstemperatur"
+  },
+  "definition": "@number of relations of minimum process pressure - operating temperature",
+  "definition_ml": {
+    "en": "@number of relations of minimum process pressure - operating temperature",
+    "de": "Kardinalitätsmerkmal für Beziehung zwischen minimalem Prozessdruck und Prozesstemperatur"
+  },
+  "synonyms": [],
+  "remark": "cardinality property",
+  "remark_ml": {
+    "en": "cardinality property"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABH447",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "number of relations of minimum process pressure - operating temperature",
+    "MDC_P006.en": "@number of relations of minimum process pressure - operating temperature",
+    "MDC_P009.en": "cardinality property",
+    "MDC_P022": "INT_TYPE",
+    "MDC_P020": "CONDITION_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2015-04-16",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.de": "Anzahl der Beziehungen zwischen minimalem Prozessdruck und Betriebstemperatur",
+    "MDC_P006.de": "Kardinalitätsmerkmal für Beziehung zwischen minimalem Prozessdruck und Prozesstemperatur",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2015-04-16",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:27:15",
+      "user": "BATCH 00000762",
+      "unid": "885782C910C89C4FC125825E001DF642",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:44",
+      "user": "BATCH 00000732",
+      "unid": "35e51664dce9b92ac12580d6004c261d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-04-16",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "INT_TYPE",
+  "data_element_type": "CONDITION_DET",
+  "property_data_element_type": "CONDITION_DET",
+  "type": "property",
+  "data_type": "INT_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:27:15",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "885782C910C89C4FC125825E001DF642"
+  }
+}

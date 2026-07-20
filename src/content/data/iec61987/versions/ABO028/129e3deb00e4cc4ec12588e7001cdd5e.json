@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABO028",
+  "code": "ABO028",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2022-10-26 07:15:16",
+    "user": "BATCH 00000802",
+    "change_request_id": null,
+    "unid": "129e3deb00e4cc4ec12588e7001cdd5e"
+  }
+}

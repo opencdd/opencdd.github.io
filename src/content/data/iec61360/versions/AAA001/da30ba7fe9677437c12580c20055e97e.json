@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAA001",
+  "code": "AAA001",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2017-02-09 16:38:23",
+    "user": "BATCH 00000890",
+    "change_request_id": null,
+    "unid": "da30ba7fe9677437c12580c20055e97e"
+  }
+}

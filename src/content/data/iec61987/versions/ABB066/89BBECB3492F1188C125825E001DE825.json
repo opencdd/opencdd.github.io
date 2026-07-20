@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61987#ABB066",
+  "code": "ABB066",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "velocity of sound",
+  "preferred_name_ml": {
+    "en": "velocity of sound",
+    "fr": "vitesse du son",
+    "de": "Schallgeschwindigkeit"
+  },
+  "definition": "rate of propagation of an acoustic wave",
+  "definition_ml": {
+    "en": "rate of propagation of an acoustic wave",
+    "fr": "vitesse de propagation d'une onde acoustique",
+    "de": "Rate der Ausbreitung einer akustischen Welle"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB066",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "velocity of sound",
+    "MDC_P006.en": "rate of propagation of an acoustic wave",
+    "MDC_P023": "m/s",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA733",
+    "C0104": "0112/2///61987#ABT509",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "vitesse du son",
+    "MDC_P006.fr": "vitesse de propagation d'une onde acoustique",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Schallgeschwindigkeit",
+    "MDC_P006.de": "Rate der Ausbreitung einer akustischen Welle",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:39",
+      "user": "BATCH 00000762",
+      "unid": "89BBECB3492F1188C125825E001DE825",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:21",
+      "user": "BATCH 00000732",
+      "unid": "1c284d92a5dcf5d9c12580d6004c1cd4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "dfb51b234d4b1721c1257fa7004059b8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:33",
+      "user": "BATCH 00000702",
+      "unid": "cbfdc43c22a8c497c1257cfb00403aae",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:32",
+      "user": "BATCH 00000699",
+      "unid": "8d3ae5c69f6aebdbc1257cb40054bc6b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA733",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:39",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "89BBECB3492F1188C125825E001DE825"
+  }
+}

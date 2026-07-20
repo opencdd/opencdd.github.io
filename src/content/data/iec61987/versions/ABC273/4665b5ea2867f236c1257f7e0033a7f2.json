@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC273",
+  "code": "ABC273",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-03-22 10:24:13",
+    "user": "BATCH 00000714",
+    "change_request_id": null,
+    "unid": "4665b5ea2867f236c1257f7e0033a7f2"
+  }
+}

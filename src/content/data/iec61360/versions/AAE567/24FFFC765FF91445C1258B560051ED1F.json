@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61360_4#AAE567",
+  "code": "AAE567",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "min. spectral sensitivity",
+  "preferred_name_ml": {
+    "en": "min. spectral sensitivity"
+  },
+  "short_name": "s_$l",
+  "short_name_ml": {
+    "en": "s_$l"
+  },
+  "definition": "minimum ratio of the photocurrent to the incident radiant power of a photosensor at specified wavelength, reverse voltage and ambient temperature",
+  "definition_ml": {
+    "en": "minimum ratio of the photocurrent to the incident radiant power of a photosensor at specified wavelength, reverse voltage and ambient temperature"
+  },
+  "synonyms": [],
+  "remark": "This ratio is often measured in A/W (ampere per watt)",
+  "remark_ml": {
+    "en": "This ratio is often measured in A/W (ampere per watt)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE567",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "min. spectral sensitivity",
+    "MDC_P005.en": "s_$l",
+    "MDC_P006.en": "minimum ratio of the photocurrent to the incident radiant power of a photosensor at specified wavelength, reverse voltage and ambient temperature",
+    "MDC_P009.en": "This ratio is often measured in A/W (ampere per watt)",
+    "MDC_P025_1": "s_λ}",
+    "MDC_P025_3": "S_R}",
+    "MDC_P022": "REAL_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E01",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-07-10",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2024-07-10",
+    "MDC_P003_3": "2024-07-10",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P028": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE335,0112/2///61360_4#AAE569}",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2024-07-10 16:54:51",
+      "user": "BATCH 00001315",
+      "unid": "24FFFC765FF91445C1258B560051ED1F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:33",
+      "user": "BATCH 00000917",
+      "unid": "a3b33c9014fea053c1257ea4004b2002",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "2d500c6e7e276884c1257e8b00323651",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:33",
+      "user": "BATCH 00000904",
+      "unid": "c3592ee601ba2ff2c1257e8a0043e425",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:32",
+      "user": "BATCH 00000788",
+      "unid": "16bce79e6513e793c1257a0e0047bc68",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "c271beaa7a458f31c1257a0e0046d9e8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2024-07-10",
+    "current_revision": "2024-07-10"
+  },
+  "symbol_in_text": "s_λ}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAE014,0112/2///61360_4#AAE335,0112/2///61360_4#AAE569}",
+  "type": "property",
+  "data_type": "REAL_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2024-07-10 16:54:51",
+    "user": "BATCH 00001315",
+    "change_request_id": null,
+    "unid": "24FFFC765FF91445C1258B560051ED1F"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE037",
+  "code": "AAE037",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "EIA temperature characteristic",
+  "preferred_name_ml": {
+    "en": "EIA temperature characteristic"
+  },
+  "short_name": "EIA TCh code",
+  "short_name_ml": {
+    "en": "EIA TCh code"
+  },
+  "definition": "EIcode of the temperature characteristic of a fixed class2 ceramic capacitor",
+  "definition_ml": {
+    "en": "EIcode of the temperature characteristic of a fixed class2 ceramic capacitor"
+  },
+  "source_document": "EIA RS-198-B (1971)",
+  "synonyms": [],
+  "remark": "First (alphabetic) character indicates T_amb-min}:| X = - 55 degree C |Y = - 30 degree C |Z = + 10 degree C |Second (numeric) character indicates T_amb-max}: |2 = + 45 degree C |4 = + 65 degree C |5 = + 85 degree C |6 = +105 degree C |7 = +125 degree C |Third (alphabetic) character indicates cap. change: |A = +/- 1 % |B = +/- 1.5% |C = +/- 2.2% |D = +/- 3.3% |E = +/- 4.7% |F = +/- 7.5% |P = +/- 10 % |R = +/- 15 % |S = +/- 22 % |T = +22/-33% |U = +22/-56% |V = +22/-82% ||X7R corresponds to IEC sub-class 2B4 |Y5V corresponds to IEC sub-class 2F4",
+  "remark_ml": {
+    "en": "First (alphabetic) character indicates T_amb-min}:| X = - 55 degree C |Y = - 30 degree C |Z = + 10 degree C |Second (numeric) character indicates T_amb-max}: |2 = + 45 degree C |4 = + 65 degree C |5 = + 85 degree C |6 = +105 degree C |7 = +125 degree C |Third (alphabetic) character indicates cap. change: |A = +/- 1 % |B = +/- 1.5% |C = +/- 2.2% |D = +/- 3.3% |E = +/- 4.7% |F = +/- 7.5% |P = +/- 10 % |R = +/- 15 % |S = +/- 22 % |T = +22/-33% |U = +22/-56% |V = +22/-82% ||X7R corresponds to IEC sub-class 2B4 |Y5V corresponds to IEC sub-class 2F4"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE037",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "EIA temperature characteristic",
+    "MDC_P005.en": "EIA TCh code",
+    "MDC_P006.en": "EIcode of the temperature characteristic of a fixed class2 ceramic capacitor",
+    "MDC_P009.en": "First (alphabetic) character indicates T_amb-min}:| X = - 55 degree C |Y = - 30 degree C |Z = + 10 degree C |Second (numeric) character indicates T_amb-max}: |2 = + 45 degree C |4 = + 65 degree C |5 = + 85 degree C |6 = +105 degree C |7 = +125 degree C |Third (alphabetic) character indicates cap. change: |A = +/- 1 % |B = +/- 1.5% |C = +/- 2.2% |D = +/- 3.3% |E = +/- 4.7% |F = +/- 7.5% |P = +/- 10 % |R = +/- 15 % |S = +/- 22 % |T = +22/-33% |U = +22/-56% |V = +22/-82% ||X7R corresponds to IEC sub-class 2B4 |Y5V corresponds to IEC sub-class 2F4",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..3",
+    "MDC_P006_1": "EIA RS-198-B (1971)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A56",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "278CE584A88C59FDC1257EA4004B1E9F",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "ef177b31227dc288c1257e8b003234ee",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "fe4b0e815d55c327c1257e8a0043e2c2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "9b7109b9e8cb0390c1257a0e0047bb13",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:49",
+      "user": "BATCH 00000787",
+      "unid": "b6ffd865ad05f164c1257a0e0046d893",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:30",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "278CE584A88C59FDC1257EA4004B1E9F"
+  }
+}

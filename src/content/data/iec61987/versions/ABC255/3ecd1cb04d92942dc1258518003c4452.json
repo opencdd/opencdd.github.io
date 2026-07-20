@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC255",
+  "code": "ABC255",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2020-02-24 11:58:16",
+    "user": "BATCH 00000774",
+    "change_request_id": null,
+    "unid": "3ecd1cb04d92942dc1258518003c4452"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "irdi": "0112/2///61987#ABC240",
+  "code": "ABC240",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Field coils",
+  "preferred_name_ml": {
+    "en": "Field coils",
+    "fr": "Bobines de champ",
+    "de": "Feldspulen"
+  },
+  "definition": "properties characterizing coils used to produce a magnetic or electromagnetic field",
+  "definition_ml": {
+    "en": "properties characterizing coils used to produce a magnetic or electromagnetic field",
+    "fr": "propriétés caractérisant les bobines utilisées pour produire un champ magnétique ou électromagnétique",
+    "de": "Merkmale, die Spulen zur Erzeugung eines magnetischen oder elektromagnetischen Feldes kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "PROLIST-Id: xxz073",
+  "remark_ml": {
+    "en": "PROLIST-Id: xxz073"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC240",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Field coils",
+    "MDC_P006.en": "properties characterizing coils used to produce a magnetic or electromagnetic field",
+    "MDC_P009.en": "PROLIST-Id: xxz073",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB384,0112/2///61987#ABB060}",
+    "MDC_P004.fr": "Bobines de champ",
+    "MDC_P006.fr": "propriétés caractérisant les bobines utilisées pour produire un champ magnétique ou électromagnétique",
+    "C019.fr": "set by Dr. Wilfried Hartmann",
+    "C017.fr": "Revision 0",
+    "C018.fr": "2013-04-22",
+    "MDC_P004.de": "Feldspulen",
+    "MDC_P006.de": "Merkmale, die Spulen zur Erzeugung eines magnetischen oder elektromagnetischen Feldes kennzeichnen",
+    "C019.de": "set by Dr. Wilfried Hartmann",
+    "C017.de": "Revision 0",
+    "C018.de": "20.04.13",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:51",
+      "user": "BATCH 00000762",
+      "unid": "53666F6A0B24CD1DC125825E001DD552",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:08",
+      "user": "BATCH 00000699",
+      "unid": "bd80f1a91c3f6489c1257cb400549bb3",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB384",
+    "0112/2///61987#ABB060"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:51",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "53666F6A0B24CD1DC125825E001DD552"
+  }
+}

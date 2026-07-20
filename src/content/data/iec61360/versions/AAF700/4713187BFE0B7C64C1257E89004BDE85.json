@@ -1,0 +1,94 @@
+{
+  "irdi": "0112/2///61360_4#AAF700",
+  "code": "AAF700",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "axis2_placement3d",
+  "preferred_name_ml": {
+    "en": "axis2_placement3d"
+  },
+  "definition": "system of three orthogonal axes having its origin at a specified three-dimensional Cartesian point",
+  "definition_ml": {
+    "en": "system of three orthogonal axes having its origin at a specified three-dimensional Cartesian point"
+  },
+  "source_document": "ISO 10303-42:2003, 4.4.19",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "ISO 10303-42",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00028",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF700",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "axis2_placement3d",
+    "MDC_P006.en": "system of three orthogonal axes having its origin at a specified three-dimensional Cartesian point",
+    "MDC_P022": "AXIS2_PLACEMENT_3D",
+    "MDC_P006_1": "ISO 10303-42:2003, 4.4.19",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "ISO 10303-42",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-07-21",
+    "MDC_P003_1": "2015-02-19",
+    "MDC_P003_2": "2015-10-02",
+    "MDC_P003_3": "2015-10-02",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAF695}",
+    "C002": "C00028"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2015-07-21 15:48:41",
+      "user": "BATCH 00000902",
+      "unid": "4713187BFE0B7C64C1257E89004BDE85",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "1475b46548ddd722c1257ea4004b22b7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "8fcbab37bed9713fc1257e8a0043e6da",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2015-02-19",
+    "current_version": "2015-10-02",
+    "current_revision": "2015-10-02"
+  },
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "AXIS2_PLACEMENT_3D",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61360_4#AAF695}",
+  "type": "property",
+  "data_type": "AXIS2_PLACEMENT_3D",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2015-07-21 15:48:41",
+    "user": "BATCH 00000902",
+    "change_request_id": null,
+    "unid": "4713187BFE0B7C64C1257E89004BDE85"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "irdi": "0112/2///61360_4#ACA030",
+  "code": "ACA030",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "material declaration blocks of properties",
+  "preferred_name_ml": {
+    "en": "material declaration blocks of properties"
+  },
+  "definition": "group of one or more classes with properties capable of specifying facts on material declaration",
+  "definition_ml": {
+    "en": "group of one or more classes with properties capable of specifying facts on material declaration"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62474",
+  "responsible_committee": "IEC/TC 111",
+  "change_request_id": "C00115",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#ACA030",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "material declaration blocks of properties",
+    "MDC_P006.en": "group of one or more classes with properties capable of specifying facts on material declaration",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 62474",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/TC 111",
+    "MDC_P010": "0112/2///61360_4#ACA071",
+    "C002": "C00115"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2023-04-17 09:58:37",
+      "user": "BATCH 00001245",
+      "unid": "6B8133E408DAD787C1258994002BD198",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 12:21:41",
+      "user": "BATCH 00000898",
+      "unid": "8bd46a1cb6937bfec1257e650038eabe",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#ACA071",
+  "superclass_type_property": "0112/2///61360_4#ACA071",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2023-04-17 09:58:37",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "6B8133E408DAD787C1258994002BD198"
+  }
+}

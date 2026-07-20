@@ -1,0 +1,140 @@
+{
+  "irdi": "0112/2///61987#ABA415",
+  "code": "ABA415",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "switching current difference",
+  "preferred_name_ml": {
+    "en": "switching current difference",
+    "fr": "différence de courant de commutation",
+    "de": "Schaltstromdifferenz"
+  },
+  "definition": "change in control current within the actuating range at which the switching amplifier changes its output signal",
+  "definition_ml": {
+    "en": "change in control current within the actuating range at which the switching amplifier changes its output signal",
+    "fr": "changement de courant de commande dans l’étendue d’actionnement à laquelle l’amplificateur de commutation modifie son signal de sortie",
+    "de": "Änderung des Steuerstroms innerhalb des Antriebsbereichs, in dem der Schaltverstärker sein Ausgangssignal ändert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA415",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "switching current difference",
+    "MDC_P006.en": "change in control current within the actuating range at which the switching amplifier changes its output signal",
+    "MDC_P023": "mA",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA775",
+    "C0104": "0112/2///61987#ABT567",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "différence de courant de commutation",
+    "MDC_P006.fr": "changement de courant de commande dans l’étendue d’actionnement à laquelle l’amplificateur de commutation modifie son signal de sortie",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Schaltstromdifferenz",
+    "MDC_P006.de": "Änderung des Steuerstroms innerhalb des Antriebsbereichs, in dem der Schaltverstärker sein Ausgangssignal ändert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:35",
+      "user": "BATCH 00000762",
+      "unid": "DC225E629F02963FC125825E001DE683",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:29",
+      "user": "BATCH 00000755",
+      "unid": "0ede80f9dda2d723c1258256003e9369",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:17",
+      "user": "BATCH 00000732",
+      "unid": "f765bf5df8ae38a8c12580d6004c1b46",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:01",
+      "user": "BATCH 00000715",
+      "unid": "dffec7a2a21fafbcc1257f7f004cff7d",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "f2ad3cb0c95dbc19c1257fa700405923",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "e93d1d6c6cff91cac1257cfb00403920",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "106dcbe944d0779bc1257cb40054badd",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA775",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:35",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "DC225E629F02963FC125825E001DE683"
+  }
+}

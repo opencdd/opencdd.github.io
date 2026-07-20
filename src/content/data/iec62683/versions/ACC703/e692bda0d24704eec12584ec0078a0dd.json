@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///62683#ACC703",
+  "code": "ACC703",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "Disconnect terminal block",
+  "preferred_name_ml": {
+    "en": "Disconnect terminal block",
+    "fr": "Bloc de jonction à sectionnement",
+    "de": "Prüftrenn-Reihenklemme",
+    "zh": "可断开式接线端子"
+  },
+  "definition": "feed-through terminal block for which each circuit can be disconnected",
+  "definition_ml": {
+    "en": "feed-through terminal block for which each circuit can be disconnected",
+    "fr": "bloc de jonction traversant pour lequel chaque circuit peut être sectionné",
+    "de": "Durchgangsreihenklemme, bei der jeder Stromkreis abgeschaltet werden kann",
+    "zh": "每个电路都可以断开的直通式接线端子"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Knife terminal block"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Knife terminal block"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC703",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "Disconnect terminal block",
+    "MDC_P007.en": "Knife terminal block",
+    "MDC_P006.en": "feed-through terminal block for which each circuit can be disconnected",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC700",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF190,0112/2///62683#ACF187,0112/2///62683#ACF192,0112/2///62683#ACF193,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Bloc de jonction à sectionnement",
+    "MDC_P006.fr": "bloc de jonction traversant pour lequel chaque circuit peut être sectionné",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Prüftrenn-Reihenklemme",
+    "MDC_P006.de": "Durchgangsreihenklemme, bei der jeder Stromkreis abgeschaltet werden kann",
+    "C019.de": "DKE, Jürgen Schütz",
+    "C017.de": "1",
+    "C018.de": "2017-06-15",
+    "MDC_P004.zh": "可断开式接线端子",
+    "MDC_P006.zh": "每个电路都可以断开的直通式接线端子",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:35",
+      "user": "BATCH 00000749",
+      "unid": "e692bda0d24704eec12584ec0078a0dd",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:45",
+      "user": "BATCH 00000703",
+      "unid": "fe15bb966923ebb9c12580300045022b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF190",
+    "0112/2///62683#ACF187",
+    "0112/2///62683#ACF192",
+    "0112/2///62683#ACF193",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC700",
+  "superclass_type_property": "0112/2///62683#ACC700",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:35",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "e692bda0d24704eec12584ec0078a0dd"
+  }
+}

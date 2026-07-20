@@ -1,0 +1,104 @@
+{
+  "irdi": "0112/2///61987#ABA489",
+  "code": "ABA489",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "designation of hardware configuration element",
+  "preferred_name_ml": {
+    "en": "designation of hardware configuration element",
+    "fr": "désignation de l'élément de configuration matérielle",
+    "de": "Bezeichnung des Hardware-Konfigurationselements"
+  },
+  "definition": "alphanumeric character sequence identifying a hardware configuration element",
+  "definition_ml": {
+    "en": "alphanumeric character sequence identifying a hardware configuration element",
+    "fr": "séquence de caractères alphanumériques identifiant un élément de configuration matérielle",
+    "de": "alphanumerische Zeichenfolge, die ein Hardware-Konfigurationselement identifiziert"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00147",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA489",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "designation of hardware configuration element",
+    "MDC_P006.en": "alphanumeric character sequence identifying a hardware configuration element",
+    "MDC_P022": "TRANSLATABLE_STRING_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-12-06",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2023-12-06",
+    "MDC_P003_3": "2023-12-06",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "désignation de l'élément de configuration matérielle",
+    "MDC_P006.fr": "séquence de caractères alphanumériques identifiant un élément de configuration matérielle",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Bezeichnung des Hardware-Konfigurationselements",
+    "MDC_P006.de": "alphanumerische Zeichenfolge, die ein Hardware-Konfigurationselement identifiziert",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00147"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2023-12-06 11:31:53",
+      "user": "BATCH 00000818",
+      "unid": "93C1646D98934C16C1258A7D0039DA0B",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:36",
+      "user": "BATCH 00000762",
+      "unid": "8f25de96a0a1a87ec125825e001de6df",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:29",
+      "user": "BATCH 00000699",
+      "unid": "59d3684298d066d0c1257cb40054bb22",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2023-12-06",
+    "current_revision": "2023-12-06"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "TRANSLATABLE_STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "TRANSLATABLE_STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2023-12-06 11:31:53",
+    "user": "BATCH 00000818",
+    "change_request_id": null,
+    "unid": "93C1646D98934C16C1258A7D0039DA0B"
+  }
+}

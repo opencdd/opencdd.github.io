@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ADA216",
+  "code": "ADA216",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2019-05-27 13:16:02",
+    "user": "BATCH 00001062",
+    "change_request_id": null,
+    "unid": "549a236db36f3587c1258407003de4ad"
+  }
+}

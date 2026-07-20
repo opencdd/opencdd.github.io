@@ -1,0 +1,122 @@
+{
+  "irdi": "0112/2///61360_4#AAE705",
+  "code": "AAE705",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "slope cable equivalent",
+  "preferred_name_ml": {
+    "en": "slope cable equivalent"
+  },
+  "short_name": "SL",
+  "short_name_ml": {
+    "en": "SL"
+  },
+  "definition": "value as specified by level (minTypmax) of the difference in power gain of a wideband amplifier measured at specified frequencies (f_1} and f_2}) of a frequency range, with an optimised cable equivalent impedance, at specified supply voltage and temperature of a temperature range",
+  "definition_ml": {
+    "en": "value as specified by level (minTypmax) of the difference in power gain of a wideband amplifier measured at specified frequencies (f_1} and f_2}) of a frequency range, with an optimised cable equivalent impedance, at specified supply voltage and temperature of a temperature range"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE705",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "slope cable equivalent",
+    "MDC_P005.en": "SL",
+    "MDC_P006.en": "value as specified by level (minTypmax) of the difference in power gain of a wideband amplifier measured at specified frequencies (f_1} and f_2}) of a frequency range, with an optimised cable equivalent impedance, at specified supply voltage and temperature of a temperature range",
+    "MDC_P025_1": "SL",
+    "MDC_P023": "dB",
+    "MDC_P022": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2 S..3.3",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P040": "E49",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA409",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D",
+    "MDC_P028": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE963,0112/2///61360_4#AAE964}"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "9890DE4BF389948EC1257EA4004B2056",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:27",
+      "user": "BATCH 00000907",
+      "unid": "d29ed4709b10c6edc1257e8b003236a5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "0d92b502d2ce58d0c1257e8a0043e479",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "91a5673d93406ff1c1257a0e0047bcbb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:53",
+      "user": "BATCH 00000787",
+      "unid": "7d5956492a01f0f2c1257a0e0046da3b",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "SL",
+  "value_format": "NR2 S..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA409",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 S..3.3",
+  "condition_raw": "{0112/2///61360_4#AAE102,0112/2///61360_4#AAE683,0112/2///61360_4#AAE685,0112/2///61360_4#AAE963,0112/2///61360_4#AAE964}",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX,TYP) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "9890DE4BF389948EC1257EA4004B2056"
+  }
+}

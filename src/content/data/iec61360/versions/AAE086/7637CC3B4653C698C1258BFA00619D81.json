@@ -1,0 +1,135 @@
+{
+  "irdi": "0112/2///61360_4#AAE086",
+  "code": "AAE086",
+  "version": "2",
+  "revision": "4",
+  "preferred_name": "supply voltage limit",
+  "preferred_name_ml": {
+    "en": "supply voltage limit"
+  },
+  "short_name": "V_sup(lim)",
+  "short_name_ml": {
+    "en": "V_sup(lim)"
+  },
+  "definition": "permissible DC voltage that may be applied to the power supply pins of an integrated circuit",
+  "definition_ml": {
+    "en": "permissible DC voltage that may be applied to the power supply pins of an integrated circuit"
+  },
+  "synonyms": [],
+  "remark": "Commonly known supply voltage symbols: |V_CC} for TTL, NMOS and HCMOS circuits |V_DD} for CMOS circuits |V_P} for analogue circuits |V_EE} for ECL circuits",
+  "remark_ml": {
+    "en": "Commonly known supply voltage symbols: |V_CC} for TTL, NMOS and HCMOS circuits |V_DD} for CMOS circuits |V_P} for analogue circuits |V_EE} for ECL circuits"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE086",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "supply voltage limit",
+    "MDC_P005.en": "V_sup(lim)",
+    "MDC_P006.en": "permissible DC voltage that may be applied to the power supply pins of an integrated circuit",
+    "MDC_P009.en": "Commonly known supply voltage symbols: |V_CC} for TTL, NMOS and HCMOS circuits |V_DD} for CMOS circuits |V_P} for analogue circuits |V_EE} for ECL circuits",
+    "MDC_P025_1": "V_sup(lim)}",
+    "MDC_P025_3": "V_sup}, V_P(lim)}, V_EE(lim)}, V_CC(lim), V_DD(lim)}",
+    "MDC_P023": "V",
+    "MDC_P022": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2 S..3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "E06",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2024-12-21",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2015-03-13",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "IEC/SC 3D"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2024-12-21 18:46:13",
+      "user": "BATCH 00001336",
+      "unid": "7637CC3B4653C698C1258BFA00619D81",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "f1240fe67ef6f127c1257e8b00323513",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:29",
+      "user": "BATCH 00000904",
+      "unid": "98e908d70758cd48c1257e8a0043e2e7",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-12-19 13:10:31",
+      "user": "BATCH 00000881",
+      "unid": "701134e8868e59ddc1257db30042e188",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "4bce33084f16500dc1257a0e0047bb38",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:50",
+      "user": "BATCH 00000787",
+      "unid": "3ddc912a8afe2a10c1257a0e0046d8b8",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2015-03-13",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "V_sup(lim)}",
+  "value_format": "NR2 S..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 S..3.3",
+  "type": "property",
+  "data_type": "LEVEL(MIN,MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2024-12-21 18:46:13",
+    "user": "BATCH 00001336",
+    "change_request_id": null,
+    "unid": "7637CC3B4653C698C1258BFA00619D81"
+  }
+}

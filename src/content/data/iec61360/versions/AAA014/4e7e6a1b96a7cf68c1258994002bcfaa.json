@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61360_4#AAA014",
+  "code": "AAA014",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "capacitive antenna",
+  "preferred_name_ml": {
+    "en": "capacitive antenna"
+  },
+  "short_name": "CAP",
+  "short_name_ml": {
+    "en": "CAP"
+  },
+  "definition": "antenna in which, under given conditions,the predominant function is effected by means of capacitance",
+  "definition_ml": {
+    "en": "antenna in which, under given conditions,the predominant function is effected by means of capacitance"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "capacitive"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "capacitive"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA014",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "CAP",
+    "MDC_P004.en": "capacitive antenna",
+    "MDC_P007.en": "capacitive",
+    "MDC_P006.en": "antenna in which, under given conditions,the predominant function is effected by means of capacitance",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA013",
+    "MDC_P014": "{0112/2///61360_4#AAE996,0112/2///61360_4#AAE997,0112/2///61360_4#AAE998}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:32",
+      "user": "BATCH 00001245",
+      "unid": "4e7e6a1b96a7cf68c1258994002bcfaa",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:47",
+      "user": "BATCH 00000890",
+      "unid": "2bcfa7ccf2bd80a8c1257dd300515f13",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:18",
+      "user": "BATCH 00000879",
+      "unid": "28d150eba55f4c68c1257d7300506939",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:06",
+      "user": "BATCH 00000788",
+      "unid": "1077bfb18623231ac1257a0e0047b1f9",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE996",
+    "0112/2///61360_4#AAE997",
+    "0112/2///61360_4#AAE998"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA013",
+  "superclass_type_property": "0112/2///61360_4#AAA013",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:32",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "4e7e6a1b96a7cf68c1258994002bcfaa"
+  }
+}

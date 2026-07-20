@@ -1,0 +1,128 @@
+{
+  "irdi": "0112/2///61987#ABA455",
+  "code": "ABA455",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "DC power",
+  "preferred_name_ml": {
+    "en": "DC power",
+    "fr": "puissance Watt",
+    "de": "Gleichstromleistung"
+  },
+  "definition": "product of the direct voltage and the direct current (mean values)",
+  "definition_ml": {
+    "en": "product of the direct voltage and the direct current (mean values)",
+    "fr": "puissance de régime exprimée en Watts",
+    "de": "Produkt aus Gleichspannung und Gleichstrom (Mittelwerte)"
+  },
+  "source_document": "IEV 551-17-09",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00128",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA455",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "DC power",
+    "MDC_P006.en": "product of the direct voltage and the direct current (mean values)",
+    "MDC_P023": "W",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEV 551-17-09",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA306",
+    "C0104": "0112/2///61987#ABT525",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-01-23",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2023-01-23",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "puissance Watt",
+    "MDC_P006.fr": "puissance de régime exprimée en Watts",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Gleichstromleistung",
+    "MDC_P006.de": "Produkt aus Gleichspannung und Gleichstrom (Mittelwerte)",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-11-22",
+    "C002": "C00128"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2023-01-23 14:53:51",
+      "user": "BATCH 00000807",
+      "unid": "8920741048BDA0B4C1258940004C5768",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:36",
+      "user": "BATCH 00000762",
+      "unid": "22a031ae4a23e9fac125825e001de6b8",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:51",
+      "user": "BATCH 00000717",
+      "unid": "4c0db67305ef6ae7c1257fa700405941",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:29",
+      "user": "BATCH 00000702",
+      "unid": "beeb3f8fdbfb1647c1257cfb00403943",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:28",
+      "user": "BATCH 00000699",
+      "unid": "a76fb6e7a5e903c4c1257cb40054bb00",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2023-01-23"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA306",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2023-01-23 14:53:51",
+    "user": "BATCH 00000807",
+    "change_request_id": null,
+    "unid": "8920741048BDA0B4C1258940004C5768"
+  }
+}

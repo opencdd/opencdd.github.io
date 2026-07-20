@@ -1,0 +1,155 @@
+{
+  "irdi": "0112/2///61987#ABD161",
+  "code": "ABD161",
+  "version": "5",
+  "revision": "2",
+  "preferred_name": "reference to Pressure test approval",
+  "preferred_name_ml": {
+    "en": "reference to Pressure test approval"
+  },
+  "definition": "reference to block ABC531",
+  "definition_ml": {
+    "en": "reference to block ABC531"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC SC65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD161",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "reference to Pressure test approval",
+    "MDC_P006.en": "reference to block ABC531",
+    "MDC_P022": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC531)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-06-28",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2017-12-07",
+    "MDC_P003_3": "2022-06-28",
+    "MDC_P012": "IEC SC65E",
+    "MDC_P028": "{0112/2///61987#ABA266}",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2022-06-28 13:01:56",
+      "user": "BATCH 00000794",
+      "unid": "0734B21CE7504A85C125886F003C9A23",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:53",
+      "user": "BATCH 00000762",
+      "unid": "c3ec4884bd956919c125825e001ded66",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:34",
+      "user": "BATCH 00000755",
+      "unid": "b4bd4a9d25860390c1258256003e955c",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:16",
+      "user": "BATCH 00000756",
+      "unid": "e4716c1da65b45a5c125825600407a6d",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:34",
+      "user": "BATCH 00000732",
+      "unid": "235b0834b5446658c12580d6004c2216",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-09-28 09:59:26",
+      "user": "BATCH 00000728",
+      "unid": "e3f19b377677465ec125803c002be4ea",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2016-08-31 20:15:01",
+      "user": "BATCH 00000725",
+      "unid": "12b33f9e869dbaa6c125802000644078",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-23 15:01:06",
+      "user": "BATCH 00000715",
+      "unid": "67347807eeb03b44c1257f7f004d019a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:46",
+      "user": "BATCH 00000702",
+      "unid": "01bab8775eafddfec1257cfb00403fed",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:46",
+      "user": "BATCH 00000699",
+      "unid": "41fb147a8cc05a20c1257cb40054c1aa",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2017-12-07",
+    "current_revision": "2022-06-28"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC531)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABA266}",
+  "type": "property",
+  "data_type": "CLASS_REFERENCE_TYPE(0112/2///61987#ABC531)",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2022-06-28 13:01:56",
+    "user": "BATCH 00000794",
+    "change_request_id": null,
+    "unid": "0734B21CE7504A85C125886F003C9A23"
+  }
+}

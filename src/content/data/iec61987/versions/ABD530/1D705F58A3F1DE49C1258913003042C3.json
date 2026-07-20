@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61987#ABD530",
+  "code": "ABD530",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "Manufacturer-specific output [4]",
+  "preferred_name_ml": {
+    "en": "Manufacturer-specific output [4]",
+    "fr": "Sortie spécifique au fabricant [4]",
+    "de": "Herstellerspezifischer Ausgang [4]"
+  },
+  "definition": "properties characterizing a manufacturer-specific output",
+  "definition_ml": {
+    "en": "properties characterizing a manufacturer-specific output",
+    "fr": "propriétés caractérisant une sortie auxiliaire spécifique au fabricant (version de bloc 4)",
+    "de": "Merkmale, die einen herstellerspezifischen Ausgang kennzeichnen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00112",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD530",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Manufacturer-specific output [4]",
+    "MDC_P006.en": "properties characterizing a manufacturer-specific output",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-12-09",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-12-09",
+    "MDC_P003_3": "2022-12-09",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB631,0112/2///61987#ABU424,0112/2///61987#ABC965}",
+    "MDC_P004.fr": "Sortie spécifique au fabricant [4]",
+    "MDC_P006.fr": "propriétés caractérisant une sortie auxiliaire spécifique au fabricant (version de bloc 4)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Herstellerspezifischer Ausgang [4]",
+    "MDC_P006.de": "Merkmale, die einen herstellerspezifischen Ausgang kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2021-08-12",
+    "C002": "C00112"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-12-09 09:47:08",
+      "user": "BATCH 00000803",
+      "unid": "1D705F58A3F1DE49C1258913003042C3",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:00",
+      "user": "BATCH 00000762",
+      "unid": "a78f3d26b7e5a310c125825e001dd8a1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:42",
+      "user": "BATCH 00000701",
+      "unid": "def2d5d79f15e797c1257cfb003f9a33",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:13",
+      "user": "BATCH 00000699",
+      "unid": "3a55ed5c57e499a1c1257cb400549d7f",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-12-09",
+    "current_revision": "2022-12-09"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB631",
+    "0112/2///61987#ABU424",
+    "0112/2///61987#ABC965"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-12-09 09:47:08",
+    "user": "BATCH 00000803",
+    "change_request_id": null,
+    "unid": "1D705F58A3F1DE49C1258913003042C3"
+  }
+}

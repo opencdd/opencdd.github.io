@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61987#ABD994",
+  "code": "ABD994",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Process equipment [2]",
+  "preferred_name_ml": {
+    "en": "Process equipment [2]",
+    "fr": "Équipement de processus [2]",
+    "de": "Anlagenequipment [2]"
+  },
+  "definition": "properties characterizing the equipment where a device is deployed",
+  "definition_ml": {
+    "en": "properties characterizing the equipment where a device is deployed",
+    "fr": "propriétés caractérisant l'équipement dans lequel un appareil est déployé",
+    "de": "Merkmale, die die Anlage kennzeichnen, an der ein Gerät angebaut ist"
+  },
+  "synonyms": [],
+  "note": "For instance, these properties concern lines or nozzles and their end connections for flow, temperature, or pressure devices and equipment dimensions for level devices.",
+  "note_ml": {
+    "en": "For instance, these properties concern lines or nozzles and their end connections for flow, temperature, or pressure devices and equipment dimensions for level devices.",
+    "de": "Diese Eigenschaften betreffen beispielsweise Leitungen oder Stutzen und Prozessanschlüsse für Durchfluss-, Temperatur- oder Druckmessgeräte und Geräteabmessungen für Füllstandmessgeräte."
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABD994",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Process equipment [2]",
+    "MDC_P006.en": "properties characterizing the equipment where a device is deployed",
+    "MDC_P008.en": "For instance, these properties concern lines or nozzles and their end connections for flow, temperature, or pressure devices and equipment dimensions for level devices.",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2018-03-20",
+    "MDC_P003_3": "2018-03-20",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB335,0112/2///61987#ABE149}",
+    "MDC_P004.fr": "Équipement de processus [2]",
+    "MDC_P006.fr": "propriétés caractérisant l'équipement dans lequel un appareil est déployé",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-11-24",
+    "MDC_P004.de": "Anlagenequipment [2]",
+    "MDC_P006.de": "Merkmale, die die Anlage kennzeichnen, an der ein Gerät angebaut ist",
+    "MDC_P008.de": "Diese Eigenschaften betreffen beispielsweise Leitungen oder Stutzen und Prozessanschlüsse für Durchfluss-, Temperatur- oder Druckmessgeräte und Geräteabmessungen für Füllstandmessgeräte.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "3BC1A714E4394BC4C125825E001DD927",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:50:06",
+      "user": "BATCH 00000732",
+      "unid": "89f2188bdc626467c12580d6004bffc3",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:14",
+      "user": "BATCH 00000699",
+      "unid": "a37c65b5d16f5fdcc1257cb400549e05",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2018-03-20",
+    "current_revision": "2018-03-20"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB335",
+    "0112/2///61987#ABE149"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "3BC1A714E4394BC4C125825E001DD927"
+  }
+}

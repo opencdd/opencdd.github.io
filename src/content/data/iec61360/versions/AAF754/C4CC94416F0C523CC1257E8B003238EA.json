@@ -1,0 +1,113 @@
+{
+  "irdi": "0112/2///61360_4#AAF754",
+  "code": "AAF754",
+  "version": "2",
+  "revision": "3",
+  "preferred_name": "terminal designation",
+  "preferred_name_ml": {
+    "en": "terminal designation"
+  },
+  "short_name": "term des",
+  "short_name_ml": {
+    "en": "term des"
+  },
+  "definition": "identifier of a terminal with respect to the object to which it belongs, related to one defined aspect",
+  "definition_ml": {
+    "en": "identifier of a terminal with respect to the object to which it belongs, related to one defined aspect"
+  },
+  "source_document": "IEC 61666:2010",
+  "synonyms": [],
+  "status_level": "Standard",
+  "change_request_id": "C00031",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF754",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "terminal designation",
+    "MDC_P005.en": "term des",
+    "MDC_P006.en": "identifier of a terminal with respect to the object to which it belongs, related to one defined aspect",
+    "MDC_P022": "STRING_TYPE",
+    "MDC_P024": "M..35",
+    "MDC_P006_1": "IEC 61666:2010",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A91",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "MDC_P003_0": "2015-07-23",
+    "MDC_P003_1": "2011-10-19",
+    "MDC_P003_2": "2012-07-03",
+    "MDC_P003_3": "2015-07-23",
+    "C002": "C00031"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "C4CC94416F0C523CC1257E8B003238EA",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:40",
+      "user": "BATCH 00000904",
+      "unid": "f630057a406255c2c1257e8a0043e6de",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-04-26 11:05:48",
+      "user": "BATCH 00000784",
+      "unid": "add5327885c5f1c4c12579ec0031f83b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:39",
+      "user": "BATCH 00000788",
+      "unid": "f46aa02e1f5ceb60c1257a0e0047bed5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:59",
+      "user": "BATCH 00000787",
+      "unid": "a62030bae664e580c1257a0e0046dc55",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2011-10-19",
+    "current_version": "2012-07-03",
+    "current_revision": "2015-07-23"
+  },
+  "value_format": "M..35",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "STRING_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..35",
+  "type": "property",
+  "data_type": "STRING_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2015-07-23 11:08:33",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "C4CC94416F0C523CC1257E8B003238EA"
+  }
+}

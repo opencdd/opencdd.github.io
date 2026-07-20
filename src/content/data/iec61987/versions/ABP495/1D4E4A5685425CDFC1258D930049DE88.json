@@ -1,0 +1,117 @@
+{
+  "irdi": "0112/2///61987#ABP495",
+  "code": "ABP495",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "Matrix of components/measurands",
+  "preferred_name_ml": {
+    "en": "Matrix of components/measurands",
+    "de": "Matrix der Komponenten/Messgrößen"
+  },
+  "short_name": "Matrix of comp.",
+  "short_name_ml": {
+    "en": "Matrix of comp.",
+    "de": "Matrix der Komp."
+  },
+  "definition": "properties characterizing a mixture of chemical substances and its measurands",
+  "definition_ml": {
+    "en": "properties characterizing a mixture of chemical substances and its measurands",
+    "de": "Merkmale, die ein Gemisch aus chemischen Stoffen und seinen Messgrößen kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "also used by Process Automation - Device Information Model (PA-DIM)",
+  "remark_ml": {
+    "en": "also used by Process Automation - Device Information Model (PA-DIM)"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABP495",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P005.en": "Matrix of comp.",
+    "MDC_P004.en": "Matrix of components/measurands",
+    "MDC_P006.en": "properties characterizing a mixture of chemical substances and its measurands",
+    "MDC_P009.en": "also used by Process Automation - Device Information Model (PA-DIM)",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "false",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2023-03-06",
+    "MDC_P003_2": "2025-02-24",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABP647,0112/2///61987#ABP548,0112/2///61987#ABP667}",
+    "MDC_P005.de": "Matrix der Komp.",
+    "MDC_P004.de": "Matrix der Komponenten/Messgrößen",
+    "MDC_P006.de": "Merkmale, die ein Gemisch aus chemischen Stoffen und seinen Messgrößen kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2023-03-06",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:26:50",
+      "user": "BATCH 00000858",
+      "unid": "1D4E4A5685425CDFC1258D930049DE88",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2025-03-18 11:43:15",
+      "user": "BATCH 00000836",
+      "unid": "b79aa31dfd0649eec1258c51003ae456",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2025-02-24 14:45:21",
+      "user": "BATCH 00000835",
+      "unid": "5163cf724d09aa62c1258c3b004b9064",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2023-03-06",
+    "current_version": "2025-02-24",
+    "current_revision": "2026-02-03"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABP647",
+    "0112/2///61987#ABP548",
+    "0112/2///61987#ABP667"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:26:50",
+    "user": "BATCH 00000858",
+    "change_request_id": null,
+    "unid": "1D4E4A5685425CDFC1258D930049DE88"
+  }
+}

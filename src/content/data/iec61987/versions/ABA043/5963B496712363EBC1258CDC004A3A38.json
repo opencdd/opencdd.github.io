@@ -1,0 +1,134 @@
+{
+  "irdi": "0112/2///61987#ABA043",
+  "code": "ABA043",
+  "version": "5",
+  "revision": "1",
+  "preferred_name": "LAS functionality",
+  "preferred_name_ml": {
+    "en": "LAS functionality",
+    "fr": "fonctionnalité LAS",
+    "de": "LAS-Funktionalität"
+  },
+  "definition": "for FOUNDATION fieldbus devices, ability of the device to act as link active scheduler",
+  "definition_ml": {
+    "en": "for FOUNDATION fieldbus devices, ability of the device to act as link active scheduler",
+    "fr": "pour les appareils de bus de terrain de la FONDATION Fieldbus™, capacité de l’appareil à tenir le rôle de planificateur actif de liens",
+    "de": "Fähigkeit von FOUNDATION Fieldbus-Geräten, als LAS (Link Active Scheduler) zu agieren"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA043",
+    "MDC_P002_1": "5",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "LAS functionality",
+    "MDC_P006.en": "for FOUNDATION fieldbus devices, ability of the device to act as link active scheduler",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "fonctionnalité LAS",
+    "MDC_P006.fr": "pour les appareils de bus de terrain de la FONDATION Fieldbus™, capacité de l’appareil à tenir le rôle de planificateur actif de liens",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "LAS-Funktionalität",
+    "MDC_P006.de": "Fähigkeit von FOUNDATION Fieldbus-Geräten, als LAS (Link Active Scheduler) zu agieren",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "5963B496712363EBC1258CDC004A3A38",
+      "is_current": true
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:25",
+      "user": "BATCH 00000774",
+      "unid": "a4b2d6cbc08bbe16c1258518003c4800",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:23:30",
+      "user": "BATCH 00000755",
+      "unid": "06a9bdc18f7c4ea3c1258256003e93a6",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:14",
+      "user": "BATCH 00000732",
+      "unid": "1c58655943f8d095c12580d6004c1a2b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:26",
+      "user": "BATCH 00000702",
+      "unid": "ea7a02ace0489761c1257cfb004037fe",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:25",
+      "user": "BATCH 00000699",
+      "unid": "8a773fca074f3b0cc1257cb40054b9c2",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ765)",
+  "value_list": "0112/2///61987#ABJ765",
+  "is_current": true,
+  "version_meta": {
+    "version": "005",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "5963B496712363EBC1258CDC004A3A38"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "irdi": "0112/2///61987#ABB552",
+  "code": "ABB552",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "long-term stability (5 y)",
+  "preferred_name_ml": {
+    "en": "long-term stability (5 y)",
+    "fr": "stabilité à long terme (5 ans)",
+    "de": "Langzeitstabilität (5 Jahre)"
+  },
+  "definition": "drift of zero output signal in percent of upper-range limit after 5 year of normal operating conditions",
+  "definition_ml": {
+    "en": "drift of zero output signal in percent of upper-range limit after 5 year of normal operating conditions",
+    "fr": "dérive du signal de sortie zéro en pourcentage de la limite supérieure après 5 ans d'utilisation dans des conditions de fonctionnement normales",
+    "de": "Drift des Nullausgangssignals in Prozent der oberen Bereichsgrenze nach 5 Jahren Betrieb unter normalen Bedingungen"
+  },
+  "synonyms": [],
+  "note": "for flowmeter, maximum span instead of upper-range limit is used",
+  "note_ml": {
+    "en": "for flowmeter, maximum span instead of upper-range limit is used",
+    "de": "für ein Durchflussmessgerät wird die maximale Spanne anstelle des Messbereichsendes verwendet"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB552",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "long-term stability (5 y)",
+    "MDC_P006.en": "drift of zero output signal in percent of upper-range limit after 5 year of normal operating conditions",
+    "MDC_P008.en": "for flowmeter, maximum span instead of upper-range limit is used",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "stabilité à long terme (5 ans)",
+    "MDC_P006.fr": "dérive du signal de sortie zéro en pourcentage de la limite supérieure après 5 ans d'utilisation dans des conditions de fonctionnement normales",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "Langzeitstabilität (5 Jahre)",
+    "MDC_P006.de": "Drift des Nullausgangssignals in Prozent der oberen Bereichsgrenze nach 5 Jahren Betrieb unter normalen Bedingungen",
+    "MDC_P008.de": "für ein Durchflussmessgerät wird die maximale Spanne anstelle des Messbereichsendes verwendet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:44",
+      "user": "BATCH 00000762",
+      "unid": "B335CFEC15381B85C125825E001DEA04",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:54",
+      "user": "BATCH 00000717",
+      "unid": "337fc4b65fe5f29bc1257fa700405a75",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:38",
+      "user": "BATCH 00000702",
+      "unid": "306512d8aedb1289c1257cfb00403c8c",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:37",
+      "user": "BATCH 00000699",
+      "unid": "42d89275930e7d0ac1257cb40054be49",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:44",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "B335CFEC15381B85C125825E001DEA04"
+  }
+}

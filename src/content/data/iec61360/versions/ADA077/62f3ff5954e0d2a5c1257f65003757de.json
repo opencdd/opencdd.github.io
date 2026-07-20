@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#ADA077",
+  "code": "ADA077",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2016-02-26 11:04:29",
+    "user": "BATCH 00000949",
+    "change_request_id": null,
+    "unid": "62f3ff5954e0d2a5c1257f65003757de"
+  }
+}

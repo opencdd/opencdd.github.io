@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABC492",
+  "code": "ABC492",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2014-04-08 17:24:11",
+    "user": "BATCH 00000699",
+    "change_request_id": null,
+    "unid": "b16ce6ec19840ae8c1257cb400549caa"
+  }
+}

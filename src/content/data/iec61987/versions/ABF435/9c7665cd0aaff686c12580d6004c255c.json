@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF435",
+  "code": "ABF435",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:43",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "9c7665cd0aaff686c12580d6004c255c"
+  }
+}

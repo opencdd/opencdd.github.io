@@ -1,0 +1,129 @@
+{
+  "irdi": "0112/2///61360_4#AAE111",
+  "code": "AAE111",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "packing type",
+  "preferred_name_ml": {
+    "en": "packing type"
+  },
+  "short_name": "packing type",
+  "short_name_ml": {
+    "en": "packing type"
+  },
+  "definition": "code of the packing type at specified packing level for products.",
+  "definition_ml": {
+    "en": "code of the packing type at specified packing level for products."
+  },
+  "synonyms": [],
+  "remark": "The property must be used in conjunction with AAF270 (packing level).",
+  "remark_ml": {
+    "en": "The property must be used in conjunction with AAF270 (packing level)."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "change_request_id": "C00066",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE111",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "packing type",
+    "MDC_P005.en": "packing type",
+    "MDC_P006.en": "code of the packing type at specified packing level for products.",
+    "MDC_P009.en": "The property must be used in conjunction with AAF270 (packing level).",
+    "MDC_P022": "ENUM_CODE_TYPE(0112/2///61360_4#ASA047(AMM,BAG,BLI,BOX,CAS,CON,PAL,RAL,RL,TRA))",
+    "MDC_P024": "M..3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "A53",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2016-06-28",
+    "MDC_P003_2": "2016-09-28",
+    "MDC_P003_3": "2016-09-28",
+    "MDC_P012": "SC3D",
+    "C002": "C00066"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2016-06-28 10:04:35",
+      "user": "BATCH 00000980",
+      "unid": "896189E297553A60C1257FE0002C5D7C",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:30",
+      "user": "BATCH 00000917",
+      "unid": "d625c235ef3ca42ac1257ea4004b1ecb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:23",
+      "user": "BATCH 00000907",
+      "unid": "162da7e6c5f963b5c1257e8b0032351a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:30",
+      "user": "BATCH 00000904",
+      "unid": "b5cc17fb0b5ae8dfc1257e8a0043e2ee",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:29",
+      "user": "BATCH 00000788",
+      "unid": "0fb838933bd67634c1257a0e0047bb3f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:50",
+      "user": "BATCH 00000787",
+      "unid": "85ba3b21e6ef0ea5c1257a0e0046d8bf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2016-09-28",
+    "current_revision": "2016-09-28"
+  },
+  "value_format": "M..3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA047(AMM,BAG,BLI,BOX,CAS,CON,PAL,RAL,RL,TRA))",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "M..3",
+  "type": "property",
+  "data_type": "ENUM_CODE_TYPE(0112/2///61360_4#ASA047(AMM,BAG,BLI,BOX,CAS,CON,PAL,RAL,RL,TRA))",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2016-06-28 10:04:35",
+    "user": "BATCH 00000980",
+    "change_request_id": null,
+    "unid": "896189E297553A60C1257FE0002C5D7C"
+  }
+}

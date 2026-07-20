@@ -1,0 +1,139 @@
+{
+  "irdi": "0112/2///62683#ACC406",
+  "code": "ACC406",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "AC semiconductor motor controller",
+  "preferred_name_ml": {
+    "en": "AC semiconductor motor controller",
+    "fr": "Gradateur à semiconducteurs de moteur à courant alternatif",
+    "de": "Halbleiter-Motor-Steuergerät für Wechselspannung",
+    "zh": "半导体交流电动机控制器"
+  },
+  "definition": "semiconductor switching device that provides the starting function for an AC motor and an OFF-state",
+  "definition_ml": {
+    "en": "semiconductor switching device that provides the starting function for an AC motor and an OFF-state",
+    "fr": "appareil de commutation à semiconducteurs qui assure la fonction de démarrage pour un moteur à courant alternatif et fournit un état non passant",
+    "de": "Halbleiter-Schaltgerät, das eine Startfunktion für einen Wechselspannungsmotor und einen AUS-Zustand beinhaltet",
+    "zh": "为交流电动机提供起动功能和截止状态的半导体开关电器。"
+  },
+  "source_document": "3.3.2 of IEC 60947-4-2:2011",
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "Soft-starter"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "Soft-starter",
+    "fr": "Démarreur progressif"
+  },
+  "note": "NOTE 1 Because dangerous levels of leakage currents can exist in a semiconductor motor controller in the OFF-state, the load terminals should be considered as live parts at all times., NOTE 2 In a circuit where the current passes through zero (alternately or otherwise), the effect of \"not making\" the current following such a zero value is equivalent to breaking the current.",
+  "note_ml": {
+    "en": "NOTE 1 Because dangerous levels of leakage currents can exist in a semiconductor motor controller in the OFF-state, the load terminals should be considered as live parts at all times., NOTE 2 In a circuit where the current passes through zero (alternately or otherwise), the effect of \"not making\" the current following such a zero value is equivalent to breaking the current.",
+    "fr": "NOTE 1 Etant donné les niveaux dangereux des courants de fuite pouvant exister dans un gradateur à semiconducteurs de moteur à l'état non passant, il convient que les bornes de puissance soient en permanence considérées comme étant sous tension., NOTE 2 Dans un circuit où le courant passe par zéro (alternativement ou autrement), l’effet de ne pas établir le courant après une telle valeur égale à zéro revient à couper le courant.",
+    "de": "ANMERKUNG 1 Da Ableitströme in gefährlicher Höhe im AUS-Zustand eines Halbleiter-Motor-Steuergeräts vorhanden sein können, sollten die lastseitigen Anschlüsse immer als spannungsführende Teile betrachtet werden., ANMERKUNG 2 Wenn in einem Schaltkreis der Strom einen Nulldurchgang hat (wechselseitig oder anderweitig), entspricht die Auswirkung des „Nicht-Einschaltens“, als Folge eines solchen Nulldurchgangs, einer Stromabschaltung.",
+    "zh": "注1：由于电机的半导体控制器处于关断状态时可能存在危险水平的泄漏电流，所以负载端子应始终视为带电部件。, 注2：在电流通过零（交替或其他）的电路中，“不接通”电流后跟随零值的作用相当于断开电流。"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 62683-1:2017",
+  "responsible_committee": "IEC SC121A",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///62683#ACC406",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "AC semiconductor motor controller",
+    "MDC_P007.en": "Soft-starter",
+    "MDC_P006.en": "semiconductor switching device that provides the starting function for an AC motor and an OFF-state",
+    "MDC_P008.en": "NOTE 1 Because dangerous levels of leakage currents can exist in a semiconductor motor controller in the OFF-state, the load terminals should be considered as live parts at all times., NOTE 2 In a circuit where the current passes through zero (alternately or otherwise), the effect of \"not making\" the current following such a zero value is equivalent to breaking the current.",
+    "MDC_P006_1": "3.3.2 of IEC 60947-4-2:2011",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 62683-1:2017",
+    "C011": "IEC",
+    "MDC_P003_0": "2020-01-11",
+    "MDC_P003_1": "2012-09-27",
+    "MDC_P003_2": "2016-09-16",
+    "MDC_P003_3": "2020-01-11",
+    "MDC_P012": "IEC SC121A",
+    "MDC_P010": "0112/2///62683#ACC400",
+    "MDC_P014": "{0112/2///62683#ACF001,0112/2///62683#ACF075,0112/2///62683#ACF076,0112/2///62683#ACF077,0112/2///62683#ACF007,0112/2///62683#ACF042,0112/2///62683#ACF043,0112/2///62683#ACF701}",
+    "MDC_P004.fr": "Gradateur à semiconducteurs de moteur à courant alternatif",
+    "MDC_P007.fr": "Démarreur progressif",
+    "MDC_P006.fr": "appareil de commutation à semiconducteurs qui assure la fonction de démarrage pour un moteur à courant alternatif et fournit un état non passant",
+    "MDC_P008.fr": "NOTE 1 Etant donné les niveaux dangereux des courants de fuite pouvant exister dans un gradateur à semiconducteurs de moteur à l'état non passant, il convient que les bornes de puissance soient en permanence considérées comme étant sous tension., NOTE 2 Dans un circuit où le courant passe par zéro (alternativement ou autrement), l’effet de ne pas établir le courant après une telle valeur égale à zéro revient à couper le courant.",
+    "C019.fr": "IEC 121A/WG 17",
+    "C017.fr": "1",
+    "C018.fr": "2020-01-11",
+    "MDC_P004.de": "Halbleiter-Motor-Steuergerät für Wechselspannung",
+    "MDC_P006.de": "Halbleiter-Schaltgerät, das eine Startfunktion für einen Wechselspannungsmotor und einen AUS-Zustand beinhaltet",
+    "MDC_P008.de": "ANMERKUNG 1 Da Ableitströme in gefährlicher Höhe im AUS-Zustand eines Halbleiter-Motor-Steuergeräts vorhanden sein können, sollten die lastseitigen Anschlüsse immer als spannungsführende Teile betrachtet werden., ANMERKUNG 2 Wenn in einem Schaltkreis der Strom einen Nulldurchgang hat (wechselseitig oder anderweitig), entspricht die Auswirkung des „Nicht-Einschaltens“, als Folge eines solchen Nulldurchgangs, einer Stromabschaltung.",
+    "C019.de": "DKE, Andreas Boeumler",
+    "C017.de": "2",
+    "C018.de": "2017-11-06",
+    "MDC_P004.zh": "半导体交流电动机控制器",
+    "MDC_P006.zh": "为交流电动机提供起动功能和截止状态的半导体开关电器。",
+    "MDC_P008.zh": "注1：由于电机的半导体控制器处于关断状态时可能存在危险水平的泄漏电流，所以负载端子应始终视为带电部件。, 注2：在电流通过零（交替或其他）的电路中，“不接通”电流后跟随零值的作用相当于断开电流。",
+    "C019.zh": "SAC, Li Hui",
+    "C017.zh": "1",
+    "C018.zh": "2017-09-26",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2020-01-11 22:57:34",
+      "user": "BATCH 00000749",
+      "unid": "cb47ef1637d3f460c12584ec0078a0bc",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-09-16 14:33:44",
+      "user": "BATCH 00000703",
+      "unid": "ab67d30ced532b51c125803000450201",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2012-09-27",
+    "current_version": "2016-09-16",
+    "current_revision": "2020-01-11"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///62683#ACF001",
+    "0112/2///62683#ACF075",
+    "0112/2///62683#ACF076",
+    "0112/2///62683#ACF077",
+    "0112/2///62683#ACF007",
+    "0112/2///62683#ACF042",
+    "0112/2///62683#ACF043",
+    "0112/2///62683#ACF701"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///62683#ACC400",
+  "superclass_type_property": "0112/2///62683#ACC400",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "superseded",
+    "timestamp": "2020-01-11 22:57:34",
+    "user": "BATCH 00000749",
+    "change_request_id": null,
+    "unid": "cb47ef1637d3f460c12584ec0078a0bc"
+  }
+}

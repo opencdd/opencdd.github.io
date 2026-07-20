@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABA527",
+  "code": "ABA527",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2016-05-02 13:42:12",
+    "user": "BATCH 00000717",
+    "change_request_id": null,
+    "unid": "f2cf0a117d4d014bc1257fa7004049dd"
+  }
+}

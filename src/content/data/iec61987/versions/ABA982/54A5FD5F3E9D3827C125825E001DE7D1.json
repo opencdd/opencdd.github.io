@@ -1,0 +1,115 @@
+{
+  "irdi": "0112/2///61987#ABA982",
+  "code": "ABA982",
+  "version": "1",
+  "revision": "4",
+  "preferred_name": "maximum input voltage (Ui)",
+  "preferred_name_ml": {
+    "en": "maximum input voltage (Ui)",
+    "fr": "tension d'entrée maximale (Ui)",
+    "de": "maximale Eingangsspannung (Ui)"
+  },
+  "definition": "maximum voltage (peak a.c. or d.c.) that can be applied to the connection facilities of the apparatus without invalidating the type of protection",
+  "definition_ml": {
+    "en": "maximum voltage (peak a.c. or d.c.) that can be applied to the connection facilities of the apparatus without invalidating the type of protection",
+    "fr": "tension maximale (c.a. ou .c.c. de crête) qui peut être appliquée aux éléments de raccordement de l'appareil sans invalider le type de protection",
+    "de": "maximale Spannung (Spitzenwert AC oder DC), die an die Messgeräteanschlüsse des Betriebsmittels angelegt werden kann, ohne die Zündschutzart außer Kraft zu setzen"
+  },
+  "source_document": "IEC 60050, part 426-11-15 (Draft)",
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA982",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "4",
+    "MDC_P004.en": "maximum input voltage (Ui)",
+    "MDC_P006.en": "maximum voltage (peak a.c. or d.c.) that can be applied to the connection facilities of the apparatus without invalidating the type of protection",
+    "MDC_P023": "V",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P006_1": "IEC 60050, part 426-11-15 (Draft)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA296",
+    "C0104": "0112/2///61987#ABT506",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2013-10-16",
+    "MDC_P003_3": "2016-09-30",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "tension d'entrée maximale (Ui)",
+    "MDC_P006.fr": "tension maximale (c.a. ou .c.c. de crête) qui peut être appliquée aux éléments de raccordement de l'appareil sans invalider le type de protection",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "maximale Eingangsspannung (Ui)",
+    "MDC_P006.de": "maximale Spannung (Spitzenwert AC oder DC), die an die Messgeräteanschlüsse des Betriebsmittels angelegt werden kann, ohne die Zündschutzart außer Kraft zu setzen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:38",
+      "user": "BATCH 00000762",
+      "unid": "54A5FD5F3E9D3827C125825E001DE7D1",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:52",
+      "user": "BATCH 00000717",
+      "unid": "e251d18bf421884ac1257fa70040598f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:32",
+      "user": "BATCH 00000702",
+      "unid": "6c7d925d3e55bbebc1257cfb00403a5a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:31",
+      "user": "BATCH 00000699",
+      "unid": "333a158394148261c1257cb40054bc17",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2013-10-16",
+    "current_revision": "2016-09-30"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA296",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:38",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "54A5FD5F3E9D3827C125825E001DE7D1"
+  }
+}

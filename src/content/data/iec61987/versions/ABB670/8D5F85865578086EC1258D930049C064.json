@@ -1,0 +1,133 @@
+{
+  "irdi": "0112/2///61987#ABB670",
+  "code": "ABB670",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "influence of ambient temperature",
+  "preferred_name_ml": {
+    "en": "influence of ambient temperature",
+    "fr": "influence de la température ambiante",
+    "de": "Einfluss der Umgebungstemperatur in relativen Einheiten"
+  },
+  "definition": "change in zero (lower range-value) and/or span caused by a change in ambient temperature from the reference temperature up to the limits of the ambient temperature range quoted in the performance specifications",
+  "definition_ml": {
+    "en": "change in zero (lower range-value) and/or span caused by a change in ambient temperature from the reference temperature up to the limits of the ambient temperature range quoted in the performance specifications",
+    "fr": "modification de la sortie causée par une modification de la température ambiante par rapport aux conditions de référence, exprimée par la moyenne d’erreurs des échelles supérieure et inférieure aux températures d'essai spécifiées",
+    "de": "Änderung des Nullpunkts (Bereichsanfangswert) und/oder der Messspanne aufgrund einer Änderung der Umgebungstemperatur von der Referenztemperatur bis zu den in den Leistungsspezifikationen angegebenen Grenzen des Umgebungstemperaturbereichs"
+  },
+  "synonyms": [],
+  "note": "Testing and selection of test temperatures is described in IEC 61298-3.",
+  "note_ml": {
+    "en": "Testing and selection of test temperatures is described in IEC 61298-3.",
+    "de": "Prüfung und Auswahl von Prüftemperaturen wird in IEC 61298-3 beschrieben."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00189",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABB670",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "influence of ambient temperature",
+    "MDC_P006.en": "change in zero (lower range-value) and/or span caused by a change in ambient temperature from the reference temperature up to the limits of the ambient temperature range quoted in the performance specifications",
+    "MDC_P008.en": "Testing and selection of test temperatures is described in IEC 61298-3.",
+    "MDC_P023": "%",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C0104": "0112/2///61987#ABT533",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2026-02-03",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2026-02-03",
+    "MDC_P003_3": "2026-02-03",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.fr": "influence de la température ambiante",
+    "MDC_P006.fr": "modification de la sortie causée par une modification de la température ambiante par rapport aux conditions de référence, exprimée par la moyenne d’erreurs des échelles supérieure et inférieure aux températures d'essai spécifiées",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Einfluss der Umgebungstemperatur in relativen Einheiten",
+    "MDC_P006.de": "Änderung des Nullpunkts (Bereichsanfangswert) und/oder der Messspanne aufgrund einer Änderung der Umgebungstemperatur von der Referenztemperatur bis zu den in den Leistungsspezifikationen angegebenen Grenzen des Umgebungstemperaturbereichs",
+    "MDC_P008.de": "Prüfung und Auswahl von Prüftemperaturen wird in IEC 61298-3 beschrieben.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "1",
+    "C018.de": "2025-10-13",
+    "C002": "C00189"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2026-02-03 14:25:33",
+      "user": "BATCH 00000857",
+      "unid": "8D5F85865578086EC1258D930049C064",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:45",
+      "user": "BATCH 00000762",
+      "unid": "421454b3d8ab016bc125825e001dea7a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:55",
+      "user": "BATCH 00000717",
+      "unid": "068c828911c873fcc1257fa700405ab5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:39",
+      "user": "BATCH 00000702",
+      "unid": "1ba9aed43f6d02a8c1257cfb00403d02",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:38",
+      "user": "BATCH 00000699",
+      "unid": "e231327333862283c1257cb40054bebf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2026-02-03",
+    "current_revision": "2026-02-03"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2026-02-03 14:25:33",
+    "user": "BATCH 00000857",
+    "change_request_id": null,
+    "unid": "8D5F85865578086EC1258D930049C064"
+  }
+}

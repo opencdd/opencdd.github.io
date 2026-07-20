@@ -1,0 +1,156 @@
+{
+  "irdi": "0112/2///61360_4#AAF416",
+  "code": "AAF416",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "semi angle",
+  "preferred_name_ml": {
+    "en": "semi angle"
+  },
+  "short_name": "a_semi",
+  "short_name_ml": {
+    "en": "a_semi"
+  },
+  "definition": "value of the angle between the axis of the cone and the generator of the conical surface of a right circular cone",
+  "definition_ml": {
+    "en": "value of the angle between the axis of the cone and the generator of the conical surface of a right circular cone"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF416",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "semi angle",
+    "MDC_P005.en": "a_semi",
+    "MDC_P006.en": "value of the angle between the axis of the cone and the generator of the conical surface of a right circular cone",
+    "MDC_P023": "°",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T01",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA024",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-07-18",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2025-07-18",
+    "MDC_P003_3": "2025-07-18",
+    "MDC_P012": "IEC/SC 3D",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-07-18 08:38:20",
+      "user": "BATCH 00001396",
+      "unid": "D040E4BEE087FF01C1258CCB002477FF",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "3c101cd171eb9ae9c1257ea4004b2267",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-21 15:48:41",
+      "user": "BATCH 00000902",
+      "unid": "e142e4a08d679d8bc1257e89004bde77",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:33",
+      "user": "BATCH 00000907",
+      "unid": "3d88435b2223d7eac1257e8b003238a7",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "84bc14b11a2fa494c1257e8a0043e689",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:40",
+      "user": "BATCH 00000917",
+      "unid": "640fe335f80fdf17c1257ea4004b2266",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:38",
+      "user": "BATCH 00000788",
+      "unid": "167f4b4cc7270dd4c1257a0e0047beb5",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:39",
+      "user": "BATCH 00000904",
+      "unid": "970bc76e04197f81c1257e8a0043e68a",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:58",
+      "user": "BATCH 00000787",
+      "unid": "ae47df1237ddc7b7c1257a0e0046dc35",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2025-07-18",
+    "current_revision": "2025-07-18"
+  },
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA024",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-07-18 08:38:20",
+    "user": "BATCH 00001396",
+    "change_request_id": null,
+    "unid": "D040E4BEE087FF01C1258CCB002477FF"
+  }
+}

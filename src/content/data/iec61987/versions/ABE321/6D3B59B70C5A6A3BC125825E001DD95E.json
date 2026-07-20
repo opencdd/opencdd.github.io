@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABE321",
+  "code": "ABE321",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Device LOP for positioner",
+  "preferred_name_ml": {
+    "en": "Device LOP for positioner",
+    "de": "Geräte-Merkmalleiste für Stellungsregler"
+  },
+  "definition": "list of properties characterizing a positioner",
+  "definition_ml": {
+    "en": "list of properties characterizing a positioner",
+    "de": "Merkmalleiste, die einen Stellungsregler kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00009",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE321",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Device LOP for positioner",
+    "MDC_P006.en": "list of properties characterizing a positioner",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-02",
+    "MDC_P003_2": "2013-09-02",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV504",
+    "MDC_P014": "{0112/2///61987#ABC899,0112/2///61987#ABC730,0112/2///61987#ABE219,0112/2///61987#ABC885,0112/2///61987#ABE138,0112/2///61987#ABB206,0112/2///61987#ABE213,0112/2///61987#ABC830,0112/2///61987#ABE227,0112/2///61987#ABE255,0112/2///61987#ABE188,0112/2///61987#ABD088,0112/2///61987#ABD154,0112/2///61987#ABC786,0112/2///61987#ABC795,0112/2///61987#ABA293,0112/2///61987#ABC710}",
+    "MDC_P004.de": "Geräte-Merkmalleiste für Stellungsregler",
+    "MDC_P006.de": "Merkmalleiste, die einen Stellungsregler kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00009"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "6D3B59B70C5A6A3BC125825E001DD95E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:15",
+      "user": "BATCH 00000699",
+      "unid": "95a654260c9fe7f4c1257cb400549e3c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-02",
+    "current_version": "2013-09-02",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABC899",
+    "0112/2///61987#ABC730",
+    "0112/2///61987#ABE219",
+    "0112/2///61987#ABC885",
+    "0112/2///61987#ABE138",
+    "0112/2///61987#ABB206",
+    "0112/2///61987#ABE213",
+    "0112/2///61987#ABC830",
+    "0112/2///61987#ABE227",
+    "0112/2///61987#ABE255",
+    "0112/2///61987#ABE188",
+    "0112/2///61987#ABD088",
+    "0112/2///61987#ABD154",
+    "0112/2///61987#ABC786",
+    "0112/2///61987#ABC795",
+    "0112/2///61987#ABA293",
+    "0112/2///61987#ABC710"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV504",
+  "superclass_type_property": "0112/2///61987#ABV504",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:01",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "6D3B59B70C5A6A3BC125825E001DD95E"
+  }
+}

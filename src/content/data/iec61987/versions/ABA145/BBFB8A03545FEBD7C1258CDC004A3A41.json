@@ -1,0 +1,143 @@
+{
+  "irdi": "0112/2///61987#ABA145",
+  "code": "ABA145",
+  "version": "6",
+  "revision": "1",
+  "preferred_name": "design code",
+  "preferred_name_ml": {
+    "en": "design code",
+    "fr": "code conception",
+    "de": "Konstruktionsstandard"
+  },
+  "definition": "construction standard used for the engineering and fabrication of a component or connection",
+  "definition_ml": {
+    "en": "construction standard used for the engineering and fabrication of a component or connection",
+    "fr": "norme de construction utilisée pour l'ingénierie et la fabrication d'un composant ou d'une connexion",
+    "de": "Norm oder Standard, angewandt, um ein Bauteil oder einen Anschluss zu konstruieren und zu fertigen"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABA145",
+    "MDC_P002_1": "6",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "design code",
+    "MDC_P006.en": "construction standard used for the engineering and fabrication of a component or connection",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABJ734)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.fr": "code conception",
+    "MDC_P006.fr": "norme de construction utilisée pour l'ingénierie et la fabrication d'un composant ou d'une connexion",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-04-21",
+    "MDC_P004.de": "Konstruktionsstandard",
+    "MDC_P006.de": "Norm oder Standard, angewandt, um ein Bauteil oder einen Anschluss zu konstruieren und zu fertigen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "006",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:45",
+      "user": "BATCH 00000849",
+      "unid": "BBFB8A03545FEBD7C1258CDC004A3A41",
+      "is_current": true
+    },
+    {
+      "version": "005",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:26",
+      "user": "BATCH 00000774",
+      "unid": "78329e070ac54e6ac1258518003c480a",
+      "is_current": false
+    },
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:33",
+      "user": "BATCH 00000762",
+      "unid": "ab2aea05bb5a85c4c125825e001de59e",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-20 12:44:18",
+      "user": "BATCH 00000756",
+      "unid": "948082c5ebf551f8c125825600407b2a",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:15",
+      "user": "BATCH 00000732",
+      "unid": "de533d81af079197c12580d6004c1a75",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:27",
+      "user": "BATCH 00000702",
+      "unid": "75525809462d5ed0c1257cfb0040384f",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:26",
+      "user": "BATCH 00000699",
+      "unid": "c29c7fb1ce79d9aac1257cb40054ba0c",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ734)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABJ734)",
+  "value_list": "0112/2///61987#ABJ734",
+  "is_current": true,
+  "version_meta": {
+    "version": "006",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:45",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "BBFB8A03545FEBD7C1258CDC004A3A41"
+  }
+}

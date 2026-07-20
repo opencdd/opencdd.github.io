@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABD629",
+  "code": "ABD629",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2017-03-01 14:51:37",
+    "user": "BATCH 00000732",
+    "change_request_id": null,
+    "unid": "7f2df2361fb390c2c12580d6004c2363"
+  }
+}

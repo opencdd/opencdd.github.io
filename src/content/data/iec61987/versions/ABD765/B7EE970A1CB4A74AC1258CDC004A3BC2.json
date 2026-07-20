@@ -1,0 +1,118 @@
+{
+  "irdi": "0112/2///61987#ABD765",
+  "code": "ABD765",
+  "version": "4",
+  "revision": "1",
+  "preferred_name": "type of relief valve",
+  "preferred_name_ml": {
+    "en": "type of relief valve",
+    "de": "Art des Entlastungsventils"
+  },
+  "definition": "classification of the pressure relief of a pressure reducing regulator or a back pressure regulator according to kind of pressure relief",
+  "definition_ml": {
+    "en": "classification of the pressure relief of a pressure reducing regulator or a back pressure regulator according to kind of pressure relief",
+    "de": "Charakterisierung der Druckentlastung eines Druckminderers oder eines Überströmers bezüglich der Art der Druckentlastung"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD765",
+    "MDC_P002_1": "4",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "type of relief valve",
+    "MDC_P006.en": "classification of the pressure relief of a pressure reducing regulator or a back pressure regulator according to kind of pressure relief",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABL477)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Art des Entlastungsventils",
+    "MDC_P006.de": "Charakterisierung der Druckentlastung eines Druckminderers oder eines Überströmers bezüglich der Art der Druckentlastung",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2013-10-16",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "004",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:49",
+      "user": "BATCH 00000849",
+      "unid": "B7EE970A1CB4A74AC1258CDC004A3BC2",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:30",
+      "user": "BATCH 00000774",
+      "unid": "7dfbaa73c426d3a7c1258518003c49d1",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:57",
+      "user": "BATCH 00000762",
+      "unid": "488db7e76aa961cec125825e001def3b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2017-03-01 14:51:39",
+      "user": "BATCH 00000732",
+      "unid": "9072062693a3487dc12580d6004c23eb",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:50",
+      "user": "BATCH 00000699",
+      "unid": "d76d6c18c6740390c1257cb40054c37e",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL477)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABL477)",
+  "value_list": "0112/2///61987#ABL477",
+  "is_current": true,
+  "version_meta": {
+    "version": "004",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:49",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "B7EE970A1CB4A74AC1258CDC004A3BC2"
+  }
+}

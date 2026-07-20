@@ -1,0 +1,105 @@
+{
+  "irdi": "0112/2///61987#ABN592",
+  "code": "ABN592",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "electric shock protection class",
+  "preferred_name_ml": {
+    "en": "electric shock protection class",
+    "de": "Schutzklasse für elektrische Betriebsmittel"
+  },
+  "definition": "classification of protection measures against electrical shock provided by the combination of the constructional arrangements of the equipment and devices, together with the method of installation",
+  "definition_ml": {
+    "en": "classification of protection measures against electrical shock provided by the combination of the constructional arrangements of the equipment and devices, together with the method of installation",
+    "de": "Charakterisierung von Schutzmaßnahmen gegen elektrischen Schlag durch die Kombination von konstruktiven und installationstechnischen Maßnahmen"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "electrical protection class"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "electrical protection class"
+  },
+  "note": "Refer to Clause 7 of IEC 61140.",
+  "note_ml": {
+    "en": "Refer to Clause 7 of IEC 61140.",
+    "de": "Siehe Abschnitt 7 von IEC 61140."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00185",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN592",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "electric shock protection class",
+    "MDC_P007.en": "electrical protection class",
+    "MDC_P006.en": "classification of protection measures against electrical shock provided by the combination of the constructional arrangements of the equipment and devices, together with the method of installation",
+    "MDC_P008.en": "Refer to Clause 7 of IEC 61140.",
+    "MDC_P022": "ENUM_STRING_TYPE(0112/2///61987#ABN976)",
+    "MDC_P020": "DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-08-04",
+    "MDC_P003_2": "2025-08-04",
+    "MDC_P003_3": "2025-08-04",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P028": "{0112/2///61987#ABI406}",
+    "MDC_P004.de": "Schutzklasse für elektrische Betriebsmittel",
+    "MDC_P006.de": "Charakterisierung von Schutzmaßnahmen gegen elektrischen Schlag durch die Kombination von konstruktiven und installationstechnischen Maßnahmen",
+    "MDC_P008.de": "Siehe Abschnitt 7 von IEC 61140.",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-07-11",
+    "C002": "C00185"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-08-04 15:30:51",
+      "user": "BATCH 00000849",
+      "unid": "F69E2FE78B928FEAC1258CDC004A3C93",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 11:58:32",
+      "user": "BATCH 00000774",
+      "unid": "a41af1672cea2f95c1258518003c4abf",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-08-04",
+    "current_revision": "2025-08-04"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "ENUM_STRING_TYPE(0112/2///61987#ABN976)",
+  "data_element_type": "DEPENDENT_P_DET",
+  "property_data_element_type": "DEPENDENT_P_DET",
+  "condition_raw": "{0112/2///61987#ABI406}",
+  "type": "property",
+  "data_type": "ENUM_STRING_TYPE(0112/2///61987#ABN976)",
+  "value_list": "0112/2///61987#ABN976",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-08-04 15:30:51",
+    "user": "BATCH 00000849",
+    "change_request_id": null,
+    "unid": "F69E2FE78B928FEAC1258CDC004A3C93"
+  }
+}

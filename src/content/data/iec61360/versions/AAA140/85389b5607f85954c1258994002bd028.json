@@ -1,0 +1,124 @@
+{
+  "irdi": "0112/2///61360_4#AAA140",
+  "code": "AAA140",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "colour display tube",
+  "preferred_name_ml": {
+    "en": "colour display tube"
+  },
+  "short_name": "COL",
+  "short_name_ml": {
+    "en": "COL"
+  },
+  "definition": "display tube which can produce images in colour by varying the relative intensity of excitation of three screen phosphors of different chromaticity",
+  "definition_ml": {
+    "en": "display tube which can produce images in colour by varying the relative intensity of excitation of three screen phosphors of different chromaticity"
+  },
+  "synonyms": [
+    {
+      "lang": null,
+      "name": "colour display"
+    }
+  ],
+  "synonyms_ml": {
+    "en": "colour display"
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "IEC/SC 3D",
+  "change_request_id": "C00146",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61360_4#AAA140",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P005.en": "COL",
+    "MDC_P004.en": "colour display tube",
+    "MDC_P007.en": "colour display",
+    "MDC_P006.en": "display tube which can produce images in colour by varying the relative intensity of excitation of three screen phosphors of different chromaticity",
+    "MDC_P011": "ITEM_CLASS",
+    "MDC_P019": "true",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2023-04-17",
+    "MDC_P003_1": "2010-11-11",
+    "MDC_P003_2": "2010-11-11",
+    "MDC_P003_3": "2023-04-17",
+    "MDC_P012": "IEC/SC 3D",
+    "MDC_P010": "0112/2///61360_4#AAA139",
+    "MDC_P014": "{0112/2///61360_4#AAE584,0112/2///61360_4#AAE585,0112/2///61360_4#AAE591,0112/2///61360_4#AAE805,0112/2///61360_4#AAE806,0112/2///61360_4#AAF314}",
+    "C002": "C00146"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2023-04-17 09:58:33",
+      "user": "BATCH 00001245",
+      "unid": "85389b5607f85954c1258994002bd028",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-01-20 15:48:48",
+      "user": "BATCH 00000890",
+      "unid": "42e04130dfaf2cc5c1257dd300515f8b",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2014-10-16 16:38:19",
+      "user": "BATCH 00000879",
+      "unid": "468f3ee9fc929d61c1257d73005069b2",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:07",
+      "user": "BATCH 00000788",
+      "unid": "5a6387721daccb7ac1257a0e0047b277",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2010-11-11",
+    "current_version": "2010-11-11",
+    "current_revision": "2023-04-17"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61360_4#AAE584",
+    "0112/2///61360_4#AAE585",
+    "0112/2///61360_4#AAE591",
+    "0112/2///61360_4#AAE805",
+    "0112/2///61360_4#AAE806",
+    "0112/2///61360_4#AAF314"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61360_4#AAA139",
+  "superclass_type_property": "0112/2///61360_4#AAA139",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2023-04-17 09:58:33",
+    "user": "BATCH 00001245",
+    "change_request_id": null,
+    "unid": "85389b5607f85954c1258994002bd028"
+  }
+}

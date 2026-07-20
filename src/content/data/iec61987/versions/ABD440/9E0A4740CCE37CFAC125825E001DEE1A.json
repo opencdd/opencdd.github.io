@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61987#ABD440",
+  "code": "ABD440",
+  "version": "3",
+  "revision": "1",
+  "preferred_name": "maximum operating emissivity",
+  "preferred_name_ml": {
+    "en": "maximum operating emissivity",
+    "fr": "Émissivité maximale de service",
+    "de": "maximaler Emissionsfaktor"
+  },
+  "definition": "highest emissivity for which a device is or should be designed to operate within its specified limits",
+  "definition_ml": {
+    "en": "highest emissivity for which a device is or should be designed to operate within its specified limits",
+    "fr": "émissivité la plus élevée pour laquelle un appareil est ou doit être conçu pour fonctionner dans ses limites spécifiées",
+    "de": "höchste Emissivität, für die ein Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb seiner Spezifikationen betrieben wird"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00019",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABD440",
+    "MDC_P002_1": "3",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "maximum operating emissivity",
+    "MDC_P006.en": "highest emissivity for which a device is or should be designed to operate within its specified limits",
+    "MDC_P023": "1",
+    "MDC_P022": "REAL_MEASURE_TYPE",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "MDC_P041": "0112/2///62720#UAA915",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-09-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P004.fr": "Émissivité maximale de service",
+    "MDC_P006.fr": "émissivité la plus élevée pour laquelle un appareil est ou doit être conçu pour fonctionner dans ses limites spécifiées",
+    "C019.fr": "UTE",
+    "C017.fr": "0",
+    "C018.fr": "2013-09-27",
+    "MDC_P004.de": "maximaler Emissionsfaktor",
+    "MDC_P006.de": "höchste Emissivität, für die ein Gerät ausgelegt ist oder ausgelegt werden soll, damit es innerhalb seiner Spezifikationen betrieben wird",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-03-13",
+    "C002": "C00019"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:26:54",
+      "user": "BATCH 00000762",
+      "unid": "9E0A4740CCE37CFAC125825E001DEE1A",
+      "is_current": true
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2016-03-22 09:54:37",
+      "user": "BATCH 00000714",
+      "unid": "5323ee323da022b0c1257f7e0030f239",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2016-05-02 13:42:57",
+      "user": "BATCH 00000717",
+      "unid": "d3d4bb78a544b9d9c1257fa700405ba1",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:41:48",
+      "user": "BATCH 00000702",
+      "unid": "a034a8db06c09574c1257cfb004040a0",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:25:47",
+      "user": "BATCH 00000699",
+      "unid": "0ae0ad2912ae771ec1257cb40054c25d",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-09-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "unit_irdi": "0112/2///62720#UAA915",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:26:54",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "9E0A4740CCE37CFAC125825E001DEE1A"
+  }
+}

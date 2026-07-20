@@ -1,0 +1,99 @@
+{
+  "irdi": "0112/2///61987#ABN629",
+  "code": "ABN629",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "discrete two-state value",
+  "preferred_name_ml": {
+    "en": "discrete two-state value",
+    "de": "diskreter Wert für Zweifachzustände"
+  },
+  "definition": "discrete-value each information parameter of which may assume one of two values",
+  "definition_ml": {
+    "en": "discrete-value each information parameter of which may assume one of two values",
+    "de": "diskreter Wert, der einen von zwei Werten annehmen kann"
+  },
+  "source_document": "IEV 351-41-21 MOD",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00162",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61987#ABN629",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "discrete two-state value",
+    "MDC_P006.en": "discrete-value each information parameter of which may assume one of two values",
+    "MDC_P022": "BOOLEAN_TYPE",
+    "MDC_P024": "B 1",
+    "MDC_P006_1": "IEV 351-41-21 MOD",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P021": "0112/2///61987#ABA000",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2025-05-20",
+    "MDC_P003_2": "2025-05-20",
+    "MDC_P003_3": "2025-05-20",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P004.de": "diskreter Wert für Zweifachzustände",
+    "MDC_P006.de": "diskreter Wert, der einen von zwei Werten annehmen kann",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2019-08-16",
+    "C002": "C00162"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2025-05-20 11:52:36",
+      "user": "BATCH 00000843",
+      "unid": "8A1CCDC6753E1DD0C1258C900036412A",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2022-06-28 13:01:59",
+      "user": "BATCH 00000794",
+      "unid": "9b00c21a94dc51c7c125886f003c9b58",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2020-02-24 12:37:20",
+      "user": "BATCH 00000778",
+      "unid": "df85753831383d85c1258518003fd7db",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2025-05-20",
+    "current_revision": "2025-05-20"
+  },
+  "value_format": "B 1",
+  "definition_class_irdi": "0112/2///61987#ABA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "BOOLEAN_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "BOOLEAN_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2025-05-20 11:52:36",
+    "user": "BATCH 00000843",
+    "change_request_id": null,
+    "unid": "8A1CCDC6753E1DD0C1258C900036412A"
+  }
+}

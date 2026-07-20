@@ -1,0 +1,145 @@
+{
+  "irdi": "0112/2///61360_4#AAF005",
+  "code": "AAF005",
+  "version": "1",
+  "revision": "3",
+  "preferred_name": "average mass",
+  "preferred_name_ml": {
+    "en": "average mass"
+  },
+  "short_name": "m_av",
+  "short_name_ml": {
+    "en": "m_av"
+  },
+  "definition": "ratio of the average mass of a constituent material of a component to the total mass of the component",
+  "definition_ml": {
+    "en": "ratio of the average mass of a constituent material of a component to the total mass of the component"
+  },
+  "source_document": "IEC PAS 61906:2005",
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAF005",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "3",
+    "MDC_P004.en": "average mass",
+    "MDC_P005.en": "m_av",
+    "MDC_P006.en": "ratio of the average mass of a constituent material of a component to the total mass of the component",
+    "MDC_P023": "%",
+    "MDC_P022": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR2..3.3",
+    "MDC_P006_1": "IEC PAS 61906:2005",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "K01",
+    "MDC_P021": "0112/2///61360_4#AAA233",
+    "MDC_P041": "0112/2///62720#UAA000",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_2": "2015-06-15",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "003",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:30",
+      "user": "BATCH 00000907",
+      "unid": "e4270ee17364ede9c1257e8b00323781",
+      "is_current": true
+    },
+    {
+      "version": "003",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:36",
+      "user": "BATCH 00000904",
+      "unid": "811f2eaab24e620ec1257e8a0043e55a",
+      "is_current": false
+    },
+    {
+      "version": "003",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2015-06-15 13:38:36",
+      "user": "BATCH 00000898",
+      "unid": "2395b32d6ac111bcc1257e65003ff57e",
+      "is_current": false
+    },
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-04-26 11:55:49",
+      "user": "BATCH 00000785",
+      "unid": "3f5f0cef7cd0bde0c12579ec00368c93",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:37",
+      "user": "BATCH 00000917",
+      "unid": "1CEF45CA25C06848C1257EA4004B2138",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2015-08-17 15:40:37",
+      "user": "BATCH 00000917",
+      "unid": "1bf22ad9288cfe1cc1257ea4004b2137",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:35",
+      "user": "BATCH 00000788",
+      "unid": "be7915be33cce701c1257a0e0047bd94",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:56",
+      "user": "BATCH 00000787",
+      "unid": "f2d7466434d62441c1257a0e0046db14",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "current_version": "2015-06-15",
+    "current_revision": "2015-08-17"
+  },
+  "value_format": "NR2..3.3",
+  "definition_class_irdi": "0112/2///61360_4#AAA233",
+  "unit_irdi": "0112/2///62720#UAA000",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "parsed_value_format": "NR2 ..3.3",
+  "type": "property",
+  "data_type": "LEVEL(NOM) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "003",
+    "revision": "03",
+    "status": "superseded",
+    "timestamp": "2015-07-23 11:08:30",
+    "user": "BATCH 00000907",
+    "change_request_id": null,
+    "unid": "e4270ee17364ede9c1257e8b00323781"
+  }
+}

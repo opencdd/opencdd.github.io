@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABE451",
+  "code": "ABE451",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:26:02",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "8ad14f0970d5d748c125825e001dd9ca"
+  }
+}

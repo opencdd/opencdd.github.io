@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61360_4#AAF525",
+  "code": "AAF525",
+  "type": "class",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "04",
+    "status": "superseded",
+    "timestamp": "2015-01-20 15:48:50",
+    "user": "BATCH 00000890",
+    "change_request_id": null,
+    "unid": "c44e7c2b08315033c1257dd30051602d"
+  }
+}

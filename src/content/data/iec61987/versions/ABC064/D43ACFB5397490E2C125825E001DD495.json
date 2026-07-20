@@ -1,0 +1,116 @@
+{
+  "irdi": "0112/2///61987#ABC064",
+  "code": "ABC064",
+  "version": "1",
+  "revision": "2",
+  "preferred_name": "Absolute performance for pressure",
+  "preferred_name_ml": {
+    "en": "Absolute performance for pressure",
+    "fr": "Performance absolue pour la pression",
+    "de": "Leistungsdaten für Druck in absoluten Einheiten"
+  },
+  "definition": "properties characterizing the accuracy of a pressure measurement, expressed in engineering units",
+  "definition_ml": {
+    "en": "properties characterizing the accuracy of a pressure measurement, expressed in engineering units",
+    "fr": "propriétés caractérisant l'exactitude d'une mesure de pression exprimée en unités techniques",
+    "de": "Merkmale, die die Genauigkeit einer Druckmessung, ausgedrückt in physikalischen Einheiten, kennzeichnen"
+  },
+  "synonyms": [],
+  "remark": "15 ABC064.15",
+  "remark_ml": {
+    "en": "15 ABC064.15"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC064",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "2",
+    "MDC_P004.en": "Absolute performance for pressure",
+    "MDC_P006.en": "properties characterizing the accuracy of a pressure measurement, expressed in engineering units",
+    "MDC_P009.en": "15 ABC064.15",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2013-08-27",
+    "MDC_P003_3": "2014-06-18",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABB209,0112/2///61987#ABD535,0112/2///61987#ABB210,0112/2///61987#ABB744,0112/2///61987#ABB745,0112/2///61987#ABB771,0112/2///61987#ABB892,0112/2///61987#ABB746,0112/2///61987#ABC706,0112/2///61987#ABB519,0112/2///61987#ABB774,0112/2///61987#ABB775,0112/2///61987#ABB776,0112/2///61987#ABD502,0112/2///61987#ABC840,0112/2///61987#ABC954}",
+    "MDC_P004.fr": "Performance absolue pour la pression",
+    "MDC_P006.fr": "propriétés caractérisant l'exactitude d'une mesure de pression exprimée en unités techniques",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Leistungsdaten für Druck in absoluten Einheiten",
+    "MDC_P006.de": "Merkmale, die die Genauigkeit einer Druckmessung, ausgedrückt in physikalischen Einheiten, kennzeichnen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:49",
+      "user": "BATCH 00000762",
+      "unid": "D43ACFB5397490E2C125825E001DD495",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:07",
+      "user": "BATCH 00000699",
+      "unid": "bc30bce96c5c4efac1257cb400549b07",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2013-08-27",
+    "current_revision": "2014-06-18"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABB209",
+    "0112/2///61987#ABD535",
+    "0112/2///61987#ABB210",
+    "0112/2///61987#ABB744",
+    "0112/2///61987#ABB745",
+    "0112/2///61987#ABB771",
+    "0112/2///61987#ABB892",
+    "0112/2///61987#ABB746",
+    "0112/2///61987#ABC706",
+    "0112/2///61987#ABB519",
+    "0112/2///61987#ABB774",
+    "0112/2///61987#ABB775",
+    "0112/2///61987#ABB776",
+    "0112/2///61987#ABD502",
+    "0112/2///61987#ABC840",
+    "0112/2///61987#ABC954"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "02",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:49",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "D43ACFB5397490E2C125825E001DD495"
+  }
+}

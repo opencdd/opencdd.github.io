@@ -1,0 +1,16 @@
+{
+  "irdi": "0112/2///61987#ABF327",
+  "code": "ABF327",
+  "type": "property",
+  "is_current": false,
+  "version_meta_only": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "01",
+    "status": "superseded",
+    "timestamp": "2018-03-28 07:27:06",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "098843329489bf8ec125825e001df26d"
+  }
+}

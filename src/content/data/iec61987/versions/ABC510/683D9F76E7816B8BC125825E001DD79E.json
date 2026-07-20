@@ -1,0 +1,121 @@
+{
+  "irdi": "0112/2///61987#ABC510",
+  "code": "ABC510",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Phase [flow]",
+  "preferred_name_ml": {
+    "en": "Phase [flow]",
+    "fr": "Phase [débit]",
+    "de": "Phase [Durchfluss]"
+  },
+  "definition": "properties characterizing a phase of a substance",
+  "definition_ml": {
+    "en": "properties characterizing a phase of a substance",
+    "fr": "propriétés caractérisant une phase d’une substance (version de bloc pour le débit)",
+    "de": "Merkmale, die eine Phase einer Substanz kennzeichnen"
+  },
+  "synonyms": [],
+  "note": "Note 1: Phases are certain states of the substance characterized by the relative mobility of the molecules resulting in solid, liquid, or gas phase Note 2: Aqueous and non-aqueous phases",
+  "note_ml": {
+    "en": "Note 1: Phases are certain states of the substance characterized by the relative mobility of the molecules resulting in solid, liquid, or gas phase Note 2: Aqueous and non-aqueous phases",
+    "de": "Anmerkung 1: Phasen sind bestimmte Zustände einer Substanz, gekennzeichnet durch die relative Mobilität von Molekülen, die zu einer Festkörperphase, Flüssigphase oder Gasphase führt Anmerkung 2: Wässrige und nichtwässrige Phasen"
+  },
+  "remark": "1 ABC510.1",
+  "remark_ml": {
+    "en": "1 ABC510.1"
+  },
+  "status_level": "Standard",
+  "responsible_committee": "SC65E – IEC 61987",
+  "change_request_id": "C00004",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABC510",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Phase [flow]",
+    "MDC_P006.en": "properties characterizing a phase of a substance",
+    "MDC_P008.en": "Note 1: Phases are certain states of the substance characterized by the relative mobility of the molecules resulting in solid, liquid, or gas phase Note 2: Aqueous and non-aqueous phases",
+    "MDC_P009.en": "1 ABC510.1",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "MDC_P003_0": "2018-03-28",
+    "MDC_P003_1": "2013-08-27",
+    "MDC_P003_2": "2016-05-24",
+    "MDC_P003_3": "2016-05-24",
+    "MDC_P012": "SC65E – IEC 61987",
+    "MDC_P010": "0112/2///61987#ABV501",
+    "MDC_P014": "{0112/2///61987#ABU127,0112/2///61987#ABU129,0112/2///61987#ABU130,0112/2///61987#ABU131,0112/2///61987#ABU132}",
+    "MDC_P004.fr": "Phase [débit]",
+    "MDC_P006.fr": "propriétés caractérisant une phase d’une substance (version de bloc pour le débit)",
+    "C019.fr": "Mr. W. Hartmann",
+    "C017.fr": "0",
+    "C018.fr": "2013-08-27",
+    "MDC_P004.de": "Phase [Durchfluss]",
+    "MDC_P006.de": "Merkmale, die eine Phase einer Substanz kennzeichnen",
+    "MDC_P008.de": "Anmerkung 1: Phasen sind bestimmte Zustände einer Substanz, gekennzeichnet durch die relative Mobilität von Molekülen, die zu einer Festkörperphase, Flüssigphase oder Gasphase führt Anmerkung 2: Wässrige und nichtwässrige Phasen",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00004"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2018-03-28 07:25:57",
+      "user": "BATCH 00000762",
+      "unid": "683D9F76E7816B8BC125825E001DD79E",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2014-06-18 13:34:40",
+      "user": "BATCH 00000701",
+      "unid": "11f382b7caa617ecc1257cfb003f9970",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:11",
+      "user": "BATCH 00000699",
+      "unid": "3c72ad2f0428a7adc1257cb400549cbc",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2013-08-27",
+    "current_version": "2016-05-24",
+    "current_revision": "2016-05-24"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABU127",
+    "0112/2///61987#ABU129",
+    "0112/2///61987#ABU130",
+    "0112/2///61987#ABU131",
+    "0112/2///61987#ABU132"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV501",
+  "superclass_type_property": "0112/2///61987#ABV501",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2018-03-28 07:25:57",
+    "user": "BATCH 00000762",
+    "change_request_id": null,
+    "unid": "683D9F76E7816B8BC125825E001DD79E"
+  }
+}

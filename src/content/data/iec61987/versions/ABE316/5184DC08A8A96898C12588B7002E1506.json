@@ -1,0 +1,112 @@
+{
+  "irdi": "0112/2///61987#ABE316",
+  "code": "ABE316",
+  "version": "2",
+  "revision": "1",
+  "preferred_name": "Device LOP for plug valve",
+  "preferred_name_ml": {
+    "en": "Device LOP for plug valve",
+    "de": "Geräte-Merkmalleiste für Kegelhahn"
+  },
+  "definition": "list of properties characterizing a plug valve",
+  "definition_ml": {
+    "en": "list of properties characterizing a plug valve",
+    "de": "Merkmalleiste, die einen Kegelhahn kennzeichnet"
+  },
+  "synonyms": [],
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61987",
+  "responsible_committee": "IEC/SC 65E",
+  "change_request_id": "C00121",
+  "raw_properties": {
+    "MDC_P001_5": "0112/2///61987#ABE316",
+    "MDC_P002_1": "2",
+    "MDC_P002_2": "1",
+    "MDC_P004.en": "Device LOP for plug valve",
+    "MDC_P006.en": "list of properties characterizing a plug valve",
+    "MDC_P011": "ITEM_CLASS",
+    "C016": "Standard",
+    "C012": "IEC 61987",
+    "C011": "IEC",
+    "MDC_P003_0": "2022-09-08",
+    "MDC_P003_1": "2017-12-07",
+    "MDC_P003_2": "2022-09-08",
+    "MDC_P003_3": "2022-09-08",
+    "MDC_P012": "IEC/SC 65E",
+    "MDC_P010": "0112/2///61987#ABV504",
+    "MDC_P014": "{0112/2///61987#ABC899,0112/2///61987#ABC730,0112/2///61987#ABE223,0112/2///61987#ABU551,0112/2///61987#ABE229,0112/2///61987#ABE256,0112/2///61987#ABE191,0112/2///61987#ABE073,0112/2///61987#ABC795,0112/2///61987#ABA293,0112/2///61987#ABC710}",
+    "MDC_P004.de": "Geräte-Merkmalleiste für Kegelhahn",
+    "MDC_P006.de": "Merkmalleiste, die einen Kegelhahn kennzeichnet",
+    "C019.de": "Mr. W. Hartmann",
+    "C017.de": "0",
+    "C018.de": "2014-12-12",
+    "C002": "C00121"
+  },
+  "version_history": [
+    {
+      "version": "002",
+      "revision": "01",
+      "status": "standard",
+      "timestamp": "2022-09-08 10:23:20",
+      "user": "BATCH 00000799",
+      "unid": "5184DC08A8A96898C12588B7002E1506",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2018-03-28 07:26:01",
+      "user": "BATCH 00000762",
+      "unid": "f404d7c405daa938c125825e001dd959",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2014-04-08 17:24:15",
+      "user": "BATCH 00000699",
+      "unid": "7fc20feb20e52622c1257cb400549e37",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "2017-12-07",
+    "current_version": "2022-09-08",
+    "current_revision": "2022-09-08"
+  },
+  "is_case_of": [],
+  "applicable_properties": [
+    "0112/2///61987#ABC899",
+    "0112/2///61987#ABC730",
+    "0112/2///61987#ABE223",
+    "0112/2///61987#ABU551",
+    "0112/2///61987#ABE229",
+    "0112/2///61987#ABE256",
+    "0112/2///61987#ABE191",
+    "0112/2///61987#ABE073",
+    "0112/2///61987#ABC795",
+    "0112/2///61987#ABA293",
+    "0112/2///61987#ABC710"
+  ],
+  "imported_properties": [],
+  "sub_class_selection": [],
+  "applicable_documents": [],
+  "imported_documents": [],
+  "class_type": "ITEM_CLASS",
+  "superclass": "0112/2///61987#ABV504",
+  "superclass_type_property": "0112/2///61987#ABV504",
+  "type": "class",
+  "is_current": true,
+  "version_meta": {
+    "version": "002",
+    "revision": "01",
+    "status": "standard",
+    "timestamp": "2022-09-08 10:23:20",
+    "user": "BATCH 00000799",
+    "change_request_id": null,
+    "unid": "5184DC08A8A96898C12588B7002E1506"
+  }
+}

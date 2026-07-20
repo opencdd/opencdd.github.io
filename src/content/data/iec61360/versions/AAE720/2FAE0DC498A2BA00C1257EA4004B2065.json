@@ -1,0 +1,127 @@
+{
+  "irdi": "0112/2///61360_4#AAE720",
+  "code": "AAE720",
+  "version": "1",
+  "revision": "5",
+  "preferred_name": "access time",
+  "preferred_name_ml": {
+    "en": "access time"
+  },
+  "short_name": "t_ACC",
+  "short_name_ml": {
+    "en": "t_ACC"
+  },
+  "definition": "maximum access time interval, from address to output, of a memory function of an IC",
+  "definition_ml": {
+    "en": "maximum access time interval, from address to output, of a memory function of an IC"
+  },
+  "source_document": "ISO 2382-12 (12.02.31) (1988)",
+  "synonyms": [],
+  "note": "In the case of a dynamic RAM, it is the time interval (t_RAC}) between row address strobe and output.",
+  "note_ml": {
+    "en": "In the case of a dynamic RAM, it is the time interval (t_RAC}) between row address strobe and output."
+  },
+  "status_level": "Standard",
+  "publisher": "IEC",
+  "published_in": "IEC 61360-4",
+  "responsible_committee": "SC3D",
+  "raw_properties": {
+    "MDC_P001_6": "0112/2///61360_4#AAE720",
+    "MDC_P002_1": "1",
+    "MDC_P002_2": "5",
+    "MDC_P004.en": "access time",
+    "MDC_P005.en": "t_ACC",
+    "MDC_P006.en": "maximum access time interval, from address to output, of a memory function of an IC",
+    "MDC_P008.en": "In the case of a dynamic RAM, it is the time interval (t_RAC}) between row address strobe and output.",
+    "MDC_P025_1": "t_ACC}",
+    "MDC_P025_3": "t_RAC}",
+    "MDC_P023": "s",
+    "MDC_P022": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+    "MDC_P024": "NR3..3.3ES2",
+    "MDC_P006_1": "ISO 2382-12 (12.02.31) (1988)",
+    "MDC_P020": "NON_DEPENDENT_P_DET",
+    "MDC_P040": "T07",
+    "MDC_P021": "0112/2///61360_4#AAA001",
+    "MDC_P041": "0112/2///62720#UAA972",
+    "C016": "Standard",
+    "C012": "IEC 61360-4",
+    "C011": "IEC",
+    "MDC_P003_0": "2015-08-17",
+    "MDC_P003_1": "1996-08-01",
+    "MDC_P003_2": "2011-08-31",
+    "MDC_P003_3": "2015-08-17",
+    "MDC_P012": "SC3D"
+  },
+  "version_history": [
+    {
+      "version": "001",
+      "revision": "05",
+      "status": "standard",
+      "timestamp": "2015-08-17 15:40:34",
+      "user": "BATCH 00000917",
+      "unid": "2FAE0DC498A2BA00C1257EA4004B2065",
+      "is_current": true
+    },
+    {
+      "version": "001",
+      "revision": "04",
+      "status": "superseded",
+      "timestamp": "2015-07-23 11:08:28",
+      "user": "BATCH 00000907",
+      "unid": "2431eba6fdd3b21ac1257e8b003236b4",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "03",
+      "status": "superseded",
+      "timestamp": "2015-07-22 14:21:34",
+      "user": "BATCH 00000904",
+      "unid": "3b2bc628b7160e6ec1257e8a0043e488",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "02",
+      "status": "superseded",
+      "timestamp": "2012-05-30 15:03:33",
+      "user": "BATCH 00000788",
+      "unid": "c66ac1b8633c49abc1257a0e0047bcca",
+      "is_current": false
+    },
+    {
+      "version": "001",
+      "revision": "01",
+      "status": "superseded",
+      "timestamp": "2012-05-30 14:53:54",
+      "user": "BATCH 00000787",
+      "unid": "02beddda0efb4722c1257a0e0046da4a",
+      "is_current": false
+    }
+  ],
+  "dates": {
+    "original_definition": "1996-08-01",
+    "current_version": "2011-08-31",
+    "current_revision": "2015-08-17"
+  },
+  "symbol_in_text": "t_ACC}",
+  "value_format": "NR3..3.3ES2",
+  "definition_class_irdi": "0112/2///61360_4#AAA001",
+  "unit_irdi": "0112/2///62720#UAA972",
+  "alternative_unit_irdis": [],
+  "parsed_data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "data_element_type": "NON_DEPENDENT_P_DET",
+  "property_data_element_type": "NON_DEPENDENT_P_DET",
+  "type": "property",
+  "data_type": "LEVEL(MAX) OF REAL_MEASURE_TYPE",
+  "is_current": true,
+  "version_meta": {
+    "version": "001",
+    "revision": "05",
+    "status": "standard",
+    "timestamp": "2015-08-17 15:40:34",
+    "user": "BATCH 00000917",
+    "change_request_id": null,
+    "unid": "2FAE0DC498A2BA00C1257EA4004B2065"
+  }
+}
