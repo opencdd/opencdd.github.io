@@ -18,10 +18,10 @@ import type { DictionaryBundle } from "./bundle";
 /**
  * Generates getStaticPaths for an entity detail page.
  */
-export function entityStaticPaths(type: EntityType) {
+export function entityStaticPaths(type: string) {
   return listRegistryEntries().flatMap((entry) => {
     const bundle = loadDictionary(entry.slug);
-    return (bundle.entitiesOfType(type)).map((node) => ({
+    return (bundle.entitiesOfType(type as any)).map((node) => ({
       params: {
         dict: entry.slug,
         code: node.code ?? codeFromIrdi(node.irdi),

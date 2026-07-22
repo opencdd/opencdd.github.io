@@ -27,7 +27,7 @@ export interface EntityTypeMeta {
   readonly hasOverviewTab: boolean;
 }
 
-const REGISTRY: Readonly<Record<EntityType, EntityTypeMeta>> = {
+const REGISTRY: Readonly<Record<string, EntityTypeMeta>> = {
   class: {
     type: "class",
     singular: "class",
@@ -68,6 +68,14 @@ const REGISTRY: Readonly<Record<EntityType, EntityTypeMeta>> = {
     routeSegment: "u",
     hasOverviewTab: true,
   },
+  list_of_unit: {
+    type: "list_of_unit" as EntityType,
+    singular: "unit list",
+    plural: "unit lists",
+    badgeTone: "amber",
+    routeSegment: "lu",
+    hasOverviewTab: true,
+  },
   relation: {
     type: "relation",
     singular: "relation",
@@ -85,57 +93,58 @@ const REGISTRY: Readonly<Record<EntityType, EntityTypeMeta>> = {
   },
 };
 
-export const ENTITY_TYPE_ORDER: readonly EntityType[] = [
+export const ENTITY_TYPE_ORDER: readonly string[] = [
   "class",
   "property",
   "value_list",
   "value_term",
   "unit",
+  "list_of_unit",
   "relation",
   "view_control",
 ];
 
-export const DETAILABLE_TYPES: readonly EntityType[] = ENTITY_TYPE_ORDER.filter(
-  (t) => REGISTRY[t].routeSegment !== undefined,
+export const DETAILABLE_TYPES: readonly string[] = ENTITY_TYPE_ORDER.filter(
+  (t) => REGISTRY[t]!.routeSegment !== undefined,
 );
 
-export const TABBABLE_TYPES: readonly EntityType[] = ENTITY_TYPE_ORDER.filter(
-  (t) => REGISTRY[t].hasOverviewTab,
+export const TABBABLE_TYPES: readonly string[] = ENTITY_TYPE_ORDER.filter(
+  (t) => REGISTRY[t]!.hasOverviewTab,
 );
 
-export function entityTypeMeta(type: EntityType): EntityTypeMeta {
-  return REGISTRY[type];
+export function entityTypeMeta(type: string): EntityTypeMeta {
+  return REGISTRY[type]!;
 }
 
-export function entityLabelFor(type: EntityType): string {
-  return REGISTRY[type].singular;
+export function entityLabelFor(type: string): string {
+  return REGISTRY[type]!.singular;
 }
 
-export function entityPluralLabelFor(type: EntityType): string {
-  return REGISTRY[type].plural;
+export function entityPluralLabelFor(type: string): string {
+  return REGISTRY[type]!.plural;
 }
 
-export function entityPluralTitleFor(type: EntityType): string {
-  const plural = REGISTRY[type].plural;
+export function entityPluralTitleFor(type: string): string {
+  const plural = REGISTRY[type]!.plural;
   return plural.charAt(0).toUpperCase() + plural.slice(1);
 }
 
-export function badgeToneFor(type: EntityType): BadgeTone {
-  return REGISTRY[type].badgeTone;
+export function badgeToneFor(type: string): BadgeTone {
+  return REGISTRY[type]?.badgeTone ?? "neutral";
 }
 
-export function routeSegmentFor(type: EntityType): string {
-  const seg = REGISTRY[type].routeSegment;
+export function routeSegmentFor(type: string): string {
+  const seg = REGISTRY[type]?.routeSegment;
   if (seg === undefined) {
     throw new Error(`no route segment for entity type: ${type}`);
   }
   return seg;
 }
 
-const SEGMENT_TO_TYPE: Readonly<Record<string, EntityType>> = (() => {
-  const out: Record<string, EntityType> = {};
+const SEGMENT_TO_TYPE: Readonly<Record<string, string>> = (() => {
+  const out: Record<string, string> = {};
   for (const t of DETAILABLE_TYPES) {
-    const seg = REGISTRY[t].routeSegment!;
+    const seg = REGISTRY[t]!.routeSegment!;
     out[seg] = t;
   }
   return out;
@@ -143,18 +152,18 @@ const SEGMENT_TO_TYPE: Readonly<Record<string, EntityType>> = (() => {
 
 export function entityTypeForSegment(
   segment: string | null | undefined,
-): EntityType | null {
+): string | null {
   if (!segment) return null;
   return SEGMENT_TO_TYPE[segment] ?? null;
 }
 
-export function entityRoute(slug: string, type: EntityType, code: string): string {
+export function entityRoute(slug: string, type: string, code: string): string {
   return `/d/${slug}/${routeSegmentFor(type)}/${code}`;
 }
 
 export function countForType(
   bundle: Pick<BundleShaped, "entityCount">,
-  type: EntityType,
+  type: string,
 ): number {
   return bundle.entityCount(type);
 }
@@ -167,10 +176,11 @@ export function totalEntityCount(
   return sum;
 }
 
-export function detailableTypeOf(node: EntityNode): EntityType | null {
-  return REGISTRY[node.type].routeSegment !== undefined ? node.type : null;
+export function detailableTypeOf(node: { type: string }): string | null {
+  const meta = REGISTRY[node.type];
+  return meta?.routeSegment !== undefined ? node.type : null;
 }
 
 interface BundleShaped {
-  entityCount(type: EntityType): number;
+  entityCount(type: string): number;
 }
