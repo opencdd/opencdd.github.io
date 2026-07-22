@@ -42,7 +42,7 @@ describe("entityTypeMeta SSOT", () => {
 
   it("every detailable type has a route segment", () => {
     for (const type of DETAILABLE_TYPES) {
-      expect(routeSegmentFor(type)).toMatch(/^[a-z]$/);
+      expect(routeSegmentFor(type)).toMatch(/^[a-z]+$/);
     }
   });
 
