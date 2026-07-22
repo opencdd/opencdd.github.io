@@ -5,17 +5,17 @@ import {
   ENTITY_TYPE_ORDER,
   entityPluralTitleFor,
 } from "~/lib/entityTypeMeta";
-import type { EntityType } from "~/lib/types";
+
 import type { DictionaryBundle } from "~/lib/bundle";
 
 interface Props {
   bundle?: DictionaryBundle;
-  counts?: Partial<Record<EntityType, number>>;
+  counts?: Record<string, number>;
 }
 
 const { bundle, counts } = Astro.props;
 
-function countFor(type: EntityType): number {
+function countFor(type: string): number {
   if (counts) return counts[type] ?? 0;
   if (bundle) return bundle.entityCount(type) ?? 0;
   return 0;

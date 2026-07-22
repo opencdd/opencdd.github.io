@@ -20,7 +20,7 @@ export interface CrossDictMatch {
   dict: string;
   dictTitle: string;
   code: string;
-  type: EntityType;
+  type: string;
   href: string;
   name: string;
 }
@@ -34,7 +34,7 @@ function buildIndex(): Map<string, CrossDictMatch[]> {
   for (const d of listDictionaries()) {
     if (d.demonstration) continue;
     const bundle = loadDictionary(d.slug);
-    for (const type of ENTITY_TYPE_ORDER) {
+    for (const type of ENTITY_TYPE_ORDER as readonly string[]) {
       let segment: string;
       try {
         segment = routeSegmentFor(type);

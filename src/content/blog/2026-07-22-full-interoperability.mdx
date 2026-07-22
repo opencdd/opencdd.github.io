@@ -1,0 +1,171 @@
+---
+title: "OpenCDD July 2026: full interoperability with CDD data"
+description: "Seven IEC dictionaries, 23,000+ entities, interactive relationship graphs, version history with real diffs, cross-dictionary concept matching, and three open-source tools that round-trip CDD data end to end."
+published: 2026-07-22
+author: OpenCDD
+tags: ["announcement", "release", "interoperability"]
+---
+
+Three months ago we set out to make the IEC Common Data Dictionary
+genuinely useful on the modern web. Today we are shipping the most
+significant update yet: **full read-side interoperability** with CDD
+data across three open-source packages, plus a browser that turns
+22,000+ entities into something you can actually explore.
+
+## The three tools
+
+### opencdd-ruby v0.2.0
+
+The Ruby gem is the canonical model. This release adds:
+
+- **Per-entity CDDAL emit** — `Cddal::Serializer#emit_entity` produces
+  a single-entity CDDAL fragment with a correct header. Round-trips
+  through `Cddal.parse`.
+- **Per-entity JSON payload** — `Exporters::Json#payload_for` gives
+  the browser and editor a registry-dispatched wire shape for any
+  entity type.
+- **VersionedReader** — reads historical version files from the
+  cdd-data sharded store, enabling "time travel" through entity
+  definitions.
+- **EntityDiff** — `EntityDiff.between(v001, v002)` computes
+  added / removed / changed fields, including multilingual variants.
+- **Database refactoring** — split into focused concern modules
+  (queries, persistence, serialization) for testability.
+- **Trusted publishing** on RubyGems via OIDC.
+
+### @opencdd/opencdd v0.3.5
+
+The TypeScript port (formerly `@opencdd/models`) now matches the Ruby
+gem feature-for-feature on the read side:
+
+- **`list_of_unit` entity type** — IEC 62720 introduced a new entity
+  type for unit systems (e.g. "Metre-kilogram-second-ampere system of
+  units"). 394 records, previously invisible.
+- **Parcel Excel readers** — reads `.xlsx` and legacy `.xls` parcel
+  files directly (SheetJS). The TS package can now read every Excel
+  parcel in cdd-data.
+- **JSON database pipeline** — `Database.fromJson` / `toJson` for the
+  cdd-data wire shape.
+- **CDDAL module system** — parser/serializer with imports, resolver,
+  and source locations.
+- **Exporters** — JSON, YAML, CSV, Mermaid class diagrams.
+- **Validators** — R01–R14 rules.
+- **YAML persistence** — database + per-entity sharded store.
+
+### OpenCDD Browser
+
+The static site at [opencdd.github.io](https://opencdd.github.io) now
+serves **seven published dictionaries** with **22,927 entities**:
+
+| Dictionary | Entities | Focus |
+|-----------|----------|-------|
+| IEC 61360 | 4,776 | Core CDD (classes, properties, units) |
+| IEC 61987 | 13,334 | Industrial process measurement |
+| IEC 62683 | 1,871 | Low-voltage switchgear |
+| IEC 62720 | 2,566 | Quantities and units (new) |
+| IEC 63213 | 224 | Power management devices |
+| IEC 63508 | 155 | Miniature circuit-breakers |
+| OceanRunner | — | Demonstration fixture |
+
+## What is new on the site
+
+### Interactive relationship graph
+
+Every entity page now has a **"Relationships" button** that opens a
+full-screen SVG graph. Start at the center node and explore
+1-degree and 2-degree neighbors — superclass, subclasses, properties,
+units, value lists, relations, powertype instances. Nodes are
+color-coded by entity type; edges are typed by relationship kind.
+Click any node to navigate; toggle between 1° and 2° depth.
+
+This is not just for classes anymore. A **unit** page shows which
+properties use it. A **property** page shows its declaring class, unit,
+and value list. The graph is a superset of the tree sidebar — nothing
+is hidden.
+
+### Version history with real diffs
+
+The cdd-data pipeline now provides **34,091 historical version files**
+across all dictionaries. Of these, **2,364 contain full entity data**
+(not just metadata). The browser's version timeline shows when each
+entity was defined, what status it had, and who changed it. The diff
+viewer compares two versions field-by-field — definition changes,
+name changes, property additions, multilingual updates.
+
+### Cross-dictionary concept matching
+
+Entities with the same name in different dictionaries now show an
+**"Also appears in"** section. 257 names match across dictionaries
+(e.g. "battery" in both IEC 61360 and IEC 61987). Click to jump
+directly to the equivalent entity in another dictionary.
+
+### Command palette (⌘K)
+
+Press **⌘K** anywhere to open a universal search that finds entities
+across ALL dictionaries simultaneously. No need to pick a dictionary
+first — type "voltage" and get results from IEC 61360, 61987, and
+62683 in one list.
+
+The palette also supports:
+- **IRDI lookup** — paste `0112/2///61360_4#AAA001` to find the entity
+- **Recently viewed** — your last 5 entities, persisted in localStorage
+- **Dictionary shortcuts** — quick-jump cards with entity counts
+
+### Broken references are now visible
+
+Entity references that point to data not in the browser are now drawn
+in **rose/red** with a broken-link icon and "Not in data" label.
+Previously these were indistinguishable from valid links. Now you can
+scan any page and instantly see what is missing.
+
+### Everything else
+
+- **Dark mode toggle** (auto / light / dark) with no-flash loading
+- **Browse-by-type** pages with faceted filtering for every entity type
+- **Dictionaries dashboard** at `/dictionaries` with sortable columns
+- **Global changes timeline** at `/changes` across all dictionaries
+- **Keyboard shortcut overlay** — press `?` to see all shortcuts
+- **JSON-LD structured data** on every entity page (schema.org)
+- **Download menu** — CDDAL and CSV export per entity
+- **Reading progress bar**, back-to-top, mobile TOC, entity hover
+  tooltips with definition previews
+- **IEC 62720** — 2,565 units and quantities, including 394
+  `list_of_unit` records that were previously invisible
+
+## What this means for interoperability
+
+The three packages now form a complete round-trip:
+
+```
+cdd-data (.xls source)
+  → opencdd-ruby (scrape, model, serialize)
+    → JSON wire format
+      → @opencdd/opencdd (TS model, validate, export)
+        → CDDAL / YAML / CSV / Mermaid
+      → OpenCDD Browser (static site, 22K+ pages)
+```
+
+Every layer is open-source. Every layer reads the same JSON shape.
+Every layer can export CDDAL. A user who downloads an entity from the
+browser gets the same CDDAL text that the Ruby serializer produces. A
+user who reads a Parcel xlsx with the TS package gets the same model
+that the Ruby gem builds from the source .xls.
+
+The data is IEC's. The tooling is ours. The identifiers (IRDIs) are
+shared.
+
+## Try it
+
+- **Browse**: [opencdd.github.io](https://opencdd.github.io)
+- **Ruby gem**: `gem install opencdd` — [github.com/opencdd/opencdd-ruby](https://github.com/opencdd/opencdd-ruby)
+- **TS package**: `npm install @opencdd/opencdd` — [github.com/opencdd/cdd-models-ts](https://github.com/opencdd/cdd-models-ts)
+- **Data pipeline**: [github.com/opencdd/cdd-data](https://github.com/opencdd/cdd-data) (private during scrape, public releases)
+
+Press **⌘K** on any page to search. Press **?** for keyboard shortcuts.
+Click **Relationships** on any entity to see its graph.
+
+---
+
+*OpenCDD is not affiliated with the IEC. IEC owns the standards and
+the dictionary content. We own the open-source tooling. For the
+canonical publications, see the [IEC webstore](https://webstore.iec.ch/).*

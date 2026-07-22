@@ -56,7 +56,7 @@ export class DictionaryBundle {
     readonly registry: DictionaryRegistryEntry,
     private readonly _entities: ReadonlyMap<string, EntityNode>,
     private readonly _byCode: ReadonlyMap<string, EntityNode>,
-    private readonly _byType: ReadonlyMap<EntityType, readonly EntityNode[]>,
+    private readonly _byType: ReadonlyMap<string, readonly EntityNode[]>,
     readonly classTree: ClassTreeNode[],
   ) {
     this.subclassesByIrdi = indexSubclasses(this);
@@ -86,11 +86,11 @@ export class DictionaryBundle {
     return this._entities.has(irdi);
   }
 
-  entitiesOfType(type: EntityType): readonly EntityNode[] {
+  entitiesOfType(type: string): readonly EntityNode[] {
     return this._byType.get(type) ?? EMPTY_ENTITIES;
   }
 
-  entityCount(type: EntityType): number {
+  entityCount(type: string): number {
     return this._byType.get(type)?.length ?? 0;
   }
 

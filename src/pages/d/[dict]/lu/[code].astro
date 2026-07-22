@@ -1,0 +1,66 @@
+---
+import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
+import ReferenceSection from "~/components/ui/ReferenceSection.astro";
+import EntityBadge from "~/components/ui/EntityBadge.astro";
+import Card from "~/components/ui/Card.astro";
+import Field from "~/components/ui/Field.astro";
+import FilterableEntityList from "~/components/islands/FilterableEntityList.vue";
+import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
+import { toEntityListItems } from "~/lib/listItems";
+import type { EntityNode } from "~/lib/types";
+
+export function getStaticPaths() {
+  return entityStaticPaths("list_of_unit");
+}
+
+const { dict } = Astro.params;
+const { irdi } = Astro.props;
+const { node, bundle } = loadEntityForPage<EntityNode>(dict!, irdi as string);
+
+if (!node) {
+  return Astro.redirect("/404/");
+}
+
+const memberUnits = (node as any).term_irdis
+  ? (node as any).term_irdis
+      .map((i: string) => bundle.find(i))
+      .filter((n: any): n is EntityNode => !!n && n.type === "unit")
+  : [];
+const memberItems = toEntityListItems(
+  memberUnits.map((u: EntityNode) => u.irdi),
+  bundle,
+  dict!,
+);
+---
+
+<EntityDetailShell
+  dict={dict!}
+  node={node as any}
+  title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
+>
+  <EntityBadge slot="badge" type="value_list" />
+
+  {memberUnits.length > 0 && (
+    <ReferenceSection title="Member units" count={memberUnits.length} anchor>
+      <FilterableEntityList client:visible items={memberItems} placeholder="Filter units…" />
+    </ReferenceSection>
+  )}
+
+  <Card>
+    <dl class="grid gap-3 sm:grid-cols-2">
+      <Field label="Code">
+        <code class="font-mono text-xs">{node.code}</code>
+      </Field>
+      {(node as any).symbol && (
+        <Field label="Symbol">
+          <code class="font-mono text-xs">{(node as any).symbol}</code>
+        </Field>
+      )}
+      {(node as any).structure && (
+        <Field label="Structure">
+          {(node as any).structure}
+        </Field>
+      )}
+    </dl>
+  </Card>
+</EntityDetailShell>

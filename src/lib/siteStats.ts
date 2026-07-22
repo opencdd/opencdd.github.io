@@ -14,7 +14,7 @@ export interface DictionaryStats {
   title: string;
   parcelId: string;
   totalEntities: number;
-  byType: Partial<Record<EntityType, number>>;
+  byType: Record<string, number>;
   multiVersionEntities: number;
   totalVersions: number;
 }
@@ -24,22 +24,22 @@ export interface SiteStats {
   totalEntities: number;
   totalVersions: number;
   multiVersionEntities: number;
-  byType: Partial<Record<EntityType, number>>;
+  byType: Record<string, number>;
   perDictionary: DictionaryStats[];
 }
 
 export function computeSiteStats(): SiteStats {
   const perDictionary: DictionaryStats[] = [];
-  const aggregateByType: Partial<Record<EntityType, number>> = {};
+  const aggregateByType: Record<string, number> = {};
   let totalEntities = 0;
   let totalVersions = 0;
   let multiVersionEntities = 0;
 
   for (const entry of listRegistryEntries()) {
     const bundle = loadDictionary(entry.slug);
-    const byType: Partial<Record<EntityType, number>> = {};
+    const byType: Record<string, number> = {};
     let dictTotal = 0;
-    for (const type of TABBABLE_TYPES) {
+    for (const type of TABBABLE_TYPES as readonly string[]) {
       const c = countForType(bundle, type);
       if (c > 0) byType[type] = c;
       aggregateByType[type] = (aggregateByType[type] ?? 0) + c;
@@ -48,7 +48,7 @@ export function computeSiteStats(): SiteStats {
 
     let dictVersions = 0;
     let dictMultiVersion = 0;
-    for (const type of TABBABLE_TYPES) {
+    for (const type of TABBABLE_TYPES as readonly string[]) {
       for (const entity of bundle.entitiesOfType(type)) {
         const vh = entity.version_history ?? [];
         dictVersions += vh.length;
@@ -87,7 +87,7 @@ export function entityCountLabel(stats: SiteStats): string {
   return `${stats.totalEntities.toLocaleString()} entities across ${stats.totalDictionaries} dictionaries`;
 }
 
-export function topTypes(stats: SiteStats, n = 5): Array<{ type: EntityType; count: number; label: string }> {
+export function topTypes(stats: SiteStats, n = 5): Array<{ type: string; count: number; label: string }> {
   return TABBABLE_TYPES
     .map((type) => ({
       type,
