@@ -1,0 +1,271 @@
+---
+title: "The Parcel Excel Format"
+description: "How IEC 62656-1 Parcel workbooks are structured — reserved sheets, per-dictionary sheets, the 12-row header, and how to read them programmatically."
+published: 2026-07-23
+order: 10
+section: "Reference"
+---
+
+Parcel is the canonical Excel workbook format for exchanging CDD
+content, defined by **IEC 62656-1**. It is what IEC's ParcelMaker
+tool produces, what the `cdd.iec.ch` bulk-download endpoints serve,
+and what committee members exchange during standards development.
+
+OpenCDD reads every Parcel shape ParcelMaker 5.2+ emits and writes
+xlsx that re-reads to a semantically equal database. This page
+explains the format and how to use the OpenCDD tooling to read and
+write it.
+
+## File extensions
+
+| Extension | Format | Read | Write |
+|-----------|--------|:----:|:-----:|
+| `.xlsx` | Office Open XML (ParcelMaker default) | ✅ | ✅ |
+| `.xlsm` | xlsx with macros | ✅ | ❌ |
+| `.xls` | OLE Compound / BIFF8 (legacy) | ✅ | ❌ |
+| `.csv` | UTF-8 (per-sheet) | ✅ | ✅ |
+| `.cddal` | Plain-text canonical format | ✅ | ✅ |
+
+`.xls` writing is intentionally unsupported — ParcelMaker itself
+stopped writing `.xls` after 5.2.1. Modern exchange uses `.xlsx`.
+
+## Workbook structure
+
+A Parcel workbook is a single `.xlsx` file containing **reserved
+sheets** plus **per-dictionary sheets**.
+
+### Reserved sheets
+
+#### `Project`
+
+A single-row metadata sheet identifying the workbook:
+
+| Column | Example | Purpose |
+|--------|---------|---------|
+| `Project ID` | `IEC62683` | Identifies the project |
+| `Parcel ID` | `0112/2///62683_1` | Supplier-qualified parcel IRDI |
+| `Multi language` | `en,fr,ja` | Comma-separated translation languages |
+| `Base language` | `en` | Source language for translations |
+
+#### `sheetmap`
+
+The authoritative index of every parcel sheet in the workbook. One
+row per sheet:
+
+| Column | Example | Purpose |
+|--------|---------|---------|
+| `projectid` | `IEC62683` | Project identifier |
+| `parcelid` | `0112/2///62683_1` | Parcel IRDI |
+| `classid` | `0112/2///62656_1#MDC_C002##1` | Meta-class IRDI |
+| `contentno` | `0` | Index for multiple sheets per type |
+| `sheetno` | `4` | Excel sheet index (1-based) |
+| `sheetname` | `IEC62683_CLASS` | Worksheet name |
+| `type` | `CLASS` | Sheet type constant |
+| `target` | (usually empty) | External-parcel target |
+
+#### `pcls_LOCAL`
+
+A flat registry of dictionaries included in this workbook:
+
+| Code | Name |
+|------|------|
+| `IEC62683` | IEC 62683 dictionary |
+
+### Per-dictionary sheets
+
+Named `<PARCEL_ID>_<TYPE>`. For example, `IEC62683_CLASS` contains
+class definitions for the IEC 62683 dictionary. Each type maps to a
+CDD meta-class:
+
+| Sheet type | Meta-class | Content |
+|------------|-----------|---------|
+| `DICTIONARY` | MDC_C001 | Dictionary metadata |
+| `CLASS` | MDC_C002 | Class definitions |
+| `PROPERTY` | MDC_C003 | Property definitions |
+| `SUPPLIER` | MDC_C004 | Supplier definitions |
+| `ENUM` | MDC_C005 | Value-list definitions |
+| `DATATYPE` | MDC_C006 | Data-type definitions |
+| `DOCUMENT` | MDC_C007 | Document definitions |
+| `UoM` | MDC_C009 | Units of measurement |
+| `TERMINOLOGY` | MDC_C010 | Value terms (multilingual) |
+| `RELATION` | MDC_C011 | Relation and function definitions |
+| `VIEWCONTROL` | EXT_C001 | View-control definitions |
+
+## Sheet layout
+
+Every per-dictionary sheet follows the same structure: a 12-row
+header block, then one data row per entity.
+
+### Class header (rows 1–5)
+
+Anchors the sheet to its meta-class. Readers must match by label in
+column A, not by absolute row number — row positions drift between
+ParcelMaker versions.
+
+| Row | Column A label | Value (columns A:G) |
+|-----|---------------|---------------------|
+| 1 | `#CLASS_ID` | Meta-class IRDI (e.g. `MDC_C002`) |
+| 2 | `#CLASS_NAME.en` | Localized meta-class name |
+| 3 | `#SOURCE_LANGUAGE` | Source language code (e.g. `en`) |
+| 4 | `#DEFAULT_SUPPLIER` | Supplier IRDI |
+| 5 | `#DEFAULT_VERSION` | Default version number |
+
+### Schema header (rows 6–12)
+
+One column per property. Column A holds the directive label; columns
+B onwards hold per-property metadata. The column order is NOT
+normative — readers must map by property ID, not by position.
+
+| Row | Column A directive | Purpose |
+|-----|-------------------|---------|
+| 6 | `PROPERTY_ID` | Canonical IEC property ID (e.g. `MDC_P001_5`) |
+| 7 | `ALTERNATE_ID` | Alternate property identifier |
+| 8 | `SUPER_ALTERNATE_ID` | Parent alternate ID |
+| 9 | `SUB_ALTERNATE_ID` | Child alternate ID |
+| 10 | `PROPERTY_NAME` | Human-readable property name |
+| 11 | `DEFINITION` | Property definition text |
+| 12 | `NOTE` | Authoring notes |
+
+Additional directive rows may appear (DATATYPE, UNIT, VALUE_FORMAT,
+PATTERN, RELATION, DEFAULT_VALUE, etc.) depending on the sheet type.
+
+### Property ID mapping
+
+ParcelMaker uses variant property IDs that differ from the canonical
+IEC 61360 identifiers. The OpenCDD tooling handles this mapping
+automatically:
+
+| Parcel variant | Canonical IEC 61360 | Semantic meaning |
+|----------------|--------------------|------------------|
+| `MDC_P004_1` | `MDC_P004` | Preferred name |
+| `MDC_P004_2` | `MDC_P007` | Short name |
+| `MDC_P004_3` | `MDC_P005` | Definition |
+| `MDC_P005` | `MDC_P006` | Note |
+| `MDC_P007_1` | `MDC_P008` | Remark |
+| `MDC_P007_2` | `MDC_P009` | Synonyms / alternative names |
+
+### Data rows (row 13+)
+
+Each row from row 13 onward is one entity instance. Column positions
+match the schema header above. Multilingual cells use the
+`<value>.<lang>` convention within the cell, or separate columns per
+language (ParcelMaker variant-dependent).
+
+A typical CLASS sheet has columns for:
+
+```
+MDC_P001_5 (code)     MDC_P002_1 (version)  MDC_P004_1 (pref name)
+MDC_P005 (definition)  MDC_P010 (superclass) MDC_P011 (class_type)
+MDC_P013 (is_case_of)  MDC_P014 (applicable) MDC_P090 (imported)
+```
+
+## On-disk layouts
+
+The OpenCDD tooling reads three physical layouts:
+
+### 1. Single workbook (`.xlsx`)
+
+The ParcelMaker default. One file, all sheets. Read with
+`WorkbookReader`:
+
+```ruby
+wb = Opencdd::Parcel::WorkbookReader.from_path("IEC62683.xlsx")
+db = Opencdd::Parcel::FlatDirReader.new(wb).to_database
+```
+
+### 2. Flat directory (legacy `.xls`)
+
+Six separate `.xls` files (one per entity type) in a directory. Used
+by older IEC CDD exports. Read with `FlatDirReader`.
+
+### 3. Sharded directory (harvester output)
+
+Per-class subdirectories containing individual `.xls` exports from
+`cdd.iec.ch`. Each subdirectory is one entity's raw export. Read
+with `ShardedDirReader`. This is the format used by the OpenCDD
+data pipeline.
+
+### 4. Versioned directory (time-travel)
+
+Per-entity version files in a `versions/<code>/` subdirectory. Each
+file is a JSON snapshot of the entity at one point in time. Read
+with `VersionedReader`. This is what powers the browser's version
+timeline and diff features.
+
+## Reading Parcel files
+
+### Ruby (`opencdd` gem)
+
+```ruby
+require 'opencdd'
+
+# Auto-detect layout (xlsx, flat-dir, or sharded-dir)
+db = Opencdd::Database.load("path/to/parcel/")
+
+# Read a specific xlsx file
+wb = Opencdd::Parcel::WorkbookReader.from_path("IEC62683.xlsx")
+reader = Opencdd::Parcel::FlatDirReader.new(wb)
+db = reader.to_database
+
+# Access entities
+db.classes.each { |klass| puts "#{klass.code}: #{klass.preferred_name}" }
+db.properties.each { |prop| puts "#{prop.code}: #{prop.preferred_name}" }
+```
+
+### TypeScript (`@opencdd/opencdd`)
+
+```typescript
+import { Parcel, Database } from "@opencdd/opencdd";
+
+// Read an xlsx workbook
+const reader = Parcel.WorkbookReader.fromPath("IEC62683.xlsx");
+const db = reader.toDatabase();
+
+// Access entities
+for (const klass of db.classes) {
+  console.log(`${klass.code}: ${klass.preferredName("en")}`);
+}
+```
+
+## Writing Parcel files
+
+### Ruby
+
+```ruby
+Opencdd::Parcel::Writer.new(db).write(
+  "output.xlsx",
+  parcel_id: "MY_DICT",
+  project_id: "MY_PROJECT",
+  source_language: "en",
+  translation_languages: %w[fr ja],
+)
+```
+
+The writer produces a ParcelMaker-compatible `.xlsx` with the `Project`,
+`sheetmap`, and `pcls_LOCAL` sheets populated automatically. Each
+entity-type sheet includes the correct 12-row header and all data rows.
+
+## Relationship to CDDAL
+
+Parcel and CDDAL are sibling formats — both represent the same
+in-memory model:
+
+```
+Parcel xlsx  ⇄  Ruby model  ⇄  CDDAL text
+                   ⇅
+                JSON wire format
+```
+
+- **Parcel** is the IEC standard exchange format (binary, committee-facing).
+- **CDDAL** is the OpenCDD authoring format (plain text, developer-facing).
+- **JSON** is the wire format used between tools (machine-readable).
+- All three round-trip losslessly through the same model.
+
+See the [CDDAL documentation](/docs/cddal/) for the plain-text format
+specification.
+
+---
+
+*The Parcel format is defined by IEC 62656-1. The OpenCDD tooling
+reads and writes it without modification. For the canonical format
+specification, see the [IEC webstore](https://webstore.iec.ch/).*
