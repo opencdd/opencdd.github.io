@@ -9,6 +9,9 @@ const docs = defineCollection({
     published: z.coerce.date(),
     updated: z.coerce.date().optional(),
     order: z.number().default(0),
+    section: z.string().default("Other"),
+    author: z.string().default("OpenCDD"),
+    tags: z.array(z.string()).default([]),
   }),
 });
 

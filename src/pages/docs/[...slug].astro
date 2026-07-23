@@ -21,6 +21,7 @@ const docsNav = docs
     href: `/docs/${d.id.replace(/\.mdx$/, "")}/`,
     title: d.data.title,
     order: d.data.order ?? 0,
+    section: d.data.section as string | undefined,
   }));
 ---
 
