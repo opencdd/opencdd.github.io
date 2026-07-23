@@ -289,6 +289,39 @@
   }
 }
 
+/* ── Rainbow mode (easter egg) ──────────────────────────────────────
+   Activated by ThemeToggle after 5 rapid clicks. The --rainbow-hue
+   custom property cycles 0-360 via requestAnimationFrame, and the
+   brand accent tokens follow it. Paper and ink stay stable so text
+   remains readable — only the accents shift. */
+:root[data-rainbow="on"] {
+  --color-teal-300: hsl(calc(var(--rainbow-hue, 200) + 10deg), 80%, 75%);
+  --color-teal-400: hsl(calc(var(--rainbow-hue, 200) + 10deg), 75%, 65%);
+  --color-teal-500: hsl(var(--rainbow-hue, 200), 80%, 55%);
+  --color-teal-600: hsl(var(--rainbow-hue, 200), 70%, 45%);
+
+  --color-lapis-300: hsl(calc(var(--rainbow-hue, 210) + 20deg), 80%, 70%);
+  --color-lapis-400: hsl(calc(var(--rainbow-hue, 210) + 20deg), 70%, 60%);
+  --color-lapis-500: hsl(calc(var(--rainbow-hue, 210) + 20deg), 65%, 52%);
+  --color-lapis-600: hsl(calc(var(--rainbow-hue, 210) + 20deg), 60%, 45%);
+
+  --color-hex-300: hsl(calc(var(--rainbow-hue, 200) + 180deg), 85%, 65%);
+  --color-hex-400: hsl(calc(var(--rainbow-hue, 200) + 180deg), 80%, 58%);
+  --color-hex-500: hsl(calc(var(--rainbow-hue, 200) + 180deg), 75%, 52%);
+  --color-hex-600: hsl(calc(var(--rainbow-hue, 200) + 180deg), 70%, 45%);
+
+  --color-coral-300: hsl(calc(var(--rainbow-hue, 200) + 140deg), 80%, 70%);
+  --color-coral-400: hsl(calc(var(--rainbow-hue, 200) + 140deg), 75%, 62%);
+  --color-coral-500: hsl(calc(var(--rainbow-hue, 200) + 140deg), 70%, 55%);
+}
+
+:root[data-rainbow="on"] body {
+  background-image:
+    radial-gradient(circle at 15% 20%, hsla(var(--rainbow-hue, 200), 80%, 60%, 0.06), transparent 35%),
+    radial-gradient(circle at 85% 80%, hsla(calc(var(--rainbow-hue, 200) + 180deg), 80%, 60%, 0.06), transparent 35%);
+  background-attachment: fixed;
+}
+
 /* ── Base styles ────────────────────────────────────────────────── */
 
 html {

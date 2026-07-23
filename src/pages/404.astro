@@ -2,30 +2,111 @@
 import BaseLayout from "~/layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Not found — OpenCDD">
-  <section class="flex min-h-[50vh] flex-col items-center justify-center text-center animate-fade-in">
-    <p class="font-mono text-sm text-ink-400">404</p>
-    <h1 class="mt-2 text-3xl font-semibold tracking-tight text-ink-900">
-      Page not found
+<BaseLayout title="Entity not found — OpenCDD" description="The IRDI you requested could not be resolved in any OpenCDD dictionary.">
+  <section class="flex min-h-[60vh] flex-col items-center justify-center px-4 text-center">
+    <div class="relative mb-6">
+      <pre class="select-none font-mono text-[11px] leading-tight text-rose-500/70 sm:text-sm" aria-hidden="true">{`   ╔═══════════════════════════╗
+   ║  0112/2///6 ░░░░ #???░░░  ║
+   ║  ▓▒░ registrant: 0112 ░▒▓  ║
+   ║  ▒░ scheme:     ░░░░░░░  ║
+   ║  ░ code:        ???      ║
+   ╚═══════════════════════════╝`}</pre>
+    </div>
+
+    <p class="font-mono text-xs uppercase tracking-[0.3em] text-ink-400">HTTP 404</p>
+    <h1 class="mt-2 font-display text-4xl font-semibold tracking-tight text-ink-900 sm:text-5xl">
+      Entity not found
     </h1>
-    <p class="mt-3 max-w-md text-sm text-ink-600">
-      The page at <code class="rounded bg-paper-100 px-1.5 py-0.5 font-mono text-xs">{Astro.url.pathname}</code>
-      doesn't exist. It may have been renamed, or the entity code doesn't match any
-      entity in the dictionary.
+
+    <p class="mt-4 max-w-lg text-sm leading-relaxed text-ink-600 sm:text-base">
+      The IRDI at{" "}
+      <code class="mx-1 rounded bg-paper-100 px-2 py-0.5 font-mono text-xs text-rose-600 ring-1 ring-rose-200">{Astro.url.pathname}</code>{" "}
+      could not be resolved in any OpenCDD dictionary. The entity may have been
+      renamed, superseded, or the code may not match any known entry.
     </p>
-    <div class="mt-6 flex flex-wrap justify-center gap-3">
+
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
       <a
         href="/"
-        class="rounded-lg bg-hex-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-hex-700"
+        class="inline-flex items-center gap-2 rounded-lg bg-hex-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-hex-700"
       >
-        ← Back to dictionaries
+        <svg viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+          <path d="M9.707 4.293a1 1 0 0 0-1.414 0l-6 6a1 1 0 0 0 1.414 1.414L4 11.414V17a1 1 0 0 0 1 1h4v-3a1 1 0 0 1 1-1h0a1 1 0 0 1 1 1v3h4a1 1 0 0 0 1-1v-5.586l.293.293a1 1 0 0 0 1.414-1.414l-6-6a1 1 0 0 0-1.414 0Z" />
+        </svg>
+        Back to dictionaries
       </a>
-      <a
-        href="/search"
-        class="rounded-lg border border-ink-200 bg-paper-50 px-4 py-2 text-sm font-medium text-ink-700 transition hover:border-ink-300"
+      <button
+        type="button"
+        onclick="window.dispatchEvent(new CustomEvent('opencdd:open-palette'))"
+        class="inline-flex items-center gap-2 rounded-lg border border-ink-200 bg-paper-50 px-4 py-2 text-sm font-medium text-ink-700 transition hover:border-ink-300"
       >
-        Search OpenCDD →
-      </a>
+        <svg viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4" aria-hidden="true">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 3.39 9.83l3.39 3.39a.75.75 0 1 0 1.06-1.06l-3.39-3.39A5.5 5.5 0 0 0 9 3.5ZM5 9a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z" />
+        </svg>
+        Search instead
+      </button>
     </div>
+
+    <div class="mt-12 max-w-md border-t border-paper-200 pt-6 text-left">
+      <p class="mb-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink-400">Possible causes</p>
+      <ul class="space-y-1.5 text-xs text-ink-500">
+        <li class="flex items-start gap-2">
+          <span class="mt-0.5 text-rose-400">▸</span>
+          <span>The code was transposed or mistyped (e.g. <code class="font-mono">AAD009</code> vs <code class="font-mono">ADA009</code>).</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="mt-0.5 text-rose-400">▸</span>
+          <span>The entity exists in a dictionary OpenCDD does not yet serve.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="mt-0.5 text-rose-400">▸</span>
+          <span>The version pin refers to a superseded revision that has been removed.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="mt-0.5 text-rose-400">▸</span>
+          <span>The URL uses the old <code class="font-mono">/d/&lt;slug&gt;/</code> shape from before the 2026 IA revamp.</span>
+        </li>
+      </ul>
+    </div>
+
+    <button
+      type="button"
+      id="ghost-irdi"
+      class="mt-10 cursor-pointer select-none font-mono text-[10px] text-ink-300 transition hover:text-teal-500"
+      aria-label="Hidden easter egg"
+      title="..."
+    >
+      ░░░░/░///░░░░░░#░░░░░░
+    </button>
   </section>
 </BaseLayout>
+
+<script is:inline>
+  (function () {
+    let taps = 0;
+    let timer = null;
+    const btn = document.getElementById("ghost-irdi");
+    if (!btn) return;
+    const messages = [
+      "░░░░/░///░░░░░░#░░░░░░",
+      "you found the ghost IRDI",
+      "every 404 is a door",
+      "the data is out there",
+      "⌖ somewhere, an entity is waiting",
+      "░░░░/░///61360_4#UNIVERSE",
+    ];
+    btn.addEventListener("click", function () {
+      taps++;
+      btn.textContent = messages[Math.min(taps, messages.length - 1)];
+      btn.style.color = "#25a2cb";
+      btn.style.fontWeight = "600";
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(function () {
+        taps = 0;
+        btn.textContent = messages[0];
+        btn.style.color = "";
+        btn.style.fontWeight = "";
+      }, 4000);
+    });
+  })();
+</script>

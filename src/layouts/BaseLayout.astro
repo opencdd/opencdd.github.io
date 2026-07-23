@@ -6,6 +6,8 @@ import Header from "~/components/layout/Header.astro";
 import Footer from "~/components/layout/Footer.astro";
 import CommandPalette from "~/components/islands/CommandPalette.vue";
 import KeyboardHelp from "~/components/islands/KeyboardHelp.vue";
+import KonamiRain from "~/components/islands/KonamiRain.vue";
+import LogoRipple from "~/components/islands/LogoRipple.vue";
 import { listDictionaries } from "~/lib/dictionary";
 
 interface Props {
@@ -52,5 +54,7 @@ const dicts = listDictionaries().map((d) => ({
     <Footer />
     <CommandPalette client:only="vue" dictionaries={dicts} />
     <KeyboardHelp client:only="vue" />
+    <KonamiRain client:only="vue" />
+    <LogoRipple client:only="vue" />
   </body>
 </html>

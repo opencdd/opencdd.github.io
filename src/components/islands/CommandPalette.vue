@@ -247,6 +247,117 @@ onUnmounted(() => {
 function dictLabel(slug: string): string {
   return props.dictionaries.find((d) => d.slug === slug)?.title ?? slug;
 }
+
+interface EggResponse {
+  icon: string;
+  title: string;
+  body: string;
+  accent: string;
+}
+
+const EASTER_EGGS: Array<{ match: RegExp; response: EggResponse }> = [
+  {
+    match: /^42(\.0*)?$/,
+    response: {
+      icon: "✦",
+      title: "The Answer",
+      body: "The answer to the ultimate question of life, the universe, and IRDI resolution.",
+      accent: "var(--color-teal-500)",
+    },
+  },
+  {
+    match: /^hello$|^hi$|^hey$/i,
+    response: {
+      icon: "◐",
+      title: "Hello, fellow taxonomist",
+      body: "Welcome to OpenCDD. Every entity here has a name in six languages and an IRDI older than most web frameworks.",
+      accent: "var(--color-emerald-500)",
+    },
+  },
+  {
+    match: /^opencdd$/i,
+    response: {
+      icon: "⬡",
+      title: "You found us",
+      body: "OpenCDD — a modern browser for published IEC Common Data Dictionary data. Free, open-source, IRDI-native.",
+      accent: "var(--color-hex-500)",
+    },
+  },
+  {
+    match: /^matrix$/i,
+    response: {
+      icon: "▦",
+      title: "Wake up, taxonomist",
+      body: "Try the Konami code: ↑ ↑ ↓ ↓ ← → ← → B A. The IRDI Matrix awaits.",
+      accent: "var(--color-lapis-500)",
+    },
+  },
+  {
+    match: /^water$|^ripple$/i,
+    response: {
+      icon: "◉",
+      title: "Watershed",
+      body: "Click the logo five times. Watch the IRDI codes ripple outward like rain on still water.",
+      accent: "var(--color-rose-500)",
+    },
+  },
+  {
+    match: /^konami$/i,
+    response: {
+      icon: "⌨",
+      title: "↑ ↑ ↓ ↓ ← → ← → B A",
+      body: "The classic. Type it anywhere on the site. Bring popcorn.",
+      accent: "var(--color-violet-500)",
+    },
+  },
+  {
+    match: /^unicorns?$/i,
+    response: {
+      icon: "✶",
+      title: "No unicorns here",
+      body: "Only well-classified electrotechnical entities. But we appreciate the whimsy.",
+      accent: "var(--color-hex-400)",
+    },
+  },
+  {
+    match: /^iec$/i,
+    response: {
+      icon: "Ⓔ",
+      title: "IEC — International Electrotechnical Commission",
+      body: "Source of the CDD. OpenCDD paraphrases and cites; the normative text lives on webstore.iec.ch.",
+      accent: "var(--color-teal-600)",
+    },
+  },
+  {
+    match: /^irdi$/i,
+    response: {
+      icon: "⌖",
+      title: "IRDI",
+      body: "International Registration Data Identifier. ISO/IEC 11179-6. The canonical, language-independent handle for every dictionary entry.",
+      accent: "var(--color-lapis-600)",
+    },
+  },
+  {
+    match: /^rainbow$/i,
+    response: {
+      icon: "◈",
+      title: "Rainbow mode",
+      body: "Click the theme toggle five times, rapidly. Hue will cycle. Tastefulness not guaranteed.",
+      accent: "var(--color-rose-400)",
+    },
+  },
+];
+
+function matchEgg(q: string): EggResponse | null {
+  const trimmed = q.trim().toLowerCase();
+  if (!trimmed) return null;
+  for (const egg of EASTER_EGGS) {
+    if (egg.match.test(trimmed)) return egg.response;
+  }
+  return null;
+}
+
+const eggResponse = computed(() => matchEgg(query.value));
 </script>
 
 <template>
@@ -365,6 +476,28 @@ function dictLabel(slug: string): string {
 
             <!-- Search results -->
             <div v-else-if="flatResults.length > 0" class="p-2">
+              <!-- Easter egg response -->
+              <div
+                v-if="eggResponse"
+                class="mb-2 rounded-xl border px-3 py-2.5"
+                :style="{ borderColor: eggResponse.accent, background: `color-mix(in srgb, ${eggResponse.accent} 8%, transparent)` }"
+              >
+                <div class="flex items-start gap-3">
+                  <span
+                    class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm"
+                    :style="{ background: `color-mix(in srgb, ${eggResponse.accent} 18%, transparent)`, color: eggResponse.accent }"
+                  >
+                    {{ eggResponse.icon }}
+                  </span>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-sm font-semibold" :style="{ color: eggResponse.accent }">
+                      {{ eggResponse.title }}
+                    </p>
+                    <p class="mt-0.5 text-xs text-ink-600">{{ eggResponse.body }}</p>
+                  </div>
+                </div>
+              </div>
+
               <p class="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-ink-400">
                 {{ flatResults.length }} result{{ flatResults.length !== 1 ? 's' : '' }}
               </p>
@@ -399,8 +532,31 @@ function dictLabel(slug: string): string {
 
             <!-- No results -->
             <div v-else class="px-4 py-12 text-center">
-              <p class="text-sm text-ink-500">No matches for "{{ query }}"</p>
-              <p class="mt-1 text-xs text-ink-400">Try a different term or code.</p>
+              <template v-if="eggResponse">
+                <div
+                  class="mx-auto mb-4 max-w-md rounded-xl border px-4 py-3 text-left"
+                  :style="{ borderColor: eggResponse.accent, background: `color-mix(in srgb, ${eggResponse.accent} 8%, transparent)` }"
+                >
+                  <div class="flex items-start gap-3">
+                    <span
+                      class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-base"
+                      :style="{ background: `color-mix(in srgb, ${eggResponse.accent} 18%, transparent)`, color: eggResponse.accent }"
+                    >
+                      {{ eggResponse.icon }}
+                    </span>
+                    <div class="min-w-0 flex-1">
+                      <p class="text-sm font-semibold" :style="{ color: eggResponse.accent }">
+                        {{ eggResponse.title }}
+                      </p>
+                      <p class="mt-0.5 text-xs text-ink-600">{{ eggResponse.body }}</p>
+                    </div>
+                  </div>
+                </div>
+              </template>
+              <template v-else>
+                <p class="text-sm text-ink-500">No matches for "{{ query }}"</p>
+                <p class="mt-1 text-xs text-ink-400">Try a different term or code.</p>
+              </template>
             </div>
           </div>
 
