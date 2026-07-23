@@ -1,0 +1,307 @@
+---
+title: "CDDAL — CDD Authoring Language"
+description: "A human-readable, plain-text format for authoring and exchanging IEC Common Data Dictionary data. Round-trips with the Parcel xlsx format, supports file inclusion, multilingual values, and deterministic output."
+published: 2026-07-23
+author: OpenCDD
+tags: ["reference", "cddal", "format"]
+---
+
+CDDAL (CDD **A**uthoring **L**anguage) is a plain-text format for
+authoring, reviewing, and exchanging IEC Common Data Dictionary data.
+It is the textual sibling of the **Parcel xlsx** format: every CDD
+database can be serialized to either, and both round-trip losslessly
+through the same in-memory model.
+
+## Why CDDAL exists
+
+The IEC CDD ecosystem has two canonical representations:
+
+| Format | Strength | Weakness |
+|--------|----------|----------|
+| **Parcel xlsx** | Official IEC format; rich formatting; familiar to committees | Binary; impossible to diff in version control; no human authoring |
+| **JSON** | Machine-readable; universal parsing | Verbose; no comments; terrible for human authoring |
+| **CDDAL** | Human-readable; git-diffable; supports file inclusion; deterministic | New; not yet an IEC standard |
+
+CDDAL is designed for the gap between machine and human: a format
+that a standards engineer can **read, write, and review** in a text
+editor, that **diffs cleanly** in git, and that **round-trips** with
+the Parcel xlsx format without data loss.
+
+## The format
+
+A CDDAL document is a sequence of declarations. Four kinds:
+
+### 1. Meta-class declarations
+
+A meta-class is the CDD equivalent of a "type definition" — it
+declares which property IDs apply to entities of a given type.
+
+```cddal
+meta-class MDC_C002 {
+  MDC_P001 MDC_P002 MDC_P004 MDC_P005 MDC_P006
+  MDC_P007 MDC_P008 MDC_P009 MDC_P010 MDC_P011
+}
+```
+
+Every `instance` of a class references a meta-class via `<`. The
+meta-class tells the parser which `MDC_P###` property codes are valid
+for that entity.
+
+### 2. Instance declarations
+
+An instance is a single entity — a class, property, unit, value
+list, value term, relation, or view control. It binds an IRDI to a
+set of property assignments.
+
+```cddal
+instance AAA001 < MDC_C002 {
+  preferred_name.en: "Electrical appliance"
+  preferred_name.fr: "Appareil électrique"
+  preferred_name.ja: "電気機器"
+
+  definition.en: "A device that converts electrical energy into another form of energy"
+  definition.fr: "Un dispositif qui convertit l'énergie électrique en une autre forme d'énergie"
+
+  code: AAA001
+  version: 001
+  revision: 01
+  status_level: Standard
+
+  class_type: ITEM_CLASS
+  superclass: 0112/2///61360_4#AAA000
+}
+```
+
+Key syntax elements:
+
+- **`instance AAA001 < MDC_C002`** — declares an entity with code
+  `AAA001`, typed by meta-class `MDC_C002`. The `<` reads as
+  "is an instance of."
+- **`preferred_name.en: "..."`** — a dotted property reference.
+  `preferred_name` is the property; `.en` is the language qualifier.
+  One line per language.
+- **`code: AAA001`** — an unquoted identifier. CDDAL auto-detects
+  numbers, dates, booleans, IRDIs, and bare identifiers. Strings
+  with spaces or special characters require JSON double-quotes.
+- **`superclass: 0112/2///61360_4#AAA000`** — an IRDI reference.
+  IRDIs are recognized by their `/` and `#` pattern and don't need
+  quotes.
+
+### 3. Alias declarations
+
+Aliases provide short names for IRDIs, making CDDAL documents more
+readable:
+
+```cddal
+alias RatedVoltage: 0112/2///61360_4#AAD001
+alias Volt: 0112/2///61360_4#AAU001
+```
+
+After an alias declaration, `RatedVoltage` can be used anywhere the
+full IRDI would appear:
+
+```cddal
+instance AAA001 < MDC_C002 {
+  applicable_properties: { RatedVoltage Volt Ampere }
+}
+```
+
+Built-in aliases for `MDC_P###` property codes are declared
+automatically by the serializer.
+
+### 4. Import declarations
+
+CDDAL supports splitting a dictionary across multiple files. An
+import brings in declarations from another CDDAL file:
+
+```cddal
+# Include all declarations from another file (textual inclusion)
+import "base-classes.cddal"
+
+# Include from a URL
+import "https://opencdd.github.io/d/iec61360/database.cddal"
+
+# Selective import — bring in only specific entities
+from "properties.cddal" import { AAD001 AAD002 AAD003 }
+
+# Qualified import — reference entities with a prefix
+import "iec61987.cddal" as iec61987
+# Now: iec61987::ABC001 refers to entity ABC001 from iec61987
+```
+
+Import features:
+
+- **Local paths** — relative or absolute file paths.
+- **URLs** — any `http://` or `https://` URL serving CDDAL text.
+- **Selective imports** — `from "x" import { A, B }` brings in only
+  named declarations.
+- **Qualified imports** — `import "x" as alias` lets you reference
+  entities as `alias::Code`, avoiding name collisions.
+- **Cycle detection** — circular imports raise an error with the
+  full cycle path.
+- **Source location tracking** — every entity knows which file and
+  line it came from, including transitively-imported ones.
+
+## Value types
+
+CDDAL supports the following value types in assignments:
+
+| Type | Example | Notes |
+|------|---------|-------|
+| String | `"Rated voltage"` | JSON double-quoted, UTF-8, JSON escapes |
+| Number | `42`, `3.14`, `-0.5e10` | JSON number grammar |
+| Date | `2024-03-15` | ISO 8601 calendar date |
+| Boolean | `true`, `false` | Keywords |
+| Null | `null` | Keyword |
+| IRDI | `0112/2///61360_4#AAA001` | Auto-detected by `/` and `#` pattern |
+| Identifier | `AAA001`, `RatedVoltage` | Bare reference to an alias or code |
+| Set | `{ AAA001 AAA002 AAA003 }` | Unordered collection (space-separated) |
+| Tuple | `( ENUM_STRING_TYPE(AAV001) )` | Parenthesized group |
+| Condition | `RatedVoltage == 230` | Equality/inequality test |
+| Class reference | `CLASS_REFERENCE(AAA099)` | Typed reference |
+
+### Multilingual values
+
+Translatable properties use the dotted notation `<property>.<lang>`:
+
+```cddal
+preferred_name.en: "Rated voltage"
+preferred_name.fr: "Tension assignée"
+preferred_name.de: "Bemessungsspannung"
+preferred_name.ja: "定格電圧"
+preferred_name.zh: "额定电压"
+```
+
+If a value is missing for a language, the line is omitted entirely
+(not emitted as `null`). The serializer only emits lines for
+languages that have content.
+
+## Round-trip with Parcel
+
+CDDAL and the Parcel xlsx format are losslessly convertible:
+
+```
+Parcel xlsx  →  Ruby model  →  CDDAL text  →  Ruby model  →  Parcel xlsx
+     ↑                                                        |
+     └────────────────── same in-memory model ────────────────┘
+```
+
+The round-trip invariant: serializing a database to CDDAL and
+parsing it back yields a semantically equal database. This is
+tested in the opencdd-ruby test suite against all cdd-data fixtures.
+
+### What this means in practice
+
+- **Author in CDDAL, ship as Parcel.** Write your dictionary in a
+  text editor using CDDAL syntax. Run the serializer to produce a
+  Parcel xlsx for IEC submission.
+- **Extract from Parcel, review in CDDAL.** Read an existing Parcel
+  xlsx, serialize to CDDAL, review the text diff, commit to git.
+- **Diff versions.** Two versions of a dictionary produce two CDDAL
+  files. `git diff` shows exactly what changed — definitions added,
+  properties renamed, translations updated.
+
+## Deterministic output
+
+The serializer produces byte-for-byte identical output for the same
+input database. This means:
+
+- CDDAL files are **git-friendly** — diffs are meaningful.
+- CI builds can verify that a code change doesn't alter the output.
+- Version comparison is reliable.
+
+Determinism is achieved through:
+1. Stable entity ordering (depth-first class tree, then properties
+   grouped by declaring class, then value lists, units, relations).
+2. Sorted property assignments within each entity.
+3. Alphabetical alias declarations.
+4. Consistent string quoting (only quote when necessary).
+
+## Tooling
+
+### Ruby (`opencdd` gem)
+
+```ruby
+require 'opencdd'
+
+# Parse a CDDAL file
+db = Opencdd::Cddal.parse(File.read("dictionary.cddal"))
+
+# Serialize a database to CDDAL
+text = Opencdd::Cddal::Serializer.new(db).to_cddal
+
+# Emit a single entity
+entity = db.find("0112/2///61360_4#AAA001")
+puts Opencdd::Cddal::Serializer.new(db).emit_entity(entity)
+
+# Read a Parcel xlsx and convert to CDDAL
+wb = Opencdd::Parcel::WorkbookReader.from_path("IEC61360.xlsx")
+db = Opencdd::Parcel::FlatDirReader.new(wb).to_database
+File.write("output.cddal", Opencdd::Cddal::Serializer.new(db).to_cddal)
+```
+
+### TypeScript (`@opencdd/opencdd`)
+
+```typescript
+import { Cddal, Database } from "@opencdd/opencdd";
+
+// Parse CDDAL
+const db = Cddal.parse(cddalText);
+
+// Serialize to CDDAL
+const text = new Cddal.Serializer(db).serialize();
+```
+
+### Browser
+
+Every entity page on [opencdd.github.io](https://opencdd.github.io)
+has a **Download** menu that offers CDDAL export for that single
+entity. The emitted text round-trips through the parser.
+
+## Grammar reference
+
+```
+document        := declaration*
+declaration     := meta_class_decl | instance_decl | alias_decl | import_decl
+meta_class_decl := "meta-class" ident_or_irdi "{" prop_id_list "}"
+instance_decl   := "instance" [IDENT] "<" ident_or_irdi "{" assignment* "}"
+                |  "instance" ident_or_irdi "{" assignment* "}"
+alias_decl      := "alias" IDENT ":" ident_or_irdi
+import_decl     := "import" STRING ["as" IDENT]
+                |  "from" STRING "import" "{" IDENT* "}"
+assignment      := IDENT ["." IDENT] ":" value
+value           := literal | identifier_ref | set | tuple
+                |   class_reference | condition | dotted_ref
+literal         := STRING | NUMBER | DATE | "true" | "false" | "null"
+identifier_ref  := IDENT | IRDI
+set             := "{" value* "}"
+tuple           := "(" value* ")"
+class_reference := IDENT "(" identifier_ref ")"
+condition       := identifier_ref ("==" | "!=") (literal | set)
+dotted_ref      := IDENT "." IDENT
+```
+
+Comments start with `#` and run to end of line (except inside IRDI
+patterns, where `#` is the IRDI separator).
+
+## Comparison with other formats
+
+| Feature | CDDAL | Parcel xlsx | JSON |
+|---------|:-----:|:-----------:|:----:|
+| Human-readable | ✅ | ❌ (binary) | ✅ (verbose) |
+| Human-authorable | ✅ | ❌ | ❌ |
+| Git-diffable | ✅ | ❌ | ✅ (noisy) |
+| Comments | ✅ (`#`) | ❌ | ❌ |
+| File inclusion | ✅ (`import`) | ❌ | ❌ (manual concat) |
+| Multilingual syntax | ✅ (`.en`, `.fr`) | ✅ (columns) | ✅ (keys) |
+| IEC standard | ❌ (OpenCDD) | ✅ (IEC 62656) | ❌ |
+| Round-trips losslessly | ✅ | ✅ | ✅ |
+| Deterministic output | ✅ | ❌ | ✅ (if sorted) |
+| Tooling | Ruby + TS | Ruby + TS | Universal |
+
+---
+
+*CDDAL is an OpenCDD project format, not an IEC standard. It is
+designed to interoperate with IEC's Parcel format (IEC 62656) without
+modifying it. For the canonical IEC publications, see the
+[IEC webstore](https://webstore.iec.ch/).*
