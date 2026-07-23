@@ -31,15 +31,23 @@ jobs:
 
       - run: npm ci
 
-      # Fetch latest data from cdd-data GitHub Release.
-      # Requires CDD_DATA_READ_TOKEN secret (PAT with read access to
-      # the private opencdd/cdd-data repo). Without it, falls back to
-      # the default GITHUB_TOKEN (works only if cdd-data is public).
+      # Fetch latest data from the private cdd-data GitHub Release.
+      # Downloads the release zip directly via curl with the PAT,
+      # extracts into src/content/data/. Bypasses gh CLI (which has
+      # auth issues in some Actions environments).
       - name: Fetch latest data
         env:
-          CDD_DATA_RELEASE: ${{ vars.CDD_DATA_RELEASE || 'latest' }}
-          GH_TOKEN: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
-        run: npm run fetch-data
+          CDD_PAT: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
+        run: |
+          curl -sL --fail \
+            -H "Authorization: Bearer ${CDD_PAT}" \
+            -H "Accept: application/octet-stream" \
+            -o /tmp/cdd-data.zip \
+            "https://api.github.com/repos/opencdd/cdd-data/releases/assets/$(curl -sL -H "Authorization: Bearer ${CDD_PAT}" https://api.github.com/repos/opencdd/cdd-data/releases/latest | python3 -c "import sys,json; assets=json.load(sys.stdin)['assets']; print(assets[0]['id'] if assets else '')")"
+          mkdir -p src/content/data
+          unzip -o /tmp/cdd-data.zip -d src/content/data/
+          echo "=== Data extracted ==="
+          ls src/content/data/
 
       - name: Generate per-dictionary tree JSON
         run: npm run gen-tree
