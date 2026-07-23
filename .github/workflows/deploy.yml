@@ -38,7 +38,7 @@ jobs:
       - name: Fetch latest data
         env:
           CDD_DATA_RELEASE: ${{ vars.CDD_DATA_RELEASE || 'latest' }}
-          GH_TOKEN: ${{ secrets.CDD_DATA_READ_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
         run: npm run fetch-data
 
       - name: Generate per-dictionary tree JSON
