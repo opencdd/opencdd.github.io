@@ -31,23 +31,22 @@ jobs:
 
       - run: npm ci
 
-      # Fetch latest data from the private cdd-data GitHub Release.
-      # Downloads the release zip directly via curl with the PAT,
-      # extracts into src/content/data/. Bypasses gh CLI (which has
-      # auth issues in some Actions environments).
-      - name: Fetch latest data
-        env:
-          CDD_PAT: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
+      # Clone the private cdd-data repo to get the latest data snapshot.
+      # Uses OPENCDD_CI_PAT_TOKEN for cross-repo access.
+      - name: Fetch latest data from cdd-data
+        uses: actions/checkout@v4
+        with:
+          repository: opencdd/cdd-data
+          path: cdd-data-src
+          token: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
+
+      - name: Copy data into browser
         run: |
-          curl -sL --fail \
-            -H "Authorization: Bearer ${CDD_PAT}" \
-            -H "Accept: application/octet-stream" \
-            -o /tmp/cdd-data.zip \
-            "https://api.github.com/repos/opencdd/cdd-data/releases/assets/$(curl -sL -H "Authorization: Bearer ${CDD_PAT}" https://api.github.com/repos/opencdd/cdd-data/releases/latest | python3 -c "import sys,json; assets=json.load(sys.stdin)['assets']; print(assets[0]['id'] if assets else '')")"
           mkdir -p src/content/data
-          unzip -o /tmp/cdd-data.zip -d src/content/data/
-          echo "=== Data extracted ==="
+          cp -r cdd-data-src/data/* src/content/data/
+          echo "=== Data copied ==="
           ls src/content/data/
+          rm -rf cdd-data-src
 
       - name: Generate per-dictionary tree JSON
         run: npm run gen-tree
