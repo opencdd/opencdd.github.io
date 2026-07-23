@@ -3,11 +3,9 @@ title: The CDD data model
 description: IRDIs, classes, properties, value lists, units, relations, and the meta-class hierarchy that ties them together.
 published: 2026-07-12
 order: 20
-
-# The CDD data model
-
 section: "Concepts"
 ---
+
 
 This page is a working developer's reference for the entities you'll
 find in any CDD dictionary. Terminology follows IEC 61360-1:2017 and
@@ -18,6 +16,35 @@ IEC 61360-2:2012; see those publications for the normative text.
 Every entity in a CDD dictionary is an instance of one of a small
 fixed set of **meta-classes**. The meta-class determines which
 attributes the entity carries and how it participates in relationships.
+
+<svg viewBox="0 0 560 260" width="100%" style="max-width:560px;margin:1.5em auto;display:block" role="img" aria-label="CDD meta-class hierarchy: meta-class defines the type, instances are entities, properties connect to units and value lists">
+  <text x="280" y="22" text-anchor="middle" font-family="ui-sans,sans-serif" font-size="10" fill="#8a8273" font-weight="600">META-CLASS (type definition)</text>
+  <rect x="190" y="30" width="180" height="36" rx="8" fill="#fef5e7" stroke="#d76b1f" stroke-width="2"/>
+  <text x="280" y="52" text-anchor="middle" font-family="ui-monospace,monospace" font-size="12" fill="#8f4116">MDC_C002 (Class)</text>
+  <text x="280" y="88" text-anchor="middle" font-family="ui-sans,sans-serif" font-size="10" fill="#8a8273" font-weight="600">INSTANCES (entities)</text>
+  <rect x="120" y="96" width="140" height="36" rx="8" fill="#eff8fa" stroke="#25a2cb" stroke-width="2"/>
+  <text x="190" y="118" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" fill="#1e3845">AAA001: Battery</text>
+  <rect x="300" y="96" width="140" height="36" rx="8" fill="#eff8fa" stroke="#25a2cb" stroke-width="2"/>
+  <text x="370" y="118" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" fill="#1e3845">AAA002: Cable</text>
+  <line x1="190" y1="96" x2="250" y2="66" stroke="#d76b1f" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="370" y1="96" x2="310" y2="66" stroke="#d76b1f" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="280" y="156" text-anchor="middle" font-family="ui-sans,sans-serif" font-size="10" fill="#8a8273" font-weight="600">PROPERTIES (characteristics)</text>
+  <rect x="40" y="164" width="100" height="30" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="90" y="183" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#047857">Voltage</text>
+  <rect x="155" y="164" width="100" height="30" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="205" y="183" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#047857">Current</text>
+  <rect x="270" y="164" width="100" height="30" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="320" y="183" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#047857">Power</text>
+  <rect x="385" y="164" width="100" height="30" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="435" y="183" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#047857">Weight</text>
+  <line x1="190" y1="132" x2="90" y2="164" stroke="#25a2cb" stroke-width="1" opacity="0.4"/>
+  <line x1="370" y1="132" x2="320" y2="164" stroke="#25a2cb" stroke-width="1" opacity="0.4"/>
+  <line x1="370" y1="132" x2="435" y2="164" stroke="#25a2cb" stroke-width="1" opacity="0.4"/>
+  <text x="90" y="214" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#be123c">unit: Volt (V)</text>
+  <text x="320" y="214" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#be123c">unit: Watt (W)</text>
+  <text x="435" y="214" text-anchor="middle" font-family="ui-monospace,monospace" font-size="9" fill="#be123c">unit: kg</text>
+  <text x="280" y="244" text-anchor="middle" font-family="ui-sans,sans-serif" font-size="9" fill="#7c3aed" font-style="italic">is_case_of power-type parents</text>
+</svg>
 
 | Code | Meta-class | Ruby class | What it represents |
 |------|------------|------------|--------------------|
