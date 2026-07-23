@@ -1,29 +1,103 @@
 ---
-import { getCollection, render } from "astro:content";
-import DocsLayout from "~/layouts/DocsLayout.astro";
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import Card from "~/components/ui/Card.astro";
+
+const SECTION_META: Record<string, { blurb: string; accent: string }> = {
+  "Getting Started": {
+    blurb: "New here? Start with these.",
+    accent: "border-lapis-300 bg-lapis-50/30",
+  },
+  Concepts: {
+    blurb: "Understand the mental model.",
+    accent: "border-teal-300 bg-teal-50/30",
+  },
+  Guides: {
+    blurb: "Step-by-step recipes for common tasks.",
+    accent: "border-hex-300 bg-hex-50/30",
+  },
+  Reference: {
+    blurb: "Detailed specifications and lookup.",
+    accent: "border-violet-300 bg-violet-50/20",
+  },
+  Project: {
+    blurb: "Contribute to OpenCDD.",
+    accent: "border-paper-300 bg-paper-100/50",
+  },
+};
+
+const SECTION_ORDER = ["Getting Started", "Concepts", "Guides", "Reference", "Project"];
 
 const entries = await getCollection("docs");
-const indexEntry = entries.find((e) => e.id === "index" || e.id === "index.mdx");
-
-if (!indexEntry) {
-  throw new Error("Missing docs index: src/content/docs/index.mdx");
-}
-
-const { Content } = await render(indexEntry);
-
-const docsNav = entries
-  .filter((d) => d.id !== indexEntry.id)
-  .map((d) => ({
-    href: `/docs/${d.id.replace(/\.mdx$/, "")}/`,
-    title: d.data.title,
-    order: d.data.order ?? 0,
-  }));
+const grouped = SECTION_ORDER.map((section) => ({
+  section,
+  meta: SECTION_META[section]!,
+  items: entries
+    .filter((d) => d.id !== "index" && d.id !== "index.mdx" && d.data.section === section)
+    .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0)),
+})).filter((g) => g.items.length > 0);
 ---
 
-<DocsLayout
-  title={indexEntry.data.title}
-  description={indexEntry.data.description}
-  docsNav={docsNav}
+<BaseLayout
+  title="Documentation — OpenCDD"
+  description="Guides, references, and deep dives for understanding IEC CDD, browsing the OpenCDD Browser, and using CDD data in your own applications."
 >
-  <Content />
-</DocsLayout>
+  <article class="mx-auto max-w-5xl space-y-8 px-6 py-10">
+    <header class="space-y-2">
+      <p class="text-xs font-medium uppercase tracking-wide text-ink-500">
+        Documentation
+      </p>
+      <h1 class="font-display text-4xl tracking-tight text-ink-900">
+        Guides, references, and deep dives
+      </h1>
+      <p class="text-lg text-ink-600">
+        Everything you need to understand IEC CDD, browse the OpenCDD Browser,
+        and use CDD data in your own applications.
+      </p>
+    </header>
+
+    <div class="space-y-8">
+      {grouped.map((group) => (
+        <section>
+          <div class="mb-3 flex items-baseline gap-3 border-b border-paper-200 pb-2">
+            <h2 class="font-display text-xl tracking-tight text-ink-900">{group.section}</h2>
+            <span class="text-sm text-ink-500">{group.meta.blurb}</span>
+          </div>
+          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {group.items.map((doc) => (
+              <a
+                href={`/docs/${doc.id.replace(/\.mdx$/, "")}/`}
+                class={`group rounded-xl border p-4 transition hover:shadow-md ${group.meta.accent}`}
+              >
+                <h3 class="text-sm font-semibold text-ink-900 transition group-hover:text-lapis-700">
+                  {doc.data.title}
+                </h3>
+                {doc.data.description && (
+                  <p class="mt-1 line-clamp-2 text-xs text-ink-500">{doc.data.description}</p>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    <Card class="mt-8">
+      <div class="flex flex-wrap items-center gap-4">
+        <div>
+          <h2 class="font-display text-lg text-ink-900">Looking for something specific?</h2>
+          <p class="mt-1 text-sm text-ink-600">
+            Press <kbd class="rounded border border-paper-300 bg-paper-100 px-1.5 py-0.5 font-mono text-xs">⌘K</kbd> to search across all dictionaries,
+            or browse the <a href="/dictionaries/" class="text-lapis-700 underline decoration-dotted underline-offset-2">dictionaries dashboard</a>.
+          </p>
+        </div>
+        <a
+          href="/docs/getting-started/"
+          class="ml-auto inline-flex items-center gap-1.5 rounded-lg bg-lapis-600 px-4 py-2 text-sm font-medium text-paper-50 transition hover:bg-lapis-500"
+        >
+          Get started →
+        </a>
+      </div>
+    </Card>
+  </article>
+</BaseLayout>
