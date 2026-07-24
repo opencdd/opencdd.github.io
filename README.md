@@ -27,7 +27,7 @@ backend, no auth, no mutation.
 # 1. Install dependencies
 npm install
 
-# 2. Fetch the JSON data (copies from ../cdd-data by default)
+# 2. Fetch the JSON data (copies from ../data-private by default)
 npm run fetch-data
 
 # 3. Run the dev server
@@ -51,7 +51,7 @@ The build emits ~14,500 static HTML pages for the current data set
 This repo is one of four OpenCDD repositories:
 
 ```
-opencdd/cdd-data             (private) data pipeline + scrapers + source data
+opencdd/data-private             (private) data pipeline + scrapers + source data
 opencdd/opencdd-ts         (public)  @opencdd/models npm package
 opencdd/opencdd.github.io  (public)  the Astro browser (this repo)
 opencdd/editor             (public)  the editor (future)
@@ -60,7 +60,7 @@ opencdd/editor             (public)  the editor (future)
 Data flow:
 
 ```
-cdd-data → rake browser:build → JSON → this repo's src/content/data/
+data-private → rake browser:build → JSON → this repo's src/content/data/
                                               ↓
                                      Astro build (build-time)
                                               ↓
@@ -98,7 +98,7 @@ last 12 entity detail pages you visit via `localStorage`.
 
 ## Downloads
 
-- **Per-dictionary** Parcel `.xlsx` (IEC 62656-1) — linked from each `/d/:dict/` overview. Built by `rake browser:build_parcel[<dict>]` in cdd-data.
+- **Per-dictionary** Parcel `.xlsx` (IEC 62656-1) — linked from each `/d/:dict/` overview. Built by `rake browser:build_parcel[<dict>]` in data-private.
 - **Per-dictionary** full JSON — `database.json` is the wire payload from `Opencdd::Exporters::Json`.
 - **Per-version** JSON for entities with multi-version history — `/d/:dict>/versions/<code>/<unid>.json`. Powers time-travel and diff.
 - **Per-entity** JSON, CDDAL, CSV — from any entity detail page's DownloadMenu.
@@ -131,7 +131,7 @@ and deploys via GitHub Actions to Pages. To enable:
 
 1. Set **Settings → Pages → Source → GitHub Actions**.
 2. Set the `CDD_DATA_RELEASE` repo variable to `latest` (once
-   TODO.astro/04 ships the release-artifact flow in cdd-data).
+   TODO.astro/04 ships the release-artifact flow in data-private).
 3. Push to `main`.
 
 ## Status
@@ -145,8 +145,8 @@ First cut shipped (2026-07-08):
 
 Pending (see [`TODO.astro/`](TODO.astro/)):
 
-- Phase A (foundation): extract `@opencdd/models`, set up cdd-data
-  submodule + codegen, cdd-data cleanup, data release pipeline.
+- Phase A (foundation): extract `@opencdd/models`, set up data-private
+  submodule + codegen, data-private cleanup, data release pipeline.
 - Phase C: editor migration, documentation cross-refs.
 
 ## License

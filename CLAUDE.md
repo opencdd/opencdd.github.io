@@ -25,13 +25,13 @@ data. It serves at `https://opencdd.github.io/`.
 | `opencdd/opencdd-ts` | `@opencdd/models` npm package — TS port of the Ruby model. |
 | `opencdd/opencdd.github.io` | This repo — the browser. |
 | `opencdd/editor` | Future editor (Astro + Vue scaffold). |
-| `opencdd/cdd-data` (private) | Data pipeline: scrapers, source .xls, built JSON, release workflow. |
+| `opencdd/data-private` (private) | Data pipeline: scrapers, source .xls, built JSON, release workflow. |
 
 ## Commands
 
 ```bash
 npm install
-npm run fetch-data    # populate src/content/data/ from ../cdd-data/data/
+npm run fetch-data    # populate src/content/data/ from ../data-private/data/
 npm run dev           # local dev server at http://localhost:4321/
 npm run check         # astro check (type check)
 npm run build         # gen-tree + astro check + astro build + pagefind
@@ -42,13 +42,13 @@ npm run test:coverage # vitest run --coverage
 ## Data flow
 
 ```
-cdd-data (private)
+data-private (private)
   ├─ downloads/ (scraped .xls — source)
   ├─ data/ (built JSON — committed, published as GitHub Release)
   └─ .github/workflows/release-data.yml (publishes + notifies browser)
 
 opencdd.github.io (this repo)
-  ├─ npm run fetch-data (copies from ../cdd-data/data/ or fetches Release)
+  ├─ npm run fetch-data (copies from ../data-private/data/ or fetches Release)
   ├─ src/content/data/ (JSON snapshot — committed for dev)
   ├─ src/lib/ (build-time data layer: types, bundle, registry, loader)
   ├─ Astro pages consume bundle in frontmatter, pre-render HTML

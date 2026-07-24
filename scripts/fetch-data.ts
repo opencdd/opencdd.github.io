@@ -6,8 +6,8 @@
  * Three modes, in order of preference:
  *
  *   1. Committed data present    → skip acquire entirely, just run fix + verify.
- *   2. CDD_DATA_RELEASE=<tag>    → fetch from opencdd/cdd-data Releases (fall back to local on failure).
- *   3. default                    → copy from ../cdd-data/data (local dev).
+ *   2. CDD_DATA_RELEASE=<tag>    → fetch from opencdd/data-private Releases (fall back to local on failure).
+ *   3. default                    → copy from ../data-private/data (local dev).
  *
  * The actual stages live in `src/lib/build/stages.ts`; this script is
  * a thin CLI wrapper. Tests construct a `StageContext` and call

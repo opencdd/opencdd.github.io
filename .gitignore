@@ -16,8 +16,8 @@ dist/pagefind/
 public/d/
 
 # CDD data snapshot — NOT committed. Fetched at build time from the
-# cdd-data GitHub Release (CDD_DATA_RELEASE=latest in CI). For local
-# dev, run `npm run fetch-data` to copy from ../cdd-data/data/.
+# data-private GitHub Release (CDD_DATA_RELEASE=latest in CI). For local
+# dev, run `npm run fetch-data` to copy from ../data-private/data/.
 src/content/data/
 
 # logs
@@ -43,3 +43,6 @@ pnpm-debug.log*
 # typescript
 *.tsbuildinfo
 coverage/
+
+# TODO files are working notes, not artifacts.
+TODO*
