@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
 
-const KONAMI = [
-  "ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown",
-  "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight",
-  "b", "a",
-];
+const TRIGGER = "universe";
+const BUFFER_RESET_MS = 3000;
 
 const IRDI_FRAGMENTS = [
   "0112/2///61360_4#AAA001",
@@ -28,20 +25,22 @@ const showRain = ref(false);
 const canvasRef = ref<HTMLCanvasElement | null>(null);
 let animId = 0;
 let rainTimeout: ReturnType<typeof setTimeout> | undefined;
-let konamiIdx = 0;
+let buffer = "";
+let bufferTimeout: ReturnType<typeof setTimeout> | undefined;
 let phase = 0;
 
 function onKeydown(e: KeyboardEvent) {
   if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
-  const key = e.key.length === 1 ? e.key.toLowerCase() : e.key;
-  if (key === KONAMI[konamiIdx]) {
-    konamiIdx++;
-    if (konamiIdx === KONAMI.length) {
-      konamiIdx = 0;
-      triggerRain();
-    }
-  } else {
-    konamiIdx = key === KONAMI[0] ? 1 : 0;
+  if (e.key.length !== 1) {
+    buffer = "";
+    return;
+  }
+  buffer = (buffer + e.key.toLowerCase()).slice(-TRIGGER.length);
+  if (bufferTimeout) clearTimeout(bufferTimeout);
+  bufferTimeout = setTimeout(() => { buffer = ""; }, BUFFER_RESET_MS);
+  if (buffer === TRIGGER) {
+    buffer = "";
+    triggerRain();
   }
 }
 
@@ -162,6 +161,7 @@ onUnmounted(() => {
   document.removeEventListener("keydown", onKeydown);
   if (animId) cancelAnimationFrame(animId);
   if (rainTimeout) clearTimeout(rainTimeout);
+  if (bufferTimeout) clearTimeout(bufferTimeout);
 });
 </script>
 
@@ -183,22 +183,22 @@ onUnmounted(() => {
         <canvas ref="canvasRef" class="h-full w-full"></canvas>
         <div class="absolute inset-x-0 top-[18%] text-center mix-blend-screen">
           <p
-            class="font-display tracking-tight"
+            class="font-display tracking-[0.15em]"
             style="color: #25a2cb; font-size: clamp(28px, 5vw, 56px); text-shadow: 0 0 30px rgba(37,162,203,0.7), 0 0 60px rgba(37,162,203,0.3);"
           >
-            IRDI Matrix
+            UNIVERSE
           </p>
           <p
             class="mt-3 font-mono"
             style="color: rgba(255,249,231,0.6); font-size: 12px; letter-spacing: 0.12em;"
           >
-            ↑ ↑ ↓ ↓ ← → ← → B A
+            0112/2///61360_4#UNIVERSE
           </p>
           <p
             class="mt-1 italic"
             style="color: rgba(163,154,126,0.7); font-size: 11px;"
           >
-            the data flows
+            the virtual root class — IEC 61360 §21.1
           </p>
         </div>
       </div>
