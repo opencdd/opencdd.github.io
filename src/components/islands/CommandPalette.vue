@@ -288,7 +288,7 @@ const EASTER_EGGS: Array<{ match: RegExp; response: EggResponse }> = [
     response: {
       icon: "▦",
       title: "Wake up, taxonomist",
-      body: "Try the Konami code: ↑ ↑ ↓ ↓ ← → ← → B A. The IRDI Matrix awaits.",
+      body: "Type UNIVERSE anywhere on the site. The IRDI rain awaits.",
       accent: "var(--color-lapis-500)",
     },
   },
@@ -302,11 +302,20 @@ const EASTER_EGGS: Array<{ match: RegExp; response: EggResponse }> = [
     },
   },
   {
+    match: /^universe$/i,
+    response: {
+      icon: "✶",
+      title: "0112/2///61360_4#UNIVERSE",
+      body: "The virtual root class of every CDD classification tree (IEC 61360 §21.1). Type it anywhere on the site to summon the IRDI rain.",
+      accent: "var(--color-teal-600)",
+    },
+  },
+  {
     match: /^konami$/i,
     response: {
       icon: "⌨",
-      title: "↑ ↑ ↓ ↓ ← → ← → B A",
-      body: "The classic. Type it anywhere on the site. Bring popcorn.",
+      title: "No Konami here",
+      body: "We replaced it. Type UNIVERSE instead — the CDD virtual root, IEC 61360 §21.1. On-brand and discoverable.",
       accent: "var(--color-violet-500)",
     },
   },
