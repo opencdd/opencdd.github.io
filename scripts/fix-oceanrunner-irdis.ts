@@ -3,7 +3,7 @@
  * Fix-up: upgrade OceanRunner's bare-code references to full IRDIs.
  *
  * Background: the OceanRunner demonstration CDDAL
- * (cdd-data/reference-docs/examples/oceanrunner.cddal) uses bare codes
+ * (data-private/reference-docs/examples/oceanrunner.cddal) uses bare codes
  * like "AAA001" and "UNIVERSE" everywhere, with no top-level
  * dictionary / supplier declaration. The Ruby exporter faithfully
  * emits those bare codes into the JSON, so the browser ends up with

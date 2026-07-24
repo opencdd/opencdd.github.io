@@ -121,15 +121,15 @@ describe("BuildPipeline", () => {
 
     beforeEach(() => {
       ({ ctx, cleanup } = makeTempContext());
-      // Make a fake ../cdd-data/data next to repoRoot
-      const fakeCddData = join(ctx.repoRoot, "..", "cdd-data", "data");
+      // Make a fake ../data-private/data next to repoRoot
+      const fakeCddData = join(ctx.repoRoot, "..", "data-private", "data");
       mkdirSync(fakeCddData, { recursive: true });
       writeFileSync(join(fakeCddData, "index.json"), '{"dictionaries":[]}');
       writeFileSync(join(fakeCddData, "marker.txt"), "from-source");
     });
     afterEach(() => cleanup());
 
-    it("copies ../cdd-data/data into dataTarget", async () => {
+    it("copies ../data-private/data into dataTarget", async () => {
       const result = await acquireFromLocal().run(ctx);
       expect(result.ok).toBe(true);
       expect(committedDataPresent(ctx)).toBe(true);
@@ -137,7 +137,7 @@ describe("BuildPipeline", () => {
 
     it("fails when local source does not exist", async () => {
       // Move the fake source out of the way for this case
-      rmSync(join(ctx.repoRoot, "..", "cdd-data"), { recursive: true, force: true });
+      rmSync(join(ctx.repoRoot, "..", "data-private"), { recursive: true, force: true });
       const result = await acquireFromLocal().run(ctx);
       expect(result.ok).toBe(false);
     });
