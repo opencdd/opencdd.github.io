@@ -31,6 +31,7 @@ import {
   listRegistryEntries,
   loadDictionary,
   loadRegistry,
+  hasDictionaryData,
 } from "./data";
 import type { DictionaryRegistryEntry } from "./registry";
 
@@ -124,9 +125,11 @@ function toDictionary(
  * only needs titles/abstracts/counts.
  */
 export function listDictionaries(): Dictionary[] {
-  return listRegistryEntries().map((entry) =>
-    toDictionary(entry, metadataFor(entry.slug, entry.title)),
-  );
+  return listRegistryEntries()
+    .filter((entry) => hasDictionaryData(entry.slug))
+    .map((entry) =>
+      toDictionary(entry, metadataFor(entry.slug, entry.title)),
+    );
 }
 
 /**

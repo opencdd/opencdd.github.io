@@ -5,7 +5,7 @@
  * suitable for the /stats/ page. Build-time only — no client runtime.
  */
 
-import { listRegistryEntries, loadDictionary } from "./data";
+import { listRegistryEntries, loadDictionary, hasDictionaryData } from "./data";
 import { TABBABLE_TYPES, countForType, entityPluralTitleFor } from "./entityTypeMeta";
 import type { EntityType } from "./types";
 
@@ -36,6 +36,7 @@ export function computeSiteStats(): SiteStats {
   let multiVersionEntities = 0;
 
   for (const entry of listRegistryEntries()) {
+    if (!hasDictionaryData(entry.slug)) continue;
     const bundle = loadDictionary(entry.slug);
     const byType: Record<string, number> = {};
     let dictTotal = 0;

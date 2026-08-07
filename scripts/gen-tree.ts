@@ -10,23 +10,23 @@
  * Runs as part of `npm run build` before `astro build`.
  */
 
-import { mkdirSync, writeFileSync, existsSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadRegistry, loadDictionary } from "../src/lib/data.ts";
+import { listAvailableRegistryEntries, loadDictionary } from "../src/lib/data.ts";
 import { buildFlatTree } from "../src/lib/tree.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
 const publicRoot = resolve(repoRoot, "public/d");
 
-function log(message) {
+function log(message: string) {
   process.stdout.write(`[gen-tree] ${message}\n`);
 }
 
-const registry = loadRegistry();
+const entries = listAvailableRegistryEntries();
 let totalNodes = 0;
-for (const entry of registry.dictionaries) {
+for (const entry of entries) {
   const bundle = loadDictionary(entry.slug);
   const flat = buildFlatTree(bundle);
   const outDir = resolve(publicRoot, entry.slug);
@@ -36,4 +36,4 @@ for (const entry of registry.dictionaries) {
   totalNodes += flat.length;
   log(`${entry.slug}: ${flat.length} nodes → ${outPath}`);
 }
-log(`done. ${totalNodes} total nodes across ${registry.dictionaries.length} dictionaries.`);
+log(`done. ${totalNodes} total nodes across ${entries.length} dictionaries.`);
