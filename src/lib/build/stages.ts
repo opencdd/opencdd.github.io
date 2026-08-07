@@ -37,13 +37,13 @@ export const skipIfCommitted: Stage = stage("skip-if-committed", (ctx) => {
 });
 
 /**
- * Acquire: copy from a local cdd-data checkout at `../cdd-data/data`.
+ * Acquire: copy from a local data-private checkout at `../data-private/data`.
  *
  * Used in local dev when the data pipeline has been run manually.
  */
 export function acquireFromLocal(): Stage {
   return stage("acquire-local", (ctx) => {
-    const localData = resolve(ctx.repoRoot, "../cdd-data/data");
+    const localData = resolve(ctx.repoRoot, "../data-private/data");
     if (!existsSync(localData)) {
       return {
         ok: false,
