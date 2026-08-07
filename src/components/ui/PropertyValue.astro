@@ -1,0 +1,45 @@
+---
+import MultilingualText from "./MultilingualText.astro";
+
+interface Props {
+  value: unknown;
+  multilingualValue?: Record<string, string> | null;
+  multilingual?: boolean;
+  datatype?: string;
+}
+
+const { value, multilingualValue, multilingual, datatype } = Astro.props;
+
+function isXml(v: string): boolean {
+  return /^\s*<(UnitsML|math|svg)\b/i.test(v);
+}
+
+function isLongText(v: string): boolean {
+  return v.length > 120;
+}
+
+const scalarStr = typeof value === "string" ? value : value == null ? "" : String(value);
+const isXmlValue = !!scalarStr && isXml(scalarStr);
+const isLong = !!scalarStr && isLongText(scalarStr);
+---
+
+{multilingual && multilingualValue ? (
+  <MultilingualText translations={multilingualValue} />
+) : isXmlValue ? (
+  <details class="group rounded-md border border-paper-300 bg-paper-100/50">
+    <summary class="cursor-pointer px-2.5 py-1.5 text-[11px] font-medium text-ink-500 select-none hover:bg-paper-200/60">
+      <span class="inline-flex items-center gap-1.5">
+        <svg viewBox="0 0 16 16" fill="currentColor" class="h-3 w-3" aria-hidden="true">
+          <path d="M3 1.5C3 0.67 3.67 0 4.5 0h5L13 3.5v11c0 .83-.67 1.5-1.5 1.5h-7C3.67 16 3 15.33 3 14.5v-13z" />
+        </svg>
+        Structured markup ({scalarStr.match(/^<(\w+)/)?.[1] ?? "XML"})
+        <span class="font-mono text-ink-400">({scalarStr.length} chars)</span>
+      </span>
+    </summary>
+    <pre class="overflow-x-auto px-3 py-2 text-[11px] font-mono text-ink-700 scroll-thin">{scalarStr}</pre>
+  </details>
+) : isLong ? (
+  <p class="text-sm leading-relaxed text-ink-800">{scalarStr}</p>
+) : (
+  <span class="text-sm text-ink-800 break-words">{scalarStr}</span>
+)}
