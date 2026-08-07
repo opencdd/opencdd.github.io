@@ -5,11 +5,11 @@ import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import Badge from "~/components/ui/Badge.astro";
 import EmptyState from "~/components/ui/EmptyState.astro";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { loadDictionary, listAvailableRegistryEntries } from "~/lib/data";
 import { recentChanges, groupByMonth } from "~/lib/recentChanges";
 
 export function getStaticPaths() {
-  return listRegistryEntries().map((entry) => ({
+  return listAvailableRegistryEntries().map((entry) => ({
     params: { dict: entry.slug },
   }));
 }

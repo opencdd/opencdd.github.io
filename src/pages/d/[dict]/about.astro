@@ -9,11 +9,11 @@ import {
   entityPluralTitleFor,
   countForType,
 } from "~/lib/entityTypeMeta";
-import { listDictionarySlugs, loadDictionary } from "~/lib/data";
+import { listAvailableDictionarySlugs, loadDictionary } from "~/lib/data";
 import { findDictionary } from "~/lib/dictionary";
 
 export function getStaticPaths() {
-  return listDictionarySlugs().map((slug) => ({
+  return listAvailableDictionarySlugs().map((slug) => ({
     params: { dict: slug },
   }));
 }
