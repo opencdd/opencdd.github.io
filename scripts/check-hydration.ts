@@ -109,7 +109,7 @@ async function main() {
     "/d/iec61360/about/",
     "/d/iec61360/c/AAA021/",
     "/d/iec61360/p/AAD009/",
-    "/d/iec63508/c/KDA001/",
+    "/d/iec-63508/c/KDA001/",
     "/search",
   ];
 

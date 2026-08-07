@@ -51,7 +51,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     webstoreUrl: "https://webstore.iec.ch/en/publication/28560",
     publishedYear: 2017,
   },
-  "iec61360-7": {
+  "iec-61360-7": {
     publicationId: "IEC 61360-7:2024",
     edition: "Ed 1.0",
     title:
@@ -63,7 +63,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     webstoreUrl: "https://webstore.iec.ch/en/publication/72956",
     publishedYear: 2024,
   },
-  iec61987: {
+  "iec-61987": {
     publicationId: "IEC 61987 (series)",
     edition: "Ed 2.0 (Part 1:2024)",
     title:
@@ -74,7 +74,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC TC 65",
     webstoreUrl: "https://webstore.iec.ch/en/publication/62181",
   },
-  iec62683: {
+  "iec-62683": {
     publicationId: "IEC 62683-1:2026",
     edition: "Ed 2.0",
     title:
@@ -86,7 +86,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     webstoreUrl: "https://webstore.iec.ch/en/publication/80053",
     publishedYear: 2026,
   },
-  iec63213: {
+  "iec-63213": {
     publicationId: "IEC TR 63213:2019",
     edition: "Ed 1.0",
     title:
@@ -98,7 +98,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     webstoreUrl: "https://webstore.iec.ch/en/publication/63704",
     publishedYear: 2019,
   },
-  iec62720: {
+  "iec-62720": {
     publicationId: "IEC 62720:2023",
     edition: "Ed 2.0",
     title:
@@ -110,7 +110,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     webstoreUrl: "https://webstore.iec.ch/en/publication/60017",
     publishedYear: 2023,
   },
-  iec63508: {
+  "iec-63508": {
     publicationId: "IEC 63508:2026",
     edition: "Ed 1.0",
     title:
