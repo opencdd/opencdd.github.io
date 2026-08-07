@@ -1,11 +1,11 @@
 ---
 import EntityDetailShell from "~/layouts/EntityDetailShell.astro";
-import Card from "~/components/ui/Card.astro";
 import EntityBadge from "~/components/ui/EntityBadge.astro";
 import DownloadMenu from "~/components/islands/DownloadMenu.vue";
-import Field from "~/components/ui/Field.astro";
 import UsedByField from "~/components/ui/UsedByField.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
+import { loadPropertyMetadata } from "~/lib/propertyMetadata";
+import { getDataRoot } from "~/lib/data";
 import type { UnitNode } from "~/lib/types";
 
 export function getStaticPaths() {
@@ -21,6 +21,7 @@ if (!node || node.type !== "unit") {
 }
 
 const usedBy = bundle.propertiesForUnit(node.irdi);
+const propertyMetadata = loadPropertyMetadata(getDataRoot(), dict!);
 
 const stats = usedBy.length > 0
   ? [{ label: "Used by properties", value: usedBy.length }]
@@ -32,29 +33,10 @@ const stats = usedBy.length > 0
   node={node}
   title={`${node.preferred_name ?? node.code} — ${bundle.registry.title} — OpenCDD`}
   stats={stats}
+  propertyMetadata={propertyMetadata}
 >
   <EntityBadge slot="badge" type="unit" />
   <DownloadMenu slot="actions" client:load entity={node} dict={dict!} />
-
-  <Card>
-    <dl class="grid gap-3 sm:grid-cols-2">
-      {node.symbol && (
-        <Field label="Symbol">
-          <code class="font-mono text-sm">{node.symbol}</code>
-        </Field>
-      )}
-      {node.structure && (
-        <Field label="Structure">
-          <code class="font-mono text-xs">{node.structure}</code>
-        </Field>
-      )}
-      {node.text_representation && (
-        <Field label="Text representation">
-          <code class="font-mono text-xs">{node.text_representation}</code>
-        </Field>
-      )}
-    </dl>
-  </Card>
 
   <UsedByField
     label="Used by properties"

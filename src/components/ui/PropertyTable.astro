@@ -1,0 +1,57 @@
+---
+import Field from "./Field.astro";
+import PropertyValue from "./PropertyValue.astro";
+import EntityLink from "./EntityLink.astro";
+import { cn } from "~/lib/cn";
+import {
+  groupProperties,
+  looksLikeIrdi,
+  type PropertyMetadataMap,
+} from "~/lib/propertyMetadata";
+import type { DictionaryBundle } from "~/lib/bundle";
+
+interface Props {
+  properties: Record<string, unknown>;
+  metadata?: PropertyMetadataMap;
+  slug: string;
+  bundle: DictionaryBundle;
+  class?: string;
+}
+
+const {
+  properties,
+  metadata = {},
+  slug,
+  bundle,
+  class: className,
+} = Astro.props;
+
+const grouped = groupProperties(properties, metadata);
+---
+
+{grouped.length > 0 && (
+  <dl class={cn("grid gap-3 sm:grid-cols-2", className)}>
+    {grouped.map((prop) => {
+      const isIrdiValue = !prop.multilingual && prop.scalarValue != null && looksLikeIrdi(prop.scalarValue);
+      return (
+        <Field label={prop.label}>
+          {isIrdiValue ? (
+            <EntityLink
+              irdi={prop.scalarValue as string}
+              slug={slug}
+              bundle={bundle}
+              showIrdi
+            />
+          ) : (
+            <PropertyValue
+              value={prop.scalarValue}
+              multilingualValue={prop.multilingualValue}
+              multilingual={prop.multilingual}
+              datatype={prop.datatype}
+            />
+          )}
+        </Field>
+      );
+    })}
+  </dl>
+)}

@@ -3,16 +3,18 @@ import DictionaryLayout from "./DictionaryLayout.astro";
 import Card from "~/components/ui/Card.astro";
 import SectionTitle from "~/components/ui/SectionTitle.astro";
 import EntityHero from "~/components/ui/EntityHero.astro";
-import MetadataFields from "~/components/ui/MetadataFields.astro";
+import PropertyTable from "~/components/ui/PropertyTable.astro";
 import VersionHistorySection from "~/components/ui/VersionHistorySection.astro";
 import JsonLd from "~/components/ui/JsonLd.astro";
 import EntityGraphButton from "~/components/islands/EntityGraphButton.vue";
 import { codeFromIrdi } from "~/lib/irdi";
 import { findCrossDictMatches } from "~/lib/crossDict";
 import { computeEntityGraph } from "~/lib/entityGraph";
-import { loadDictionary } from "~/lib/data";
+import { loadDictionary, getDataRoot } from "~/lib/data";
 import { entityPluralTitleFor } from "~/lib/entityTypeMeta";
+import { loadPropertyMetadata } from "~/lib/propertyMetadata";
 import type { EntityMetadata } from "~/lib/types";
+import type { PropertyMetadataMap } from "~/lib/propertyMetadata";
 
 interface StatItem {
   label: string;
@@ -25,12 +27,15 @@ interface Props {
   node: EntityMetadata;
   title: string;
   stats?: StatItem[];
+  propertyMetadata?: PropertyMetadataMap;
 }
 
-const { dict, node, title, stats = [] } = Astro.props;
+const { dict, node, title, stats = [], propertyMetadata: metadataOverride } = Astro.props;
 const crossMatches = findCrossDictMatches(node.preferred_name, dict);
 const bundle = loadDictionary(dict);
 const graph = computeEntityGraph(node.irdi, bundle, dict, 2);
+const propertyMetadata = metadataOverride ?? loadPropertyMetadata(getDataRoot(), dict);
+const rawProps = (node as unknown as Record<string, unknown>).raw_properties as Record<string, unknown> | undefined;
 ---
 
 <DictionaryLayout dict={dict} title={title}>
@@ -95,12 +100,21 @@ const graph = computeEntityGraph(node.irdi, bundle, dict, 2);
 
     <VersionHistorySection entity={node} dict={dict} />
 
-    <Card>
-      <SectionTitle anchor={true}>Metadata</SectionTitle>
-      <div class="mt-3">
-        <MetadataFields entity={node} />
-      </div>
-    </Card>
+    {rawProps && Object.keys(rawProps).length > 0 && (
+      <Card pad={false} class="p-5">
+        <SectionTitle anchor count={Object.keys(rawProps).length}>
+          All properties
+        </SectionTitle>
+        <div class="mt-3">
+          <PropertyTable
+            properties={rawProps}
+            metadata={propertyMetadata}
+            slug={dict}
+            bundle={bundle}
+          />
+        </div>
+      </Card>
+    )}
   </article>
 </DictionaryLayout>
 
