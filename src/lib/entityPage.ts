@@ -10,16 +10,17 @@
  * `loadEntityForPage<ClassNode>(dict, irdi)`.
  */
 
-import { loadDictionary, listRegistryEntries } from "./data";
+import { loadDictionary, listAvailableRegistryEntries } from "./data";
 import { codeFromIrdi } from "./irdi";
 import type { EntityNode, EntityType } from "./types";
 import type { DictionaryBundle } from "./bundle";
 
 /**
  * Generates getStaticPaths for an entity detail page.
+ * Automatically skips dictionaries without data.
  */
 export function entityStaticPaths(type: string) {
-  return listRegistryEntries().flatMap((entry) => {
+  return listAvailableRegistryEntries().flatMap((entry) => {
     const bundle = loadDictionary(entry.slug);
     return (bundle.entitiesOfType(type as any)).map((node) => ({
       params: {

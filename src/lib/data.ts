@@ -101,6 +101,21 @@ export function listRegistryEntries(): DictionaryRegistryEntry[] {
   return loadRegistry().dictionaries;
 }
 
+/** True if the dictionary's database.json exists on disk. */
+export function hasDictionaryData(slug: string): boolean {
+  return existsSync(resolve(dataRoot(), slug, "database.json"));
+}
+
+/** Registry entries for dictionaries that have data on disk. */
+export function listAvailableRegistryEntries(): DictionaryRegistryEntry[] {
+  return listRegistryEntries().filter((d) => hasDictionaryData(d.slug));
+}
+
+/** Slugs for dictionaries that have data on disk. */
+export function listAvailableDictionarySlugs(): string[] {
+  return listAvailableRegistryEntries().map((d) => d.slug);
+}
+
 /**
  * Enumerate (slug, node) pairs for every entity of the given type
  * across every dictionary. Drives `getStaticPaths` for entity detail
@@ -109,7 +124,7 @@ export function listRegistryEntries(): DictionaryRegistryEntry[] {
 export function* enumerateEntitiesByType(
   type: EntityType,
 ): Generator<{ slug: string; node: EntityNode }> {
-  for (const slug of listDictionarySlugs()) {
+  for (const slug of listAvailableDictionarySlugs()) {
     const bundle = loadDictionary(slug);
     for (const node of bundle.entitiesOfType(type)) {
       if (node.type !== type) continue;
@@ -129,7 +144,7 @@ export function listAllEntityCodes(): Array<{
 }> {
   const out: Array<{ slug: string; code: string; type: EntityType }> = [];
   const ALL_TYPES: readonly EntityType[] = ["class","property","value_list","value_term","unit","relation","view_control"];
-  for (const slug of listDictionarySlugs()) {
+  for (const slug of listAvailableDictionarySlugs()) {
     const bundle = loadDictionary(slug);
     for (const type of ALL_TYPES) {
       const nodes = bundle.entitiesOfType(type);
