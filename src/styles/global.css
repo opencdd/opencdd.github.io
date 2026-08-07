@@ -289,6 +289,336 @@
   }
 }
 
+/* ── Version history archive timeline ────────────────────────────
+   The version history renders as an archival specimen ledger:
+   large serif numerals, a vertical rail with wax-seal bullets,
+   notary-signature metadata, and museum-catalog change-request
+   tags. Each entry is a three-column grid:
+
+     [numeral 3rem] [bullet 1rem] [content 1fr]
+
+   The rail passes through the center of the bullet column. */
+
+@keyframes archive-entry-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.archive-timeline {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.archive-timeline::before {
+  content: "";
+  position: absolute;
+  left: calc(3rem + 0.75rem + 0.5rem);
+  top: 0.75rem;
+  bottom: 0.75rem;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--color-paper-400) 6%,
+    var(--color-paper-400) 94%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.archive-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3rem 1rem 1fr;
+  column-gap: 0.75rem;
+  padding: 0.875rem 0.5rem 0.875rem 0;
+  border-radius: 0.625rem;
+  transition: background-color 0.15s ease;
+  animation: archive-entry-enter 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.archive-entry + .archive-entry {
+  border-top: 1px solid color-mix(in srgb, var(--color-paper-300) 60%, transparent);
+}
+
+.archive-entry:hover {
+  background: color-mix(in srgb, var(--color-paper-200) 45%, transparent);
+}
+
+.archive-entry[data-current="true"] {
+  background: color-mix(in srgb, var(--color-hex-50) 55%, transparent);
+}
+
+.archive-entry[data-current="true"] + .archive-entry {
+  border-top-color: color-mix(in srgb, var(--color-hex-200) 40%, transparent);
+}
+
+.archive-entry[data-active="true"]:focus {
+  outline: none;
+  background: color-mix(in srgb, var(--color-lapis-50) 35%, transparent);
+  box-shadow: inset 0 0 0 2px var(--color-lapis-400);
+}
+
+/* ── Version numeral — large serif ── */
+.archive-numeral {
+  font-family: var(--font-display);
+  font-size: 1.625rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums lining-nums;
+  line-height: 1;
+  text-align: right;
+  color: var(--color-ink-300);
+  padding-top: 0.0625rem;
+  align-self: start;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.archive-entry[data-current="true"] .archive-numeral {
+  color: var(--color-hex-500);
+  text-shadow: 0 0 18px color-mix(in srgb, var(--color-hex-400) 30%, transparent);
+}
+
+.archive-entry[data-active="true"]:focus .archive-numeral {
+  color: var(--color-lapis-600);
+}
+
+/* ── Timeline bullet ── */
+.archive-bullet {
+  position: relative;
+  width: 0.6875rem;
+  height: 0.6875rem;
+  border-radius: 50%;
+  background: var(--color-paper-50);
+  border: 2px solid var(--color-paper-400);
+  margin-top: 0.5625rem;
+  justify-self: center;
+  z-index: 1;
+  transition: all 0.2s ease;
+}
+
+.archive-entry:hover .archive-bullet {
+  border-color: var(--color-ink-300);
+}
+
+.archive-entry[data-current="true"] .archive-bullet {
+  background: var(--color-hex-500);
+  border-color: var(--color-hex-500);
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--color-hex-300) 35%, transparent),
+    0 0 12px color-mix(in srgb, var(--color-hex-400) 50%, transparent);
+}
+
+.archive-entry[data-active="true"]:focus .archive-bullet {
+  border-color: var(--color-lapis-500);
+  background: var(--color-lapis-100);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-lapis-300) 35%, transparent);
+}
+
+/* ── Wax-seal status pill ──
+   A pill-shaped badge with a subtle wax texture: layered gradient
+   for sheen + depth, inset highlight for embossment. Five tones
+   map to the entity lifecycle. */
+.wax-seal {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.5625rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  background-image: linear-gradient(
+    168deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.03) 38%,
+    transparent 55%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 1px 1.5px rgba(0, 0, 0, 0.05);
+  vertical-align: baseline;
+}
+
+.wax-seal[data-tone="current"] {
+  background-color: var(--color-hex-100);
+  border-color: var(--color-hex-300);
+  color: var(--color-hex-800);
+}
+
+.wax-seal[data-tone="standard"] {
+  background-color: var(--color-emerald-100);
+  border-color: var(--color-emerald-300);
+  color: var(--color-emerald-800);
+}
+
+.wax-seal[data-tone="draft"] {
+  background-color: var(--color-lapis-100);
+  border-color: var(--color-lapis-300);
+  color: var(--color-lapis-800);
+}
+
+.wax-seal[data-tone="superseded"] {
+  background-color: var(--color-paper-200);
+  border-color: var(--color-paper-400);
+  color: var(--color-ink-500);
+}
+
+.wax-seal[data-tone="neutral"] {
+  background-color: var(--color-paper-100);
+  border-color: var(--color-ink-200);
+  color: var(--color-ink-500);
+}
+
+/* ── Notary signature — ledger-style metadata ── */
+.archive-signature {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  color: var(--color-ink-500);
+  letter-spacing: 0.01em;
+}
+
+/* ── Museum catalog tag — change-request ID ── */
+.archive-catalog {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: var(--color-ink-500);
+  padding: 0.0625rem 0.375rem;
+  border: 1px dashed var(--color-paper-400);
+  border-radius: 0.1875rem;
+  background: color-mix(in srgb, var(--color-paper-50) 50%, transparent);
+  letter-spacing: 0.02em;
+  cursor: help;
+}
+
+/* ── Expanded source-files panel ── */
+.archive-files {
+  padding: 0.5rem 0.75rem;
+  border-left: 2px solid var(--color-paper-400);
+  background: color-mix(in srgb, var(--color-paper-100) 60%, transparent);
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
+/* ── Archive notice — the footnote ── */
+.archive-notice {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-paper-300) 50%, transparent);
+  font-size: 0.6875rem;
+  line-height: 1.6;
+  color: var(--color-ink-400);
+  font-style: italic;
+}
+
+.archive-notice code {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-style: normal;
+  color: var(--color-ink-500);
+  background: var(--color-paper-100);
+  padding: 0.0625rem 0.25rem;
+  border-radius: 0.1875rem;
+}
+
+/* ── Responsive: narrow screens collapse the numeral column ── */
+@media (max-width: 30rem) {
+  .archive-timeline::before {
+    left: calc(2.25rem + 0.5rem + 0.5rem);
+  }
+  .archive-entry {
+    grid-template-columns: 2.25rem 1rem 1fr;
+    column-gap: 0.5rem;
+    padding-right: 0.25rem;
+  }
+  .archive-numeral {
+    font-size: 1.25rem;
+  }
+}
+
+/* ── Reduced motion: disable stagger animation ── */
+@media (prefers-reduced-motion: reduce) {
+  .archive-entry {
+    animation: none;
+  }
+  .archive-numeral,
+  .archive-bullet {
+    transition: none;
+  }
+}
+
+/* ── Print: flatten timeline into a ledger ── */
+@media print {
+  .archive-entry {
+    animation: none;
+    page-break-inside: avoid;
+  }
+  .archive-timeline::before {
+    display: none;
+  }
+}
+
+/* ── Time-travel: aged-paper treatment ───────────────────────────
+   When the user views a historical version, the page receives a
+   subtle warm tint and a fixed banner indicating the mode. */
+html[data-time-travel] body {
+  position: relative;
+}
+
+html[data-time-travel] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%, rgba(168, 122, 62, 0.05), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 80% 90%, rgba(94, 44, 18, 0.04), transparent 60%),
+    linear-gradient(180deg, rgba(180, 150, 90, 0.02), transparent 30%);
+}
+
+html[data-time-travel] body::after {
+  content: "⟁ Viewing historical version";
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: 0.25rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-hex-800);
+  background: var(--color-hex-100);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border: 1px solid var(--color-hex-300);
+  border-top: none;
+  box-shadow: var(--shadow-sm);
+  pointer-events: none;
+  animation: archive-entry-enter 0.3s ease-out;
+}
+
 /* ── Rainbow mode (easter egg) ──────────────────────────────────────
    Activated by ThemeToggle after 5 rapid clicks. The --rainbow-hue
    custom property cycles 0-360 via requestAnimationFrame, and the
