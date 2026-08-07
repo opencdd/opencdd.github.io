@@ -2,7 +2,7 @@
 import DictionaryLayout from "~/layouts/DictionaryLayout.astro";
 import FacetedBrowser from "~/components/islands/FacetedBrowser.vue";
 import type { FacetItem, FacetConfig } from "~/components/islands/FacetedBrowser.vue";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { loadDictionary, listAvailableRegistryEntries } from "~/lib/data";
 import { codeFromIrdi } from "~/lib/irdi";
 import { parseDataType, dataTypeLabel } from "~/lib/dataType";
 import {
@@ -14,7 +14,7 @@ import {
 import type { EntityType } from "~/lib/types";
 
 export function getStaticPaths() {
-  return listRegistryEntries().flatMap((entry) => {
+  return listAvailableRegistryEntries().flatMap((entry) => {
     return DETAILABLE_TYPES.filter((t) => t !== "class").map((type) => ({
       params: { dict: entry.slug, type: routeSegmentFor(type) },
       props: { entityType: type },

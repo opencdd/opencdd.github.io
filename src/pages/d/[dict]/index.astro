@@ -11,13 +11,13 @@ import {
   routeSegmentFor,
   entityTypeForSegment,
 } from "~/lib/entityTypeMeta";
-import { loadDictionary, listRegistryEntries } from "~/lib/data";
+import { loadDictionary, listAvailableRegistryEntries } from "~/lib/data";
 import { codeFromIrdi } from "~/lib/irdi";
 
 const MAX_ITEMS_PER_TAB = 200;
 
 export function getStaticPaths() {
-  return listRegistryEntries().map((entry) => ({
+  return listAvailableRegistryEntries().map((entry) => ({
     params: { dict: entry.slug },
   }));
 }
