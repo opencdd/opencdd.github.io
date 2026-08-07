@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import { mkdtempSync, rmSync, writeFileSync, mkdirSync } from "node:fs";
+import { mkdtempSync, rmSync, writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
@@ -9,7 +9,7 @@ import {
   type StageContext,
   committedDataPresent,
 } from "~/lib/build/pipeline";
-import { skipIfCommitted, acquireFromLocal, fixOceanRunnerIrbis } from "~/lib/build/stages";
+import { skipIfCommitted, acquireFromLocal, fixOceanRunnerIrbis, normalizeLanguageCodes } from "~/lib/build/stages";
 
 function makeTempContext(): { ctx: StageContext; cleanup: () => void } {
   const tmp = mkdtempSync(join(tmpdir(), "opencdd-pipeline-"));
@@ -157,6 +157,92 @@ describe("BuildPipeline", () => {
         skipped: true,
         message: "no oceanrunner data",
       });
+    });
+  });
+
+  describe("normalizeLanguageCodes stage", () => {
+    let ctx: StageContext;
+    let cleanup!: () => void;
+
+    beforeEach(() => { ({ ctx, cleanup } = makeTempContext()); });
+    afterEach(() => cleanup());
+
+    it("renames jp to ja on all _ml fields in database.json", async () => {
+      mkdirSync(join(ctx.dataTarget, "mldict"), { recursive: true });
+      const nodes = [
+        {
+          irdi: "X#ACE061",
+          code: "ACE061",
+          type: "property",
+          preferred_name: "mean operating time to failure",
+          preferred_name_ml: {
+            en: "mean operating time to failure",
+            de: "mittlere Betriebszeit bis zum Ausfall",
+            fr: "durée moyenne de fonctionnement avant défaillance",
+            jp: "平均故障間動作時間",
+            zh: "平均失效前工作时间",
+          },
+          definition_ml: {
+            en: "expectation of the operating time to failure",
+            jp: "故障までの平均動作時間",
+          },
+          short_name_ml: { en: "MTTF", jp: "MTTF" },
+        },
+      ];
+      const dbPath = join(ctx.dataTarget, "mldict", "database.json");
+      writeFileSync(dbPath, JSON.stringify(nodes));
+
+      const result = await normalizeLanguageCodes().run(ctx);
+      expect(result.ok).toBe(true);
+
+      const after = JSON.parse(readFileSync(dbPath, "utf8")) as Array<Record<string, unknown>>;
+      const entity = after[0]!;
+      const pnml = entity.preferred_name_ml as Record<string, string>;
+      expect(pnml.ja).toBe("平均故障間動作時間");
+      expect(pnml.jp).toBeUndefined();
+      expect(pnml.en).toBe("mean operating time to failure");
+
+      const dml = entity.definition_ml as Record<string, string>;
+      expect(dml.ja).toBe("故障までの平均動作時間");
+      expect(dml.jp).toBeUndefined();
+
+      const snml = entity.short_name_ml as Record<string, string>;
+      expect(snml.ja).toBe("MTTF");
+      expect(snml.jp).toBeUndefined();
+    });
+
+    it("preserves an existing ja key when both jp and ja are present", async () => {
+      mkdirSync(join(ctx.dataTarget, "mldict"), { recursive: true });
+      const nodes = [
+        {
+          irdi: "X#C", code: "C", type: "class",
+          preferred_name: "test",
+          preferred_name_ml: { ja: "正しい", jp: "間違い" },
+        },
+      ];
+      const dbPath = join(ctx.dataTarget, "mldict", "database.json");
+      writeFileSync(dbPath, JSON.stringify(nodes));
+
+      await normalizeLanguageCodes().run(ctx);
+
+      const after = JSON.parse(readFileSync(dbPath, "utf8")) as Array<Record<string, unknown>>;
+      const pnml = after[0]!.preferred_name_ml as Record<string, string>;
+      expect(pnml.ja).toBe("正しい");
+      expect(pnml.jp).toBeUndefined();
+    });
+
+    it("skips when no non-standard codes are found", async () => {
+      mkdirSync(join(ctx.dataTarget, "cleandict"), { recursive: true });
+      writeFileSync(
+        join(ctx.dataTarget, "cleandict", "database.json"),
+        JSON.stringify([
+          { irdi: "X#A", code: "A", type: "class", preferred_name_ml: { en: "hello", ja: "こんにちは" } },
+        ]),
+      );
+
+      const result = await normalizeLanguageCodes().run(ctx);
+      expect(result.ok).toBe(true);
+      expect(result).toHaveProperty("skipped", true);
     });
   });
 });

@@ -18,6 +18,7 @@ import { contextFromCwd, runPipeline, committedDataPresent } from "../src/lib/bu
 import {
   acquireFromLocal,
   acquireFromRelease,
+  normalizeLanguageCodes,
   fixOceanRunnerIrbis,
   verifyNoJsxWhitespaceBugs,
 } from "../src/lib/build/stages";
@@ -35,7 +36,7 @@ const ctx = contextFromCwd();
 ctx.log = log;
 const CDD_DATA_RELEASE = ctx.env?.CDD_DATA_RELEASE;
 
-const fixAndVerify = [fixOceanRunnerIrbis(), verifyNoJsxWhitespaceBugs()];
+const fixAndVerify = [normalizeLanguageCodes(), fixOceanRunnerIrbis(), verifyNoJsxWhitespaceBugs()];
 
 try {
   // Mode 1: data already committed (CI fast path). Skip acquire.

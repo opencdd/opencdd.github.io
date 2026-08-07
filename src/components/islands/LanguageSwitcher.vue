@@ -2,7 +2,7 @@
 import { ref, onMounted } from "vue";
 
 const STORAGE_KEY = "opencdd-lang";
-const KNOWN_LANGS = ["en", "de", "fr", "zh"] as const;
+const KNOWN_LANGS = ["en", "de", "fr", "ja", "zh"] as const;
 
 const current = ref<string>("en");
 const available = ref<string[]>(["en"]);

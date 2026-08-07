@@ -7,8 +7,8 @@
  * `execSync`, no shell-out.
  */
 
-import { cpSync, existsSync, mkdirSync, rmSync } from "node:fs";
-import { resolve } from "node:path";
+import { cpSync, existsSync, mkdirSync, rmSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { resolve, join } from "node:path";
 import { execSync } from "node:child_process";
 import {
   type Stage,
@@ -162,6 +162,62 @@ export function fixOceanRunnerIrbis(): Stage {
 }
 
 /**
+ * Fix: normalize non-standard language codes to ISO 639-1 in all
+ * database.json files under dataTarget.
+ *
+ * IEC CDD source data uses "jp" for Japanese; ISO 639-1 is "ja".
+ * The browser's CSS visibility rules and LanguageSwitcher expect
+ * the ISO code. This stage rewrites every *_ml field on every
+ * entity in every dictionary, renaming the "jp" key to "ja"
+ * (preserving an existing "ja" key if both are present). Idempotent.
+ */
+const LANG_ALIASES: Record<string, string> = {
+  jp: "ja",
+};
+
+function normalizeEntityLangs(entity: Record<string, unknown>): number {
+  let changed = 0;
+  for (const key of Object.keys(entity)) {
+    if (!key.endsWith("_ml")) continue;
+    const ml = entity[key];
+    if (typeof ml !== "object" || ml === null || Array.isArray(ml)) continue;
+    for (const [from, to] of Object.entries(LANG_ALIASES)) {
+      const record = ml as Record<string, unknown>;
+      if (!(from in record)) continue;
+      if (!(to in record)) {
+        record[to] = record[from];
+      }
+      delete record[from];
+      changed++;
+    }
+  }
+  return changed;
+}
+
+export function normalizeLanguageCodes(): Stage {
+  return stage("normalize-language-codes", (ctx) => {
+    let totalRenamed = 0;
+    let dictCount = 0;
+    for (const entry of readdirSync(ctx.dataTarget, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const dbPath = join(ctx.dataTarget, entry.name, "database.json");
+      if (!existsSync(dbPath)) continue;
+      const raw = readFileSync(dbPath, "utf8");
+      const entities = JSON.parse(raw) as Record<string, unknown>[];
+      for (const entity of entities) {
+        totalRenamed += normalizeEntityLangs(entity);
+      }
+      writeFileSync(dbPath, JSON.stringify(entities));
+      dictCount++;
+    }
+    if (totalRenamed === 0) {
+      return { ok: true, skipped: true, message: "no non-standard codes found" };
+    }
+    return { ok: true, message: `renamed ${totalRenamed} key(s) across ${dictCount} dict(s)` };
+  });
+}
+
+/**
  * Verify: scan all .astro / .mdx files for JSX whitespace bugs (text
  * immediately followed by an inline opening tag on the next line).
  *
@@ -194,6 +250,7 @@ export function localAcquireFixVerify(): Stage[] {
   return [
     skipIfCommitted,
     acquireFromLocal(),
+    normalizeLanguageCodes(),
     fixOceanRunnerIrbis(),
     verifyNoJsxWhitespaceBugs(),
   ];
@@ -204,12 +261,10 @@ export function localAcquireFixVerify(): Stage[] {
  * fetches, with local-copy fallback on 404.
  */
 export function releaseAcquireFixVerify(): Stage[] {
-  // The release stage includes its own 404 fallback inside the runner;
-  // see acquireFromRelease. Tests can compose stages differently if
-  // they want to assert the fallback path explicitly.
   return [
     skipIfCommitted,
     acquireFromRelease(),
+    normalizeLanguageCodes(),
     fixOceanRunnerIrbis(),
     verifyNoJsxWhitespaceBugs(),
   ];
