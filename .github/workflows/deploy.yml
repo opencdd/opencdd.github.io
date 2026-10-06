@@ -40,13 +40,16 @@ jobs:
           path: data-private-src
           token: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
 
-      - name: Copy data into browser
+      # Copy the data, then run the fetch-data pipeline — its filter and
+      # verify stages enforce the IEC CDD EULA free-attributes whitelist
+      # and bulk-artifact removal. The build MUST NOT ship unfiltered
+      # data-private content.
+      - name: Copy and filter data (EULA free attributes only)
         run: |
           mkdir -p src/content/data
           cp -r data-private-src/data/* src/content/data/
-          echo "=== Data copied ==="
-          ls src/content/data/
           rm -rf data-private-src
+          npm run fetch-data
 
       - name: Generate per-dictionary tree JSON
         run: npm run gen-tree
