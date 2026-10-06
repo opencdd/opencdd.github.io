@@ -7,7 +7,7 @@
  * `execSync`, no shell-out.
  */
 
-import { cpSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { execSync } from "node:child_process";
 import {
@@ -17,6 +17,13 @@ import {
   committedDataPresent,
   stage,
 } from "./pipeline";
+import {
+  bulkDistributionAllowed,
+  dictLicenseRegime,
+  filterEntityPayload,
+  findEulaViolations,
+  isPubliclyServed,
+} from "~/lib/licensing";
 
 /**
  * Acquire: skip if `src/content/data/index.json` already exists.
@@ -187,6 +194,157 @@ export function verifyNoJsxWhitespaceBugs(): Stage {
 }
 
 /**
+ * Bulk-artifact locations, relative to a dictionary directory in the
+ * data target and to the public tree (`public/d/<slug>/`, where
+ * gen-tree and older pipelines placed per-dictionary assets that Astro
+ * copies verbatim into dist/).
+ */
+const BULK_ARTIFACT_DIRS = ["versions", "parcel"] as const;
+
+/**
+ * Filter: reduce IEC CDD dictionaries to the EULA §5 FREE ATTRIBUTES.
+ *
+ * The IEC CDD EULA (§5) allows free distribution of a specific
+ * attribute whitelist only; §7/§8 forbid distributing the total
+ * database or any other attribute without written IEC permission.
+ * This stage rewrites each restricted dictionary's database.json in
+ * place (idempotent) and removes bulk artifacts (versions/, parcel/)
+ * from both the data tree and the public tree — anything else would
+ * constitute a significant-portion distribution.
+ *
+ * OceanRunner (OpenCDD's own data) and iec62720 (EULA §6: the units
+ * dictionary is free in its entirety) pass through untouched. See
+ * `lib/licensing.ts` — the policy single source of truth.
+ */
+export function filterIecFreeAttributes(): Stage {
+  return stage("filter-iec-free-attributes", (ctx) => {
+    if (!existsSync(ctx.dataTarget)) {
+      return { ok: true, skipped: true, message: "no data dir" };
+    }
+    let filtered = 0;
+    let untouched = 0;
+    for (const entry of readdirSync(ctx.dataTarget, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      if (dictLicenseRegime(entry.name) !== "eula-free-attributes") {
+        untouched++;
+        continue;
+      }
+      // Non-served dictionaries keep their internal data but nothing of
+      // theirs may survive in the public tree.
+      if (!isPubliclyServed(entry.name)) {
+        const publicDir = resolve(ctx.repoRoot, "public/d", entry.name);
+        if (existsSync(publicDir)) {
+          rmSync(publicDir, { recursive: true, force: true });
+        }
+        continue;
+      }
+      const dictDir = resolve(ctx.dataTarget, entry.name);
+      const dbPath = resolve(dictDir, "database.json");
+      if (existsSync(dbPath)) {
+        const database: unknown = JSON.parse(readFileSync(dbPath, "utf8"));
+        const filteredArray = Array.isArray(database)
+          ? database.map((e) =>
+              typeof e === "object" && e !== null
+                ? filterEntityPayload(e as Record<string, unknown>)
+                : e,
+            )
+          : database;
+        writeFileSync(dbPath, JSON.stringify(filteredArray));
+        filtered++;
+      }
+      for (const bulk of BULK_ARTIFACT_DIRS) {
+        const bulkPath = resolve(dictDir, bulk);
+        if (existsSync(bulkPath)) {
+          rmSync(bulkPath, { recursive: true, force: true });
+        }
+      }
+    }
+    // The public tree (`public/d/`) may hold per-dictionary assets from
+    // older builds under different slug spellings (kebab vs flat) —
+    // sweep it by its own directory names, not the data tree's.
+    const publicRoot = resolve(ctx.repoRoot, "public/d");
+    let publicCleaned = 0;
+    if (existsSync(publicRoot)) {
+      for (const entry of readdirSync(publicRoot, { withFileTypes: true })) {
+        if (!entry.isDirectory()) continue;
+        if (dictLicenseRegime(entry.name) !== "eula-free-attributes") continue;
+        for (const bulk of BULK_ARTIFACT_DIRS) {
+          const bulkPath = resolve(publicRoot, entry.name, bulk);
+          if (existsSync(bulkPath)) {
+            rmSync(bulkPath, { recursive: true, force: true });
+            publicCleaned++;
+          }
+        }
+      }
+    }
+    return {
+      ok: true,
+      message: `${filtered} dictionaries reduced to §5 free attributes, ${untouched} unaffected, ${publicCleaned} public bulk dirs removed`,
+    };
+  });
+}
+
+/**
+ * Verify: assert no restricted dictionary would serve content beyond
+ * the EULA §5 FREE ATTRIBUTES, and no bulk artifacts remain for
+ * restricted dictionaries. Runs after the filter stage and also
+ * guards the committed-data CI path, where the filter's source data
+ * may already be clean — or may not be.
+ */
+export function verifyEulaCompliance(): Stage {
+  return stage("verify-eula-compliance", (ctx) => {
+    if (!existsSync(ctx.dataTarget)) {
+      return { ok: true, skipped: true, message: "no data dir" };
+    }
+    const violations: string[] = [];
+    for (const entry of readdirSync(ctx.dataTarget, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      if (!bulkDistributionAllowed(entry.name)) {
+        const dictDir = resolve(ctx.dataTarget, entry.name);
+        const dbPath = resolve(dictDir, "database.json");
+        if (existsSync(dbPath)) {
+          const found = findEulaViolations(JSON.parse(readFileSync(dbPath, "utf8")));
+          violations.push(
+            ...found.slice(0, 5).map((v) => `${entry.name}/${v}`),
+            ...(found.length > 5
+              ? [`… and ${found.length - 5} more in ${entry.name}`]
+              : []),
+          );
+        }
+        for (const bulk of BULK_ARTIFACT_DIRS) {
+          if (existsSync(resolve(dictDir, bulk))) {
+            violations.push(`${entry.name}/${bulk}/ present (bulk distribution)`);
+          }
+        }
+      }
+    }
+    // Same sweep for the public tree, by its own directory names —
+    // older builds used different slug spellings (kebab vs flat).
+    const publicRoot = resolve(ctx.repoRoot, "public/d");
+    if (existsSync(publicRoot)) {
+      for (const entry of readdirSync(publicRoot, { withFileTypes: true })) {
+        if (!entry.isDirectory()) continue;
+        if (dictLicenseRegime(entry.name) !== "eula-free-attributes") continue;
+        for (const bulk of BULK_ARTIFACT_DIRS) {
+          if (existsSync(resolve(publicRoot, entry.name, bulk))) {
+            violations.push(
+              `public/d/${entry.name}/${bulk}/ present (bulk distribution)`,
+            );
+          }
+        }
+      }
+    }
+    if (violations.length > 0) {
+      return {
+        ok: false,
+        error: `content beyond IEC EULA free attributes would be served:\n${violations.join("\n")}`,
+      };
+    }
+    return { ok: true, message: "within IEC CDD EULA scope" };
+  });
+}
+
+/**
  * Helper: the standard "acquire → fix → verify" sequence for local dev.
  * Used by `npm run fetch-data` when no release is requested.
  */
@@ -195,6 +353,8 @@ export function localAcquireFixVerify(): Stage[] {
     skipIfCommitted,
     acquireFromLocal(),
     fixOceanRunnerIrbis(),
+    filterIecFreeAttributes(),
+    verifyEulaCompliance(),
     verifyNoJsxWhitespaceBugs(),
   ];
 }
@@ -211,6 +371,8 @@ export function releaseAcquireFixVerify(): Stage[] {
     skipIfCommitted,
     acquireFromRelease(),
     fixOceanRunnerIrbis(),
+    filterIecFreeAttributes(),
+    verifyEulaCompliance(),
     verifyNoJsxWhitespaceBugs(),
   ];
 }

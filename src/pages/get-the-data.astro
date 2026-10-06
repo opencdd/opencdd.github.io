@@ -1,0 +1,199 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import PageHeader from "~/components/ui/PageHeader.astro";
+
+const kinds = [
+  "Classes",
+  "Properties",
+  "Value lists",
+  "Value terms",
+  "Units",
+  "Relations",
+  "Lists of units",
+  "DET classification",
+];
+
+const stepEyebrow = (n: number) => `§ Step ${n}`;
+---
+
+<BaseLayout
+  title="Get the full IEC CDD data — run OpenCDD yourself"
+  description="Bulk-export the IEC CDD dictionaries directly from cdd.iec.ch under your own IEC license, convert them with the opencdd gem, and run OpenCDD locally on the complete data — every attribute, every language."
+>
+  <article class="mx-auto max-w-3xl space-y-16">
+    <PageHeader
+      kicker="Run your own"
+      title="The full dictionary was never a download away. It was an export away."
+      description="IEC publishes the Common Data Dictionary and licenses its full use inside your organization. This guide takes you from cdd.iec.ch to a locally-running OpenCDD browsing the complete data — every attribute this site's public demo filters out, licensed to you by IEC."
+      class="border-b border-paper-300 pb-12"
+    />
+
+    {/* ── WHY THIS WAY ── */}
+    <section class="space-y-4">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § Why this way
+      </p>
+      <div class="space-y-4 text-[15px] leading-relaxed text-ink-700">
+        <p>
+          The IEC CDD License Agreement is precise about what may be
+          redistributed: the § 5 FREE ATTRIBUTES, and the IEC 62720 units
+          dictionary in its entirety (<a href="/licensing/" class="text-teal-700 underline underline-offset-2">see our compliance matrix</a>).
+          Everything else — definitions, remarks, version history, the
+          lot — is licensed to <em>you</em> for use inside your
+          organization (§ 8), but not to us for republishing.
+        </p>
+        <p>
+          So we don't republish it. Instead: you export the dictionaries
+          from IEC directly, and OpenCDD converts them into a working local
+          dictionary in one command. You get the full data, under the
+          license IEC granted you, and OpenCDD stays a clean-room engine.
+        </p>
+      </div>
+    </section>
+
+    {/* ── STEP 1 ── */}
+    <section class="space-y-4">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        {stepEyebrow(1)} — Accept the license at cdd.iec.ch
+      </p>
+      <h2 class="font-display text-2xl tracking-tight text-ink-900">
+        Open the CDD and accept the terms.
+      </h2>
+      <div class="space-y-3 text-[15px] leading-relaxed text-ink-700">
+        <p>
+          Go to{" "}
+          <a href="https://cdd.iec.ch/" class="text-teal-700 underline underline-offset-2" target="_blank" rel="noreferrer noopener">cdd.iec.ch</a>
+          and accept the license agreement when prompted. That agreement —
+          the same one this site follows to the letter — is what licenses
+          <em>your</em> internal use of the full content (§ 8). No account
+          is needed for the public dictionaries.
+        </p>
+      </div>
+    </section>
+
+    {/* ── STEP 2 ── */}
+    <section class="space-y-4">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        {stepEyebrow(2)} — Search for everything, per kind
+      </p>
+      <h2 class="font-display text-2xl tracking-tight text-ink-900">
+        One search per entity kind, <code class="rounded bg-paper-200 px-1.5 py-0.5 font-mono text-[13px] text-ink-800">*</code> matches all.
+      </h2>
+      <div class="space-y-3 text-[15px] leading-relaxed text-ink-700">
+        <p>
+          Open the{" "}
+          <a
+            href="https://cdd.iec.ch/cdd/isoics/isoics.nsf/SearchFrameset?OpenFrameSet"
+            class="text-teal-700 underline underline-offset-2"
+            target="_blank" rel="noreferrer noopener"
+          >CDD search</a>, click <strong>Search</strong>, pick an entity
+          kind, enter <code class="rounded bg-paper-200 px-1.5 py-0.5 font-mono text-[13px] text-ink-800">*</code> in the
+          term field, and click <strong>Export selected</strong>. Repeat
+          once per kind:
+        </p>
+        <ul class="grid grid-cols-1 gap-x-8 gap-y-1.5 sm:grid-cols-2">
+          {kinds.map((k) => (
+            <li class="flex items-center gap-2 text-sm text-ink-700">
+              <span class="h-1.5 w-1.5 rounded-full bg-teal-500" aria-hidden="true" />
+              {k}
+            </li>
+          ))}
+        </ul>
+        <p class="text-sm text-ink-500">
+          Each export arrives as a zip of per-kind Excel files — the
+          IEC 62656-1 Parcel format that OpenCDD reads natively.
+        </p>
+      </div>
+    </section>
+
+    {/* ── STEP 3 ── */}
+    <section class="space-y-4">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        {stepEyebrow(3)} — Convert with the opencdd gem
+      </p>
+      <h2 class="font-display text-2xl tracking-tight text-ink-900">
+        One command turns the export into an OpenCDD dictionary.
+      </h2>
+      <div class="space-y-3 text-[15px] leading-relaxed text-ink-700">
+        <p>You need Ruby 3.1+. Install the gem, save the script, run it:</p>
+      </div>
+      <pre class="overflow-x-auto rounded-xl border border-paper-300 bg-paper-100 p-4 font-mono text-xs leading-relaxed text-ink-800"><code>{`gem install opencdd`}</code></pre>
+      <pre class="overflow-x-auto rounded-xl border border-paper-300 bg-paper-100 p-4 font-mono text-xs leading-relaxed text-ink-800"><code>{`# convert.rb — IEC CDD export -> OpenCDD dictionary
+#   ruby convert.rb "<unzipped export dir or single file>" <slug>
+require "opencdd"
+
+source, slug = ARGV[0], ARGV[1]
+abort "usage: ruby convert.rb <source> <slug>" unless source && slug
+
+db = Opencdd::Database.load(source)
+Dir.mkdir(slug) unless Dir.exist?(slug)
+File.write(
+  File.join(slug, "database.json"),
+  Opencdd::Exporters::Json.new.to_json(db),
+)
+puts "Wrote #{slug}/database.json (#{db.classes.size} classes)"`}</code></pre>
+      <pre class="overflow-x-auto rounded-xl border border-paper-300 bg-paper-100 p-4 font-mono text-xs leading-relaxed text-ink-800"><code>{`ruby convert.rb "export_CDD_IEC61360 in EXCEL format" iec61360`}</code></pre>
+      <p class="text-sm leading-relaxed text-ink-500">
+        The converter accepts every layout the gem reads: the per-kind
+        Excel export folder, a single exported <code>.xls</code>, a
+        ParcelMaker workbook, or a sharded per-class directory. Add
+        <code class="mx-1 rounded bg-paper-200 px-1.5 py-0.5 font-mono text-[12px]">Opencdd::Cddal.serialize(db)</code>
+        if you also want the plain-text CDDAL form.
+      </p>
+    </section>
+
+    {/* ── STEP 4 ── */}
+    <section class="space-y-4">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        {stepEyebrow(4)} — Run OpenCDD on your dictionary
+      </p>
+      <h2 class="font-display text-2xl tracking-tight text-ink-900">
+        Drop it into the browser and go.
+      </h2>
+      <div class="space-y-3 text-[15px] leading-relaxed text-ink-700">
+        <p>
+          Clone the browser, copy your converted dictionary into its data
+          directory, and register it in the catalog:
+        </p>
+      </div>
+      <pre class="overflow-x-auto rounded-xl border border-paper-300 bg-paper-100 p-4 font-mono text-xs leading-relaxed text-ink-800"><code>{`git clone https://github.com/opencdd/opencdd.github.io
+cd opencdd.github.io
+cp -r iec61360 src/content/data/`}</code></pre>
+      <p class="text-sm leading-relaxed text-ink-700">
+        Add an entry for your dictionary to{" "}
+        <code class="rounded bg-paper-200 px-1.5 py-0.5 font-mono text-[13px]">src/content/data/index.json</code>:
+      </p>
+      <pre class="overflow-x-auto rounded-xl border border-paper-300 bg-paper-100 p-4 font-mono text-xs leading-relaxed text-ink-800"><code>{`{
+  "slug": "iec61360",
+  "parcelId": "IEC61360",
+  "title": "IEC 61360 (local)",
+  "sourceLanguage": "en",
+  "translationLanguages": [],
+  "counts": { "class": 0, "property": 0, "value_list": 0,
+              "value_term": 0, "unit": 0, "relation": 0,
+              "view_control": 0 },
+  "metaClassIrdis": []
+}`}</code></pre>
+      <p class="text-xs leading-relaxed text-ink-500">
+        Counts are optional — pages derive real numbers from the data at
+        runtime. Then run it:
+      </p>
+      <pre class="overflow-x-auto rounded-xl border border-paper-300 bg-paper-100 p-4 font-mono text-xs leading-relaxed text-ink-800"><code>{`npm install
+npm run dev    # http://localhost:4321`}</code></pre>
+    </section>
+
+    {/* ── WHAT YOU GET ── */}
+    <section class="space-y-4 rounded-2xl border border-teal-200 bg-teal-50/50 p-6">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-teal-700">
+        § What you get locally
+      </p>
+      <p class="text-sm leading-relaxed text-ink-700">
+        Everything. Definitions, remarks, dates, status, source-document
+        references, full version history — the complete attribute set,
+        licensed to your organization by IEC. The public site on purpose
+        shows only the § 5 FREE ATTRIBUTES; your local OpenCDD shows it
+        all. Same identifiers, same IRDIs, same engine.
+      </p>
+    </section>
+  </article>
+</BaseLayout>

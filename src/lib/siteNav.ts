@@ -24,6 +24,8 @@ export const primaryNav: readonly NavItem[] = [
 export const footerProjectNav: readonly NavItem[] = [
   { href: "/docs/", label: "Documentation" },
   { href: "/blog/", label: "Blog" },
+  { href: "/get-the-data/", label: "Get the full data" },
+  { href: "/licensing/", label: "Data & licensing" },
   { href: "/about/", label: "About" },
   { href: "/search", label: "Search" },
 ] as const;

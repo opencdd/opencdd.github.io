@@ -1,6 +1,7 @@
 ---
 import Card from "./Card.astro";
 import SectionTitle from "./SectionTitle.astro";
+import { bulkDistributionAllowed, dictLicenseRegime } from "~/lib/licensing";
 
 interface Props {
   dict: string;
@@ -10,6 +11,9 @@ interface Props {
 }
 
 const { dict, parcelId, totalEntities, multiVersionEntities } = Astro.props;
+
+const regime = dictLicenseRegime(dict);
+const bulkAllowed = bulkDistributionAllowed(dict);
 
 const formats: Array<{
   available: boolean;
@@ -41,7 +45,7 @@ if (multiVersionEntities > 0) {
   });
 }
 
-const visibleFormats = formats.filter((f) => f.available);
+const visibleFormats = bulkAllowed ? formats.filter((f) => f.available) : [];
 ---
 
 {visibleFormats.length > 0 && (
@@ -88,12 +92,42 @@ const visibleFormats = formats.filter((f) => f.available);
     </p>
     <p class="mt-1 text-xs text-ink-400">
       {
-        dict === "iec62720"
-          ? "The units-of-measure database is freely licensed."
-          : "Dictionary data © IEC — publicly viewable CDD attributes, republished with attribution to cdd.iec.ch."
+        regime === "opencdd-own"
+          ? "OceanRunner is OpenCDD's own sample dictionary — full data, BSD-3-Clause."
+          : regime === "eula-full"
+            ? "The IEC 62720 units-of-measure dictionary is free in its entirety (IEC CDD License Agreement § 6) — data © IEC."
+            : "Dictionary data © IEC — this site serves the FREE ATTRIBUTES of the IEC CDD License Agreement § 5 only, with IEC referenced as the source."
       }
-      OpenCDD does not host IEC standards.
-      <a href="/about" class="underline underline-offset-2 hover:text-ink-600">Data &amp; licensing</a>
+      {" "}
+      <a href="/licensing/" class="underline underline-offset-2 hover:text-ink-600">Data &amp; licensing</a>
     </p>
+  </section>
+)}
+
+{!bulkAllowed && (
+  <section class="space-y-3">
+    <SectionTitle anchor count={1}>
+      Get the full data
+    </SectionTitle>
+    <div class="rounded-2xl border border-paper-300 bg-paper-100 p-6 text-sm leading-relaxed text-ink-700">
+      <p>
+        Full-dictionary downloads are not offered here: the IEC CDD
+        License Agreement reserves them (§ 5, § 7). This dictionary is
+        served as its FREE ATTRIBUTES only — every page links back to{" "}
+        <a
+          href="https://cdd.iec.ch/"
+          class="text-teal-700 underline underline-offset-2"
+          target="_blank" rel="noreferrer noopener"
+        >cdd.iec.ch</a>, the canonical source.
+      </p>
+      <p class="mt-3 text-ink-600">
+        Need the complete attributes? Export the dictionary from IEC
+        under your own license and run OpenCDD locally — the full data,
+        in about five minutes.{" "}
+        <a href="/get-the-data/" class="font-medium text-lapis-700 underline underline-offset-2 hover:text-lapis-800">
+          Get the data →
+        </a>
+      </p>
+    </div>
   </section>
 )}

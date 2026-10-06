@@ -10,6 +10,7 @@ import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import type { EntityNode, EntityType, ClassNode } from "./types";
 import type { DictionaryRegistry, DictionaryRegistryEntry } from "./registry";
+import { isPubliclyServed } from "./licensing";
 import { DictionaryBundle } from "./bundle";
 import { buildClassTree } from "./tree";
 
@@ -108,7 +109,9 @@ export function hasDictionaryData(slug: string): boolean {
 
 /** Registry entries for dictionaries that have data on disk. */
 export function listAvailableRegistryEntries(): DictionaryRegistryEntry[] {
-  return listRegistryEntries().filter((d) => hasDictionaryData(d.slug));
+  return listRegistryEntries().filter(
+    (d) => isPubliclyServed(d.slug) && hasDictionaryData(d.slug),
+  );
 }
 
 /** Slugs for dictionaries that have data on disk. */
