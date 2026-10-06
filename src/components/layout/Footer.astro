@@ -42,8 +42,9 @@ import FooterCredits from "~/components/islands/FooterCredits.vue";
           </a>
         </div>
         <p class="max-w-md text-sm leading-relaxed text-ink-500">
-          An open, modern browser for the IEC Common Data Dictionary.
-          Common ground, preserved differences.
+          An independent engine and browser for the IEC Common Data
+          Dictionary meta-model. Not affiliated with IEC — and not a
+          publisher of IEC standards.
         </p>
       </div>
 
@@ -89,7 +90,16 @@ import FooterCredits from "~/components/islands/FooterCredits.vue";
       </nav>
     </div>
 
-    <div class="mt-10 border-t border-paper-300 pt-6 text-xs text-ink-400">
+    <div class="mt-10 space-y-3 border-t border-paper-300 pt-6 text-xs text-ink-400">
+      <p class="max-w-3xl leading-relaxed">
+        Dictionary data © IEC. This site serves only the publicly viewable
+        attributes of the IEC Common Data Dictionary, with attribution to
+        <a href="https://cdd.iec.ch/" class="underline underline-offset-2 hover:text-ink-600" target="_blank" rel="noreferrer noopener">cdd.iec.ch</a>;
+        the units-of-measure database is freely licensed. OpenCDD does not
+        host or distribute IEC standards — see the{" "}
+        <a href="https://webstore.iec.ch/" class="underline underline-offset-2 hover:text-ink-600" target="_blank" rel="noreferrer noopener">IEC Webstore</a>
+        or our <a href="/about" class="underline underline-offset-2 hover:text-ink-600">data &amp; licensing note</a>.
+      </p>
       <FooterCredits client:only="vue" />
     </div>
   </div>

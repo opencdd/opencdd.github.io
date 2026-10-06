@@ -69,6 +69,8 @@ const year = new Date().getFullYear();
         :title="tapCount > 0 && tapCount < REQUIRED_TAPS ? `${REQUIRED_TAPS - tapCount} more…` : '© OpenCDD'"
       >
         © {{ year }} OpenCDD contributors. Dictionary content © IEC, Geneva.
+        OpenCDD is an independent implementation of the IEC CDD — not an IEC
+        publication.
         <span
           v-if="tapCount > 0 && tapCount < REQUIRED_TAPS"
           class="ml-1 inline-block h-1 w-1 animate-pulse rounded-full bg-teal-500 align-middle"

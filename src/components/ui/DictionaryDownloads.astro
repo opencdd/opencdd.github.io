@@ -86,5 +86,14 @@ const visibleFormats = formats.filter((f) => f.available);
       {totalEntities.toLocaleString()} entities across this dictionary.
       Per-entity CDDAL and CSV downloads are available on each detail page.
     </p>
+    <p class="mt-1 text-xs text-ink-400">
+      {
+        dict === "iec62720"
+          ? "The units-of-measure database is freely licensed."
+          : "Dictionary data © IEC — publicly viewable CDD attributes, republished with attribution to cdd.iec.ch."
+      }
+      OpenCDD does not host IEC standards.
+      <a href="/about" class="underline underline-offset-2 hover:text-ink-600">Data &amp; licensing</a>
+    </p>
   </section>
 )}
