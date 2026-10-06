@@ -299,6 +299,9 @@ export function verifyEulaCompliance(): Stage {
     const violations: string[] = [];
     for (const entry of readdirSync(ctx.dataTarget, { withFileTypes: true })) {
       if (!entry.isDirectory()) continue;
+      // Non-served dictionaries keep their internal data untouched —
+      // only their public-tree presence is policed (below).
+      if (!isPubliclyServed(entry.name)) continue;
       if (!bulkDistributionAllowed(entry.name)) {
         const dictDir = resolve(ctx.dataTarget, entry.name);
         const dbPath = resolve(dictDir, "database.json");

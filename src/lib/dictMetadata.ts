@@ -39,14 +39,14 @@ export interface DictMetadata {
 }
 
 export const DICT_METADATA: Record<string, DictMetadata> = {
-  iec61360: {
+  "iec-61360-4": {
     publicationId: "IEC 61360 (series)",
     edition: "Ed 4.0 (Part 1)",
     title:
-      "Standard data element types with associated classification scheme for electric components",
+      "Standard data element types with associated classification scheme for electric components — IEC reference collection (IEC 61360-4)",
     shortTitle: "IEC CDD reference dictionary",
     abstract:
-      'IEC 61360-1:2017 "specifies principles for the definition of the properties and associated attributes and explains the methods for representing verbally defined concepts in a computer-sensible form that is independent of natural language." The browser hosts the IEC 61360-4 reference dictionary itself — the canonical catalogue of classes, properties, value lists, units, and relations for electrotechnical components — together with content drawn from across the IEC 61360 series.',
+      'IEC 61360-1:2017 "specifies principles for the definition of the properties and associated attributes and explains the methods for representing verbally defined concepts in a computer-sensible form that is independent of natural language." This is the IEC 61360-4 reference dictionary itself — the canonical catalogue of classes, properties, value lists, units, and relations for electrotechnical components — together with content drawn from across the IEC 61360 series.',
     technicalCommittee: "IEC TC 3",
     webstoreUrl: "https://webstore.iec.ch/en/publication/28560",
     publishedYear: 2017,

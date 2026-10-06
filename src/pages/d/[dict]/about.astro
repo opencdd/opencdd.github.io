@@ -10,6 +10,7 @@ import {
   countForType,
 } from "~/lib/entityTypeMeta";
 import { listAvailableDictionarySlugs, loadDictionary } from "~/lib/data";
+import { dictLicenseRegime } from "~/lib/licensing";
 import { findDictionary } from "~/lib/dictionary";
 
 export function getStaticPaths() {
@@ -67,6 +68,17 @@ if (!info) {
             on the IEC webstore (© IEC, Geneva).
           </p>
         )}
+        <p class="mt-3 border-t border-paper-200 pt-3 text-xs leading-relaxed text-ink-500">
+          {
+            dictLicenseRegime(info.slug) === "opencdd-own"
+              ? "OpenCDD demonstration data — invented here, not IEC content. Full data, BSD-3-Clause."
+              : dictLicenseRegime(info.slug) === "eula-full"
+                ? "© IEC. This dictionary is free in its entirety under IEC CDD License Agreement § 6, with IEC referenced as the source."
+                : "© IEC. This dictionary is served strictly as the FREE ATTRIBUTES of the IEC CDD License Agreement § 5, with IEC referenced as the source. Definitions and other reserved attributes are not served — see cdd.iec.ch."
+          }
+          {" "}
+          <a href="/licensing/" class="underline underline-offset-2 hover:text-ink-700">Data &amp; licensing</a>
+        </p>
       </Card>
     )}
 

@@ -35,7 +35,7 @@ const sortedEntries = sortedDicts;
 
 <BaseLayout
   title="OpenCDD — a modern browser for published IEC CDD data"
-  description="Open-source tooling around the IEC Common Data Dictionary. Browse 21,460+ classes, properties, value lists, units, and relations across six published dictionaries."
+  description={`Open-source tooling around the IEC Common Data Dictionary. Browse ${totalEntities.toLocaleString()}+ classes, properties, value lists, units, and relations across ${publishedDicts.length} published dictionaries.`}
 >
   <article class="space-y-24">
     {/* ────────────────────────────────────────────────────────────
@@ -227,8 +227,15 @@ const sortedEntries = sortedDicts;
             Dictionaries
           </p>
           <h2 class="font-display text-3xl tracking-tight text-ink-900">
-            Six published IEC dictionaries
+            {publishedDicts.length} published IEC dictionaries
           </h2>
+          <p class="mt-1 text-xs leading-relaxed text-ink-500">
+            Dictionary data © IEC — IEC CDD dictionaries are served as
+            License Agreement § 5 FREE ATTRIBUTES only; the IEC 62720
+            units dictionary is free in its entirety (§ 6). Our own
+            OceanRunner demonstration dictionary ships in full.{" "}
+            <a href="/licensing/" class="underline underline-offset-2 hover:text-ink-700">Data &amp; licensing</a>
+          </p>
         </div>
         <p class="hidden max-w-sm text-right text-xs text-ink-500 sm:block">
           Click any dictionary to browse its classes, properties, value
