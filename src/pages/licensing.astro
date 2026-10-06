@@ -1,0 +1,186 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import PageHeader from "~/components/ui/PageHeader.astro";
+
+const regimes = [
+  {
+    name: "OceanRunner",
+    tag: "Our own sample",
+    tone: "teal" as const,
+    body: "A marine-propulsion demo dictionary invented by OpenCDD — not IEC content. Full data, BSD-3-Clause, like the rest of our code.",
+  },
+  {
+    name: "IEC 62720 — Units of measurement",
+    tag: "EULA § 6 — free in its entirety",
+    tone: "teal" as const,
+    body: "The IEC CDD License Agreement frees this dictionary completely: every data element, every attribute, with or without values — provided IEC is referenced as the source.",
+  },
+  {
+    name: "IEC CDD dictionaries",
+    tag: "EULA § 5 — FREE ATTRIBUTES only",
+    tone: "lapis" as const,
+    body: "For every other IEC dictionary we serve exactly the attribute whitelist the license calls FREE ATTRIBUTES — nothing more. Definitions, remarks, dates, status, and source-document references stay at cdd.iec.ch, where you can read them under your own IEC license.",
+  },
+];
+
+// The compliance matrix: what §5 frees, what §7/§8 reserve, and what
+// this site actually does about it. Rows follow the EULA's own list.
+const matrix: Array<{ attribute: string; served: boolean; basis: string }> = [
+  { attribute: "Identity — code and IRDI", served: true, basis: "§ 5 FREE" },
+  { attribute: "Version / revision", served: true, basis: "§ 5 FREE" },
+  { attribute: "Names — preferred, synonymous, short, coded", served: true, basis: "§ 5 FREE" },
+  { attribute: "Value formats — data type, data format", served: true, basis: "§ 5 FREE" },
+  { attribute: "Property data element type", served: true, basis: "§ 5 FREE" },
+  { attribute: "Superclass and applicable properties", served: true, basis: "§ 5 FREE" },
+  { attribute: "DET class", served: true, basis: "§ 5 FREE" },
+  { attribute: "Symbols", served: true, basis: "§ 5 FREE" },
+  { attribute: "Enumerated lists of terms — codes and names", served: true, basis: "§ 5 FREE" },
+  { attribute: "Unit-of-measurement attributes", served: true, basis: "§ 5 FREE · § 6 full for IEC 62720" },
+  { attribute: "Definitions", served: false, basis: "§ 8 — written permission required" },
+  { attribute: "Remarks and notes", served: false, basis: "§ 8 — written permission required" },
+  { attribute: "Formulas, conditions, constraints", served: false, basis: "§ 8 — written permission required" },
+  { attribute: "Figures and drawings", served: false, basis: "§ 8 — written permission required" },
+  { attribute: "Dates, status level, committee", served: false, basis: "§ 8 — written permission required" },
+  { attribute: "Source-document references", served: false, basis: "§ 8 — written permission required" },
+  { attribute: "Full-database downloads", served: false, basis: "§ 7 — no significant-portion distribution" },
+];
+---
+
+<BaseLayout
+  title="Data & licensing — OpenCDD and the IEC CDD License Agreement"
+  description="Exactly what OpenCDD serves from the IEC CDD, clause by clause: the EULA § 5 FREE ATTRIBUTES, the fully-free IEC 62720 units dictionary, and how to get the full data from IEC yourself."
+>
+  <article class="mx-auto max-w-3xl space-y-16">
+    <PageHeader
+      kicker="Data & licensing"
+      title="Exactly what we serve — and the clause that lets us serve it."
+      description="OpenCDD is an engine for the IEC Common Data Dictionary, not a publisher of it. This page states, clause by clause, what the dictionaries on this site contain and under which terms of the IEC CDD License Agreement."
+      class="border-b border-paper-300 pb-12"
+    />
+
+    {/* ── THE THREE REGIMES ── */}
+    <section class="space-y-5">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § Regimes — three kinds of dictionary
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        One site, three license regimes.
+      </h2>
+      <div class="grid gap-4">
+        {regimes.map((r) => (
+          <div class="rounded-2xl border border-paper-300 bg-paper-100 p-6">
+            <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <h3 class="font-display text-lg text-ink-900">{r.name}</h3>
+              <span
+                class:list={[
+                  "rounded-full px-2.5 py-0.5 text-[11px] font-medium",
+                  r.tone === "teal"
+                    ? "bg-teal-50 text-teal-700"
+                    : "bg-lapis-50 text-lapis-700",
+                ]}
+              >
+                {r.tag}
+              </span>
+            </div>
+            <p class="mt-2 text-sm leading-relaxed text-ink-700">{r.body}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {/* ── THE COMPLIANCE MATRIX ── */}
+    <section class="space-y-5">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § 5 / § 6 / § 7 / § 8 — the compliance matrix
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        Every attribute class, and what happens to it here.
+      </h2>
+      <p class="text-[15px] leading-relaxed text-ink-700">
+        The rows follow the IEC CDD License Agreement's own list of FREE
+        ATTRIBUTES. A build-time gate enforces this table: the data
+        pipeline strips anything a restricted dictionary must not serve,
+        and the build fails if non-free content would reach the site.
+      </p>
+      <div class="overflow-x-auto rounded-2xl border border-paper-300">
+        <table class="w-full border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-paper-300 bg-paper-100 text-left">
+              <th class="px-4 py-3 font-medium text-ink-500">Attribute class</th>
+              <th class="px-4 py-3 font-medium text-ink-500">Served here</th>
+              <th class="px-4 py-3 font-medium text-ink-500">Basis in the license</th>
+            </tr>
+          </thead>
+          <tbody>
+            {matrix.map((row) => (
+              <tr class="border-b border-paper-200 last:border-0">
+                <td class="px-4 py-2.5 text-ink-800">{row.attribute}</td>
+                <td class="px-4 py-2.5">
+                  {row.served ? (
+                    <span class="font-medium text-teal-700">Served</span>
+                  ) : (
+                    <span class="text-ink-400">Not served</span>
+                  )}
+                </td>
+                <td class="px-4 py-2.5">
+                  <span
+                    class:list={[
+                      "font-mono text-xs",
+                      row.served ? "text-teal-700" : "text-ink-400",
+                    ]}
+                  >
+                    {row.basis}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs leading-relaxed text-ink-500">
+        Multilingual name variants are served as part of the § 5 name
+        attributes; multilingual definitions and remarks are not served at
+        all (§ 9 reserves translations).
+      </p>
+    </section>
+
+    {/* ── ATTRIBUTION ── */}
+    <section class="space-y-4 rounded-2xl border border-paper-300 bg-paper-100 p-6">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § Attribution
+      </p>
+      <p class="text-sm leading-relaxed text-ink-700">
+        Dictionary data is © IEC, Geneva. Wherever IEC CDD content or
+        extracts of it appear on this site, IEC is referenced as the
+        source, per the license. For the complete, canonical data — every
+        attribute, every language — consult{" "}
+        <a href="https://cdd.iec.ch/" class="text-teal-700 underline underline-offset-2" target="_blank" rel="noreferrer noopener">cdd.iec.ch</a>,
+        and for the standards themselves, the{" "}
+        <a href="https://webstore.iec.ch/" class="text-teal-700 underline underline-offset-2" target="_blank" rel="noreferrer noopener">IEC Webstore</a>.
+      </p>
+    </section>
+
+    {/* ── RUN IT YOURSELF ── */}
+    <section class="space-y-4">
+      <p class="text-[10px] font-semibold uppercase tracking-[0.15em] text-ink-500">
+        § Run it yourself
+      </p>
+      <h2 class="font-display text-3xl tracking-tight text-ink-900">
+        The full dictionary was never a download away. It was an export away.
+      </h2>
+      <p class="text-[15px] leading-relaxed text-ink-700">
+        The IEC license lets <em>you</em> use the complete CDD inside your
+        organization — and IEC provides the export. Our guide walks you
+        through bulk-exporting the dictionaries from cdd.iec.ch and
+        converting them into a locally-running OpenCDD with every attribute
+        this site deliberately filters out.
+      </p>
+      <a
+        href="/get-the-data/"
+        class="inline-flex items-center gap-1.5 rounded-md border border-lapis-300 bg-lapis-50 px-3.5 py-2 text-sm font-medium text-lapis-700 shadow-xs transition hover:border-lapis-400 hover:bg-lapis-100"
+      >
+        Get the full data from IEC →
+      </a>
+    </section>
+  </article>
+</BaseLayout>
