@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
+import { dictLicenseRegime } from "~/lib/licensing";
 
 export interface DictRow {
   slug: string;
@@ -27,6 +28,48 @@ type SortKey = "title" | "totalEntities" | "totalVersions" | "publishedYear" | "
 const sortKey = ref<SortKey>("totalEntities");
 const sortDir = ref<"asc" | "desc">("desc");
 const filter = ref("");
+const expandedSlug = ref("");
+
+function licenseBadge(slug: string): { label: string; classes: string } {
+  const regime = dictLicenseRegime(slug);
+  if (regime === "opencdd-own") {
+    return {
+      label: "OpenCDD · BSD",
+      classes: "bg-teal-50 text-teal-700 border border-teal-200",
+    };
+  }
+  if (regime === "eula-full") {
+    return {
+      label: "IEC 62720 · § 6 free",
+      classes: "bg-teal-50 text-teal-700 border border-teal-200",
+    };
+  }
+  return {
+    label: "IEC CDD · § 5 free attributes",
+    classes: "bg-lapis-50 text-lapis-700 border border-lapis-200",
+  };
+}
+
+/** Stacked-bar segments for the entity-mix column. */
+function mixSegments(row: DictRow): Array<{ key: string; n: number; color: string; label: string }> {
+  const classes = row.byType.class ?? 0;
+  const properties = row.byType.property ?? 0;
+  const units = (row.byType.unit ?? 0) + (row.byType.list_of_unit ?? 0);
+  const other = Math.max(
+    0,
+    row.totalEntities - classes - properties - units,
+  );
+  return [
+    { key: "class", n: classes, color: "bg-hex-500", label: "classes" },
+    { key: "property", n: properties, color: "bg-teal-500", label: "properties" },
+    { key: "unit", n: units, color: "bg-lapis-400", label: "units" },
+    { key: "other", n: other, color: "bg-paper-300", label: "other" },
+  ].filter((s) => s.n > 0);
+}
+
+function toggleExpand(slug: string): void {
+  expandedSlug.value = expandedSlug.value === slug ? "" : slug;
+}
 
 function sortValue(row: DictRow, key: SortKey): string | number {
   switch (key) {
@@ -148,6 +191,7 @@ function fmt(n: number): string {
                 <span v-if="sortKey === 'totalEntities'" class="text-lapis-500">{{ sortDir === 'asc' ? '↑' : '↓' }}</span>
               </button>
             </th>
+            <th class="px-3 py-2.5 font-medium">Mix</th>
             <th class="px-3 py-2.5 text-right font-medium">
               <button @click="toggleSort('totalVersions')" class="ml-auto flex items-center gap-1 transition hover:text-ink-700">
                 Versions
@@ -163,39 +207,82 @@ function fmt(n: number): string {
           </tr>
         </thead>
         <tbody>
-          <tr
-            v-for="row in sorted"
-            :key="row.slug"
-            class="group border-b border-paper-100 transition hover:bg-paper-100/50"
-          >
-            <td class="px-4 py-3">
-              <a
-                :href="`/d/${row.slug}/`"
-                class="font-medium text-ink-900 transition group-hover:text-lapis-700"
-              >
-                {{ row.shortTitle }}
-              </a>
-              <p v-if="row.demonstration" class="mt-0.5">
-                <span class="rounded-full bg-teal-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-teal-700">Demo</span>
-              </p>
-            </td>
-            <td class="px-3 py-3 text-xs text-ink-500">
-              <div>{{ row.publicationId }}</div>
-              <div class="text-ink-400">{{ row.technicalCommittee }}</div>
-            </td>
-            <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.class ?? 0) }}</td>
-            <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.property ?? 0) }}</td>
-            <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.unit ?? 0) }}</td>
-            <td class="px-3 py-3 text-right font-mono text-sm font-semibold text-ink-800">{{ fmt(row.totalEntities) }}</td>
-            <td class="px-3 py-3 text-right font-mono text-xs text-ink-500">{{ fmt(row.totalVersions) }}</td>
-            <td class="px-3 py-3 text-right font-mono text-xs text-ink-500">{{ row.publishedYear || '—' }}</td>
-          </tr>
+          <template v-for="row in sorted" :key="row.slug">
+            <tr
+              :class="[
+                'group cursor-pointer border-b border-paper-100 transition hover:bg-paper-100/50',
+                expandedSlug === row.slug && 'bg-paper-100/70',
+              ]"
+              :aria-expanded="expandedSlug === row.slug"
+              @click="toggleExpand(row.slug)"
+              @keydown.enter="toggleExpand(row.slug)"
+              tabindex="0"
+            >
+              <td class="px-4 py-3">
+                <a
+                  :href="`/d/${row.slug}/`"
+                  class="font-medium text-ink-900 transition group-hover:text-lapis-700"
+                  @click.stop
+                >
+                  {{ row.shortTitle }}
+                </a>
+                <p class="mt-0.5 flex flex-wrap gap-1">
+                  <span
+                    class="rounded-full px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide"
+                    :class="licenseBadge(row.slug).classes"
+                  >
+                    {{ licenseBadge(row.slug).label }}
+                  </span>
+                  <span
+                    v-if="row.demonstration"
+                    class="rounded-full bg-teal-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-teal-700"
+                  >
+                    Demo
+                  </span>
+                </p>
+              </td>
+              <td class="px-3 py-3 text-xs text-ink-500">
+                <div>{{ row.publicationId }}</div>
+                <div class="text-ink-400">{{ row.technicalCommittee }}</div>
+              </td>
+              <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.class ?? 0) }}</td>
+              <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.property ?? 0) }}</td>
+              <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.unit ?? 0) }}</td>
+              <td class="px-3 py-3 text-right font-mono text-sm font-semibold text-ink-800">{{ fmt(row.totalEntities) }}</td>
+              <td class="px-3 py-3">
+                <div
+                  class="flex h-2 w-16 overflow-hidden rounded-full"
+                  :title="mixSegments(row).map((s) => `${fmt(s.n)} ${s.label}`).join(' · ')"
+                  role="img"
+                  :aria-label="mixSegments(row).map((s) => `${fmt(s.n)} ${s.label}`).join(', ')"
+                >
+                  <div
+                    v-for="seg in mixSegments(row)"
+                    :key="seg.key"
+                    :class="seg.color"
+                    :style="{ width: (seg.n / row.totalEntities) * 100 + '%' }"
+                  />
+                </div>
+              </td>
+              <td class="px-3 py-3 text-right font-mono text-xs text-ink-500">{{ fmt(row.totalVersions) }}</td>
+              <td class="px-3 py-3 text-right font-mono text-xs text-ink-500">{{ row.publishedYear || '—' }}</td>
+            </tr>
+            <tr v-if="expandedSlug === row.slug" class="border-b border-paper-100 bg-paper-50">
+              <td :colspan="9" class="px-4 py-4">
+                <p class="max-w-3xl text-xs leading-relaxed text-ink-600">
+                  <span class="font-semibold text-ink-700">{{ row.title }}.</span>
+                  {{ row.abstract }}
+                </p>
+              </td>
+            </tr>
+          </template>
         </tbody>
       </table>
     </div>
 
     <p class="mt-3 text-xs text-ink-400">
-      Click a column header to sort. Click a dictionary name to browse.
+      Click a column header to sort. Click a row for its abstract. Click a
+      dictionary name to browse.
     </p>
   </div>
 </template>
