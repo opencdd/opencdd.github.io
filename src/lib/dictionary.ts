@@ -33,6 +33,7 @@ import {
   loadRegistry,
   hasDictionaryData,
 } from "./data";
+import { isPubliclyServed } from "./licensing";
 import type { DictionaryRegistryEntry } from "./registry";
 
 export interface Dictionary {
@@ -126,6 +127,7 @@ function toDictionary(
  */
 export function listDictionaries(): Dictionary[] {
   return listRegistryEntries()
+    .filter((entry) => isPubliclyServed(entry.slug))
     .filter((entry) => hasDictionaryData(entry.slug))
     .map((entry) =>
       toDictionary(entry, metadataFor(entry.slug, entry.title)),

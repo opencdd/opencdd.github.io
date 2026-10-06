@@ -38,10 +38,11 @@ describe("dictLicenseRegime", () => {
     expect(bulkDistributionAllowed("iec61360")).toBe(false);
   });
 
-  it("never serves the ISO/CS dictionary publicly, in any spelling", () => {
+  it("never serves the ISO/CS dictionary or the superseded iec61360 scrape, in any spelling", () => {
     expect(isPubliclyServed("iso-ics")).toBe(false);
     expect(isPubliclyServed("isoics")).toBe(false);
-    expect(isPubliclyServed("iec61360")).toBe(true);
+    expect(isPubliclyServed("iec61360")).toBe(false);
+    expect(isPubliclyServed("iec-61360-4")).toBe(true);
     expect(isPubliclyServed("oceanrunner")).toBe(true);
   });
 });
@@ -175,15 +176,17 @@ describe("EULA filter + verify stages", () => {
     }
   }
 
-  it("filters restricted dicts, removes bulk artifacts in data and public trees, leaves allowed dicts untouched", async () => {
+  it("filters restricted dicts, removes bulk artifacts in data and public trees, leaves allowed and non-served dicts untouched", async () => {
     seedDict(
-      "iec61360",
+      "iec62683",
       [{ irdi: "a", code: "A", definition: "secret", version_history: [{ version: "001", revision: "01", unid: "U" }] }],
       true,
     );
     seedDict("oceanrunner", [{ irdi: "o", definition: "ours to keep" }]);
     seedDict("iec62720", [{ irdi: "u", definition: "free per §6" }]);
-    // Stale public-tree artifacts under a different spelling.
+    // Non-served duplicate: internal data must stay untouched, but its
+    // public-tree presence must go.
+    seedDict("iec61360", [{ irdi: "x", definition: "kept internally" }]);
     const stalePublic = resolve(ctx.repoRoot, "public/d/iec61360/versions");
     mkdirSync(stalePublic, { recursive: true });
     writeFileSync(join(stalePublic, "x.json"), "{}");
@@ -192,32 +195,28 @@ describe("EULA filter + verify stages", () => {
     expect(filterResult.ok).toBe(true);
 
     const filtered = JSON.parse(
-      readFileSync(join(ctx.dataTarget, "iec61360/database.json"), "utf8"),
+      readFileSync(join(ctx.dataTarget, "iec62683/database.json"), "utf8"),
     );
     expect(filtered[0].definition).toBeUndefined();
     expect(filtered[0].version_history[0].unid).toBeUndefined();
     expect(filtered[0].code).toBe("A");
-    expect(existsSync(join(ctx.dataTarget, "iec61360/versions"))).toBe(false);
-    expect(existsSync(join(ctx.dataTarget, "iec61360/parcel"))).toBe(false);
+    expect(existsSync(join(ctx.dataTarget, "iec62683/versions"))).toBe(false);
+    expect(existsSync(join(ctx.dataTarget, "iec62683/parcel"))).toBe(false);
     expect(existsSync(stalePublic)).toBe(false);
-
     expect(
-      JSON.parse(readFileSync(join(ctx.dataTarget, "oceanrunner/database.json"), "utf8")),
-    ).toEqual([{ irdi: "o", definition: "ours to keep" }]);
-    expect(
-      JSON.parse(readFileSync(join(ctx.dataTarget, "iec62720/database.json"), "utf8")),
-    ).toEqual([{ irdi: "u", definition: "free per §6" }]);
+      JSON.parse(readFileSync(join(ctx.dataTarget, "iec61360/database.json"), "utf8")),
+    ).toEqual([{ irdi: "x", definition: "kept internally" }]);
 
     const verifyResult = await verifyEulaCompliance().run(ctx);
     expect(verifyResult.ok).toBe(true);
   });
 
   it("verify stage fails when restricted content would be served", async () => {
-    seedDict("iec61360", [{ irdi: "a", definition: "not allowed" }], true);
+    seedDict("iec62683", [{ irdi: "a", definition: "not allowed" }], true);
     const result = await verifyEulaCompliance().run(ctx);
     expect(result.ok).toBe(false);
     if (!result.ok) {
-      expect(result.error).toContain("iec61360/a: definition");
+      expect(result.error).toContain("iec62683/a: definition");
       expect(result.error).toContain("versions");
     }
   });

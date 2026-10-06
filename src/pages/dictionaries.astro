@@ -6,6 +6,7 @@ import type { DictRow } from "~/components/islands/DictionaryTable.vue";
 import { listDictionaries } from "~/lib/dictionary";
 import { loadDictionary } from "~/lib/data";
 import { ENTITY_TYPE_ORDER } from "~/lib/entityTypeMeta";
+import { dictLicenseRegime } from "~/lib/licensing";
 
 const allDicts = listDictionaries();
 
@@ -37,19 +38,66 @@ const rows: DictRow[] = allDicts.map((d) => {
     demonstration: d.demonstration === true,
   };
 });
+
+// Categorised by license regime: our own demonstration data first,
+// then the fully-free units dictionary, then the IEC CDD dictionaries
+// served as §5 free attributes.
+const categories: Array<{
+  id: string;
+  heading: string;
+  caption: string;
+  rows: DictRow[];
+}> = [
+  {
+    id: "opencdd-own",
+    heading: "OpenCDD demonstration dictionaries",
+    caption:
+      "Invented by OpenCDD — not IEC content. Full data, BSD-3-Clause, like the rest of our code.",
+    rows: rows.filter((r) => dictLicenseRegime(r.slug) === "opencdd-own"),
+  },
+  {
+    id: "eula-full",
+    heading: "Freely licensed — IEC 62720 units dictionary",
+    caption:
+      "Free in its entirety under IEC CDD License Agreement § 6: every attribute, with IEC referenced as the source.",
+    rows: rows.filter((r) => dictLicenseRegime(r.slug) === "eula-full"),
+  },
+  {
+    id: "eula-free-attributes",
+    heading: "IEC CDD dictionaries — free attributes (§ 5)",
+    caption:
+      "Served strictly as the FREE ATTRIBUTES of the IEC CDD License Agreement § 5 — identities, names, value formats, structure. Definitions and other reserved attributes are not served; get them from cdd.iec.ch or run OpenCDD yourself.",
+    rows: rows.filter((r) => dictLicenseRegime(r.slug) === "eula-free-attributes"),
+  },
+].filter((c) => c.rows.length > 0);
 ---
 
 <BaseLayout
   title="Dictionaries — OpenCDD"
-  description="All published IEC Common Data Dictionary editions, sortable by entity count, version history, and publication year."
+  description="All dictionaries in the OpenCDD browser — OpenCDD's own demonstration data, the freely licensed IEC 62720 units dictionary, and the IEC CDD dictionaries served as free attributes."
 >
-  <article class="mx-auto max-w-6xl space-y-8">
+  <article class="mx-auto max-w-6xl space-y-10">
     <PageHeader
       kicker="Dictionaries"
-      title="All published IEC CDD editions"
-      description="Every dictionary in the OpenCDD browser — sortable, filterable, and linked to the canonical IEC publication. Click any column header to sort. Click a dictionary name to browse its entities."
+      title="Every dictionary in the OpenCDD browser"
+      description="Our own demonstration dictionaries first, then the IEC CDD dictionaries — sortable, filterable, and linked to the canonical IEC publication. Click any column header to sort. Click a dictionary name to browse its entities."
     />
 
-    <DictionaryTable client:load rows={rows} />
+    {categories.map((cat) => (
+      <section class="space-y-3" aria-labelledby={`dictcat-${cat.id}`}>
+        <div class="space-y-1 border-b border-paper-300 pb-3">
+          <h2 id={`dictcat-${cat.id}`} class="font-display text-xl tracking-tight text-ink-900">
+            {cat.heading}
+          </h2>
+          <p class="text-xs leading-relaxed text-ink-500">
+            {cat.caption}{" "}
+            <a href="/licensing/" class="underline underline-offset-2 hover:text-ink-700">Data &amp; licensing</a>
+            {" "}·{" "}
+            <a href="/get-the-data/" class="underline underline-offset-2 hover:text-ink-700">Get the full data</a>
+          </p>
+        </div>
+        <DictionaryTable client:load rows={cat.rows} />
+      </section>
+    ))}
   </article>
 </BaseLayout>

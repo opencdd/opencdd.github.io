@@ -53,13 +53,16 @@ export function bulkDistributionAllowed(dict: string): boolean {
 
 /**
  * Dictionaries never served publicly (normalized keys — compare via
- * isPubliclyServed, not directly). `isoics` is the ISO/CS dictionary —
- * license-gated ("requires password") on cdd.iec.ch and governed by
- * the ISO license, not the IEC CDD EULA's §5 free-attribute clause.
- * Excluded from the public site pending written clarification from
- * IEC/ISO.
+ * isPubliclyServed, not directly).
+ * - `isoics` — ISO/CS dictionary: license-gated ("requires password")
+ *   on cdd.iec.ch, governed by the ISO license, not the IEC CDD
+ *   EULA's §5 free-attribute clause. Excluded pending written
+ *   clarification.
+ * - `iec61360` — superseded flat-spelled scrape of the IEC 61360-4
+ *   reference dictionary. The canonical, richer `iec-61360-4`
+ *   (includes DET classification data) is served instead.
  */
-const NON_SERVED_KEYS = ["isoics"] as const;
+const NON_SERVED_KEYS = ["isoics", "iec61360"] as const;
 
 export function isPubliclyServed(dict: string): boolean {
   return !(NON_SERVED_KEYS as readonly string[]).includes(normalizeDict(dict));
