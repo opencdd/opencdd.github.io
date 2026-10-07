@@ -154,7 +154,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
       "ScenicSpots 旅遊景點 — demonstration dictionary (extended instances)",
     shortTitle: "ScenicSpots 旅遊景點 (demonstration)",
     abstract:
-      "Learning resource: an ontology of scenic spots across Taiwan, Japan, Korea, and Italy plus a registry of twelve real places. Demonstrates CDD power-type modelling that UML cannot express — three classification dimensions (spot type, religious tradition, official grade) whose members are extended instances owning class-level properties (Hot Spring ⇒ water temperature, flow rate, source depth), configured subclasses (Buddhist Temple, Taoist Temple, Folk Temple), a conditional property that fires only on temples, and registered individuals with native multilingual names in zh-Hant, ja, ko, and it. Individual facts are sourced from each spot's Wikipedia article.",
+      "Learning resource: an ontology of scenic spots across Taiwan, Japan, Korea, and Italy plus a registry of twelve real places. Demonstrates CDD power-type modelling that UML cannot express — three classification dimensions (spot type, religious tradition, official grade) whose members are extended instances owning class-level properties (Hot Spring ⇒ water temperature, flow rate, source depth), configured subclasses (Buddhist Temple, Taoist Temple, Folk Temple), a conditional property that fires only on temples, and registered individuals with native multilingual names region-coded per country (zh-TW, zh-HK, zh-CN, ja, ko, fr, it). Facts sourced from Wikipedia and DBpedia; the registry spans ten countries with per-country filtering on the browse page.",
     technicalCommittee: "n/a (demonstration)",
     webstoreUrl: "",
     demonstration: true,

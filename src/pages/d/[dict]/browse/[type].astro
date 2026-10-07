@@ -15,7 +15,7 @@ import type { EntityType } from "~/lib/types";
 
 export function getStaticPaths() {
   return listAvailableRegistryEntries().flatMap((entry) => {
-    return DETAILABLE_TYPES.filter((t) => t !== "class").map((type) => ({
+    return DETAILABLE_TYPES.map((type) => ({
       params: { dict: entry.slug, type: routeSegmentFor(type) },
       props: { entityType: type },
     }));
@@ -32,7 +32,12 @@ const segment = routeSegmentFor(entityType);
 
 // Build facet configs per type
 const facetConfigs: FacetConfig[] = [];
-if (entityType === "property") {
+if (entityType === "class") {
+  facetConfigs.push(
+    { key: "country", label: "Country" },
+    { key: "spotType", label: "Spot type" },
+  );
+} else if (entityType === "property") {
   facetConfigs.push(
     { key: "dataType", label: "Data type" },
     { key: "hasUnit", label: "Unit" },
@@ -47,7 +52,11 @@ const items: FacetItem[] = nodes.map((node: any) => {
   const code = node.code ?? codeFromIrdi(node.irdi);
   const facets: Record<string, string | null> = {};
 
-  if (entityType === "property") {
+  if (entityType === "class") {
+    const raw = node.raw_properties ?? {};
+    facets.country = raw.country ?? null;
+    facets.spotType = raw.spot_type ?? null;
+  } else if (entityType === "property") {
     const parsed = node.data_type ? parseDataType(node.data_type) : null;
     facets.dataType = parsed ? dataTypeLabel(parsed) : null;
     facets.hasUnit = node.unit ? "has unit" : "no unit";
