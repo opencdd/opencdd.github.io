@@ -36,6 +36,12 @@ export interface DictMetadata {
    * badge so users do not confuse it with real published data.
    */
   demonstration?: boolean;
+  /**
+   * What the dictionary is for, shown as a chip on the dictionaries
+   * index: learning resources teach the meta-model; IEC dictionaries
+   * are reference data served under the EULA.
+   */
+  profile?: string;
 }
 
 export const DICT_METADATA: Record<string, DictMetadata> = {
@@ -50,6 +56,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC TC 3",
     webstoreUrl: "https://webstore.iec.ch/en/publication/28560",
     publishedYear: 2017,
+    profile: "Reference data (IEC CDD)",
   },
   "iec-61360-7": {
     publicationId: "IEC 61360-7:2024",
@@ -62,6 +69,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC TC 3",
     webstoreUrl: "https://webstore.iec.ch/en/publication/72956",
     publishedYear: 2024,
+    profile: "Reference data (IEC CDD)",
   },
   "iec-61987": {
     publicationId: "IEC 61987 (series)",
@@ -73,6 +81,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
       'IEC 61987-1:2024 "defines a generic structure in which product features of industrial process measurement devices shall be arranged, in order to facilitate the categorization of those product features, their representation by defined properties, and their exchange by properties." The series includes generic structures (Part 1), Lists of Properties for operating and device parameters (OLOP/DLOP, Parts 13–15), and domain-specific type blocks for valves, positioners, actuators, and analysers (Parts 20+).',
     technicalCommittee: "IEC TC 65",
     webstoreUrl: "https://webstore.iec.ch/en/publication/62181",
+    profile: "Reference data (IEC CDD)",
   },
   "iec-62683": {
     publicationId: "IEC 62683-1:2026",
@@ -85,6 +94,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC SC 121A",
     webstoreUrl: "https://webstore.iec.ch/en/publication/80053",
     publishedYear: 2026,
+    profile: "Reference data (IEC CDD)",
   },
   "iec-63213": {
     publicationId: "IEC TR 63213:2019",
@@ -97,6 +107,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC TC 85",
     webstoreUrl: "https://webstore.iec.ch/en/publication/63704",
     publishedYear: 2019,
+    profile: "Reference data (IEC CDD)",
   },
   "iec-62720": {
     publicationId: "IEC 62720:2023",
@@ -109,6 +120,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC TC 1",
     webstoreUrl: "https://webstore.iec.ch/en/publication/60017",
     publishedYear: 2023,
+    profile: "Reference data (IEC CDD)",
   },
   "iec-63508": {
     publicationId: "IEC 63508:2026",
@@ -121,6 +133,7 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     technicalCommittee: "IEC SC 23E",
     webstoreUrl: "https://webstore.iec.ch/en/publication/82396",
     publishedYear: 2026,
+    profile: "Reference data (IEC CDD)",
   },
   oceanrunner: {
     publicationId: "Demonstration fixture",
@@ -128,9 +141,36 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     title: "OceanRunner — demonstration dictionary",
     shortTitle: "OceanRunner (demonstration)",
     abstract:
-      "A synthetic CDD dictionary used to exercise the browser end-to-end and to illustrate power-type modelling in the docs. Not a published IEC standard. Models a fictional 'OceanRunner' transmedium vehicle manufacturer (boat / car / submarine product lines) with categorical classes, conditional properties, CLASS_REFERENCE data types, and configured-product subclasses. All entities share the IRDI scheme 0112/2///OCEANRUNNER#.",
+      "Learning resource: a fictional 'OceanRunner' transmedium-vehicle manufacturer (boat / car / submarine product lines) modelled the way a product catalogue works — option powertypes (EngineType, InteriorPackage, HullFinish), configured-product subclasses, multi-domain inheritance via is_case_of, and conditional properties gated by operating mode. 38 properties across the hierarchy, with every measured property bound to the real IEC 62720 units dictionary and cross-linked to it. Not a published IEC standard; all entities share the IRDI scheme 0112/2///OCEANRUNNER#.",
     technicalCommittee: "n/a (demonstration)",
     webstoreUrl: "",
     demonstration: true,
+    profile: "Learning — configuration catalogue",
+  },
+  scenicspots: {
+    publicationId: "Demonstration dictionary",
+    edition: "n/a",
+    title:
+      "ScenicSpots 旅遊景點 — demonstration dictionary (extended instances)",
+    shortTitle: "ScenicSpots 旅遊景點 (demonstration)",
+    abstract:
+      "Learning resource: an ontology of scenic spots across Taiwan, Japan, Korea, and Italy plus a registry of twelve real places. Demonstrates CDD power-type modelling that UML cannot express — three classification dimensions (spot type, religious tradition, official grade) whose members are extended instances owning class-level properties (Hot Spring ⇒ water temperature, flow rate, source depth), configured subclasses (Buddhist Temple, Taoist Temple, Folk Temple), a conditional property that fires only on temples, and registered individuals with native multilingual names in zh-Hant, ja, ko, and it. Individual facts are sourced from each spot's Wikipedia article.",
+    technicalCommittee: "n/a (demonstration)",
+    webstoreUrl: "",
+    demonstration: true,
+    profile: "Learning — ontology + spot registry",
+  },
+  antiques: {
+    publicationId: "Demonstration dictionary",
+    edition: "n/a",
+    title:
+      "East Asian Antiques 東方古董 — demonstration dictionary (extended instances)",
+    shortTitle: "East Asian Antiques 東方古董 (demonstration)",
+    abstract:
+      "Learning resource: an auction-style cataloguing taxonomy for East Asian works of art — ceramics, bronzes, jade, painting and calligraphy, furniture, lacquer, cloisonné enamel, Buddhist sculpture, snuff bottles, and ukiyo-e prints — stacked over category × dynasty × culture powertypes, with a 'Mark and Period' conditional (reign marks apply only to ceramics), configured subclasses (Ming blue-and-white, Goryeo celadon), and twelve well-known museum objects registered as individuals with native names. Measurements cross-link to the IEC 62720 units dictionary.",
+    technicalCommittee: "n/a (demonstration)",
+    webstoreUrl: "",
+    demonstration: true,
+    profile: "Learning — taxonomy + collection",
   },
 };

@@ -4,7 +4,7 @@
  *
  * Background: the OceanRunner demonstration CDDAL
  * (data-private/reference-docs/examples/oceanrunner.cddal) uses bare codes
- * like "AAA001" and "UNIVERSE" everywhere, with no top-level
+ * like "ORA001" and "UNIVERSE" everywhere, with no top-level
  * dictionary / supplier declaration. The Ruby exporter faithfully
  * emits those bare codes into the JSON, so the browser ends up with
  * 40+ reference fields that are not valid IRDIs.

@@ -34,6 +34,13 @@ function normalizeDict(dict: string): string {
 }
 
 /**
+ * Dictionaries authored by OpenCDD itself (demonstration fixtures, not
+ * IEC content): OceanRunner and the power-type demonstration
+ * dictionaries. Serve in full.
+ */
+const OPENCDD_OWN_KEYS = ["oceanrunner", "scenicspots", "antiques"] as const;
+
+/**
  * Which license regime applies to a dictionary slug. Unknown
  * dictionaries default to the most restrictive regime — adding a new
  * IEC dictionary to the data pipeline cannot accidentally publish
@@ -41,7 +48,9 @@ function normalizeDict(dict: string): string {
  */
 export function dictLicenseRegime(dict: string): DictLicenseRegime {
   const key = normalizeDict(dict);
-  if (key === "oceanrunner") return "opencdd-own";
+  if ((OPENCDD_OWN_KEYS as readonly string[]).includes(key)) {
+    return "opencdd-own";
+  }
   if (key === "iec62720") return "eula-full";
   return "eula-free-attributes";
 }

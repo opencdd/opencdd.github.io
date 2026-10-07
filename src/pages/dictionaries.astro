@@ -36,12 +36,13 @@ const rows: DictRow[] = allDicts.map((d) => {
     totalVersions,
     multiVersionEntities: totalVersions,
     demonstration: d.demonstration === true,
+    profile: d.profile,
   };
 });
 
-// Categorised by license regime: our own demonstration data first,
-// then the fully-free units dictionary, then the IEC CDD dictionaries
-// served as §5 free attributes.
+// Categorised by role: our learning resources first, then the IEC
+// reference data — freely licensed in full for the units dictionary,
+// §5 free attributes for the rest.
 const categories: Array<{
   id: string;
   heading: string;
@@ -50,23 +51,23 @@ const categories: Array<{
 }> = [
   {
     id: "opencdd-own",
-    heading: "OpenCDD demonstration dictionaries",
+    heading: "OpenCDD learning resources — demonstration dictionaries",
     caption:
-      "Invented by OpenCDD — not IEC content. Full data, BSD-3-Clause, like the rest of our code.",
+      "Authored by OpenCDD to teach the CDD meta-model — not IEC content. OceanRunner demonstrates product-line configuration modelling (option powertypes, configured subclasses, conditional properties); ScenicSpots and Antiques demonstrate power-typed ontologies with registered real-world individuals and native multilingual names. Their measured properties reference the IEC 62720 units dictionary directly and cross-link to it. Full data, BSD-3-Clause, like the rest of our code.",
     rows: rows.filter((r) => dictLicenseRegime(r.slug) === "opencdd-own"),
   },
   {
     id: "eula-full",
-    heading: "Freely licensed — IEC 62720 units dictionary",
+    heading: "Reference data — IEC 62720 units dictionary (fully free)",
     caption:
-      "Free in its entirety under IEC CDD License Agreement § 6: every attribute, with IEC referenced as the source.",
+      "Reference data, free in its entirety under IEC CDD License Agreement § 6: every attribute of the quantities-and-units dictionary, with IEC referenced as the source. This is the dictionary our learning resources link their units to.",
     rows: rows.filter((r) => dictLicenseRegime(r.slug) === "eula-full"),
   },
   {
     id: "eula-free-attributes",
-    heading: "IEC CDD dictionaries — free attributes (§ 5)",
+    heading: "Reference data — IEC CDD dictionaries (§ 5 free attributes)",
     caption:
-      "Served strictly as the FREE ATTRIBUTES of the IEC CDD License Agreement § 5 — identities, names, value formats, structure. Definitions and other reserved attributes are not served; get them from cdd.iec.ch or run OpenCDD yourself.",
+      "Real IEC CDD data for reference only, served strictly as the FREE ATTRIBUTES of the IEC CDD License Agreement § 5 — identities, names, value formats, structure. Definitions and other reserved attributes are not served; get them from cdd.iec.ch or run OpenCDD yourself. To learn the meta-model, start with the demonstration dictionaries above.",
     rows: rows.filter((r) => dictLicenseRegime(r.slug) === "eula-free-attributes"),
   },
 ].filter((c) => c.rows.length > 0);

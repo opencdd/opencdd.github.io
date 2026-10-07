@@ -60,6 +60,8 @@ export interface Dictionary {
   publishedYear?: number;
   /** True for demonstration fixtures (e.g. OceanRunner). */
   demonstration: boolean;
+  /** What the dictionary is for, e.g. "Learning — configuration catalogue". */
+  profile: string;
 
   /** Source language code, e.g. "en". */
   sourceLanguage: string;
@@ -93,6 +95,7 @@ function metadataFor(slug: string, fallbackTitle: string): DictMetadata {
       abstract: "",
       technicalCommittee: "",
       webstoreUrl: "",
+      profile: "",
     }
   );
 }
@@ -113,6 +116,7 @@ function toDictionary(
     webstoreUrl: meta.webstoreUrl,
     publishedYear: meta.publishedYear,
     demonstration: meta.demonstration === true,
+    profile: meta.profile ?? "",
     sourceLanguage: entry.sourceLanguage,
     translationLanguages: entry.translationLanguages,
     counts: entry.counts,

@@ -18,6 +18,7 @@ export interface DictRow {
   totalVersions: number;
   multiVersionEntities: number;
   demonstration: boolean;
+  profile: string;
 }
 
 const props = defineProps<{
@@ -238,6 +239,12 @@ function fmt(n: number): string {
                     class="rounded-full bg-teal-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-teal-700"
                   >
                     Demo
+                  </span>
+                  <span
+                    v-if="row.profile"
+                    class="rounded-full bg-sand-100 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-ink-600"
+                  >
+                    {{ row.profile }}
                   </span>
                 </p>
               </td>

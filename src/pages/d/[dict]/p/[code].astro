@@ -10,13 +10,16 @@ import EntityLink from "~/components/ui/EntityLink.astro";
 import { entityStaticPaths, loadEntityForPage } from "~/lib/entityPage";
 import type { PropertyNode } from "~/lib/types";
 
+/** Fields shipped in newer @opencdd/opencdd wire releases. */
+type PropertyNodeWire = PropertyNode & { unit_text?: string };
+
 export function getStaticPaths() {
   return entityStaticPaths("property");
 }
 
 const { dict } = Astro.params;
 const { irdi } = Astro.props;
-const { node, bundle } = loadEntityForPage<PropertyNode>(dict!, irdi as string);
+const { node, bundle } = loadEntityForPage<PropertyNodeWire>(dict!, irdi as string);
 
 if (!node || node.type !== "property") {
   return Astro.redirect("/404/");
@@ -56,7 +59,12 @@ const stats = usedBy.length > 0
       </Field>
       {unit && (
         <Field label="Unit">
-          <EntityLink slug={dict!} irdi={unit} bundle={bundle} />
+          <EntityLink
+            slug={dict!}
+            irdi={unit}
+            bundle={bundle}
+            label={node.unit_text ?? undefined}
+          />
         </Field>
       )}
       {valueList && (
