@@ -147,7 +147,7 @@ export function acquireFromRelease(repo = "opencdd/cdd-data"): Stage {
 /**
  * Fix: upgrade OceanRunner bare-code references to synthetic IRDIs.
  *
- * The OceanRunner CDDAL fixture emits bare codes (e.g. "AAA001",
+ * The OceanRunner CDDAL fixture emits bare codes (e.g. "ORA001",
  * "UNIVERSE") because it has no top-level dictionary prefix. This
  * stage rewrites the JSON in place so every reference is a valid IRDI.
  * Idempotent — safe to run repeatedly. See

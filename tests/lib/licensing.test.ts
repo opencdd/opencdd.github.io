@@ -20,6 +20,11 @@ describe("dictLicenseRegime", () => {
     expect(dictLicenseRegime("oceanrunner")).toBe("opencdd-own");
   });
 
+  it("treats the demonstration dictionaries as OpenCDD's own data", () => {
+    expect(dictLicenseRegime("scenicspots")).toBe("opencdd-own");
+    expect(dictLicenseRegime("antiques")).toBe("opencdd-own");
+  });
+
   it("treats the IEC 62720 units dictionary as EULA-full", () => {
     expect(dictLicenseRegime("iec62720")).toBe("eula-full");
     expect(dictLicenseRegime("iec-62720")).toBe("eula-full");

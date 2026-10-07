@@ -12,6 +12,7 @@ import type { DictionaryBundle } from "./bundle";
 import type { EntityNode } from "./types";
 import { codeFromIrdi } from "./irdi";
 import { entityRoute, detailableTypeOf } from "./entityTypeMeta";
+import { isPubliclyServed } from "./licensing";
 
 export interface EntityRef {
   /** Short code, e.g. "AAA001". Falls back to codeFromIrdi. */
@@ -24,6 +25,34 @@ export interface EntityRef {
   resolved: boolean;
   /** First ~200 chars of the entity definition, for hover previews. */
   definition: string | null;
+  /** True when the link crosses into another dictionary (unit bindings). */
+  crossDictionary?: boolean;
+}
+
+/**
+ * Cross-dictionary schemes. References whose IRDI data-identifier names
+ * one of these dictionaries resolve into that dictionary's pages — our
+ * own dictionaries bind their unit references to the IEC 62720 units
+ * dictionary (free in its entirety under EULA §6) at build time.
+ */
+const CROSS_DICTIONARY_SCHEMES: Record<string, string> = {
+  "62720": "iec-62720",
+};
+
+function crossDictionaryRef(irdi: string): EntityRef | null {
+  const m = irdi.match(/\/\/\/([^/#]+)#([^#]+)/);
+  if (!m?.[1] || !m[2]) return null;
+  const slug = CROSS_DICTIONARY_SCHEMES[m[1]];
+  if (!slug || !isPubliclyServed(slug)) return null;
+  const code = m[2];
+  return {
+    code,
+    name: code,
+    href: entityRoute(slug, "unit", code),
+    resolved: false,
+    definition: null,
+    crossDictionary: true,
+  };
 }
 
 export function resolveEntityRef(
@@ -39,6 +68,10 @@ export function resolveEntityRef(
   const code = node?.code ?? codeFromIrdi(irdi);
   const name = node?.preferred_name ?? code;
   const href = detailable ? entityRoute(slug, detailable, code) : null;
+  if (href === null) {
+    const cross = crossDictionaryRef(irdi);
+    if (cross) return cross;
+  }
   const rawDef = node?.definition;
   const definition = rawDef
     ? rawDef.length > 200
