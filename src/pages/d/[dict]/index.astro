@@ -52,12 +52,19 @@ const tabs: EntityTab[] = TABBABLE_TYPES.map((type) => {
   };
 }).filter((t): t is EntityTab => t !== null);
 
-const totalEntities = tabs.reduce((s, t) => s + t.count, 0);
+const tabbedEntities = tabs.reduce((s, t) => s + t.count, 0);
+const totalEntities = Object.values(registry.counts).reduce((s, n) => s + n, 0);
 const multiVersionEntities = TABBABLE_TYPES.reduce((sum, type) => {
   return sum + bundle.entitiesOfType(type).filter(
     (e) => (e.version_history?.length ?? 0) > 1,
   ).length;
 }, 0);
+
+// Dictionaries whose spot individuals carry country metadata get a
+// direct entry into the country-filtered browse.
+const hasCountryFacet = bundle
+  .entitiesOfType("class")
+  .some((node: any) => node.raw_properties?.country);
 ---
 
 <DictionaryLayout
@@ -93,11 +100,19 @@ const multiVersionEntities = TABBABLE_TYPES.reduce((sum, type) => {
         >
           Recent version changes ({multiVersionEntities.toLocaleString()}) →
         </a>
+        {hasCountryFacet && (
+          <a
+            href={`/d/${dict}/browse/c/`}
+            class="text-teal-700 underline decoration-dotted underline-offset-2"
+          >
+            Filter spots by country, type, and listing →
+          </a>
+        )}
       </div>
     </header>
 
     <div>
-      <SectionTitle count={totalEntities}>
+      <SectionTitle count={tabbedEntities}>
         Browse entities
       </SectionTitle>
 

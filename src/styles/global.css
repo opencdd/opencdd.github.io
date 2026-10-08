@@ -867,6 +867,25 @@ body[data-lang="ja"] .ml { display: none; }
 body[data-lang="ja"] .ml-ja { display: inline; }
 body[data-lang="zh"] .ml { display: none; }
 body[data-lang="zh"] .ml-zh { display: inline; }
+/* Region-coded and remaining BCP-47 variants carried by the demo
+   dictionaries (zh-TW/zh-HK/zh-CN, ko, it, es, th, vi). Without these
+   rules, switching to such a language hid every localized span. */
+body[data-lang="zh-TW"] .ml { display: none; }
+body[data-lang="zh-TW"] .ml-zh-TW { display: inline; }
+body[data-lang="zh-HK"] .ml { display: none; }
+body[data-lang="zh-HK"] .ml-zh-HK { display: inline; }
+body[data-lang="zh-CN"] .ml { display: none; }
+body[data-lang="zh-CN"] .ml-zh-CN { display: inline; }
+body[data-lang="ko"] .ml { display: none; }
+body[data-lang="ko"] .ml-ko { display: inline; }
+body[data-lang="it"] .ml { display: none; }
+body[data-lang="it"] .ml-it { display: inline; }
+body[data-lang="es"] .ml { display: none; }
+body[data-lang="es"] .ml-es { display: inline; }
+body[data-lang="th"] .ml { display: none; }
+body[data-lang="th"] .ml-th { display: inline; }
+body[data-lang="vi"] .ml { display: none; }
+body[data-lang="vi"] .ml-vi { display: inline; }
 
 body:not([data-lang]) .ml { display: none; }
 body:not([data-lang]) .ml-en { display: inline; }
