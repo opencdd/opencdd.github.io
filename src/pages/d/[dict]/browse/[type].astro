@@ -36,6 +36,7 @@ if (entityType === "class") {
   facetConfigs.push(
     { key: "country", label: "Country" },
     { key: "spotType", label: "Spot type" },
+    { key: "grade", label: "Listing" },
   );
 } else if (entityType === "property") {
   facetConfigs.push(
@@ -56,6 +57,7 @@ const items: FacetItem[] = nodes.map((node: any) => {
     const raw = node.raw_properties ?? {};
     facets.country = raw.country ?? null;
     facets.spotType = raw.spot_type ?? null;
+    facets.grade = raw.official_grade ?? null;
   } else if (entityType === "property") {
     const parsed = node.data_type ? parseDataType(node.data_type) : null;
     facets.dataType = parsed ? dataTypeLabel(parsed) : null;
@@ -74,6 +76,37 @@ const items: FacetItem[] = nodes.map((node: any) => {
     facets,
   };
 });
+
+// Facet values that name class entities (country, spot type, listing
+// grade) resolve to localized labels and links to the entity page —
+// the ml spans participate in the site's CSS language switching.
+// Demo-dictionary JSON carries short-code IRDIs, not identifiers, so
+// the value (an identifier like "WorldHeritage") resolves through the
+// normalized English name of the class ("World Heritage").
+const facetValueMeta: Record<string, Record<string, { ml?: Record<string, string>; href?: string }>> = {};
+if (entityType === "class") {
+  const classByName = new Map(
+    bundle.entitiesOfType("class").map((node: any) => [
+      String(node.preferred_name ?? "").replace(/[^A-Za-z0-9]/g, ""),
+      node,
+    ]),
+  );
+  for (const key of ["country", "spotType", "grade"]) {
+    const meta: Record<string, { ml?: Record<string, string>; href?: string }> = {};
+    for (const item of items) {
+      const value = item.facets[key];
+      if (!value || meta[value]) continue;
+      const target = classByName.get(value) ?? bundle.findByCode(value);
+      if (!target?.code) continue;
+      const ml = target.preferred_name_ml as Record<string, string> | undefined;
+      meta[value] = {
+        ml: ml && Object.keys(ml).length > 0 ? ml : undefined,
+        href: `/d/${dict}/c/${target.code}/`,
+      };
+    }
+    if (Object.keys(meta).length > 0) facetValueMeta[key] = meta;
+  }
+}
 
 const pageTitle = entityPluralTitleFor(entityType);
 ---
@@ -102,6 +135,7 @@ const pageTitle = entityPluralTitleFor(entityType);
       items={items}
       facets={facetConfigs}
       title={pageTitle.toLowerCase()}
+      facetValueMeta={facetValueMeta}
     />
   </article>
 </DictionaryLayout>

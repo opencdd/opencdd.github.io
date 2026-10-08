@@ -16,10 +16,19 @@ export interface FacetConfig {
   label: string;
 }
 
+/** Per facet key → per raw value: localized labels (language → text,
+ * rendered as ml spans so the CSS language switch applies) and an
+ * optional link to the value's entity page. */
+export interface FacetValueMeta {
+  ml?: Record<string, string>;
+  href?: string;
+}
+
 const props = defineProps<{
   items: FacetItem[];
   facets: FacetConfig[];
   title: string;
+  facetValueMeta?: Record<string, Record<string, FacetValueMeta>>;
 }>();
 
 const { query, filtered: textFiltered } = useFilter(
@@ -30,15 +39,25 @@ const { query, filtered: textFiltered } = useFilter(
 const activeFacets = ref<Record<string, string>>({});
 
 const facetOptions = computed(() => {
-  const out: Record<string, Array<{ value: string; label: string; count: number }>> = {};
+  const out: Record<
+    string,
+    Array<{ value: string; label: string; count: number; ml?: Record<string, string>; href?: string }>
+  > = {};
   for (const fc of props.facets) {
     const counts = new Map<string, number>();
     for (const item of props.items) {
       const val = item.facets[fc.key];
       if (val) counts.set(val, (counts.get(val) ?? 0) + 1);
     }
+    const meta = props.facetValueMeta?.[fc.key];
     out[fc.key] = Array.from(counts.entries())
-      .map(([value, count]) => ({ value, label: value, count }))
+      .map(([value, count]) => ({
+        value,
+        label: value,
+        count,
+        ml: meta?.[value]?.ml,
+        href: meta?.[value]?.href,
+      }))
       .sort((a, b) => b.count - a.count)
       .slice(0, 12);
   }
@@ -79,20 +98,34 @@ function showMore() {
     <div v-if="facets.length > 0" class="mb-4 space-y-2">
       <div v-for="fc in facets" :key="fc.key" class="flex flex-wrap items-center gap-1.5">
         <span class="text-[10px] font-semibold uppercase tracking-wide text-ink-400">{{ fc.label }}:</span>
-        <button
+        <span
           v-for="opt in facetOptions[fc.key]"
           :key="opt.value"
-          @click="toggleFacet(fc.key, opt.value)"
-          :class="[
-            'rounded-full px-2.5 py-0.5 text-xs font-medium transition',
-            activeFacets[fc.key] === opt.value
-              ? 'bg-lapis-500 text-paper-50'
-              : 'bg-paper-100 text-ink-600 hover:bg-paper-200',
-          ]"
+          class="inline-flex items-center overflow-hidden rounded-full bg-paper-100"
         >
-          {{ opt.label }}
-          <span class="ml-1 font-mono text-[10px] opacity-60">{{ opt.count }}</span>
-        </button>
+          <button
+            @click="toggleFacet(fc.key, opt.value)"
+            :class="[
+              'px-2.5 py-0.5 text-xs font-medium transition',
+              activeFacets[fc.key] === opt.value
+                ? 'bg-lapis-500 text-paper-50'
+                : 'text-ink-600 hover:bg-paper-200',
+            ]"
+          >
+            <template v-if="opt.ml">
+              <span v-for="(txt, lang) in opt.ml" :key="lang" :class="`ml ml-${lang}`">{{ txt }}</span>
+            </template>
+            <template v-else>{{ opt.label }}</template>
+            <span class="ml-1 font-mono text-[10px] opacity-60">{{ opt.count }}</span>
+          </button>
+          <a
+            v-if="opt.href"
+            :href="opt.href"
+            class="px-1.5 py-0.5 text-[10px] text-ink-400 transition hover:text-lapis-700"
+            :title="`Open the ${fc.label.toLowerCase()} page`"
+            aria-label="Open the entity page for this facet value"
+          >↗</a>
+        </span>
       </div>
     </div>
 
