@@ -48,7 +48,6 @@ if (!info) {
         <p class="text-sm text-ink-500">
           {info.publicationId}
           {info.publishedYear && ` · ${info.publishedYear}`}
-          {info.technicalCommittee && ` · ${info.technicalCommittee}`}
         </p>
       )}
     </header>
@@ -105,11 +104,6 @@ if (!info) {
         {info.translationLanguages.length > 0 && (
           <Field label="Translation languages">
             {info.translationLanguages.join(", ")}
-          </Field>
-        )}
-        {info.technicalCommittee && (
-          <Field label="Technical committee">
-            <span class="text-sm text-ink-700">{info.technicalCommittee}</span>
           </Field>
         )}
         {info.metaClassIrdis.length > 0 && (

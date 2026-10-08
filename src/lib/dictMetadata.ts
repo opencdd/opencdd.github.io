@@ -4,7 +4,7 @@
  * The browser's `index.json` (built by `rake browser:build` in
  * cdd-data) carries only the slug, parcel ID, source language, and
  * entity counts. The human-readable bibliographic metadata — title,
- * IEC publication reference, edition, abstract, technical committee —
+ * IEC publication reference, edition, abstract —
  * lives here. This is the right place: the metadata is editorial,
  * changes rarely, and is easier to update than the data pipeline.
  *
@@ -24,8 +24,6 @@ export interface DictMetadata {
   shortTitle: string;
   /** Abstract / scope, quoted from the IEC webstore where possible. */
   abstract: string;
-  /** Responsible IEC technical committee, e.g. "IEC TC 3". */
-  technicalCommittee: string;
   /** Direct link to the IEC webstore publication page. */
   webstoreUrl: string;
   /** Optional: publication year. */
@@ -53,7 +51,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "IEC CDD reference dictionary",
     abstract:
       'IEC 61360-1:2017 "specifies principles for the definition of the properties and associated attributes and explains the methods for representing verbally defined concepts in a computer-sensible form that is independent of natural language." This is the IEC 61360-4 reference dictionary itself — the canonical catalogue of classes, properties, value lists, units, and relations for electrotechnical components — together with content drawn from across the IEC 61360 series.',
-    technicalCommittee: "IEC TC 3",
     webstoreUrl: "https://webstore.iec.ch/en/publication/28560",
     publishedYear: 2017,
     profile: "Reference data (IEC CDD)",
@@ -66,7 +63,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "Cross-domain general items",
     abstract:
       'IEC 61360-7:2024 "specifies the IEC CDD \'General items\' data dictionary of cross-domain concepts, classes, properties and qualifiers for use in electrotechnology and related areas." The data dictionary provides concepts (dictionary elements such as classes and properties) intended for cross-domain use across all dictionaries in the IEC 61360 framework, rather than within a single product domain.',
-    technicalCommittee: "IEC TC 3",
     webstoreUrl: "https://webstore.iec.ch/en/publication/72956",
     publishedYear: 2024,
     profile: "Reference data (IEC CDD)",
@@ -79,7 +75,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "Industrial measurement and control",
     abstract:
       'IEC 61987-1:2024 "defines a generic structure in which product features of industrial process measurement devices shall be arranged, in order to facilitate the categorization of those product features, their representation by defined properties, and their exchange by properties." The series includes generic structures (Part 1), Lists of Properties for operating and device parameters (OLOP/DLOP, Parts 13–15), and domain-specific type blocks for valves, positioners, actuators, and analysers (Parts 20+).',
-    technicalCommittee: "IEC TC 65",
     webstoreUrl: "https://webstore.iec.ch/en/publication/62181",
     profile: "Reference data (IEC CDD)",
   },
@@ -91,7 +86,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "Low-voltage switchgear",
     abstract:
       'IEC 62683-1:2026 "establishes the reference dictionary of the general description of classes of low-voltage switchgear and controlgear and their assemblies based on defined properties." It provides standardised data structures for catalogue data, enabling consistent information exchange across engineering tools, e-commerce platforms, and asset-management systems.',
-    technicalCommittee: "IEC SC 121A",
     webstoreUrl: "https://webstore.iec.ch/en/publication/80053",
     publishedYear: 2026,
     profile: "Reference data (IEC CDD)",
@@ -104,7 +98,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "Power measurement applications",
     abstract:
       'IEC TR 63213:2019 "intends to provide state-of-the-art information on the various electricity measurement applications made in the grid (supply side) or in electrical installations (demand side)." The Technical Report surveys the relevant international standards associated with each application and the contractual mechanisms for verifying the quality of delivered energy.',
-    technicalCommittee: "IEC TC 85",
     webstoreUrl: "https://webstore.iec.ch/en/publication/63704",
     publishedYear: 2019,
     profile: "Reference data (IEC CDD)",
@@ -117,7 +110,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "Quantities & Units (IEC 62720)",
     abstract:
       "IEC 62720 provides an unambiguous set of identifiers for quantities and units used in electrotechnology. Each quantity and unit receives a globally unique code within the IEC CDD framework, ensuring consistent terminology across all IEC product standards.",
-    technicalCommittee: "IEC TC 1",
     webstoreUrl: "https://webstore.iec.ch/en/publication/60017",
     publishedYear: 2023,
     profile: "Reference data (IEC CDD)",
@@ -130,7 +122,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "Miniature circuit-breakers (MCBs)",
     abstract:
       'IEC 63508:2026 "describes product classes and properties, representing the miniature circuit-breaker (MCB), to become a part of the IEC 61360-4: IEC CDD." It covers the data required for product selection as well as the data required for engineering, streamlining selection, engineering, and database integration.',
-    technicalCommittee: "IEC SC 23E",
     webstoreUrl: "https://webstore.iec.ch/en/publication/82396",
     publishedYear: 2026,
     profile: "Reference data (IEC CDD)",
@@ -142,7 +133,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "OceanRunner (demonstration)",
     abstract:
       "Learning resource: a fictional 'OceanRunner' transmedium-vehicle manufacturer (boat / car / submarine product lines) modelled the way a product catalogue works — option powertypes (EngineType, InteriorPackage, HullFinish), configured-product subclasses, multi-domain inheritance via is_case_of, and conditional properties gated by operating mode. 38 properties across the hierarchy, with every measured property bound to the real IEC 62720 units dictionary and cross-linked to it. Not a published IEC standard; all entities share the IRDI scheme 0112/2///OCEANRUNNER#.",
-    technicalCommittee: "n/a (demonstration)",
     webstoreUrl: "",
     demonstration: true,
     profile: "Learning — configuration catalogue",
@@ -155,7 +145,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "ScenicSpots 旅遊景點 (demonstration)",
     abstract:
       "Learning resource: an ontology of scenic spots across Taiwan, Japan, Korea, and Italy plus a registry of twelve real places. Demonstrates CDD power-type modelling that UML cannot express — three classification dimensions (spot type, religious tradition, official grade) whose members are extended instances owning class-level properties (Hot Spring ⇒ water temperature, flow rate, source depth), configured subclasses (Buddhist Temple, Taoist Temple, Folk Temple), a conditional property that fires only on temples, and registered individuals with native multilingual names region-coded per country (zh-TW, zh-HK, zh-CN, ja, ko, fr, it). Facts sourced from Wikipedia and DBpedia; the registry spans ten countries with per-country filtering on the browse page.",
-    technicalCommittee: "n/a (demonstration)",
     webstoreUrl: "",
     demonstration: true,
     profile: "Learning — ontology + spot registry",
@@ -168,7 +157,6 @@ export const DICT_METADATA: Record<string, DictMetadata> = {
     shortTitle: "East Asian Antiques 東方古董 (demonstration)",
     abstract:
       "Learning resource: an auction-style cataloguing taxonomy for East Asian works of art — ceramics, bronzes, jade, painting and calligraphy, furniture, lacquer, cloisonné enamel, Buddhist sculpture, snuff bottles, and ukiyo-e prints — stacked over category × dynasty × culture powertypes, with a 'Mark and Period' conditional (reign marks apply only to ceramics), configured subclasses (Ming blue-and-white, Goryeo celadon), and twelve well-known museum objects registered as individuals with native names. Measurements cross-link to the IEC 62720 units dictionary.",
-    technicalCommittee: "n/a (demonstration)",
     webstoreUrl: "",
     demonstration: true,
     profile: "Learning — taxonomy + collection",
