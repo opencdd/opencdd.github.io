@@ -71,9 +71,6 @@ data-private → rake browser:build → JSON → this repo's src/content/data/
                                      GitHub Pages (org root)
 ```
 
-See [`TODO.astro/00-architecture-and-decisions.md`](TODO.astro/00-architecture-and-decisions.md)
-for the full architecture and the eight decisions that shape it.
-
 ## Routes
 
 | Path | Page |
@@ -128,8 +125,7 @@ The `.github/workflows/deploy.yml` workflow builds on push to `main`
 and deploys via GitHub Actions to Pages. To enable:
 
 1. Set **Settings → Pages → Source → GitHub Actions**.
-2. Set the `CDD_DATA_RELEASE` repo variable to `latest` (once
-   TODO.astro/04 ships the release-artifact flow in data-private).
+2. Set the `CDD_DATA_RELEASE` repo variable to `latest`.
 3. Push to `main`.
 
 ## Status
@@ -141,7 +137,7 @@ First cut shipped (2026-07-08):
 - 32 Vitest tests passing.
 - Full design-system port from the React browser.
 
-Pending (see [`TODO.astro/`](TODO.astro/)):
+Pending:
 
 - Phase A (foundation): extract `@opencdd/models`, set up data-private
   submodule + codegen, data-private cleanup, data release pipeline.
