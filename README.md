@@ -122,8 +122,6 @@ Multi-version entities (8,868 across the dataset) get:
   `src/components/islands/`.
 - No `double()` in tests — real model instances + builder factories.
 
-See [`CLAUDE.md`](CLAUDE.md) for the full guide.
-
 ## Deploy
 
 The `.github/workflows/deploy.yml` workflow builds on push to `main`
