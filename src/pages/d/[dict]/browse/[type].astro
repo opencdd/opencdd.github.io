@@ -37,6 +37,7 @@ if (entityType === "class") {
     { key: "country", label: "Country" },
     { key: "spotType", label: "Spot type" },
     { key: "grade", label: "Listing" },
+    { key: "city", label: "City" },
   );
 } else if (entityType === "property") {
   facetConfigs.push(
@@ -58,6 +59,7 @@ const items: FacetItem[] = nodes.map((node: any) => {
     facets.country = raw.country ?? null;
     facets.spotType = raw.spot_type ?? null;
     facets.grade = raw.official_grade ?? null;
+    facets.city = raw.city ?? null;
   } else if (entityType === "property") {
     const parsed = node.data_type ? parseDataType(node.data_type) : null;
     facets.dataType = parsed ? dataTypeLabel(parsed) : null;
@@ -91,7 +93,7 @@ if (entityType === "class") {
       node,
     ]),
   );
-  for (const key of ["country", "spotType", "grade"]) {
+  for (const key of ["country", "spotType", "grade", "city"]) {
     const meta: Record<string, { ml?: Record<string, string>; href?: string }> = {};
     for (const item of items) {
       const value = item.facets[key];
