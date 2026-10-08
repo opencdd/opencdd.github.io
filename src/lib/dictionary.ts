@@ -52,8 +52,6 @@ export interface Dictionary {
   publicationId: string;
   /** Edition, e.g. "Ed 4.0". */
   edition: string;
-  /** Responsible IEC technical committee, e.g. "IEC TC 3". */
-  technicalCommittee: string;
   /** Direct link to the IEC webstore publication page. */
   webstoreUrl: string;
   /** Publication year, if known. */
@@ -93,7 +91,6 @@ function metadataFor(slug: string, fallbackTitle: string): DictMetadata {
       title: fallbackTitle,
       shortTitle: fallbackTitle,
       abstract: "",
-      technicalCommittee: "",
       webstoreUrl: "",
       profile: "",
     }
@@ -112,7 +109,6 @@ function toDictionary(
     abstract: meta.abstract,
     publicationId: meta.publicationId,
     edition: meta.edition,
-    technicalCommittee: meta.technicalCommittee,
     webstoreUrl: meta.webstoreUrl,
     publishedYear: meta.publishedYear,
     demonstration: meta.demonstration === true,

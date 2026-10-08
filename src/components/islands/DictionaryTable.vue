@@ -9,7 +9,6 @@ export interface DictRow {
   parcelId: string;
   publicationId: string;
   edition: string;
-  technicalCommittee: string;
   publishedYear: string;
   webstoreUrl: string;
   abstract: string;
@@ -97,8 +96,7 @@ const filtered = computed(() => {
     (r) =>
       r.title.toLowerCase().includes(q) ||
       r.slug.toLowerCase().includes(q) ||
-      r.parcelId.toLowerCase().includes(q) ||
-      r.technicalCommittee.toLowerCase().includes(q),
+      r.parcelId.toLowerCase().includes(q),
   );
 });
 
@@ -250,7 +248,6 @@ function fmt(n: number): string {
               </td>
               <td class="px-3 py-3 text-xs text-ink-500">
                 <div>{{ row.publicationId }}</div>
-                <div class="text-ink-400">{{ row.technicalCommittee }}</div>
               </td>
               <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.class ?? 0) }}</td>
               <td class="px-3 py-3 text-right font-mono text-xs text-ink-600">{{ fmt(row.byType.property ?? 0) }}</td>
