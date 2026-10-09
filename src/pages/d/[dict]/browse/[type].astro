@@ -34,10 +34,10 @@ const segment = routeSegmentFor(entityType);
 const facetConfigs: FacetConfig[] = [];
 if (entityType === "class") {
   facetConfigs.push(
-    { key: "country", label: "Country" },
+    { key: "country", label: "Country", max: 40 },
     { key: "spotType", label: "Spot type" },
     { key: "grade", label: "Listing" },
-    { key: "city", label: "City" },
+    { key: "city", label: "City", max: 20 },
   );
 } else if (entityType === "property") {
   facetConfigs.push(

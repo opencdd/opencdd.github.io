@@ -886,6 +886,22 @@ body[data-lang="th"] .ml { display: none; }
 body[data-lang="th"] .ml-th { display: inline; }
 body[data-lang="vi"] .ml { display: none; }
 body[data-lang="vi"] .ml-vi { display: inline; }
+body[data-lang="pt"] .ml { display: none; }
+body[data-lang="pt"] .ml-pt { display: inline; }
+body[data-lang="ar"] .ml { display: none; }
+body[data-lang="ar"] .ml-ar { display: inline; }
+body[data-lang="tr"] .ml { display: none; }
+body[data-lang="tr"] .ml-tr { display: inline; }
+body[data-lang="el"] .ml { display: none; }
+body[data-lang="el"] .ml-el { display: inline; }
+body[data-lang="nl"] .ml { display: none; }
+body[data-lang="nl"] .ml-nl { display: inline; }
+body[data-lang="pl"] .ml { display: none; }
+body[data-lang="pl"] .ml-pl { display: inline; }
+body[data-lang="cs"] .ml { display: none; }
+body[data-lang="cs"] .ml-cs { display: inline; }
+body[data-lang="hu"] .ml { display: none; }
+body[data-lang="hu"] .ml-hu { display: inline; }
 
 body:not([data-lang]) .ml { display: none; }
 body:not([data-lang]) .ml-en { display: inline; }
