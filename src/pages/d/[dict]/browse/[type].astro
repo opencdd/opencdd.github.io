@@ -54,12 +54,26 @@ const items: FacetItem[] = nodes.map((node: any) => {
   const code = node.code ?? codeFromIrdi(node.irdi);
   const facets: Record<string, string | null> = {};
 
+  const item: FacetItem = {
+    code,
+    name: node.preferred_name ?? code,
+    href: `/d/${dict}/${segment}/${code}/`,
+    definition: node.definition ?? null,
+    facets,
+  };
+
   if (entityType === "class") {
     const raw = node.raw_properties ?? {};
     facets.country = raw.country ?? null;
     facets.spotType = raw.spot_type ?? null;
     facets.grade = raw.official_grade ?? null;
     facets.city = raw.city ?? null;
+    const lat = Number.parseFloat(raw.latitude);
+    const lon = Number.parseFloat(raw.longitude);
+    if (Number.isFinite(lat) && Number.isFinite(lon)) {
+      item.lat = lat;
+      item.lon = lon;
+    }
   } else if (entityType === "property") {
     const parsed = node.data_type ? parseDataType(node.data_type) : null;
     facets.dataType = parsed ? dataTypeLabel(parsed) : null;
@@ -70,13 +84,7 @@ const items: FacetItem[] = nodes.map((node: any) => {
     facets.termCount = node.term_irdis ? `${node.term_irdis.length} terms` : "0 terms";
   }
 
-  return {
-    code,
-    name: node.preferred_name ?? code,
-    href: `/d/${dict}/${segment}/${code}/`,
-    definition: node.definition ?? null,
-    facets,
-  };
+  return item;
 });
 
 // Facet values that name class entities (country, spot type, listing
