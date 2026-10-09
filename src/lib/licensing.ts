@@ -38,7 +38,7 @@ function normalizeDict(dict: string): string {
  * IEC content): OceanRunner and the power-type demonstration
  * dictionaries. Serve in full.
  */
-const OPENCDD_OWN_KEYS = ["oceanrunner", "scenicspots", "poi", "antiques"] as const;
+const OPENCDD_OWN_KEYS = ["oceanrunner", "scenicspots", "antiques"] as const;
 
 /**
  * Which license regime applies to a dictionary slug. Unknown
