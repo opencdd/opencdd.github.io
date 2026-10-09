@@ -53,10 +53,6 @@ jobs:
           path: data-scenicspots-src
       - uses: actions/checkout@v7
         with:
-          repository: opencdd/data-poi
-          path: data-poi-src
-      - uses: actions/checkout@v7
-        with:
           repository: opencdd/data-antiques
           path: data-antiques-src
 
@@ -71,7 +67,7 @@ jobs:
           cp -r data-private-src/data/* src/content/data/ || true
           rm -rf data-private-src
           rm -f /tmp/*.index.json
-          for repo in data-oceanrunner data-scenicspots data-poi data-antiques; do
+          for repo in data-oceanrunner data-scenicspots data-antiques; do
             if [ -f "$repo-src/data/index.json" ]; then
               cp "$repo-src/data/index.json" "/tmp/$repo.index.json"
               slug="${repo#data-}"
