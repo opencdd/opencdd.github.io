@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
+import MapBrowser from "./MapBrowser.vue";
 import { useFilter } from "~/composables/useFilter";
 import FilterBar from "./FilterBar.vue";
 
@@ -9,6 +10,8 @@ export interface FacetItem {
   href: string;
   definition: string | null;
   facets: Record<string, string | null>;
+  lat?: number;
+  lon?: number;
 }
 
 export interface FacetConfig {
@@ -75,6 +78,13 @@ const filtered = computed(() => {
   );
 });
 
+const mappedItems = computed(() =>
+  textFiltered.value
+    .filter((item) => typeof item.lat === "number" && typeof item.lon === "number")
+    .slice(0, 1200)
+    .map((item) => ({ ...item, lat: item.lat!, lon: item.lon! })),
+);
+
 const PAGE_SIZE = 50;
 const visibleCount = ref(PAGE_SIZE);
 const visibleItems = computed(() => filtered.value.slice(0, visibleCount.value));
@@ -139,6 +149,8 @@ function showMore() {
       :total="items.length"
       :placeholder="`Filter ${title}…`"
     />
+
+    <MapBrowser :items="mappedItems" />
 
     <!-- Results -->
     <p v-if="filtered.length === 0" class="py-8 text-center text-sm text-ink-500">
