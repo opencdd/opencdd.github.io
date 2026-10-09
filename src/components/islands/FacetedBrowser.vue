@@ -14,6 +14,9 @@ export interface FacetItem {
 export interface FacetConfig {
   key: string;
   label: string;
+  /** Options shown at once (default 12). Country needs room for the
+   * full registry breadth. */
+  max?: number;
 }
 
 /** Per facet key → per raw value: localized labels (language → text,
@@ -59,7 +62,7 @@ const facetOptions = computed(() => {
         href: meta?.[value]?.href,
       }))
       .sort((a, b) => b.count - a.count)
-      .slice(0, 12);
+      .slice(0, fc.max ?? 12);
   }
   return out;
 });
