@@ -31,8 +31,8 @@ jobs:
 
       - run: npm ci
 
-      # Clone the private data-private repo to get the latest data snapshot.
-      # Uses OPENCDD_CI_PAT_TOKEN for cross-repo access.
+      # Clone the private data-private repo to get the latest IEC data
+      # snapshot. Uses OPENCDD_CI_PAT_TOKEN for cross-repo access.
       - name: Fetch latest data from data-private
         uses: actions/checkout@v7
         with:
@@ -40,15 +40,49 @@ jobs:
           path: data-private-src
           token: ${{ secrets.OPENCDD_CI_PAT_TOKEN }}
 
+      # Clone the per-dictionary data repositories (public — OpenCDD's
+      # own demonstration dictionaries live there now).
+      - name: Fetch demonstration dictionary data
+        uses: actions/checkout@v7
+        with:
+          repository: opencdd/data-oceanrunner
+          path: data-oceanrunner-src
+      - uses: actions/checkout@v7
+        with:
+          repository: opencdd/data-scenicspots
+          path: data-scenicspots-src
+      - uses: actions/checkout@v7
+        with:
+          repository: opencdd/data-poi
+          path: data-poi-src
+      - uses: actions/checkout@v7
+        with:
+          repository: opencdd/data-antiques
+          path: data-antiques-src
+
       # Copy the data, then run the fetch-data pipeline — its filter and
       # verify stages enforce the IEC CDD EULA free-attributes whitelist
       # and bulk-artifact removal. The build MUST NOT ship unfiltered
-      # data-private content.
+      # data-private content. Per-dictionary index.json files are merged
+      # into one registry.
       - name: Copy and filter data (EULA free attributes only)
         run: |
           mkdir -p src/content/data
-          cp -r data-private-src/data/* src/content/data/
+          cp -r data-private-src/data/* src/content/data/ || true
           rm -rf data-private-src
+          rm -f /tmp/*.index.json
+          for repo in data-oceanrunner data-scenicspots data-poi data-antiques; do
+            if [ -f "$repo-src/data/index.json" ]; then
+              cp "$repo-src/data/index.json" "/tmp/$repo.index.json"
+              slug="${repo#data-}"
+              cp -r "$repo-src"/data/"$slug"/ src/content/data/"$slug"/ 2>/dev/null || true
+            fi
+            rm -rf "$repo-src"
+          done
+          # merge the per-repo registries into one index.json
+          jq -s '{dictionaries: ([.[].dictionaries[]?] | unique_by(.slug))}' \
+            src/content/data/index.json /tmp/*.index.json > /tmp/index.json
+          mv /tmp/index.json src/content/data/index.json
           npm run fetch-data
 
       - name: Generate per-dictionary tree JSON
